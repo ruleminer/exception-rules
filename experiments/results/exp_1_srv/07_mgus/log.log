@@ -1,0 +1,681 @@
+2025-03-05 11:14:30,891 - INFO - **********Starting experiment for 07_mgus.arff with algorithm3**********
+2025-03-05 11:14:30,897 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:14:32,159 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:14:32,164 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:14:32,164 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:14:35,238 - INFO - Iteracja 0: condition_best: hgb <= 12.85, quality_best: 1.0, coverage_best: (p=100, n=0, P=241, N=0), p_value: 0.236
+2025-03-05 11:14:35,243 - INFO - Regula po iteracji 0: IF hgb <= 12.85 THEN survival_status = {nan}, (p=100, n=0, P=241, N=0)
+2025-03-05 11:14:37,146 - INFO - Iteracja 1: condition_best: mspike <= 1.75, quality_best: 1.0, coverage_best: (p=50, n=0, P=241, N=0), p_value: 0.985
+2025-03-05 11:14:37,151 - INFO - Regula po iteracji 1: IF hgb <= 12.85 AND mspike <= 1.75 THEN survival_status = {4066.0}, (p=50, n=0, P=241, N=0)
+2025-03-05 11:14:38,395 - INFO - Iteracja 2: condition_best: alb <= 3.55, quality_best: 0.999, coverage_best: (p=44, n=0, P=241, N=0), p_value: 0.998
+2025-03-05 11:14:38,400 - INFO - Regula po iteracji 2: IF hgb <= 12.85 AND mspike <= 1.75 AND alb <= 3.55 THEN survival_status = {3012.0}, (p=44, n=0, P=241, N=0)
+2025-03-05 11:14:39,556 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.998
+2025-03-05 11:14:39,560 - INFO - Regula po iteracji 3: IF hgb <= 12.85 AND mspike <= 1.75 AND alb <= 3.55 THEN survival_status = {3027.0}, (p=44, n=0, P=241, N=0)
+2025-03-05 11:14:39,560 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:14:39,561 - INFO - ***RR FOUND***
+2025-03-05 11:14:39,561 - INFO - Reference rule: IF hgb <= 12.85 THEN survival_status = {3027.0}
+2025-03-05 11:14:39,561 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 11:14:39,563 - INFO - ER vs CR p_value: 0.04112283622888302
+2025-03-05 11:14:39,563 - INFO - ER vs RR p_value: 0.005287708566592886
+2025-03-05 11:14:39,579 - INFO - ***ER FOUND***
+2025-03-05 11:14:39,579 - INFO - Exception rule: IF age >= 62.50 AND hgb <= 12.85 THEN survival_status = {2587.0} (p=57, n=0, P=241, N=0)
+2025-03-05 11:14:39,580 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:14:39,585 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:14:40,610 - INFO - Iteracja 0: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=241, N=0)
+2025-03-05 11:14:40,615 - INFO - Regula po iteracji 0: IF age <= 62.50 THEN survival_status = {nan}, (p=114, n=0, P=241, N=0)
+2025-03-05 11:14:40,615 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:14:43,644 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:14:43,648 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:14:43,648 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:14:43,648 - INFO - ***RR NOT FOUND***
+2025-03-05 11:14:44,419 - INFO - Iteracja 1: condition_best: hgb >= 11.35, quality_best: 1.0, coverage_best: (p=99, n=0, P=241, N=0)
+2025-03-05 11:14:44,424 - INFO - Regula po iteracji 1: IF age <= 62.50 AND hgb >= 11.35 THEN survival_status = {7085.0}, (p=99, n=0, P=241, N=0)
+2025-03-05 11:14:44,424 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:14:47,359 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:14:47,364 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:14:47,364 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:14:47,364 - INFO - ***RR NOT FOUND***
+2025-03-05 11:14:48,065 - INFO - Iteracja 2: condition_best: dxyr <= 70.50, quality_best: 1.0, coverage_best: (p=97, n=0, P=241, N=0)
+2025-03-05 11:14:48,070 - INFO - Regula po iteracji 2: IF age <= 62.50 AND hgb >= 11.35 AND dxyr <= 70.50 THEN survival_status = {7921.0}, (p=97, n=0, P=241, N=0)
+2025-03-05 11:14:48,070 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:14:50,991 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:14:50,994 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:14:50,995 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:14:50,995 - INFO - ***RR NOT FOUND***
+2025-03-05 11:14:51,708 - INFO - Iteracja 3: condition_best: mspike >= 0.70, quality_best: 1.0, coverage_best: (p=96, n=0, P=241, N=0)
+2025-03-05 11:14:51,712 - INFO - Regula po iteracji 3: IF age <= 62.50 AND hgb >= 11.35 AND dxyr <= 70.50 AND mspike >= 0.70 THEN survival_status = {8052.0}, (p=96, n=0, P=241, N=0)
+2025-03-05 11:14:51,713 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:14:54,618 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:14:54,621 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:14:54,622 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:14:54,622 - INFO - ***RR NOT FOUND***
+2025-03-05 11:14:55,366 - INFO - Iteracja 4: condition_best: age >= 34.50, quality_best: 1.0, coverage_best: (p=94, n=0, P=241, N=0)
+2025-03-05 11:14:55,371 - INFO - Regula po iteracji 4: IF age <= 62.50 AND hgb >= 11.35 AND dxyr <= 70.50 AND mspike >= 0.70 AND age >= 34.50 THEN survival_status = {8052.0}, (p=94, n=0, P=241, N=0)
+2025-03-05 11:14:55,372 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:14:58,268 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:14:58,272 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:14:58,272 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:14:58,272 - INFO - ***RR NOT FOUND***
+2025-03-05 11:14:58,272 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:14:58,287 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:14:59,137 - INFO - Iteracja 0: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=241, N=0)
+2025-03-05 11:14:59,142 - INFO - Regula po iteracji 0: IF age <= 62.50 THEN survival_status = {nan}, (p=114, n=0, P=241, N=0)
+2025-03-05 11:14:59,142 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:02,158 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:02,163 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:02,163 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:02,163 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:02,814 - INFO - Iteracja 1: condition_best: hgb >= 11.25, quality_best: 1.0, coverage_best: (p=101, n=0, P=241, N=0)
+2025-03-05 11:15:02,818 - INFO - Regula po iteracji 1: IF age <= 62.50 AND hgb >= 11.25 THEN survival_status = {7085.0}, (p=101, n=0, P=241, N=0)
+2025-03-05 11:15:02,818 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:05,736 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:05,739 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:05,739 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:05,739 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:06,341 - INFO - Iteracja 2: condition_best: age >= 34.50, quality_best: 1.0, coverage_best: (p=99, n=0, P=241, N=0)
+2025-03-05 11:15:06,345 - INFO - Regula po iteracji 2: IF age <= 62.50 AND hgb >= 11.25 AND age >= 34.50 THEN survival_status = {7921.0}, (p=99, n=0, P=241, N=0)
+2025-03-05 11:15:06,346 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:09,254 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:09,257 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:09,257 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:09,257 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:09,869 - INFO - Iteracja 3: condition_best: hgb <= 16.55, quality_best: 1.0, coverage_best: (p=98, n=0, P=241, N=0)
+2025-03-05 11:15:09,874 - INFO - Regula po iteracji 3: IF age <= 62.50 AND hgb >= 11.25 AND age >= 34.50 AND hgb <= 16.55 THEN survival_status = {7921.0}, (p=98, n=0, P=241, N=0)
+2025-03-05 11:15:09,874 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:12,774 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:12,778 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:12,778 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:12,778 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:13,406 - INFO - Iteracja 4: condition_best: hgb <= 16.35, quality_best: 1.0, coverage_best: (p=97, n=0, P=241, N=0)
+2025-03-05 11:15:13,411 - INFO - Regula po iteracji 4: IF age <= 62.50 AND hgb >= 11.25 AND age >= 34.50 AND hgb <= 16.55 AND hgb <= 16.35 THEN survival_status = {7899.0}, (p=97, n=0, P=241, N=0)
+2025-03-05 11:15:13,411 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:16,305 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:16,308 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:16,308 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:16,308 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:16,308 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:15:16,319 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:15:17,155 - INFO - Iteracja 0: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=241, N=0)
+2025-03-05 11:15:17,159 - INFO - Regula po iteracji 0: IF age <= 62.50 THEN survival_status = {nan}, (p=114, n=0, P=241, N=0)
+2025-03-05 11:15:17,159 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:20,156 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:20,159 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:20,159 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:20,159 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:20,806 - INFO - Iteracja 1: condition_best: hgb >= 9.95, quality_best: 1.0, coverage_best: (p=108, n=0, P=241, N=0)
+2025-03-05 11:15:20,811 - INFO - Regula po iteracji 1: IF age <= 62.50 AND hgb >= 9.95 THEN survival_status = {7085.0}, (p=108, n=0, P=241, N=0)
+2025-03-05 11:15:20,812 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:23,799 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:23,803 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:23,803 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:23,803 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:24,444 - INFO - Iteracja 2: condition_best: dxyr <= 70.50, quality_best: 1.0, coverage_best: (p=106, n=0, P=241, N=0)
+2025-03-05 11:15:24,449 - INFO - Regula po iteracji 2: IF age <= 62.50 AND hgb >= 9.95 AND dxyr <= 70.50 THEN survival_status = {7428.0}, (p=106, n=0, P=241, N=0)
+2025-03-05 11:15:24,449 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:27,422 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:27,426 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:27,426 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:27,426 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:28,093 - INFO - Iteracja 3: condition_best: mspike >= 0.70, quality_best: 1.0, coverage_best: (p=105, n=0, P=241, N=0)
+2025-03-05 11:15:28,098 - INFO - Regula po iteracji 3: IF age <= 62.50 AND hgb >= 9.95 AND dxyr <= 70.50 AND mspike >= 0.70 THEN survival_status = {7899.0}, (p=105, n=0, P=241, N=0)
+2025-03-05 11:15:28,099 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:31,053 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:31,056 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:31,056 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:31,056 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:31,737 - INFO - Iteracja 4: condition_best: mspike <= 2.65, quality_best: 1.0, coverage_best: (p=104, n=0, P=241, N=0)
+2025-03-05 11:15:31,741 - INFO - Regula po iteracji 4: IF age <= 62.50 AND hgb >= 9.95 AND dxyr <= 70.50 AND mspike >= 0.70 AND mspike <= 2.65 THEN survival_status = {7899.0}, (p=104, n=0, P=241, N=0)
+2025-03-05 11:15:31,742 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:34,685 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:34,689 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:34,689 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:34,689 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:34,689 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:15:34,704 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:15:35,530 - INFO - Iteracja 0: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=241, N=0)
+2025-03-05 11:15:35,535 - INFO - Regula po iteracji 0: IF age <= 62.50 THEN survival_status = {nan}, (p=114, n=0, P=241, N=0)
+2025-03-05 11:15:35,535 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:38,542 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:38,545 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:38,545 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:38,545 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:39,183 - INFO - Iteracja 1: condition_best: dxyr <= 70.50, quality_best: 1.0, coverage_best: (p=112, n=0, P=241, N=0)
+2025-03-05 11:15:39,188 - INFO - Regula po iteracji 1: IF age <= 62.50 AND dxyr <= 70.50 THEN survival_status = {7085.0}, (p=112, n=0, P=241, N=0)
+2025-03-05 11:15:39,188 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:42,195 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:42,199 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:42,199 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:42,199 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:42,857 - INFO - Iteracja 2: condition_best: mspike >= 0.70, quality_best: 1.0, coverage_best: (p=111, n=0, P=241, N=0)
+2025-03-05 11:15:42,862 - INFO - Regula po iteracji 2: IF age <= 62.50 AND dxyr <= 70.50 AND mspike >= 0.70 THEN survival_status = {7106.0}, (p=111, n=0, P=241, N=0)
+2025-03-05 11:15:42,862 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:45,858 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:45,862 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:45,862 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:45,862 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:46,542 - INFO - Iteracja 3: condition_best: mspike <= 2.65, quality_best: 1.0, coverage_best: (p=110, n=0, P=241, N=0)
+2025-03-05 11:15:46,547 - INFO - Regula po iteracji 3: IF age <= 62.50 AND dxyr <= 70.50 AND mspike >= 0.70 AND mspike <= 2.65 THEN survival_status = {7235.0}, (p=110, n=0, P=241, N=0)
+2025-03-05 11:15:46,547 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:49,541 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:49,544 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:49,545 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:49,545 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:50,239 - INFO - Iteracja 4: condition_best: alb <= 4.70, quality_best: 1.0, coverage_best: (p=97, n=0, P=241, N=0)
+2025-03-05 11:15:50,244 - INFO - Regula po iteracji 4: IF age <= 62.50 AND dxyr <= 70.50 AND mspike >= 0.70 AND mspike <= 2.65 AND alb <= 4.70 THEN survival_status = {7235.0}, (p=97, n=0, P=241, N=0)
+2025-03-05 11:15:50,244 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:53,170 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:15:53,174 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:15:53,174 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:15:53,174 - INFO - ***RR NOT FOUND***
+2025-03-05 11:15:53,174 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:15:53,187 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:15:53,998 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:15:54,003 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:15:54,003 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:15:57,053 - INFO - Iteracja 0: condition_best: hgb <= 12.85, quality_best: 1.0, coverage_best: (p=100, n=0, P=241, N=0), p_value: 0.236
+2025-03-05 11:15:57,059 - INFO - Regula po iteracji 0: IF hgb <= 12.85 THEN survival_status = {nan}, (p=100, n=0, P=241, N=0)
+2025-03-05 11:15:58,953 - INFO - Iteracja 1: condition_best: mspike <= 1.75, quality_best: 1.0, coverage_best: (p=50, n=0, P=241, N=0), p_value: 0.985
+2025-03-05 11:15:58,959 - INFO - Regula po iteracji 1: IF hgb <= 12.85 AND mspike <= 1.75 THEN survival_status = {4066.0}, (p=50, n=0, P=241, N=0)
+2025-03-05 11:16:00,194 - INFO - Iteracja 2: condition_best: alb <= 3.55, quality_best: 0.999, coverage_best: (p=44, n=0, P=241, N=0), p_value: 0.998
+2025-03-05 11:16:00,199 - INFO - Regula po iteracji 2: IF hgb <= 12.85 AND mspike <= 1.75 AND alb <= 3.55 THEN survival_status = {3012.0}, (p=44, n=0, P=241, N=0)
+2025-03-05 11:16:01,346 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.998
+2025-03-05 11:16:01,350 - INFO - Regula po iteracji 3: IF hgb <= 12.85 AND mspike <= 1.75 AND alb <= 3.55 THEN survival_status = {3027.0}, (p=44, n=0, P=241, N=0)
+2025-03-05 11:16:01,350 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:01,350 - INFO - ***RR FOUND***
+2025-03-05 11:16:01,350 - INFO - Reference rule: IF hgb <= 12.85 THEN survival_status = {3027.0}
+2025-03-05 11:16:01,350 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 11:16:01,353 - INFO - ER vs CR p_value: 0.04112283622888302
+2025-03-05 11:16:01,353 - INFO - ER vs RR p_value: 0.005287708566592886
+2025-03-05 11:16:01,369 - INFO - ***ER FOUND***
+2025-03-05 11:16:01,369 - INFO - Exception rule: IF age >= 62.50 AND hgb <= 12.85 THEN survival_status = {2587.0} (p=57, n=0, P=241, N=0)
+2025-03-05 11:16:01,369 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:16:01,523 - INFO - ************************Finished experiment for 07_mgus.arff with algorithm3************************
+2025-03-05 11:16:01,523 - INFO - *************************************************************************************************************************
+2025-03-05 11:16:01,523 - INFO - *************************************************************************************************************************
+2025-03-05 11:16:01,523 - INFO - *************************************************************************************************************************
+2025-03-05 11:16:01,524 - INFO - **********Starting experiment for 07_mgus.arff with algorithm4**********
+2025-03-05 11:16:01,531 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:16:02,786 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:16:02,791 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:16:02,792 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:08,003 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:08,006 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:08,006 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:08,006 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:08,942 - INFO - Iteracja 1: condition_best: hgb <= 13.65, quality_best: 1.0, coverage_best: (p=78, n=0, P=241, N=0)
+2025-03-05 11:16:08,948 - INFO - Regula po iteracji 1: IF age >= 62.50 AND hgb <= 13.65 THEN survival_status = {3318.0}, (p=78, n=0, P=241, N=0)
+2025-03-05 11:16:08,948 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:13,771 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:13,774 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:13,775 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:13,775 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:14,507 - INFO - Iteracja 2: condition_best: mspike >= 1.05, quality_best: 1.0, coverage_best: (p=76, n=0, P=241, N=0)
+2025-03-05 11:16:14,511 - INFO - Regula po iteracji 2: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 THEN survival_status = {2910.0}, (p=76, n=0, P=241, N=0)
+2025-03-05 11:16:14,511 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:19,263 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:19,266 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:19,266 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:19,266 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:20,005 - INFO - Iteracja 3: condition_best: age >= 65.50, quality_best: 1.0, coverage_best: (p=64, n=0, P=241, N=0)
+2025-03-05 11:16:20,010 - INFO - Regula po iteracji 3: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND age >= 65.50 THEN survival_status = {2860.0}, (p=64, n=0, P=241, N=0)
+2025-03-05 11:16:20,010 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:24,709 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:24,712 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:24,712 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:24,712 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:25,417 - INFO - Iteracja 4: condition_best: alb <= 3.05, quality_best: 1.0, coverage_best: (p=31, n=0, P=241, N=0)
+2025-03-05 11:16:25,422 - INFO - Regula po iteracji 4: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND age >= 65.50 AND alb <= 3.05 THEN survival_status = {2422.0}, (p=31, n=0, P=241, N=0)
+2025-03-05 11:16:25,422 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:29,794 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:29,798 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:29,798 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:29,798 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:29,798 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:16:29,826 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:16:31,016 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:16:31,021 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:16:31,021 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:36,220 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:36,224 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:36,224 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:36,224 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:37,120 - INFO - Iteracja 1: condition_best: hgb <= 13.65, quality_best: 1.0, coverage_best: (p=78, n=0, P=241, N=0)
+2025-03-05 11:16:37,126 - INFO - Regula po iteracji 1: IF age >= 62.50 AND hgb <= 13.65 THEN survival_status = {3318.0}, (p=78, n=0, P=241, N=0)
+2025-03-05 11:16:37,126 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:42,000 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:42,003 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:42,003 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:42,003 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:42,710 - INFO - Iteracja 2: condition_best: mspike >= 1.05, quality_best: 1.0, coverage_best: (p=76, n=0, P=241, N=0)
+2025-03-05 11:16:42,714 - INFO - Regula po iteracji 2: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 THEN survival_status = {2910.0}, (p=76, n=0, P=241, N=0)
+2025-03-05 11:16:42,715 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:47,476 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:47,479 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:47,479 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:47,479 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:48,193 - INFO - Iteracja 3: condition_best: age >= 65.50, quality_best: 1.0, coverage_best: (p=64, n=0, P=241, N=0)
+2025-03-05 11:16:48,198 - INFO - Regula po iteracji 3: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND age >= 65.50 THEN survival_status = {2860.0}, (p=64, n=0, P=241, N=0)
+2025-03-05 11:16:48,198 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:52,898 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:52,901 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:52,901 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:52,901 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:53,583 - INFO - Iteracja 4: condition_best: hgb <= 13.25, quality_best: 1.0, coverage_best: (p=53, n=0, P=241, N=0)
+2025-03-05 11:16:53,588 - INFO - Regula po iteracji 4: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND age >= 65.50 AND hgb <= 13.25 THEN survival_status = {2422.0}, (p=53, n=0, P=241, N=0)
+2025-03-05 11:16:53,588 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:16:58,219 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:16:58,222 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:16:58,222 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:16:58,222 - INFO - ***RR NOT FOUND***
+2025-03-05 11:16:58,222 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:16:58,260 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:16:59,405 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:16:59,409 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:16:59,410 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:04,612 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:04,615 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:04,615 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:04,615 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:05,483 - INFO - Iteracja 1: condition_best: hgb <= 13.65, quality_best: 1.0, coverage_best: (p=78, n=0, P=241, N=0)
+2025-03-05 11:17:05,488 - INFO - Regula po iteracji 1: IF age >= 62.50 AND hgb <= 13.65 THEN survival_status = {3318.0}, (p=78, n=0, P=241, N=0)
+2025-03-05 11:17:05,488 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:10,304 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:10,307 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:10,307 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:10,307 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:10,991 - INFO - Iteracja 2: condition_best: mspike >= 1.05, quality_best: 1.0, coverage_best: (p=76, n=0, P=241, N=0)
+2025-03-05 11:17:10,996 - INFO - Regula po iteracji 2: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 THEN survival_status = {2910.0}, (p=76, n=0, P=241, N=0)
+2025-03-05 11:17:10,996 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:15,764 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:15,767 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:15,767 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:15,767 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:16,458 - INFO - Iteracja 3: condition_best: age >= 65.50, quality_best: 1.0, coverage_best: (p=64, n=0, P=241, N=0)
+2025-03-05 11:17:16,463 - INFO - Regula po iteracji 3: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND age >= 65.50 THEN survival_status = {2860.0}, (p=64, n=0, P=241, N=0)
+2025-03-05 11:17:16,463 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:21,168 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:21,171 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:21,171 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:21,171 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:21,835 - INFO - Iteracja 4: condition_best: dxyr >= 61.00, quality_best: 1.0, coverage_best: (p=62, n=0, P=241, N=0)
+2025-03-05 11:17:21,839 - INFO - Regula po iteracji 4: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND age >= 65.50 AND dxyr >= 61.00 THEN survival_status = {2422.0}, (p=62, n=0, P=241, N=0)
+2025-03-05 11:17:21,839 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:26,526 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:26,529 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:26,529 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:26,529 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:26,529 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:17:26,554 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:17:27,689 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:17:27,694 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:17:27,694 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:32,893 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:32,897 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:32,897 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:32,897 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:33,751 - INFO - Iteracja 1: condition_best: hgb <= 13.65, quality_best: 1.0, coverage_best: (p=78, n=0, P=241, N=0)
+2025-03-05 11:17:33,755 - INFO - Regula po iteracji 1: IF age >= 62.50 AND hgb <= 13.65 THEN survival_status = {3318.0}, (p=78, n=0, P=241, N=0)
+2025-03-05 11:17:33,756 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:38,572 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:38,575 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:38,575 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:38,575 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:39,253 - INFO - Iteracja 2: condition_best: mspike >= 1.05, quality_best: 1.0, coverage_best: (p=76, n=0, P=241, N=0)
+2025-03-05 11:17:39,258 - INFO - Regula po iteracji 2: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 THEN survival_status = {2910.0}, (p=76, n=0, P=241, N=0)
+2025-03-05 11:17:39,258 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:44,021 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:44,024 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:44,024 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:44,024 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:44,707 - INFO - Iteracja 3: condition_best: dxyr >= 61.00, quality_best: 1.0, coverage_best: (p=74, n=0, P=241, N=0)
+2025-03-05 11:17:44,712 - INFO - Regula po iteracji 3: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND dxyr >= 61.00 THEN survival_status = {2860.0}, (p=74, n=0, P=241, N=0)
+2025-03-05 11:17:44,712 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:49,452 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:49,455 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:49,455 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:49,455 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:50,135 - INFO - Iteracja 4: condition_best: hgb >= 7.55, quality_best: 1.0, coverage_best: (p=73, n=0, P=241, N=0)
+2025-03-05 11:17:50,139 - INFO - Regula po iteracji 4: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND dxyr >= 61.00 AND hgb >= 7.55 THEN survival_status = {2860.0}, (p=73, n=0, P=241, N=0)
+2025-03-05 11:17:50,140 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:17:54,876 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:17:54,879 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:17:54,879 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:17:54,879 - INFO - ***RR NOT FOUND***
+2025-03-05 11:17:54,879 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:17:54,893 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:17:56,005 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:17:56,010 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:17:56,010 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:01,207 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:01,210 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:01,210 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:01,210 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:02,052 - INFO - Iteracja 1: condition_best: hgb <= 14.15, quality_best: 1.0, coverage_best: (p=90, n=0, P=241, N=0)
+2025-03-05 11:18:02,057 - INFO - Regula po iteracji 1: IF age >= 62.50 AND hgb <= 14.15 THEN survival_status = {3318.0}, (p=90, n=0, P=241, N=0)
+2025-03-05 11:18:02,057 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:06,984 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:06,987 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:06,987 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:06,987 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:07,725 - INFO - Iteracja 2: condition_best: age >= 65.50, quality_best: 1.0, coverage_best: (p=75, n=0, P=241, N=0)
+2025-03-05 11:18:07,730 - INFO - Regula po iteracji 2: IF age >= 62.50 AND hgb <= 14.15 AND age >= 65.50 THEN survival_status = {3010.0}, (p=75, n=0, P=241, N=0)
+2025-03-05 11:18:07,730 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:12,584 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:12,587 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:12,588 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:12,588 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:13,295 - INFO - Iteracja 3: condition_best: mspike <= 1.95, quality_best: 1.0, coverage_best: (p=54, n=0, P=241, N=0)
+2025-03-05 11:18:13,300 - INFO - Regula po iteracji 3: IF age >= 62.50 AND hgb <= 14.15 AND age >= 65.50 AND mspike <= 1.95 THEN survival_status = {2860.0}, (p=54, n=0, P=241, N=0)
+2025-03-05 11:18:13,300 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:18,016 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:18,019 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:18,019 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:18,019 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:18,618 - INFO - Iteracja 4: condition_best: mspike >= 1.05, quality_best: 1.0, coverage_best: (p=52, n=0, P=241, N=0)
+2025-03-05 11:18:18,622 - INFO - Regula po iteracji 4: IF age >= 62.50 AND hgb <= 14.15 AND age >= 65.50 AND mspike <= 1.95 AND mspike >= 1.05 THEN survival_status = {2400.0}, (p=52, n=0, P=241, N=0)
+2025-03-05 11:18:18,622 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:23,264 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:23,267 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:23,267 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:23,267 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:23,267 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:18:23,296 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:18:24,395 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:18:24,400 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:18:24,400 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:29,592 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:29,595 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:29,595 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:29,595 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:30,429 - INFO - Iteracja 1: condition_best: hgb <= 14.15, quality_best: 1.0, coverage_best: (p=90, n=0, P=241, N=0)
+2025-03-05 11:18:30,434 - INFO - Regula po iteracji 1: IF age >= 62.50 AND hgb <= 14.15 THEN survival_status = {3318.0}, (p=90, n=0, P=241, N=0)
+2025-03-05 11:18:30,434 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:35,351 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:35,354 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:35,354 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:35,354 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:36,080 - INFO - Iteracja 2: condition_best: age >= 65.50, quality_best: 1.0, coverage_best: (p=75, n=0, P=241, N=0)
+2025-03-05 11:18:36,085 - INFO - Regula po iteracji 2: IF age >= 62.50 AND hgb <= 14.15 AND age >= 65.50 THEN survival_status = {3010.0}, (p=75, n=0, P=241, N=0)
+2025-03-05 11:18:36,085 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:40,926 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:40,929 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:40,929 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:40,929 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:41,633 - INFO - Iteracja 3: condition_best: dxyr >= 59.50, quality_best: 1.0, coverage_best: (p=74, n=0, P=241, N=0)
+2025-03-05 11:18:41,638 - INFO - Regula po iteracji 3: IF age >= 62.50 AND hgb <= 14.15 AND age >= 65.50 AND dxyr >= 59.50 THEN survival_status = {2860.0}, (p=74, n=0, P=241, N=0)
+2025-03-05 11:18:41,638 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:46,479 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:46,482 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:46,482 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:46,482 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:47,191 - INFO - Iteracja 4: condition_best: dxyr >= 60.50, quality_best: 1.0, coverage_best: (p=72, n=0, P=241, N=0)
+2025-03-05 11:18:47,195 - INFO - Regula po iteracji 4: IF age >= 62.50 AND hgb <= 14.15 AND age >= 65.50 AND dxyr >= 59.50 AND dxyr >= 60.50 THEN survival_status = {2860.0}, (p=72, n=0, P=241, N=0)
+2025-03-05 11:18:47,196 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:52,008 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:52,011 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:52,011 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:52,011 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:52,012 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:18:52,031 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:18:53,117 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:18:53,121 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:18:53,121 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:18:58,306 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:18:58,309 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:18:58,309 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:18:58,309 - INFO - ***RR NOT FOUND***
+2025-03-05 11:18:59,136 - INFO - Iteracja 1: condition_best: hgb <= 15.20, quality_best: 1.0, coverage_best: (p=113, n=0, P=241, N=0)
+2025-03-05 11:18:59,140 - INFO - Regula po iteracji 1: IF age >= 62.50 AND hgb <= 15.20 THEN survival_status = {3318.0}, (p=113, n=0, P=241, N=0)
+2025-03-05 11:18:59,140 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:04,232 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:04,235 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:04,235 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:04,235 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:05,044 - INFO - Iteracja 2: condition_best: dxyr >= 59.50, quality_best: 1.0, coverage_best: (p=112, n=0, P=241, N=0)
+2025-03-05 11:19:05,048 - INFO - Regula po iteracji 2: IF age >= 62.50 AND hgb <= 15.20 AND dxyr >= 59.50 THEN survival_status = {3186.0}, (p=112, n=0, P=241, N=0)
+2025-03-05 11:19:05,048 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:10,131 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:10,134 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:10,134 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:10,134 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:10,966 - INFO - Iteracja 3: condition_best: dxyr >= 60.50, quality_best: 1.0, coverage_best: (p=110, n=0, P=241, N=0)
+2025-03-05 11:19:10,970 - INFO - Regula po iteracji 3: IF age >= 62.50 AND hgb <= 15.20 AND dxyr >= 59.50 AND dxyr >= 60.50 THEN survival_status = {3167.0}, (p=110, n=0, P=241, N=0)
+2025-03-05 11:19:10,970 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:16,037 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:16,040 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:16,040 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:16,040 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:16,878 - INFO - Iteracja 4: condition_best: dxyr >= 61.50, quality_best: 1.0, coverage_best: (p=109, n=0, P=241, N=0)
+2025-03-05 11:19:16,883 - INFO - Regula po iteracji 4: IF age >= 62.50 AND hgb <= 15.20 AND dxyr >= 59.50 AND dxyr >= 60.50 AND dxyr >= 61.50 THEN survival_status = {3167.0}, (p=109, n=0, P=241, N=0)
+2025-03-05 11:19:16,883 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:21,933 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:21,936 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:21,936 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:21,936 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:21,936 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:19:21,947 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:19:22,989 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:19:22,994 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:19:22,994 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:28,209 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:28,212 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:28,212 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:28,212 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:29,006 - INFO - Iteracja 1: condition_best: hgb <= 16.00, quality_best: 1.0, coverage_best: (p=124, n=0, P=241, N=0)
+2025-03-05 11:19:29,011 - INFO - Regula po iteracji 1: IF age >= 62.50 AND hgb <= 16.00 THEN survival_status = {3318.0}, (p=124, n=0, P=241, N=0)
+2025-03-05 11:19:29,011 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:34,191 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:34,194 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:34,194 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:34,194 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:34,995 - INFO - Iteracja 2: condition_best: dxyr >= 59.50, quality_best: 1.0, coverage_best: (p=122, n=0, P=241, N=0)
+2025-03-05 11:19:34,999 - INFO - Regula po iteracji 2: IF age >= 62.50 AND hgb <= 16.00 AND dxyr >= 59.50 THEN survival_status = {3318.0}, (p=122, n=0, P=241, N=0)
+2025-03-05 11:19:35,000 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:40,167 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:40,170 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:40,170 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:40,170 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:40,994 - INFO - Iteracja 3: condition_best: dxyr >= 60.50, quality_best: 1.0, coverage_best: (p=120, n=0, P=241, N=0)
+2025-03-05 11:19:40,998 - INFO - Regula po iteracji 3: IF age >= 62.50 AND hgb <= 16.00 AND dxyr >= 59.50 AND dxyr >= 60.50 THEN survival_status = {3226.0}, (p=120, n=0, P=241, N=0)
+2025-03-05 11:19:40,998 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:46,151 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:46,154 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:46,154 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:46,154 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:46,986 - INFO - Iteracja 4: condition_best: dxyr >= 61.50, quality_best: 1.0, coverage_best: (p=119, n=0, P=241, N=0)
+2025-03-05 11:19:46,991 - INFO - Regula po iteracji 4: IF age >= 62.50 AND hgb <= 16.00 AND dxyr >= 59.50 AND dxyr >= 60.50 AND dxyr >= 61.50 THEN survival_status = {3226.0}, (p=119, n=0, P=241, N=0)
+2025-03-05 11:19:46,991 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:52,133 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:52,136 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:52,136 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:52,136 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:52,137 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:19:52,150 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:19:53,172 - INFO - Iteracja 0: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=241, N=0)
+2025-03-05 11:19:53,176 - INFO - Regula po iteracji 0: IF age <= 62.50 THEN survival_status = {nan}, (p=114, n=0, P=241, N=0)
+2025-03-05 11:19:53,176 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:19:58,332 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:19:58,335 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:19:58,335 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:19:58,335 - INFO - ***RR NOT FOUND***
+2025-03-05 11:19:59,109 - INFO - Iteracja 1: condition_best: hgb >= 11.35, quality_best: 1.0, coverage_best: (p=99, n=0, P=241, N=0)
+2025-03-05 11:19:59,113 - INFO - Regula po iteracji 1: IF age <= 62.50 AND hgb >= 11.35 THEN survival_status = {7085.0}, (p=99, n=0, P=241, N=0)
+2025-03-05 11:19:59,113 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:04,110 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:04,113 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:04,113 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:04,113 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:04,814 - INFO - Iteracja 2: condition_best: dxyr <= 70.50, quality_best: 1.0, coverage_best: (p=97, n=0, P=241, N=0)
+2025-03-05 11:20:04,819 - INFO - Regula po iteracji 2: IF age <= 62.50 AND hgb >= 11.35 AND dxyr <= 70.50 THEN survival_status = {7921.0}, (p=97, n=0, P=241, N=0)
+2025-03-05 11:20:04,819 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:09,790 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:09,793 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:09,793 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:09,793 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:10,507 - INFO - Iteracja 3: condition_best: mspike >= 0.70, quality_best: 1.0, coverage_best: (p=96, n=0, P=241, N=0)
+2025-03-05 11:20:10,512 - INFO - Regula po iteracji 3: IF age <= 62.50 AND hgb >= 11.35 AND dxyr <= 70.50 AND mspike >= 0.70 THEN survival_status = {8052.0}, (p=96, n=0, P=241, N=0)
+2025-03-05 11:20:10,512 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:15,466 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:15,469 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:15,469 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:15,469 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:16,206 - INFO - Iteracja 4: condition_best: age >= 34.50, quality_best: 1.0, coverage_best: (p=94, n=0, P=241, N=0)
+2025-03-05 11:20:16,211 - INFO - Regula po iteracji 4: IF age <= 62.50 AND hgb >= 11.35 AND dxyr <= 70.50 AND mspike >= 0.70 AND age >= 34.50 THEN survival_status = {8052.0}, (p=94, n=0, P=241, N=0)
+2025-03-05 11:20:16,211 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:21,155 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:21,158 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:21,158 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:21,158 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:21,158 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:20:21,174 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:20:22,032 - INFO - Iteracja 0: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=241, N=0)
+2025-03-05 11:20:22,037 - INFO - Regula po iteracji 0: IF age <= 62.50 THEN survival_status = {nan}, (p=114, n=0, P=241, N=0)
+2025-03-05 11:20:22,037 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:27,198 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:27,201 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:27,201 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:27,201 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:27,862 - INFO - Iteracja 1: condition_best: hgb >= 11.25, quality_best: 1.0, coverage_best: (p=101, n=0, P=241, N=0)
+2025-03-05 11:20:27,867 - INFO - Regula po iteracji 1: IF age <= 62.50 AND hgb >= 11.25 THEN survival_status = {7085.0}, (p=101, n=0, P=241, N=0)
+2025-03-05 11:20:27,867 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:32,878 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:32,881 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:32,881 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:32,881 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:33,494 - INFO - Iteracja 2: condition_best: age >= 34.50, quality_best: 1.0, coverage_best: (p=99, n=0, P=241, N=0)
+2025-03-05 11:20:33,498 - INFO - Regula po iteracji 2: IF age <= 62.50 AND hgb >= 11.25 AND age >= 34.50 THEN survival_status = {7921.0}, (p=99, n=0, P=241, N=0)
+2025-03-05 11:20:33,498 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:38,497 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:38,500 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:38,500 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:38,500 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:39,124 - INFO - Iteracja 3: condition_best: hgb <= 16.55, quality_best: 1.0, coverage_best: (p=98, n=0, P=241, N=0)
+2025-03-05 11:20:39,128 - INFO - Regula po iteracji 3: IF age <= 62.50 AND hgb >= 11.25 AND age >= 34.50 AND hgb <= 16.55 THEN survival_status = {7921.0}, (p=98, n=0, P=241, N=0)
+2025-03-05 11:20:39,128 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:44,130 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:44,133 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:44,133 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:44,133 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:44,779 - INFO - Iteracja 4: condition_best: hgb <= 16.35, quality_best: 1.0, coverage_best: (p=97, n=0, P=241, N=0)
+2025-03-05 11:20:44,784 - INFO - Regula po iteracji 4: IF age <= 62.50 AND hgb >= 11.25 AND age >= 34.50 AND hgb <= 16.55 AND hgb <= 16.35 THEN survival_status = {7899.0}, (p=97, n=0, P=241, N=0)
+2025-03-05 11:20:44,784 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:49,801 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:49,804 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:49,804 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:49,804 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:49,804 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:20:49,815 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:20:50,666 - INFO - Iteracja 0: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=241, N=0)
+2025-03-05 11:20:50,671 - INFO - Regula po iteracji 0: IF age <= 62.50 THEN survival_status = {nan}, (p=114, n=0, P=241, N=0)
+2025-03-05 11:20:50,671 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:20:55,831 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:20:55,834 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:20:55,835 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:20:55,835 - INFO - ***RR NOT FOUND***
+2025-03-05 11:20:56,487 - INFO - Iteracja 1: condition_best: hgb >= 9.95, quality_best: 1.0, coverage_best: (p=108, n=0, P=241, N=0)
+2025-03-05 11:20:56,491 - INFO - Regula po iteracji 1: IF age <= 62.50 AND hgb >= 9.95 THEN survival_status = {7085.0}, (p=108, n=0, P=241, N=0)
+2025-03-05 11:20:56,491 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:01,581 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:01,584 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:01,584 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:01,584 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:02,230 - INFO - Iteracja 2: condition_best: dxyr <= 70.50, quality_best: 1.0, coverage_best: (p=106, n=0, P=241, N=0)
+2025-03-05 11:21:02,235 - INFO - Regula po iteracji 2: IF age <= 62.50 AND hgb >= 9.95 AND dxyr <= 70.50 THEN survival_status = {7428.0}, (p=106, n=0, P=241, N=0)
+2025-03-05 11:21:02,235 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:07,302 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:07,305 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:07,305 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:07,305 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:07,971 - INFO - Iteracja 3: condition_best: mspike >= 0.70, quality_best: 1.0, coverage_best: (p=105, n=0, P=241, N=0)
+2025-03-05 11:21:07,976 - INFO - Regula po iteracji 3: IF age <= 62.50 AND hgb >= 9.95 AND dxyr <= 70.50 AND mspike >= 0.70 THEN survival_status = {7899.0}, (p=105, n=0, P=241, N=0)
+2025-03-05 11:21:07,976 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:13,028 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:13,031 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:13,031 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:13,031 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:13,715 - INFO - Iteracja 4: condition_best: mspike <= 2.65, quality_best: 1.0, coverage_best: (p=104, n=0, P=241, N=0)
+2025-03-05 11:21:13,720 - INFO - Regula po iteracji 4: IF age <= 62.50 AND hgb >= 9.95 AND dxyr <= 70.50 AND mspike >= 0.70 AND mspike <= 2.65 THEN survival_status = {7899.0}, (p=104, n=0, P=241, N=0)
+2025-03-05 11:21:13,720 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:18,761 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:18,764 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:18,764 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:18,764 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:18,764 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:21:18,780 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:21:19,611 - INFO - Iteracja 0: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=241, N=0)
+2025-03-05 11:21:19,616 - INFO - Regula po iteracji 0: IF age <= 62.50 THEN survival_status = {nan}, (p=114, n=0, P=241, N=0)
+2025-03-05 11:21:19,616 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:24,787 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:24,790 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:24,790 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:24,790 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:25,433 - INFO - Iteracja 1: condition_best: dxyr <= 70.50, quality_best: 1.0, coverage_best: (p=112, n=0, P=241, N=0)
+2025-03-05 11:21:25,437 - INFO - Regula po iteracji 1: IF age <= 62.50 AND dxyr <= 70.50 THEN survival_status = {7085.0}, (p=112, n=0, P=241, N=0)
+2025-03-05 11:21:25,437 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:30,599 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:30,602 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:30,602 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:30,603 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:31,263 - INFO - Iteracja 2: condition_best: mspike >= 0.70, quality_best: 1.0, coverage_best: (p=111, n=0, P=241, N=0)
+2025-03-05 11:21:31,268 - INFO - Regula po iteracji 2: IF age <= 62.50 AND dxyr <= 70.50 AND mspike >= 0.70 THEN survival_status = {7106.0}, (p=111, n=0, P=241, N=0)
+2025-03-05 11:21:31,268 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:36,396 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:36,399 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:36,399 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:36,399 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:37,090 - INFO - Iteracja 3: condition_best: mspike <= 2.65, quality_best: 1.0, coverage_best: (p=110, n=0, P=241, N=0)
+2025-03-05 11:21:37,094 - INFO - Regula po iteracji 3: IF age <= 62.50 AND dxyr <= 70.50 AND mspike >= 0.70 AND mspike <= 2.65 THEN survival_status = {7235.0}, (p=110, n=0, P=241, N=0)
+2025-03-05 11:21:37,095 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:42,217 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:42,220 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:42,220 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:42,220 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:42,920 - INFO - Iteracja 4: condition_best: alb <= 4.70, quality_best: 1.0, coverage_best: (p=97, n=0, P=241, N=0)
+2025-03-05 11:21:42,925 - INFO - Regula po iteracji 4: IF age <= 62.50 AND dxyr <= 70.50 AND mspike >= 0.70 AND mspike <= 2.65 AND alb <= 4.70 THEN survival_status = {7235.0}, (p=97, n=0, P=241, N=0)
+2025-03-05 11:21:42,925 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:47,976 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:47,980 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:47,980 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:47,980 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:47,980 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:21:47,992 - INFO - *******GROWING CR RULE*******
+2025-03-05 11:21:48,818 - INFO - Iteracja 0: condition_best: age >= 62.50, quality_best: 1.0, coverage_best: (p=127, n=0, P=241, N=0)
+2025-03-05 11:21:48,822 - INFO - Regula po iteracji 0: IF age >= 62.50 THEN survival_status = {nan}, (p=127, n=0, P=241, N=0)
+2025-03-05 11:21:48,822 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:54,016 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:54,019 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:54,019 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:54,019 - INFO - ***RR NOT FOUND***
+2025-03-05 11:21:54,669 - INFO - Iteracja 1: condition_best: hgb <= 13.65, quality_best: 1.0, coverage_best: (p=78, n=0, P=241, N=0)
+2025-03-05 11:21:54,673 - INFO - Regula po iteracji 1: IF age >= 62.50 AND hgb <= 13.65 THEN survival_status = {3318.0}, (p=78, n=0, P=241, N=0)
+2025-03-05 11:21:54,673 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:21:59,485 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:21:59,488 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:21:59,488 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:21:59,488 - INFO - ***RR NOT FOUND***
+2025-03-05 11:22:00,007 - INFO - Iteracja 2: condition_best: mspike >= 1.05, quality_best: 1.0, coverage_best: (p=76, n=0, P=241, N=0)
+2025-03-05 11:22:00,011 - INFO - Regula po iteracji 2: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 THEN survival_status = {2910.0}, (p=76, n=0, P=241, N=0)
+2025-03-05 11:22:00,012 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:22:04,773 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:22:04,776 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:22:04,776 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:22:04,776 - INFO - ***RR NOT FOUND***
+2025-03-05 11:22:05,307 - INFO - Iteracja 3: condition_best: age >= 65.50, quality_best: 1.0, coverage_best: (p=64, n=0, P=241, N=0)
+2025-03-05 11:22:05,312 - INFO - Regula po iteracji 3: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND age >= 65.50 THEN survival_status = {2860.0}, (p=64, n=0, P=241, N=0)
+2025-03-05 11:22:05,312 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:22:10,007 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:22:10,010 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:22:10,010 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:22:10,010 - INFO - ***RR NOT FOUND***
+2025-03-05 11:22:10,523 - INFO - Iteracja 4: condition_best: alb <= 3.05, quality_best: 1.0, coverage_best: (p=31, n=0, P=241, N=0)
+2025-03-05 11:22:10,527 - INFO - Regula po iteracji 4: IF age >= 62.50 AND hgb <= 13.65 AND mspike >= 1.05 AND age >= 65.50 AND alb <= 3.05 THEN survival_status = {2422.0}, (p=31, n=0, P=241, N=0)
+2025-03-05 11:22:10,527 - INFO - *****GROWING RR RULE*****
+2025-03-05 11:22:14,904 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 11:22:14,907 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=241, n=0, P=241, N=0)
+2025-03-05 11:22:14,907 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 11:22:14,907 - INFO - ***RR NOT FOUND***
+2025-03-05 11:22:14,907 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 11:22:14,987 - INFO - ************************Finished experiment for 07_mgus.arff with algorithm4************************
+2025-03-05 11:22:14,987 - INFO - *************************************************************************************************************************
+2025-03-05 11:22:14,987 - INFO - *************************************************************************************************************************
+2025-03-05 11:22:14,987 - INFO - *************************************************************************************************************************

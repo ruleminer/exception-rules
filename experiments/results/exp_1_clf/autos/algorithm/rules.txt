@@ -1,0 +1,62 @@
+
+CR: IF height <= 50.35 AND wheel-base <= 97.75 THEN class = 3 (p=16, n=0, P=27, N=178)
+
+CR: IF height <= 51.60 AND price >= 9,927.00 AND wheel-base <= 97.90 AND city-mpg <= 24.00 THEN class = 3 (p=20, n=1, P=27, N=178)
+
+CR: IF city-mpg <= 21.00 AND num-of-doors = {two} AND peak-rpm >= 4,500.00 AND normalized-losses <= 214.00 THEN class = 3 (p=14, n=0, P=27, N=178)
+
+CR: IF curb-weight <= 1,996.50 AND length >= 158.95 THEN class = 1 (p=11, n=0, P=54, N=151)
+
+CR: IF curb-weight <= 1,996.50 AND curb-weight >= 1,944.50 THEN class = 1 (p=11, n=0, P=54, N=151)
+
+CR: IF curb-weight <= 1,996.50 AND highway-mpg <= 42.50 AND normalized-losses <= 157.50 AND wheel-base >= 89.85 THEN class = 1 (p=22, n=0, P=54, N=151)
+
+CR: IF curb-weight <= 2,045.00 AND normalized-losses <= 157.50 AND bore >= 2.95 AND normalized-losses >= 84.00 THEN class = 1 (p=25, n=0, P=54, N=151)
+
+CR: IF width <= 64.20 AND normalized-losses >= 86.00 AND wheel-base >= 90.70 AND wheel-base <= 94.50 AND normalized-losses <= 212.00 THEN class = 1 (p=35, n=0, P=54, N=151)
+
+CR: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 THEN class = 1 (p=36, n=6, P=54, N=151)
+
+CR: IF curb-weight <= 2,407.50 AND normalized-losses >= 96.00 AND height <= 54.50 AND normalized-losses <= 133.00 AND peak-rpm <= 5,650.00 AND engine-type = {ohc} THEN class = 1 (p=27, n=0, P=54, N=151)
+
+CR: IF height <= 55.70 AND stroke >= 3.10 AND stroke <= 3.35 AND width >= 66.70 AND bore >= 3.29 AND horsepower >= 117.50 AND wheel-base >= 96.45 THEN class = 1 (p=5, n=1, P=54, N=151)
+
+CR: IF make = {volkswagen} AND normalized-losses <= 189.00 THEN class = 2 (p=7, n=0, P=32, N=173)
+
+CR: IF length <= 158.30 AND peak-rpm <= 5,250.00 THEN class = 2 (p=5, n=0, P=32, N=173)
+
+CR: IF stroke >= 3.40 AND make = {toyota} AND num-of-doors = {two} THEN class = 2 (p=6, n=0, P=32, N=173)
+
+CR: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 THEN class = 2 (p=19, n=14, P=32, N=173)
+
+CR: IF num-of-doors = {two} AND city-mpg >= 22.50 AND width >= 64.30 AND stroke <= 3.31 THEN class = 2 (p=5, n=0, P=32, N=173)
+
+CR: IF make = {peugot} THEN class = 0 (p=11, n=0, P=67, N=138)
+
+CR: IF city-mpg <= 15.50 AND body-style = {sedan} THEN class = 0 (p=5, n=0, P=67, N=138)
+
+CR: IF drive-wheels = {4wd} AND wheel-base >= 94.50 AND engine-size <= 133.50 THEN class = 0 (p=7, n=0, P=67, N=138)
+
+CR: IF make = {subaru} AND num-of-doors = {four} THEN class = 0 (p=9, n=0, P=67, N=138)
+
+CR: IF make = {bmw} AND price >= 16,677.50 THEN class = 0 (p=6, n=1, P=67, N=138)
+
+CR: IF num-of-doors = {four} AND stroke <= 3.03 AND num-of-cylinders = {four} AND length >= 162.50 THEN class = 0 (p=20, n=0, P=67, N=138)
+
+CR: IF num-of-doors = {four} AND peak-rpm >= 5,550.00 THEN class = 0 (p=7, n=0, P=67, N=138)
+
+CR: IF num-of-doors = {four} AND peak-rpm <= 4,800.00 AND wheel-base <= 101.80 AND highway-mpg <= 37.50 THEN class = 0 (p=20, n=0, P=67, N=138)
+
+CR: IF num-of-doors = {four} AND bore >= 3.37 AND length <= 185.60 THEN class = 0 (p=19, n=0, P=67, N=138)
+
+CR: IF num-of-doors = {four} AND horsepower <= 101.50 AND horsepower >= 69.50 AND engine-size <= 121.00 AND compression-ratio <= 9.80 AND height <= 55.40 THEN class = 0 (p=23, n=0, P=67, N=138)
+
+CR: IF wheel-base >= 95.50 AND horsepower <= 98.50 AND compression-ratio >= 8.85 AND price >= 6,703.00 AND height <= 55.60 AND height >= 51.95 AND wheel-base <= 101.40 THEN class = 0 (p=22, n=0, P=67, N=138)
+
+CR: IF normalized-losses <= 74.00 AND wheel-base >= 99.05 THEN class = -1 (p=9, n=0, P=22, N=183)
+
+CR: IF make = {volvo} AND normalized-losses <= 99.00 THEN class = -1 (p=8, n=0, P=22, N=183)
+
+CR: IF wheel-base >= 102.20 AND normalized-losses <= 114.00 AND num-of-doors = {four} AND compression-ratio >= 8.00 THEN class = -1 (p=18, n=2, P=22, N=183)
+
+CR: IF make = {volvo} AND normalized-losses >= 99.00 THEN class = -2 (p=3, n=0, P=3, N=202)

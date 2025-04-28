@@ -1,0 +1,253 @@
+2025-03-04 19:04:20,344 - INFO - **********Starting experiment for vote.arff with algorithm3**********
+2025-03-04 19:04:20,361 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:04:20,367 - INFO - Iteracja 0: condition_best: physician-fee-freeze = {y}, quality_best: 0.858, coverage_best: (p=163, n=14, P=168, N=267), precision: 0.921
+2025-03-04 19:04:20,367 - INFO - Regula po iteracji 0: IF physician-fee-freeze = {y} THEN class = republican, (p=163, n=14, P=168, N=267)
+2025-03-04 19:04:20,367 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,374 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,374 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=5, n=430, P=5, N=430)
+2025-03-04 19:04:20,374 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,374 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,376 - INFO - Iteracja 1: condition_best: synfuels-corporation-cutback = {n}, quality_best: 0.87, coverage_best: (p=135, n=3, P=168, N=267), precision: 0.978
+2025-03-04 19:04:20,376 - INFO - Regula po iteracji 1: IF physician-fee-freeze = {y} AND synfuels-corporation-cutback = {n} THEN class = republican, (p=135, n=3, P=168, N=267)
+2025-03-04 19:04:20,376 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,382 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,382 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=33, n=402, P=33, N=402)
+2025-03-04 19:04:20,382 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,382 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,384 - INFO - Iteracja 2: condition_best: crime = {y}, quality_best: 0.854, coverage_best: (p=130, n=3, P=168, N=267), precision: 0.977
+2025-03-04 19:04:20,384 - INFO - Regula po iteracji 2: IF physician-fee-freeze = {y} AND synfuels-corporation-cutback = {n} AND crime = {y} THEN class = republican, (p=130, n=3, P=168, N=267)
+2025-03-04 19:04:20,385 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,390 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,391 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=38, n=397, P=38, N=397)
+2025-03-04 19:04:20,391 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,391 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,392 - INFO - Iteracja 3: condition_best: el-salvador-aid = {y}, quality_best: 0.836, coverage_best: (p=124, n=3, P=168, N=267), precision: 0.976
+2025-03-04 19:04:20,393 - INFO - Regula po iteracji 3: IF physician-fee-freeze = {y} AND synfuels-corporation-cutback = {n} AND crime = {y} AND el-salvador-aid = {y} THEN class = republican, (p=124, n=3, P=168, N=267)
+2025-03-04 19:04:20,393 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,399 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,399 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=44, n=391, P=44, N=391)
+2025-03-04 19:04:20,399 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,399 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,401 - INFO - Iteracja 4: condition_best: adoption-of-the-budget-resolution = {n}, quality_best: 0.812, coverage_best: (p=109, n=1, P=168, N=267), precision: 0.991
+2025-03-04 19:04:20,401 - INFO - Regula po iteracji 4: IF physician-fee-freeze = {y} AND synfuels-corporation-cutback = {n} AND crime = {y} AND el-salvador-aid = {y} AND adoption-of-the-budget-resolution = {n} THEN class = republican, (p=109, n=1, P=168, N=267)
+2025-03-04 19:04:20,402 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,408 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,408 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=59, n=376, P=59, N=376)
+2025-03-04 19:04:20,408 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,408 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,410 - INFO - Iteracja 5: condition_best: duty-free-exports = {n}, quality_best: 0.792, coverage_best: (p=98, n=0, P=168, N=267), precision: 1.0
+2025-03-04 19:04:20,410 - INFO - Regula po iteracji 5: IF physician-fee-freeze = {y} AND synfuels-corporation-cutback = {n} AND crime = {y} AND el-salvador-aid = {y} AND adoption-of-the-budget-resolution = {n} AND duty-free-exports = {n} THEN class = republican, (p=98, n=0, P=168, N=267)
+2025-03-04 19:04:20,410 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:04:20,411 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:04:20,414 - INFO - Iteracja 0: condition_best: physician-fee-freeze = {y}, quality_best: 0.858, coverage_best: (p=163, n=14, P=168, N=267), precision: 0.921
+2025-03-04 19:04:20,414 - INFO - Regula po iteracji 0: IF physician-fee-freeze = {y} THEN class = republican, (p=163, n=14, P=168, N=267)
+2025-03-04 19:04:20,415 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,421 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,422 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=5, n=430, P=5, N=430)
+2025-03-04 19:04:20,422 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,422 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,423 - INFO - Iteracja 1: condition_best: adoption-of-the-budget-resolution = {n}, quality_best: 0.855, coverage_best: (p=140, n=6, P=168, N=267), precision: 0.959
+2025-03-04 19:04:20,424 - INFO - Regula po iteracji 1: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} THEN class = republican, (p=140, n=6, P=168, N=267)
+2025-03-04 19:04:20,424 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,430 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,430 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=28, n=407, P=28, N=407)
+2025-03-04 19:04:20,430 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,430 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,432 - INFO - Iteracja 2: condition_best: el-salvador-aid = {y}, quality_best: 0.866, coverage_best: (p=137, n=4, P=168, N=267), precision: 0.972
+2025-03-04 19:04:20,432 - INFO - Regula po iteracji 2: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} THEN class = republican, (p=137, n=4, P=168, N=267)
+2025-03-04 19:04:20,433 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,438 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,439 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=31, n=404, P=31, N=404)
+2025-03-04 19:04:20,439 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,439 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,440 - INFO - Iteracja 3: condition_best: mx-missile = {n}, quality_best: 0.844, coverage_best: (p=130, n=4, P=168, N=267), precision: 0.97
+2025-03-04 19:04:20,441 - INFO - Regula po iteracji 3: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} THEN class = republican, (p=130, n=4, P=168, N=267)
+2025-03-04 19:04:20,441 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,447 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,447 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=38, n=397, P=38, N=397)
+2025-03-04 19:04:20,447 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,447 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,449 - INFO - Iteracja 4: condition_best: religious-groups-in-schools = {y}, quality_best: 0.822, coverage_best: (p=123, n=4, P=168, N=267), precision: 0.969
+2025-03-04 19:04:20,449 - INFO - Regula po iteracji 4: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} AND religious-groups-in-schools = {y} THEN class = republican, (p=123, n=4, P=168, N=267)
+2025-03-04 19:04:20,450 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,456 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,456 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=45, n=390, P=45, N=390)
+2025-03-04 19:04:20,456 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,456 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,458 - INFO - Iteracja 5: condition_best: superfund-right-to-sue = {y}, quality_best: 0.803, coverage_best: (p=110, n=2, P=168, N=267), precision: 0.982
+2025-03-04 19:04:20,458 - INFO - Regula po iteracji 5: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} AND religious-groups-in-schools = {y} AND superfund-right-to-sue = {y} THEN class = republican, (p=110, n=2, P=168, N=267)
+2025-03-04 19:04:20,459 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,465 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,465 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=58, n=377, P=58, N=377)
+2025-03-04 19:04:20,465 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,465 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,467 - INFO - Iteracja 6: condition_best: crime = {y}, quality_best: 0.788, coverage_best: (p=105, n=2, P=168, N=267), precision: 0.981
+2025-03-04 19:04:20,467 - INFO - Regula po iteracji 6: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} AND religious-groups-in-schools = {y} AND superfund-right-to-sue = {y} AND crime = {y} THEN class = republican, (p=105, n=2, P=168, N=267)
+2025-03-04 19:04:20,468 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,474 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,474 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=63, n=372, P=63, N=372)
+2025-03-04 19:04:20,474 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,474 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,476 - INFO - Iteracja 7: condition_best: aid-to-nicaraguan-contras = {n}, quality_best: 0.769, coverage_best: (p=99, n=2, P=168, N=267), precision: 0.98
+2025-03-04 19:04:20,476 - INFO - Regula po iteracji 7: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} AND religious-groups-in-schools = {y} AND superfund-right-to-sue = {y} AND crime = {y} AND aid-to-nicaraguan-contras = {n} THEN class = republican, (p=99, n=2, P=168, N=267)
+2025-03-04 19:04:20,477 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,483 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,483 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=69, n=366, P=69, N=366)
+2025-03-04 19:04:20,483 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,483 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,485 - INFO - Iteracja 8: condition_best: duty-free-exports = {n}, quality_best: 0.753, coverage_best: (p=94, n=2, P=168, N=267), precision: 0.979
+2025-03-04 19:04:20,485 - INFO - Regula po iteracji 8: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} AND religious-groups-in-schools = {y} AND superfund-right-to-sue = {y} AND crime = {y} AND aid-to-nicaraguan-contras = {n} AND duty-free-exports = {n} THEN class = republican, (p=94, n=2, P=168, N=267)
+2025-03-04 19:04:20,487 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,492 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,492 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=74, n=361, P=74, N=361)
+2025-03-04 19:04:20,492 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,493 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,494 - INFO - Iteracja 9: condition_best: education-spending = {y}, quality_best: 0.739, coverage_best: (p=85, n=1, P=168, N=267), precision: 0.988
+2025-03-04 19:04:20,495 - INFO - Regula po iteracji 9: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} AND religious-groups-in-schools = {y} AND superfund-right-to-sue = {y} AND crime = {y} AND aid-to-nicaraguan-contras = {n} AND duty-free-exports = {n} AND education-spending = {y} THEN class = republican, (p=85, n=1, P=168, N=267)
+2025-03-04 19:04:20,496 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,502 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,502 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=83, n=352, P=83, N=352)
+2025-03-04 19:04:20,502 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,502 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,504 - INFO - Iteracja 10: condition_best: anti-satellite-test-ban = {n}, quality_best: 0.72, coverage_best: (p=79, n=1, P=168, N=267), precision: 0.988
+2025-03-04 19:04:20,504 - INFO - Regula po iteracji 10: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} AND religious-groups-in-schools = {y} AND superfund-right-to-sue = {y} AND crime = {y} AND aid-to-nicaraguan-contras = {n} AND duty-free-exports = {n} AND education-spending = {y} AND anti-satellite-test-ban = {n} THEN class = republican, (p=79, n=1, P=168, N=267)
+2025-03-04 19:04:20,506 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,512 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,512 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=89, n=346, P=89, N=346)
+2025-03-04 19:04:20,512 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,512 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,513 - INFO - Iteracja 11: condition_best: handicapped-infants = {n}, quality_best: 0.698, coverage_best: (p=72, n=1, P=168, N=267), precision: 0.986
+2025-03-04 19:04:20,514 - INFO - Regula po iteracji 11: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} AND religious-groups-in-schools = {y} AND superfund-right-to-sue = {y} AND crime = {y} AND aid-to-nicaraguan-contras = {n} AND duty-free-exports = {n} AND education-spending = {y} AND anti-satellite-test-ban = {n} AND handicapped-infants = {n} THEN class = republican, (p=72, n=1, P=168, N=267)
+2025-03-04 19:04:20,516 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,521 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,522 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=96, n=339, P=96, N=339)
+2025-03-04 19:04:20,522 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,522 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,523 - INFO - Iteracja 12: condition_best: immigration = {y}, quality_best: 0.604, coverage_best: (p=35, n=0, P=168, N=267), precision: 1.0
+2025-03-04 19:04:20,524 - INFO - Regula po iteracji 12: IF physician-fee-freeze = {y} AND adoption-of-the-budget-resolution = {n} AND el-salvador-aid = {y} AND mx-missile = {n} AND religious-groups-in-schools = {y} AND superfund-right-to-sue = {y} AND crime = {y} AND aid-to-nicaraguan-contras = {n} AND duty-free-exports = {n} AND education-spending = {y} AND anti-satellite-test-ban = {n} AND handicapped-infants = {n} AND immigration = {y} THEN class = republican, (p=35, n=0, P=168, N=267)
+2025-03-04 19:04:20,524 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:04:20,526 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:04:20,528 - INFO - Iteracja 0: condition_best: crime = {y}, quality_best: 0.397, coverage_best: (p=158, n=90, P=168, N=267), precision: 0.637
+2025-03-04 19:04:20,529 - INFO - Regula po iteracji 0: IF crime = {y} THEN class = republican, (p=158, n=90, P=168, N=267)
+2025-03-04 19:04:20,531 - INFO - Iteracja 1: condition_best: immigration = {y}, quality_best: 0.318, coverage_best: (p=88, n=49, P=168, N=267), precision: 0.642
+2025-03-04 19:04:20,531 - INFO - Regula po iteracji 1: IF crime = {y} AND immigration = {y} THEN class = republican, (p=88, n=49, P=168, N=267)
+2025-03-04 19:04:20,532 - INFO - Iteracja 2: condition_best: export-administration-act-south-africa = {y}, quality_best: 0.283, coverage_best: (p=58, n=32, P=168, N=267), precision: 0.644
+2025-03-04 19:04:20,533 - INFO - Regula po iteracji 2: IF crime = {y} AND immigration = {y} AND export-administration-act-south-africa = {y} THEN class = republican, (p=58, n=32, P=168, N=267)
+2025-03-04 19:04:20,534 - INFO - Iteracja 3: condition_best: anti-satellite-test-ban = {y}, quality_best: 0.136, coverage_best: (p=25, n=22, P=168, N=267), precision: 0.532
+2025-03-04 19:04:20,534 - INFO - Regula po iteracji 3: IF crime = {y} AND immigration = {y} AND export-administration-act-south-africa = {y} AND anti-satellite-test-ban = {y} THEN class = republican, (p=25, n=22, P=168, N=267)
+2025-03-04 19:04:20,536 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:04:20,536 - INFO - Regula po iteracji 4: IF crime = {y} AND immigration = {y} AND export-administration-act-south-africa = {y} AND anti-satellite-test-ban = {y} THEN class = republican, (p=25, n=22, P=168, N=267)
+2025-03-04 19:04:20,536 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:04:20,536 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:04:20,539 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:04:20,539 - INFO - Regula po iteracji 0: IF  THEN class = republican, (p=168, n=267, P=168, N=267)
+2025-03-04 19:04:20,539 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:04:20,539 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:04:20,542 - INFO - Iteracja 0: condition_best: physician-fee-freeze = {n}, quality_best: 0.939, coverage_best: (p=245, n=2, P=267, N=168), precision: 0.992
+2025-03-04 19:04:20,542 - INFO - Regula po iteracji 0: IF physician-fee-freeze = {n} THEN class = democrat, (p=245, n=2, P=267, N=168)
+2025-03-04 19:04:20,542 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,548 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,548 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=22, n=413, P=22, N=413)
+2025-03-04 19:04:20,548 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,548 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,550 - INFO - Iteracja 1: condition_best: adoption-of-the-budget-resolution = {y}, quality_best: 0.91, coverage_best: (p=219, n=0, P=267, N=168), precision: 1.0
+2025-03-04 19:04:20,551 - INFO - Regula po iteracji 1: IF physician-fee-freeze = {n} AND adoption-of-the-budget-resolution = {y} THEN class = democrat, (p=219, n=0, P=267, N=168)
+2025-03-04 19:04:20,551 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:04:20,552 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:04:20,554 - INFO - Iteracja 0: condition_best: el-salvador-aid = {n}, quality_best: 0.787, coverage_best: (p=200, n=8, P=267, N=168), precision: 0.962
+2025-03-04 19:04:20,555 - INFO - Regula po iteracji 0: IF el-salvador-aid = {n} THEN class = democrat, (p=200, n=8, P=267, N=168)
+2025-03-04 19:04:20,555 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,561 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,561 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=67, n=368, P=67, N=368)
+2025-03-04 19:04:20,561 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,562 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,563 - INFO - Iteracja 1: condition_best: aid-to-nicaraguan-contras = {y}, quality_best: 0.792, coverage_best: (p=197, n=7, P=267, N=168), precision: 0.966
+2025-03-04 19:04:20,564 - INFO - Regula po iteracji 1: IF el-salvador-aid = {n} AND aid-to-nicaraguan-contras = {y} THEN class = democrat, (p=197, n=7, P=267, N=168)
+2025-03-04 19:04:20,564 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,570 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,571 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=70, n=365, P=70, N=365)
+2025-03-04 19:04:20,571 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,571 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,572 - INFO - Iteracja 2: condition_best: anti-satellite-test-ban = {y}, quality_best: 0.776, coverage_best: (p=179, n=5, P=267, N=168), precision: 0.973
+2025-03-04 19:04:20,573 - INFO - Regula po iteracji 2: IF el-salvador-aid = {n} AND aid-to-nicaraguan-contras = {y} AND anti-satellite-test-ban = {y} THEN class = democrat, (p=179, n=5, P=267, N=168)
+2025-03-04 19:04:20,573 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,579 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,579 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=88, n=347, P=88, N=347)
+2025-03-04 19:04:20,580 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,580 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,581 - INFO - Iteracja 3: condition_best: education-spending = {n}, quality_best: 0.741, coverage_best: (p=156, n=4, P=267, N=168), precision: 0.975
+2025-03-04 19:04:20,582 - INFO - Regula po iteracji 3: IF el-salvador-aid = {n} AND aid-to-nicaraguan-contras = {y} AND anti-satellite-test-ban = {y} AND education-spending = {n} THEN class = democrat, (p=156, n=4, P=267, N=168)
+2025-03-04 19:04:20,582 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,588 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,588 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=111, n=324, P=111, N=324)
+2025-03-04 19:04:20,589 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,589 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,590 - INFO - Iteracja 4: condition_best: mx-missile = {y}, quality_best: 0.701, coverage_best: (p=137, n=4, P=267, N=168), precision: 0.972
+2025-03-04 19:04:20,591 - INFO - Regula po iteracji 4: IF el-salvador-aid = {n} AND aid-to-nicaraguan-contras = {y} AND anti-satellite-test-ban = {y} AND education-spending = {n} AND mx-missile = {y} THEN class = democrat, (p=137, n=4, P=267, N=168)
+2025-03-04 19:04:20,591 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,598 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,598 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=130, n=305, P=130, N=305)
+2025-03-04 19:04:20,598 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,598 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,599 - INFO - Iteracja 5: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:04:20,600 - INFO - Regula po iteracji 5: IF el-salvador-aid = {n} AND aid-to-nicaraguan-contras = {y} AND anti-satellite-test-ban = {y} AND education-spending = {n} AND mx-missile = {y} THEN class = democrat, (p=137, n=4, P=267, N=168)
+2025-03-04 19:04:20,600 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:04:20,601 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:04:20,604 - INFO - Iteracja 0: condition_best: adoption-of-the-budget-resolution = {y}, quality_best: 0.723, coverage_best: (p=231, n=22, P=267, N=168), precision: 0.913
+2025-03-04 19:04:20,604 - INFO - Regula po iteracji 0: IF adoption-of-the-budget-resolution = {y} THEN class = democrat, (p=231, n=22, P=267, N=168)
+2025-03-04 19:04:20,604 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,612 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,612 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=36, n=399, P=36, N=399)
+2025-03-04 19:04:20,612 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,612 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,614 - INFO - Iteracja 1: condition_best: synfuels-corporation-cutback = {y}, quality_best: 0.649, coverage_best: (p=106, n=3, P=267, N=168), precision: 0.972
+2025-03-04 19:04:20,614 - INFO - Regula po iteracji 1: IF adoption-of-the-budget-resolution = {y} AND synfuels-corporation-cutback = {y} THEN class = democrat, (p=106, n=3, P=267, N=168)
+2025-03-04 19:04:20,615 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,621 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,621 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=161, n=274, P=161, N=274)
+2025-03-04 19:04:20,621 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,621 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,622 - INFO - Iteracja 2: condition_best: water-project-cost-sharing = {y}, quality_best: 0.586, coverage_best: (p=60, n=1, P=267, N=168), precision: 0.984
+2025-03-04 19:04:20,623 - INFO - Regula po iteracji 2: IF adoption-of-the-budget-resolution = {y} AND synfuels-corporation-cutback = {y} AND water-project-cost-sharing = {y} THEN class = democrat, (p=60, n=1, P=267, N=168)
+2025-03-04 19:04:20,623 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,629 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,629 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=207, n=228, P=207, N=228)
+2025-03-04 19:04:20,629 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,629 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,631 - INFO - Iteracja 3: condition_best: religious-groups-in-schools = {y}, quality_best: 0.569, coverage_best: (p=37, n=0, P=267, N=168), precision: 1.0
+2025-03-04 19:04:20,631 - INFO - Regula po iteracji 3: IF adoption-of-the-budget-resolution = {y} AND synfuels-corporation-cutback = {y} AND water-project-cost-sharing = {y} AND religious-groups-in-schools = {y} THEN class = democrat, (p=37, n=0, P=267, N=168)
+2025-03-04 19:04:20,631 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:04:20,631 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:04:20,634 - INFO - Iteracja 0: condition_best: synfuels-corporation-cutback = {y}, quality_best: 0.473, coverage_best: (p=129, n=21, P=267, N=168), precision: 0.86
+2025-03-04 19:04:20,634 - INFO - Regula po iteracji 0: IF synfuels-corporation-cutback = {y} THEN class = democrat, (p=129, n=21, P=267, N=168)
+2025-03-04 19:04:20,635 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,643 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,643 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=138, n=297, P=138, N=297)
+2025-03-04 19:04:20,643 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,643 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,645 - INFO - Iteracja 1: condition_best: immigration = {n}, quality_best: 0.415, coverage_best: (p=67, n=10, P=267, N=168), precision: 0.87
+2025-03-04 19:04:20,645 - INFO - Regula po iteracji 1: IF synfuels-corporation-cutback = {y} AND immigration = {n} THEN class = democrat, (p=67, n=10, P=267, N=168)
+2025-03-04 19:04:20,645 - INFO - *****GROWING RR RULE*****
+2025-03-04 19:04:20,652 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 19:04:20,652 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=200, n=235, P=200, N=235)
+2025-03-04 19:04:20,652 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 19:04:20,652 - INFO - ***RR NOT FOUND***
+2025-03-04 19:04:20,654 - INFO - Iteracja 2: condition_best: religious-groups-in-schools = {y}, quality_best: 0.27, coverage_best: (p=39, n=10, P=267, N=168), precision: 0.796
+2025-03-04 19:04:20,654 - INFO - Regula po iteracji 2: IF synfuels-corporation-cutback = {y} AND immigration = {n} AND religious-groups-in-schools = {y} THEN class = democrat, (p=39, n=10, P=267, N=168)
+2025-03-04 19:04:20,655 - INFO - Iteracja 3: condition_best: anti-satellite-test-ban = {n}, quality_best: 0.168, coverage_best: (p=22, n=8, P=267, N=168), precision: 0.733
+2025-03-04 19:04:20,656 - INFO - Regula po iteracji 3: IF synfuels-corporation-cutback = {y} AND immigration = {n} AND religious-groups-in-schools = {y} AND anti-satellite-test-ban = {n} THEN class = democrat, (p=22, n=8, P=267, N=168)
+2025-03-04 19:04:20,657 - INFO - Iteracja 4: condition_best: aid-to-nicaraguan-contras = {n}, quality_best: 0.072, coverage_best: (p=14, n=7, P=267, N=168), precision: 0.667
+2025-03-04 19:04:20,657 - INFO - Regula po iteracji 4: IF synfuels-corporation-cutback = {y} AND immigration = {n} AND religious-groups-in-schools = {y} AND anti-satellite-test-ban = {n} AND aid-to-nicaraguan-contras = {n} THEN class = democrat, (p=14, n=7, P=267, N=168)
+2025-03-04 19:04:20,658 - INFO - Iteracja 5: condition_best: duty-free-exports = {n}, quality_best: 0.045, coverage_best: (p=11, n=6, P=267, N=168), precision: 0.647
+2025-03-04 19:04:20,659 - INFO - Regula po iteracji 5: IF synfuels-corporation-cutback = {y} AND immigration = {n} AND religious-groups-in-schools = {y} AND anti-satellite-test-ban = {n} AND aid-to-nicaraguan-contras = {n} AND duty-free-exports = {n} THEN class = democrat, (p=11, n=6, P=267, N=168)
+2025-03-04 19:04:20,660 - INFO - Iteracja 6: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:04:20,660 - INFO - Regula po iteracji 6: IF synfuels-corporation-cutback = {y} AND immigration = {n} AND religious-groups-in-schools = {y} AND anti-satellite-test-ban = {n} AND aid-to-nicaraguan-contras = {n} AND duty-free-exports = {n} THEN class = democrat, (p=11, n=6, P=267, N=168)
+2025-03-04 19:04:20,660 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:04:20,661 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:04:20,663 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:04:20,664 - INFO - Regula po iteracji 0: IF  THEN class = democrat, (p=267, n=168, P=267, N=168)
+2025-03-04 19:04:20,664 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:04:20,669 - INFO - ************************Finished experiment for vote.arff with algorithm3************************
+2025-03-04 19:04:20,669 - INFO - *************************************************************************************************************************
+2025-03-04 19:04:20,669 - INFO - *************************************************************************************************************************
+2025-03-04 19:04:20,669 - INFO - *************************************************************************************************************************

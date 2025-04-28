@@ -1,0 +1,16 @@
+
+CR: IF survival >= 21.50 AND lvdd <= 5.80 AND age-at-heart-attack <= 73.50 THEN class = 0 (p=54, n=0, P=88, N=43)
+
+CR: IF survival >= 21.50 AND lvdd <= 5.80 THEN class = 0 (p=60, n=1, P=88, N=43)
+
+CR: IF survival >= 21.50 AND mult >= 0.43 AND age-at-heart-attack <= 73.50 AND pericardial-effusion = {0} THEN class = 0 (p=52, n=0, P=88, N=43)
+
+CR: IF survival >= 11.00 AND lvdd <= 5.69 THEN class = 0 (p=76, n=3, P=88, N=43)
+
+CR: IF survival >= 8.25 AND age-at-heart-attack <= 73.50 AND wall-motion-index <= 2.23 AND fractional-shortening >= 0.03 AND wall-motion-score >= 8.50 AND wall-motion-score <= 20.50 THEN class = 0 (p=69, n=2, P=88, N=43)
+
+CR: IF survival <= 8.25 THEN class = 1 (p=33, n=1, P=43, N=88)
+
+CR: IF survival <= 20.00 AND fractional-shortening <= 0.18 AND group <= 2.00 THEN class = 1 (p=22, n=2, P=43, N=88)
+
+CR: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 THEN class = 1 (p=22, n=15, P=43, N=88)

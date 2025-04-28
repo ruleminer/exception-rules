@@ -1,0 +1,264 @@
+
+CR 0: IF Min_temperature <= -0.25 THEN class = {11.73} [7.86, 15.61] (p=5, n=1, P=7, N=1602)
+
+CR 1: IF Max_temperature >= 90.50 AND Min_temperature >= 62.40 THEN class = {78.88} [78.18, 79.57] (p=8, n=1, P=13, N=1596)
+
+CR 2: IF Max_temperature >= 90.50 AND Min_temperature >= 55.95 AND Max_wind_speed <= 21.30 AND Sea_level_pressure <= 29.86 THEN class = {78.36} [76.80, 79.91] (p=24, n=5, P=29, N=1580)
+
+CR 3: IF Max_temperature >= 90.50 AND Min_temperature >= 55.95 AND Max_wind_speed <= 24.65 AND Max_temperature <= 98.80 THEN class = {78.00} [76.65, 79.35] (p=25, n=8, P=28, N=1581)
+
+CR 4: IF Dewpoint >= 33.40 AND Wind_speed >= 1.90 AND Max_temperature >= 91.20 AND Max_temperature <= 99.50 THEN class = {77.27} [75.24, 79.31] (p=36, n=10, P=51, N=1558)
+
+CR 5: IF Max_temperature >= 89.40 AND Standard_pressure <= 26.84 AND Min_temperature >= 46.75 THEN class = {76.20} [73.69, 78.72] (p=55, n=21, P=69, N=1540)
+
+CR 6: IF Max_temperature >= 76.45 AND Max_temperature <= 91.85 AND Sea_level_pressure <= 30.09 AND Dewpoint <= 56.40 AND Wind_speed <= 12.75 THEN class = {68.13} [63.96, 72.30] (p=267, n=114, P=284, N=1325)
+
+CR 7: IF Max_temperature >= 76.45 AND Max_temperature <= 91.85 AND Sea_level_pressure <= 30.09 AND Min_temperature <= 64.20 AND Sea_level_pressure >= 29.50 THEN class = {68.14} [63.98, 72.30] (p=269, n=116, P=284, N=1325)
+
+CR 8: IF Max_temperature >= 76.45 AND Max_temperature <= 91.85 AND Max_wind_speed <= 47.15 AND Dewpoint <= 57.25 AND Sea_level_pressure <= 30.12 THEN class = {68.14} [63.98, 72.31] (p=271, n=118, P=284, N=1325)
+
+CR 9: IF Dewpoint <= 19.10 AND Wind_speed <= 14.35 AND Max_temperature <= 37.60 AND Max_temperature >= 23.35 THEN class = {22.59} [18.42, 26.75] (p=58, n=12, P=78, N=1531)
+
+CR 10: IF Max_temperature <= 42.20 AND Dewpoint <= 19.10 AND Wind_speed <= 14.35 THEN class = {23.56} [18.84, 28.29] (p=79, n=18, P=108, N=1501)
+
+CR 11: IF Dewpoint <= 19.55 AND Wind_speed <= 11.25 AND Max_temperature <= 37.60 AND Sea_level_pressure <= 30.59 THEN class = {22.37} [17.95, 26.79] (p=59, n=13, P=78, N=1531)
+
+CR 12: IF Min_temperature <= 18.95 AND Max_temperature <= 38.40 AND Sea_level_pressure <= 30.59 AND Standard_pressure <= 27.14 THEN class = {22.65} [18.22, 27.09] (p=59, n=12, P=85, N=1524)
+
+CR 13: IF Max_temperature <= 42.20 AND Min_temperature <= 18.95 THEN class = {23.64} [18.86, 28.41] (p=78, n=18, P=114, N=1495)
+
+CR 14: IF Max_temperature <= 42.20 AND Standard_pressure <= 27.17 AND Dewpoint <= 26.05 THEN class = {27.01} [22.21, 31.82] (p=159, n=51, P=188, N=1421)
+
+CR 15: IF Max_temperature <= 42.20 AND Min_temperature <= 28.10 AND Standard_pressure <= 27.17 AND Dewpoint <= 28.10 THEN class = {27.05} [22.27, 31.82] (p=159, n=54, P=188, N=1421)
+
+CR 16: IF Max_temperature <= 42.20 AND Min_temperature <= 28.10 AND Dewpoint <= 29.80 AND Standard_pressure <= 27.17 THEN class = {27.16} [22.38, 31.94] (p=163, n=55, P=192, N=1417)
+
+CR 17: IF Max_temperature <= 42.20 AND Dewpoint <= 27.45 AND Precipitation <= 0.25 THEN class = {27.25} [22.39, 32.11] (p=166, n=54, P=198, N=1411)
+
+CR 18: IF Max_temperature <= 42.20 AND Dewpoint <= 29.95 AND Min_temperature <= 29.75 AND Standard_pressure <= 27.16 THEN class = {27.57} [22.84, 32.29] (p=174, n=59, P=198, N=1411)
+
+CR 19: IF Max_temperature <= 42.20 AND Dewpoint <= 29.95 AND Wind_speed <= 15.20 THEN class = {27.89} [22.89, 32.90] (p=186, n=62, P=219, N=1390)
+
+CR 20: IF Max_temperature <= 42.20 AND Dewpoint <= 31.25 AND Standard_pressure <= 27.17 AND Min_temperature <= 29.75 THEN class = {27.65} [22.79, 32.51] (p=179, n=60, P=208, N=1401)
+
+CR 21: IF Max_temperature <= 42.20 AND Min_temperature <= 30.00 THEN class = {27.87} [22.89, 32.85] (p=184, n=65, P=214, N=1395)
+
+CR 22: IF Max_temperature <= 42.20 AND Standard_pressure <= 27.17 AND Dewpoint <= 31.75 THEN class = {28.32} [23.24, 33.40] (p=196, n=68, P=233, N=1376)
+
+CR 23: IF Max_temperature <= 42.20 AND Dewpoint <= 32.00 AND Precipitation <= 0.35 THEN class = {28.39} [23.26, 33.52] (p=198, n=69, P=240, N=1369)
+
+CR 24: IF Max_temperature <= 42.20 AND Min_temperature <= 32.35 AND Visibility >= 1.85 AND Standard_pressure <= 27.17 AND Visibility <= 9.45 THEN class = {28.50} [23.30, 33.70] (p=194, n=67, P=247, N=1362)
+
+CR 25: IF Max_temperature <= 42.60 AND Dewpoint <= 26.70 AND Wind_speed <= 14.70 THEN class = {27.21} [22.30, 32.12] (p=165, n=53, P=199, N=1410)
+
+CR 26: IF Max_temperature <= 42.60 AND Dewpoint <= 34.55 AND Standard_pressure <= 27.17 THEN class = {28.88} [23.65, 34.12] (p=209, n=79, P=258, N=1351)
+
+CR 27: IF Dewpoint <= 19.25 AND Max_temperature <= 47.90 AND Max_wind_speed <= 21.30 AND Wind_speed <= 10.85 THEN class = {23.55} [18.68, 28.41] (p=78, n=17, P=114, N=1495)
+
+CR 28: IF Dewpoint <= 19.25 AND Min_temperature <= 19.60 AND Max_wind_speed <= 21.30 AND Wind_speed >= 0.12 AND Wind_speed <= 11.95 THEN class = {23.94} [18.48, 29.41] (p=76, n=14, P=136, N=1473)
+
+CR 29: IF Max_temperature <= 85.20 AND Min_temperature >= 31.35 AND Max_wind_speed <= 26.90 AND Max_temperature >= 73.85 THEN class = {65.33} [61.89, 68.78] (p=230, n=87, P=263, N=1346)
+
+CR 30: IF Max_temperature >= 73.70 AND Max_temperature <= 85.20 AND Min_temperature >= 31.35 AND Max_wind_speed <= 32.70 AND Wind_speed >= 1.32 THEN class = {65.32} [61.89, 68.75] (p=232, n=90, P=263, N=1346)
+
+CR 31: IF Max_temperature >= 73.50 AND Max_temperature <= 85.20 AND Max_wind_speed <= 32.70 AND Visibility <= 9.35 AND Min_temperature <= 62.05 THEN class = {65.14} [61.58, 68.70] (p=236, n=93, P=269, N=1340)
+
+CR 32: IF Max_temperature >= 72.85 AND Max_temperature <= 85.55 AND Min_temperature <= 61.70 AND Min_temperature >= 39.40 THEN class = {65.36} [61.88, 68.83] (p=243, n=99, P=266, N=1343)
+
+CR 33: IF Max_temperature >= 72.60 AND Min_temperature >= 39.10 AND Max_temperature <= 84.00 AND Max_wind_speed <= 41.35 AND Visibility >= 6.95 THEN class = {64.68} [61.37, 68.00] (p=218, n=90, P=252, N=1357)
+
+CR 34: IF Max_temperature >= 72.60 AND Max_wind_speed <= 47.15 AND Min_temperature <= 61.35 AND Standard_pressure <= 26.97 AND Dewpoint <= 55.80 THEN class = {67.04} [61.87, 72.20] (p=351, n=149, P=363, N=1246)
+
+CR 35: IF Max_temperature <= 43.00 AND Dewpoint <= 29.75 AND Min_temperature <= 28.75 AND Standard_pressure <= 27.17 THEN class = {27.66} [22.81, 32.51] (p=180, n=60, P=208, N=1401)
+
+CR 36: IF Max_temperature <= 43.00 AND Dewpoint <= 31.75 AND Standard_pressure <= 27.16 AND Visibility <= 9.55 THEN class = {28.72} [23.62, 33.81] (p=206, n=72, P=246, N=1363)
+
+CR 37: IF Max_temperature <= 43.00 AND Min_temperature <= 32.35 AND Precipitation <= 0.35 AND Dewpoint <= 35.30 AND Sea_level_pressure >= 29.53 THEN class = {28.92} [23.63, 34.21] (p=212, n=78, P=260, N=1349)
+
+CR 38: IF Min_temperature >= 44.80 AND Min_temperature <= 60.00 AND Standard_pressure >= 26.52 AND Dewpoint <= 55.80 AND Dewpoint >= 32.65 THEN class = {66.48} [60.65, 72.31] (p=347, n=128, P=396, N=1213)
+
+CR 39: IF Min_temperature >= 44.80 AND Min_temperature <= 60.00 AND Max_temperature >= 55.95 AND Sea_level_pressure >= 29.55 AND Dewpoint <= 56.80 THEN class = {66.49} [60.67, 72.30] (p=347, n=131, P=396, N=1213)
+
+CR 40: IF Max_temperature <= 43.25 AND Min_temperature <= 33.70 AND Standard_pressure <= 27.16 AND Sea_level_pressure >= 29.59 THEN class = {29.43} [24.06, 34.80] (p=220, n=86, P=278, N=1331)
+
+CR 41: IF Max_temperature <= 43.25 AND Sea_level_pressure >= 29.82 AND Precipitation <= 0.40 AND Visibility >= 0.65 AND Standard_pressure <= 27.17 THEN class = {29.25} [23.67, 34.82] (p=210, n=77, P=283, N=1326)
+
+CR 42: IF Max_temperature <= 44.15 AND Min_temperature <= 29.75 AND Dewpoint <= 28.70 THEN class = {27.75} [22.88, 32.62] (p=187, n=62, P=211, N=1398)
+
+CR 43: IF Max_temperature <= 44.15 AND Min_temperature <= 33.20 AND Sea_level_pressure >= 29.53 AND Standard_pressure <= 27.17 AND Dewpoint <= 33.15 THEN class = {29.17} [23.93, 34.41] (p=220, n=87, P=264, N=1345)
+
+CR 44: IF Max_temperature <= 44.15 AND Precipitation <= 0.35 AND Standard_pressure <= 27.17 THEN class = {29.80} [24.20, 35.41] (p=235, n=91, P=297, N=1312)
+
+CR 45: IF Dewpoint <= 19.95 AND Min_temperature <= 23.45 AND Max_temperature <= 59.80 THEN class = {25.01} [19.55, 30.47] (p=94, n=28, P=150, N=1459)
+
+CR 46: IF Max_temperature <= 85.55 AND Min_temperature >= 39.10 AND Max_temperature >= 72.15 THEN class = {65.10} [61.37, 68.82] (p=258, n=109, P=279, N=1330)
+
+CR 47: IF Max_temperature >= 71.80 AND Min_temperature >= 36.30 AND Max_temperature <= 85.55 AND Sea_level_pressure <= 30.13 AND Max_wind_speed <= 41.35 THEN class = {64.91} [61.09, 68.73] (p=261, n=116, P=281, N=1328)
+
+CR 48: IF Max_temperature <= 48.65 AND Dewpoint <= 28.15 AND Min_temperature <= 30.00 AND Standard_pressure <= 27.16 THEN class = {28.59} [23.66, 33.53] (p=213, n=70, P=236, N=1373)
+
+CR 49: IF Max_temperature <= 48.65 AND Dewpoint <= 29.45 AND Min_temperature <= 29.30 THEN class = {28.74} [23.66, 33.82] (p=223, n=74, P=246, N=1363)
+
+CR 50: IF Max_temperature <= 48.65 AND Dewpoint <= 29.45 AND Min_temperature <= 31.55 AND Precipitation <= 0.40 THEN class = {29.19} [23.98, 34.40] (p=237, n=79, P=264, N=1345)
+
+CR 51: IF Min_temperature <= 29.20 AND Max_temperature <= 48.30 AND Dewpoint <= 31.70 THEN class = {28.98} [23.85, 34.10] (p=229, n=80, P=253, N=1356)
+
+CR 52: IF Max_temperature <= 48.65 AND Min_temperature <= 29.20 AND Dewpoint <= 32.70 AND Standard_pressure <= 27.17 THEN class = {29.29} [24.07, 34.51] (p=238, n=82, P=265, N=1344)
+
+CR 53: IF Max_temperature <= 48.65 AND Min_temperature <= 30.00 AND Dewpoint <= 32.45 AND Precipitation <= 0.40 THEN class = {29.44} [24.18, 34.70] (p=244, n=85, P=273, N=1336)
+
+CR 54: IF Dewpoint <= 33.65 AND Min_temperature <= 30.40 AND Max_temperature <= 48.50 AND Standard_pressure <= 27.17 THEN class = {29.90} [24.58, 35.23] (p=257, n=98, P=286, N=1323)
+
+CR 55: IF Dewpoint <= 33.65 AND Max_temperature <= 48.65 AND Min_temperature <= 31.80 AND Precipitation <= 0.45 THEN class = {30.20} [24.79, 35.61] (p=270, n=102, P=298, N=1311)
+
+CR 56: IF Dewpoint <= 30.85 AND Max_temperature <= 48.40 AND Precipitation <= 0.75 THEN class = {29.74} [24.38, 35.10] (p=251, n=96, P=284, N=1325)
+
+CR 57: IF Max_temperature <= 48.65 AND Min_temperature <= 33.20 AND Dewpoint <= 32.85 THEN class = {30.46} [24.98, 35.93] (p=276, n=114, P=305, N=1304)
+
+CR 58: IF Max_temperature <= 48.65 AND Dewpoint <= 33.45 AND Standard_pressure <= 27.17 THEN class = {30.89} [25.28, 36.51] (p=294, n=116, P=331, N=1278)
+
+CR 59: IF Dewpoint <= 26.95 AND Max_temperature <= 50.55 AND Max_wind_speed <= 45.95 THEN class = {28.46} [23.35, 33.56] (p=210, n=69, P=239, N=1370)
+
+CR 60: IF Dewpoint <= 26.95 AND Max_temperature <= 52.40 AND Max_wind_speed <= 45.95 THEN class = {28.63} [23.46, 33.81] (p=216, n=70, P=247, N=1362)
+
+CR 61: IF Max_temperature <= 53.15 AND Dewpoint <= 26.95 AND Min_temperature <= 28.75 AND Standard_pressure <= 27.15 THEN class = {28.73} [23.65, 33.81] (p=212, n=72, P=246, N=1363)
+
+CR 62: IF Dewpoint <= 28.35 AND Max_temperature <= 51.45 AND Min_temperature <= 28.75 THEN class = {28.81} [23.66, 33.96] (p=226, n=73, P=252, N=1357)
+
+CR 63: IF Dewpoint <= 28.65 AND Min_temperature <= 29.75 AND Max_temperature <= 52.25 THEN class = {29.14} [23.88, 34.40] (p=235, n=80, P=264, N=1345)
+
+CR 64: IF Dewpoint <= 30.35 AND Min_temperature <= 26.50 AND Max_temperature <= 52.70 THEN class = {28.63} [23.29, 33.96] (p=208, n=67, P=256, N=1353)
+
+CR 65: IF Max_temperature <= 53.15 AND Dewpoint <= 32.55 AND Standard_pressure <= 27.17 AND Min_temperature <= 26.50 THEN class = {28.98} [23.59, 34.37] (p=212, n=76, P=265, N=1344)
+
+CR 66: IF Max_temperature <= 53.15 AND Dewpoint <= 32.55 AND Standard_pressure <= 27.17 AND Sea_level_pressure >= 29.53 THEN class = {31.50} [25.80, 37.20] (p=330, n=128, P=359, N=1250)
+
+CR 67: IF Max_temperature <= 53.15 AND Min_temperature <= 33.70 AND Dewpoint <= 32.95 AND Standard_pressure <= 27.17 THEN class = {31.55} [25.90, 37.21] (p=334, n=131, P=358, N=1251)
+
+CR 68: IF Dewpoint <= 33.65 AND Max_temperature <= 53.15 AND Sea_level_pressure <= 30.59 THEN class = {31.97} [26.19, 37.74] (p=349, n=141, P=376, N=1233)
+
+CR 69: IF Max_temperature <= 53.80 AND Dewpoint <= 32.65 AND Standard_pressure <= 27.17 THEN class = {31.66} [25.90, 37.42] (p=338, n=130, P=363, N=1246)
+
+CR 70: IF Max_temperature <= 54.20 AND Dewpoint <= 33.55 AND Sea_level_pressure >= 29.62 AND Standard_pressure <= 27.17 THEN class = {32.10} [26.19, 38.02] (p=354, n=141, P=387, N=1222)
+
+CR 71: IF Max_temperature <= 55.60 AND Dewpoint <= 28.35 AND Min_temperature <= 27.95 AND Precipitation <= 0.35 THEN class = {29.08} [23.65, 34.50] (p=224, n=75, P=270, N=1339)
+
+CR 72: IF Max_temperature <= 55.60 AND Min_temperature <= 33.35 AND Dewpoint <= 33.55 AND Standard_pressure <= 27.17 THEN class = {31.95} [26.17, 37.73] (p=354, n=138, P=376, N=1233)
+
+CR 73: IF Max_temperature <= 56.00 AND Dewpoint <= 31.95 AND Standard_pressure <= 27.17 AND Min_temperature <= 33.70 THEN class = {31.50} [25.79, 37.21] (p=327, n=130, P=359, N=1250)
+
+CR 74: IF Dewpoint >= 19.10 AND Visibility >= 0.55 AND Max_temperature >= 29.85 AND Dewpoint <= 32.95 THEN class = {36.64} [30.28, 43.00] (p=379, n=112, P=490, N=1119)
+
+CR 75: IF Dewpoint <= 33.65 AND Dewpoint >= 19.10 AND Visibility >= 0.55 AND Max_temperature >= 29.85 AND Visibility <= 9.80 THEN class = {37.01} [30.47, 43.55] (p=399, n=121, P=501, N=1108)
+
+CR 76: IF Min_temperature >= 44.50 AND Max_temperature <= 85.00 AND Standard_pressure >= 26.62 AND Sea_level_pressure <= 30.12 AND Min_temperature <= 61.70 THEN class = {63.98} [59.24, 68.71] (p=260, n=88, P=332, N=1277)
+
+CR 77: IF Min_temperature >= 43.60 AND Max_temperature <= 85.80 AND Max_temperature >= 65.60 AND Standard_pressure >= 26.49 AND Min_temperature <= 61.70 THEN class = {64.69} [60.67, 68.71] (p=262, n=112, P=293, N=1316)
+
+CR 78: IF Min_temperature >= 43.60 AND Max_temperature <= 85.80 AND Standard_pressure >= 26.57 AND Sea_level_pressure <= 30.10 AND Visibility >= 6.75 THEN class = {64.08} [59.05, 69.10] (p=283, n=105, P=345, N=1264)
+
+CR 79: IF Min_temperature <= 34.50 AND Max_temperature <= 53.40 AND Dewpoint <= 34.05 THEN class = {31.89} [26.12, 37.66] (p=350, n=141, P=370, N=1239)
+
+CR 80: IF Dewpoint <= 34.15 AND Dewpoint >= 19.10 AND Visibility >= 0.55 AND Visibility <= 9.80 AND Max_temperature >= 29.85 THEN class = {37.32} [30.47, 44.17] (p=414, n=125, P=516, N=1093)
+
+CR 81: IF Max_temperature >= 71.40 AND Max_temperature <= 82.30 AND Standard_pressure <= 26.97 AND Min_temperature <= 59.35 AND Dewpoint <= 55.35 THEN class = {62.86} [59.42, 66.31] (p=210, n=92, P=242, N=1367)
+
+CR 82: IF Dewpoint <= 34.45 AND Min_temperature <= 34.05 AND Max_temperature <= 53.40 THEN class = {31.98} [26.20, 37.76] (p=355, n=143, P=376, N=1233)
+
+CR 83: IF Dewpoint <= 34.45 AND Max_temperature <= 63.05 AND Standard_pressure <= 27.16 AND Sea_level_pressure >= 29.62 AND Sea_level_pressure <= 30.52 THEN class = {34.09} [27.68, 40.50] (p=441, n=171, P=465, N=1144)
+
+CR 84: IF Max_temperature <= 44.80 AND Visibility <= 9.95 AND Precipitation <= 0.45 AND Min_temperature <= 38.75 AND Wind_speed <= 14.50 THEN class = {30.15} [24.39, 35.91] (p=244, n=99, P=314, N=1295)
+
+CR 85: IF Min_temperature >= 42.70 AND Max_temperature >= 65.30 AND Max_temperature <= 81.40 AND Wind_speed <= 9.84 AND Visibility >= 6.90 THEN class = {62.79} [59.27, 66.31] (p=187, n=65, P=252, N=1357)
+
+CR 86: IF Min_temperature >= 42.70 AND Visibility >= 7.45 AND Min_temperature <= 61.70 AND Standard_pressure >= 26.45 AND Standard_pressure <= 26.97 THEN class = {65.81} [59.29, 72.34] (p=393, n=154, P=435, N=1174)
+
+CR 87: IF Dewpoint <= 35.05 AND Max_temperature <= 53.80 AND Min_temperature <= 35.40 THEN class = {32.31} [26.40, 38.22] (p=372, n=147, P=395, N=1214)
+
+CR 88: IF Dewpoint <= 35.05 AND Max_temperature <= 62.00 AND Max_temperature >= 34.60 AND Min_temperature <= 36.25 AND Sea_level_pressure <= 30.54 THEN class = {35.52} [30.50, 40.55] (p=380, n=147, P=403, N=1206)
+
+CR 89: IF Dewpoint <= 35.05 AND Dewpoint >= 18.95 AND Visibility <= 9.80 AND Max_temperature >= 35.80 THEN class = {38.55} [31.60, 45.49] (p=408, n=128, P=513, N=1096)
+
+CR 90: IF Max_temperature <= 47.00 AND Sea_level_pressure >= 29.80 AND Visibility <= 9.95 THEN class = {30.89} [24.97, 36.81] (p=275, n=111, P=348, N=1261)
+
+CR 91: IF Min_temperature >= 41.30 AND Max_temperature >= 66.80 AND Max_temperature <= 80.80 AND Min_temperature <= 60.25 AND Visibility >= 6.85 THEN class = {62.51} [59.29, 65.73] (p=190, n=77, P=227, N=1382)
+
+CR 92: IF Min_temperature >= 41.30 AND Max_temperature <= 81.85 AND Max_temperature >= 60.35 AND Visibility >= 6.90 AND Sea_level_pressure <= 30.18 THEN class = {62.07} [57.80, 66.34] (p=238, n=96, P=290, N=1319)
+
+CR 93: IF Min_temperature >= 41.30 AND Standard_pressure >= 26.52 AND Max_temperature <= 81.40 AND Min_temperature <= 61.50 THEN class = {60.84} [55.38, 66.30] (p=263, n=94, P=346, N=1263)
+
+CR 94: IF Dewpoint <= 35.15 AND Max_temperature >= 34.60 AND Sea_level_pressure <= 30.45 AND Min_temperature >= 7.50 AND Visibility <= 9.80 THEN class = {37.80} [30.48, 45.13] (p=448, n=145, P=545, N=1064)
+
+CR 95: IF Max_temperature <= 48.00 AND Standard_pressure <= 27.16 AND Visibility <= 9.95 AND Min_temperature <= 38.85 AND Sea_level_pressure <= 30.59 THEN class = {31.60} [25.79, 37.41] (p=302, n=132, P=364, N=1245)
+
+CR 96: IF Max_temperature <= 48.65 AND Min_temperature <= 37.20 AND Dewpoint <= 38.70 AND Standard_pressure <= 27.17 THEN class = {31.72} [25.80, 37.64] (p=318, n=136, P=374, N=1235)
+
+CR 97: IF Max_temperature <= 48.65 AND Min_temperature <= 41.70 THEN class = {32.04} [25.88, 38.20] (p=332, n=138, P=403, N=1206)
+
+CR 98: IF Max_temperature <= 49.40 AND Min_temperature <= 35.80 AND Dewpoint <= 38.20 AND Sea_level_pressure >= 29.55 AND Standard_pressure <= 27.17 THEN class = {31.78} [25.90, 37.66] (p=324, n=140, P=373, N=1236)
+
+CR 99: IF Max_temperature >= 70.60 AND Max_temperature <= 80.80 AND Min_temperature >= 29.20 AND Dewpoint <= 55.35 AND Standard_pressure >= 26.52 THEN class = {62.11} [58.49, 65.73] (p=202, n=84, P=250, N=1359)
+
+CR 100: IF Max_temperature <= 49.80 AND Precipitation <= 1.05 AND Dewpoint <= 39.35 AND Standard_pressure <= 27.17 THEN class = {32.35} [26.19, 38.52] (p=347, n=147, P=408, N=1201)
+
+CR 101: IF Max_temperature >= 68.45 AND Max_temperature <= 81.85 AND Min_temperature >= 32.35 AND Standard_pressure >= 26.55 THEN class = {62.24} [58.28, 66.20] (p=240, n=98, P=279, N=1330)
+
+CR 102: IF Dewpoint <= 35.35 AND Max_temperature <= 62.80 AND Min_temperature <= 35.95 AND Visibility <= 9.55 AND Max_temperature >= 34.60 THEN class = {35.66} [30.44, 40.87] (p=384, n=153, P=409, N=1200)
+
+CR 103: IF Max_temperature >= 67.20 AND Max_temperature <= 82.70 AND Min_temperature >= 34.80 AND Min_temperature <= 58.65 AND Dewpoint >= 32.30 THEN class = {62.34} [58.29, 66.40] (p=264, n=105, P=290, N=1319)
+
+CR 104: IF Max_temperature >= 67.20 AND Max_temperature <= 82.70 AND Dewpoint >= 35.45 AND Min_temperature <= 59.35 AND Min_temperature >= 29.90 THEN class = {62.31} [58.19, 66.44] (p=270, n=115, P=292, N=1317)
+
+CR 105: IF Dewpoint <= 35.95 AND Max_temperature <= 59.45 AND Min_temperature <= 37.20 AND Max_temperature >= 35.50 AND Standard_pressure >= 26.41 THEN class = {35.53} [30.56, 40.51] (p=369, n=153, P=395, N=1214)
+
+CR 106: IF Dewpoint <= 35.95 AND Max_temperature >= 41.60 AND Min_temperature >= 11.75 AND Wind_speed >= 0.12 THEN class = {40.70} [33.50, 47.90] (p=377, n=110, P=514, N=1095)
+
+CR 107: IF Max_temperature >= 66.40 AND Min_temperature <= 57.75 AND Min_temperature >= 26.65 AND Max_temperature <= 78.20 THEN class = {59.19} [55.07, 63.30] (p=198, n=85, P=235, N=1374)
+
+CR 108: IF Dewpoint <= 36.15 AND Max_temperature >= 34.60 AND Sea_level_pressure <= 30.49 AND Wind_speed <= 15.40 AND Visibility <= 10.45 THEN class = {38.49} [30.49, 46.48] (p=504, n=159, P=583, N=1026)
+
+CR 109: IF Max_temperature <= 50.60 AND Min_temperature <= 36.50 AND Precipitation <= 0.75 THEN class = {32.25} [26.19, 38.30] (p=350, n=147, P=402, N=1207)
+
+CR 110: IF Max_temperature <= 50.60 AND Sea_level_pressure >= 29.59 THEN class = {32.90} [26.48, 39.32] (p=369, n=159, P=432, N=1177)
+
+CR 111: IF Min_temperature >= 40.90 AND Max_temperature <= 86.20 AND Min_temperature <= 62.05 AND Max_temperature >= 59.20 THEN class = {63.51} [58.29, 68.72] (p=331, n=141, P=362, N=1247)
+
+CR 112: IF Min_temperature >= 40.90 AND Precipitation <= 0.15 AND Min_temperature <= 61.00 AND Dewpoint <= 56.75 AND Dewpoint >= 32.75 THEN class = {65.25} [58.30, 72.21] (p=400, n=153, P=462, N=1147)
+
+CR 113: IF Dewpoint <= 36.55 AND Max_temperature >= 41.45 AND Wind_speed <= 13.30 THEN class = {41.16} [33.49, 48.82] (p=407, n=116, P=551, N=1058)
+
+CR 114: IF Max_temperature <= 52.25 AND Min_temperature <= 33.70 AND Visibility >= 0.55 AND Standard_pressure <= 27.17 THEN class = {32.18} [26.15, 38.21] (p=356, n=135, P=400, N=1209)
+
+CR 115: IF Max_temperature <= 52.25 AND Sea_level_pressure >= 29.61 THEN class = {33.55} [26.89, 40.22] (p=402, n=171, P=467, N=1142)
+
+CR 116: IF Dewpoint <= 36.65 AND Min_temperature >= 16.40 AND Max_temperature >= 39.50 THEN class = {40.89} [33.20, 48.58] (p=440, n=136, P=550, N=1059)
+
+CR 117: IF Min_temperature <= 32.90 AND Max_temperature <= 55.20 AND Precipitation <= 2.40 AND Standard_pressure <= 27.17 THEN class = {32.59} [26.36, 38.81] (p=378, n=144, P=414, N=1195)
+
+CR 118: IF Max_temperature <= 56.20 AND Min_temperature <= 37.50 AND Wind_speed >= 0.86 AND Max_temperature >= 41.60 THEN class = {38.27} [34.16, 42.38] (p=250, n=97, P=333, N=1276)
+
+CR 119: IF Max_temperature <= 56.20 AND Min_temperature <= 41.75 AND Max_temperature >= 39.00 AND Dewpoint <= 44.25 AND Visibility <= 10.60 THEN class = {37.45} [32.59, 42.31] (p=329, n=148, P=391, N=1218)
+
+CR 120: IF Min_temperature <= 32.20 AND Max_temperature <= 60.00 AND Max_temperature >= 34.60 AND Sea_level_pressure >= 29.62 AND Wind_speed <= 15.40 THEN class = {35.41} [30.09, 40.72] (p=359, n=142, P=414, N=1195)
+
+CR 121: IF Min_temperature <= 32.20 AND Max_temperature <= 62.80 AND Max_temperature >= 34.60 AND Visibility >= 0.55 AND Wind_speed <= 15.40 THEN class = {35.91} [30.27, 41.54] (p=381, n=149, P=440, N=1169)
+
+CR 122: IF Max_temperature >= 65.20 AND Max_temperature <= 78.20 AND Visibility >= 6.90 AND Sea_level_pressure >= 29.61 AND Min_temperature <= 60.25 THEN class = {58.87} [54.42, 63.32] (p=213, n=87, P=250, N=1359)
+
+CR 123: IF Min_temperature <= 32.60 AND Max_temperature <= 65.20 AND Max_temperature >= 34.60 AND Wind_speed >= 0.29 AND Visibility >= 1.55 THEN class = {36.49} [30.48, 42.50] (p=394, n=155, P=476, N=1133)
+
+CR 124: IF Dewpoint <= 37.25 AND Max_temperature >= 39.50 AND Min_temperature >= 16.40 AND Wind_speed <= 16.70 AND Visibility <= 10.65 THEN class = {41.17} [33.38, 48.97] (p=457, n=143, P=555, N=1054)
+
+CR 125: IF Min_temperature >= 39.40 AND Max_temperature >= 60.00 AND Max_temperature <= 86.45 AND Standard_pressure >= 26.55 AND Min_temperature <= 62.30 THEN class = {63.49} [58.27, 68.71] (p=338, n=152, P=362, N=1247)
+
+CR 126: IF Min_temperature <= 34.00 AND Max_temperature <= 64.85 AND Max_temperature >= 39.50 AND Visibility <= 9.80 AND Max_wind_speed >= 4.03 THEN class = {38.53} [33.08, 43.98] (p=352, n=140, P=423, N=1186)
+
+CR 127: IF Max_temperature >= 62.80 AND Visibility >= 6.60 AND Max_temperature <= 82.50 THEN class = {59.90} [53.69, 66.11] (p=366, n=152, P=381, N=1228)
+
+CR 128: IF Max_temperature <= 58.80 AND Max_temperature >= 39.50 AND Min_temperature <= 37.50 AND Max_wind_speed >= 2.76 THEN class = {37.90} [33.10, 42.70] (p=336, n=136, P=391, N=1218)
+
+CR 129: IF Min_temperature >= 38.40 AND Max_temperature >= 58.55 AND Max_temperature <= 82.70 AND Dewpoint <= 54.55 THEN class = {61.16} [55.90, 66.42] (p=296, n=138, P=335, N=1274)
+
+CR 130: IF Dewpoint <= 38.15 AND Max_temperature >= 42.60 AND Dewpoint >= 26.35 AND Sea_level_pressure >= 29.51 AND Visibility >= 3.55 THEN class = {44.56} [36.69, 52.43] (p=364, n=104, P=520, N=1089)
+
+CR 131: IF Dewpoint <= 39.75 AND Max_temperature >= 42.60 AND Dewpoint >= 25.45 AND Visibility >= 1.80 AND Max_wind_speed <= 34.95 THEN class = {45.12} [36.70, 53.55] (p=433, n=128, P=537, N=1072)

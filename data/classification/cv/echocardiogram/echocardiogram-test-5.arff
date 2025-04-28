@@ -1,0 +1,29 @@
+@relation R_data_frame
+
+@attribute survival numeric
+@attribute alive-at-1 {0,1}
+@attribute age-at-heart-attack numeric
+@attribute pericardial-effusion {0,1}
+@attribute fractional-shortening numeric
+@attribute epss numeric
+@attribute lvdd numeric
+@attribute wall-motion-score numeric
+@attribute wall-motion-index numeric
+@attribute mult numeric
+@attribute group numeric
+@attribute class {0,1}
+
+@data
+0.5,1,69,1,0.26,11,4.65,18,1.64,0.784,1,1
+0.75,1,85,1,0.18,19,5.46,13.83,1.38,0.71,1,1
+0.5,1,73,0,0.23,12.733,6.06,7.5,1.5,0.36,1,1
+29,?,35,0,0.3,5,4.17,14,1,1,2,0
+26,0,61,0,0.61,13.1,4.07,13,1.625,0.571,2,0
+37,?,64,0,0.09,?,?,12,2,0.428,2,0
+22,0,57,0,0.13,18.6,4.37,12.33,1.37,0.642,2,0
+38,?,68,0,0.29,?,4.41,14,1.167,0.857,2,0
+47,0,65,0,0.36,8.8,5.78,12,1,0.857,2,0
+26,?,50,0,0.06,30.1,5.95,21.5,2.39,0.643,2,0
+0.03,1,?,0,0.26,19.4,4.77,21,2.1,0.714,2,1
+34,?,52,0,0.14,25,6.21,11.5,1.15,0.714,2,0
+38,?,57,1,0.12,0,2.32,16.5,1.375,0.857,?,0

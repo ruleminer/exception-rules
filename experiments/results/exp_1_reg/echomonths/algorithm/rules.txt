@@ -1,0 +1,38 @@
+
+CR 0: IF alive_at_1 = {1.0} AND epss >= 6.50 THEN class = {1.50} [-1.04, 4.04] (p=16, n=2, P=29, N=101)
+
+CR 1: IF alive_at_1 = {1.0} THEN class = {1.74} [-0.92, 4.40] (p=19, n=4, P=29, N=101)
+
+CR 2: IF still_alive = {1} AND wall_index >= 1.35 THEN class = {3.07} [-3.30, 9.45] (p=24, n=3, P=34, N=96)
+
+CR 3: IF still_alive = {1} AND epss <= 16.50 AND age <= 79.50 THEN class = {4.12} [-4.07, 12.31] (p=23, n=2, P=42, N=88)
+
+CR 4: IF still_alive = {1} AND age <= 79.50 AND epss <= 34.00 THEN class = {5.79} [-3.56, 15.13] (p=32, n=6, P=46, N=84)
+
+CR 5: IF wall_index >= 1.59 AND lvdd <= 5.91 AND age <= 67.00 THEN class = {15.07} [-0.44, 30.57] (p=14, n=1, P=87, N=43)
+
+CR 6: IF wall_index >= 1.59 AND lvdd <= 6.29 AND fractional <= 0.56 THEN class = {14.91} [-0.94, 30.77] (p=21, n=2, P=87, N=43)
+
+CR 7: IF wall_index >= 1.38 AND lvdd >= 4.49 AND wall_score <= 19.25 THEN class = {11.14} [-3.97, 26.26] (p=13, n=1, P=77, N=53)
+
+CR 8: IF wall_index >= 1.38 THEN class = {14.85} [-1.10, 30.81] (p=40, n=8, P=87, N=43)
+
+CR 9: IF fractional >= 0.37 AND wall_score <= 16.75 THEN class = {28.00} [17.85, 38.15] (p=7, n=1, P=60, N=70)
+
+CR 10: IF age <= 57.50 AND lvdd <= 4.52 AND lvdd >= 3.61 THEN class = {30.21} [21.72, 38.71] (p=13, n=1, P=51, N=79)
+
+CR 11: IF age <= 57.50 AND wall_score <= 16.25 AND lvdd >= 3.61 THEN class = {26.96} [16.53, 37.39] (p=21, n=3, P=60, N=70)
+
+CR 12: IF age <= 57.50 AND wall_index <= 2.45 THEN class = {27.29} [15.95, 38.62] (p=28, n=7, P=65, N=65)
+
+CR 13: IF wall_index <= 1.75 AND lvdd >= 3.62 AND age <= 63.50 AND lvdd <= 4.53 THEN class = {28.88} [19.68, 38.07] (p=21, n=3, P=55, N=75)
+
+CR 14: IF lvdd >= 3.62 AND lvdd <= 4.43 AND age <= 72.50 THEN class = {27.45} [16.79, 38.11] (p=24, n=5, P=62, N=68)
+
+CR 15: IF wall_index <= 1.75 AND fractional <= 0.42 AND still_alive = {0} AND lvdd <= 4.50 THEN class = {31.17} [21.55, 40.78] (p=27, n=9, P=53, N=77)
+
+CR 16: IF still_alive = {0} AND wall_score <= 12.16 AND age <= 66.50 THEN class = {33.00} [24.80, 41.20] (p=23, n=6, P=48, N=82)
+
+CR 17: IF still_alive = {0} AND wall_score <= 13.25 AND lvdd <= 5.68 AND fractional >= 0.14 THEN class = {33.21} [24.94, 41.49] (p=26, n=7, P=48, N=82)
+
+CR 18: IF still_alive = {0} AND wall_score <= 14.75 AND lvdd >= 3.61 AND fractional >= 0.17 AND wall_index <= 1.68 THEN class = {31.38} [21.42, 41.33] (p=32, n=8, P=56, N=74)

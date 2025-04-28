@@ -1,0 +1,63 @@
+2025-03-04 14:20:57,875 - INFO - **********Starting experiment for contact-lenses.arff with algorithm3**********
+2025-03-04 14:20:57,879 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:57,880 - INFO - Iteracja 0: condition_best: tear-prod-rate = {reduced}, quality_best: 0.9, coverage_best: (p=12, n=0, P=15, N=9), precision: 1.0
+2025-03-04 14:20:57,880 - INFO - Regula po iteracji 0: IF tear-prod-rate = {reduced} THEN class = none, (p=12, n=0, P=15, N=9)
+2025-03-04 14:20:57,880 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:57,880 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:57,881 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:57,881 - INFO - Regula po iteracji 0: IF  THEN class = none, (p=15, n=9, P=15, N=9)
+2025-03-04 14:20:57,881 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:57,881 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:57,881 - INFO - Iteracja 0: condition_best: astigmatism = {no}, quality_best: 0.263, coverage_best: (p=5, n=7, P=5, N=19), precision: 0.417
+2025-03-04 14:20:57,881 - INFO - Regula po iteracji 0: IF astigmatism = {no} THEN class = soft, (p=5, n=7, P=5, N=19)
+2025-03-04 14:20:57,881 - INFO - Iteracja 1: condition_best: tear-prod-rate = {normal}, quality_best: 0.789, coverage_best: (p=5, n=1, P=5, N=19), precision: 0.833
+2025-03-04 14:20:57,881 - INFO - Regula po iteracji 1: IF astigmatism = {no} AND tear-prod-rate = {normal} THEN class = soft, (p=5, n=1, P=5, N=19)
+2025-03-04 14:20:57,882 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:57,883 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:57,883 - INFO - Regula po iteracji 0: IF  THEN class = soft, (p=0, n=24, P=0, N=24)
+2025-03-04 14:20:57,883 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:57,883 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:57,883 - INFO - Iteracja 2: condition_best: spectacle-prescrip = {hypermetrope}, quality_best: 0.8, coverage_best: (p=3, n=0, P=5, N=19), precision: 1.0
+2025-03-04 14:20:57,883 - INFO - Regula po iteracji 2: IF astigmatism = {no} AND tear-prod-rate = {normal} AND spectacle-prescrip = {hypermetrope} THEN class = soft, (p=3, n=0, P=5, N=19)
+2025-03-04 14:20:57,883 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:57,884 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:57,884 - INFO - Iteracja 0: condition_best: astigmatism = {no}, quality_best: 0.263, coverage_best: (p=5, n=7, P=5, N=19), precision: 0.417
+2025-03-04 14:20:57,884 - INFO - Regula po iteracji 0: IF astigmatism = {no} THEN class = soft, (p=5, n=7, P=5, N=19)
+2025-03-04 14:20:57,884 - INFO - Iteracja 1: condition_best: tear-prod-rate = {normal}, quality_best: 0.789, coverage_best: (p=5, n=1, P=5, N=19), precision: 0.833
+2025-03-04 14:20:57,885 - INFO - Regula po iteracji 1: IF astigmatism = {no} AND tear-prod-rate = {normal} THEN class = soft, (p=5, n=1, P=5, N=19)
+2025-03-04 14:20:57,885 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:57,886 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:57,886 - INFO - Regula po iteracji 0: IF  THEN class = soft, (p=0, n=24, P=0, N=24)
+2025-03-04 14:20:57,886 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:57,886 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:57,886 - INFO - Iteracja 2: condition_best: age = {pre-presbyopic}, quality_best: 0.7, coverage_best: (p=2, n=0, P=5, N=19), precision: 1.0
+2025-03-04 14:20:57,886 - INFO - Regula po iteracji 2: IF astigmatism = {no} AND tear-prod-rate = {normal} AND age = {pre-presbyopic} THEN class = soft, (p=2, n=0, P=5, N=19)
+2025-03-04 14:20:57,886 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:57,887 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:57,887 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:57,887 - INFO - Regula po iteracji 0: IF  THEN class = soft, (p=5, n=19, P=5, N=19)
+2025-03-04 14:20:57,887 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:57,887 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:57,887 - INFO - Iteracja 0: condition_best: astigmatism = {yes}, quality_best: 0.2, coverage_best: (p=4, n=8, P=4, N=20), precision: 0.333
+2025-03-04 14:20:57,887 - INFO - Regula po iteracji 0: IF astigmatism = {yes} THEN class = hard, (p=4, n=8, P=4, N=20)
+2025-03-04 14:20:57,888 - INFO - Iteracja 1: condition_best: tear-prod-rate = {normal}, quality_best: 0.6, coverage_best: (p=4, n=2, P=4, N=20), precision: 0.667
+2025-03-04 14:20:57,888 - INFO - Regula po iteracji 1: IF astigmatism = {yes} AND tear-prod-rate = {normal} THEN class = hard, (p=4, n=2, P=4, N=20)
+2025-03-04 14:20:57,888 - INFO - Iteracja 2: condition_best: spectacle-prescrip = {myope}, quality_best: 0.875, coverage_best: (p=3, n=0, P=4, N=20), precision: 1.0
+2025-03-04 14:20:57,888 - INFO - Regula po iteracji 2: IF astigmatism = {yes} AND tear-prod-rate = {normal} AND spectacle-prescrip = {myope} THEN class = hard, (p=3, n=0, P=4, N=20)
+2025-03-04 14:20:57,888 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:57,889 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:57,889 - INFO - Iteracja 0: condition_best: astigmatism = {yes}, quality_best: 0.2, coverage_best: (p=4, n=8, P=4, N=20), precision: 0.333
+2025-03-04 14:20:57,889 - INFO - Regula po iteracji 0: IF astigmatism = {yes} THEN class = hard, (p=4, n=8, P=4, N=20)
+2025-03-04 14:20:57,889 - INFO - Iteracja 1: condition_best: tear-prod-rate = {normal}, quality_best: 0.6, coverage_best: (p=4, n=2, P=4, N=20), precision: 0.667
+2025-03-04 14:20:57,890 - INFO - Regula po iteracji 1: IF astigmatism = {yes} AND tear-prod-rate = {normal} THEN class = hard, (p=4, n=2, P=4, N=20)
+2025-03-04 14:20:57,890 - INFO - Iteracja 2: condition_best: age = {young}, quality_best: 0.75, coverage_best: (p=2, n=0, P=4, N=20), precision: 1.0
+2025-03-04 14:20:57,890 - INFO - Regula po iteracji 2: IF astigmatism = {yes} AND tear-prod-rate = {normal} AND age = {young} THEN class = hard, (p=2, n=0, P=4, N=20)
+2025-03-04 14:20:57,890 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:57,891 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:57,891 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:57,891 - INFO - Regula po iteracji 0: IF  THEN class = hard, (p=4, n=20, P=4, N=20)
+2025-03-04 14:20:57,891 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:57,894 - INFO - ************************Finished experiment for contact-lenses.arff with algorithm3************************
+2025-03-04 14:20:57,894 - INFO - *************************************************************************************************************************
+2025-03-04 14:20:57,894 - INFO - *************************************************************************************************************************
+2025-03-04 14:20:57,894 - INFO - *************************************************************************************************************************

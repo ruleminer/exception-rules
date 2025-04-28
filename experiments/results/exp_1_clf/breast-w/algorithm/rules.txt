@@ -1,0 +1,26 @@
+
+CR: IF Cell_Size_Uniformity <= 1.00 AND Normal_Nucleoli <= 3.50 THEN class = benign (p=378, n=1, P=458, N=241)
+
+CR: IF Cell_Shape_Uniformity <= 2.00 AND Clump_Thickness <= 5.00 AND Bland_Chromatin <= 7.50 THEN class = benign (p=393, n=1, P=458, N=241)
+
+CR: IF Cell_Size_Uniformity <= 2.00 AND Clump_Thickness <= 6.00 AND Normal_Nucleoli <= 4.50 THEN class = benign (p=413, n=2, P=458, N=241)
+
+CR: IF Bare_Nuclei <= 1.00 AND Single_Epi_Cell_Size <= 3.50 THEN class = benign (p=379, n=0, P=458, N=241)
+
+CR: IF Bare_Nuclei <= 2.00 AND Cell_Size_Uniformity <= 4.00 AND Marginal_Adhesion <= 7.00 AND Mitoses <= 3.50 AND Normal_Nucleoli <= 8.50 AND Cell_Shape_Uniformity <= 5.50 THEN class = benign (p=404, n=0, P=458, N=241)
+
+CR: IF Bland_Chromatin <= 3.00 AND Clump_Thickness <= 6.00 AND Normal_Nucleoli <= 5.00 AND Marginal_Adhesion <= 5.50 THEN class = benign (p=427, n=5, P=458, N=241)
+
+CR: IF Bland_Chromatin <= 4.00 AND Clump_Thickness <= 6.00 AND Marginal_Adhesion <= 6.00 AND Single_Epi_Cell_Size <= 7.50 AND Cell_Size_Uniformity <= 9.50 AND Normal_Nucleoli <= 9.00 AND Mitoses <= 2.50 THEN class = benign (p=434, n=15, P=458, N=241)
+
+CR: IF Cell_Size_Uniformity >= 3.50 AND Bare_Nuclei <= 10.00 AND Bland_Chromatin >= 3.00 THEN class = malignant (p=197, n=9, P=241, N=458)
+
+CR: IF Cell_Size_Uniformity >= 3.50 AND Bare_Nuclei <= 10.00 THEN class = malignant (p=202, n=11, P=241, N=458)
+
+CR: IF Cell_Shape_Uniformity >= 5.00 AND Bare_Nuclei >= 1.00 AND Bland_Chromatin >= 1.50 THEN class = malignant (p=175, n=6, P=241, N=458)
+
+CR: IF Bare_Nuclei >= 5.50 THEN class = malignant (p=168, n=6, P=241, N=458)
+
+CR: IF Cell_Shape_Uniformity >= 4.00 AND Cell_Size_Uniformity >= 3.00 AND Bland_Chromatin >= 1.50 THEN class = malignant (p=205, n=14, P=241, N=458)
+
+CR: IF Bare_Nuclei >= 4.00 AND Bland_Chromatin >= 1.50 THEN class = malignant (p=199, n=13, P=241, N=458)

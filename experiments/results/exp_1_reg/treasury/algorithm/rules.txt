@@ -1,0 +1,158 @@
+
+CR 0: IF 30Y-CMortgageRate <= 4.04 AND 5Y-CMaturityRate <= 5.25 THEN class = {3.18} [2.94, 3.42] (p=83, n=2, P=83, N=966)
+
+CR 1: IF 30Y-CMortgageRate <= 4.11 AND 3M-Rate-AuctionAverage >= 6.74 THEN class = {3.21} [2.93, 3.48] (p=83, n=6, P=83, N=966)
+
+CR 2: IF 3M-Rate-SecondaryMarket <= 3.60 AND moneyStock <= 3.76 THEN class = {3.19} [3.02, 3.37] (p=82, n=9, P=82, N=967)
+
+CR 3: IF 30Y-CMortgageRate <= 4.48 AND demandDeposits >= 273.50 AND 1Y-CMaturityRate <= 94.37 AND 3M-Rate-AuctionAverage <= 8.84 THEN class = {3.37} [2.84, 3.90] (p=101, n=7, P=105, N=944)
+
+CR 4: IF 30Y-CMortgageRate <= 4.48 AND currency >= 2,878.50 AND 3Y-CMaturityRate <= 4.40 AND bankCredit >= 4.17 THEN class = {3.39} [2.85, 3.93] (p=102, n=9, P=106, N=943)
+
+CR 5: IF 30Y-CMortgageRate <= 4.48 AND currency >= 2,859.60 THEN class = {3.48} [2.88, 4.08] (p=110, n=12, P=115, N=934)
+
+CR 6: IF 30Y-CMortgageRate <= 4.50 AND 1Y-CMaturityRate <= 95.14 THEN class = {3.52} [2.88, 4.15] (p=113, n=13, P=118, N=931)
+
+CR 7: IF moneyStock >= 16.20 AND 3Y-CMaturityRate <= 16.68 AND 30Y-CMortgageRate <= 17.11 THEN class = {17.63} [16.72, 18.54] (p=31, n=5, P=32, N=1017)
+
+CR 8: IF 3Y-CMaturityRate <= 4.04 AND currency >= 2,878.50 AND 1Y-CMaturityRate >= 80.25 AND 30Y-CMortgageRate <= 4.95 THEN class = {3.37} [2.93, 3.81] (p=98, n=15, P=99, N=950)
+
+CR 9: IF 3M-Rate-SecondaryMarket <= 4.21 AND demandDeposits >= 274.50 AND 30Y-CMortgageRate <= 5.38 AND federalFunds >= 312.65 THEN class = {3.38} [2.89, 3.87] (p=102, n=10, P=102, N=947)
+
+CR 10: IF 3Y-CMaturityRate <= 4.17 AND demandDeposits >= 271.40 AND checkableDeposits <= 1,146.70 THEN class = {3.44} [2.94, 3.94] (p=106, n=17, P=106, N=943)
+
+CR 11: IF 3Y-CMaturityRate <= 4.38 AND 30Y-CMortgageRate <= 5.36 AND 1Y-CMaturityRate <= 95.50 THEN class = {3.64} [2.97, 4.30] (p=128, n=20, P=128, N=921)
+
+CR 12: IF 3Y-CMaturityRate <= 4.38 AND currency >= 2,864.75 THEN class = {3.64} [2.98, 4.30] (p=128, n=22, P=128, N=921)
+
+CR 13: IF moneyStock <= 4.70 AND 5Y-CMaturityRate <= 6.08 AND demandDeposits >= 267.35 AND 3M-Rate-AuctionAverage <= 8.84 THEN class = {3.51} [2.91, 4.11] (p=113, n=15, P=116, N=933)
+
+CR 14: IF moneyStock <= 4.70 AND loansLeases >= 662.80 AND 3M-Rate-AuctionAverage <= 8.84 AND 3Y-CMaturityRate >= 4.24 THEN class = {4.57} [4.38, 4.75] (p=8, n=1, P=9, N=1040)
+
+CR 15: IF moneyStock <= 4.71 AND currency >= 2,864.75 THEN class = {3.66} [3.01, 4.31] (p=128, n=26, P=128, N=921)
+
+CR 16: IF 3M-Rate-SecondaryMarket <= 4.46 AND bankCredit >= 4.64 AND checkableDeposits <= 1,148.75 AND demandDeposits <= 473.25 THEN class = {3.58} [2.86, 4.31] (p=127, n=13, P=128, N=921)
+
+CR 17: IF moneyStock >= 15.77 AND currency >= 1,154.95 THEN class = {17.72} [16.78, 18.66] (p=32, n=7, P=33, N=1016)
+
+CR 18: IF moneyStock <= 4.74 AND checkableDeposits <= 1,149.85 AND currency >= 2,864.75 THEN class = {3.64} [2.97, 4.30] (p=128, n=20, P=128, N=921)
+
+CR 19: IF moneyStock >= 15.50 AND bankCredit >= 12.52 THEN class = {17.35} [16.15, 18.56] (p=35, n=9, P=36, N=1013)
+
+CR 20: IF moneyStock <= 4.75 AND 1Y-CMaturityRate <= 93.61 AND demandDeposits <= 461.20 THEN class = {3.66} [3.02, 4.30] (p=128, n=27, P=128, N=921)
+
+CR 21: IF 3M-Rate-SecondaryMarket <= 4.51 AND 3M-Rate-AuctionAverage >= 6.92 AND savingsDeposits <= 3,324.90 AND checkableDeposits <= 1,148.75 THEN class = {3.64} [2.88, 4.40] (p=124, n=15, P=130, N=919)
+
+CR 22: IF 3Y-CMaturityRate <= 5.21 AND federalFunds >= 389.90 THEN class = {5.43} [5.21, 5.65] (p=109, n=4, P=179, N=870)
+
+CR 23: IF federalFunds >= 388.95 AND 3Y-CMaturityRate <= 5.21 AND checkableDeposits <= 1,139.90 THEN class = {5.44} [5.20, 5.68] (p=113, n=5, P=182, N=867)
+
+CR 24: IF federalFunds >= 388.95 AND 1Y-CMaturityRate >= 82.26 THEN class = {5.44} [5.14, 5.73] (p=117, n=7, P=195, N=854)
+
+CR 25: IF federalFunds >= 388.95 THEN class = {5.46} [5.16, 5.75] (p=124, n=9, P=207, N=842)
+
+CR 26: IF 3Y-CMaturityRate >= 13.89 AND bankCredit >= 12.52 AND 3Y-CMaturityRate <= 16.33 AND currency <= 1,341.90 THEN class = {17.18} [16.07, 18.29] (p=31, n=10, P=32, N=1017)
+
+CR 27: IF federalFunds >= 388.25 AND loansLeases <= 800.90 AND 3Y-CMaturityRate <= 5.41 THEN class = {5.46} [5.16, 5.76] (p=131, n=7, P=214, N=835)
+
+CR 28: IF currency <= 1,147.35 AND federalFunds >= 258.45 THEN class = {13.25} [13.20, 13.30] (p=4, n=1, P=5, N=1044)
+
+CR 29: IF 3M-Rate-SecondaryMarket <= 4.58 AND bankCredit >= 4.64 AND savingsDeposits <= 3,325.45 THEN class = {3.72} [2.94, 4.51] (p=136, n=23, P=137, N=912)
+
+CR 30: IF currency <= 4,506.10 AND 3M-Rate-SecondaryMarket <= 5.28 AND demandDeposits >= 373.90 THEN class = {5.45} [5.27, 5.63] (p=131, n=11, P=166, N=883)
+
+CR 31: IF currency >= 3,616.40 AND moneyStock >= 4.98 AND 30Y-CMortgageRate <= 6.06 AND demandDeposits >= 372.50 THEN class = {5.48} [5.28, 5.69] (p=148, n=19, P=169, N=880)
+
+CR 32: IF currency >= 3,616.40 AND moneyStock >= 4.96 AND demandDeposits <= 528.85 AND demandDeposits >= 372.20 THEN class = {5.48} [5.28, 5.69] (p=150, n=24, P=169, N=880)
+
+CR 33: IF moneyStock >= 8.50 AND 5Y-CMaturityRate <= 11.18 AND 30Y-CMortgageRate >= 7.64 AND 3M-Rate-SecondaryMarket >= 6.44 AND 3M-Rate-AuctionAverage <= 14.64 THEN class = {9.17} [8.34, 9.99] (p=136, n=8, P=164, N=885)
+
+CR 34: IF moneyStock >= 8.50 AND 5Y-CMaturityRate <= 11.18 AND 30Y-CMortgageRate <= 12.06 THEN class = {9.14} [8.32, 9.97] (p=137, n=12, P=166, N=883)
+
+CR 35: IF moneyStock >= 8.50 AND currency >= 1,150.25 AND 5Y-CMaturityRate <= 11.52 AND 30Y-CMortgageRate >= 6.80 THEN class = {9.17} [8.41, 9.92] (p=139, n=12, P=154, N=895)
+
+CR 36: IF moneyStock >= 8.50 AND currency >= 1,150.25 AND 30Y-CMortgageRate >= 7.64 AND 5Y-CMaturityRate <= 11.70 THEN class = {9.23} [8.40, 10.06] (p=143, n=12, P=158, N=891)
+
+CR 37: IF moneyStock >= 8.50 AND currency >= 1,149.35 AND 30Y-CMortgageRate >= 7.64 AND 5Y-CMaturityRate <= 12.18 THEN class = {9.39} [8.32, 10.46] (p=165, n=11, P=185, N=864)
+
+CR 38: IF moneyStock >= 8.50 AND 5Y-CMaturityRate <= 12.27 AND currency >= 1,149.35 AND 30Y-CMortgageRate >= 7.64 THEN class = {9.42} [8.35, 10.50] (p=167, n=14, P=182, N=867)
+
+CR 39: IF moneyStock >= 8.50 AND currency >= 1,149.25 AND 5Y-CMaturityRate <= 12.53 AND 3Y-CMaturityRate >= 7.23 THEN class = {9.47} [8.37, 10.57] (p=167, n=19, P=182, N=867)
+
+CR 40: IF moneyStock >= 8.50 AND 5Y-CMaturityRate <= 12.70 AND currency >= 1,150.75 AND tradeCurrencies >= 176.25 THEN class = {9.45} [8.41, 10.49] (p=161, n=25, P=174, N=875)
+
+CR 41: IF moneyStock >= 8.50 AND currency >= 1,353.65 AND 3M-Rate-SecondaryMarket >= 7.40 THEN class = {9.88} [8.35, 11.42] (p=173, n=20, P=207, N=842)
+
+CR 42: IF 30Y-CMortgageRate <= 13.57 AND moneyStock >= 10.91 AND checkableDeposits >= 381.80 AND 1Y-CMaturityRate <= 131.33 THEN class = {12.40} [11.18, 13.61] (p=40, n=7, P=45, N=1004)
+
+CR 43: IF moneyStock >= 8.50 AND loansLeases >= 314.40 AND 30Y-CMortgageRate >= 7.70 AND 1Y-CMaturityRate <= 141.67 AND tradeCurrencies >= 341.90 THEN class = {9.90} [8.38, 11.41] (p=172, n=21, P=204, N=845)
+
+CR 44: IF moneyStock >= 8.50 AND currency >= 1,332.30 AND moneyStock <= 14.98 AND 30Y-CMortgageRate >= 7.70 AND tradeCurrencies >= 342.15 THEN class = {9.88} [8.35, 11.42] (p=174, n=20, P=209, N=840)
+
+CR 45: IF moneyStock >= 8.50 AND moneyStock <= 14.80 AND 5Y-CMaturityRate <= 14.20 AND currency >= 1,149.35 AND checkableDeposits >= 388.05 THEN class = {9.94} [8.42, 11.46] (p=190, n=33, P=203, N=846)
+
+CR 46: IF moneyStock >= 8.50 AND 30Y-CMortgageRate <= 15.52 AND 3M-Rate-SecondaryMarket >= 7.06 AND federalFunds >= 226.10 AND checkableDeposits >= 382.80 THEN class = {11.13} [8.33, 13.94] (p=231, n=54, P=248, N=801)
+
+CR 47: IF 3Y-CMaturityRate >= 6.50 AND bankCredit <= 12.54 AND currency >= 1,145.30 AND federalFunds <= 290.85 AND 5Y-CMaturityRate >= 7.33 THEN class = {8.91} [7.49, 10.33] (p=304, n=24, P=313, N=736)
+
+CR 48: IF 3Y-CMaturityRate >= 6.50 AND demandDeposits >= 120.05 AND federalFunds >= 230.35 AND tradeCurrencies >= 343.55 AND moneyStock >= 7.19 THEN class = {9.07} [7.42, 10.71] (p=290, n=37, P=325, N=724)
+
+CR 49: IF 3Y-CMaturityRate >= 6.45 AND bankCredit <= 12.62 AND currency >= 1,150.55 AND 1Y-CMaturityRate <= 142.59 AND tradeCurrencies >= 175.85 THEN class = {8.91} [7.38, 10.44] (p=308, n=24, P=323, N=726)
+
+CR 50: IF moneyStock >= 7.15 AND bankCredit <= 12.62 AND savingsDeposits >= 873.70 AND 5Y-CMaturityRate >= 7.31 AND federalFunds >= 230.00 THEN class = {8.92} [7.35, 10.50] (p=312, n=24, P=327, N=722)
+
+CR 51: IF moneyStock >= 7.13 AND bankCredit <= 12.61 AND currency >= 1,147.35 AND federalFunds >= 229.65 AND tradeCurrencies <= 963.45 THEN class = {8.85} [7.32, 10.38] (p=316, n=27, P=327, N=722)
+
+CR 52: IF 3M-Rate-AuctionAverage <= 15.20 AND 3Y-CMaturityRate >= 6.25 AND currency >= 1,145.30 THEN class = {9.21} [7.10, 11.32] (p=345, n=32, P=362, N=687)
+
+CR 53: IF 3Y-CMaturityRate >= 6.19 AND bankCredit <= 12.61 AND currency >= 1,149.25 AND 5Y-CMaturityRate >= 7.42 AND tradeCurrencies >= 175.75 THEN class = {8.85} [7.33, 10.37] (p=316, n=31, P=325, N=724)
+
+CR 54: IF 30Y-CMortgageRate >= 7.21 AND bankCredit <= 12.58 AND currency >= 1,145.30 AND 3M-Rate-SecondaryMarket >= 4.98 THEN class = {8.85} [7.33, 10.37] (p=316, n=31, P=325, N=724)
+
+CR 55: IF federalFunds >= 387.25 AND loansLeases <= 799.90 AND checkableDeposits <= 1,153.40 THEN class = {5.47} [5.16, 5.79] (p=136, n=10, P=217, N=832)
+
+CR 56: IF moneyStock >= 6.96 AND bankCredit <= 12.61 AND currency >= 1,145.30 AND 30Y-CMortgageRate >= 5.88 AND demandDeposits <= 250.85 THEN class = {8.84} [7.29, 10.39] (p=322, n=35, P=328, N=721)
+
+CR 57: IF currency >= 3,474.10 AND moneyStock >= 4.82 AND 30Y-CMortgageRate >= 4.12 AND 30Y-CMortgageRate <= 6.14 THEN class = {5.52} [5.28, 5.76] (p=173, n=43, P=197, N=852)
+
+CR 58: IF currency >= 3,137.55 AND moneyStock <= 5.92 AND 30Y-CMortgageRate <= 6.88 AND loansLeases <= 800.50 AND currency <= 4,737.90 THEN class = {5.25} [4.73, 5.78] (p=234, n=37, P=268, N=781)
+
+CR 59: IF currency >= 3,137.55 AND moneyStock <= 5.92 AND currency <= 4,737.90 AND 30Y-CMortgageRate <= 7.22 AND loansLeases <= 800.05 THEN class = {5.30} [4.83, 5.78] (p=231, n=43, P=261, N=788)
+
+CR 60: IF currency >= 3,137.55 AND 3M-Rate-AuctionAverage <= 8.39 AND checkableDeposits <= 1,149.75 AND loansLeases <= 801.15 AND 1Y-CMaturityRate >= 77.19 THEN class = {5.36} [4.83, 5.89] (p=231, n=32, P=286, N=763)
+
+CR 61: IF currency >= 3,137.55 AND 3Y-CMaturityRate >= 5.29 AND 30Y-CMortgageRate <= 7.16 THEN class = {5.88} [5.72, 6.04] (p=50, n=3, P=91, N=958)
+
+CR 62: IF savingsDeposits >= 2,117.50 AND moneyStock >= 5.01 AND checkableDeposits <= 1,150.75 AND 30Y-CMortgageRate >= 5.17 AND currency <= 4,685.50 THEN class = {5.65} [5.27, 6.02] (p=198, n=11, P=264, N=785)
+
+CR 63: IF 3M-Rate-SecondaryMarket >= 6.08 AND bankCredit <= 12.62 AND currency >= 1,145.30 AND 30Y-CMortgageRate >= 6.50 THEN class = {8.81} [7.24, 10.39] (p=324, n=40, P=333, N=716)
+
+CR 64: IF 30Y-CMortgageRate >= 7.05 AND bankCredit <= 12.61 AND 3M-Rate-AuctionAverage >= 9.41 AND currency >= 1,147.35 THEN class = {8.84} [7.31, 10.36] (p=321, n=33, P=327, N=722)
+
+CR 65: IF moneyStock >= 6.88 AND bankCredit <= 12.58 AND currency >= 1,141.70 AND 30Y-CMortgageRate >= 6.44 AND demandDeposits <= 250.60 THEN class = {8.82} [7.28, 10.35] (p=321, n=40, P=327, N=722)
+
+CR 66: IF savingsDeposits >= 2,115.10 AND moneyStock >= 5.08 AND federalFunds >= 274.20 AND currency <= 4,737.90 AND 30Y-CMortgageRate <= 7.16 THEN class = {5.64} [5.22, 6.06] (p=224, n=8, P=282, N=767)
+
+CR 67: IF 30Y-CMortgageRate >= 7.00 AND bankCredit <= 12.61 AND tradeCurrencies <= 966.90 AND currency >= 1,147.35 AND 5Y-CMaturityRate >= 7.28 THEN class = {8.80} [7.26, 10.34] (p=322, n=39, P=329, N=720)
+
+CR 68: IF 3Y-CMaturityRate <= 5.17 AND currency <= 3,220.15 AND 3M-Rate-SecondaryMarket <= 5.15 THEN class = {3.62} [2.94, 4.30] (p=128, n=17, P=128, N=921)
+
+CR 69: IF 3M-Rate-SecondaryMarket <= 5.22 AND federalFunds >= 284.80 AND currency <= 3,220.15 THEN class = {3.63} [2.91, 4.35] (p=130, n=14, P=130, N=919)
+
+CR 70: IF 30Y-CMortgageRate >= 6.92 AND bankCredit <= 12.54 AND demandDeposits <= 247.40 AND tradeCurrencies >= 175.75 THEN class = {8.78} [7.24, 10.32] (p=325, n=48, P=332, N=717)
+
+CR 71: IF 3M-Rate-SecondaryMarket <= 5.24 AND demandDeposits <= 347.50 AND currency >= 2,061.05 AND checkableDeposits <= 1,150.55 AND 30Y-CMortgageRate <= 5.78 THEN class = {3.66} [2.96, 4.36] (p=130, n=20, P=130, N=919)
+
+CR 72: IF 3M-Rate-SecondaryMarket <= 5.34 AND moneyStock >= 5.12 AND currency <= 4,737.90 THEN class = {5.53} [5.20, 5.86] (p=191, n=6, P=230, N=819)
+
+CR 73: IF 3M-Rate-SecondaryMarket <= 5.44 AND moneyStock >= 5.08 AND 1Y-CMaturityRate >= 78.12 AND currency <= 4,737.90 THEN class = {5.54} [5.21, 5.87] (p=204, n=11, P=229, N=820)
+
+CR 74: IF tradeCurrencies >= 360.35 AND 30Y-CMortgageRate >= 6.44 AND currency >= 1,224.85 AND moneyStock >= 6.39 THEN class = {8.99} [6.53, 11.44] (p=386, n=30, P=428, N=621)
+
+CR 75: IF tradeCurrencies >= 360.35 AND moneyStock >= 6.37 AND currency >= 1,222.35 AND 30Y-CMortgageRate >= 5.82 THEN class = {8.96} [6.45, 11.47] (p=393, n=33, P=433, N=616)
+
+CR 76: IF tradeCurrencies >= 360.35 AND moneyStock >= 6.25 AND currency >= 1,214.35 AND 30Y-CMortgageRate >= 5.82 THEN class = {8.94} [6.37, 11.50] (p=401, n=38, P=440, N=609)
+
+CR 77: IF moneyStock >= 6.05 AND tradeCurrencies >= 360.35 AND 3M-Rate-AuctionAverage >= 9.05 AND currency >= 1,214.35 AND 30Y-CMortgageRate >= 5.88 THEN class = {8.89} [6.33, 11.46] (p=404, n=42, P=443, N=606)
+
+CR 78: IF 3Y-CMaturityRate >= 5.50 AND currency >= 1,214.35 AND federalFunds >= 244.25 THEN class = {7.85} [5.82, 9.88] (p=341, n=14, P=471, N=578)

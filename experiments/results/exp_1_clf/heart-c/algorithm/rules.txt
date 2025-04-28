@@ -1,0 +1,64 @@
+
+CR: IF thal = {normal} AND ca <= 0.00 AND age <= 58.00 AND oldpeak <= 1.70 THEN class = <50 (p=78, n=1, P=165, N=138)
+
+CR: IF thal = {normal} AND ca <= 0.00 AND oldpeak <= 1.70 AND age <= 61.00 AND trestbps <= 155.00 AND chol <= 327.50 THEN class = <50 (p=81, n=1, P=165, N=138)
+
+CR: IF thal = {normal} AND ca <= 0.00 AND oldpeak <= 1.70 AND thalach >= 136.50 AND chol <= 327.50 AND trestbps <= 165.00 THEN class = <50 (p=82, n=2, P=165, N=138)
+
+CR: IF thal = {normal} AND ca <= 0.00 AND oldpeak <= 1.70 AND thalach >= 83.50 AND trestbps <= 160.00 THEN class = <50 (p=95, n=6, P=165, N=138)
+
+CR: IF thal = {normal} AND ca <= 0.00 AND trestbps <= 140.00 AND chol <= 327.50 AND thalach >= 83.50 THEN class = <50 (p=86, n=4, P=165, N=138)
+
+CR: IF thal = {normal} AND age <= 54.00 AND thalach >= 132.00 AND trestbps >= 113.50 AND oldpeak <= 3.55 THEN class = <50 (p=67, n=0, P=165, N=138)
+
+CR: IF thal = {normal} AND thalach >= 147.50 AND ca <= 1.00 AND oldpeak <= 1.70 AND chol <= 327.50 AND trestbps <= 153.00 THEN class = <50 (p=82, n=7, P=165, N=138)
+
+CR: IF thal = {normal} AND thalach >= 147.50 AND oldpeak <= 2.70 AND trestbps >= 113.50 AND age <= 74.00 THEN class = <50 (p=92, n=9, P=165, N=138)
+
+CR: IF thal = {normal} AND exang = {no} AND thalach >= 111.50 AND oldpeak <= 2.60 AND chol <= 318.50 AND chol >= 153.00 THEN class = <50 (p=103, n=11, P=165, N=138)
+
+CR: IF thalach >= 169.50 AND ca <= 0.00 AND oldpeak <= 1.55 THEN class = <50 (p=43, n=1, P=165, N=138)
+
+CR: IF ca <= 0.00 AND thalach >= 160.50 AND oldpeak <= 3.65 AND chol <= 272.50 AND trestbps <= 151.00 THEN class = <50 (p=59, n=1, P=165, N=138)
+
+CR: IF ca <= 0.00 AND exang = {no} AND trestbps <= 151.00 AND thalach >= 83.50 AND chol <= 327.50 AND trestbps >= 111.00 AND oldpeak <= 1.70 THEN class = <50 (p=81, n=4, P=165, N=138)
+
+CR: IF ca <= 0.00 AND exang = {no} AND oldpeak <= 2.50 AND age >= 40.50 AND age <= 66.50 AND chol >= 173.50 AND chol <= 260.50 THEN class = <50 (p=63, n=3, P=165, N=138)
+
+CR: IF ca <= 0.00 AND oldpeak <= 1.60 AND trestbps <= 143.00 AND thalach >= 107.00 AND age >= 36.00 THEN class = <50 (p=100, n=15, P=165, N=138)
+
+CR: IF slope = {up} AND ca <= 1.00 AND trestbps <= 150.00 AND oldpeak <= 1.60 AND chol <= 327.50 THEN class = <50 (p=83, n=16, P=165, N=138)
+
+CR: IF age <= 64.00 AND chol >= 190.00 AND thalach >= 105.00 AND oldpeak <= 4.90 AND chol <= 272.00 THEN class = <50 (p=104, n=58, P=165, N=138)
+
+CR: IF oldpeak >= 2.60 AND cp = {asympt} AND trestbps >= 107.00 THEN class = >50_1 (p=28, n=0, P=138, N=165)
+
+CR: IF oldpeak >= 2.60 AND age >= 45.50 AND trestbps <= 174.00 AND sex = {male} THEN class = >50_1 (p=24, n=0, P=138, N=165)
+
+CR: IF oldpeak >= 2.35 AND age >= 37.50 AND trestbps >= 107.00 AND trestbps <= 174.00 AND fbs = {f} AND sex = {male} THEN class = >50_1 (p=28, n=0, P=138, N=165)
+
+CR: IF oldpeak >= 2.00 AND ca >= 0.50 AND chol <= 300.50 THEN class = >50_1 (p=33, n=0, P=138, N=165)
+
+CR: IF oldpeak >= 1.70 AND cp = {asympt} AND trestbps >= 106.00 AND age <= 63.50 THEN class = >50_1 (p=41, n=0, P=138, N=165)
+
+CR: IF thal = {reversable_defect} AND cp = {asympt} AND oldpeak >= 0.65 THEN class = >50_1 (p=57, n=0, P=138, N=165)
+
+CR: IF thal = {reversable_defect} AND cp = {asympt} AND trestbps >= 109.00 AND thalach <= 160.50 AND age <= 63.50 THEN class = >50_1 (p=54, n=1, P=138, N=165)
+
+CR: IF thal = {reversable_defect} AND cp = {asympt} AND trestbps >= 109.00 AND age <= 63.50 THEN class = >50_1 (p=63, n=4, P=138, N=165)
+
+CR: IF thal = {reversable_defect} AND oldpeak >= 0.70 AND thalach <= 150.50 AND trestbps <= 174.00 THEN class = >50_1 (p=56, n=1, P=138, N=165)
+
+CR: IF thal = {reversable_defect} AND ca >= 1.00 AND trestbps >= 97.00 AND chol >= 128.50 AND age <= 67.50 THEN class = >50_1 (p=55, n=3, P=138, N=165)
+
+CR: IF ca >= 1.50 AND cp = {asympt} AND restecg = {left_vent_hyper} THEN class = >50_1 (p=28, n=0, P=138, N=165)
+
+CR: IF ca >= 0.50 AND cp = {asympt} AND trestbps >= 109.00 THEN class = >50_1 (p=69, n=3, P=138, N=165)
+
+CR: IF ca >= 0.50 AND sex = {male} AND age >= 53.50 AND chol >= 128.50 AND age <= 67.50 THEN class = >50_1 (p=58, n=3, P=138, N=165)
+
+CR: IF exang = {yes} AND slope = {flat} AND trestbps >= 115.00 AND age >= 48.00 THEN class = >50_1 (p=39, n=2, P=138, N=165)
+
+CR: IF thalach <= 152.00 AND sex = {male} AND trestbps >= 106.00 AND fbs = {f} AND trestbps <= 174.00 AND ca <= 3.00 AND age <= 67.50 THEN class = >50_1 (p=64, n=16, P=138, N=165)
+
+CR: IF restecg = {left_vent_hyper} AND age <= 61.50 AND trestbps >= 107.50 AND age >= 57.00 AND trestbps <= 174.00 AND thalach <= 178.00 AND chol >= 213.50 THEN class = >50_1 (p=24, n=2, P=138, N=165)

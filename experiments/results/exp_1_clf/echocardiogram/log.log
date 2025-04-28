@@ -1,0 +1,284 @@
+2025-03-04 14:40:26,430 - INFO - **********Starting experiment for echocardiogram.arff with algorithm3**********
+2025-03-04 14:40:26,436 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:26,461 - INFO - Iteracja 0: condition_best: survival >= 21.50, quality_best: 0.766, coverage_best: (p=67, n=3, P=88, N=43), precision: 0.957
+2025-03-04 14:40:26,461 - INFO - Regula po iteracji 0: IF survival >= 21.50 THEN class = 0, (p=67, n=3, P=88, N=43)
+2025-03-04 14:40:26,461 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:26,548 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:26,548 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=21, n=110, P=21, N=110)
+2025-03-04 14:40:26,548 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:26,548 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:26,552 - INFO - Iteracja 1: condition_best: lvdd <= 5.80, quality_best: 0.799, coverage_best: (p=60, n=1, P=88, N=43), precision: 0.984
+2025-03-04 14:40:26,552 - INFO - Regula po iteracji 1: IF survival >= 21.50 AND lvdd <= 5.80 THEN class = 0, (p=60, n=1, P=88, N=43)
+2025-03-04 14:40:26,552 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:26,631 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:26,631 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=28, n=103, P=28, N=103)
+2025-03-04 14:40:26,631 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:26,631 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:26,633 - INFO - Iteracja 2: condition_best: age-at-heart-attack <= 73.50, quality_best: 0.807, coverage_best: (p=54, n=0, P=88, N=43), precision: 1.0
+2025-03-04 14:40:26,633 - INFO - Regula po iteracji 2: IF survival >= 21.50 AND lvdd <= 5.80 AND age-at-heart-attack <= 73.50 THEN class = 0, (p=54, n=0, P=88, N=43)
+2025-03-04 14:40:26,633 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:26,634 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:26,647 - INFO - Iteracja 0: condition_best: survival >= 21.50, quality_best: 0.766, coverage_best: (p=67, n=3, P=88, N=43), precision: 0.957
+2025-03-04 14:40:26,647 - INFO - Regula po iteracji 0: IF survival >= 21.50 THEN class = 0, (p=67, n=3, P=88, N=43)
+2025-03-04 14:40:26,647 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:26,729 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:26,729 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=21, n=110, P=21, N=110)
+2025-03-04 14:40:26,729 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:26,729 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:26,732 - INFO - Iteracja 1: condition_best: lvdd <= 5.80, quality_best: 0.799, coverage_best: (p=60, n=1, P=88, N=43), precision: 0.984
+2025-03-04 14:40:26,732 - INFO - Regula po iteracji 1: IF survival >= 21.50 AND lvdd <= 5.80 THEN class = 0, (p=60, n=1, P=88, N=43)
+2025-03-04 14:40:26,732 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:26,811 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:26,811 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=28, n=103, P=28, N=103)
+2025-03-04 14:40:26,811 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:26,811 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:26,812 - INFO - Iteracja 2: condition_best: epss >= 4.90, quality_best: 0.79, coverage_best: (p=51, n=0, P=88, N=43), precision: 1.0
+2025-03-04 14:40:26,813 - INFO - Regula po iteracji 2: IF survival >= 21.50 AND lvdd <= 5.80 AND epss >= 4.90 THEN class = 0, (p=51, n=0, P=88, N=43)
+2025-03-04 14:40:26,813 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:26,813 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:26,826 - INFO - Iteracja 0: condition_best: survival >= 21.50, quality_best: 0.766, coverage_best: (p=67, n=3, P=88, N=43), precision: 0.957
+2025-03-04 14:40:26,826 - INFO - Regula po iteracji 0: IF survival >= 21.50 THEN class = 0, (p=67, n=3, P=88, N=43)
+2025-03-04 14:40:26,826 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:26,908 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:26,908 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=21, n=110, P=21, N=110)
+2025-03-04 14:40:26,908 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:26,908 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:26,911 - INFO - Iteracja 1: condition_best: mult >= 0.43, quality_best: 0.784, coverage_best: (p=64, n=2, P=88, N=43), precision: 0.97
+2025-03-04 14:40:26,911 - INFO - Regula po iteracji 1: IF survival >= 21.50 AND mult >= 0.43 THEN class = 0, (p=64, n=2, P=88, N=43)
+2025-03-04 14:40:26,911 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:26,995 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:26,995 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=24, n=107, P=24, N=107)
+2025-03-04 14:40:26,995 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:26,995 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:26,998 - INFO - Iteracja 2: condition_best: age-at-heart-attack <= 73.50, quality_best: 0.793, coverage_best: (p=59, n=1, P=88, N=43), precision: 0.983
+2025-03-04 14:40:26,998 - INFO - Regula po iteracji 2: IF survival >= 21.50 AND mult >= 0.43 AND age-at-heart-attack <= 73.50 THEN class = 0, (p=59, n=1, P=88, N=43)
+2025-03-04 14:40:26,998 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,082 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,082 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=29, n=102, P=29, N=102)
+2025-03-04 14:40:27,082 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,082 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,084 - INFO - Iteracja 3: condition_best: pericardial-effusion = {0}, quality_best: 0.795, coverage_best: (p=52, n=0, P=88, N=43), precision: 1.0
+2025-03-04 14:40:27,084 - INFO - Regula po iteracji 3: IF survival >= 21.50 AND mult >= 0.43 AND age-at-heart-attack <= 73.50 AND pericardial-effusion = {0} THEN class = 0, (p=52, n=0, P=88, N=43)
+2025-03-04 14:40:27,084 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:27,085 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:27,098 - INFO - Iteracja 0: condition_best: survival >= 11.00, quality_best: 0.718, coverage_best: (p=84, n=8, P=88, N=43), precision: 0.913
+2025-03-04 14:40:27,098 - INFO - Regula po iteracji 0: IF survival >= 11.00 THEN class = 0, (p=84, n=8, P=88, N=43)
+2025-03-04 14:40:27,098 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,171 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,171 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=4, n=127, P=4, N=127)
+2025-03-04 14:40:27,171 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,171 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,177 - INFO - Iteracja 1: condition_best: lvdd <= 5.69, quality_best: 0.824, coverage_best: (p=76, n=3, P=88, N=43), precision: 0.962
+2025-03-04 14:40:27,177 - INFO - Regula po iteracji 1: IF survival >= 11.00 AND lvdd <= 5.69 THEN class = 0, (p=76, n=3, P=88, N=43)
+2025-03-04 14:40:27,177 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,248 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,248 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=12, n=119, P=12, N=119)
+2025-03-04 14:40:27,248 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,248 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,251 - INFO - Iteracja 2: condition_best: wall-motion-index >= 1.00, quality_best: 0.824, coverage_best: (p=76, n=3, P=88, N=43), precision: 0.962
+2025-03-04 14:40:27,251 - INFO - Regula po iteracji 2: IF survival >= 11.00 AND lvdd <= 5.69 AND wall-motion-index >= 1.00 THEN class = 0, (p=76, n=3, P=88, N=43)
+2025-03-04 14:40:27,252 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,323 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,323 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=12, n=119, P=12, N=119)
+2025-03-04 14:40:27,323 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,323 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,326 - INFO - Iteracja 3: condition_best: survival >= 15.50, quality_best: 0.815, coverage_best: (p=69, n=2, P=88, N=43), precision: 0.972
+2025-03-04 14:40:27,326 - INFO - Regula po iteracji 3: IF survival >= 11.00 AND lvdd <= 5.69 AND wall-motion-index >= 1.00 AND survival >= 15.50 THEN class = 0, (p=69, n=2, P=88, N=43)
+2025-03-04 14:40:27,326 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,400 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,400 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=19, n=112, P=19, N=112)
+2025-03-04 14:40:27,400 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,400 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,403 - INFO - Iteracja 4: condition_best: age-at-heart-attack <= 69.50, quality_best: 0.812, coverage_best: (p=55, n=0, P=88, N=43), precision: 1.0
+2025-03-04 14:40:27,403 - INFO - Regula po iteracji 4: IF survival >= 11.00 AND lvdd <= 5.69 AND wall-motion-index >= 1.00 AND survival >= 15.50 AND age-at-heart-attack <= 69.50 THEN class = 0, (p=55, n=0, P=88, N=43)
+2025-03-04 14:40:27,403 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:27,403 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:27,415 - INFO - Iteracja 0: condition_best: survival >= 8.25, quality_best: 0.71, coverage_best: (p=87, n=9, P=88, N=43), precision: 0.906
+2025-03-04 14:40:27,416 - INFO - Regula po iteracji 0: IF survival >= 8.25 THEN class = 0, (p=87, n=9, P=88, N=43)
+2025-03-04 14:40:27,416 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,488 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,488 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=1, n=130, P=1, N=130)
+2025-03-04 14:40:27,488 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,488 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,493 - INFO - Iteracja 1: condition_best: age-at-heart-attack <= 73.50, quality_best: 0.752, coverage_best: (p=80, n=6, P=88, N=43), precision: 0.93
+2025-03-04 14:40:27,494 - INFO - Regula po iteracji 1: IF survival >= 8.25 AND age-at-heart-attack <= 73.50 THEN class = 0, (p=80, n=6, P=88, N=43)
+2025-03-04 14:40:27,494 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,573 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,573 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=8, n=123, P=8, N=123)
+2025-03-04 14:40:27,573 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,573 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,577 - INFO - Iteracja 2: condition_best: wall-motion-index <= 2.23, quality_best: 0.77, coverage_best: (p=78, n=5, P=88, N=43), precision: 0.94
+2025-03-04 14:40:27,577 - INFO - Regula po iteracji 2: IF survival >= 8.25 AND age-at-heart-attack <= 73.50 AND wall-motion-index <= 2.23 THEN class = 0, (p=78, n=5, P=88, N=43)
+2025-03-04 14:40:27,578 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,657 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,657 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=10, n=121, P=10, N=121)
+2025-03-04 14:40:27,657 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,657 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,661 - INFO - Iteracja 3: condition_best: fractional-shortening >= 0.03, quality_best: 0.783, coverage_best: (p=75, n=4, P=88, N=43), precision: 0.949
+2025-03-04 14:40:27,661 - INFO - Regula po iteracji 3: IF survival >= 8.25 AND age-at-heart-attack <= 73.50 AND wall-motion-index <= 2.23 AND fractional-shortening >= 0.03 THEN class = 0, (p=75, n=4, P=88, N=43)
+2025-03-04 14:40:27,662 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,740 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,740 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=13, n=118, P=13, N=118)
+2025-03-04 14:40:27,740 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,740 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,744 - INFO - Iteracja 4: condition_best: wall-motion-score >= 8.50, quality_best: 0.805, coverage_best: (p=73, n=3, P=88, N=43), precision: 0.961
+2025-03-04 14:40:27,744 - INFO - Regula po iteracji 4: IF survival >= 8.25 AND age-at-heart-attack <= 73.50 AND wall-motion-index <= 2.23 AND fractional-shortening >= 0.03 AND wall-motion-score >= 8.50 THEN class = 0, (p=73, n=3, P=88, N=43)
+2025-03-04 14:40:27,744 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,822 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,822 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=15, n=116, P=15, N=116)
+2025-03-04 14:40:27,822 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,822 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,825 - INFO - Iteracja 5: condition_best: wall-motion-score <= 20.50, quality_best: 0.815, coverage_best: (p=69, n=2, P=88, N=43), precision: 0.972
+2025-03-04 14:40:27,825 - INFO - Regula po iteracji 5: IF survival >= 8.25 AND age-at-heart-attack <= 73.50 AND wall-motion-index <= 2.23 AND fractional-shortening >= 0.03 AND wall-motion-score >= 8.50 AND wall-motion-score <= 20.50 THEN class = 0, (p=69, n=2, P=88, N=43)
+2025-03-04 14:40:27,826 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,904 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,904 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=19, n=112, P=19, N=112)
+2025-03-04 14:40:27,904 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,904 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,906 - INFO - Iteracja 6: condition_best: wall-motion-index >= 1.00, quality_best: 0.815, coverage_best: (p=69, n=2, P=88, N=43), precision: 0.972
+2025-03-04 14:40:27,907 - INFO - Regula po iteracji 6: IF survival >= 8.25 AND age-at-heart-attack <= 73.50 AND wall-motion-index <= 2.23 AND fractional-shortening >= 0.03 AND wall-motion-score >= 8.50 AND wall-motion-score <= 20.50 AND wall-motion-index >= 1.00 THEN class = 0, (p=69, n=2, P=88, N=43)
+2025-03-04 14:40:27,907 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:27,984 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:27,985 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=19, n=112, P=19, N=112)
+2025-03-04 14:40:27,985 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:27,985 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:27,987 - INFO - Iteracja 7: condition_best: wall-motion-score >= 11.00, quality_best: 0.765, coverage_best: (p=61, n=2, P=88, N=43), precision: 0.968
+2025-03-04 14:40:27,987 - INFO - Regula po iteracji 7: IF survival >= 8.25 AND age-at-heart-attack <= 73.50 AND wall-motion-index <= 2.23 AND fractional-shortening >= 0.03 AND wall-motion-score >= 8.50 AND wall-motion-score <= 20.50 AND wall-motion-index >= 1.00 AND wall-motion-score >= 11.00 THEN class = 0, (p=61, n=2, P=88, N=43)
+2025-03-04 14:40:27,988 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:28,075 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:28,075 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=27, n=104, P=27, N=104)
+2025-03-04 14:40:28,075 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:28,075 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:28,078 - INFO - Iteracja 8: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:40:28,078 - INFO - Regula po iteracji 8: IF survival >= 8.25 AND age-at-heart-attack <= 73.50 AND wall-motion-index <= 2.23 AND fractional-shortening >= 0.03 AND wall-motion-score >= 8.50 AND wall-motion-score <= 20.50 AND wall-motion-index >= 1.00 AND wall-motion-score >= 11.00 THEN class = 0, (p=61, n=2, P=88, N=43)
+2025-03-04 14:40:28,078 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:28,080 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:28,092 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:40:28,092 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=88, n=43, P=88, N=43)
+2025-03-04 14:40:28,092 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:28,092 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:28,104 - INFO - Iteracja 0: condition_best: survival <= 8.25, quality_best: 0.845, coverage_best: (p=33, n=1, P=43, N=88), precision: 0.971
+2025-03-04 14:40:28,104 - INFO - Regula po iteracji 0: IF survival <= 8.25 THEN class = 1, (p=33, n=1, P=43, N=88)
+2025-03-04 14:40:28,104 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:28,168 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:28,168 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=10, n=121, P=10, N=121)
+2025-03-04 14:40:28,168 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:28,168 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:28,169 - INFO - Iteracja 1: condition_best: wall-motion-index >= 1.00, quality_best: 0.833, coverage_best: (p=32, n=1, P=43, N=88), precision: 0.97
+2025-03-04 14:40:28,169 - INFO - Regula po iteracji 1: IF survival <= 8.25 AND wall-motion-index >= 1.00 THEN class = 1, (p=32, n=1, P=43, N=88)
+2025-03-04 14:40:28,169 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:28,237 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:28,237 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=11, n=120, P=11, N=120)
+2025-03-04 14:40:28,237 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:28,237 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:28,239 - INFO - Iteracja 2: condition_best: mult <= 1.00, quality_best: 0.82, coverage_best: (p=31, n=1, P=43, N=88), precision: 0.969
+2025-03-04 14:40:28,239 - INFO - Regula po iteracji 2: IF survival <= 8.25 AND wall-motion-index >= 1.00 AND mult <= 1.00 THEN class = 1, (p=31, n=1, P=43, N=88)
+2025-03-04 14:40:28,239 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:28,309 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:28,309 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=12, n=119, P=12, N=119)
+2025-03-04 14:40:28,309 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:28,309 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:28,311 - INFO - Iteracja 3: condition_best: group >= 1.00, quality_best: 0.808, coverage_best: (p=30, n=1, P=43, N=88), precision: 0.968
+2025-03-04 14:40:28,311 - INFO - Regula po iteracji 3: IF survival <= 8.25 AND wall-motion-index >= 1.00 AND mult <= 1.00 AND group >= 1.00 THEN class = 1, (p=30, n=1, P=43, N=88)
+2025-03-04 14:40:28,311 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:28,375 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:40:28,375 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=13, n=118, P=13, N=118)
+2025-03-04 14:40:28,375 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:28,375 - INFO - ***RR NOT FOUND***
+2025-03-04 14:40:28,376 - INFO - Iteracja 4: condition_best: mult <= 0.96, quality_best: 0.837, coverage_best: (p=29, n=0, P=43, N=88), precision: 1.0
+2025-03-04 14:40:28,376 - INFO - Regula po iteracji 4: IF survival <= 8.25 AND wall-motion-index >= 1.00 AND mult <= 1.00 AND group >= 1.00 AND mult <= 0.96 THEN class = 1, (p=29, n=0, P=43, N=88)
+2025-03-04 14:40:28,376 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:28,377 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:28,388 - INFO - Iteracja 0: condition_best: survival <= 20.00, quality_best: 0.458, coverage_best: (p=38, n=20, P=43, N=88), precision: 0.655
+2025-03-04 14:40:28,388 - INFO - Regula po iteracji 0: IF survival <= 20.00 THEN class = 1, (p=38, n=20, P=43, N=88)
+2025-03-04 14:40:28,396 - INFO - Iteracja 1: condition_best: fractional-shortening <= 0.18, quality_best: 0.547, coverage_best: (p=22, n=5, P=43, N=88), precision: 0.815
+2025-03-04 14:40:28,397 - INFO - Regula po iteracji 1: IF survival <= 20.00 AND fractional-shortening <= 0.18 THEN class = 1, (p=22, n=5, P=43, N=88)
+2025-03-04 14:40:28,397 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:28,476 - INFO - Iteracja 0: condition_best: survival <= 0.38, quality_best: 0.619, coverage_best: (p=5, n=0, P=21, N=110), number_of_covered_negatives_best: 0, best_score: 0.857, precision: 1.0
+2025-03-04 14:40:28,476 - INFO - Regula po iteracji 0: IF survival <= 0.38 THEN class = 1, (p=5, n=0, P=21, N=110)
+2025-03-04 14:40:28,476 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:28,476 - INFO - ***RR FOUND***
+2025-03-04 14:40:28,476 - INFO - Reference rule: IF survival <= 0.38 THEN class = 1
+2025-03-04 14:40:28,476 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:40:28,476 - INFO - Exception precision: 0
+2025-03-04 14:40:28,476 - INFO - ***ER NOT FOUND***
+2025-03-04 14:40:28,480 - INFO - Iteracja 2: condition_best: group <= 2.00, quality_best: 0.662, coverage_best: (p=22, n=2, P=43, N=88), precision: 0.917
+2025-03-04 14:40:28,480 - INFO - Regula po iteracji 2: IF survival <= 20.00 AND fractional-shortening <= 0.18 AND group <= 2.00 THEN class = 1, (p=22, n=2, P=43, N=88)
+2025-03-04 14:40:28,480 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:28,550 - INFO - Iteracja 0: condition_best: survival <= 0.38, quality_best: 0.619, coverage_best: (p=5, n=0, P=21, N=110), number_of_covered_negatives_best: 0, best_score: 0.857, precision: 1.0
+2025-03-04 14:40:28,550 - INFO - Regula po iteracji 0: IF survival <= 0.38 THEN class = 1, (p=5, n=0, P=21, N=110)
+2025-03-04 14:40:28,550 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:28,550 - INFO - ***RR FOUND***
+2025-03-04 14:40:28,550 - INFO - Reference rule: IF survival <= 0.38 THEN class = 1
+2025-03-04 14:40:28,550 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:40:28,550 - INFO - Exception precision: 0
+2025-03-04 14:40:28,551 - INFO - ***ER NOT FOUND***
+2025-03-04 14:40:28,552 - INFO - Iteracja 3: condition_best: wall-motion-index >= 1.00, quality_best: 0.648, coverage_best: (p=21, n=2, P=43, N=88), precision: 0.913
+2025-03-04 14:40:28,553 - INFO - Regula po iteracji 3: IF survival <= 20.00 AND fractional-shortening <= 0.18 AND group <= 2.00 AND wall-motion-index >= 1.00 THEN class = 1, (p=21, n=2, P=43, N=88)
+2025-03-04 14:40:28,553 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:28,623 - INFO - Iteracja 0: condition_best: survival <= 0.38, quality_best: 0.614, coverage_best: (p=5, n=0, P=22, N=109), number_of_covered_negatives_best: 0, best_score: 0.841, precision: 1.0
+2025-03-04 14:40:28,623 - INFO - Regula po iteracji 0: IF survival <= 0.38 THEN class = 1, (p=5, n=0, P=22, N=109)
+2025-03-04 14:40:28,623 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:28,623 - INFO - ***RR FOUND***
+2025-03-04 14:40:28,623 - INFO - Reference rule: IF survival <= 0.38 THEN class = 1
+2025-03-04 14:40:28,623 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:40:28,623 - INFO - Exception precision: 0
+2025-03-04 14:40:28,623 - INFO - ***ER NOT FOUND***
+2025-03-04 14:40:28,625 - INFO - Iteracja 4: condition_best: pericardial-effusion = {0}, quality_best: 0.64, coverage_best: (p=17, n=1, P=43, N=88), precision: 0.944
+2025-03-04 14:40:28,625 - INFO - Regula po iteracji 4: IF survival <= 20.00 AND fractional-shortening <= 0.18 AND group <= 2.00 AND wall-motion-index >= 1.00 AND pericardial-effusion = {0} THEN class = 1, (p=17, n=1, P=43, N=88)
+2025-03-04 14:40:28,625 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:40:28,691 - INFO - Iteracja 0: condition_best: survival <= 0.38, quality_best: 0.596, coverage_best: (p=5, n=0, P=26, N=105), number_of_covered_negatives_best: 0, best_score: 0.788, precision: 1.0
+2025-03-04 14:40:28,691 - INFO - Regula po iteracji 0: IF survival <= 0.38 THEN class = 1, (p=5, n=0, P=26, N=105)
+2025-03-04 14:40:28,691 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:40:28,692 - INFO - ***RR FOUND***
+2025-03-04 14:40:28,692 - INFO - Reference rule: IF survival <= 0.38 THEN class = 1
+2025-03-04 14:40:28,692 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:40:28,692 - INFO - Exception precision: 0
+2025-03-04 14:40:28,692 - INFO - ***ER NOT FOUND***
+2025-03-04 14:40:28,693 - INFO - Iteracja 5: condition_best: survival >= 9.50, quality_best: 0.558, coverage_best: (p=5, n=0, P=43, N=88), precision: 1.0
+2025-03-04 14:40:28,693 - INFO - Regula po iteracji 5: IF survival <= 20.00 AND fractional-shortening <= 0.18 AND group <= 2.00 AND wall-motion-index >= 1.00 AND pericardial-effusion = {0} AND survival >= 9.50 THEN class = 1, (p=5, n=0, P=43, N=88)
+2025-03-04 14:40:28,693 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:28,694 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:28,705 - INFO - Iteracja 0: condition_best: fractional-shortening <= 0.24, quality_best: 0.132, coverage_best: (p=33, n=44, P=43, N=88), precision: 0.429
+2025-03-04 14:40:28,706 - INFO - Regula po iteracji 0: IF fractional-shortening <= 0.24 THEN class = 1, (p=33, n=44, P=43, N=88)
+2025-03-04 14:40:28,716 - INFO - Iteracja 1: condition_best: age-at-heart-attack >= 57.50, quality_best: 0.236, coverage_best: (p=29, n=27, P=43, N=88), precision: 0.518
+2025-03-04 14:40:28,716 - INFO - Regula po iteracji 1: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 THEN class = 1, (p=29, n=27, P=43, N=88)
+2025-03-04 14:40:28,724 - INFO - Iteracja 2: condition_best: mult <= 0.96, quality_best: 0.26, coverage_best: (p=29, n=25, P=43, N=88), precision: 0.537
+2025-03-04 14:40:28,724 - INFO - Regula po iteracji 2: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 THEN class = 1, (p=29, n=25, P=43, N=88)
+2025-03-04 14:40:28,732 - INFO - Iteracja 3: condition_best: epss >= 0.00, quality_best: 0.27, coverage_best: (p=27, n=22, P=43, N=88), precision: 0.551
+2025-03-04 14:40:28,732 - INFO - Regula po iteracji 3: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 THEN class = 1, (p=27, n=22, P=43, N=88)
+2025-03-04 14:40:28,740 - INFO - Iteracja 4: condition_best: lvdd >= 3.97, quality_best: 0.283, coverage_best: (p=26, n=20, P=43, N=88), precision: 0.565
+2025-03-04 14:40:28,740 - INFO - Regula po iteracji 4: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 THEN class = 1, (p=26, n=20, P=43, N=88)
+2025-03-04 14:40:28,747 - INFO - Iteracja 5: condition_best: lvdd <= 6.74, quality_best: 0.298, coverage_best: (p=26, n=19, P=43, N=88), precision: 0.578
+2025-03-04 14:40:28,747 - INFO - Regula po iteracji 5: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 THEN class = 1, (p=26, n=19, P=43, N=88)
+2025-03-04 14:40:28,754 - INFO - Iteracja 6: condition_best: age-at-heart-attack <= 78.00, quality_best: 0.298, coverage_best: (p=24, n=17, P=43, N=88), precision: 0.585
+2025-03-04 14:40:28,754 - INFO - Regula po iteracji 6: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 THEN class = 1, (p=24, n=17, P=43, N=88)
+2025-03-04 14:40:28,761 - INFO - Iteracja 7: condition_best: epss <= 28.75, quality_best: 0.3, coverage_best: (p=22, n=15, P=43, N=88), precision: 0.595
+2025-03-04 14:40:28,762 - INFO - Regula po iteracji 7: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 THEN class = 1, (p=22, n=15, P=43, N=88)
+2025-03-04 14:40:28,768 - INFO - Iteracja 8: condition_best: age-at-heart-attack >= 59.00, quality_best: 0.3, coverage_best: (p=22, n=15, P=43, N=88), precision: 0.595
+2025-03-04 14:40:28,768 - INFO - Regula po iteracji 8: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 AND age-at-heart-attack >= 59.00 THEN class = 1, (p=22, n=15, P=43, N=88)
+2025-03-04 14:40:28,774 - INFO - Iteracja 9: condition_best: wall-motion-index >= 1.00, quality_best: 0.3, coverage_best: (p=22, n=15, P=43, N=88), precision: 0.595
+2025-03-04 14:40:28,775 - INFO - Regula po iteracji 9: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 AND age-at-heart-attack >= 59.00 AND wall-motion-index >= 1.00 THEN class = 1, (p=22, n=15, P=43, N=88)
+2025-03-04 14:40:28,781 - INFO - Iteracja 10: condition_best: wall-motion-score <= 21.75, quality_best: 0.285, coverage_best: (p=19, n=13, P=43, N=88), precision: 0.594
+2025-03-04 14:40:28,781 - INFO - Regula po iteracji 10: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 AND age-at-heart-attack >= 59.00 AND wall-motion-index >= 1.00 AND wall-motion-score <= 21.75 THEN class = 1, (p=19, n=13, P=43, N=88)
+2025-03-04 14:40:28,787 - INFO - Iteracja 11: condition_best: age-at-heart-attack <= 77.50, quality_best: 0.287, coverage_best: (p=18, n=12, P=43, N=88), precision: 0.6
+2025-03-04 14:40:28,787 - INFO - Regula po iteracji 11: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 AND age-at-heart-attack >= 59.00 AND wall-motion-index >= 1.00 AND wall-motion-score <= 21.75 AND age-at-heart-attack <= 77.50 THEN class = 1, (p=18, n=12, P=43, N=88)
+2025-03-04 14:40:28,792 - INFO - Iteracja 12: condition_best: age-at-heart-attack >= 61.00, quality_best: 0.273, coverage_best: (p=15, n=10, P=43, N=88), precision: 0.6
+2025-03-04 14:40:28,793 - INFO - Regula po iteracji 12: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 AND age-at-heart-attack >= 59.00 AND wall-motion-index >= 1.00 AND wall-motion-score <= 21.75 AND age-at-heart-attack <= 77.50 AND age-at-heart-attack >= 61.00 THEN class = 1, (p=15, n=10, P=43, N=88)
+2025-03-04 14:40:28,798 - INFO - Iteracja 13: condition_best: wall-motion-score >= 8.00, quality_best: 0.252, coverage_best: (p=14, n=10, P=43, N=88), precision: 0.583
+2025-03-04 14:40:28,798 - INFO - Regula po iteracji 13: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 AND age-at-heart-attack >= 59.00 AND wall-motion-index >= 1.00 AND wall-motion-score <= 21.75 AND age-at-heart-attack <= 77.50 AND age-at-heart-attack >= 61.00 AND wall-motion-score >= 8.00 THEN class = 1, (p=14, n=10, P=43, N=88)
+2025-03-04 14:40:28,803 - INFO - Iteracja 14: condition_best: epss >= 2.40, quality_best: 0.282, coverage_best: (p=13, n=8, P=43, N=88), precision: 0.619
+2025-03-04 14:40:28,803 - INFO - Regula po iteracji 14: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 AND age-at-heart-attack >= 59.00 AND wall-motion-index >= 1.00 AND wall-motion-score <= 21.75 AND age-at-heart-attack <= 77.50 AND age-at-heart-attack >= 61.00 AND wall-motion-score >= 8.00 AND epss >= 2.40 THEN class = 1, (p=13, n=8, P=43, N=88)
+2025-03-04 14:40:28,808 - INFO - Iteracja 15: condition_best: mult <= 0.86, quality_best: 0.234, coverage_best: (p=11, n=8, P=43, N=88), precision: 0.579
+2025-03-04 14:40:28,808 - INFO - Regula po iteracji 15: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 AND age-at-heart-attack >= 59.00 AND wall-motion-index >= 1.00 AND wall-motion-score <= 21.75 AND age-at-heart-attack <= 77.50 AND age-at-heart-attack >= 61.00 AND wall-motion-score >= 8.00 AND epss >= 2.40 AND mult <= 0.86 THEN class = 1, (p=11, n=8, P=43, N=88)
+2025-03-04 14:40:28,812 - INFO - Iteracja 16: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:40:28,813 - INFO - Regula po iteracji 16: IF fractional-shortening <= 0.24 AND age-at-heart-attack >= 57.50 AND mult <= 0.96 AND epss >= 0.00 AND lvdd >= 3.97 AND lvdd <= 6.74 AND age-at-heart-attack <= 78.00 AND epss <= 28.75 AND age-at-heart-attack >= 59.00 AND wall-motion-index >= 1.00 AND wall-motion-score <= 21.75 AND age-at-heart-attack <= 77.50 AND age-at-heart-attack >= 61.00 AND wall-motion-score >= 8.00 AND epss >= 2.40 AND mult <= 0.86 THEN class = 1, (p=11, n=8, P=43, N=88)
+2025-03-04 14:40:28,813 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:28,818 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:40:28,829 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:40:28,829 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=43, n=88, P=43, N=88)
+2025-03-04 14:40:28,829 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:40:28,835 - INFO - ************************Finished experiment for echocardiogram.arff with algorithm3************************
+2025-03-04 14:40:28,835 - INFO - *************************************************************************************************************************
+2025-03-04 14:40:28,835 - INFO - *************************************************************************************************************************
+2025-03-04 14:40:28,835 - INFO - *************************************************************************************************************************

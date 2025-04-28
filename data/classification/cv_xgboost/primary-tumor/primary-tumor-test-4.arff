@@ -1,0 +1,52 @@
+@relation test
+@attribute age {'mniejszy_od_30','30-59','wiekszy_lub_rowny_od60'}
+@attribute sex {'male','female'}
+@attribute histologic-type {'epidermoid','adeno','anaplastic'}
+@attribute degree-of-diffe {'well','fairly','poorly'}
+@attribute bone {'yes','no'}
+@attribute bone-marrow {'yes','no'}
+@attribute lung {'yes','no'}
+@attribute pleura {'yes','no'}
+@attribute peritoneum {'yes','no'}
+@attribute liver {'yes','no'}
+@attribute brain {'yes','no'}
+@attribute skin {'yes','no'}
+@attribute neck {'yes','no'}
+@attribute supraclavicular {'yes','no'}
+@attribute axillar {'yes','no'}
+@attribute mediastinum {'yes','no'}
+@attribute abdominal {'yes','no'}
+@attribute class {'lung','head and neck','esophagus','thyroid','stomach','duoden and sm.int','colon','rectum','anus','salivary glands','pancreas','gallbladder','liver','kidney','bladder','testis','prostate','ovary','corpus uteri','cervix uteri','vagina','breast'}
+@data
+'wiekszy_lub_rowny_od60','male',?,'poorly','no','no','no','no','no','yes','no','no','no','yes','no','yes','no','lung'
+'30-59','male','epidermoid',?,'no','no','no','no','no','no','no','no','yes','no','no','no','no','head and neck'
+'30-59','male','anaplastic','poorly','no','no','no','yes','no','yes','no','no','yes','no','no','yes','yes','lung'
+'30-59','male',?,'poorly','yes','no','no','no','no','yes','no','no','no','no','no','yes','no','lung'
+'30-59','female','adeno','well','no','no','no','no','no','no','no','no','no','yes','no','no','no','kidney'
+'30-59','female','adeno',?,'no','no','no','yes','yes','no','no','no','no','no','no','no','no','ovary'
+'30-59','male','epidermoid','fairly','yes','no','no','no','no','no','no',?,'yes','yes','no','no','no','lung'
+'wiekszy_lub_rowny_od60','male','epidermoid','poorly','no','no','no','no','no','no','no','no','no','yes','no','no','no','lung'
+'wiekszy_lub_rowny_od60','female','adeno',?,'no','no','yes','no','no','yes','no','no','no','no','no','no','yes','gallbladder'
+'30-59','male','epidermoid',?,'no','no','no','yes','no','yes','no','no','no','no','no','no','no','lung'
+'wiekszy_lub_rowny_od60','female','adeno','poorly','no','no','yes','no','yes','yes','no','no','no','no','no','no','yes','ovary'
+'mniejszy_od_30','female','adeno',?,'yes','no','no','no','yes','no','no','no','yes','yes','yes','no','yes','stomach'
+'wiekszy_lub_rowny_od60','female','adeno','poorly','no','no','no','yes','yes','no','no','no','no','no','no','no','no','ovary'
+'mniejszy_od_30','female','adeno',?,'yes','no','no','no','no','no','no','no','no','no','yes','no','no','breast'
+'30-59','male','adeno',?,'yes','no','yes','no','no','no','yes','no','no','no','no','yes','no','stomach'
+'30-59','male','epidermoid','poorly','no','no','yes','no','no','no','no','no','yes','yes','yes','yes','no','esophagus'
+'wiekszy_lub_rowny_od60','female',?,'poorly','no','no','no','no','no','yes','no','no','no','no','no','no','yes','stomach'
+'mniejszy_od_30','female','adeno','well','yes','yes','no','no','yes','no','no','no','no','no','no','no','no','stomach'
+'wiekszy_lub_rowny_od60','female','adeno',?,'yes','no','yes','no','no','no','no','no','no','no','no','no','no','thyroid'
+'30-59','male','adeno','well','no','no','no','no','yes','yes','no','no','no','no','no','no','no','pancreas'
+'wiekszy_lub_rowny_od60','female','adeno',?,'no','no','no','no','no','yes','no','no','no','no','no','no','yes','colon'
+'30-59','male','adeno','fairly','yes','no','no','no','no','no','no','no','no','no','no','no','no','prostate'
+'wiekszy_lub_rowny_od60','female','epidermoid',?,'no','no','no','no','no','yes','no','no','no','no','no','no','yes','gallbladder'
+'wiekszy_lub_rowny_od60','female','adeno',?,'no','no','no','no','no','no','no','no','no','no','no','yes','yes','liver'
+'wiekszy_lub_rowny_od60','female','adeno','poorly','no','no','no','no','yes','yes','no','no','no','no','no','no','no','pancreas'
+'30-59','male',?,?,'yes','no','yes','no','no','no','no','no','no','no','no','no','no','thyroid'
+'30-59','male','epidermoid','poorly','yes','no','no','no','no','no','no','no','no','no','no','no','no','lung'
+'30-59','female','adeno',?,'no','no','no','no','no','no','no','no','no','no','yes','no','no','breast'
+'30-59','female','adeno',?,'no','no','no','no','no','no','no','no','no','no','yes','no','no','breast'
+'30-59','female','adeno','poorly','no','no','no','no','no','no','no','no','no','yes','no','no','no','lung'
+'30-59','male','adeno',?,'yes','no','no','no','no','no','no','no','no','no','no','yes','no','kidney'
+'30-59','male','epidermoid','well','no','no','no','no','no','no','no','no','yes','no','no','no','no','head and neck'

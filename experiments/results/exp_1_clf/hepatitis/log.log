@@ -1,0 +1,559 @@
+2025-03-04 14:42:24,605 - INFO - **********Starting experiment for hepatitis.arff with algorithm3**********
+2025-03-04 14:42:24,617 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:24,636 - INFO - Iteracja 0: condition_best: ALBUMIN >= 4.00, quality_best: 0.639, coverage_best: (p=72, n=3, P=123, N=32), precision: 0.96
+2025-03-04 14:42:24,636 - INFO - Regula po iteracji 0: IF ALBUMIN >= 4.00 THEN class = LIVE, (p=72, n=3, P=123, N=32)
+2025-03-04 14:42:24,636 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:24,708 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:24,709 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=51, n=104, P=51, N=104)
+2025-03-04 14:42:24,709 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:24,709 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:24,712 - INFO - Iteracja 1: condition_best: SPIDERS = {no}, quality_best: 0.74, coverage_best: (p=59, n=0, P=123, N=32), precision: 1.0
+2025-03-04 14:42:24,712 - INFO - Regula po iteracji 1: IF ALBUMIN >= 4.00 AND SPIDERS = {no} THEN class = LIVE, (p=59, n=0, P=123, N=32)
+2025-03-04 14:42:24,712 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:24,713 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:24,723 - INFO - Iteracja 0: condition_best: ALBUMIN >= 4.00, quality_best: 0.639, coverage_best: (p=72, n=3, P=123, N=32), precision: 0.96
+2025-03-04 14:42:24,723 - INFO - Regula po iteracji 0: IF ALBUMIN >= 4.00 THEN class = LIVE, (p=72, n=3, P=123, N=32)
+2025-03-04 14:42:24,723 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:24,790 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:24,790 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=51, n=104, P=51, N=104)
+2025-03-04 14:42:24,790 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:24,790 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:24,793 - INFO - Iteracja 1: condition_best: BILIRUBIN <= 1.80, quality_best: 0.731, coverage_best: (p=70, n=1, P=123, N=32), precision: 0.986
+2025-03-04 14:42:24,793 - INFO - Regula po iteracji 1: IF ALBUMIN >= 4.00 AND BILIRUBIN <= 1.80 THEN class = LIVE, (p=70, n=1, P=123, N=32)
+2025-03-04 14:42:24,793 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:24,858 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:24,858 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=53, n=102, P=53, N=102)
+2025-03-04 14:42:24,859 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:24,859 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:24,860 - INFO - Iteracja 2: condition_best: BILIRUBIN >= 0.50, quality_best: 0.726, coverage_best: (p=69, n=1, P=123, N=32), precision: 0.986
+2025-03-04 14:42:24,861 - INFO - Regula po iteracji 2: IF ALBUMIN >= 4.00 AND BILIRUBIN <= 1.80 AND BILIRUBIN >= 0.50 THEN class = LIVE, (p=69, n=1, P=123, N=32)
+2025-03-04 14:42:24,861 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:24,928 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:24,928 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=54, n=101, P=54, N=101)
+2025-03-04 14:42:24,928 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:24,928 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:24,930 - INFO - Iteracja 3: condition_best: BILIRUBIN >= 0.60, quality_best: 0.726, coverage_best: (p=69, n=1, P=123, N=32), precision: 0.986
+2025-03-04 14:42:24,930 - INFO - Regula po iteracji 3: IF ALBUMIN >= 4.00 AND BILIRUBIN <= 1.80 AND BILIRUBIN >= 0.50 AND BILIRUBIN >= 0.60 THEN class = LIVE, (p=69, n=1, P=123, N=32)
+2025-03-04 14:42:24,930 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:24,996 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:24,997 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=54, n=101, P=54, N=101)
+2025-03-04 14:42:24,997 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:24,997 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:24,999 - INFO - Iteracja 4: condition_best: ASCITES = {no}, quality_best: 0.713, coverage_best: (p=66, n=1, P=123, N=32), precision: 0.985
+2025-03-04 14:42:24,999 - INFO - Regula po iteracji 4: IF ALBUMIN >= 4.00 AND BILIRUBIN <= 1.80 AND BILIRUBIN >= 0.50 AND BILIRUBIN >= 0.60 AND ASCITES = {no} THEN class = LIVE, (p=66, n=1, P=123, N=32)
+2025-03-04 14:42:24,999 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,066 - INFO - Iteracja 0: condition_best: SGOT >= 245.50, quality_best: 0.428, coverage_best: (p=6, n=1, P=57, N=98), number_of_covered_negatives_best: 0, best_score: 0.533, precision: 0.857
+2025-03-04 14:42:25,066 - INFO - Regula po iteracji 0: IF SGOT >= 245.50 THEN class = LIVE, (p=6, n=1, P=57, N=98)
+2025-03-04 14:42:25,066 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,067 - INFO - ***RR FOUND***
+2025-03-04 14:42:25,067 - INFO - Reference rule: IF SGOT >= 245.50 THEN class = LIVE
+2025-03-04 14:42:25,067 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:25,067 - INFO - Exception precision: 0
+2025-03-04 14:42:25,067 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:25,069 - INFO - Iteracja 5: condition_best: VARICES = {no}, quality_best: 0.708, coverage_best: (p=65, n=1, P=123, N=32), precision: 0.985
+2025-03-04 14:42:25,069 - INFO - Regula po iteracji 5: IF ALBUMIN >= 4.00 AND BILIRUBIN <= 1.80 AND BILIRUBIN >= 0.50 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND VARICES = {no} THEN class = LIVE, (p=65, n=1, P=123, N=32)
+2025-03-04 14:42:25,069 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,136 - INFO - Iteracja 0: condition_best: SGOT >= 245.50, quality_best: 0.426, coverage_best: (p=6, n=1, P=58, N=97), number_of_covered_negatives_best: 0, best_score: 0.529, precision: 0.857
+2025-03-04 14:42:25,137 - INFO - Regula po iteracji 0: IF SGOT >= 245.50 THEN class = LIVE, (p=6, n=1, P=58, N=97)
+2025-03-04 14:42:25,137 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,137 - INFO - ***RR FOUND***
+2025-03-04 14:42:25,137 - INFO - Reference rule: IF SGOT >= 245.50 THEN class = LIVE
+2025-03-04 14:42:25,137 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:25,137 - INFO - Exception precision: 0
+2025-03-04 14:42:25,137 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:25,139 - INFO - Iteracja 6: condition_best: SEX = {female}, quality_best: 0.685, coverage_best: (p=60, n=1, P=123, N=32), precision: 0.984
+2025-03-04 14:42:25,139 - INFO - Regula po iteracji 6: IF ALBUMIN >= 4.00 AND BILIRUBIN <= 1.80 AND BILIRUBIN >= 0.50 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND VARICES = {no} AND SEX = {female} THEN class = LIVE, (p=60, n=1, P=123, N=32)
+2025-03-04 14:42:25,139 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,207 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.627, coverage_best: (p=16, n=0, P=63, N=92), number_of_covered_negatives_best: 0, best_score: 0.881, precision: 1.0
+2025-03-04 14:42:25,208 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=63, N=92)
+2025-03-04 14:42:25,208 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,208 - INFO - ***RR FOUND***
+2025-03-04 14:42:25,208 - INFO - Reference rule: IF SEX = {male} THEN class = LIVE
+2025-03-04 14:42:25,208 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:25,208 - INFO - Exception precision: 0
+2025-03-04 14:42:25,208 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:25,210 - INFO - Iteracja 7: condition_best: SPLEEN_PALPABLE = {no}, quality_best: 0.656, coverage_best: (p=54, n=1, P=123, N=32), precision: 0.982
+2025-03-04 14:42:25,210 - INFO - Regula po iteracji 7: IF ALBUMIN >= 4.00 AND BILIRUBIN <= 1.80 AND BILIRUBIN >= 0.50 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND VARICES = {no} AND SEX = {female} AND SPLEEN_PALPABLE = {no} THEN class = LIVE, (p=54, n=1, P=123, N=32)
+2025-03-04 14:42:25,210 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,278 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.616, coverage_best: (p=16, n=0, P=69, N=86), number_of_covered_negatives_best: 0, best_score: 0.848, precision: 1.0
+2025-03-04 14:42:25,278 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=69, N=86)
+2025-03-04 14:42:25,278 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,278 - INFO - ***RR FOUND***
+2025-03-04 14:42:25,279 - INFO - Reference rule: IF SEX = {male} THEN class = LIVE
+2025-03-04 14:42:25,279 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:25,279 - INFO - Exception precision: 0
+2025-03-04 14:42:25,279 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:25,281 - INFO - Iteracja 8: condition_best: BILIRUBIN >= 0.65, quality_best: 0.695, coverage_best: (p=48, n=0, P=123, N=32), precision: 1.0
+2025-03-04 14:42:25,281 - INFO - Regula po iteracji 8: IF ALBUMIN >= 4.00 AND BILIRUBIN <= 1.80 AND BILIRUBIN >= 0.50 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND VARICES = {no} AND SEX = {female} AND SPLEEN_PALPABLE = {no} AND BILIRUBIN >= 0.65 THEN class = LIVE, (p=48, n=0, P=123, N=32)
+2025-03-04 14:42:25,281 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:25,282 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:25,292 - INFO - Iteracja 0: condition_best: FATIGUE = {no}, quality_best: 0.584, coverage_best: (p=52, n=2, P=123, N=32), precision: 0.963
+2025-03-04 14:42:25,292 - INFO - Regula po iteracji 0: IF FATIGUE = {no} THEN class = LIVE, (p=52, n=2, P=123, N=32)
+2025-03-04 14:42:25,292 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,366 - INFO - Iteracja 0: condition_best: AGE >= 63.00, quality_best: 0.423, coverage_best: (p=7, n=1, P=71, N=84), number_of_covered_negatives_best: 0, best_score: 0.521, precision: 0.875
+2025-03-04 14:42:25,366 - INFO - Regula po iteracji 0: IF AGE >= 63.00 THEN class = LIVE, (p=7, n=1, P=71, N=84)
+2025-03-04 14:42:25,366 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,366 - INFO - ***RR FOUND***
+2025-03-04 14:42:25,366 - INFO - Reference rule: IF AGE >= 63.00 THEN class = LIVE
+2025-03-04 14:42:25,366 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:25,366 - INFO - Exception precision: 0
+2025-03-04 14:42:25,366 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:25,368 - INFO - Iteracja 1: condition_best: HISTOLOGY = {no}, quality_best: 0.642, coverage_best: (p=35, n=0, P=123, N=32), precision: 1.0
+2025-03-04 14:42:25,369 - INFO - Regula po iteracji 1: IF FATIGUE = {no} AND HISTOLOGY = {no} THEN class = LIVE, (p=35, n=0, P=123, N=32)
+2025-03-04 14:42:25,369 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:25,369 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:25,379 - INFO - Iteracja 0: condition_best: FATIGUE = {no}, quality_best: 0.584, coverage_best: (p=52, n=2, P=123, N=32), precision: 0.963
+2025-03-04 14:42:25,379 - INFO - Regula po iteracji 0: IF FATIGUE = {no} THEN class = LIVE, (p=52, n=2, P=123, N=32)
+2025-03-04 14:42:25,380 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,451 - INFO - Iteracja 0: condition_best: AGE >= 63.00, quality_best: 0.423, coverage_best: (p=7, n=1, P=71, N=84), number_of_covered_negatives_best: 0, best_score: 0.521, precision: 0.875
+2025-03-04 14:42:25,451 - INFO - Regula po iteracji 0: IF AGE >= 63.00 THEN class = LIVE, (p=7, n=1, P=71, N=84)
+2025-03-04 14:42:25,451 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,451 - INFO - ***RR FOUND***
+2025-03-04 14:42:25,451 - INFO - Reference rule: IF AGE >= 63.00 THEN class = LIVE
+2025-03-04 14:42:25,451 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:25,451 - INFO - Exception precision: 0
+2025-03-04 14:42:25,451 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:25,453 - INFO - Iteracja 1: condition_best: VARICES = {no}, quality_best: 0.636, coverage_best: (p=50, n=1, P=123, N=32), precision: 0.98
+2025-03-04 14:42:25,454 - INFO - Regula po iteracji 1: IF FATIGUE = {no} AND VARICES = {no} THEN class = LIVE, (p=50, n=1, P=123, N=32)
+2025-03-04 14:42:25,454 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,521 - INFO - Iteracja 0: condition_best: AGE >= 63.00, quality_best: 0.418, coverage_best: (p=7, n=1, P=73, N=82), number_of_covered_negatives_best: 0, best_score: 0.514, precision: 0.875
+2025-03-04 14:42:25,521 - INFO - Regula po iteracji 0: IF AGE >= 63.00 THEN class = LIVE, (p=7, n=1, P=73, N=82)
+2025-03-04 14:42:25,521 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,521 - INFO - ***RR FOUND***
+2025-03-04 14:42:25,521 - INFO - Reference rule: IF AGE >= 63.00 THEN class = LIVE
+2025-03-04 14:42:25,521 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:25,521 - INFO - Exception precision: 0
+2025-03-04 14:42:25,521 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:25,523 - INFO - Iteracja 2: condition_best: LIVER_FIRM = {no}, quality_best: 0.654, coverage_best: (p=38, n=0, P=123, N=32), precision: 1.0
+2025-03-04 14:42:25,523 - INFO - Regula po iteracji 2: IF FATIGUE = {no} AND VARICES = {no} AND LIVER_FIRM = {no} THEN class = LIVE, (p=38, n=0, P=123, N=32)
+2025-03-04 14:42:25,523 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:25,524 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:25,534 - INFO - Iteracja 0: condition_best: ALBUMIN >= 3.75, quality_best: 0.581, coverage_best: (p=86, n=6, P=123, N=32), precision: 0.935
+2025-03-04 14:42:25,534 - INFO - Regula po iteracji 0: IF ALBUMIN >= 3.75 THEN class = LIVE, (p=86, n=6, P=123, N=32)
+2025-03-04 14:42:25,534 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,605 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:25,605 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=37, n=118, P=37, N=118)
+2025-03-04 14:42:25,605 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,605 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:25,610 - INFO - Iteracja 1: condition_best: BILIRUBIN >= 0.55, quality_best: 0.656, coverage_best: (p=84, n=4, P=123, N=32), precision: 0.955
+2025-03-04 14:42:25,610 - INFO - Regula po iteracji 1: IF ALBUMIN >= 3.75 AND BILIRUBIN >= 0.55 THEN class = LIVE, (p=84, n=4, P=123, N=32)
+2025-03-04 14:42:25,610 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,679 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:25,679 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=39, n=116, P=39, N=116)
+2025-03-04 14:42:25,679 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,679 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:25,683 - INFO - Iteracja 2: condition_best: BILIRUBIN <= 2.00, quality_best: 0.723, coverage_best: (p=79, n=2, P=123, N=32), precision: 0.975
+2025-03-04 14:42:25,683 - INFO - Regula po iteracji 2: IF ALBUMIN >= 3.75 AND BILIRUBIN >= 0.55 AND BILIRUBIN <= 2.00 THEN class = LIVE, (p=79, n=2, P=123, N=32)
+2025-03-04 14:42:25,683 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,750 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:25,750 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=44, n=111, P=44, N=111)
+2025-03-04 14:42:25,750 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,750 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:25,753 - INFO - Iteracja 3: condition_best: VARICES = {no}, quality_best: 0.758, coverage_best: (p=76, n=1, P=123, N=32), precision: 0.987
+2025-03-04 14:42:25,753 - INFO - Regula po iteracji 3: IF ALBUMIN >= 3.75 AND BILIRUBIN >= 0.55 AND BILIRUBIN <= 2.00 AND VARICES = {no} THEN class = LIVE, (p=76, n=1, P=123, N=32)
+2025-03-04 14:42:25,753 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,819 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:25,819 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=47, n=108, P=47, N=108)
+2025-03-04 14:42:25,819 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,819 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:25,821 - INFO - Iteracja 4: condition_best: BILIRUBIN >= 0.60, quality_best: 0.758, coverage_best: (p=76, n=1, P=123, N=32), precision: 0.987
+2025-03-04 14:42:25,822 - INFO - Regula po iteracji 4: IF ALBUMIN >= 3.75 AND BILIRUBIN >= 0.55 AND BILIRUBIN <= 2.00 AND VARICES = {no} AND BILIRUBIN >= 0.60 THEN class = LIVE, (p=76, n=1, P=123, N=32)
+2025-03-04 14:42:25,822 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,888 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:25,888 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=47, n=108, P=47, N=108)
+2025-03-04 14:42:25,888 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,888 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:25,890 - INFO - Iteracja 5: condition_best: ASCITES = {no}, quality_best: 0.754, coverage_best: (p=75, n=1, P=123, N=32), precision: 0.987
+2025-03-04 14:42:25,891 - INFO - Regula po iteracji 5: IF ALBUMIN >= 3.75 AND BILIRUBIN >= 0.55 AND BILIRUBIN <= 2.00 AND VARICES = {no} AND BILIRUBIN >= 0.60 AND ASCITES = {no} THEN class = LIVE, (p=75, n=1, P=123, N=32)
+2025-03-04 14:42:25,891 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:25,957 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:25,957 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=48, n=107, P=48, N=107)
+2025-03-04 14:42:25,957 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:25,957 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:25,959 - INFO - Iteracja 6: condition_best: SGOT >= 29.00, quality_best: 0.74, coverage_best: (p=59, n=0, P=123, N=32), precision: 1.0
+2025-03-04 14:42:25,959 - INFO - Regula po iteracji 6: IF ALBUMIN >= 3.75 AND BILIRUBIN >= 0.55 AND BILIRUBIN <= 2.00 AND VARICES = {no} AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND SGOT >= 29.00 THEN class = LIVE, (p=59, n=0, P=123, N=32)
+2025-03-04 14:42:25,959 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:25,961 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:25,971 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.565, coverage_best: (p=16, n=0, P=123, N=32), precision: 1.0
+2025-03-04 14:42:25,971 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=123, N=32)
+2025-03-04 14:42:25,971 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:25,971 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:25,981 - INFO - Iteracja 0: condition_best: ALBUMIN >= 3.55, quality_best: 0.563, coverage_best: (p=90, n=7, P=123, N=32), precision: 0.928
+2025-03-04 14:42:25,981 - INFO - Regula po iteracji 0: IF ALBUMIN >= 3.55 THEN class = LIVE, (p=90, n=7, P=123, N=32)
+2025-03-04 14:42:25,981 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,051 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:26,051 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=33, n=122, P=33, N=122)
+2025-03-04 14:42:26,051 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,051 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:26,055 - INFO - Iteracja 1: condition_best: BILIRUBIN >= 0.55, quality_best: 0.634, coverage_best: (p=88, n=5, P=123, N=32), precision: 0.946
+2025-03-04 14:42:26,056 - INFO - Regula po iteracji 1: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 THEN class = LIVE, (p=88, n=5, P=123, N=32)
+2025-03-04 14:42:26,056 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,125 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:26,125 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=35, n=120, P=35, N=120)
+2025-03-04 14:42:26,125 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,126 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:26,129 - INFO - Iteracja 2: condition_best: VARICES = {no}, quality_best: 0.651, coverage_best: (p=83, n=4, P=123, N=32), precision: 0.954
+2025-03-04 14:42:26,129 - INFO - Regula po iteracji 2: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} THEN class = LIVE, (p=83, n=4, P=123, N=32)
+2025-03-04 14:42:26,130 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,201 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:26,201 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=40, n=115, P=40, N=115)
+2025-03-04 14:42:26,201 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,201 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:26,205 - INFO - Iteracja 3: condition_best: AGE <= 55.00, quality_best: 0.708, coverage_best: (p=76, n=2, P=123, N=32), precision: 0.974
+2025-03-04 14:42:26,205 - INFO - Regula po iteracji 3: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} AND AGE <= 55.00 THEN class = LIVE, (p=76, n=2, P=123, N=32)
+2025-03-04 14:42:26,205 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,275 - INFO - Iteracja 0: condition_best: AGE >= 63.00, quality_best: 0.471, coverage_best: (p=7, n=1, P=47, N=108), number_of_covered_negatives_best: 0, best_score: 0.62, precision: 0.875
+2025-03-04 14:42:26,275 - INFO - Regula po iteracji 0: IF AGE >= 63.00 THEN class = LIVE, (p=7, n=1, P=47, N=108)
+2025-03-04 14:42:26,275 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,275 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,275 - INFO - Reference rule: IF AGE >= 63.00 THEN class = LIVE
+2025-03-04 14:42:26,275 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,275 - INFO - Exception precision: 0
+2025-03-04 14:42:26,275 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,278 - INFO - Iteracja 4: condition_best: BILIRUBIN >= 0.60, quality_best: 0.708, coverage_best: (p=76, n=2, P=123, N=32), precision: 0.974
+2025-03-04 14:42:26,278 - INFO - Regula po iteracji 4: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} AND AGE <= 55.00 AND BILIRUBIN >= 0.60 THEN class = LIVE, (p=76, n=2, P=123, N=32)
+2025-03-04 14:42:26,278 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,348 - INFO - Iteracja 0: condition_best: AGE >= 63.00, quality_best: 0.471, coverage_best: (p=7, n=1, P=47, N=108), number_of_covered_negatives_best: 0, best_score: 0.62, precision: 0.875
+2025-03-04 14:42:26,348 - INFO - Regula po iteracji 0: IF AGE >= 63.00 THEN class = LIVE, (p=7, n=1, P=47, N=108)
+2025-03-04 14:42:26,348 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,348 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,348 - INFO - Reference rule: IF AGE >= 63.00 THEN class = LIVE
+2025-03-04 14:42:26,348 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,348 - INFO - Exception precision: 0
+2025-03-04 14:42:26,348 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,350 - INFO - Iteracja 5: condition_best: ASCITES = {no}, quality_best: 0.704, coverage_best: (p=75, n=2, P=123, N=32), precision: 0.974
+2025-03-04 14:42:26,351 - INFO - Regula po iteracji 5: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} AND AGE <= 55.00 AND BILIRUBIN >= 0.60 AND ASCITES = {no} THEN class = LIVE, (p=75, n=2, P=123, N=32)
+2025-03-04 14:42:26,351 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,420 - INFO - Iteracja 0: condition_best: AGE >= 63.00, quality_best: 0.469, coverage_best: (p=7, n=1, P=48, N=107), number_of_covered_negatives_best: 0, best_score: 0.615, precision: 0.875
+2025-03-04 14:42:26,421 - INFO - Regula po iteracji 0: IF AGE >= 63.00 THEN class = LIVE, (p=7, n=1, P=48, N=107)
+2025-03-04 14:42:26,421 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,421 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,421 - INFO - Reference rule: IF AGE >= 63.00 THEN class = LIVE
+2025-03-04 14:42:26,421 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,421 - INFO - Exception precision: 0
+2025-03-04 14:42:26,421 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,423 - INFO - Iteracja 6: condition_best: ALK_PHOSPHATE <= 268.00, quality_best: 0.704, coverage_best: (p=64, n=1, P=123, N=32), precision: 0.985
+2025-03-04 14:42:26,424 - INFO - Regula po iteracji 6: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} AND AGE <= 55.00 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND ALK_PHOSPHATE <= 268.00 THEN class = LIVE, (p=64, n=1, P=123, N=32)
+2025-03-04 14:42:26,424 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,492 - INFO - Iteracja 0: condition_best: AGE >= 63.00, quality_best: 0.446, coverage_best: (p=7, n=1, P=59, N=96), number_of_covered_negatives_best: 0, best_score: 0.565, precision: 0.875
+2025-03-04 14:42:26,492 - INFO - Regula po iteracji 0: IF AGE >= 63.00 THEN class = LIVE, (p=7, n=1, P=59, N=96)
+2025-03-04 14:42:26,492 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,492 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,492 - INFO - Reference rule: IF AGE >= 63.00 THEN class = LIVE
+2025-03-04 14:42:26,492 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,492 - INFO - Exception precision: 0
+2025-03-04 14:42:26,492 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,494 - INFO - Iteracja 7: condition_best: SEX = {female}, quality_best: 0.675, coverage_best: (p=58, n=1, P=123, N=32), precision: 0.983
+2025-03-04 14:42:26,494 - INFO - Regula po iteracji 7: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} AND AGE <= 55.00 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND ALK_PHOSPHATE <= 268.00 AND SEX = {female} THEN class = LIVE, (p=58, n=1, P=123, N=32)
+2025-03-04 14:42:26,495 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,565 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.623, coverage_best: (p=16, n=0, P=65, N=90), number_of_covered_negatives_best: 0, best_score: 0.869, precision: 1.0
+2025-03-04 14:42:26,565 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=65, N=90)
+2025-03-04 14:42:26,565 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,565 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,565 - INFO - Reference rule: IF SEX = {male} THEN class = LIVE
+2025-03-04 14:42:26,565 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,565 - INFO - Exception precision: 0
+2025-03-04 14:42:26,565 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,567 - INFO - Iteracja 8: condition_best: SPLEEN_PALPABLE = {no}, quality_best: 0.646, coverage_best: (p=52, n=1, P=123, N=32), precision: 0.981
+2025-03-04 14:42:26,567 - INFO - Regula po iteracji 8: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} AND AGE <= 55.00 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND ALK_PHOSPHATE <= 268.00 AND SEX = {female} AND SPLEEN_PALPABLE = {no} THEN class = LIVE, (p=52, n=1, P=123, N=32)
+2025-03-04 14:42:26,568 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,637 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.613, coverage_best: (p=16, n=0, P=71, N=84), number_of_covered_negatives_best: 0, best_score: 0.838, precision: 1.0
+2025-03-04 14:42:26,637 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=71, N=84)
+2025-03-04 14:42:26,637 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,637 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,637 - INFO - Reference rule: IF SEX = {male} THEN class = LIVE
+2025-03-04 14:42:26,637 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,638 - INFO - Exception precision: 0
+2025-03-04 14:42:26,638 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,639 - INFO - Iteracja 9: condition_best: SGOT >= 28.00, quality_best: 0.621, coverage_best: (p=47, n=1, P=123, N=32), precision: 0.979
+2025-03-04 14:42:26,640 - INFO - Regula po iteracji 9: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} AND AGE <= 55.00 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND ALK_PHOSPHATE <= 268.00 AND SEX = {female} AND SPLEEN_PALPABLE = {no} AND SGOT >= 28.00 THEN class = LIVE, (p=47, n=1, P=123, N=32)
+2025-03-04 14:42:26,640 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,709 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.605, coverage_best: (p=16, n=0, P=76, N=79), number_of_covered_negatives_best: 0, best_score: 0.816, precision: 1.0
+2025-03-04 14:42:26,709 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=76, N=79)
+2025-03-04 14:42:26,709 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,710 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,710 - INFO - Reference rule: IF SEX = {male} THEN class = LIVE
+2025-03-04 14:42:26,710 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,710 - INFO - Exception precision: 0
+2025-03-04 14:42:26,710 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,712 - INFO - Iteracja 10: condition_best: ALBUMIN <= 4.20, quality_best: 0.538, coverage_best: (p=32, n=1, P=123, N=32), precision: 0.97
+2025-03-04 14:42:26,712 - INFO - Regula po iteracji 10: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} AND AGE <= 55.00 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND ALK_PHOSPHATE <= 268.00 AND SEX = {female} AND SPLEEN_PALPABLE = {no} AND SGOT >= 28.00 AND ALBUMIN <= 4.20 THEN class = LIVE, (p=32, n=1, P=123, N=32)
+2025-03-04 14:42:26,713 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,778 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.588, coverage_best: (p=16, n=0, P=91, N=64), number_of_covered_negatives_best: 0, best_score: 0.764, precision: 1.0
+2025-03-04 14:42:26,778 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=91, N=64)
+2025-03-04 14:42:26,778 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,778 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,778 - INFO - Reference rule: IF SEX = {male} THEN class = LIVE
+2025-03-04 14:42:26,778 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,778 - INFO - Exception precision: 0
+2025-03-04 14:42:26,778 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,780 - INFO - Iteracja 11: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:42:26,780 - INFO - Regula po iteracji 11: IF ALBUMIN >= 3.55 AND BILIRUBIN >= 0.55 AND VARICES = {no} AND AGE <= 55.00 AND BILIRUBIN >= 0.60 AND ASCITES = {no} AND ALK_PHOSPHATE <= 268.00 AND SEX = {female} AND SPLEEN_PALPABLE = {no} AND SGOT >= 28.00 AND ALBUMIN <= 4.20 THEN class = LIVE, (p=32, n=1, P=123, N=32)
+2025-03-04 14:42:26,780 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:26,782 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:26,791 - INFO - Iteracja 0: condition_best: PROTIME >= 50.50, quality_best: 0.548, coverage_best: (p=56, n=3, P=123, N=32), precision: 0.949
+2025-03-04 14:42:26,791 - INFO - Regula po iteracji 0: IF PROTIME >= 50.50 THEN class = LIVE, (p=56, n=3, P=123, N=32)
+2025-03-04 14:42:26,791 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,862 - INFO - Iteracja 0: condition_best: AGE <= 24.50, quality_best: 0.406, coverage_best: (p=10, n=2, P=67, N=88), number_of_covered_negatives_best: 0, best_score: 0.555, precision: 0.833
+2025-03-04 14:42:26,862 - INFO - Regula po iteracji 0: IF AGE <= 24.50 THEN class = LIVE, (p=10, n=2, P=67, N=88)
+2025-03-04 14:42:26,862 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,862 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,862 - INFO - Reference rule: IF AGE <= 24.50 THEN class = LIVE
+2025-03-04 14:42:26,862 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,862 - INFO - Exception precision: 0.0
+2025-03-04 14:42:26,862 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,865 - INFO - Iteracja 1: condition_best: ALK_PHOSPHATE <= 229.00, quality_best: 0.656, coverage_best: (p=54, n=1, P=123, N=32), precision: 0.982
+2025-03-04 14:42:26,865 - INFO - Regula po iteracji 1: IF PROTIME >= 50.50 AND ALK_PHOSPHATE <= 229.00 THEN class = LIVE, (p=54, n=1, P=123, N=32)
+2025-03-04 14:42:26,865 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:26,933 - INFO - Iteracja 0: condition_best: AGE <= 24.50, quality_best: 0.401, coverage_best: (p=10, n=2, P=69, N=86), number_of_covered_negatives_best: 0, best_score: 0.545, precision: 0.833
+2025-03-04 14:42:26,933 - INFO - Regula po iteracji 0: IF AGE <= 24.50 THEN class = LIVE, (p=10, n=2, P=69, N=86)
+2025-03-04 14:42:26,933 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:26,933 - INFO - ***RR FOUND***
+2025-03-04 14:42:26,933 - INFO - Reference rule: IF AGE <= 24.50 THEN class = LIVE
+2025-03-04 14:42:26,933 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:26,933 - INFO - Exception precision: 0.0
+2025-03-04 14:42:26,933 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:26,935 - INFO - Iteracja 2: condition_best: SGOT >= 23.50, quality_best: 0.691, coverage_best: (p=47, n=0, P=123, N=32), precision: 1.0
+2025-03-04 14:42:26,935 - INFO - Regula po iteracji 2: IF PROTIME >= 50.50 AND ALK_PHOSPHATE <= 229.00 AND SGOT >= 23.50 THEN class = LIVE, (p=47, n=0, P=123, N=32)
+2025-03-04 14:42:26,935 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:26,936 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:27,013 - INFO - Iteracja 0: condition_best: BILIRUBIN <= 1.00, quality_best: 0.522, coverage_best: (p=83, n=7, P=123, N=32), precision: 0.922
+2025-03-04 14:42:27,013 - INFO - Regula po iteracji 0: IF BILIRUBIN <= 1.00 THEN class = LIVE, (p=83, n=7, P=123, N=32)
+2025-03-04 14:42:27,013 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,094 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:27,094 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=40, n=115, P=40, N=115)
+2025-03-04 14:42:27,094 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,094 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:27,098 - INFO - Iteracja 1: condition_best: BILIRUBIN >= 0.55, quality_best: 0.59, coverage_best: (p=80, n=5, P=123, N=32), precision: 0.941
+2025-03-04 14:42:27,098 - INFO - Regula po iteracji 1: IF BILIRUBIN <= 1.00 AND BILIRUBIN >= 0.55 THEN class = LIVE, (p=80, n=5, P=123, N=32)
+2025-03-04 14:42:27,099 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,175 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:27,175 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=43, n=112, P=43, N=112)
+2025-03-04 14:42:27,175 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,175 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:27,178 - INFO - Iteracja 2: condition_best: BILIRUBIN >= 0.60, quality_best: 0.59, coverage_best: (p=80, n=5, P=123, N=32), precision: 0.941
+2025-03-04 14:42:27,179 - INFO - Regula po iteracji 2: IF BILIRUBIN <= 1.00 AND BILIRUBIN >= 0.55 AND BILIRUBIN >= 0.60 THEN class = LIVE, (p=80, n=5, P=123, N=32)
+2025-03-04 14:42:27,179 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,255 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:27,255 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=43, n=112, P=43, N=112)
+2025-03-04 14:42:27,255 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,255 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:27,258 - INFO - Iteracja 3: condition_best: BILIRUBIN >= 0.70, quality_best: 0.585, coverage_best: (p=71, n=4, P=123, N=32), precision: 0.947
+2025-03-04 14:42:27,259 - INFO - Regula po iteracji 3: IF BILIRUBIN <= 1.00 AND BILIRUBIN >= 0.55 AND BILIRUBIN >= 0.60 AND BILIRUBIN >= 0.70 THEN class = LIVE, (p=71, n=4, P=123, N=32)
+2025-03-04 14:42:27,259 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,335 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:27,335 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=52, n=103, P=52, N=103)
+2025-03-04 14:42:27,336 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,336 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:27,338 - INFO - Iteracja 4: condition_best: SEX = {female}, quality_best: 0.55, coverage_best: (p=65, n=4, P=123, N=32), precision: 0.942
+2025-03-04 14:42:27,339 - INFO - Regula po iteracji 4: IF BILIRUBIN <= 1.00 AND BILIRUBIN >= 0.55 AND BILIRUBIN >= 0.60 AND BILIRUBIN >= 0.70 AND SEX = {female} THEN class = LIVE, (p=65, n=4, P=123, N=32)
+2025-03-04 14:42:27,339 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,417 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.638, coverage_best: (p=16, n=0, P=58, N=97), number_of_covered_negatives_best: 0, best_score: 0.914, precision: 1.0
+2025-03-04 14:42:27,417 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=58, N=97)
+2025-03-04 14:42:27,417 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,417 - INFO - ***RR FOUND***
+2025-03-04 14:42:27,417 - INFO - Reference rule: IF SEX = {male} THEN class = LIVE
+2025-03-04 14:42:27,417 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:27,418 - INFO - Exception precision: 0
+2025-03-04 14:42:27,418 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:27,420 - INFO - Iteracja 5: condition_best: FATIGUE = {yes}, quality_best: 0.279, coverage_best: (p=31, n=4, P=123, N=32), precision: 0.886
+2025-03-04 14:42:27,421 - INFO - Regula po iteracji 5: IF BILIRUBIN <= 1.00 AND BILIRUBIN >= 0.55 AND BILIRUBIN >= 0.60 AND BILIRUBIN >= 0.70 AND SEX = {female} AND FATIGUE = {yes} THEN class = LIVE, (p=31, n=4, P=123, N=32)
+2025-03-04 14:42:27,421 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,494 - INFO - Iteracja 0: condition_best: FATIGUE = {no}, quality_best: 0.711, coverage_best: (p=52, n=2, P=92, N=63), number_of_covered_negatives_best: 0, best_score: 1.277, precision: 0.963
+2025-03-04 14:42:27,494 - INFO - Regula po iteracji 0: IF FATIGUE = {no} THEN class = LIVE, (p=52, n=2, P=92, N=63)
+2025-03-04 14:42:27,494 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,494 - INFO - ***RR FOUND***
+2025-03-04 14:42:27,494 - INFO - Reference rule: IF FATIGUE = {no} THEN class = LIVE
+2025-03-04 14:42:27,494 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:27,495 - INFO - Exception precision: 0
+2025-03-04 14:42:27,495 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:27,498 - INFO - Iteracja 6: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:42:27,498 - INFO - Regula po iteracji 6: IF BILIRUBIN <= 1.00 AND BILIRUBIN >= 0.55 AND BILIRUBIN >= 0.60 AND BILIRUBIN >= 0.70 AND SEX = {female} AND FATIGUE = {yes} THEN class = LIVE, (p=31, n=4, P=123, N=32)
+2025-03-04 14:42:27,498 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:27,498 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:27,508 - INFO - Iteracja 0: condition_best: ASCITES = {no}, quality_best: 0.352, coverage_best: (p=113, n=17, P=123, N=32), precision: 0.869
+2025-03-04 14:42:27,508 - INFO - Regula po iteracji 0: IF ASCITES = {no} THEN class = LIVE, (p=113, n=17, P=123, N=32)
+2025-03-04 14:42:27,508 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,587 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:27,587 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=10, n=145, P=10, N=145)
+2025-03-04 14:42:27,587 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,587 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:27,594 - INFO - Iteracja 1: condition_best: SGOT <= 66.50, quality_best: 0.497, coverage_best: (p=72, n=6, P=123, N=32), precision: 0.923
+2025-03-04 14:42:27,594 - INFO - Regula po iteracji 1: IF ASCITES = {no} AND SGOT <= 66.50 THEN class = LIVE, (p=72, n=6, P=123, N=32)
+2025-03-04 14:42:27,594 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,668 - INFO - Iteracja 0: condition_best: SGOT >= 245.50, quality_best: 0.44, coverage_best: (p=6, n=1, P=51, N=104), number_of_covered_negatives_best: 0, best_score: 0.557, precision: 0.857
+2025-03-04 14:42:27,668 - INFO - Regula po iteracji 0: IF SGOT >= 245.50 THEN class = LIVE, (p=6, n=1, P=51, N=104)
+2025-03-04 14:42:27,668 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,668 - INFO - ***RR FOUND***
+2025-03-04 14:42:27,668 - INFO - Reference rule: IF SGOT >= 245.50 THEN class = LIVE
+2025-03-04 14:42:27,668 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:27,668 - INFO - Exception precision: 0
+2025-03-04 14:42:27,668 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:27,672 - INFO - Iteracja 2: condition_best: AGE <= 61.50, quality_best: 0.519, coverage_best: (p=68, n=5, P=123, N=32), precision: 0.932
+2025-03-04 14:42:27,672 - INFO - Regula po iteracji 2: IF ASCITES = {no} AND SGOT <= 66.50 AND AGE <= 61.50 THEN class = LIVE, (p=68, n=5, P=123, N=32)
+2025-03-04 14:42:27,672 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,746 - INFO - Iteracja 0: condition_best: AGE >= 63.00, quality_best: 0.454, coverage_best: (p=7, n=1, P=55, N=100), number_of_covered_negatives_best: 0, best_score: 0.582, precision: 0.875
+2025-03-04 14:42:27,746 - INFO - Regula po iteracji 0: IF AGE >= 63.00 THEN class = LIVE, (p=7, n=1, P=55, N=100)
+2025-03-04 14:42:27,746 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,746 - INFO - ***RR FOUND***
+2025-03-04 14:42:27,746 - INFO - Reference rule: IF AGE >= 63.00 THEN class = LIVE
+2025-03-04 14:42:27,746 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:27,746 - INFO - Exception precision: 0
+2025-03-04 14:42:27,746 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:27,750 - INFO - Iteracja 3: condition_best: SGOT >= 23.50, quality_best: 0.486, coverage_best: (p=55, n=4, P=123, N=32), precision: 0.932
+2025-03-04 14:42:27,750 - INFO - Regula po iteracji 3: IF ASCITES = {no} AND SGOT <= 66.50 AND AGE <= 61.50 AND SGOT >= 23.50 THEN class = LIVE, (p=55, n=4, P=123, N=32)
+2025-03-04 14:42:27,750 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,823 - INFO - Iteracja 0: condition_best: SGOT <= 20.00, quality_best: 0.429, coverage_best: (p=15, n=3, P=68, N=87), number_of_covered_negatives_best: 0, best_score: 0.65, precision: 0.833
+2025-03-04 14:42:27,823 - INFO - Regula po iteracji 0: IF SGOT <= 20.00 THEN class = LIVE, (p=15, n=3, P=68, N=87)
+2025-03-04 14:42:27,823 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,823 - INFO - ***RR FOUND***
+2025-03-04 14:42:27,823 - INFO - Reference rule: IF SGOT <= 20.00 THEN class = LIVE
+2025-03-04 14:42:27,823 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:27,823 - INFO - Exception precision: 0
+2025-03-04 14:42:27,823 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:27,826 - INFO - Iteracja 4: condition_best: SGOT >= 28.50, quality_best: 0.49, coverage_best: (p=47, n=3, P=123, N=32), precision: 0.94
+2025-03-04 14:42:27,826 - INFO - Regula po iteracji 4: IF ASCITES = {no} AND SGOT <= 66.50 AND AGE <= 61.50 AND SGOT >= 23.50 AND SGOT >= 28.50 THEN class = LIVE, (p=47, n=3, P=123, N=32)
+2025-03-04 14:42:27,827 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,894 - INFO - Iteracja 0: condition_best: AGE <= 23.50, quality_best: 0.566, coverage_best: (p=10, n=0, P=76, N=79), number_of_covered_negatives_best: 0, best_score: 0.697, precision: 1.0
+2025-03-04 14:42:27,894 - INFO - Regula po iteracji 0: IF AGE <= 23.50 THEN class = LIVE, (p=10, n=0, P=76, N=79)
+2025-03-04 14:42:27,894 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,894 - INFO - ***RR FOUND***
+2025-03-04 14:42:27,894 - INFO - Reference rule: IF AGE <= 23.50 THEN class = LIVE
+2025-03-04 14:42:27,894 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:27,894 - INFO - Exception precision: 0
+2025-03-04 14:42:27,894 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:27,897 - INFO - Iteracja 5: condition_best: SEX = {female}, quality_best: 0.469, coverage_best: (p=44, n=3, P=123, N=32), precision: 0.936
+2025-03-04 14:42:27,897 - INFO - Regula po iteracji 5: IF ASCITES = {no} AND SGOT <= 66.50 AND AGE <= 61.50 AND SGOT >= 23.50 AND SGOT >= 28.50 AND SEX = {female} THEN class = LIVE, (p=44, n=3, P=123, N=32)
+2025-03-04 14:42:27,897 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:27,963 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.601, coverage_best: (p=16, n=0, P=79, N=76), number_of_covered_negatives_best: 0, best_score: 0.804, precision: 1.0
+2025-03-04 14:42:27,963 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=79, N=76)
+2025-03-04 14:42:27,963 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:27,963 - INFO - ***RR FOUND***
+2025-03-04 14:42:27,963 - INFO - Reference rule: IF SEX = {male} THEN class = LIVE
+2025-03-04 14:42:27,963 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:27,964 - INFO - Exception precision: 0
+2025-03-04 14:42:27,964 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:27,966 - INFO - Iteracja 6: condition_best: ANTIVIRALS = {no}, quality_best: 0.368, coverage_best: (p=32, n=3, P=123, N=32), precision: 0.914
+2025-03-04 14:42:27,966 - INFO - Regula po iteracji 6: IF ASCITES = {no} AND SGOT <= 66.50 AND AGE <= 61.50 AND SGOT >= 23.50 AND SGOT >= 28.50 AND SEX = {female} AND ANTIVIRALS = {no} THEN class = LIVE, (p=32, n=3, P=123, N=32)
+2025-03-04 14:42:27,967 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:28,030 - INFO - Iteracja 0: condition_best: SEX = {male}, quality_best: 0.588, coverage_best: (p=16, n=0, P=91, N=64), number_of_covered_negatives_best: 0, best_score: 0.764, precision: 1.0
+2025-03-04 14:42:28,031 - INFO - Regula po iteracji 0: IF SEX = {male} THEN class = LIVE, (p=16, n=0, P=91, N=64)
+2025-03-04 14:42:28,031 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:28,031 - INFO - ***RR FOUND***
+2025-03-04 14:42:28,031 - INFO - Reference rule: IF SEX = {male} THEN class = LIVE
+2025-03-04 14:42:28,031 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:28,031 - INFO - Exception precision: 0
+2025-03-04 14:42:28,031 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:28,034 - INFO - Iteracja 7: condition_best: FATIGUE = {yes}, quality_best: 0.22, coverage_best: (p=14, n=2, P=123, N=32), precision: 0.875
+2025-03-04 14:42:28,034 - INFO - Regula po iteracji 7: IF ASCITES = {no} AND SGOT <= 66.50 AND AGE <= 61.50 AND SGOT >= 23.50 AND SGOT >= 28.50 AND SEX = {female} AND ANTIVIRALS = {no} AND FATIGUE = {yes} THEN class = LIVE, (p=14, n=2, P=123, N=32)
+2025-03-04 14:42:28,034 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:28,089 - INFO - Iteracja 0: condition_best: BILIRUBIN <= 1.65, quality_best: 0.343, coverage_best: (p=95, n=22, P=109, N=46), number_of_covered_negatives_best: 1, best_score: 1.714, precision: 0.812
+2025-03-04 14:42:28,089 - INFO - Regula po iteracji 0: IF BILIRUBIN <= 1.65 THEN class = LIVE, (p=95, n=22, P=109, N=46)
+2025-03-04 14:42:28,090 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:28,090 - INFO - ***RR FOUND***
+2025-03-04 14:42:28,090 - INFO - Reference rule: IF BILIRUBIN <= 1.65 THEN class = LIVE
+2025-03-04 14:42:28,090 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:28,090 - INFO - Exception precision: 0.09090909090909091
+2025-03-04 14:42:28,090 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:28,092 - INFO - Iteracja 8: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:42:28,092 - INFO - Regula po iteracji 8: IF ASCITES = {no} AND SGOT <= 66.50 AND AGE <= 61.50 AND SGOT >= 23.50 AND SGOT >= 28.50 AND SEX = {female} AND ANTIVIRALS = {no} AND FATIGUE = {yes} THEN class = LIVE, (p=14, n=2, P=123, N=32)
+2025-03-04 14:42:28,092 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:28,093 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:28,102 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:42:28,103 - INFO - Regula po iteracji 0: IF  THEN class = LIVE, (p=123, n=32, P=123, N=32)
+2025-03-04 14:42:28,103 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:28,103 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:28,111 - INFO - Iteracja 0: condition_best: ALBUMIN <= 2.65, quality_best: 0.609, coverage_best: (p=7, n=0, P=32, N=123), precision: 1.0
+2025-03-04 14:42:28,111 - INFO - Regula po iteracji 0: IF ALBUMIN <= 2.65 THEN class = DIE, (p=7, n=0, P=32, N=123)
+2025-03-04 14:42:28,111 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:28,112 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:28,120 - INFO - Iteracja 0: condition_best: BILIRUBIN >= 3.70, quality_best: 0.467, coverage_best: (p=8, n=2, P=32, N=123), precision: 0.8
+2025-03-04 14:42:28,120 - INFO - Regula po iteracji 0: IF BILIRUBIN >= 3.70 THEN class = DIE, (p=8, n=2, P=32, N=123)
+2025-03-04 14:42:28,122 - INFO - Iteracja 1: condition_best: ALBUMIN <= 3.70, quality_best: 0.625, coverage_best: (p=8, n=0, P=32, N=123), precision: 1.0
+2025-03-04 14:42:28,122 - INFO - Regula po iteracji 1: IF BILIRUBIN >= 3.70 AND ALBUMIN <= 3.70 THEN class = DIE, (p=8, n=0, P=32, N=123)
+2025-03-04 14:42:28,122 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:28,123 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:28,131 - INFO - Iteracja 0: condition_best: PROTIME <= 38.50, quality_best: 0.352, coverage_best: (p=9, n=5, P=32, N=123), precision: 0.643
+2025-03-04 14:42:28,131 - INFO - Regula po iteracji 0: IF PROTIME <= 38.50 THEN class = DIE, (p=9, n=5, P=32, N=123)
+2025-03-04 14:42:28,134 - INFO - Iteracja 1: condition_best: HISTOLOGY = {yes}, quality_best: 0.494, coverage_best: (p=9, n=2, P=32, N=123), precision: 0.818
+2025-03-04 14:42:28,134 - INFO - Regula po iteracji 1: IF PROTIME <= 38.50 AND HISTOLOGY = {yes} THEN class = DIE, (p=9, n=2, P=32, N=123)
+2025-03-04 14:42:28,134 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:28,184 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:28,184 - INFO - Regula po iteracji 0: IF  THEN class = DIE, (p=23, n=132, P=23, N=132)
+2025-03-04 14:42:28,184 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:28,184 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:28,186 - INFO - Iteracja 2: condition_best: PROTIME >= 26.00, quality_best: 0.641, coverage_best: (p=9, n=0, P=32, N=123), precision: 1.0
+2025-03-04 14:42:28,186 - INFO - Regula po iteracji 2: IF PROTIME <= 38.50 AND HISTOLOGY = {yes} AND PROTIME >= 26.00 THEN class = DIE, (p=9, n=0, P=32, N=123)
+2025-03-04 14:42:28,186 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:28,187 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:28,195 - INFO - Iteracja 0: condition_best: BILIRUBIN >= 1.65, quality_best: 0.351, coverage_best: (p=18, n=14, P=32, N=123), precision: 0.562
+2025-03-04 14:42:28,195 - INFO - Regula po iteracji 0: IF BILIRUBIN >= 1.65 THEN class = DIE, (p=18, n=14, P=32, N=123)
+2025-03-04 14:42:28,200 - INFO - Iteracja 1: condition_best: AGE >= 33.00, quality_best: 0.435, coverage_best: (p=16, n=8, P=32, N=123), precision: 0.667
+2025-03-04 14:42:28,201 - INFO - Regula po iteracji 1: IF BILIRUBIN >= 1.65 AND AGE >= 33.00 THEN class = DIE, (p=16, n=8, P=32, N=123)
+2025-03-04 14:42:28,204 - INFO - Iteracja 2: condition_best: SGOT <= 255.50, quality_best: 0.503, coverage_best: (p=15, n=5, P=32, N=123), precision: 0.75
+2025-03-04 14:42:28,204 - INFO - Regula po iteracji 2: IF BILIRUBIN >= 1.65 AND AGE >= 33.00 AND SGOT <= 255.50 THEN class = DIE, (p=15, n=5, P=32, N=123)
+2025-03-04 14:42:28,207 - INFO - Iteracja 3: condition_best: SEX = {female}, quality_best: 0.54, coverage_best: (p=15, n=4, P=32, N=123), precision: 0.789
+2025-03-04 14:42:28,207 - INFO - Regula po iteracji 3: IF BILIRUBIN >= 1.65 AND AGE >= 33.00 AND SGOT <= 255.50 AND SEX = {female} THEN class = DIE, (p=15, n=4, P=32, N=123)
+2025-03-04 14:42:28,210 - INFO - Iteracja 4: condition_best: BILIRUBIN >= 1.80, quality_best: 0.559, coverage_best: (p=14, n=3, P=32, N=123), precision: 0.824
+2025-03-04 14:42:28,210 - INFO - Regula po iteracji 4: IF BILIRUBIN >= 1.65 AND AGE >= 33.00 AND SGOT <= 255.50 AND SEX = {female} AND BILIRUBIN >= 1.80 THEN class = DIE, (p=14, n=3, P=32, N=123)
+2025-03-04 14:42:28,210 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:28,259 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:28,259 - INFO - Regula po iteracji 0: IF  THEN class = DIE, (p=18, n=137, P=18, N=137)
+2025-03-04 14:42:28,259 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:28,259 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:28,261 - INFO - Iteracja 5: condition_best: BILIRUBIN >= 1.95, quality_best: 0.537, coverage_best: (p=13, n=3, P=32, N=123), precision: 0.812
+2025-03-04 14:42:28,262 - INFO - Regula po iteracji 5: IF BILIRUBIN >= 1.65 AND AGE >= 33.00 AND SGOT <= 255.50 AND SEX = {female} AND BILIRUBIN >= 1.80 AND BILIRUBIN >= 1.95 THEN class = DIE, (p=13, n=3, P=32, N=123)
+2025-03-04 14:42:28,262 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:28,310 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:28,310 - INFO - Regula po iteracji 0: IF  THEN class = DIE, (p=19, n=136, P=19, N=136)
+2025-03-04 14:42:28,310 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:28,310 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:28,312 - INFO - Iteracja 6: condition_best: BILIRUBIN >= 2.00, quality_best: 0.537, coverage_best: (p=13, n=3, P=32, N=123), precision: 0.812
+2025-03-04 14:42:28,313 - INFO - Regula po iteracji 6: IF BILIRUBIN >= 1.65 AND AGE >= 33.00 AND SGOT <= 255.50 AND SEX = {female} AND BILIRUBIN >= 1.80 AND BILIRUBIN >= 1.95 AND BILIRUBIN >= 2.00 THEN class = DIE, (p=13, n=3, P=32, N=123)
+2025-03-04 14:42:28,313 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:28,361 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:42:28,361 - INFO - Regula po iteracji 0: IF  THEN class = DIE, (p=19, n=136, P=19, N=136)
+2025-03-04 14:42:28,361 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:28,361 - INFO - ***RR NOT FOUND***
+2025-03-04 14:42:28,364 - INFO - Iteracja 7: condition_best: ALK_PHOSPHATE >= 77.00, quality_best: 0.494, coverage_best: (p=9, n=2, P=32, N=123), precision: 0.818
+2025-03-04 14:42:28,364 - INFO - Regula po iteracji 7: IF BILIRUBIN >= 1.65 AND AGE >= 33.00 AND SGOT <= 255.50 AND SEX = {female} AND BILIRUBIN >= 1.80 AND BILIRUBIN >= 1.95 AND BILIRUBIN >= 2.00 AND ALK_PHOSPHATE >= 77.00 THEN class = DIE, (p=9, n=2, P=32, N=123)
+2025-03-04 14:42:28,364 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:42:28,410 - INFO - Iteracja 0: condition_best: ALBUMIN <= 2.65, quality_best: 0.525, coverage_best: (p=6, n=1, P=23, N=132), number_of_covered_negatives_best: 0, best_score: 0.786, precision: 0.857
+2025-03-04 14:42:28,411 - INFO - Regula po iteracji 0: IF ALBUMIN <= 2.65 THEN class = DIE, (p=6, n=1, P=23, N=132)
+2025-03-04 14:42:28,411 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:42:28,411 - INFO - ***RR FOUND***
+2025-03-04 14:42:28,411 - INFO - Reference rule: IF ALBUMIN <= 2.65 THEN class = DIE
+2025-03-04 14:42:28,411 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:42:28,411 - INFO - Exception precision: 0.0
+2025-03-04 14:42:28,411 - INFO - ***ER NOT FOUND***
+2025-03-04 14:42:28,413 - INFO - Iteracja 8: condition_best: BILIRUBIN <= 2.95, quality_best: 0.594, coverage_best: (p=6, n=0, P=32, N=123), precision: 1.0
+2025-03-04 14:42:28,413 - INFO - Regula po iteracji 8: IF BILIRUBIN >= 1.65 AND AGE >= 33.00 AND SGOT <= 255.50 AND SEX = {female} AND BILIRUBIN >= 1.80 AND BILIRUBIN >= 1.95 AND BILIRUBIN >= 2.00 AND ALK_PHOSPHATE >= 77.00 AND BILIRUBIN <= 2.95 THEN class = DIE, (p=6, n=0, P=32, N=123)
+2025-03-04 14:42:28,413 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:28,425 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:28,433 - INFO - Iteracja 0: condition_best: SPIDERS = {yes}, quality_best: 0.239, coverage_best: (p=22, n=29, P=32, N=123), precision: 0.431
+2025-03-04 14:42:28,434 - INFO - Regula po iteracji 0: IF SPIDERS = {yes} THEN class = DIE, (p=22, n=29, P=32, N=123)
+2025-03-04 14:42:28,440 - INFO - Iteracja 1: condition_best: AGE >= 34.50, quality_best: 0.314, coverage_best: (p=20, n=19, P=32, N=123), precision: 0.513
+2025-03-04 14:42:28,440 - INFO - Regula po iteracji 1: IF SPIDERS = {yes} AND AGE >= 34.50 THEN class = DIE, (p=20, n=19, P=32, N=123)
+2025-03-04 14:42:28,445 - INFO - Iteracja 2: condition_best: SEX = {female}, quality_best: 0.374, coverage_best: (p=20, n=15, P=32, N=123), precision: 0.571
+2025-03-04 14:42:28,445 - INFO - Regula po iteracji 2: IF SPIDERS = {yes} AND AGE >= 34.50 AND SEX = {female} THEN class = DIE, (p=20, n=15, P=32, N=123)
+2025-03-04 14:42:28,449 - INFO - Iteracja 3: condition_best: FATIGUE = {yes}, quality_best: 0.429, coverage_best: (p=19, n=11, P=32, N=123), precision: 0.633
+2025-03-04 14:42:28,450 - INFO - Regula po iteracji 3: IF SPIDERS = {yes} AND AGE >= 34.50 AND SEX = {female} AND FATIGUE = {yes} THEN class = DIE, (p=19, n=11, P=32, N=123)
+2025-03-04 14:42:28,453 - INFO - Iteracja 4: condition_best: ANTIVIRALS = {no}, quality_best: 0.453, coverage_best: (p=18, n=9, P=32, N=123), precision: 0.667
+2025-03-04 14:42:28,453 - INFO - Regula po iteracji 4: IF SPIDERS = {yes} AND AGE >= 34.50 AND SEX = {female} AND FATIGUE = {yes} AND ANTIVIRALS = {no} THEN class = DIE, (p=18, n=9, P=32, N=123)
+2025-03-04 14:42:28,457 - INFO - Iteracja 5: condition_best: AGE <= 61.00, quality_best: 0.478, coverage_best: (p=18, n=8, P=32, N=123), precision: 0.692
+2025-03-04 14:42:28,457 - INFO - Regula po iteracji 5: IF SPIDERS = {yes} AND AGE >= 34.50 AND SEX = {female} AND FATIGUE = {yes} AND ANTIVIRALS = {no} AND AGE <= 61.00 THEN class = DIE, (p=18, n=8, P=32, N=123)
+2025-03-04 14:42:28,460 - INFO - Iteracja 6: condition_best: AGE >= 36.50, quality_best: 0.484, coverage_best: (p=17, n=7, P=32, N=123), precision: 0.708
+2025-03-04 14:42:28,461 - INFO - Regula po iteracji 6: IF SPIDERS = {yes} AND AGE >= 34.50 AND SEX = {female} AND FATIGUE = {yes} AND ANTIVIRALS = {no} AND AGE <= 61.00 AND AGE >= 36.50 THEN class = DIE, (p=17, n=7, P=32, N=123)
+2025-03-04 14:42:28,464 - INFO - Iteracja 7: condition_best: AGE >= 37.00, quality_best: 0.484, coverage_best: (p=17, n=7, P=32, N=123), precision: 0.708
+2025-03-04 14:42:28,464 - INFO - Regula po iteracji 7: IF SPIDERS = {yes} AND AGE >= 34.50 AND SEX = {female} AND FATIGUE = {yes} AND ANTIVIRALS = {no} AND AGE <= 61.00 AND AGE >= 36.50 AND AGE >= 37.00 THEN class = DIE, (p=17, n=7, P=32, N=123)
+2025-03-04 14:42:28,467 - INFO - Iteracja 8: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:42:28,467 - INFO - Regula po iteracji 8: IF SPIDERS = {yes} AND AGE >= 34.50 AND SEX = {female} AND FATIGUE = {yes} AND ANTIVIRALS = {no} AND AGE <= 61.00 AND AGE >= 36.50 AND AGE >= 37.00 THEN class = DIE, (p=17, n=7, P=32, N=123)
+2025-03-04 14:42:28,467 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:28,472 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:42:28,480 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:42:28,480 - INFO - Regula po iteracji 0: IF  THEN class = DIE, (p=32, n=123, P=32, N=123)
+2025-03-04 14:42:28,480 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:42:28,487 - INFO - ************************Finished experiment for hepatitis.arff with algorithm3************************
+2025-03-04 14:42:28,488 - INFO - *************************************************************************************************************************
+2025-03-04 14:42:28,488 - INFO - *************************************************************************************************************************
+2025-03-04 14:42:28,488 - INFO - *************************************************************************************************************************

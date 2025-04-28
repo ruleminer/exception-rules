@@ -1,0 +1,901 @@
+2025-03-04 14:20:30,240 - INFO - **********Starting experiment for car.arff with algorithm3**********
+2025-03-04 14:20:30,265 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,275 - INFO - Iteracja 0: condition_best: persons = {2}, quality_best: 0.738, coverage_best: (p=576, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,276 - INFO - Regula po iteracji 0: IF persons = {2} THEN class = unacc, (p=576, n=0, P=1210, N=518)
+2025-03-04 14:20:30,276 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,281 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,286 - INFO - Iteracja 0: condition_best: safety = {low}, quality_best: 0.738, coverage_best: (p=576, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,286 - INFO - Regula po iteracji 0: IF safety = {low} THEN class = unacc, (p=576, n=0, P=1210, N=518)
+2025-03-04 14:20:30,286 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,289 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,294 - INFO - Iteracja 0: condition_best: buying = {vhigh}, quality_best: 0.288, coverage_best: (p=360, n=72, P=1210, N=518), precision: 0.833
+2025-03-04 14:20:30,295 - INFO - Regula po iteracji 0: IF buying = {vhigh} THEN class = unacc, (p=360, n=72, P=1210, N=518)
+2025-03-04 14:20:30,296 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,308 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,309 - INFO - Regula po iteracji 0: IF  THEN class = unacc, (p=850, n=878, P=850, N=878)
+2025-03-04 14:20:30,309 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,309 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,310 - INFO - Iteracja 1: condition_best: maint = {high}, quality_best: 0.545, coverage_best: (p=108, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,311 - INFO - Regula po iteracji 1: IF buying = {vhigh} AND maint = {high} THEN class = unacc, (p=108, n=0, P=1210, N=518)
+2025-03-04 14:20:30,311 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,314 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,319 - INFO - Iteracja 0: condition_best: buying = {vhigh}, quality_best: 0.288, coverage_best: (p=360, n=72, P=1210, N=518), precision: 0.833
+2025-03-04 14:20:30,320 - INFO - Regula po iteracji 0: IF buying = {vhigh} THEN class = unacc, (p=360, n=72, P=1210, N=518)
+2025-03-04 14:20:30,320 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,333 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,333 - INFO - Regula po iteracji 0: IF  THEN class = unacc, (p=850, n=878, P=850, N=878)
+2025-03-04 14:20:30,333 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,333 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,335 - INFO - Iteracja 1: condition_best: maint = {vhigh}, quality_best: 0.545, coverage_best: (p=108, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,336 - INFO - Regula po iteracji 1: IF buying = {vhigh} AND maint = {vhigh} THEN class = unacc, (p=108, n=0, P=1210, N=518)
+2025-03-04 14:20:30,336 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,338 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,344 - INFO - Iteracja 0: condition_best: buying = {vhigh}, quality_best: 0.288, coverage_best: (p=360, n=72, P=1210, N=518), precision: 0.833
+2025-03-04 14:20:30,344 - INFO - Regula po iteracji 0: IF buying = {vhigh} THEN class = unacc, (p=360, n=72, P=1210, N=518)
+2025-03-04 14:20:30,345 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,358 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,358 - INFO - Regula po iteracji 0: IF  THEN class = unacc, (p=850, n=878, P=850, N=878)
+2025-03-04 14:20:30,358 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,358 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,360 - INFO - Iteracja 1: condition_best: lug_boot = {small}, quality_best: 0.374, coverage_best: (p=130, n=14, P=1210, N=518), precision: 0.903
+2025-03-04 14:20:30,360 - INFO - Regula po iteracji 1: IF buying = {vhigh} AND lug_boot = {small} THEN class = unacc, (p=130, n=14, P=1210, N=518)
+2025-03-04 14:20:30,361 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,370 - INFO - Iteracja 0: condition_best: persons = {2}, quality_best: 0.579, coverage_best: (p=528, n=48, P=1080, N=648), number_of_covered_negatives_best: 0, best_score: 1.068, precision: 0.917
+2025-03-04 14:20:30,371 - INFO - Regula po iteracji 0: IF persons = {2} THEN class = unacc, (p=528, n=48, P=1080, N=648)
+2025-03-04 14:20:30,371 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,371 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,371 - INFO - Reference rule: IF persons = {2} THEN class = unacc
+2025-03-04 14:20:30,371 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,372 - INFO - Exception precision: 0.0
+2025-03-04 14:20:30,372 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,373 - INFO - Iteracja 2: condition_best: safety = {med}, quality_best: 0.52, coverage_best: (p=48, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,374 - INFO - Regula po iteracji 2: IF buying = {vhigh} AND lug_boot = {small} AND safety = {med} THEN class = unacc, (p=48, n=0, P=1210, N=518)
+2025-03-04 14:20:30,374 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,378 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,383 - INFO - Iteracja 0: condition_best: buying = {vhigh}, quality_best: 0.288, coverage_best: (p=360, n=72, P=1210, N=518), precision: 0.833
+2025-03-04 14:20:30,383 - INFO - Regula po iteracji 0: IF buying = {vhigh} THEN class = unacc, (p=360, n=72, P=1210, N=518)
+2025-03-04 14:20:30,384 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,397 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,397 - INFO - Regula po iteracji 0: IF  THEN class = unacc, (p=850, n=878, P=850, N=878)
+2025-03-04 14:20:30,397 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,397 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,399 - INFO - Iteracja 1: condition_best: doors = {2}, quality_best: 0.306, coverage_best: (p=94, n=14, P=1210, N=518), precision: 0.87
+2025-03-04 14:20:30,400 - INFO - Regula po iteracji 1: IF buying = {vhigh} AND doors = {2} THEN class = unacc, (p=94, n=14, P=1210, N=518)
+2025-03-04 14:20:30,401 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,410 - INFO - Iteracja 0: condition_best: persons = {2}, quality_best: 0.611, coverage_best: (p=540, n=36, P=1116, N=612), number_of_covered_negatives_best: 0, best_score: 1.095, precision: 0.938
+2025-03-04 14:20:30,410 - INFO - Regula po iteracji 0: IF persons = {2} THEN class = unacc, (p=540, n=36, P=1116, N=612)
+2025-03-04 14:20:30,410 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,410 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,410 - INFO - Reference rule: IF persons = {2} THEN class = unacc
+2025-03-04 14:20:30,410 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,411 - INFO - Exception precision: 0.0
+2025-03-04 14:20:30,411 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,412 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,413 - INFO - Regula po iteracji 2: IF buying = {vhigh} AND doors = {2} THEN class = unacc, (p=94, n=14, P=1210, N=518)
+2025-03-04 14:20:30,413 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,415 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,420 - INFO - Iteracja 0: condition_best: maint = {vhigh}, quality_best: 0.288, coverage_best: (p=360, n=72, P=1210, N=518), precision: 0.833
+2025-03-04 14:20:30,421 - INFO - Regula po iteracji 0: IF maint = {vhigh} THEN class = unacc, (p=360, n=72, P=1210, N=518)
+2025-03-04 14:20:30,421 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,434 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,435 - INFO - Regula po iteracji 0: IF  THEN class = unacc, (p=850, n=878, P=850, N=878)
+2025-03-04 14:20:30,435 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,435 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,436 - INFO - Iteracja 1: condition_best: buying = {high}, quality_best: 0.545, coverage_best: (p=108, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,437 - INFO - Regula po iteracji 1: IF maint = {vhigh} AND buying = {high} THEN class = unacc, (p=108, n=0, P=1210, N=518)
+2025-03-04 14:20:30,437 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,440 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,445 - INFO - Iteracja 0: condition_best: maint = {vhigh}, quality_best: 0.288, coverage_best: (p=360, n=72, P=1210, N=518), precision: 0.833
+2025-03-04 14:20:30,445 - INFO - Regula po iteracji 0: IF maint = {vhigh} THEN class = unacc, (p=360, n=72, P=1210, N=518)
+2025-03-04 14:20:30,446 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,459 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,459 - INFO - Regula po iteracji 0: IF  THEN class = unacc, (p=850, n=878, P=850, N=878)
+2025-03-04 14:20:30,459 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,459 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,461 - INFO - Iteracja 1: condition_best: lug_boot = {small}, quality_best: 0.374, coverage_best: (p=130, n=14, P=1210, N=518), precision: 0.903
+2025-03-04 14:20:30,462 - INFO - Regula po iteracji 1: IF maint = {vhigh} AND lug_boot = {small} THEN class = unacc, (p=130, n=14, P=1210, N=518)
+2025-03-04 14:20:30,463 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,472 - INFO - Iteracja 0: condition_best: persons = {2}, quality_best: 0.579, coverage_best: (p=528, n=48, P=1080, N=648), number_of_covered_negatives_best: 0, best_score: 1.068, precision: 0.917
+2025-03-04 14:20:30,472 - INFO - Regula po iteracji 0: IF persons = {2} THEN class = unacc, (p=528, n=48, P=1080, N=648)
+2025-03-04 14:20:30,472 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,472 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,472 - INFO - Reference rule: IF persons = {2} THEN class = unacc
+2025-03-04 14:20:30,472 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,473 - INFO - Exception precision: 0.0
+2025-03-04 14:20:30,473 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,474 - INFO - Iteracja 2: condition_best: safety = {med}, quality_best: 0.52, coverage_best: (p=48, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,475 - INFO - Regula po iteracji 2: IF maint = {vhigh} AND lug_boot = {small} AND safety = {med} THEN class = unacc, (p=48, n=0, P=1210, N=518)
+2025-03-04 14:20:30,475 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,479 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,484 - INFO - Iteracja 0: condition_best: maint = {vhigh}, quality_best: 0.288, coverage_best: (p=360, n=72, P=1210, N=518), precision: 0.833
+2025-03-04 14:20:30,485 - INFO - Regula po iteracji 0: IF maint = {vhigh} THEN class = unacc, (p=360, n=72, P=1210, N=518)
+2025-03-04 14:20:30,485 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,498 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,498 - INFO - Regula po iteracji 0: IF  THEN class = unacc, (p=850, n=878, P=850, N=878)
+2025-03-04 14:20:30,499 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,499 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,500 - INFO - Iteracja 1: condition_best: doors = {2}, quality_best: 0.306, coverage_best: (p=94, n=14, P=1210, N=518), precision: 0.87
+2025-03-04 14:20:30,501 - INFO - Regula po iteracji 1: IF maint = {vhigh} AND doors = {2} THEN class = unacc, (p=94, n=14, P=1210, N=518)
+2025-03-04 14:20:30,502 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,511 - INFO - Iteracja 0: condition_best: persons = {2}, quality_best: 0.611, coverage_best: (p=540, n=36, P=1116, N=612), number_of_covered_negatives_best: 0, best_score: 1.095, precision: 0.938
+2025-03-04 14:20:30,511 - INFO - Regula po iteracji 0: IF persons = {2} THEN class = unacc, (p=540, n=36, P=1116, N=612)
+2025-03-04 14:20:30,511 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,511 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,511 - INFO - Reference rule: IF persons = {2} THEN class = unacc
+2025-03-04 14:20:30,511 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,512 - INFO - Exception precision: 0.0
+2025-03-04 14:20:30,512 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,513 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,514 - INFO - Regula po iteracji 2: IF maint = {vhigh} AND doors = {2} THEN class = unacc, (p=94, n=14, P=1210, N=518)
+2025-03-04 14:20:30,514 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,516 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,521 - INFO - Iteracja 0: condition_best: lug_boot = {small}, quality_best: 0.185, coverage_best: (p=450, n=126, P=1210, N=518), precision: 0.781
+2025-03-04 14:20:30,522 - INFO - Regula po iteracji 0: IF lug_boot = {small} THEN class = unacc, (p=450, n=126, P=1210, N=518)
+2025-03-04 14:20:30,524 - INFO - Iteracja 1: condition_best: doors = {2}, quality_best: 0.322, coverage_best: (p=126, n=18, P=1210, N=518), precision: 0.875
+2025-03-04 14:20:30,525 - INFO - Regula po iteracji 1: IF lug_boot = {small} AND doors = {2} THEN class = unacc, (p=126, n=18, P=1210, N=518)
+2025-03-04 14:20:30,526 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,535 - INFO - Iteracja 0: condition_best: persons = {2}, quality_best: 0.577, coverage_best: (p=528, n=48, P=1084, N=644), number_of_covered_negatives_best: 0, best_score: 1.064, precision: 0.917
+2025-03-04 14:20:30,536 - INFO - Regula po iteracji 0: IF persons = {2} THEN class = unacc, (p=528, n=48, P=1084, N=644)
+2025-03-04 14:20:30,536 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,536 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,536 - INFO - Reference rule: IF persons = {2} THEN class = unacc
+2025-03-04 14:20:30,536 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,537 - INFO - Exception precision: 0.0
+2025-03-04 14:20:30,537 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,538 - INFO - Iteracja 2: condition_best: persons = {more}, quality_best: 0.52, coverage_best: (p=48, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,539 - INFO - Regula po iteracji 2: IF lug_boot = {small} AND doors = {2} AND persons = {more} THEN class = unacc, (p=48, n=0, P=1210, N=518)
+2025-03-04 14:20:30,539 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,542 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,548 - INFO - Iteracja 0: condition_best: lug_boot = {small}, quality_best: 0.185, coverage_best: (p=450, n=126, P=1210, N=518), precision: 0.781
+2025-03-04 14:20:30,548 - INFO - Regula po iteracji 0: IF lug_boot = {small} THEN class = unacc, (p=450, n=126, P=1210, N=518)
+2025-03-04 14:20:30,550 - INFO - Iteracja 1: condition_best: buying = {high}, quality_best: 0.283, coverage_best: (p=123, n=21, P=1210, N=518), precision: 0.854
+2025-03-04 14:20:30,551 - INFO - Regula po iteracji 1: IF lug_boot = {small} AND buying = {high} THEN class = unacc, (p=123, n=21, P=1210, N=518)
+2025-03-04 14:20:30,552 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,561 - INFO - Iteracja 0: condition_best: persons = {2}, quality_best: 0.576, coverage_best: (p=528, n=48, P=1087, N=641), number_of_covered_negatives_best: 0, best_score: 1.062, precision: 0.917
+2025-03-04 14:20:30,562 - INFO - Regula po iteracji 0: IF persons = {2} THEN class = unacc, (p=528, n=48, P=1087, N=641)
+2025-03-04 14:20:30,562 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,562 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,562 - INFO - Reference rule: IF persons = {2} THEN class = unacc
+2025-03-04 14:20:30,562 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,563 - INFO - Exception precision: 0.0
+2025-03-04 14:20:30,563 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,564 - INFO - Iteracja 2: condition_best: safety = {med}, quality_best: 0.52, coverage_best: (p=48, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,565 - INFO - Regula po iteracji 2: IF lug_boot = {small} AND buying = {high} AND safety = {med} THEN class = unacc, (p=48, n=0, P=1210, N=518)
+2025-03-04 14:20:30,565 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,569 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,574 - INFO - Iteracja 0: condition_best: lug_boot = {small}, quality_best: 0.185, coverage_best: (p=450, n=126, P=1210, N=518), precision: 0.781
+2025-03-04 14:20:30,574 - INFO - Regula po iteracji 0: IF lug_boot = {small} THEN class = unacc, (p=450, n=126, P=1210, N=518)
+2025-03-04 14:20:30,577 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.221, coverage_best: (p=157, n=35, P=1210, N=518), precision: 0.818
+2025-03-04 14:20:30,577 - INFO - Regula po iteracji 1: IF lug_boot = {small} AND safety = {med} THEN class = unacc, (p=157, n=35, P=1210, N=518)
+2025-03-04 14:20:30,578 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,589 - INFO - Iteracja 0: condition_best: safety = {low}, quality_best: 0.774, coverage_best: (p=576, n=0, P=1053, N=675), number_of_covered_negatives_best: 0, best_score: 1.321, precision: 1.0
+2025-03-04 14:20:30,589 - INFO - Regula po iteracji 0: IF safety = {low} THEN class = unacc, (p=576, n=0, P=1053, N=675)
+2025-03-04 14:20:30,589 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,589 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,589 - INFO - Reference rule: IF safety = {low} THEN class = unacc
+2025-03-04 14:20:30,589 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,590 - INFO - Exception precision: 0
+2025-03-04 14:20:30,590 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,592 - INFO - Iteracja 2: condition_best: maint = {high}, quality_best: 0.265, coverage_best: (p=41, n=7, P=1210, N=518), precision: 0.854
+2025-03-04 14:20:30,592 - INFO - Regula po iteracji 2: IF lug_boot = {small} AND safety = {med} AND maint = {high} THEN class = unacc, (p=41, n=7, P=1210, N=518)
+2025-03-04 14:20:30,594 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,602 - INFO - Iteracja 0: condition_best: safety = {low}, quality_best: 0.746, coverage_best: (p=576, n=0, P=1169, N=559), number_of_covered_negatives_best: 0, best_score: 1.239, precision: 1.0
+2025-03-04 14:20:30,603 - INFO - Regula po iteracji 0: IF safety = {low} THEN class = unacc, (p=576, n=0, P=1169, N=559)
+2025-03-04 14:20:30,603 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,603 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,603 - INFO - Reference rule: IF safety = {low} THEN class = unacc
+2025-03-04 14:20:30,603 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,604 - INFO - Exception precision: 0
+2025-03-04 14:20:30,604 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,605 - INFO - Iteracja 3: condition_best: buying = {med}, quality_best: 0.505, coverage_best: (p=12, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,606 - INFO - Regula po iteracji 3: IF lug_boot = {small} AND safety = {med} AND maint = {high} AND buying = {med} THEN class = unacc, (p=12, n=0, P=1210, N=518)
+2025-03-04 14:20:30,606 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,612 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,617 - INFO - Iteracja 0: condition_best: doors = {2}, quality_best: 0.115, coverage_best: (p=326, n=106, P=1210, N=518), precision: 0.755
+2025-03-04 14:20:30,618 - INFO - Regula po iteracji 0: IF doors = {2} THEN class = unacc, (p=326, n=106, P=1210, N=518)
+2025-03-04 14:20:30,619 - INFO - Iteracja 1: condition_best: buying = {high}, quality_best: 0.188, coverage_best: (p=87, n=21, P=1210, N=518), precision: 0.806
+2025-03-04 14:20:30,620 - INFO - Regula po iteracji 1: IF doors = {2} AND buying = {high} THEN class = unacc, (p=87, n=21, P=1210, N=518)
+2025-03-04 14:20:30,621 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,631 - INFO - Iteracja 0: condition_best: persons = {2}, quality_best: 0.608, coverage_best: (p=540, n=36, P=1123, N=605), number_of_covered_negatives_best: 0, best_score: 1.089, precision: 0.938
+2025-03-04 14:20:30,631 - INFO - Regula po iteracji 0: IF persons = {2} THEN class = unacc, (p=540, n=36, P=1123, N=605)
+2025-03-04 14:20:30,631 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,631 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,631 - INFO - Reference rule: IF persons = {2} THEN class = unacc
+2025-03-04 14:20:30,631 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,632 - INFO - Exception precision: 0.0
+2025-03-04 14:20:30,632 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,633 - INFO - Iteracja 2: condition_best: lug_boot = {med}, quality_best: 0.228, coverage_best: (p=30, n=6, P=1210, N=518), precision: 0.833
+2025-03-04 14:20:30,634 - INFO - Regula po iteracji 2: IF doors = {2} AND buying = {high} AND lug_boot = {med} THEN class = unacc, (p=30, n=6, P=1210, N=518)
+2025-03-04 14:20:30,636 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,644 - INFO - Iteracja 0: condition_best: persons = {2}, quality_best: 0.69, coverage_best: (p=564, n=12, P=1180, N=548), number_of_covered_negatives_best: 0, best_score: 1.168, precision: 0.979
+2025-03-04 14:20:30,644 - INFO - Regula po iteracji 0: IF persons = {2} THEN class = unacc, (p=564, n=12, P=1180, N=548)
+2025-03-04 14:20:30,644 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,644 - INFO - ***RR FOUND***
+2025-03-04 14:20:30,644 - INFO - Reference rule: IF persons = {2} THEN class = unacc
+2025-03-04 14:20:30,644 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:30,645 - INFO - Exception precision: 0.0
+2025-03-04 14:20:30,645 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:30,647 - INFO - Iteracja 3: condition_best: safety = {med}, quality_best: 0.505, coverage_best: (p=12, n=0, P=1210, N=518), precision: 1.0
+2025-03-04 14:20:30,648 - INFO - Regula po iteracji 3: IF doors = {2} AND buying = {high} AND lug_boot = {med} AND safety = {med} THEN class = unacc, (p=12, n=0, P=1210, N=518)
+2025-03-04 14:20:30,648 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,653 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,659 - INFO - Iteracja 0: condition_best: doors = {3}, quality_best: -0.012, coverage_best: (p=300, n=132, P=1210, N=518), precision: 0.694
+2025-03-04 14:20:30,659 - INFO - Regula po iteracji 0: IF doors = {3} THEN class = unacc, (p=300, n=132, P=1210, N=518)
+2025-03-04 14:20:30,661 - INFO - Iteracja 1: condition_best: lug_boot = {med}, quality_best: -0.01, coverage_best: (p=100, n=44, P=1210, N=518), precision: 0.694
+2025-03-04 14:20:30,661 - INFO - Regula po iteracji 1: IF doors = {3} AND lug_boot = {med} THEN class = unacc, (p=100, n=44, P=1210, N=518)
+2025-03-04 14:20:30,663 - INFO - Iteracja 2: condition_best: persons = {4}, quality_best: -0.129, coverage_best: (p=30, n=18, P=1210, N=518), precision: 0.625
+2025-03-04 14:20:30,663 - INFO - Regula po iteracji 2: IF doors = {3} AND lug_boot = {med} AND persons = {4} THEN class = unacc, (p=30, n=18, P=1210, N=518)
+2025-03-04 14:20:30,665 - INFO - Iteracja 3: condition_best: safety = {med}, quality_best: -0.021, coverage_best: (p=11, n=5, P=1210, N=518), precision: 0.688
+2025-03-04 14:20:30,666 - INFO - Regula po iteracji 3: IF doors = {3} AND lug_boot = {med} AND persons = {4} AND safety = {med} THEN class = unacc, (p=11, n=5, P=1210, N=518)
+2025-03-04 14:20:30,667 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,668 - INFO - Regula po iteracji 4: IF doors = {3} AND lug_boot = {med} AND persons = {4} AND safety = {med} THEN class = unacc, (p=11, n=5, P=1210, N=518)
+2025-03-04 14:20:30,668 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,670 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,675 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,676 - INFO - Regula po iteracji 0: IF  THEN class = unacc, (p=1210, n=518, P=1210, N=518)
+2025-03-04 14:20:30,676 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,676 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,681 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,681 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,683 - INFO - Iteracja 1: condition_best: persons = {4}, quality_best: 0.28, coverage_best: (p=108, n=84, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:30,684 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {4} THEN class = acc, (p=108, n=84, P=384, N=1344)
+2025-03-04 14:20:30,685 - INFO - Iteracja 2: condition_best: buying = {high}, quality_best: 0.371, coverage_best: (p=36, n=12, P=384, N=1344), precision: 0.75
+2025-03-04 14:20:30,686 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {4} AND buying = {high} THEN class = acc, (p=36, n=12, P=384, N=1344)
+2025-03-04 14:20:30,687 - INFO - Iteracja 3: condition_best: maint = {high}, quality_best: 0.516, coverage_best: (p=12, n=0, P=384, N=1344), precision: 1.0
+2025-03-04 14:20:30,688 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {4} AND buying = {high} AND maint = {high} THEN class = acc, (p=12, n=0, P=384, N=1344)
+2025-03-04 14:20:30,688 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,695 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,700 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,700 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,702 - INFO - Iteracja 1: condition_best: persons = {4}, quality_best: 0.28, coverage_best: (p=108, n=84, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:30,703 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {4} THEN class = acc, (p=108, n=84, P=384, N=1344)
+2025-03-04 14:20:30,704 - INFO - Iteracja 2: condition_best: buying = {high}, quality_best: 0.371, coverage_best: (p=36, n=12, P=384, N=1344), precision: 0.75
+2025-03-04 14:20:30,705 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {4} AND buying = {high} THEN class = acc, (p=36, n=12, P=384, N=1344)
+2025-03-04 14:20:30,706 - INFO - Iteracja 3: condition_best: maint = {low}, quality_best: 0.516, coverage_best: (p=12, n=0, P=384, N=1344), precision: 1.0
+2025-03-04 14:20:30,707 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {4} AND buying = {high} AND maint = {low} THEN class = acc, (p=12, n=0, P=384, N=1344)
+2025-03-04 14:20:30,707 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,714 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,719 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,720 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,722 - INFO - Iteracja 1: condition_best: persons = {4}, quality_best: 0.28, coverage_best: (p=108, n=84, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:30,722 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {4} THEN class = acc, (p=108, n=84, P=384, N=1344)
+2025-03-04 14:20:30,724 - INFO - Iteracja 2: condition_best: buying = {high}, quality_best: 0.371, coverage_best: (p=36, n=12, P=384, N=1344), precision: 0.75
+2025-03-04 14:20:30,725 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {4} AND buying = {high} THEN class = acc, (p=36, n=12, P=384, N=1344)
+2025-03-04 14:20:30,726 - INFO - Iteracja 3: condition_best: maint = {med}, quality_best: 0.516, coverage_best: (p=12, n=0, P=384, N=1344), precision: 1.0
+2025-03-04 14:20:30,727 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {4} AND buying = {high} AND maint = {med} THEN class = acc, (p=12, n=0, P=384, N=1344)
+2025-03-04 14:20:30,727 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,734 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,738 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,739 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,741 - INFO - Iteracja 1: condition_best: persons = {4}, quality_best: 0.28, coverage_best: (p=108, n=84, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:30,742 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {4} THEN class = acc, (p=108, n=84, P=384, N=1344)
+2025-03-04 14:20:30,743 - INFO - Iteracja 2: condition_best: lug_boot = {small}, quality_best: 0.286, coverage_best: (p=40, n=24, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:30,744 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {4} AND lug_boot = {small} THEN class = acc, (p=40, n=24, P=384, N=1344)
+2025-03-04 14:20:30,745 - INFO - Iteracja 3: condition_best: buying = {med}, quality_best: 0.35, coverage_best: (p=12, n=4, P=384, N=1344), precision: 0.75
+2025-03-04 14:20:30,746 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {4} AND lug_boot = {small} AND buying = {med} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:30,748 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,749 - INFO - Regula po iteracji 4: IF safety = {high} AND persons = {4} AND lug_boot = {small} AND buying = {med} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:30,749 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,755 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,760 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,761 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,763 - INFO - Iteracja 1: condition_best: persons = {4}, quality_best: 0.28, coverage_best: (p=108, n=84, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:30,763 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {4} THEN class = acc, (p=108, n=84, P=384, N=1344)
+2025-03-04 14:20:30,765 - INFO - Iteracja 2: condition_best: lug_boot = {small}, quality_best: 0.286, coverage_best: (p=40, n=24, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:30,766 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {4} AND lug_boot = {small} THEN class = acc, (p=40, n=24, P=384, N=1344)
+2025-03-04 14:20:30,767 - INFO - Iteracja 3: condition_best: buying = {low}, quality_best: 0.182, coverage_best: (p=8, n=8, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:30,768 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {4} AND lug_boot = {small} AND buying = {low} THEN class = acc, (p=8, n=8, P=384, N=1344)
+2025-03-04 14:20:30,769 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,770 - INFO - Regula po iteracji 4: IF safety = {high} AND persons = {4} AND lug_boot = {small} AND buying = {low} THEN class = acc, (p=8, n=8, P=384, N=1344)
+2025-03-04 14:20:30,770 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,775 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,780 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,780 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,783 - INFO - Iteracja 1: condition_best: persons = {4}, quality_best: 0.28, coverage_best: (p=108, n=84, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:30,783 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {4} THEN class = acc, (p=108, n=84, P=384, N=1344)
+2025-03-04 14:20:30,785 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.279, coverage_best: (p=30, n=18, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:30,785 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {4} AND buying = {med} THEN class = acc, (p=30, n=18, P=384, N=1344)
+2025-03-04 14:20:30,787 - INFO - Iteracja 3: condition_best: maint = {high}, quality_best: 0.516, coverage_best: (p=12, n=0, P=384, N=1344), precision: 1.0
+2025-03-04 14:20:30,788 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {4} AND buying = {med} AND maint = {high} THEN class = acc, (p=12, n=0, P=384, N=1344)
+2025-03-04 14:20:30,788 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,794 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,799 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,800 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,802 - INFO - Iteracja 1: condition_best: persons = {4}, quality_best: 0.28, coverage_best: (p=108, n=84, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:30,802 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {4} THEN class = acc, (p=108, n=84, P=384, N=1344)
+2025-03-04 14:20:30,804 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.279, coverage_best: (p=30, n=18, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:30,804 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {4} AND buying = {med} THEN class = acc, (p=30, n=18, P=384, N=1344)
+2025-03-04 14:20:30,806 - INFO - Iteracja 3: condition_best: maint = {vhigh}, quality_best: 0.516, coverage_best: (p=12, n=0, P=384, N=1344), precision: 1.0
+2025-03-04 14:20:30,807 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {4} AND buying = {med} AND maint = {vhigh} THEN class = acc, (p=12, n=0, P=384, N=1344)
+2025-03-04 14:20:30,807 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,813 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,818 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,819 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,821 - INFO - Iteracja 1: condition_best: persons = {4}, quality_best: 0.28, coverage_best: (p=108, n=84, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:30,821 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {4} THEN class = acc, (p=108, n=84, P=384, N=1344)
+2025-03-04 14:20:30,823 - INFO - Iteracja 2: condition_best: maint = {med}, quality_best: 0.279, coverage_best: (p=30, n=18, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:30,824 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {4} AND maint = {med} THEN class = acc, (p=30, n=18, P=384, N=1344)
+2025-03-04 14:20:30,825 - INFO - Iteracja 3: condition_best: buying = {vhigh}, quality_best: 0.516, coverage_best: (p=12, n=0, P=384, N=1344), precision: 1.0
+2025-03-04 14:20:30,826 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {4} AND maint = {med} AND buying = {vhigh} THEN class = acc, (p=12, n=0, P=384, N=1344)
+2025-03-04 14:20:30,826 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,833 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,837 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,838 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,840 - INFO - Iteracja 1: condition_best: persons = {4}, quality_best: 0.28, coverage_best: (p=108, n=84, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:30,841 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {4} THEN class = acc, (p=108, n=84, P=384, N=1344)
+2025-03-04 14:20:30,842 - INFO - Iteracja 2: condition_best: doors = {2}, quality_best: 0.249, coverage_best: (p=28, n=20, P=384, N=1344), precision: 0.583
+2025-03-04 14:20:30,843 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {4} AND doors = {2} THEN class = acc, (p=28, n=20, P=384, N=1344)
+2025-03-04 14:20:30,844 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,845 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {4} AND doors = {2} THEN class = acc, (p=28, n=20, P=384, N=1344)
+2025-03-04 14:20:30,845 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,848 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,853 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,853 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,855 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.223, coverage_best: (p=96, n=96, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:30,856 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {more} THEN class = acc, (p=96, n=96, P=384, N=1344)
+2025-03-04 14:20:30,857 - INFO - Iteracja 2: condition_best: buying = {high}, quality_best: 0.325, coverage_best: (p=33, n=15, P=384, N=1344), precision: 0.688
+2025-03-04 14:20:30,858 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {more} AND buying = {high} THEN class = acc, (p=33, n=15, P=384, N=1344)
+2025-03-04 14:20:30,860 - INFO - Iteracja 3: condition_best: maint = {high}, quality_best: 0.459, coverage_best: (p=11, n=1, P=384, N=1344), precision: 0.917
+2025-03-04 14:20:30,861 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {more} AND buying = {high} AND maint = {high} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,863 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,870 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,870 - INFO - Regula po iteracji 0: IF  THEN class = acc, (p=373, n=1355, P=373, N=1355)
+2025-03-04 14:20:30,870 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,870 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,871 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,872 - INFO - Regula po iteracji 4: IF safety = {high} AND persons = {more} AND buying = {high} AND maint = {high} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,872 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,879 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,884 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,884 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,886 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.223, coverage_best: (p=96, n=96, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:30,887 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {more} THEN class = acc, (p=96, n=96, P=384, N=1344)
+2025-03-04 14:20:30,888 - INFO - Iteracja 2: condition_best: buying = {high}, quality_best: 0.325, coverage_best: (p=33, n=15, P=384, N=1344), precision: 0.688
+2025-03-04 14:20:30,889 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {more} AND buying = {high} THEN class = acc, (p=33, n=15, P=384, N=1344)
+2025-03-04 14:20:30,890 - INFO - Iteracja 3: condition_best: maint = {low}, quality_best: 0.459, coverage_best: (p=11, n=1, P=384, N=1344), precision: 0.917
+2025-03-04 14:20:30,892 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {more} AND buying = {high} AND maint = {low} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,894 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,901 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,901 - INFO - Regula po iteracji 0: IF  THEN class = acc, (p=373, n=1355, P=373, N=1355)
+2025-03-04 14:20:30,901 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,901 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,903 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,904 - INFO - Regula po iteracji 4: IF safety = {high} AND persons = {more} AND buying = {high} AND maint = {low} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,904 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,910 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,915 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,915 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,917 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.223, coverage_best: (p=96, n=96, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:30,918 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {more} THEN class = acc, (p=96, n=96, P=384, N=1344)
+2025-03-04 14:20:30,919 - INFO - Iteracja 2: condition_best: buying = {high}, quality_best: 0.325, coverage_best: (p=33, n=15, P=384, N=1344), precision: 0.688
+2025-03-04 14:20:30,920 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {more} AND buying = {high} THEN class = acc, (p=33, n=15, P=384, N=1344)
+2025-03-04 14:20:30,921 - INFO - Iteracja 3: condition_best: maint = {med}, quality_best: 0.459, coverage_best: (p=11, n=1, P=384, N=1344), precision: 0.917
+2025-03-04 14:20:30,923 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {more} AND buying = {high} AND maint = {med} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,924 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,932 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,932 - INFO - Regula po iteracji 0: IF  THEN class = acc, (p=373, n=1355, P=373, N=1355)
+2025-03-04 14:20:30,932 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,932 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,933 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,934 - INFO - Regula po iteracji 4: IF safety = {high} AND persons = {more} AND buying = {high} AND maint = {med} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,934 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,941 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,946 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,946 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,948 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.223, coverage_best: (p=96, n=96, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:30,949 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {more} THEN class = acc, (p=96, n=96, P=384, N=1344)
+2025-03-04 14:20:30,950 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.219, coverage_best: (p=26, n=22, P=384, N=1344), precision: 0.542
+2025-03-04 14:20:30,951 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {more} AND buying = {med} THEN class = acc, (p=26, n=22, P=384, N=1344)
+2025-03-04 14:20:30,952 - INFO - Iteracja 3: condition_best: maint = {high}, quality_best: 0.459, coverage_best: (p=11, n=1, P=384, N=1344), precision: 0.917
+2025-03-04 14:20:30,953 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {more} AND buying = {med} AND maint = {high} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,955 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,962 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,963 - INFO - Regula po iteracji 0: IF  THEN class = acc, (p=373, n=1355, P=373, N=1355)
+2025-03-04 14:20:30,963 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,963 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,964 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,965 - INFO - Regula po iteracji 4: IF safety = {high} AND persons = {more} AND buying = {med} AND maint = {high} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,965 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:30,971 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:30,976 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:30,977 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:30,979 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.223, coverage_best: (p=96, n=96, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:30,979 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {more} THEN class = acc, (p=96, n=96, P=384, N=1344)
+2025-03-04 14:20:30,981 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.219, coverage_best: (p=26, n=22, P=384, N=1344), precision: 0.542
+2025-03-04 14:20:30,982 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {more} AND buying = {med} THEN class = acc, (p=26, n=22, P=384, N=1344)
+2025-03-04 14:20:30,983 - INFO - Iteracja 3: condition_best: maint = {vhigh}, quality_best: 0.459, coverage_best: (p=11, n=1, P=384, N=1344), precision: 0.917
+2025-03-04 14:20:30,984 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {more} AND buying = {med} AND maint = {vhigh} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,986 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:30,993 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:30,993 - INFO - Regula po iteracji 0: IF  THEN class = acc, (p=373, n=1355, P=373, N=1355)
+2025-03-04 14:20:30,993 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:30,993 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:30,995 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:30,996 - INFO - Regula po iteracji 4: IF safety = {high} AND persons = {more} AND buying = {med} AND maint = {vhigh} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:30,996 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,002 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,007 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:31,007 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:31,009 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.223, coverage_best: (p=96, n=96, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:31,010 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {more} THEN class = acc, (p=96, n=96, P=384, N=1344)
+2025-03-04 14:20:31,011 - INFO - Iteracja 2: condition_best: maint = {med}, quality_best: 0.219, coverage_best: (p=26, n=22, P=384, N=1344), precision: 0.542
+2025-03-04 14:20:31,012 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {more} AND maint = {med} THEN class = acc, (p=26, n=22, P=384, N=1344)
+2025-03-04 14:20:31,014 - INFO - Iteracja 3: condition_best: buying = {vhigh}, quality_best: 0.459, coverage_best: (p=11, n=1, P=384, N=1344), precision: 0.917
+2025-03-04 14:20:31,015 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {more} AND maint = {med} AND buying = {vhigh} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:31,017 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:31,024 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:31,024 - INFO - Regula po iteracji 0: IF  THEN class = acc, (p=373, n=1355, P=373, N=1355)
+2025-03-04 14:20:31,024 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:31,024 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:31,025 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,026 - INFO - Regula po iteracji 4: IF safety = {high} AND persons = {more} AND maint = {med} AND buying = {vhigh} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:31,026 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,033 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,038 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.13, coverage_best: (p=204, n=372, P=384, N=1344), precision: 0.354
+2025-03-04 14:20:31,038 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = acc, (p=204, n=372, P=384, N=1344)
+2025-03-04 14:20:31,040 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.223, coverage_best: (p=96, n=96, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:31,041 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {more} THEN class = acc, (p=96, n=96, P=384, N=1344)
+2025-03-04 14:20:31,042 - INFO - Iteracja 2: condition_best: doors = {3}, quality_best: 0.219, coverage_best: (p=26, n=22, P=384, N=1344), precision: 0.542
+2025-03-04 14:20:31,043 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {more} AND doors = {3} THEN class = acc, (p=26, n=22, P=384, N=1344)
+2025-03-04 14:20:31,044 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,045 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {more} AND doors = {3} THEN class = acc, (p=26, n=22, P=384, N=1344)
+2025-03-04 14:20:31,045 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,048 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,053 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,053 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,055 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,056 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,057 - INFO - Iteracja 2: condition_best: lug_boot = {big}, quality_best: 0.286, coverage_best: (p=40, n=24, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,058 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND lug_boot = {big} THEN class = acc, (p=40, n=24, P=384, N=1344)
+2025-03-04 14:20:31,059 - INFO - Iteracja 3: condition_best: buying = {high}, quality_best: 0.35, coverage_best: (p=12, n=4, P=384, N=1344), precision: 0.75
+2025-03-04 14:20:31,060 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND lug_boot = {big} AND buying = {high} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,061 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,062 - INFO - Regula po iteracji 4: IF persons = {4} AND safety = {med} AND lug_boot = {big} AND buying = {high} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,063 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,069 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,074 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,074 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,076 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,077 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,078 - INFO - Iteracja 2: condition_best: lug_boot = {big}, quality_best: 0.286, coverage_best: (p=40, n=24, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,079 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND lug_boot = {big} THEN class = acc, (p=40, n=24, P=384, N=1344)
+2025-03-04 14:20:31,080 - INFO - Iteracja 3: condition_best: buying = {med}, quality_best: 0.35, coverage_best: (p=12, n=4, P=384, N=1344), precision: 0.75
+2025-03-04 14:20:31,081 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND lug_boot = {big} AND buying = {med} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,083 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,084 - INFO - Regula po iteracji 4: IF persons = {4} AND safety = {med} AND lug_boot = {big} AND buying = {med} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,084 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,090 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,095 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,095 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,097 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,098 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,099 - INFO - Iteracja 2: condition_best: lug_boot = {big}, quality_best: 0.286, coverage_best: (p=40, n=24, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,100 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND lug_boot = {big} THEN class = acc, (p=40, n=24, P=384, N=1344)
+2025-03-04 14:20:31,101 - INFO - Iteracja 3: condition_best: buying = {low}, quality_best: 0.182, coverage_best: (p=8, n=8, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:31,102 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND lug_boot = {big} AND buying = {low} THEN class = acc, (p=8, n=8, P=384, N=1344)
+2025-03-04 14:20:31,104 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,105 - INFO - Regula po iteracji 4: IF persons = {4} AND safety = {med} AND lug_boot = {big} AND buying = {low} THEN class = acc, (p=8, n=8, P=384, N=1344)
+2025-03-04 14:20:31,105 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,109 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,114 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,114 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,116 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,117 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,118 - INFO - Iteracja 2: condition_best: buying = {low}, quality_best: 0.279, coverage_best: (p=30, n=18, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,119 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND buying = {low} THEN class = acc, (p=30, n=18, P=384, N=1344)
+2025-03-04 14:20:31,120 - INFO - Iteracja 3: condition_best: maint = {high}, quality_best: 0.516, coverage_best: (p=12, n=0, P=384, N=1344), precision: 1.0
+2025-03-04 14:20:31,121 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND buying = {low} AND maint = {high} THEN class = acc, (p=12, n=0, P=384, N=1344)
+2025-03-04 14:20:31,121 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,127 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,132 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,132 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,134 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,135 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,136 - INFO - Iteracja 2: condition_best: buying = {low}, quality_best: 0.279, coverage_best: (p=30, n=18, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,137 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND buying = {low} THEN class = acc, (p=30, n=18, P=384, N=1344)
+2025-03-04 14:20:31,138 - INFO - Iteracja 3: condition_best: lug_boot = {small}, quality_best: 0.35, coverage_best: (p=12, n=4, P=384, N=1344), precision: 0.75
+2025-03-04 14:20:31,139 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND buying = {low} AND lug_boot = {small} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,141 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,142 - INFO - Regula po iteracji 4: IF persons = {4} AND safety = {med} AND buying = {low} AND lug_boot = {small} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,142 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,148 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,153 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,153 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,155 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,156 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,157 - INFO - Iteracja 2: condition_best: buying = {low}, quality_best: 0.279, coverage_best: (p=30, n=18, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,158 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND buying = {low} THEN class = acc, (p=30, n=18, P=384, N=1344)
+2025-03-04 14:20:31,159 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.266, coverage_best: (p=10, n=6, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,160 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND buying = {low} AND lug_boot = {med} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,162 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,163 - INFO - Regula po iteracji 4: IF persons = {4} AND safety = {med} AND buying = {low} AND lug_boot = {med} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,163 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,167 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,171 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,172 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,174 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,174 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,176 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.279, coverage_best: (p=30, n=18, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,177 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND buying = {med} THEN class = acc, (p=30, n=18, P=384, N=1344)
+2025-03-04 14:20:31,178 - INFO - Iteracja 3: condition_best: maint = {med}, quality_best: 0.516, coverage_best: (p=12, n=0, P=384, N=1344), precision: 1.0
+2025-03-04 14:20:31,179 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND buying = {med} AND maint = {med} THEN class = acc, (p=12, n=0, P=384, N=1344)
+2025-03-04 14:20:31,179 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,185 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,190 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,190 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,192 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,193 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,194 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.279, coverage_best: (p=30, n=18, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,195 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND buying = {med} THEN class = acc, (p=30, n=18, P=384, N=1344)
+2025-03-04 14:20:31,196 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.266, coverage_best: (p=10, n=6, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,197 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND buying = {med} AND lug_boot = {med} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,199 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,200 - INFO - Regula po iteracji 4: IF persons = {4} AND safety = {med} AND buying = {med} AND lug_boot = {med} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,200 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,204 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,208 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,209 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,211 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,211 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,213 - INFO - Iteracja 2: condition_best: doors = {4}, quality_best: 0.204, coverage_best: (p=25, n=23, P=384, N=1344), precision: 0.521
+2025-03-04 14:20:31,214 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND doors = {4} THEN class = acc, (p=25, n=23, P=384, N=1344)
+2025-03-04 14:20:31,215 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.266, coverage_best: (p=10, n=6, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,216 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND doors = {4} AND lug_boot = {med} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,217 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,218 - INFO - Regula po iteracji 4: IF persons = {4} AND safety = {med} AND doors = {4} AND lug_boot = {med} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,218 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,224 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,229 - INFO - Iteracja 0: condition_best: persons = {4}, quality_best: 0.118, coverage_best: (p=198, n=378, P=384, N=1344), precision: 0.344
+2025-03-04 14:20:31,229 - INFO - Regula po iteracji 0: IF persons = {4} THEN class = acc, (p=198, n=378, P=384, N=1344)
+2025-03-04 14:20:31,231 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,232 - INFO - Regula po iteracji 1: IF persons = {4} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,233 - INFO - Iteracja 2: condition_best: doors = {5more}, quality_best: 0.204, coverage_best: (p=25, n=23, P=384, N=1344), precision: 0.521
+2025-03-04 14:20:31,234 - INFO - Regula po iteracji 2: IF persons = {4} AND safety = {med} AND doors = {5more} THEN class = acc, (p=25, n=23, P=384, N=1344)
+2025-03-04 14:20:31,235 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.266, coverage_best: (p=10, n=6, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,236 - INFO - Regula po iteracji 3: IF persons = {4} AND safety = {med} AND doors = {5more} AND lug_boot = {med} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,238 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,239 - INFO - Regula po iteracji 4: IF persons = {4} AND safety = {med} AND doors = {5more} AND lug_boot = {med} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,239 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,245 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,249 - INFO - Iteracja 0: condition_best: persons = {more}, quality_best: 0.096, coverage_best: (p=186, n=390, P=384, N=1344), precision: 0.323
+2025-03-04 14:20:31,250 - INFO - Regula po iteracji 0: IF persons = {more} THEN class = acc, (p=186, n=390, P=384, N=1344)
+2025-03-04 14:20:31,252 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,253 - INFO - Regula po iteracji 1: IF persons = {more} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,254 - INFO - Iteracja 2: condition_best: lug_boot = {big}, quality_best: 0.286, coverage_best: (p=40, n=24, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,255 - INFO - Regula po iteracji 2: IF persons = {more} AND safety = {med} AND lug_boot = {big} THEN class = acc, (p=40, n=24, P=384, N=1344)
+2025-03-04 14:20:31,256 - INFO - Iteracja 3: condition_best: buying = {high}, quality_best: 0.35, coverage_best: (p=12, n=4, P=384, N=1344), precision: 0.75
+2025-03-04 14:20:31,257 - INFO - Regula po iteracji 3: IF persons = {more} AND safety = {med} AND lug_boot = {big} AND buying = {high} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,258 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,259 - INFO - Regula po iteracji 4: IF persons = {more} AND safety = {med} AND lug_boot = {big} AND buying = {high} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,260 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,265 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,270 - INFO - Iteracja 0: condition_best: persons = {more}, quality_best: 0.096, coverage_best: (p=186, n=390, P=384, N=1344), precision: 0.323
+2025-03-04 14:20:31,271 - INFO - Regula po iteracji 0: IF persons = {more} THEN class = acc, (p=186, n=390, P=384, N=1344)
+2025-03-04 14:20:31,273 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,273 - INFO - Regula po iteracji 1: IF persons = {more} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,275 - INFO - Iteracja 2: condition_best: lug_boot = {big}, quality_best: 0.286, coverage_best: (p=40, n=24, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,276 - INFO - Regula po iteracji 2: IF persons = {more} AND safety = {med} AND lug_boot = {big} THEN class = acc, (p=40, n=24, P=384, N=1344)
+2025-03-04 14:20:31,277 - INFO - Iteracja 3: condition_best: buying = {med}, quality_best: 0.35, coverage_best: (p=12, n=4, P=384, N=1344), precision: 0.75
+2025-03-04 14:20:31,278 - INFO - Regula po iteracji 3: IF persons = {more} AND safety = {med} AND lug_boot = {big} AND buying = {med} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,279 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,280 - INFO - Regula po iteracji 4: IF persons = {more} AND safety = {med} AND lug_boot = {big} AND buying = {med} THEN class = acc, (p=12, n=4, P=384, N=1344)
+2025-03-04 14:20:31,280 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,286 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,291 - INFO - Iteracja 0: condition_best: persons = {more}, quality_best: 0.096, coverage_best: (p=186, n=390, P=384, N=1344), precision: 0.323
+2025-03-04 14:20:31,291 - INFO - Regula po iteracji 0: IF persons = {more} THEN class = acc, (p=186, n=390, P=384, N=1344)
+2025-03-04 14:20:31,293 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,294 - INFO - Regula po iteracji 1: IF persons = {more} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,295 - INFO - Iteracja 2: condition_best: lug_boot = {big}, quality_best: 0.286, coverage_best: (p=40, n=24, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,296 - INFO - Regula po iteracji 2: IF persons = {more} AND safety = {med} AND lug_boot = {big} THEN class = acc, (p=40, n=24, P=384, N=1344)
+2025-03-04 14:20:31,297 - INFO - Iteracja 3: condition_best: buying = {low}, quality_best: 0.182, coverage_best: (p=8, n=8, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:31,298 - INFO - Regula po iteracji 3: IF persons = {more} AND safety = {med} AND lug_boot = {big} AND buying = {low} THEN class = acc, (p=8, n=8, P=384, N=1344)
+2025-03-04 14:20:31,300 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,301 - INFO - Regula po iteracji 4: IF persons = {more} AND safety = {med} AND lug_boot = {big} AND buying = {low} THEN class = acc, (p=8, n=8, P=384, N=1344)
+2025-03-04 14:20:31,301 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,305 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,309 - INFO - Iteracja 0: condition_best: persons = {more}, quality_best: 0.096, coverage_best: (p=186, n=390, P=384, N=1344), precision: 0.323
+2025-03-04 14:20:31,310 - INFO - Regula po iteracji 0: IF persons = {more} THEN class = acc, (p=186, n=390, P=384, N=1344)
+2025-03-04 14:20:31,312 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,313 - INFO - Regula po iteracji 1: IF persons = {more} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,314 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.264, coverage_best: (p=29, n=19, P=384, N=1344), precision: 0.604
+2025-03-04 14:20:31,315 - INFO - Regula po iteracji 2: IF persons = {more} AND safety = {med} AND buying = {med} THEN class = acc, (p=29, n=19, P=384, N=1344)
+2025-03-04 14:20:31,316 - INFO - Iteracja 3: condition_best: maint = {med}, quality_best: 0.459, coverage_best: (p=11, n=1, P=384, N=1344), precision: 0.917
+2025-03-04 14:20:31,317 - INFO - Regula po iteracji 3: IF persons = {more} AND safety = {med} AND buying = {med} AND maint = {med} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:31,319 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:31,326 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:31,326 - INFO - Regula po iteracji 0: IF  THEN class = acc, (p=373, n=1355, P=373, N=1355)
+2025-03-04 14:20:31,327 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:31,327 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:31,328 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,329 - INFO - Regula po iteracji 4: IF persons = {more} AND safety = {med} AND buying = {med} AND maint = {med} THEN class = acc, (p=11, n=1, P=384, N=1344)
+2025-03-04 14:20:31,329 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,335 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,339 - INFO - Iteracja 0: condition_best: persons = {more}, quality_best: 0.096, coverage_best: (p=186, n=390, P=384, N=1344), precision: 0.323
+2025-03-04 14:20:31,340 - INFO - Regula po iteracji 0: IF persons = {more} THEN class = acc, (p=186, n=390, P=384, N=1344)
+2025-03-04 14:20:31,342 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,342 - INFO - Regula po iteracji 1: IF persons = {more} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,344 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.264, coverage_best: (p=29, n=19, P=384, N=1344), precision: 0.604
+2025-03-04 14:20:31,345 - INFO - Regula po iteracji 2: IF persons = {more} AND safety = {med} AND buying = {med} THEN class = acc, (p=29, n=19, P=384, N=1344)
+2025-03-04 14:20:31,346 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.308, coverage_best: (p=11, n=5, P=384, N=1344), precision: 0.688
+2025-03-04 14:20:31,347 - INFO - Regula po iteracji 3: IF persons = {more} AND safety = {med} AND buying = {med} AND lug_boot = {med} THEN class = acc, (p=11, n=5, P=384, N=1344)
+2025-03-04 14:20:31,348 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,349 - INFO - Regula po iteracji 4: IF persons = {more} AND safety = {med} AND buying = {med} AND lug_boot = {med} THEN class = acc, (p=11, n=5, P=384, N=1344)
+2025-03-04 14:20:31,349 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,355 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,360 - INFO - Iteracja 0: condition_best: persons = {more}, quality_best: 0.096, coverage_best: (p=186, n=390, P=384, N=1344), precision: 0.323
+2025-03-04 14:20:31,360 - INFO - Regula po iteracji 0: IF persons = {more} THEN class = acc, (p=186, n=390, P=384, N=1344)
+2025-03-04 14:20:31,362 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,363 - INFO - Regula po iteracji 1: IF persons = {more} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,364 - INFO - Iteracja 2: condition_best: maint = {med}, quality_best: 0.264, coverage_best: (p=29, n=19, P=384, N=1344), precision: 0.604
+2025-03-04 14:20:31,365 - INFO - Regula po iteracji 2: IF persons = {more} AND safety = {med} AND maint = {med} THEN class = acc, (p=29, n=19, P=384, N=1344)
+2025-03-04 14:20:31,366 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.308, coverage_best: (p=11, n=5, P=384, N=1344), precision: 0.688
+2025-03-04 14:20:31,367 - INFO - Regula po iteracji 3: IF persons = {more} AND safety = {med} AND maint = {med} AND lug_boot = {med} THEN class = acc, (p=11, n=5, P=384, N=1344)
+2025-03-04 14:20:31,369 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,370 - INFO - Regula po iteracji 4: IF persons = {more} AND safety = {med} AND maint = {med} AND lug_boot = {med} THEN class = acc, (p=11, n=5, P=384, N=1344)
+2025-03-04 14:20:31,370 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,376 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,380 - INFO - Iteracja 0: condition_best: persons = {more}, quality_best: 0.096, coverage_best: (p=186, n=390, P=384, N=1344), precision: 0.323
+2025-03-04 14:20:31,381 - INFO - Regula po iteracji 0: IF persons = {more} THEN class = acc, (p=186, n=390, P=384, N=1344)
+2025-03-04 14:20:31,383 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,383 - INFO - Regula po iteracji 1: IF persons = {more} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,385 - INFO - Iteracja 2: condition_best: lug_boot = {med}, quality_best: 0.228, coverage_best: (p=35, n=29, P=384, N=1344), precision: 0.547
+2025-03-04 14:20:31,386 - INFO - Regula po iteracji 2: IF persons = {more} AND safety = {med} AND lug_boot = {med} THEN class = acc, (p=35, n=29, P=384, N=1344)
+2025-03-04 14:20:31,387 - INFO - Iteracja 3: condition_best: maint = {high}, quality_best: 0.266, coverage_best: (p=10, n=6, P=384, N=1344), precision: 0.625
+2025-03-04 14:20:31,388 - INFO - Regula po iteracji 3: IF persons = {more} AND safety = {med} AND lug_boot = {med} AND maint = {high} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,389 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,390 - INFO - Regula po iteracji 4: IF persons = {more} AND safety = {med} AND lug_boot = {med} AND maint = {high} THEN class = acc, (p=10, n=6, P=384, N=1344)
+2025-03-04 14:20:31,390 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,396 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,401 - INFO - Iteracja 0: condition_best: persons = {more}, quality_best: 0.096, coverage_best: (p=186, n=390, P=384, N=1344), precision: 0.323
+2025-03-04 14:20:31,401 - INFO - Regula po iteracji 0: IF persons = {more} THEN class = acc, (p=186, n=390, P=384, N=1344)
+2025-03-04 14:20:31,403 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,404 - INFO - Regula po iteracji 1: IF persons = {more} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,405 - INFO - Iteracja 2: condition_best: lug_boot = {med}, quality_best: 0.228, coverage_best: (p=35, n=29, P=384, N=1344), precision: 0.547
+2025-03-04 14:20:31,406 - INFO - Regula po iteracji 2: IF persons = {more} AND safety = {med} AND lug_boot = {med} THEN class = acc, (p=35, n=29, P=384, N=1344)
+2025-03-04 14:20:31,407 - INFO - Iteracja 3: condition_best: maint = {low}, quality_best: 0.182, coverage_best: (p=8, n=8, P=384, N=1344), precision: 0.5
+2025-03-04 14:20:31,408 - INFO - Regula po iteracji 3: IF persons = {more} AND safety = {med} AND lug_boot = {med} AND maint = {low} THEN class = acc, (p=8, n=8, P=384, N=1344)
+2025-03-04 14:20:31,410 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,411 - INFO - Regula po iteracji 4: IF persons = {more} AND safety = {med} AND lug_boot = {med} AND maint = {low} THEN class = acc, (p=8, n=8, P=384, N=1344)
+2025-03-04 14:20:31,411 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,414 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,419 - INFO - Iteracja 0: condition_best: persons = {more}, quality_best: 0.096, coverage_best: (p=186, n=390, P=384, N=1344), precision: 0.323
+2025-03-04 14:20:31,420 - INFO - Regula po iteracji 0: IF persons = {more} THEN class = acc, (p=186, n=390, P=384, N=1344)
+2025-03-04 14:20:31,422 - INFO - Iteracja 1: condition_best: safety = {med}, quality_best: 0.196, coverage_best: (p=90, n=102, P=384, N=1344), precision: 0.469
+2025-03-04 14:20:31,422 - INFO - Regula po iteracji 1: IF persons = {more} AND safety = {med} THEN class = acc, (p=90, n=102, P=384, N=1344)
+2025-03-04 14:20:31,424 - INFO - Iteracja 2: condition_best: buying = {low}, quality_best: 0.219, coverage_best: (p=26, n=22, P=384, N=1344), precision: 0.542
+2025-03-04 14:20:31,425 - INFO - Regula po iteracji 2: IF persons = {more} AND safety = {med} AND buying = {low} THEN class = acc, (p=26, n=22, P=384, N=1344)
+2025-03-04 14:20:31,426 - INFO - Iteracja 3: condition_best: lug_boot = {small}, quality_best: 0.224, coverage_best: (p=9, n=7, P=384, N=1344), precision: 0.562
+2025-03-04 14:20:31,427 - INFO - Regula po iteracji 3: IF persons = {more} AND safety = {med} AND buying = {low} AND lug_boot = {small} THEN class = acc, (p=9, n=7, P=384, N=1344)
+2025-03-04 14:20:31,428 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,429 - INFO - Regula po iteracji 4: IF persons = {more} AND safety = {med} AND buying = {low} AND lug_boot = {small} THEN class = acc, (p=9, n=7, P=384, N=1344)
+2025-03-04 14:20:31,429 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,435 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,440 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,440 - INFO - Regula po iteracji 0: IF  THEN class = acc, (p=384, n=1344, P=384, N=1344)
+2025-03-04 14:20:31,440 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,440 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,445 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.078, coverage_best: (p=65, n=511, P=65, N=1663), precision: 0.113
+2025-03-04 14:20:31,445 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = vgood, (p=65, n=511, P=65, N=1663)
+2025-03-04 14:20:31,447 - INFO - Iteracja 1: condition_best: buying = {low}, quality_best: 0.194, coverage_best: (p=39, n=105, P=65, N=1663), precision: 0.271
+2025-03-04 14:20:31,448 - INFO - Regula po iteracji 1: IF safety = {high} AND buying = {low} THEN class = vgood, (p=39, n=105, P=65, N=1663)
+2025-03-04 14:20:31,449 - INFO - Iteracja 2: condition_best: lug_boot = {big}, quality_best: 0.329, coverage_best: (p=24, n=24, P=65, N=1663), precision: 0.5
+2025-03-04 14:20:31,450 - INFO - Regula po iteracji 2: IF safety = {high} AND buying = {low} AND lug_boot = {big} THEN class = vgood, (p=24, n=24, P=65, N=1663)
+2025-03-04 14:20:31,451 - INFO - Iteracja 3: condition_best: persons = {4}, quality_best: 0.438, coverage_best: (p=12, n=4, P=65, N=1663), precision: 0.75
+2025-03-04 14:20:31,452 - INFO - Regula po iteracji 3: IF safety = {high} AND buying = {low} AND lug_boot = {big} AND persons = {4} THEN class = vgood, (p=12, n=4, P=65, N=1663)
+2025-03-04 14:20:31,454 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,455 - INFO - Regula po iteracji 4: IF safety = {high} AND buying = {low} AND lug_boot = {big} AND persons = {4} THEN class = vgood, (p=12, n=4, P=65, N=1663)
+2025-03-04 14:20:31,455 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,461 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,465 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.078, coverage_best: (p=65, n=511, P=65, N=1663), precision: 0.113
+2025-03-04 14:20:31,466 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = vgood, (p=65, n=511, P=65, N=1663)
+2025-03-04 14:20:31,468 - INFO - Iteracja 1: condition_best: buying = {low}, quality_best: 0.194, coverage_best: (p=39, n=105, P=65, N=1663), precision: 0.271
+2025-03-04 14:20:31,468 - INFO - Regula po iteracji 1: IF safety = {high} AND buying = {low} THEN class = vgood, (p=39, n=105, P=65, N=1663)
+2025-03-04 14:20:31,469 - INFO - Iteracja 2: condition_best: lug_boot = {big}, quality_best: 0.329, coverage_best: (p=24, n=24, P=65, N=1663), precision: 0.5
+2025-03-04 14:20:31,470 - INFO - Regula po iteracji 2: IF safety = {high} AND buying = {low} AND lug_boot = {big} THEN class = vgood, (p=24, n=24, P=65, N=1663)
+2025-03-04 14:20:31,472 - INFO - Iteracja 3: condition_best: persons = {more}, quality_best: 0.438, coverage_best: (p=12, n=4, P=65, N=1663), precision: 0.75
+2025-03-04 14:20:31,473 - INFO - Regula po iteracji 3: IF safety = {high} AND buying = {low} AND lug_boot = {big} AND persons = {more} THEN class = vgood, (p=12, n=4, P=65, N=1663)
+2025-03-04 14:20:31,474 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,475 - INFO - Regula po iteracji 4: IF safety = {high} AND buying = {low} AND lug_boot = {big} AND persons = {more} THEN class = vgood, (p=12, n=4, P=65, N=1663)
+2025-03-04 14:20:31,475 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,481 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,486 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.078, coverage_best: (p=65, n=511, P=65, N=1663), precision: 0.113
+2025-03-04 14:20:31,486 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = vgood, (p=65, n=511, P=65, N=1663)
+2025-03-04 14:20:31,488 - INFO - Iteracja 1: condition_best: buying = {low}, quality_best: 0.194, coverage_best: (p=39, n=105, P=65, N=1663), precision: 0.271
+2025-03-04 14:20:31,489 - INFO - Regula po iteracji 1: IF safety = {high} AND buying = {low} THEN class = vgood, (p=39, n=105, P=65, N=1663)
+2025-03-04 14:20:31,490 - INFO - Iteracja 2: condition_best: persons = {more}, quality_best: 0.275, coverage_best: (p=21, n=27, P=65, N=1663), precision: 0.438
+2025-03-04 14:20:31,491 - INFO - Regula po iteracji 2: IF safety = {high} AND buying = {low} AND persons = {more} THEN class = vgood, (p=21, n=27, P=65, N=1663)
+2025-03-04 14:20:31,492 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.31, coverage_best: (p=9, n=7, P=65, N=1663), precision: 0.562
+2025-03-04 14:20:31,493 - INFO - Regula po iteracji 3: IF safety = {high} AND buying = {low} AND persons = {more} AND lug_boot = {med} THEN class = vgood, (p=9, n=7, P=65, N=1663)
+2025-03-04 14:20:31,494 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,495 - INFO - Regula po iteracji 4: IF safety = {high} AND buying = {low} AND persons = {more} AND lug_boot = {med} THEN class = vgood, (p=9, n=7, P=65, N=1663)
+2025-03-04 14:20:31,495 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,501 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,506 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.078, coverage_best: (p=65, n=511, P=65, N=1663), precision: 0.113
+2025-03-04 14:20:31,506 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = vgood, (p=65, n=511, P=65, N=1663)
+2025-03-04 14:20:31,508 - INFO - Iteracja 1: condition_best: buying = {low}, quality_best: 0.194, coverage_best: (p=39, n=105, P=65, N=1663), precision: 0.271
+2025-03-04 14:20:31,509 - INFO - Regula po iteracji 1: IF safety = {high} AND buying = {low} THEN class = vgood, (p=39, n=105, P=65, N=1663)
+2025-03-04 14:20:31,510 - INFO - Iteracja 2: condition_best: persons = {4}, quality_best: 0.224, coverage_best: (p=18, n=30, P=65, N=1663), precision: 0.375
+2025-03-04 14:20:31,511 - INFO - Regula po iteracji 2: IF safety = {high} AND buying = {low} AND persons = {4} THEN class = vgood, (p=18, n=30, P=65, N=1663)
+2025-03-04 14:20:31,512 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.191, coverage_best: (p=6, n=10, P=65, N=1663), precision: 0.375
+2025-03-04 14:20:31,513 - INFO - Regula po iteracji 3: IF safety = {high} AND buying = {low} AND persons = {4} AND lug_boot = {med} THEN class = vgood, (p=6, n=10, P=65, N=1663)
+2025-03-04 14:20:31,514 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,516 - INFO - Regula po iteracji 4: IF safety = {high} AND buying = {low} AND persons = {4} AND lug_boot = {med} THEN class = vgood, (p=6, n=10, P=65, N=1663)
+2025-03-04 14:20:31,516 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,519 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,524 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.078, coverage_best: (p=65, n=511, P=65, N=1663), precision: 0.113
+2025-03-04 14:20:31,524 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = vgood, (p=65, n=511, P=65, N=1663)
+2025-03-04 14:20:31,526 - INFO - Iteracja 1: condition_best: lug_boot = {big}, quality_best: 0.143, coverage_best: (p=40, n=152, P=65, N=1663), precision: 0.208
+2025-03-04 14:20:31,527 - INFO - Regula po iteracji 1: IF safety = {high} AND lug_boot = {big} THEN class = vgood, (p=40, n=152, P=65, N=1663)
+2025-03-04 14:20:31,528 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.191, coverage_best: (p=16, n=32, P=65, N=1663), precision: 0.333
+2025-03-04 14:20:31,529 - INFO - Regula po iteracji 2: IF safety = {high} AND lug_boot = {big} AND buying = {med} THEN class = vgood, (p=16, n=32, P=65, N=1663)
+2025-03-04 14:20:31,530 - INFO - Iteracja 3: condition_best: maint = {low}, quality_best: 0.367, coverage_best: (p=8, n=4, P=65, N=1663), precision: 0.667
+2025-03-04 14:20:31,531 - INFO - Regula po iteracji 3: IF safety = {high} AND lug_boot = {big} AND buying = {med} AND maint = {low} THEN class = vgood, (p=8, n=4, P=65, N=1663)
+2025-03-04 14:20:31,533 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,534 - INFO - Regula po iteracji 4: IF safety = {high} AND lug_boot = {big} AND buying = {med} AND maint = {low} THEN class = vgood, (p=8, n=4, P=65, N=1663)
+2025-03-04 14:20:31,534 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,540 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,544 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.078, coverage_best: (p=65, n=511, P=65, N=1663), precision: 0.113
+2025-03-04 14:20:31,545 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = vgood, (p=65, n=511, P=65, N=1663)
+2025-03-04 14:20:31,547 - INFO - Iteracja 1: condition_best: lug_boot = {big}, quality_best: 0.143, coverage_best: (p=40, n=152, P=65, N=1663), precision: 0.208
+2025-03-04 14:20:31,547 - INFO - Regula po iteracji 1: IF safety = {high} AND lug_boot = {big} THEN class = vgood, (p=40, n=152, P=65, N=1663)
+2025-03-04 14:20:31,549 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.191, coverage_best: (p=16, n=32, P=65, N=1663), precision: 0.333
+2025-03-04 14:20:31,549 - INFO - Regula po iteracji 2: IF safety = {high} AND lug_boot = {big} AND buying = {med} THEN class = vgood, (p=16, n=32, P=65, N=1663)
+2025-03-04 14:20:31,551 - INFO - Iteracja 3: condition_best: maint = {med}, quality_best: 0.367, coverage_best: (p=8, n=4, P=65, N=1663), precision: 0.667
+2025-03-04 14:20:31,552 - INFO - Regula po iteracji 3: IF safety = {high} AND lug_boot = {big} AND buying = {med} AND maint = {med} THEN class = vgood, (p=8, n=4, P=65, N=1663)
+2025-03-04 14:20:31,553 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,554 - INFO - Regula po iteracji 4: IF safety = {high} AND lug_boot = {big} AND buying = {med} AND maint = {med} THEN class = vgood, (p=8, n=4, P=65, N=1663)
+2025-03-04 14:20:31,554 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,560 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,564 - INFO - Iteracja 0: condition_best: safety = {high}, quality_best: 0.078, coverage_best: (p=65, n=511, P=65, N=1663), precision: 0.113
+2025-03-04 14:20:31,565 - INFO - Regula po iteracji 0: IF safety = {high} THEN class = vgood, (p=65, n=511, P=65, N=1663)
+2025-03-04 14:20:31,567 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.116, coverage_best: (p=35, n=157, P=65, N=1663), precision: 0.182
+2025-03-04 14:20:31,567 - INFO - Regula po iteracji 1: IF safety = {high} AND persons = {more} THEN class = vgood, (p=35, n=157, P=65, N=1663)
+2025-03-04 14:20:31,569 - INFO - Iteracja 2: condition_best: buying = {med}, quality_best: 0.16, coverage_best: (p=14, n=34, P=65, N=1663), precision: 0.292
+2025-03-04 14:20:31,570 - INFO - Regula po iteracji 2: IF safety = {high} AND persons = {more} AND buying = {med} THEN class = vgood, (p=14, n=34, P=65, N=1663)
+2025-03-04 14:20:31,571 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.191, coverage_best: (p=6, n=10, P=65, N=1663), precision: 0.375
+2025-03-04 14:20:31,572 - INFO - Regula po iteracji 3: IF safety = {high} AND persons = {more} AND buying = {med} AND lug_boot = {med} THEN class = vgood, (p=6, n=10, P=65, N=1663)
+2025-03-04 14:20:31,573 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,574 - INFO - Regula po iteracji 4: IF safety = {high} AND persons = {more} AND buying = {med} AND lug_boot = {med} THEN class = vgood, (p=6, n=10, P=65, N=1663)
+2025-03-04 14:20:31,574 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,580 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,585 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,585 - INFO - Regula po iteracji 0: IF  THEN class = vgood, (p=65, n=1663, P=65, N=1663)
+2025-03-04 14:20:31,585 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,585 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,589 - INFO - Iteracja 0: condition_best: buying = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,590 - INFO - Regula po iteracji 0: IF buying = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,591 - INFO - Iteracja 1: condition_best: maint = {low}, quality_best: 0.12, coverage_best: (p=23, n=85, P=69, N=1659), precision: 0.213
+2025-03-04 14:20:31,592 - INFO - Regula po iteracji 1: IF buying = {low} AND maint = {low} THEN class = good, (p=23, n=85, P=69, N=1659)
+2025-03-04 14:20:31,593 - INFO - Iteracja 2: condition_best: safety = {med}, quality_best: 0.199, coverage_best: (p=13, n=23, P=69, N=1659), precision: 0.361
+2025-03-04 14:20:31,594 - INFO - Regula po iteracji 2: IF buying = {low} AND maint = {low} AND safety = {med} THEN class = good, (p=13, n=23, P=69, N=1659)
+2025-03-04 14:20:31,595 - INFO - Iteracja 3: condition_best: lug_boot = {big}, quality_best: 0.364, coverage_best: (p=8, n=4, P=69, N=1659), precision: 0.667
+2025-03-04 14:20:31,596 - INFO - Regula po iteracji 3: IF buying = {low} AND maint = {low} AND safety = {med} AND lug_boot = {big} THEN class = good, (p=8, n=4, P=69, N=1659)
+2025-03-04 14:20:31,597 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,598 - INFO - Regula po iteracji 4: IF buying = {low} AND maint = {low} AND safety = {med} AND lug_boot = {big} THEN class = good, (p=8, n=4, P=69, N=1659)
+2025-03-04 14:20:31,599 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,604 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,609 - INFO - Iteracja 0: condition_best: buying = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,609 - INFO - Regula po iteracji 0: IF buying = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,611 - INFO - Iteracja 1: condition_best: maint = {low}, quality_best: 0.12, coverage_best: (p=23, n=85, P=69, N=1659), precision: 0.213
+2025-03-04 14:20:31,611 - INFO - Regula po iteracji 1: IF buying = {low} AND maint = {low} THEN class = good, (p=23, n=85, P=69, N=1659)
+2025-03-04 14:20:31,612 - INFO - Iteracja 2: condition_best: safety = {med}, quality_best: 0.199, coverage_best: (p=13, n=23, P=69, N=1659), precision: 0.361
+2025-03-04 14:20:31,613 - INFO - Regula po iteracji 2: IF buying = {low} AND maint = {low} AND safety = {med} THEN class = good, (p=13, n=23, P=69, N=1659)
+2025-03-04 14:20:31,614 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.21, coverage_best: (p=5, n=7, P=69, N=1659), precision: 0.417
+2025-03-04 14:20:31,615 - INFO - Regula po iteracji 3: IF buying = {low} AND maint = {low} AND safety = {med} AND lug_boot = {med} THEN class = good, (p=5, n=7, P=69, N=1659)
+2025-03-04 14:20:31,617 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,618 - INFO - Regula po iteracji 4: IF buying = {low} AND maint = {low} AND safety = {med} AND lug_boot = {med} THEN class = good, (p=5, n=7, P=69, N=1659)
+2025-03-04 14:20:31,618 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,624 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,628 - INFO - Iteracja 0: condition_best: buying = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,628 - INFO - Regula po iteracji 0: IF buying = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,630 - INFO - Iteracja 1: condition_best: maint = {low}, quality_best: 0.12, coverage_best: (p=23, n=85, P=69, N=1659), precision: 0.213
+2025-03-04 14:20:31,631 - INFO - Regula po iteracji 1: IF buying = {low} AND maint = {low} THEN class = good, (p=23, n=85, P=69, N=1659)
+2025-03-04 14:20:31,632 - INFO - Iteracja 2: condition_best: persons = {4}, quality_best: 0.179, coverage_best: (p=12, n=24, P=69, N=1659), precision: 0.333
+2025-03-04 14:20:31,633 - INFO - Regula po iteracji 2: IF buying = {low} AND maint = {low} AND persons = {4} THEN class = good, (p=12, n=24, P=69, N=1659)
+2025-03-04 14:20:31,634 - INFO - Iteracja 3: condition_best: safety = {high}, quality_best: 0.26, coverage_best: (p=6, n=6, P=69, N=1659), precision: 0.5
+2025-03-04 14:20:31,635 - INFO - Regula po iteracji 3: IF buying = {low} AND maint = {low} AND persons = {4} AND safety = {high} THEN class = good, (p=6, n=6, P=69, N=1659)
+2025-03-04 14:20:31,636 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,637 - INFO - Regula po iteracji 4: IF buying = {low} AND maint = {low} AND persons = {4} AND safety = {high} THEN class = good, (p=6, n=6, P=69, N=1659)
+2025-03-04 14:20:31,637 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,643 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,647 - INFO - Iteracja 0: condition_best: buying = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,648 - INFO - Regula po iteracji 0: IF buying = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,649 - INFO - Iteracja 1: condition_best: maint = {med}, quality_best: 0.12, coverage_best: (p=23, n=85, P=69, N=1659), precision: 0.213
+2025-03-04 14:20:31,650 - INFO - Regula po iteracji 1: IF buying = {low} AND maint = {med} THEN class = good, (p=23, n=85, P=69, N=1659)
+2025-03-04 14:20:31,651 - INFO - Iteracja 2: condition_best: safety = {med}, quality_best: 0.199, coverage_best: (p=13, n=23, P=69, N=1659), precision: 0.361
+2025-03-04 14:20:31,652 - INFO - Regula po iteracji 2: IF buying = {low} AND maint = {med} AND safety = {med} THEN class = good, (p=13, n=23, P=69, N=1659)
+2025-03-04 14:20:31,653 - INFO - Iteracja 3: condition_best: lug_boot = {big}, quality_best: 0.364, coverage_best: (p=8, n=4, P=69, N=1659), precision: 0.667
+2025-03-04 14:20:31,654 - INFO - Regula po iteracji 3: IF buying = {low} AND maint = {med} AND safety = {med} AND lug_boot = {big} THEN class = good, (p=8, n=4, P=69, N=1659)
+2025-03-04 14:20:31,655 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,656 - INFO - Regula po iteracji 4: IF buying = {low} AND maint = {med} AND safety = {med} AND lug_boot = {big} THEN class = good, (p=8, n=4, P=69, N=1659)
+2025-03-04 14:20:31,656 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,662 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,667 - INFO - Iteracja 0: condition_best: buying = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,667 - INFO - Regula po iteracji 0: IF buying = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,669 - INFO - Iteracja 1: condition_best: maint = {med}, quality_best: 0.12, coverage_best: (p=23, n=85, P=69, N=1659), precision: 0.213
+2025-03-04 14:20:31,669 - INFO - Regula po iteracji 1: IF buying = {low} AND maint = {med} THEN class = good, (p=23, n=85, P=69, N=1659)
+2025-03-04 14:20:31,670 - INFO - Iteracja 2: condition_best: safety = {med}, quality_best: 0.199, coverage_best: (p=13, n=23, P=69, N=1659), precision: 0.361
+2025-03-04 14:20:31,671 - INFO - Regula po iteracji 2: IF buying = {low} AND maint = {med} AND safety = {med} THEN class = good, (p=13, n=23, P=69, N=1659)
+2025-03-04 14:20:31,672 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.21, coverage_best: (p=5, n=7, P=69, N=1659), precision: 0.417
+2025-03-04 14:20:31,674 - INFO - Regula po iteracji 3: IF buying = {low} AND maint = {med} AND safety = {med} AND lug_boot = {med} THEN class = good, (p=5, n=7, P=69, N=1659)
+2025-03-04 14:20:31,675 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,676 - INFO - Regula po iteracji 4: IF buying = {low} AND maint = {med} AND safety = {med} AND lug_boot = {med} THEN class = good, (p=5, n=7, P=69, N=1659)
+2025-03-04 14:20:31,676 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,682 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,686 - INFO - Iteracja 0: condition_best: buying = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,687 - INFO - Regula po iteracji 0: IF buying = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,688 - INFO - Iteracja 1: condition_best: maint = {med}, quality_best: 0.12, coverage_best: (p=23, n=85, P=69, N=1659), precision: 0.213
+2025-03-04 14:20:31,689 - INFO - Regula po iteracji 1: IF buying = {low} AND maint = {med} THEN class = good, (p=23, n=85, P=69, N=1659)
+2025-03-04 14:20:31,690 - INFO - Iteracja 2: condition_best: persons = {4}, quality_best: 0.179, coverage_best: (p=12, n=24, P=69, N=1659), precision: 0.333
+2025-03-04 14:20:31,691 - INFO - Regula po iteracji 2: IF buying = {low} AND maint = {med} AND persons = {4} THEN class = good, (p=12, n=24, P=69, N=1659)
+2025-03-04 14:20:31,692 - INFO - Iteracja 3: condition_best: safety = {high}, quality_best: 0.26, coverage_best: (p=6, n=6, P=69, N=1659), precision: 0.5
+2025-03-04 14:20:31,693 - INFO - Regula po iteracji 3: IF buying = {low} AND maint = {med} AND persons = {4} AND safety = {high} THEN class = good, (p=6, n=6, P=69, N=1659)
+2025-03-04 14:20:31,694 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,695 - INFO - Regula po iteracji 4: IF buying = {low} AND maint = {med} AND persons = {4} AND safety = {high} THEN class = good, (p=6, n=6, P=69, N=1659)
+2025-03-04 14:20:31,695 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,701 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,706 - INFO - Iteracja 0: condition_best: buying = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,706 - INFO - Regula po iteracji 0: IF buying = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,708 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.078, coverage_best: (p=22, n=122, P=69, N=1659), precision: 0.153
+2025-03-04 14:20:31,708 - INFO - Regula po iteracji 1: IF buying = {low} AND persons = {more} THEN class = good, (p=22, n=122, P=69, N=1659)
+2025-03-04 14:20:31,709 - INFO - Iteracja 2: condition_best: safety = {high}, quality_best: 0.074, coverage_best: (p=8, n=40, P=69, N=1659), precision: 0.167
+2025-03-04 14:20:31,710 - INFO - Regula po iteracji 2: IF buying = {low} AND persons = {more} AND safety = {high} THEN class = good, (p=8, n=40, P=69, N=1659)
+2025-03-04 14:20:31,711 - INFO - Iteracja 3: condition_best: lug_boot = {small}, quality_best: 0.19, coverage_best: (p=6, n=10, P=69, N=1659), precision: 0.375
+2025-03-04 14:20:31,712 - INFO - Regula po iteracji 3: IF buying = {low} AND persons = {more} AND safety = {high} AND lug_boot = {small} THEN class = good, (p=6, n=10, P=69, N=1659)
+2025-03-04 14:20:31,714 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,715 - INFO - Regula po iteracji 4: IF buying = {low} AND persons = {more} AND safety = {high} AND lug_boot = {small} THEN class = good, (p=6, n=10, P=69, N=1659)
+2025-03-04 14:20:31,715 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,721 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,725 - INFO - Iteracja 0: condition_best: maint = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,726 - INFO - Regula po iteracji 0: IF maint = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,727 - INFO - Iteracja 1: condition_best: buying = {med}, quality_best: 0.12, coverage_best: (p=23, n=85, P=69, N=1659), precision: 0.213
+2025-03-04 14:20:31,728 - INFO - Regula po iteracji 1: IF maint = {low} AND buying = {med} THEN class = good, (p=23, n=85, P=69, N=1659)
+2025-03-04 14:20:31,729 - INFO - Iteracja 2: condition_best: safety = {med}, quality_best: 0.199, coverage_best: (p=13, n=23, P=69, N=1659), precision: 0.361
+2025-03-04 14:20:31,730 - INFO - Regula po iteracji 2: IF maint = {low} AND buying = {med} AND safety = {med} THEN class = good, (p=13, n=23, P=69, N=1659)
+2025-03-04 14:20:31,731 - INFO - Iteracja 3: condition_best: lug_boot = {big}, quality_best: 0.364, coverage_best: (p=8, n=4, P=69, N=1659), precision: 0.667
+2025-03-04 14:20:31,732 - INFO - Regula po iteracji 3: IF maint = {low} AND buying = {med} AND safety = {med} AND lug_boot = {big} THEN class = good, (p=8, n=4, P=69, N=1659)
+2025-03-04 14:20:31,733 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,734 - INFO - Regula po iteracji 4: IF maint = {low} AND buying = {med} AND safety = {med} AND lug_boot = {big} THEN class = good, (p=8, n=4, P=69, N=1659)
+2025-03-04 14:20:31,734 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,740 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,744 - INFO - Iteracja 0: condition_best: maint = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,745 - INFO - Regula po iteracji 0: IF maint = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,746 - INFO - Iteracja 1: condition_best: buying = {med}, quality_best: 0.12, coverage_best: (p=23, n=85, P=69, N=1659), precision: 0.213
+2025-03-04 14:20:31,747 - INFO - Regula po iteracji 1: IF maint = {low} AND buying = {med} THEN class = good, (p=23, n=85, P=69, N=1659)
+2025-03-04 14:20:31,748 - INFO - Iteracja 2: condition_best: safety = {med}, quality_best: 0.199, coverage_best: (p=13, n=23, P=69, N=1659), precision: 0.361
+2025-03-04 14:20:31,749 - INFO - Regula po iteracji 2: IF maint = {low} AND buying = {med} AND safety = {med} THEN class = good, (p=13, n=23, P=69, N=1659)
+2025-03-04 14:20:31,750 - INFO - Iteracja 3: condition_best: lug_boot = {med}, quality_best: 0.21, coverage_best: (p=5, n=7, P=69, N=1659), precision: 0.417
+2025-03-04 14:20:31,751 - INFO - Regula po iteracji 3: IF maint = {low} AND buying = {med} AND safety = {med} AND lug_boot = {med} THEN class = good, (p=5, n=7, P=69, N=1659)
+2025-03-04 14:20:31,753 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,754 - INFO - Regula po iteracji 4: IF maint = {low} AND buying = {med} AND safety = {med} AND lug_boot = {med} THEN class = good, (p=5, n=7, P=69, N=1659)
+2025-03-04 14:20:31,754 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,759 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,764 - INFO - Iteracja 0: condition_best: maint = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,764 - INFO - Regula po iteracji 0: IF maint = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,766 - INFO - Iteracja 1: condition_best: buying = {med}, quality_best: 0.12, coverage_best: (p=23, n=85, P=69, N=1659), precision: 0.213
+2025-03-04 14:20:31,766 - INFO - Regula po iteracji 1: IF maint = {low} AND buying = {med} THEN class = good, (p=23, n=85, P=69, N=1659)
+2025-03-04 14:20:31,768 - INFO - Iteracja 2: condition_best: persons = {4}, quality_best: 0.179, coverage_best: (p=12, n=24, P=69, N=1659), precision: 0.333
+2025-03-04 14:20:31,768 - INFO - Regula po iteracji 2: IF maint = {low} AND buying = {med} AND persons = {4} THEN class = good, (p=12, n=24, P=69, N=1659)
+2025-03-04 14:20:31,769 - INFO - Iteracja 3: condition_best: safety = {high}, quality_best: 0.26, coverage_best: (p=6, n=6, P=69, N=1659), precision: 0.5
+2025-03-04 14:20:31,771 - INFO - Regula po iteracji 3: IF maint = {low} AND buying = {med} AND persons = {4} AND safety = {high} THEN class = good, (p=6, n=6, P=69, N=1659)
+2025-03-04 14:20:31,772 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,773 - INFO - Regula po iteracji 4: IF maint = {low} AND buying = {med} AND persons = {4} AND safety = {high} THEN class = good, (p=6, n=6, P=69, N=1659)
+2025-03-04 14:20:31,773 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,778 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,783 - INFO - Iteracja 0: condition_best: maint = {low}, quality_best: 0.058, coverage_best: (p=46, n=386, P=69, N=1659), precision: 0.106
+2025-03-04 14:20:31,783 - INFO - Regula po iteracji 0: IF maint = {low} THEN class = good, (p=46, n=386, P=69, N=1659)
+2025-03-04 14:20:31,785 - INFO - Iteracja 1: condition_best: persons = {more}, quality_best: 0.078, coverage_best: (p=22, n=122, P=69, N=1659), precision: 0.153
+2025-03-04 14:20:31,785 - INFO - Regula po iteracji 1: IF maint = {low} AND persons = {more} THEN class = good, (p=22, n=122, P=69, N=1659)
+2025-03-04 14:20:31,787 - INFO - Iteracja 2: condition_best: safety = {high}, quality_best: 0.074, coverage_best: (p=8, n=40, P=69, N=1659), precision: 0.167
+2025-03-04 14:20:31,787 - INFO - Regula po iteracji 2: IF maint = {low} AND persons = {more} AND safety = {high} THEN class = good, (p=8, n=40, P=69, N=1659)
+2025-03-04 14:20:31,789 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,789 - INFO - Regula po iteracji 3: IF maint = {low} AND persons = {more} AND safety = {high} THEN class = good, (p=8, n=40, P=69, N=1659)
+2025-03-04 14:20:31,789 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,791 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:31,796 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:31,796 - INFO - Regula po iteracji 0: IF  THEN class = good, (p=69, n=1659, P=69, N=1659)
+2025-03-04 14:20:31,796 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:31,919 - INFO - ************************Finished experiment for car.arff with algorithm3************************
+2025-03-04 14:20:31,919 - INFO - *************************************************************************************************************************
+2025-03-04 14:20:31,919 - INFO - *************************************************************************************************************************
+2025-03-04 14:20:31,919 - INFO - *************************************************************************************************************************

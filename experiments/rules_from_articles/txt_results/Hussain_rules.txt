@@ -1,0 +1,16 @@
+CR: IF stalk-root = {?} THEN class = p (p=1760, n=720, P=3916, N=4208), GACE: 0.051, RI: 3.818, RES: 0.641
+RR: IF bruises = {f} AND gill-size = {b} AND stalk-shape = {e} AND veil-type = {p} THEN class = e (p=496, n=1332, P=4208, N=3916) 
+ER: IF stalk-root = {?} AND bruises = {f} AND gill-size = {b} AND stalk-shape = {e} AND veil-type = {p} THEN class = e (p=480, n=0, P=4208, N=3916) 
+
+CR: IF ring-type = {e} THEN class = p (p=1768, n=1008, P=3916, N=4208), GACE: 0.0, RI: 0.0, RES: 0.226
+RR: IF bruises = {f} AND gill-size = {b} AND ring-number = {t} THEN class = e (p=304, n=0, P=4208, N=3916) 
+ER: IF ring-type = {e} AND bruises = {f} AND gill-size = {b} AND ring-number = {t} THEN class = e (p=0, n=0, P=4208, N=3916) 
+
+CR: IF gill-color = {p} AND veil-type = {p} AND veil-color = {w} THEN class = p (p=640, n=852, P=3916, N=4208), GACE: 0.004, RI: 2.589, RES: 0.363
+RR: IF stalk-root = {?} THEN class = e (p=720, n=1760, P=4208, N=3916) 
+ER: IF gill-color = {p} AND veil-type = {p} AND veil-color = {w} AND stalk-root = {?} THEN class = e (p=108, n=0, P=4208, N=3916) 
+
+CR: IF gill-attachment = {f} AND stalk-shape = {e} AND veil-type = {p} THEN class = p (p=1882, n=1424, P=3916, N=4208), GACE: 0.007, RI: 1.353, RES: 0.498
+RR: IF cap-surface = {s} AND veil-color = {w} THEN class = e (p=952, n=1412, P=4208, N=3916) 
+ER: IF gill-attachment = {f} AND stalk-shape = {e} AND veil-type = {p} AND cap-surface = {s} AND veil-color = {w} THEN class = e (p=520, n=260, P=4208, N=3916) 
+

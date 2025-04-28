@@ -1,0 +1,1804 @@
+2025-03-05 17:05:05,829 - INFO - **********Starting experiment for ozone.arff with algorithm3**********
+2025-03-05 17:05:05,833 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:05:05,937 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 53.50, quality_best: 0.566, coverage_best: (p=88, n=14, P=161, N=169)
+2025-03-05 17:05:05,937 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 53.50 THEN class = {5.62} [1.99, 9.25], (p=88, n=14, P=161, N=169)
+2025-03-05 17:05:05,937 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:07,990 - INFO - Iteracja 0: condition_best: HMDTY <= 20.00, quality_best: 0.432, coverage_best: (p=28, n=8, P=102, N=228), p_value: 0.996
+2025-03-05 17:05:07,991 - INFO - Regula po iteracji 0: IF HMDTY <= 20.00 THEN class = {11.78} [3.78, 19.77], (p=28, n=8, P=102, N=228)
+2025-03-05 17:05:08,370 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.996
+2025-03-05 17:05:08,370 - INFO - Regula po iteracji 1: IF HMDTY <= 20.00 THEN class = {4.72} [2.67, 6.77], (p=28, n=8, P=102, N=228)
+2025-03-05 17:05:08,370 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:08,370 - INFO - ***RR FOUND***
+2025-03-05 17:05:08,370 - INFO - Reference rule: IF HMDTY <= 20.00 THEN class = {4.72} [2.67, 6.77]
+2025-03-05 17:05:08,370 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:05:08,372 - INFO - CR vs RR p_value: 0.38990954127738975
+2025-03-05 17:05:08,372 - INFO - ER vs CR p_value: 0.006813385881557128
+2025-03-05 17:05:08,372 - INFO - ER vs RR p_value: 0.02521407638207152
+2025-03-05 17:05:08,373 - INFO - ***ER FOUND***
+2025-03-05 17:05:08,373 - INFO - Exception rule: IF SDAFBTMP <= 53.50 AND HMDTY <= 20.00 THEN class = {3.53} [2.71, 4.35] (p=15, n=4, P=56, N=274)
+2025-03-05 17:05:08,373 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:05:08,375 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:05:08,453 - INFO - Iteracja 0: condition_best: HMDTY <= 27.50, quality_best: 0.541, coverage_best: (p=43, n=6, P=124, N=206)
+2025-03-05 17:05:08,453 - INFO - Regula po iteracji 0: IF HMDTY <= 27.50 THEN class = {4.88} [2.70, 7.06], (p=43, n=6, P=124, N=206)
+2025-03-05 17:05:08,454 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:10,414 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:10,414 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:10,414 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:10,414 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:10,429 - INFO - Iteracja 1: condition_best: VDB500HT >= 5,740.00, quality_best: 0.564, coverage_best: (p=31, n=2, P=124, N=206)
+2025-03-05 17:05:10,429 - INFO - Regula po iteracji 1: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 THEN class = {4.88} [2.74, 7.02], (p=31, n=2, P=124, N=206)
+2025-03-05 17:05:10,429 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:12,374 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:12,374 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:12,374 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:12,374 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:12,386 - INFO - Iteracja 2: condition_best: SDAFBTMP <= 60.50, quality_best: 0.566, coverage_best: (p=22, n=2, P=81, N=249)
+2025-03-05 17:05:12,386 - INFO - Regula po iteracji 2: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND SDAFBTMP <= 60.50 THEN class = {3.96} [2.90, 5.02], (p=22, n=2, P=81, N=249)
+2025-03-05 17:05:12,386 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:14,307 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:14,307 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:14,307 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:14,308 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:14,316 - INFO - Iteracja 3: condition_best: VDB500HT <= 5,865.00, quality_best: 0.557, coverage_best: (p=21, n=2, P=81, N=249)
+2025-03-05 17:05:14,317 - INFO - Regula po iteracji 3: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND SDAFBTMP <= 60.50 AND VDB500HT <= 5,865.00 THEN class = {4.00} [2.94, 5.06], (p=21, n=2, P=81, N=249)
+2025-03-05 17:05:14,317 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:16,237 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:16,237 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:16,237 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:16,237 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:16,245 - INFO - Iteracja 4: condition_best: VDB500HT <= 5,845.00, quality_best: 0.548, coverage_best: (p=20, n=2, P=81, N=249)
+2025-03-05 17:05:16,245 - INFO - Regula po iteracji 4: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND SDAFBTMP <= 60.50 AND VDB500HT <= 5,865.00 AND VDB500HT <= 5,845.00 THEN class = {4.00} [2.91, 5.09], (p=20, n=2, P=81, N=249)
+2025-03-05 17:05:16,246 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:18,163 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:18,163 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:18,163 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:18,163 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:18,163 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:05:18,166 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:05:18,244 - INFO - Iteracja 0: condition_best: HMDTY <= 27.50, quality_best: 0.541, coverage_best: (p=43, n=6, P=124, N=206)
+2025-03-05 17:05:18,244 - INFO - Regula po iteracji 0: IF HMDTY <= 27.50 THEN class = {4.88} [2.70, 7.06], (p=43, n=6, P=124, N=206)
+2025-03-05 17:05:18,244 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:20,201 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:20,201 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:20,201 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:20,201 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:20,215 - INFO - Iteracja 1: condition_best: VDB500HT >= 5,740.00, quality_best: 0.564, coverage_best: (p=31, n=2, P=124, N=206)
+2025-03-05 17:05:20,215 - INFO - Regula po iteracji 1: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 THEN class = {4.88} [2.74, 7.02], (p=31, n=2, P=124, N=206)
+2025-03-05 17:05:20,216 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:22,151 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:22,151 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:22,151 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:22,151 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:22,162 - INFO - Iteracja 2: condition_best: VDB500HT <= 5,910.00, quality_best: 0.559, coverage_best: (p=30, n=2, P=124, N=206)
+2025-03-05 17:05:22,162 - INFO - Regula po iteracji 2: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND VDB500HT <= 5,910.00 THEN class = {4.84} [2.68, 7.01], (p=30, n=2, P=124, N=206)
+2025-03-05 17:05:22,162 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:24,094 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:24,094 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:24,095 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:24,095 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:24,106 - INFO - Iteracja 3: condition_best: WDSP <= 7.50, quality_best: 0.553, coverage_best: (p=29, n=2, P=124, N=206)
+2025-03-05 17:05:24,106 - INFO - Regula po iteracji 3: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND VDB500HT <= 5,910.00 AND WDSP <= 7.50 THEN class = {4.87} [2.68, 7.07], (p=29, n=2, P=124, N=206)
+2025-03-05 17:05:24,106 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:26,037 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:26,037 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:26,038 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:26,038 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:26,048 - INFO - Iteracja 4: condition_best: WDSP <= 6.50, quality_best: 0.547, coverage_best: (p=28, n=2, P=124, N=206)
+2025-03-05 17:05:26,048 - INFO - Regula po iteracji 4: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND VDB500HT <= 5,910.00 AND WDSP <= 7.50 AND WDSP <= 6.50 THEN class = {4.87} [2.63, 7.10], (p=28, n=2, P=124, N=206)
+2025-03-05 17:05:26,049 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:27,977 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:27,977 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:27,977 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:27,977 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:27,977 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:05:27,980 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:05:28,058 - INFO - Iteracja 0: condition_best: HMDTY <= 27.50, quality_best: 0.541, coverage_best: (p=43, n=6, P=124, N=206)
+2025-03-05 17:05:28,058 - INFO - Regula po iteracji 0: IF HMDTY <= 27.50 THEN class = {4.88} [2.70, 7.06], (p=43, n=6, P=124, N=206)
+2025-03-05 17:05:28,058 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:30,020 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:30,020 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:30,020 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:30,020 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:30,034 - INFO - Iteracja 1: condition_best: SDAFBTMP <= 60.50, quality_best: 0.55, coverage_best: (p=35, n=5, P=102, N=228)
+2025-03-05 17:05:30,034 - INFO - Regula po iteracji 1: IF HMDTY <= 27.50 AND SDAFBTMP <= 60.50 THEN class = {4.33} [2.62, 6.03], (p=35, n=5, P=102, N=228)
+2025-03-05 17:05:30,035 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:31,979 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:31,979 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:31,979 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:31,979 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:31,992 - INFO - Iteracja 2: condition_best: VZBLTY >= 85.00, quality_best: 0.544, coverage_best: (p=31, n=4, P=102, N=228)
+2025-03-05 17:05:31,992 - INFO - Regula po iteracji 2: IF HMDTY <= 27.50 AND SDAFBTMP <= 60.50 AND VZBLTY >= 85.00 THEN class = {4.34} [2.60, 6.08], (p=31, n=4, P=102, N=228)
+2025-03-05 17:05:31,992 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:33,935 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:33,935 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:33,935 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:33,935 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:33,947 - INFO - Iteracja 3: condition_best: SDAFBTMP <= 59.50, quality_best: 0.562, coverage_best: (p=30, n=3, P=102, N=228)
+2025-03-05 17:05:33,947 - INFO - Regula po iteracji 3: IF HMDTY <= 27.50 AND SDAFBTMP <= 60.50 AND VZBLTY >= 85.00 AND SDAFBTMP <= 59.50 THEN class = {4.27} [2.54, 6.00], (p=30, n=3, P=102, N=228)
+2025-03-05 17:05:33,947 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:35,887 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:35,887 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:35,887 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:35,887 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:35,899 - INFO - Iteracja 4: condition_best: INVTMP >= 43.00, quality_best: 0.57, coverage_best: (p=26, n=3, P=81, N=249)
+2025-03-05 17:05:35,899 - INFO - Regula po iteracji 4: IF HMDTY <= 27.50 AND SDAFBTMP <= 60.50 AND VZBLTY >= 85.00 AND SDAFBTMP <= 59.50 AND INVTMP >= 43.00 THEN class = {4.24} [2.49, 6.00], (p=26, n=3, P=81, N=249)
+2025-03-05 17:05:35,899 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:37,831 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:37,831 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:37,831 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:37,831 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:37,831 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:05:37,836 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:05:37,914 - INFO - Iteracja 0: condition_best: DAGPG <= -17.50, quality_best: 0.53, coverage_best: (p=57, n=6, P=174, N=156)
+2025-03-05 17:05:37,914 - INFO - Regula po iteracji 0: IF DAGPG <= -17.50 THEN class = {5.95} [1.63, 10.27], (p=57, n=6, P=174, N=156)
+2025-03-05 17:05:37,914 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:39,898 - INFO - Iteracja 0: condition_best: INVTMP <= 51.50, quality_best: 0.475, coverage_best: (p=65, n=20, P=124, N=206), p_value: 0.828
+2025-03-05 17:05:39,898 - INFO - Regula po iteracji 0: IF INVTMP <= 51.50 THEN class = {11.78} [3.78, 19.77], (p=65, n=20, P=124, N=206)
+2025-03-05 17:05:40,628 - INFO - Iteracja 1: condition_best: VZBLTY >= 35.00, quality_best: 0.486, coverage_best: (p=65, n=19, P=124, N=206), p_value: 0.913
+2025-03-05 17:05:40,628 - INFO - Regula po iteracji 1: IF INVTMP <= 51.50 AND VZBLTY >= 35.00 THEN class = {4.99} [2.59, 7.38], (p=65, n=19, P=124, N=206)
+2025-03-05 17:05:41,351 - INFO - Iteracja 2: condition_best: VZBLTY <= 275.00, quality_best: 0.436, coverage_best: (p=51, n=16, P=124, N=206), p_value: 0.988
+2025-03-05 17:05:41,351 - INFO - Regula po iteracji 2: IF INVTMP <= 51.50 AND VZBLTY >= 35.00 AND VZBLTY <= 275.00 THEN class = {4.94} [2.57, 7.31], (p=51, n=16, P=124, N=206)
+2025-03-05 17:05:41,997 - INFO - Iteracja 3: condition_best: HMDTY <= 56.50, quality_best: 0.405, coverage_best: (p=21, n=5, P=124, N=206), p_value: 1.0
+2025-03-05 17:05:41,997 - INFO - Regula po iteracji 3: IF INVTMP <= 51.50 AND VZBLTY >= 35.00 AND VZBLTY <= 275.00 AND HMDTY <= 56.50 THEN class = {4.96} [2.47, 7.44], (p=21, n=5, P=124, N=206)
+2025-03-05 17:05:42,339 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2025-03-05 17:05:42,339 - INFO - Regula po iteracji 4: IF INVTMP <= 51.50 AND VZBLTY >= 35.00 AND VZBLTY <= 275.00 AND HMDTY <= 56.50 THEN class = {5.00} [2.68, 7.32], (p=21, n=5, P=124, N=206)
+2025-03-05 17:05:42,339 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:42,340 - INFO - ***RR FOUND***
+2025-03-05 17:05:42,340 - INFO - Reference rule: IF INVTMP <= 51.50 AND VZBLTY >= 35.00 THEN class = {5.00} [2.68, 7.32]
+2025-03-05 17:05:42,340 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:05:42,342 - INFO - CR vs RR p_value: 0.37851201253114797
+2025-03-05 17:05:42,342 - INFO - ER vs CR p_value: 0.009907455514571516
+2025-03-05 17:05:42,342 - INFO - ER vs RR p_value: 0.04814665610481173
+2025-03-05 17:05:42,343 - INFO - ***ER FOUND***
+2025-03-05 17:05:42,343 - INFO - Exception rule: IF DAGPG <= -17.50 AND INVTMP <= 51.50 AND VZBLTY >= 35.00 THEN class = {3.78} [2.60, 4.96] (p=13, n=5, P=56, N=274)
+2025-03-05 17:05:42,343 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:05:42,345 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:05:42,422 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:05:42,422 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:05:42,423 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:44,476 - INFO - Iteracja 0: condition_best: HMDTY <= 42.50, quality_best: 0.466, coverage_best: (p=57, n=12, P=152, N=178), p_value: 0.934
+2025-03-05 17:05:44,476 - INFO - Regula po iteracji 0: IF HMDTY <= 42.50 THEN class = {11.78} [3.78, 19.77], (p=57, n=12, P=152, N=178)
+2025-03-05 17:05:45,158 - INFO - Iteracja 1: condition_best: VDB500HT >= 5,625.00, quality_best: 0.449, coverage_best: (p=54, n=12, P=152, N=178), p_value: 0.987
+2025-03-05 17:05:45,158 - INFO - Regula po iteracji 1: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.06} [2.49, 9.62], (p=54, n=12, P=152, N=178)
+2025-03-05 17:05:45,806 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.987
+2025-03-05 17:05:45,806 - INFO - Regula po iteracji 2: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.08} [2.44, 9.71], (p=54, n=12, P=152, N=178)
+2025-03-05 17:05:45,806 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:45,806 - INFO - ***RR FOUND***
+2025-03-05 17:05:45,806 - INFO - Reference rule: IF HMDTY <= 42.50 THEN class = {6.08} [2.44, 9.71]
+2025-03-05 17:05:45,806 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:05:45,808 - INFO - CR vs RR p_value: 0.5662017037570245
+2025-03-05 17:05:45,808 - INFO - ER vs CR p_value: 0.012843780550995975
+2025-03-05 17:05:45,808 - INFO - ER vs RR p_value: 0.07113876641726874
+2025-03-05 17:05:45,808 - INFO - ***ER NOT FOUND***
+2025-03-05 17:05:45,850 - INFO - Iteracja 1: condition_best: HMDTY <= 60.50, quality_best: 0.579, coverage_best: (p=80, n=12, P=152, N=178)
+2025-03-05 17:05:45,850 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND HMDTY <= 60.50 THEN class = {6.00} [2.51, 9.49], (p=80, n=12, P=152, N=178)
+2025-03-05 17:05:45,851 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:47,876 - INFO - Iteracja 0: condition_best: HMDTY <= 41.50, quality_best: 0.455, coverage_best: (p=55, n=12, P=152, N=178), p_value: 0.605
+2025-03-05 17:05:47,876 - INFO - Regula po iteracji 0: IF HMDTY <= 41.50 THEN class = {11.78} [3.78, 19.77], (p=55, n=12, P=152, N=178)
+2025-03-05 17:05:48,534 - INFO - Iteracja 1: condition_best: VZBLTY >= 110.00, quality_best: 0.486, coverage_best: (p=45, n=7, P=152, N=178), p_value: 0.947
+2025-03-05 17:05:48,534 - INFO - Regula po iteracji 1: IF HMDTY <= 41.50 AND VZBLTY >= 110.00 THEN class = {6.00} [2.40, 9.60], (p=45, n=7, P=152, N=178)
+2025-03-05 17:05:49,112 - INFO - Iteracja 2: condition_best: INVTMP >= 44.50, quality_best: 0.451, coverage_best: (p=39, n=7, P=152, N=178), p_value: 0.998
+2025-03-05 17:05:49,112 - INFO - Regula po iteracji 2: IF HMDTY <= 41.50 AND VZBLTY >= 110.00 AND INVTMP >= 44.50 THEN class = {5.85} [2.20, 9.49], (p=39, n=7, P=152, N=178)
+2025-03-05 17:05:49,627 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.998
+2025-03-05 17:05:49,627 - INFO - Regula po iteracji 3: IF HMDTY <= 41.50 AND VZBLTY >= 110.00 AND INVTMP >= 44.50 THEN class = {5.93} [2.10, 9.77], (p=39, n=7, P=152, N=178)
+2025-03-05 17:05:49,627 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:49,628 - INFO - ***RR FOUND***
+2025-03-05 17:05:49,628 - INFO - Reference rule: IF HMDTY <= 41.50 AND VZBLTY >= 110.00 THEN class = {5.93} [2.10, 9.77]
+2025-03-05 17:05:49,628 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:05:49,630 - INFO - CR vs RR p_value: 0.5052553551416942
+2025-03-05 17:05:49,630 - INFO - ER vs CR p_value: 0.017842379235817194
+2025-03-05 17:05:49,630 - INFO - ER vs RR p_value: 0.10969752263422825
+2025-03-05 17:05:49,630 - INFO - ***ER NOT FOUND***
+2025-03-05 17:05:49,656 - INFO - Iteracja 2: condition_best: INVHT >= 368.50, quality_best: 0.607, coverage_best: (p=77, n=9, P=152, N=178)
+2025-03-05 17:05:49,656 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND HMDTY <= 60.50 AND INVHT >= 368.50 THEN class = {5.90} [2.60, 9.19], (p=77, n=9, P=152, N=178)
+2025-03-05 17:05:49,657 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:51,675 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:05:51,675 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:05:51,675 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:51,675 - INFO - ***RR NOT FOUND***
+2025-03-05 17:05:51,701 - INFO - Iteracja 3: condition_best: VDB500HT >= 5,380.00, quality_best: 0.603, coverage_best: (p=76, n=9, P=152, N=178)
+2025-03-05 17:05:51,701 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 61.50 AND HMDTY <= 60.50 AND INVHT >= 368.50 AND VDB500HT >= 5,380.00 THEN class = {5.93} [2.63, 9.23], (p=76, n=9, P=152, N=178)
+2025-03-05 17:05:51,701 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:53,714 - INFO - Iteracja 0: condition_best: HMDTY <= 41.50, quality_best: 0.455, coverage_best: (p=55, n=12, P=152, N=178), p_value: 0.698
+2025-03-05 17:05:53,714 - INFO - Regula po iteracji 0: IF HMDTY <= 41.50 THEN class = {11.78} [3.78, 19.77], (p=55, n=12, P=152, N=178)
+2025-03-05 17:05:54,368 - INFO - Iteracja 1: condition_best: DAGPG <= 13.00, quality_best: 0.459, coverage_best: (p=53, n=11, P=152, N=178), p_value: 0.845
+2025-03-05 17:05:54,368 - INFO - Regula po iteracji 1: IF HMDTY <= 41.50 AND DAGPG <= 13.00 THEN class = {6.00} [2.40, 9.60], (p=53, n=11, P=152, N=178)
+2025-03-05 17:05:54,987 - INFO - Iteracja 2: condition_best: VZBLTY >= 75.00, quality_best: 0.478, coverage_best: (p=47, n=8, P=152, N=178), p_value: 0.951
+2025-03-05 17:05:54,987 - INFO - Regula po iteracji 2: IF HMDTY <= 41.50 AND DAGPG <= 13.00 AND VZBLTY >= 75.00 THEN class = {5.81} [2.52, 9.10], (p=47, n=8, P=152, N=178)
+2025-03-05 17:05:55,557 - INFO - Iteracja 3: condition_best: VDB500HT >= 5,625.00, quality_best: 0.472, coverage_best: (p=46, n=8, P=152, N=178), p_value: 0.998
+2025-03-05 17:05:55,557 - INFO - Regula po iteracji 3: IF HMDTY <= 41.50 AND DAGPG <= 13.00 AND VZBLTY >= 75.00 AND VDB500HT >= 5,625.00 THEN class = {5.80} [2.47, 9.13], (p=46, n=8, P=152, N=178)
+2025-03-05 17:05:56,117 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.998
+2025-03-05 17:05:56,118 - INFO - Regula po iteracji 4: IF HMDTY <= 41.50 AND DAGPG <= 13.00 AND VZBLTY >= 75.00 AND VDB500HT >= 5,625.00 THEN class = {5.80} [2.43, 9.16], (p=46, n=8, P=152, N=178)
+2025-03-05 17:05:56,118 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:56,118 - INFO - ***RR FOUND***
+2025-03-05 17:05:56,118 - INFO - Reference rule: IF HMDTY <= 41.50 AND DAGPG <= 13.00 AND VZBLTY >= 75.00 THEN class = {5.80} [2.43, 9.16]
+2025-03-05 17:05:56,118 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:05:56,120 - INFO - CR vs RR p_value: 0.52185614736572
+2025-03-05 17:05:56,120 - INFO - ER vs CR p_value: 0.009312289634398965
+2025-03-05 17:05:56,120 - INFO - ER vs RR p_value: 0.07290856696602245
+2025-03-05 17:05:56,120 - INFO - ***ER NOT FOUND***
+2025-03-05 17:05:56,145 - INFO - Iteracja 4: condition_best: INVHT >= 605.00, quality_best: 0.607, coverage_best: (p=70, n=7, P=152, N=178)
+2025-03-05 17:05:56,145 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 61.50 AND HMDTY <= 60.50 AND INVHT >= 368.50 AND VDB500HT >= 5,380.00 AND INVHT >= 605.00 THEN class = {5.81} [2.60, 9.01], (p=70, n=7, P=152, N=178)
+2025-03-05 17:05:56,146 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:05:58,149 - INFO - Iteracja 0: condition_best: DAGPG <= -18.50, quality_best: 0.526, coverage_best: (p=56, n=6, P=174, N=156), p_value: 0.961
+2025-03-05 17:05:58,149 - INFO - Regula po iteracji 0: IF DAGPG <= -18.50 THEN class = {11.78} [3.78, 19.77], (p=56, n=6, P=174, N=156)
+2025-03-05 17:05:58,761 - INFO - Iteracja 1: condition_best: WDSP <= 9.50, quality_best: 0.521, coverage_best: (p=55, n=6, P=174, N=156), p_value: 0.998
+2025-03-05 17:05:58,761 - INFO - Regula po iteracji 1: IF DAGPG <= -18.50 AND WDSP <= 9.50 THEN class = {6.00} [1.66, 10.34], (p=55, n=6, P=174, N=156)
+2025-03-05 17:05:59,370 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.998
+2025-03-05 17:05:59,370 - INFO - Regula po iteracji 2: IF DAGPG <= -18.50 AND WDSP <= 9.50 THEN class = {6.03} [1.66, 10.40], (p=55, n=6, P=174, N=156)
+2025-03-05 17:05:59,370 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:05:59,370 - INFO - ***RR FOUND***
+2025-03-05 17:05:59,370 - INFO - Reference rule: IF DAGPG <= -18.50 THEN class = {6.03} [1.66, 10.40]
+2025-03-05 17:05:59,370 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:05:59,372 - INFO - CR vs RR p_value: 0.548962782503569
+2025-03-05 17:05:59,372 - INFO - ER vs CR p_value: 0.0034863743535427753
+2025-03-05 17:05:59,372 - INFO - ER vs RR p_value: 0.026807165201173266
+2025-03-05 17:05:59,373 - INFO - ***ER FOUND***
+2025-03-05 17:05:59,374 - INFO - Exception rule: IF SDAFBTMP <= 61.50 AND HMDTY <= 60.50 AND INVHT >= 368.50 AND VDB500HT >= 5,380.00 AND INVHT >= 605.00 AND DAGPG <= -18.50 THEN class = {4.21} [2.84, 5.57] (p=31, n=8, P=81, N=249)
+2025-03-05 17:05:59,374 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:05:59,379 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:05:59,456 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:05:59,456 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:05:59,456 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:01,513 - INFO - Iteracja 0: condition_best: HMDTY <= 42.50, quality_best: 0.466, coverage_best: (p=57, n=12, P=152, N=178), p_value: 0.934
+2025-03-05 17:06:01,513 - INFO - Regula po iteracji 0: IF HMDTY <= 42.50 THEN class = {11.78} [3.78, 19.77], (p=57, n=12, P=152, N=178)
+2025-03-05 17:06:02,195 - INFO - Iteracja 1: condition_best: VDB500HT >= 5,625.00, quality_best: 0.449, coverage_best: (p=54, n=12, P=152, N=178), p_value: 0.987
+2025-03-05 17:06:02,195 - INFO - Regula po iteracji 1: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.06} [2.49, 9.62], (p=54, n=12, P=152, N=178)
+2025-03-05 17:06:02,844 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.987
+2025-03-05 17:06:02,844 - INFO - Regula po iteracji 2: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.08} [2.44, 9.71], (p=54, n=12, P=152, N=178)
+2025-03-05 17:06:02,844 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:02,844 - INFO - ***RR FOUND***
+2025-03-05 17:06:02,844 - INFO - Reference rule: IF HMDTY <= 42.50 THEN class = {6.08} [2.44, 9.71]
+2025-03-05 17:06:02,844 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:02,846 - INFO - CR vs RR p_value: 0.5662017037570245
+2025-03-05 17:06:02,846 - INFO - ER vs CR p_value: 0.012843780550995975
+2025-03-05 17:06:02,846 - INFO - ER vs RR p_value: 0.07113876641726874
+2025-03-05 17:06:02,846 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:02,886 - INFO - Iteracja 1: condition_best: HMDTY <= 65.50, quality_best: 0.568, coverage_best: (p=94, n=18, P=152, N=178)
+2025-03-05 17:06:02,886 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND HMDTY <= 65.50 THEN class = {6.06} [2.61, 9.52], (p=94, n=18, P=152, N=178)
+2025-03-05 17:06:02,886 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:04,919 - INFO - Iteracja 0: condition_best: HMDTY <= 41.50, quality_best: 0.455, coverage_best: (p=55, n=12, P=152, N=178), p_value: 0.543
+2025-03-05 17:06:04,919 - INFO - Regula po iteracji 0: IF HMDTY <= 41.50 THEN class = {11.78} [3.78, 19.77], (p=55, n=12, P=152, N=178)
+2025-03-05 17:06:05,577 - INFO - Iteracja 1: condition_best: VZBLTY >= 110.00, quality_best: 0.486, coverage_best: (p=45, n=7, P=152, N=178), p_value: 0.889
+2025-03-05 17:06:05,577 - INFO - Regula po iteracji 1: IF HMDTY <= 41.50 AND VZBLTY >= 110.00 THEN class = {6.00} [2.40, 9.60], (p=45, n=7, P=152, N=178)
+2025-03-05 17:06:06,156 - INFO - Iteracja 2: condition_best: VZBLTY <= 275.00, quality_best: 0.435, coverage_best: (p=33, n=6, P=152, N=178), p_value: 0.99
+2025-03-05 17:06:06,157 - INFO - Regula po iteracji 2: IF HMDTY <= 41.50 AND VZBLTY >= 110.00 AND VZBLTY <= 275.00 THEN class = {5.85} [2.20, 9.49], (p=33, n=6, P=152, N=178)
+2025-03-05 17:06:06,634 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.99
+2025-03-05 17:06:06,634 - INFO - Regula po iteracji 3: IF HMDTY <= 41.50 AND VZBLTY >= 110.00 AND VZBLTY <= 275.00 THEN class = {6.00} [2.01, 9.99], (p=33, n=6, P=152, N=178)
+2025-03-05 17:06:06,634 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:06,634 - INFO - ***RR FOUND***
+2025-03-05 17:06:06,634 - INFO - Reference rule: IF HMDTY <= 41.50 AND VZBLTY >= 110.00 THEN class = {6.00} [2.01, 9.99]
+2025-03-05 17:06:06,634 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:06,636 - INFO - CR vs RR p_value: 0.4353941358172744
+2025-03-05 17:06:06,636 - INFO - ER vs CR p_value: 0.012577856357483002
+2025-03-05 17:06:06,636 - INFO - ER vs RR p_value: 0.10969752263422825
+2025-03-05 17:06:06,636 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:06,667 - INFO - Iteracja 2: condition_best: INVHT >= 593.50, quality_best: 0.601, coverage_best: (p=85, n=12, P=152, N=178)
+2025-03-05 17:06:06,667 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND HMDTY <= 65.50 AND INVHT >= 593.50 THEN class = {5.81} [2.62, 9.01], (p=85, n=12, P=152, N=178)
+2025-03-05 17:06:06,667 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:08,684 - INFO - Iteracja 0: condition_best: DAGPG <= -19.50, quality_best: 0.512, coverage_best: (p=53, n=6, P=174, N=156), p_value: 0.959
+2025-03-05 17:06:08,684 - INFO - Regula po iteracji 0: IF DAGPG <= -19.50 THEN class = {11.78} [3.78, 19.77], (p=53, n=6, P=174, N=156)
+2025-03-05 17:06:09,292 - INFO - Iteracja 1: condition_best: INVHT >= 211.00, quality_best: 0.507, coverage_best: (p=52, n=6, P=174, N=156), p_value: 0.973
+2025-03-05 17:06:09,293 - INFO - Regula po iteracji 1: IF DAGPG <= -19.50 AND INVHT >= 211.00 THEN class = {6.02} [1.58, 10.46], (p=52, n=6, P=174, N=156)
+2025-03-05 17:06:09,907 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.973
+2025-03-05 17:06:09,907 - INFO - Regula po iteracji 2: IF DAGPG <= -19.50 AND INVHT >= 211.00 THEN class = {6.03} [1.56, 10.51], (p=52, n=6, P=174, N=156)
+2025-03-05 17:06:09,907 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:09,907 - INFO - ***RR FOUND***
+2025-03-05 17:06:09,907 - INFO - Reference rule: IF DAGPG <= -19.50 THEN class = {6.03} [1.56, 10.51]
+2025-03-05 17:06:09,907 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:09,909 - INFO - CR vs RR p_value: 0.5145222518245758
+2025-03-05 17:06:09,910 - INFO - ER vs CR p_value: 0.00226760346477179
+2025-03-05 17:06:09,910 - INFO - ER vs RR p_value: 0.026941640228632508
+2025-03-05 17:06:09,911 - INFO - ***ER FOUND***
+2025-03-05 17:06:09,911 - INFO - Exception rule: IF SDAFBTMP <= 61.50 AND HMDTY <= 65.50 AND INVHT >= 593.50 AND DAGPG <= -19.50 THEN class = {4.14} [2.82, 5.45] (p=30, n=7, P=81, N=249)
+2025-03-05 17:06:09,911 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:06:09,914 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:06:09,991 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:06:09,991 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:06:09,991 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:12,093 - INFO - Iteracja 0: condition_best: HMDTY <= 42.50, quality_best: 0.466, coverage_best: (p=57, n=12, P=152, N=178), p_value: 0.934
+2025-03-05 17:06:12,093 - INFO - Regula po iteracji 0: IF HMDTY <= 42.50 THEN class = {11.78} [3.78, 19.77], (p=57, n=12, P=152, N=178)
+2025-03-05 17:06:12,786 - INFO - Iteracja 1: condition_best: VDB500HT >= 5,625.00, quality_best: 0.449, coverage_best: (p=54, n=12, P=152, N=178), p_value: 0.987
+2025-03-05 17:06:12,786 - INFO - Regula po iteracji 1: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.06} [2.49, 9.62], (p=54, n=12, P=152, N=178)
+2025-03-05 17:06:13,440 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.987
+2025-03-05 17:06:13,441 - INFO - Regula po iteracji 2: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.08} [2.44, 9.71], (p=54, n=12, P=152, N=178)
+2025-03-05 17:06:13,441 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:13,441 - INFO - ***RR FOUND***
+2025-03-05 17:06:13,441 - INFO - Reference rule: IF HMDTY <= 42.50 THEN class = {6.08} [2.44, 9.71]
+2025-03-05 17:06:13,441 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:13,443 - INFO - CR vs RR p_value: 0.5662017037570245
+2025-03-05 17:06:13,443 - INFO - ER vs CR p_value: 0.012843780550995975
+2025-03-05 17:06:13,443 - INFO - ER vs RR p_value: 0.07113876641726874
+2025-03-05 17:06:13,443 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:13,484 - INFO - Iteracja 1: condition_best: HMDTY <= 71.50, quality_best: 0.568, coverage_best: (p=113, n=22, P=165, N=165)
+2025-03-05 17:06:13,484 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND HMDTY <= 71.50 THEN class = {6.46} [2.90, 10.01], (p=113, n=22, P=165, N=165)
+2025-03-05 17:06:13,484 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:15,538 - INFO - Iteracja 0: condition_best: HMDTY <= 43.50, quality_best: 0.456, coverage_best: (p=58, n=13, P=152, N=178), p_value: 0.999
+2025-03-05 17:06:15,539 - INFO - Regula po iteracji 0: IF HMDTY <= 43.50 THEN class = {11.78} [3.78, 19.77], (p=58, n=13, P=152, N=178)
+2025-03-05 17:06:16,241 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.999
+2025-03-05 17:06:16,242 - INFO - Regula po iteracji 1: IF HMDTY <= 43.50 THEN class = {6.13} [2.51, 9.75], (p=58, n=13, P=152, N=178)
+2025-03-05 17:06:16,242 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:16,242 - INFO - ***RR FOUND***
+2025-03-05 17:06:16,242 - INFO - Reference rule: IF HMDTY <= 43.50 THEN class = {6.13} [2.51, 9.75]
+2025-03-05 17:06:16,242 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:16,244 - INFO - CR vs RR p_value: 0.3084123032534476
+2025-03-05 17:06:16,244 - INFO - ER vs CR p_value: 0.0018406287426410506
+2025-03-05 17:06:16,244 - INFO - ER vs RR p_value: 0.05478735674100386
+2025-03-05 17:06:16,244 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:16,279 - INFO - Iteracja 2: condition_best: INVHT >= 347.00, quality_best: 0.573, coverage_best: (p=109, n=20, P=165, N=165)
+2025-03-05 17:06:16,279 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND HMDTY <= 71.50 AND INVHT >= 347.00 THEN class = {6.47} [2.91, 10.03], (p=109, n=20, P=165, N=165)
+2025-03-05 17:06:16,279 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:18,303 - INFO - Iteracja 0: condition_best: HMDTY <= 43.50, quality_best: 0.456, coverage_best: (p=58, n=13, P=152, N=178), p_value: 0.988
+2025-03-05 17:06:18,303 - INFO - Regula po iteracji 0: IF HMDTY <= 43.50 THEN class = {11.78} [3.78, 19.77], (p=58, n=13, P=152, N=178)
+2025-03-05 17:06:19,001 - INFO - Iteracja 1: condition_best: DAGPG <= 26.00, quality_best: 0.445, coverage_best: (p=56, n=13, P=152, N=178), p_value: 1.0
+2025-03-05 17:06:19,002 - INFO - Regula po iteracji 1: IF HMDTY <= 43.50 AND DAGPG <= 26.00 THEN class = {6.13} [2.51, 9.75], (p=56, n=13, P=152, N=178)
+2025-03-05 17:06:19,681 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2025-03-05 17:06:19,681 - INFO - Regula po iteracji 2: IF HMDTY <= 43.50 AND DAGPG <= 26.00 THEN class = {6.14} [2.48, 9.81], (p=56, n=13, P=152, N=178)
+2025-03-05 17:06:19,681 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:19,681 - INFO - ***RR FOUND***
+2025-03-05 17:06:19,681 - INFO - Reference rule: IF HMDTY <= 43.50 THEN class = {6.14} [2.48, 9.81]
+2025-03-05 17:06:19,681 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:19,683 - INFO - CR vs RR p_value: 0.29135850216695414
+2025-03-05 17:06:19,683 - INFO - ER vs CR p_value: 0.001145680274363037
+2025-03-05 17:06:19,683 - INFO - ER vs RR p_value: 0.04284438900727027
+2025-03-05 17:06:19,685 - INFO - ***ER FOUND***
+2025-03-05 17:06:19,685 - INFO - Exception rule: IF SDAFBTMP <= 61.50 AND HMDTY <= 71.50 AND INVHT >= 347.00 AND HMDTY <= 43.50 THEN class = {4.69} [2.70, 6.69] (p=40, n=9, P=102, N=228)
+2025-03-05 17:06:19,685 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:06:19,687 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:06:19,764 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:06:19,764 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:06:19,764 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:21,826 - INFO - Iteracja 0: condition_best: HMDTY <= 42.50, quality_best: 0.466, coverage_best: (p=57, n=12, P=152, N=178), p_value: 0.934
+2025-03-05 17:06:21,826 - INFO - Regula po iteracji 0: IF HMDTY <= 42.50 THEN class = {11.78} [3.78, 19.77], (p=57, n=12, P=152, N=178)
+2025-03-05 17:06:22,504 - INFO - Iteracja 1: condition_best: VDB500HT >= 5,625.00, quality_best: 0.449, coverage_best: (p=54, n=12, P=152, N=178), p_value: 0.987
+2025-03-05 17:06:22,505 - INFO - Regula po iteracji 1: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.06} [2.49, 9.62], (p=54, n=12, P=152, N=178)
+2025-03-05 17:06:23,150 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.987
+2025-03-05 17:06:23,150 - INFO - Regula po iteracji 2: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.08} [2.44, 9.71], (p=54, n=12, P=152, N=178)
+2025-03-05 17:06:23,150 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:23,150 - INFO - ***RR FOUND***
+2025-03-05 17:06:23,150 - INFO - Reference rule: IF HMDTY <= 42.50 THEN class = {6.08} [2.44, 9.71]
+2025-03-05 17:06:23,150 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:23,152 - INFO - CR vs RR p_value: 0.5662017037570245
+2025-03-05 17:06:23,152 - INFO - ER vs CR p_value: 0.012843780550995975
+2025-03-05 17:06:23,152 - INFO - ER vs RR p_value: 0.07113876641726874
+2025-03-05 17:06:23,152 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:23,192 - INFO - Iteracja 1: condition_best: HMDTY <= 75.50, quality_best: 0.564, coverage_best: (p=122, n=26, P=165, N=165)
+2025-03-05 17:06:23,192 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND HMDTY <= 75.50 THEN class = {6.41} [2.71, 10.12], (p=122, n=26, P=165, N=165)
+2025-03-05 17:06:23,192 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:25,232 - INFO - Iteracja 0: condition_best: DAGPG <= -14.50, quality_best: 0.519, coverage_best: (p=63, n=8, P=174, N=156), p_value: 0.944
+2025-03-05 17:06:25,232 - INFO - Regula po iteracji 0: IF DAGPG <= -14.50 THEN class = {11.78} [3.78, 19.77], (p=63, n=8, P=174, N=156)
+2025-03-05 17:06:25,930 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.944
+2025-03-05 17:06:25,930 - INFO - Regula po iteracji 1: IF DAGPG <= -14.50 THEN class = {6.20} [1.99, 10.41], (p=63, n=8, P=174, N=156)
+2025-03-05 17:06:25,930 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:25,930 - INFO - ***RR FOUND***
+2025-03-05 17:06:25,930 - INFO - Reference rule: IF DAGPG <= -14.50 THEN class = {6.20} [1.99, 10.41]
+2025-03-05 17:06:25,930 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:25,932 - INFO - CR vs RR p_value: 0.3786011348624946
+2025-03-05 17:06:25,932 - INFO - ER vs CR p_value: 0.003827061861145023
+2025-03-05 17:06:25,932 - INFO - ER vs RR p_value: 0.0541855325136871
+2025-03-05 17:06:25,932 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:25,969 - INFO - Iteracja 2: condition_best: VZBLTY >= 45.00, quality_best: 0.576, coverage_best: (p=110, n=24, P=152, N=178)
+2025-03-05 17:06:25,969 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND HMDTY <= 75.50 AND VZBLTY >= 45.00 THEN class = {5.99} [2.73, 9.25], (p=110, n=24, P=152, N=178)
+2025-03-05 17:06:25,969 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:28,006 - INFO - Iteracja 0: condition_best: HMDTY <= 38.50, quality_best: 0.475, coverage_best: (p=52, n=12, P=134, N=196), p_value: 1.0
+2025-03-05 17:06:28,006 - INFO - Regula po iteracji 0: IF HMDTY <= 38.50 THEN class = {11.78} [3.78, 19.77], (p=52, n=12, P=134, N=196)
+2025-03-05 17:06:28,625 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2025-03-05 17:06:28,625 - INFO - Regula po iteracji 1: IF HMDTY <= 38.50 THEN class = {5.70} [2.50, 8.91], (p=52, n=12, P=134, N=196)
+2025-03-05 17:06:28,625 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:28,625 - INFO - ***RR FOUND***
+2025-03-05 17:06:28,625 - INFO - Reference rule: IF HMDTY <= 38.50 THEN class = {5.70} [2.50, 8.91]
+2025-03-05 17:06:28,625 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:28,627 - INFO - CR vs RR p_value: 0.4190481395401514
+2025-03-05 17:06:28,627 - INFO - ER vs CR p_value: 0.008433636939619335
+2025-03-05 17:06:28,627 - INFO - ER vs RR p_value: 0.07553981250184556
+2025-03-05 17:06:28,627 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:28,661 - INFO - Iteracja 3: condition_best: VZBLTY <= 325.00, quality_best: 0.581, coverage_best: (p=109, n=23, P=152, N=178)
+2025-03-05 17:06:28,661 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 61.50 AND HMDTY <= 75.50 AND VZBLTY >= 45.00 AND VZBLTY <= 325.00 THEN class = {6.05} [2.79, 9.30], (p=109, n=23, P=152, N=178)
+2025-03-05 17:06:28,661 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:30,693 - INFO - Iteracja 0: condition_best: DAGPG <= -16.50, quality_best: 0.515, coverage_best: (p=58, n=7, P=174, N=156), p_value: 0.95
+2025-03-05 17:06:30,693 - INFO - Regula po iteracji 0: IF DAGPG <= -16.50 THEN class = {11.78} [3.78, 19.77], (p=58, n=7, P=174, N=156)
+2025-03-05 17:06:31,347 - INFO - Iteracja 1: condition_best: WDSP <= 9.50, quality_best: 0.51, coverage_best: (p=57, n=7, P=174, N=156), p_value: 0.992
+2025-03-05 17:06:31,348 - INFO - Regula po iteracji 1: IF DAGPG <= -16.50 AND WDSP <= 9.50 THEN class = {6.06} [1.74, 10.38], (p=57, n=7, P=174, N=156)
+2025-03-05 17:06:31,998 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.992
+2025-03-05 17:06:31,998 - INFO - Regula po iteracji 2: IF DAGPG <= -16.50 AND WDSP <= 9.50 THEN class = {6.09} [1.75, 10.44], (p=57, n=7, P=174, N=156)
+2025-03-05 17:06:31,999 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:31,999 - INFO - ***RR FOUND***
+2025-03-05 17:06:31,999 - INFO - Reference rule: IF DAGPG <= -16.50 THEN class = {6.09} [1.75, 10.44]
+2025-03-05 17:06:31,999 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:32,001 - INFO - CR vs RR p_value: 0.35833424323815743
+2025-03-05 17:06:32,001 - INFO - ER vs CR p_value: 0.0026116466645361644
+2025-03-05 17:06:32,001 - INFO - ER vs RR p_value: 0.05026670616992582
+2025-03-05 17:06:32,001 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:32,035 - INFO - Iteracja 4: condition_best: INVHT >= 211.00, quality_best: 0.583, coverage_best: (p=107, n=22, P=152, N=178)
+2025-03-05 17:06:32,035 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 61.50 AND HMDTY <= 75.50 AND VZBLTY >= 45.00 AND VZBLTY <= 325.00 AND INVHT >= 211.00 THEN class = {6.05} [2.79, 9.32], (p=107, n=22, P=152, N=178)
+2025-03-05 17:06:32,035 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:34,069 - INFO - Iteracja 0: condition_best: HMDTY <= 38.50, quality_best: 0.475, coverage_best: (p=52, n=12, P=134, N=196), p_value: 0.974
+2025-03-05 17:06:34,069 - INFO - Regula po iteracji 0: IF HMDTY <= 38.50 THEN class = {11.78} [3.78, 19.77], (p=52, n=12, P=134, N=196)
+2025-03-05 17:06:34,690 - INFO - Iteracja 1: condition_best: DAGPG <= 17.50, quality_best: 0.463, coverage_best: (p=50, n=12, P=134, N=196), p_value: 0.987
+2025-03-05 17:06:34,690 - INFO - Regula po iteracji 1: IF HMDTY <= 38.50 AND DAGPG <= 17.50 THEN class = {5.70} [2.50, 8.91], (p=50, n=12, P=134, N=196)
+2025-03-05 17:06:35,288 - INFO - Iteracja 2: condition_best: DAGPG >= -66.50, quality_best: 0.459, coverage_best: (p=50, n=10, P=152, N=178), p_value: 0.993
+2025-03-05 17:06:35,288 - INFO - Regula po iteracji 2: IF HMDTY <= 38.50 AND DAGPG <= 17.50 AND DAGPG >= -66.50 THEN class = {5.71} [2.46, 8.95], (p=50, n=10, P=152, N=178)
+2025-03-05 17:06:35,877 - INFO - Iteracja 3: condition_best: INVHT >= 211.00, quality_best: 0.453, coverage_best: (p=49, n=10, P=152, N=178), p_value: 1.0
+2025-03-05 17:06:35,877 - INFO - Regula po iteracji 3: IF HMDTY <= 38.50 AND DAGPG <= 17.50 AND DAGPG >= -66.50 AND INVHT >= 211.00 THEN class = {5.73} [2.46, 9.01], (p=49, n=10, P=152, N=178)
+2025-03-05 17:06:36,462 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2025-03-05 17:06:36,462 - INFO - Regula po iteracji 4: IF HMDTY <= 38.50 AND DAGPG <= 17.50 AND DAGPG >= -66.50 AND INVHT >= 211.00 THEN class = {5.75} [2.44, 9.05], (p=49, n=10, P=152, N=178)
+2025-03-05 17:06:36,462 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:36,462 - INFO - ***RR FOUND***
+2025-03-05 17:06:36,462 - INFO - Reference rule: IF HMDTY <= 38.50 THEN class = {5.75} [2.44, 9.05]
+2025-03-05 17:06:36,462 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:36,464 - INFO - CR vs RR p_value: 0.3272162389583023
+2025-03-05 17:06:36,464 - INFO - ER vs CR p_value: 0.004955978423750471
+2025-03-05 17:06:36,464 - INFO - ER vs RR p_value: 0.07553981250184556
+2025-03-05 17:06:36,464 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:36,464 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:06:36,468 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:06:36,544 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:06:36,545 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:06:36,545 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:38,599 - INFO - Iteracja 0: condition_best: HMDTY <= 42.50, quality_best: 0.466, coverage_best: (p=57, n=12, P=152, N=178), p_value: 0.934
+2025-03-05 17:06:38,599 - INFO - Regula po iteracji 0: IF HMDTY <= 42.50 THEN class = {11.78} [3.78, 19.77], (p=57, n=12, P=152, N=178)
+2025-03-05 17:06:39,278 - INFO - Iteracja 1: condition_best: VDB500HT >= 5,625.00, quality_best: 0.449, coverage_best: (p=54, n=12, P=152, N=178), p_value: 0.987
+2025-03-05 17:06:39,279 - INFO - Regula po iteracji 1: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.06} [2.49, 9.62], (p=54, n=12, P=152, N=178)
+2025-03-05 17:06:39,926 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.987
+2025-03-05 17:06:39,926 - INFO - Regula po iteracji 2: IF HMDTY <= 42.50 AND VDB500HT >= 5,625.00 THEN class = {6.08} [2.44, 9.71], (p=54, n=12, P=152, N=178)
+2025-03-05 17:06:39,926 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:39,926 - INFO - ***RR FOUND***
+2025-03-05 17:06:39,927 - INFO - Reference rule: IF HMDTY <= 42.50 THEN class = {6.08} [2.44, 9.71]
+2025-03-05 17:06:39,927 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:39,928 - INFO - CR vs RR p_value: 0.5662017037570245
+2025-03-05 17:06:39,929 - INFO - ER vs CR p_value: 0.012843780550995975
+2025-03-05 17:06:39,929 - INFO - ER vs RR p_value: 0.07113876641726874
+2025-03-05 17:06:39,929 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:39,968 - INFO - Iteracja 1: condition_best: DAGPG <= 64.00, quality_best: 0.559, coverage_best: (p=123, n=27, P=165, N=165)
+2025-03-05 17:06:39,968 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND DAGPG <= 64.00 THEN class = {6.47} [2.71, 10.22], (p=123, n=27, P=165, N=165)
+2025-03-05 17:06:39,968 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:42,009 - INFO - Iteracja 0: condition_best: HMDTY <= 41.50, quality_best: 0.455, coverage_best: (p=55, n=12, P=152, N=178), p_value: 0.949
+2025-03-05 17:06:42,009 - INFO - Regula po iteracji 0: IF HMDTY <= 41.50 THEN class = {11.78} [3.78, 19.77], (p=55, n=12, P=152, N=178)
+2025-03-05 17:06:42,669 - INFO - Iteracja 1: condition_best: VZBLTY <= 275.00, quality_best: 0.399, coverage_best: (p=43, n=11, P=152, N=178), p_value: 0.999
+2025-03-05 17:06:42,669 - INFO - Regula po iteracji 1: IF HMDTY <= 41.50 AND VZBLTY <= 275.00 THEN class = {6.00} [2.40, 9.60], (p=43, n=11, P=152, N=178)
+2025-03-05 17:06:43,242 - INFO - Iteracja 2: condition_best: INVHT >= 211.00, quality_best: 0.418, coverage_best: (p=44, n=9, P=165, N=165), p_value: 1.0
+2025-03-05 17:06:43,243 - INFO - Regula po iteracji 2: IF HMDTY <= 41.50 AND VZBLTY <= 275.00 AND INVHT >= 211.00 THEN class = {6.15} [2.31, 9.98], (p=44, n=9, P=165, N=165)
+2025-03-05 17:06:43,813 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2025-03-05 17:06:43,813 - INFO - Regula po iteracji 3: IF HMDTY <= 41.50 AND VZBLTY <= 275.00 AND INVHT >= 211.00 THEN class = {6.17} [2.30, 10.04], (p=44, n=9, P=165, N=165)
+2025-03-05 17:06:43,813 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:43,813 - INFO - ***RR FOUND***
+2025-03-05 17:06:43,813 - INFO - Reference rule: IF HMDTY <= 41.50 THEN class = {6.17} [2.30, 10.04]
+2025-03-05 17:06:43,813 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:43,815 - INFO - CR vs RR p_value: 0.29492313361148903
+2025-03-05 17:06:43,816 - INFO - ER vs CR p_value: 0.003837282719680536
+2025-03-05 17:06:43,816 - INFO - ER vs RR p_value: 0.08127986000767497
+2025-03-05 17:06:43,816 - INFO - ***ER NOT FOUND***
+2025-03-05 17:06:43,853 - INFO - Iteracja 2: condition_best: INVHT >= 368.50, quality_best: 0.572, coverage_best: (p=119, n=24, P=165, N=165)
+2025-03-05 17:06:43,853 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND DAGPG <= 64.00 AND INVHT >= 368.50 THEN class = {6.41} [2.73, 10.08], (p=119, n=24, P=165, N=165)
+2025-03-05 17:06:43,854 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:45,893 - INFO - Iteracja 0: condition_best: HMDTY <= 43.50, quality_best: 0.456, coverage_best: (p=58, n=13, P=152, N=178), p_value: 0.773
+2025-03-05 17:06:45,893 - INFO - Regula po iteracji 0: IF HMDTY <= 43.50 THEN class = {11.78} [3.78, 19.77], (p=58, n=13, P=152, N=178)
+2025-03-05 17:06:46,593 - INFO - Iteracja 1: condition_best: DAGPG <= 14.00, quality_best: 0.455, coverage_best: (p=55, n=12, P=152, N=178), p_value: 0.99
+2025-03-05 17:06:46,593 - INFO - Regula po iteracji 1: IF HMDTY <= 43.50 AND DAGPG <= 14.00 THEN class = {6.13} [2.51, 9.75], (p=55, n=12, P=152, N=178)
+2025-03-05 17:06:47,249 - INFO - Iteracja 2: condition_best: VZBLTY <= 275.00, quality_best: 0.406, coverage_best: (p=44, n=11, P=152, N=178), p_value: 0.993
+2025-03-05 17:06:47,249 - INFO - Regula po iteracji 2: IF HMDTY <= 43.50 AND DAGPG <= 14.00 AND VZBLTY <= 275.00 THEN class = {5.94} [2.58, 9.30], (p=44, n=11, P=152, N=178)
+2025-03-05 17:06:47,834 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.993
+2025-03-05 17:06:47,834 - INFO - Regula po iteracji 3: IF HMDTY <= 43.50 AND DAGPG <= 14.00 AND VZBLTY <= 275.00 THEN class = {6.04} [2.50, 9.57], (p=44, n=11, P=152, N=178)
+2025-03-05 17:06:47,834 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:47,834 - INFO - ***RR FOUND***
+2025-03-05 17:06:47,834 - INFO - Reference rule: IF HMDTY <= 43.50 THEN class = {6.04} [2.50, 9.57]
+2025-03-05 17:06:47,834 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:47,837 - INFO - CR vs RR p_value: 0.4697157003931438
+2025-03-05 17:06:47,837 - INFO - ER vs CR p_value: 0.0037395370143190215
+2025-03-05 17:06:47,837 - INFO - ER vs RR p_value: 0.04284438900727027
+2025-03-05 17:06:47,838 - INFO - ***ER FOUND***
+2025-03-05 17:06:47,838 - INFO - Exception rule: IF SDAFBTMP <= 61.50 AND DAGPG <= 64.00 AND INVHT >= 368.50 AND HMDTY <= 43.50 THEN class = {4.69} [2.70, 6.69] (p=40, n=9, P=102, N=228)
+2025-03-05 17:06:47,838 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:06:47,841 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:06:47,917 - INFO - Iteracja 0: condition_best: DAGPG <= -8.50, quality_best: 0.525, coverage_best: (p=77, n=8, P=201, N=129)
+2025-03-05 17:06:47,917 - INFO - Regula po iteracji 0: IF DAGPG <= -8.50 THEN class = {7.12} [1.67, 12.57], (p=77, n=8, P=201, N=129)
+2025-03-05 17:06:47,917 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:49,915 - INFO - Iteracja 0: condition_best: INVTMP <= 57.50, quality_best: 0.49, coverage_best: (p=98, n=34, P=134, N=196), p_value: 0.916
+2025-03-05 17:06:49,916 - INFO - Regula po iteracji 0: IF INVTMP <= 57.50 THEN class = {11.78} [3.78, 19.77], (p=98, n=34, P=134, N=196)
+2025-03-05 17:06:50,890 - INFO - Iteracja 1: condition_best: SDAFBTMP <= 65.00, quality_best: 0.497, coverage_best: (p=96, n=32, P=134, N=196), p_value: 0.999
+2025-03-05 17:06:50,891 - INFO - Regula po iteracji 1: IF INVTMP <= 57.50 AND SDAFBTMP <= 65.00 THEN class = {5.69} [2.84, 8.54], (p=96, n=32, P=134, N=196)
+2025-03-05 17:06:51,847 - INFO - Iteracja 2: condition_best: DAGPG <= 42.50, quality_best: 0.564, coverage_best: (p=78, n=16, P=134, N=196), p_value: 1.0
+2025-03-05 17:06:51,847 - INFO - Regula po iteracji 2: IF INVTMP <= 57.50 AND SDAFBTMP <= 65.00 AND DAGPG <= 42.50 THEN class = {5.66} [2.80, 8.52], (p=78, n=16, P=134, N=196)
+2025-03-05 17:06:52,650 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2025-03-05 17:06:52,651 - INFO - Regula po iteracji 3: IF INVTMP <= 57.50 AND SDAFBTMP <= 65.00 AND DAGPG <= 42.50 THEN class = {5.57} [2.93, 8.22], (p=78, n=16, P=134, N=196)
+2025-03-05 17:06:52,651 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:52,651 - INFO - ***RR FOUND***
+2025-03-05 17:06:52,651 - INFO - Reference rule: IF INVTMP <= 57.50 AND SDAFBTMP <= 65.00 AND DAGPG <= 42.50 THEN class = {5.57} [2.93, 8.22]
+2025-03-05 17:06:52,651 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:52,653 - INFO - CR vs RR p_value: 0.2730865476032466
+2025-03-05 17:06:52,653 - INFO - ER vs CR p_value: 0.0025962449300446716
+2025-03-05 17:06:52,653 - INFO - ER vs RR p_value: 0.01048025523398799
+2025-03-05 17:06:52,654 - INFO - ***ER FOUND***
+2025-03-05 17:06:52,654 - INFO - Exception rule: IF DAGPG <= -8.50 AND INVTMP <= 57.50 AND SDAFBTMP <= 65.00 AND DAGPG <= 42.50 THEN class = {4.37} [2.47, 6.27] (p=31, n=4, P=102, N=228)
+2025-03-05 17:06:52,654 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:06:52,656 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:06:52,732 - INFO - Iteracja 0: condition_best: SDAFBTMP >= 67.50, quality_best: 0.514, coverage_best: (p=83, n=33, P=107, N=223)
+2025-03-05 17:06:52,732 - INFO - Regula po iteracji 0: IF SDAFBTMP >= 67.50 THEN class = {19.80} [12.93, 26.67], (p=83, n=33, P=107, N=223)
+2025-03-05 17:06:52,732 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:54,732 - INFO - Iteracja 0: condition_best: HMDTY >= 75.50, quality_best: 0.023, coverage_best: (p=34, n=24, P=188, N=142), p_value: 0.05
+2025-03-05 17:06:54,732 - INFO - Regula po iteracji 0: IF HMDTY >= 75.50 THEN class = {11.78} [3.78, 19.77], (p=34, n=24, P=188, N=142)
+2025-03-05 17:06:55,449 - INFO - Iteracja 1: condition_best: VZBLTY >= 12.00, quality_best: -0.005, coverage_best: (p=30, n=23, P=188, N=142), p_value: 0.126
+2025-03-05 17:06:55,450 - INFO - Regula po iteracji 1: IF HMDTY >= 75.50 AND VZBLTY >= 12.00 THEN class = {16.19} [6.77, 25.61], (p=30, n=23, P=188, N=142)
+2025-03-05 17:06:56,117 - INFO - Iteracja 2: condition_best: INVHT >= 576.50, quality_best: -0.013, coverage_best: (p=28, n=22, P=188, N=142), p_value: 0.158
+2025-03-05 17:06:56,117 - INFO - Regula po iteracji 2: IF HMDTY >= 75.50 AND VZBLTY >= 12.00 AND INVHT >= 576.50 THEN class = {16.43} [6.88, 25.99], (p=28, n=22, P=188, N=142)
+2025-03-05 17:06:56,768 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.158
+2025-03-05 17:06:56,768 - INFO - Regula po iteracji 3: IF HMDTY >= 75.50 AND VZBLTY >= 12.00 AND INVHT >= 576.50 THEN class = {16.36} [6.91, 25.81], (p=28, n=22, P=188, N=142)
+2025-03-05 17:06:56,768 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:06:56,768 - INFO - ***RR FOUND***
+2025-03-05 17:06:56,768 - INFO - Reference rule: IF HMDTY >= 75.50 THEN class = {16.36} [6.91, 25.81]
+2025-03-05 17:06:56,768 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:06:56,770 - INFO - CR vs RR p_value: 0.013861717660574927
+2025-03-05 17:06:56,770 - INFO - ER vs CR p_value: 0.04869935542059957
+2025-03-05 17:06:56,770 - INFO - ER vs RR p_value: 0.002515725139819295
+2025-03-05 17:06:56,771 - INFO - ***ER FOUND***
+2025-03-05 17:06:56,771 - INFO - Exception rule: IF SDAFBTMP >= 67.50 AND HMDTY >= 75.50 THEN class = {22.32} [15.58, 29.07] (p=24, n=10, P=86, N=244)
+2025-03-05 17:06:56,771 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:06:56,772 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:06:56,844 - INFO - Iteracja 0: condition_best: INVTMP <= 55.50, quality_best: 0.511, coverage_best: (p=90, n=27, P=134, N=196)
+2025-03-05 17:06:56,844 - INFO - Regula po iteracji 0: IF INVTMP <= 55.50 THEN class = {5.46} [2.78, 8.15], (p=90, n=27, P=134, N=196)
+2025-03-05 17:06:56,844 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:06:58,858 - INFO - Iteracja 0: condition_best: DAGPG <= -19.50, quality_best: 0.512, coverage_best: (p=53, n=6, P=174, N=156), p_value: 0.859
+2025-03-05 17:06:58,858 - INFO - Regula po iteracji 0: IF DAGPG <= -19.50 THEN class = {11.78} [3.78, 19.77], (p=53, n=6, P=174, N=156)
+2025-03-05 17:06:59,452 - INFO - Iteracja 1: condition_best: VDB500HT <= 5,910.00, quality_best: 0.507, coverage_best: (p=52, n=6, P=174, N=156), p_value: 0.917
+2025-03-05 17:06:59,452 - INFO - Regula po iteracji 1: IF DAGPG <= -19.50 AND VDB500HT <= 5,910.00 THEN class = {6.02} [1.58, 10.46], (p=52, n=6, P=174, N=156)
+2025-03-05 17:07:00,034 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.917
+2025-03-05 17:07:00,034 - INFO - Regula po iteracji 2: IF DAGPG <= -19.50 AND VDB500HT <= 5,910.00 THEN class = {6.02} [1.54, 10.50], (p=52, n=6, P=174, N=156)
+2025-03-05 17:07:00,034 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:00,034 - INFO - ***RR FOUND***
+2025-03-05 17:07:00,034 - INFO - Reference rule: IF DAGPG <= -19.50 THEN class = {6.02} [1.54, 10.50]
+2025-03-05 17:07:00,034 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:00,036 - INFO - CR vs RR p_value: 0.8641721592655728
+2025-03-05 17:07:00,036 - INFO - ER vs CR p_value: 0.010448444054746939
+2025-03-05 17:07:00,036 - INFO - ER vs RR p_value: 0.021671875936291423
+2025-03-05 17:07:00,037 - INFO - ***ER FOUND***
+2025-03-05 17:07:00,037 - INFO - Exception rule: IF INVTMP <= 55.50 AND DAGPG <= -19.50 THEN class = {3.91} [2.85, 4.97] (p=15, n=8, P=56, N=274)
+2025-03-05 17:07:00,037 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:07:00,038 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:07:00,109 - INFO - Iteracja 0: condition_best: INVHT >= 3,359.50, quality_best: 0.509, coverage_best: (p=95, n=24, P=152, N=178)
+2025-03-05 17:07:00,109 - INFO - Regula po iteracji 0: IF INVHT >= 3,359.50 THEN class = {5.71} [2.39, 9.02], (p=95, n=24, P=152, N=178)
+2025-03-05 17:07:00,109 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:02,066 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:07:02,066 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:07:02,067 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:02,067 - INFO - ***RR NOT FOUND***
+2025-03-05 17:07:02,098 - INFO - Iteracja 1: condition_best: HMDTY <= 76.50, quality_best: 0.543, coverage_best: (p=91, n=19, P=152, N=178)
+2025-03-05 17:07:02,098 - INFO - Regula po iteracji 1: IF INVHT >= 3,359.50 AND HMDTY <= 76.50 THEN class = {5.84} [2.51, 9.16], (p=91, n=19, P=152, N=178)
+2025-03-05 17:07:02,098 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:04,050 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:07:04,050 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:07:04,050 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:04,050 - INFO - ***RR NOT FOUND***
+2025-03-05 17:07:04,080 - INFO - Iteracja 2: condition_best: VDB500HT <= 5,895.00, quality_best: 0.555, coverage_best: (p=91, n=18, P=152, N=178)
+2025-03-05 17:07:04,080 - INFO - Regula po iteracji 2: IF INVHT >= 3,359.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,895.00 THEN class = {5.79} [2.49, 9.09], (p=91, n=18, P=152, N=178)
+2025-03-05 17:07:04,080 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:06,032 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:07:06,032 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:07:06,033 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:06,033 - INFO - ***RR NOT FOUND***
+2025-03-05 17:07:06,063 - INFO - Iteracja 3: condition_best: WDSP <= 8.50, quality_best: 0.562, coverage_best: (p=82, n=14, P=152, N=178)
+2025-03-05 17:07:06,063 - INFO - Regula po iteracji 3: IF INVHT >= 3,359.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,895.00 AND WDSP <= 8.50 THEN class = {5.98} [2.68, 9.28], (p=82, n=14, P=152, N=178)
+2025-03-05 17:07:06,063 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:08,006 - INFO - Iteracja 0: condition_best: DAGPG <= -11.50, quality_best: 0.498, coverage_best: (p=66, n=10, P=174, N=156), p_value: 0.531
+2025-03-05 17:07:08,006 - INFO - Regula po iteracji 0: IF DAGPG <= -11.50 THEN class = {11.78} [3.78, 19.77], (p=66, n=10, P=174, N=156)
+2025-03-05 17:07:08,723 - INFO - Iteracja 1: condition_best: SDAFBTMP <= 72.00, quality_best: 0.487, coverage_best: (p=61, n=12, P=152, N=178), p_value: 0.798
+2025-03-05 17:07:08,724 - INFO - Regula po iteracji 1: IF DAGPG <= -11.50 AND SDAFBTMP <= 72.00 THEN class = {6.38} [2.00, 10.76], (p=61, n=12, P=152, N=178)
+2025-03-05 17:07:09,409 - INFO - Iteracja 2: condition_best: VZBLTY <= 275.00, quality_best: 0.426, coverage_best: (p=50, n=12, P=152, N=178), p_value: 0.851
+2025-03-05 17:07:09,409 - INFO - Regula po iteracji 2: IF DAGPG <= -11.50 AND SDAFBTMP <= 72.00 AND VZBLTY <= 275.00 THEN class = {5.95} [2.38, 9.51], (p=50, n=12, P=152, N=178)
+2025-03-05 17:07:10,042 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.851
+2025-03-05 17:07:10,042 - INFO - Regula po iteracji 3: IF DAGPG <= -11.50 AND SDAFBTMP <= 72.00 AND VZBLTY <= 275.00 THEN class = {6.06} [2.27, 9.86], (p=50, n=12, P=152, N=178)
+2025-03-05 17:07:10,043 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:10,043 - INFO - ***RR FOUND***
+2025-03-05 17:07:10,043 - INFO - Reference rule: IF DAGPG <= -11.50 THEN class = {6.06} [2.27, 9.86]
+2025-03-05 17:07:10,043 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:10,045 - INFO - CR vs RR p_value: 0.8774203127205693
+2025-03-05 17:07:10,045 - INFO - ER vs CR p_value: 0.03468103845545128
+2025-03-05 17:07:10,045 - INFO - ER vs RR p_value: 0.07057938818230965
+2025-03-05 17:07:10,045 - INFO - ***ER NOT FOUND***
+2025-03-05 17:07:10,072 - INFO - Iteracja 4: condition_best: INVHT >= 3,444.50, quality_best: 0.574, coverage_best: (p=82, n=13, P=152, N=178)
+2025-03-05 17:07:10,072 - INFO - Regula po iteracji 4: IF INVHT >= 3,359.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,895.00 AND WDSP <= 8.50 AND INVHT >= 3,444.50 THEN class = {5.87} [2.72, 9.02], (p=82, n=13, P=152, N=178)
+2025-03-05 17:07:10,072 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:12,016 - INFO - Iteracja 0: condition_best: DAGPG <= -11.50, quality_best: 0.498, coverage_best: (p=66, n=10, P=174, N=156), p_value: 0.531
+2025-03-05 17:07:12,016 - INFO - Regula po iteracji 0: IF DAGPG <= -11.50 THEN class = {11.78} [3.78, 19.77], (p=66, n=10, P=174, N=156)
+2025-03-05 17:07:12,732 - INFO - Iteracja 1: condition_best: SDAFBTMP <= 72.00, quality_best: 0.487, coverage_best: (p=61, n=12, P=152, N=178), p_value: 0.798
+2025-03-05 17:07:12,732 - INFO - Regula po iteracji 1: IF DAGPG <= -11.50 AND SDAFBTMP <= 72.00 THEN class = {6.38} [2.00, 10.76], (p=61, n=12, P=152, N=178)
+2025-03-05 17:07:13,417 - INFO - Iteracja 2: condition_best: VZBLTY <= 275.00, quality_best: 0.426, coverage_best: (p=50, n=12, P=152, N=178), p_value: 0.851
+2025-03-05 17:07:13,417 - INFO - Regula po iteracji 2: IF DAGPG <= -11.50 AND SDAFBTMP <= 72.00 AND VZBLTY <= 275.00 THEN class = {5.95} [2.38, 9.51], (p=50, n=12, P=152, N=178)
+2025-03-05 17:07:14,051 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.851
+2025-03-05 17:07:14,051 - INFO - Regula po iteracji 3: IF DAGPG <= -11.50 AND SDAFBTMP <= 72.00 AND VZBLTY <= 275.00 THEN class = {6.06} [2.27, 9.86], (p=50, n=12, P=152, N=178)
+2025-03-05 17:07:14,051 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:14,051 - INFO - ***RR FOUND***
+2025-03-05 17:07:14,051 - INFO - Reference rule: IF DAGPG <= -11.50 THEN class = {6.06} [2.27, 9.86]
+2025-03-05 17:07:14,051 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:14,054 - INFO - CR vs RR p_value: 0.9599056210731455
+2025-03-05 17:07:14,054 - INFO - ER vs CR p_value: 0.041572275060567085
+2025-03-05 17:07:14,054 - INFO - ER vs RR p_value: 0.07057938818230965
+2025-03-05 17:07:14,054 - INFO - ***ER NOT FOUND***
+2025-03-05 17:07:14,054 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:07:14,057 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:07:14,127 - INFO - Iteracja 0: condition_best: INVTMP <= 59.50, quality_best: 0.506, coverage_best: (p=113, n=33, P=152, N=178)
+2025-03-05 17:07:14,128 - INFO - Regula po iteracji 0: IF INVTMP <= 59.50 THEN class = {6.08} [2.93, 9.22], (p=113, n=33, P=152, N=178)
+2025-03-05 17:07:14,128 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:16,156 - INFO - Iteracja 0: condition_best: HMDTY <= 41.50, quality_best: 0.455, coverage_best: (p=55, n=12, P=152, N=178), p_value: 0.944
+2025-03-05 17:07:16,156 - INFO - Regula po iteracji 0: IF HMDTY <= 41.50 THEN class = {11.78} [3.78, 19.77], (p=55, n=12, P=152, N=178)
+2025-03-05 17:07:16,797 - INFO - Iteracja 1: condition_best: INVHT >= 335.50, quality_best: 0.454, coverage_best: (p=52, n=11, P=152, N=178), p_value: 0.988
+2025-03-05 17:07:16,797 - INFO - Regula po iteracji 1: IF HMDTY <= 41.50 AND INVHT >= 335.50 THEN class = {6.00} [2.40, 9.60], (p=52, n=11, P=152, N=178)
+2025-03-05 17:07:17,410 - INFO - Iteracja 2: condition_best: VDB500HT >= 5,625.00, quality_best: 0.442, coverage_best: (p=50, n=11, P=152, N=178), p_value: 0.996
+2025-03-05 17:07:17,410 - INFO - Regula po iteracji 2: IF HMDTY <= 41.50 AND INVHT >= 335.50 AND VDB500HT >= 5,625.00 THEN class = {5.97} [2.36, 9.58], (p=50, n=11, P=152, N=178)
+2025-03-05 17:07:18,003 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.996
+2025-03-05 17:07:18,003 - INFO - Regula po iteracji 3: IF HMDTY <= 41.50 AND INVHT >= 335.50 AND VDB500HT >= 5,625.00 THEN class = {6.00} [2.34, 9.66], (p=50, n=11, P=152, N=178)
+2025-03-05 17:07:18,004 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:18,004 - INFO - ***RR FOUND***
+2025-03-05 17:07:18,004 - INFO - Reference rule: IF HMDTY <= 41.50 THEN class = {6.00} [2.34, 9.66]
+2025-03-05 17:07:18,004 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:18,006 - INFO - CR vs RR p_value: 0.5128342971909313
+2025-03-05 17:07:18,006 - INFO - ER vs CR p_value: 0.005466539411223225
+2025-03-05 17:07:18,006 - INFO - ER vs RR p_value: 0.03328105411267163
+2025-03-05 17:07:18,007 - INFO - ***ER FOUND***
+2025-03-05 17:07:18,007 - INFO - Exception rule: IF INVTMP <= 59.50 AND HMDTY <= 41.50 THEN class = {4.47} [2.51, 6.43] (p=29, n=5, P=102, N=228)
+2025-03-05 17:07:18,007 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:07:18,007 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:07:18,078 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 64.50, quality_best: 0.49, coverage_best: (p=144, n=45, P=165, N=165)
+2025-03-05 17:07:18,078 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 64.50 THEN class = {6.80} [2.96, 10.64], (p=144, n=45, P=165, N=165)
+2025-03-05 17:07:18,078 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:20,145 - INFO - Iteracja 0: condition_best: HMDTY <= 46.50, quality_best: 0.441, coverage_best: (p=66, n=15, P=165, N=165), p_value: 0.792
+2025-03-05 17:07:20,145 - INFO - Regula po iteracji 0: IF HMDTY <= 46.50 THEN class = {11.78} [3.78, 19.77], (p=66, n=15, P=165, N=165)
+2025-03-05 17:07:20,943 - INFO - Iteracja 1: condition_best: VZBLTY >= 75.00, quality_best: 0.451, coverage_best: (p=57, n=13, P=152, N=178), p_value: 0.997
+2025-03-05 17:07:20,943 - INFO - Regula po iteracji 1: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 THEN class = {6.44} [2.53, 10.36], (p=57, n=13, P=152, N=178)
+2025-03-05 17:07:21,689 - INFO - Iteracja 2: condition_best: DAGPG <= 42.00, quality_best: 0.433, coverage_best: (p=56, n=12, P=165, N=165), p_value: 1.0
+2025-03-05 17:07:21,689 - INFO - Regula po iteracji 2: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND DAGPG <= 42.00 THEN class = {6.29} [2.57, 10.00], (p=56, n=12, P=165, N=165)
+2025-03-05 17:07:22,414 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2025-03-05 17:07:22,414 - INFO - Regula po iteracji 3: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND DAGPG <= 42.00 THEN class = {6.29} [2.56, 10.02], (p=56, n=12, P=165, N=165)
+2025-03-05 17:07:22,414 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:22,414 - INFO - ***RR FOUND***
+2025-03-05 17:07:22,414 - INFO - Reference rule: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 THEN class = {6.29} [2.56, 10.02]
+2025-03-05 17:07:22,414 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:22,416 - INFO - CR vs RR p_value: 0.2481875317745036
+2025-03-05 17:07:22,416 - INFO - ER vs CR p_value: 0.014257323792232336
+2025-03-05 17:07:22,416 - INFO - ER vs RR p_value: 0.2487304372965945
+2025-03-05 17:07:22,416 - INFO - ***ER NOT FOUND***
+2025-03-05 17:07:22,461 - INFO - Iteracja 1: condition_best: HMDTY <= 76.50, quality_best: 0.53, coverage_best: (p=136, n=36, P=165, N=165)
+2025-03-05 17:07:22,461 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 64.50 AND HMDTY <= 76.50 THEN class = {6.72} [2.99, 10.44], (p=136, n=36, P=165, N=165)
+2025-03-05 17:07:22,461 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:24,513 - INFO - Iteracja 0: condition_best: HMDTY <= 46.50, quality_best: 0.441, coverage_best: (p=66, n=15, P=165, N=165), p_value: 0.67
+2025-03-05 17:07:24,513 - INFO - Regula po iteracji 0: IF HMDTY <= 46.50 THEN class = {11.78} [3.78, 19.77], (p=66, n=15, P=165, N=165)
+2025-03-05 17:07:25,308 - INFO - Iteracja 1: condition_best: VZBLTY >= 75.00, quality_best: 0.451, coverage_best: (p=57, n=13, P=152, N=178), p_value: 0.881
+2025-03-05 17:07:25,308 - INFO - Regula po iteracji 1: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 THEN class = {6.44} [2.53, 10.36], (p=57, n=13, P=152, N=178)
+2025-03-05 17:07:26,052 - INFO - Iteracja 2: condition_best: DAGPG <= 46.50, quality_best: 0.445, coverage_best: (p=56, n=13, P=152, N=178), p_value: 0.989
+2025-03-05 17:07:26,052 - INFO - Regula po iteracji 2: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND DAGPG <= 46.50 THEN class = {6.29} [2.57, 10.00], (p=56, n=13, P=152, N=178)
+2025-03-05 17:07:26,789 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.989
+2025-03-05 17:07:26,789 - INFO - Regula po iteracji 3: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND DAGPG <= 46.50 THEN class = {6.25} [2.52, 9.97], (p=56, n=13, P=152, N=178)
+2025-03-05 17:07:26,790 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:26,790 - INFO - ***RR FOUND***
+2025-03-05 17:07:26,790 - INFO - Reference rule: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 THEN class = {6.25} [2.52, 9.97]
+2025-03-05 17:07:26,790 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:26,792 - INFO - CR vs RR p_value: 0.2721318745657316
+2025-03-05 17:07:26,792 - INFO - ER vs CR p_value: 0.015978944545789436
+2025-03-05 17:07:26,792 - INFO - ER vs RR p_value: 0.2487304372965945
+2025-03-05 17:07:26,792 - INFO - ***ER NOT FOUND***
+2025-03-05 17:07:26,833 - INFO - Iteracja 2: condition_best: VDB500HT <= 5,885.00, quality_best: 0.539, coverage_best: (p=136, n=35, P=165, N=165)
+2025-03-05 17:07:26,833 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 64.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,885.00 THEN class = {6.69} [2.97, 10.41], (p=136, n=35, P=165, N=165)
+2025-03-05 17:07:26,834 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:28,892 - INFO - Iteracja 0: condition_best: HMDTY <= 46.50, quality_best: 0.441, coverage_best: (p=66, n=15, P=165, N=165), p_value: 0.67
+2025-03-05 17:07:28,892 - INFO - Regula po iteracji 0: IF HMDTY <= 46.50 THEN class = {11.78} [3.78, 19.77], (p=66, n=15, P=165, N=165)
+2025-03-05 17:07:29,688 - INFO - Iteracja 1: condition_best: VZBLTY >= 75.00, quality_best: 0.451, coverage_best: (p=57, n=13, P=152, N=178), p_value: 0.881
+2025-03-05 17:07:29,688 - INFO - Regula po iteracji 1: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 THEN class = {6.44} [2.53, 10.36], (p=57, n=13, P=152, N=178)
+2025-03-05 17:07:30,434 - INFO - Iteracja 2: condition_best: DAGPG <= 46.50, quality_best: 0.445, coverage_best: (p=56, n=13, P=152, N=178), p_value: 0.989
+2025-03-05 17:07:30,435 - INFO - Regula po iteracji 2: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND DAGPG <= 46.50 THEN class = {6.29} [2.57, 10.00], (p=56, n=13, P=152, N=178)
+2025-03-05 17:07:31,173 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.989
+2025-03-05 17:07:31,173 - INFO - Regula po iteracji 3: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND DAGPG <= 46.50 THEN class = {6.25} [2.52, 9.97], (p=56, n=13, P=152, N=178)
+2025-03-05 17:07:31,173 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:31,173 - INFO - ***RR FOUND***
+2025-03-05 17:07:31,173 - INFO - Reference rule: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 THEN class = {6.25} [2.52, 9.97]
+2025-03-05 17:07:31,173 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:31,175 - INFO - CR vs RR p_value: 0.29212067198261693
+2025-03-05 17:07:31,176 - INFO - ER vs CR p_value: 0.011392898970449249
+2025-03-05 17:07:31,176 - INFO - ER vs RR p_value: 0.19779775022587665
+2025-03-05 17:07:31,176 - INFO - ***ER NOT FOUND***
+2025-03-05 17:07:31,217 - INFO - Iteracja 3: condition_best: VZBLTY >= 4.00, quality_best: 0.543, coverage_best: (p=135, n=34, P=165, N=165)
+2025-03-05 17:07:31,217 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 64.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,885.00 AND VZBLTY >= 4.00 THEN class = {6.63} [2.96, 10.30], (p=135, n=34, P=165, N=165)
+2025-03-05 17:07:31,218 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:33,274 - INFO - Iteracja 0: condition_best: HMDTY <= 46.50, quality_best: 0.441, coverage_best: (p=66, n=15, P=165, N=165), p_value: 0.642
+2025-03-05 17:07:33,275 - INFO - Regula po iteracji 0: IF HMDTY <= 46.50 THEN class = {11.78} [3.78, 19.77], (p=66, n=15, P=165, N=165)
+2025-03-05 17:07:34,072 - INFO - Iteracja 1: condition_best: VZBLTY >= 75.00, quality_best: 0.451, coverage_best: (p=57, n=13, P=152, N=178), p_value: 0.851
+2025-03-05 17:07:34,073 - INFO - Regula po iteracji 1: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 THEN class = {6.44} [2.53, 10.36], (p=57, n=13, P=152, N=178)
+2025-03-05 17:07:34,818 - INFO - Iteracja 2: condition_best: HMDTY <= 45.50, quality_best: 0.455, coverage_best: (p=55, n=12, P=152, N=178), p_value: 0.987
+2025-03-05 17:07:34,819 - INFO - Regula po iteracji 2: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND HMDTY <= 45.50 THEN class = {6.29} [2.57, 10.00], (p=55, n=12, P=152, N=178)
+2025-03-05 17:07:35,535 - INFO - Iteracja 3: condition_best: VDB500HT >= 5,640.00, quality_best: 0.429, coverage_best: (p=49, n=10, P=165, N=165), p_value: 0.988
+2025-03-05 17:07:35,535 - INFO - Regula po iteracji 3: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND HMDTY <= 45.50 AND VDB500HT >= 5,640.00 THEN class = {6.21} [2.52, 9.90], (p=49, n=10, P=165, N=165)
+2025-03-05 17:07:36,164 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.988
+2025-03-05 17:07:36,165 - INFO - Regula po iteracji 4: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND HMDTY <= 45.50 AND VDB500HT >= 5,640.00 THEN class = {6.27} [2.45, 10.10], (p=49, n=10, P=165, N=165)
+2025-03-05 17:07:36,165 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:36,165 - INFO - ***RR FOUND***
+2025-03-05 17:07:36,165 - INFO - Reference rule: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND HMDTY <= 45.50 THEN class = {6.27} [2.45, 10.10]
+2025-03-05 17:07:36,165 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:36,167 - INFO - CR vs RR p_value: 0.2717725364033883
+2025-03-05 17:07:36,167 - INFO - ER vs CR p_value: 0.008006335145300305
+2025-03-05 17:07:36,167 - INFO - ER vs RR p_value: 0.17639102023348885
+2025-03-05 17:07:36,167 - INFO - ***ER NOT FOUND***
+2025-03-05 17:07:36,209 - INFO - Iteracja 4: condition_best: DAGPG <= 64.00, quality_best: 0.547, coverage_best: (p=127, n=30, P=165, N=165)
+2025-03-05 17:07:36,209 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 64.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,885.00 AND VZBLTY >= 4.00 AND DAGPG <= 64.00 THEN class = {6.71} [2.99, 10.42], (p=127, n=30, P=165, N=165)
+2025-03-05 17:07:36,209 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:38,257 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:07:38,257 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:07:38,257 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:38,257 - INFO - ***RR NOT FOUND***
+2025-03-05 17:07:38,257 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:07:38,259 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:07:38,329 - INFO - Iteracja 0: condition_best: HMDTY <= 59.50, quality_best: 0.483, coverage_best: (p=111, n=19, P=202, N=128)
+2025-03-05 17:07:38,329 - INFO - Regula po iteracji 0: IF HMDTY <= 59.50 THEN class = {7.85} [2.50, 13.19], (p=111, n=19, P=202, N=128)
+2025-03-05 17:07:38,329 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:40,405 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:07:40,405 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:07:40,405 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:40,405 - INFO - ***RR NOT FOUND***
+2025-03-05 17:07:40,441 - INFO - Iteracja 1: condition_best: SDAFBTMP <= 68.50, quality_best: 0.545, coverage_best: (p=97, n=16, P=174, N=156)
+2025-03-05 17:07:40,441 - INFO - Regula po iteracji 1: IF HMDTY <= 59.50 AND SDAFBTMP <= 68.50 THEN class = {6.84} [2.58, 11.10], (p=97, n=16, P=174, N=156)
+2025-03-05 17:07:40,442 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:42,478 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:07:42,478 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:07:42,478 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:42,478 - INFO - ***RR NOT FOUND***
+2025-03-05 17:07:42,508 - INFO - Iteracja 2: condition_best: INVHT >= 347.00, quality_best: 0.559, coverage_best: (p=94, n=14, P=174, N=156)
+2025-03-05 17:07:42,508 - INFO - Regula po iteracji 2: IF HMDTY <= 59.50 AND SDAFBTMP <= 68.50 AND INVHT >= 347.00 THEN class = {6.90} [2.62, 11.18], (p=94, n=14, P=174, N=156)
+2025-03-05 17:07:42,509 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:44,542 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:07:44,542 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:07:44,542 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:44,542 - INFO - ***RR NOT FOUND***
+2025-03-05 17:07:44,572 - INFO - Iteracja 3: condition_best: VZBLTY >= 3.00, quality_best: 0.572, coverage_best: (p=94, n=13, P=174, N=156)
+2025-03-05 17:07:44,572 - INFO - Regula po iteracji 3: IF HMDTY <= 59.50 AND SDAFBTMP <= 68.50 AND INVHT >= 347.00 AND VZBLTY >= 3.00 THEN class = {6.81} [2.60, 11.02], (p=94, n=13, P=174, N=156)
+2025-03-05 17:07:44,572 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:46,607 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:07:46,607 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:07:46,607 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:46,607 - INFO - ***RR NOT FOUND***
+2025-03-05 17:07:46,637 - INFO - Iteracja 4: condition_best: DAGPG <= 50.50, quality_best: 0.57, coverage_best: (p=90, n=12, P=174, N=156)
+2025-03-05 17:07:46,637 - INFO - Regula po iteracji 4: IF HMDTY <= 59.50 AND SDAFBTMP <= 68.50 AND INVHT >= 347.00 AND VZBLTY >= 3.00 AND DAGPG <= 50.50 THEN class = {6.79} [2.54, 11.05], (p=90, n=12, P=174, N=156)
+2025-03-05 17:07:46,637 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:48,654 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:07:48,654 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:07:48,654 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:48,654 - INFO - ***RR NOT FOUND***
+2025-03-05 17:07:48,654 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:07:48,656 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:07:48,725 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 65.50, quality_best: 0.469, coverage_best: (p=148, n=50, P=165, N=165)
+2025-03-05 17:07:48,725 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 65.50 THEN class = {6.97} [2.99, 10.96], (p=148, n=50, P=165, N=165)
+2025-03-05 17:07:48,725 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:50,784 - INFO - Iteracja 0: condition_best: HMDTY <= 46.50, quality_best: 0.441, coverage_best: (p=66, n=15, P=165, N=165), p_value: 0.835
+2025-03-05 17:07:50,784 - INFO - Regula po iteracji 0: IF HMDTY <= 46.50 THEN class = {11.78} [3.78, 19.77], (p=66, n=15, P=165, N=165)
+2025-03-05 17:07:51,583 - INFO - Iteracja 1: condition_best: VZBLTY >= 75.00, quality_best: 0.451, coverage_best: (p=57, n=13, P=152, N=178), p_value: 0.953
+2025-03-05 17:07:51,584 - INFO - Regula po iteracji 1: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 THEN class = {6.44} [2.53, 10.36], (p=57, n=13, P=152, N=178)
+2025-03-05 17:07:52,331 - INFO - Iteracja 2: condition_best: DAGPG >= -66.50, quality_best: 0.433, coverage_best: (p=56, n=12, P=165, N=165), p_value: 1.0
+2025-03-05 17:07:52,331 - INFO - Regula po iteracji 2: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND DAGPG >= -66.50 THEN class = {6.29} [2.57, 10.00], (p=56, n=12, P=165, N=165)
+2025-03-05 17:07:53,067 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2025-03-05 17:07:53,068 - INFO - Regula po iteracji 3: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 AND DAGPG >= -66.50 THEN class = {6.32} [2.58, 10.07], (p=56, n=12, P=165, N=165)
+2025-03-05 17:07:53,068 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:53,068 - INFO - ***RR FOUND***
+2025-03-05 17:07:53,068 - INFO - Reference rule: IF HMDTY <= 46.50 AND VZBLTY >= 75.00 THEN class = {6.32} [2.58, 10.07]
+2025-03-05 17:07:53,068 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:53,070 - INFO - CR vs RR p_value: 0.15137329952324857
+2025-03-05 17:07:53,070 - INFO - ER vs CR p_value: 0.011778132365004891
+2025-03-05 17:07:53,070 - INFO - ER vs RR p_value: 0.3391385920463532
+2025-03-05 17:07:53,070 - INFO - ***ER NOT FOUND***
+2025-03-05 17:07:53,116 - INFO - Iteracja 1: condition_best: DAGPG <= 78.00, quality_best: 0.496, coverage_best: (p=151, n=43, P=174, N=156)
+2025-03-05 17:07:53,116 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 65.50 AND DAGPG <= 78.00 THEN class = {6.99} [2.99, 11.00], (p=151, n=43, P=174, N=156)
+2025-03-05 17:07:53,116 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:07:55,180 - INFO - Iteracja 0: condition_best: DAGPG <= -6.00, quality_best: 0.496, coverage_best: (p=79, n=10, P=201, N=129), p_value: 0.525
+2025-03-05 17:07:55,181 - INFO - Regula po iteracji 0: IF DAGPG <= -6.00 THEN class = {11.78} [3.78, 19.77], (p=79, n=10, P=201, N=129)
+2025-03-05 17:07:56,045 - INFO - Iteracja 1: condition_best: VDB500HT <= 5,895.00, quality_best: 0.488, coverage_best: (p=77, n=10, P=201, N=129), p_value: 0.63
+2025-03-05 17:07:56,045 - INFO - Regula po iteracji 1: IF DAGPG <= -6.00 AND VDB500HT <= 5,895.00 THEN class = {7.38} [1.86, 12.90], (p=77, n=10, P=201, N=129)
+2025-03-05 17:07:56,894 - INFO - Iteracja 2: condition_best: HMDTY <= 83.50, quality_best: 0.484, coverage_best: (p=76, n=10, P=201, N=129), p_value: 0.703
+2025-03-05 17:07:56,894 - INFO - Regula po iteracji 2: IF DAGPG <= -6.00 AND VDB500HT <= 5,895.00 AND HMDTY <= 83.50 THEN class = {7.36} [1.79, 12.92], (p=76, n=10, P=201, N=129)
+2025-03-05 17:07:57,736 - INFO - Iteracja 3: condition_best: VZBLTY >= 1.00, quality_best: 0.48, coverage_best: (p=75, n=10, P=201, N=129), p_value: 0.746
+2025-03-05 17:07:57,736 - INFO - Regula po iteracji 3: IF DAGPG <= -6.00 AND VDB500HT <= 5,895.00 AND HMDTY <= 83.50 AND VZBLTY >= 1.00 THEN class = {7.34} [1.74, 12.93], (p=75, n=10, P=201, N=129)
+2025-03-05 17:07:58,571 - INFO - Iteracja 4: condition_best: INVHT >= 430.50, quality_best: 0.438, coverage_best: (p=66, n=9, P=211, N=119), p_value: 0.937
+2025-03-05 17:07:58,571 - INFO - Regula po iteracji 4: IF DAGPG <= -6.00 AND VDB500HT <= 5,895.00 AND HMDTY <= 83.50 AND VZBLTY >= 1.00 AND INVHT >= 430.50 THEN class = {7.34} [1.71, 12.97], (p=66, n=9, P=211, N=119)
+2025-03-05 17:07:58,572 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:07:58,572 - INFO - ***RR FOUND***
+2025-03-05 17:07:58,572 - INFO - Reference rule: IF DAGPG <= -6.00 THEN class = {7.32} [1.56, 13.08]
+2025-03-05 17:07:58,572 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:07:58,574 - INFO - CR vs RR p_value: 0.652728073571666
+2025-03-05 17:07:58,574 - INFO - ER vs CR p_value: 0.059045272927899774
+2025-03-05 17:07:58,574 - INFO - ER vs RR p_value: 0.23068555430271043
+2025-03-05 17:07:58,574 - INFO - ***ER NOT FOUND***
+2025-03-05 17:07:58,619 - INFO - Iteracja 2: condition_best: INVHT >= 347.00, quality_best: 0.493, coverage_best: (p=146, n=41, P=174, N=156)
+2025-03-05 17:07:58,619 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 65.50 AND DAGPG <= 78.00 AND INVHT >= 347.00 THEN class = {7.00} [2.98, 11.02], (p=146, n=41, P=174, N=156)
+2025-03-05 17:07:58,619 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:00,686 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:00,686 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:00,686 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:00,686 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:00,731 - INFO - Iteracja 3: condition_best: HMDTY <= 90.00, quality_best: 0.489, coverage_best: (p=145, n=41, P=174, N=156)
+2025-03-05 17:08:00,732 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 65.50 AND DAGPG <= 78.00 AND INVHT >= 347.00 AND HMDTY <= 90.00 THEN class = {7.01} [2.98, 11.04], (p=145, n=41, P=174, N=156)
+2025-03-05 17:08:00,732 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:02,788 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:02,788 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:02,788 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:02,788 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:02,834 - INFO - Iteracja 4: condition_best: VDB500HT <= 5,885.00, quality_best: 0.485, coverage_best: (p=144, n=41, P=174, N=156)
+2025-03-05 17:08:02,834 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 65.50 AND DAGPG <= 78.00 AND INVHT >= 347.00 AND HMDTY <= 90.00 AND VDB500HT <= 5,885.00 THEN class = {6.99} [2.96, 11.02], (p=144, n=41, P=174, N=156)
+2025-03-05 17:08:02,834 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:04,889 - INFO - Iteracja 0: condition_best: DAGPG <= -6.00, quality_best: 0.496, coverage_best: (p=79, n=10, P=201, N=129), p_value: 0.459
+2025-03-05 17:08:04,889 - INFO - Regula po iteracji 0: IF DAGPG <= -6.00 THEN class = {11.78} [3.78, 19.77], (p=79, n=10, P=201, N=129)
+2025-03-05 17:08:05,749 - INFO - Iteracja 1: condition_best: VZBLTY >= 8.00, quality_best: 0.502, coverage_best: (p=76, n=9, P=201, N=129), p_value: 0.768
+2025-03-05 17:08:05,749 - INFO - Regula po iteracji 1: IF DAGPG <= -6.00 AND VZBLTY >= 8.00 THEN class = {7.38} [1.86, 12.90], (p=76, n=9, P=201, N=129)
+2025-03-05 17:08:06,580 - INFO - Iteracja 2: condition_best: VZBLTY <= 275.00, quality_best: 0.424, coverage_best: (p=63, n=9, P=211, N=119), p_value: 0.814
+2025-03-05 17:08:06,580 - INFO - Regula po iteracji 2: IF DAGPG <= -6.00 AND VZBLTY >= 8.00 AND VZBLTY <= 275.00 THEN class = {7.21} [1.67, 12.75], (p=63, n=9, P=211, N=119)
+2025-03-05 17:08:07,342 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.814
+2025-03-05 17:08:07,342 - INFO - Regula po iteracji 3: IF DAGPG <= -6.00 AND VZBLTY >= 8.00 AND VZBLTY <= 275.00 THEN class = {7.43} [1.52, 13.34], (p=63, n=9, P=211, N=119)
+2025-03-05 17:08:07,342 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:07,342 - INFO - ***RR FOUND***
+2025-03-05 17:08:07,342 - INFO - Reference rule: IF DAGPG <= -6.00 AND VZBLTY >= 8.00 THEN class = {7.43} [1.52, 13.34]
+2025-03-05 17:08:07,342 - INFO - ***CHECKING EXCEPTION***
+2025-03-05 17:08:07,345 - INFO - CR vs RR p_value: 0.4240579600467289
+2025-03-05 17:08:07,345 - INFO - ER vs CR p_value: 0.014608393950942086
+2025-03-05 17:08:07,345 - INFO - ER vs RR p_value: 0.16930795129164644
+2025-03-05 17:08:07,345 - INFO - ***ER NOT FOUND***
+2025-03-05 17:08:07,345 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:07,346 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:07,415 - INFO - Iteracja 0: condition_best: INVTMP >= 91.50, quality_best: 0.667, coverage_best: (p=1, n=0, P=3, N=327)
+2025-03-05 17:08:07,415 - INFO - Regula po iteracji 0: IF INVTMP >= 91.50 THEN class = {27.00} [27.00, 27.00], (p=1, n=0, P=3, N=327)
+2025-03-05 17:08:07,416 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:09,147 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:09,147 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:09,147 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:09,147 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:09,147 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 17:08:09,148 - INFO - Regula po iteracji 1: IF INVTMP >= 91.50 THEN class = {27.00} [27.00, 27.00], (p=1, n=0, P=3, N=327)
+2025-03-05 17:08:09,148 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:11,400 - INFO - ************************Finished experiment for ozone.arff with algorithm3************************
+2025-03-05 17:08:11,400 - INFO - *************************************************************************************************************************
+2025-03-05 17:08:11,400 - INFO - *************************************************************************************************************************
+2025-03-05 17:08:11,400 - INFO - *************************************************************************************************************************
+2025-03-05 17:08:11,401 - INFO - **********Starting experiment for ozone.arff with algorithm4**********
+2025-03-05 17:08:11,406 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:11,510 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 53.50, quality_best: 0.566, coverage_best: (p=88, n=14, P=161, N=169)
+2025-03-05 17:08:11,510 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 53.50 THEN class = {5.62} [1.99, 9.25], (p=88, n=14, P=161, N=169)
+2025-03-05 17:08:11,510 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:11,648 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:11,648 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:11,648 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:11,648 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:11,682 - INFO - Iteracja 1: condition_best: INVHT >= 578.50, quality_best: 0.613, coverage_best: (p=80, n=11, P=143, N=187)
+2025-03-05 17:08:11,682 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 53.50 AND INVHT >= 578.50 THEN class = {5.38} [1.92, 8.85], (p=80, n=11, P=143, N=187)
+2025-03-05 17:08:11,682 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:11,821 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:11,821 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:11,821 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:11,821 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:11,850 - INFO - Iteracja 2: condition_best: VZBLTY >= 45.00, quality_best: 0.646, coverage_best: (p=78, n=8, P=143, N=187)
+2025-03-05 17:08:11,850 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 53.50 AND INVHT >= 578.50 AND VZBLTY >= 45.00 THEN class = {5.06} [1.97, 8.15], (p=78, n=8, P=143, N=187)
+2025-03-05 17:08:11,850 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:11,989 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:11,989 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:11,989 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:11,989 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:12,016 - INFO - Iteracja 3: condition_best: VDB500HT <= 5,840.00, quality_best: 0.641, coverage_best: (p=77, n=8, P=143, N=187)
+2025-03-05 17:08:12,016 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 53.50 AND INVHT >= 578.50 AND VZBLTY >= 45.00 AND VDB500HT <= 5,840.00 THEN class = {5.08} [1.98, 8.18], (p=77, n=8, P=143, N=187)
+2025-03-05 17:08:12,017 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:12,155 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:12,155 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:12,155 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:12,155 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:12,182 - INFO - Iteracja 4: condition_best: VDB500HT >= 5,335.00, quality_best: 0.637, coverage_best: (p=76, n=8, P=143, N=187)
+2025-03-05 17:08:12,182 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 53.50 AND INVHT >= 578.50 AND VZBLTY >= 45.00 AND VDB500HT <= 5,840.00 AND VDB500HT >= 5,335.00 THEN class = {5.11} [2.00, 8.22], (p=76, n=8, P=143, N=187)
+2025-03-05 17:08:12,182 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:12,320 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:12,320 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:12,320 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:12,320 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:12,320 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:12,323 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:12,403 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 53.50, quality_best: 0.566, coverage_best: (p=88, n=14, P=161, N=169)
+2025-03-05 17:08:12,403 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 53.50 THEN class = {5.62} [1.99, 9.25], (p=88, n=14, P=161, N=169)
+2025-03-05 17:08:12,403 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:12,541 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:12,541 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:12,541 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:12,541 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:12,571 - INFO - Iteracja 1: condition_best: INVHT >= 578.50, quality_best: 0.613, coverage_best: (p=80, n=11, P=143, N=187)
+2025-03-05 17:08:12,571 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 53.50 AND INVHT >= 578.50 THEN class = {5.38} [1.92, 8.85], (p=80, n=11, P=143, N=187)
+2025-03-05 17:08:12,571 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:12,709 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:12,709 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:12,709 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:12,709 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:12,736 - INFO - Iteracja 2: condition_best: HMDTY <= 83.00, quality_best: 0.622, coverage_best: (p=79, n=10, P=143, N=187)
+2025-03-05 17:08:12,736 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 53.50 AND INVHT >= 578.50 AND HMDTY <= 83.00 THEN class = {5.46} [2.00, 8.92], (p=79, n=10, P=143, N=187)
+2025-03-05 17:08:12,736 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:12,874 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:12,874 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:12,874 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:12,874 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:12,901 - INFO - Iteracja 3: condition_best: INVHT >= 601.50, quality_best: 0.618, coverage_best: (p=78, n=10, P=143, N=187)
+2025-03-05 17:08:12,901 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 53.50 AND INVHT >= 578.50 AND HMDTY <= 83.00 AND INVHT >= 601.50 THEN class = {5.47} [1.98, 8.95], (p=78, n=10, P=143, N=187)
+2025-03-05 17:08:12,901 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:13,039 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:13,039 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:13,039 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:13,039 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:13,066 - INFO - Iteracja 4: condition_best: INVHT >= 667.00, quality_best: 0.613, coverage_best: (p=77, n=10, P=143, N=187)
+2025-03-05 17:08:13,066 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 53.50 AND INVHT >= 578.50 AND HMDTY <= 83.00 AND INVHT >= 601.50 AND INVHT >= 667.00 THEN class = {5.44} [1.94, 8.93], (p=77, n=10, P=143, N=187)
+2025-03-05 17:08:13,066 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:13,204 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:13,204 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:13,204 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:13,204 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:13,205 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:13,207 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:13,287 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 53.50, quality_best: 0.566, coverage_best: (p=88, n=14, P=161, N=169)
+2025-03-05 17:08:13,287 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 53.50 THEN class = {5.62} [1.99, 9.25], (p=88, n=14, P=161, N=169)
+2025-03-05 17:08:13,287 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:13,426 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:13,426 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:13,426 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:13,426 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:13,455 - INFO - Iteracja 1: condition_best: VZBLTY >= 55.00, quality_best: 0.613, coverage_best: (p=80, n=11, P=143, N=187)
+2025-03-05 17:08:13,455 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 53.50 AND VZBLTY >= 55.00 THEN class = {5.18} [1.98, 8.37], (p=80, n=11, P=143, N=187)
+2025-03-05 17:08:13,455 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:13,594 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:13,594 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:13,594 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:13,595 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:13,621 - INFO - Iteracja 2: condition_best: VDB500HT <= 5,840.00, quality_best: 0.609, coverage_best: (p=79, n=11, P=143, N=187)
+2025-03-05 17:08:13,621 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 53.50 AND VZBLTY >= 55.00 AND VDB500HT <= 5,840.00 THEN class = {5.20} [2.00, 8.40], (p=79, n=11, P=143, N=187)
+2025-03-05 17:08:13,622 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:13,760 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:13,761 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:13,761 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:13,761 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:13,787 - INFO - Iteracja 3: condition_best: VZBLTY >= 65.00, quality_best: 0.604, coverage_best: (p=75, n=10, P=143, N=187)
+2025-03-05 17:08:13,787 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 53.50 AND VZBLTY >= 55.00 AND VDB500HT <= 5,840.00 AND VZBLTY >= 65.00 THEN class = {5.09} [1.96, 8.23], (p=75, n=10, P=143, N=187)
+2025-03-05 17:08:13,788 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:13,926 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:13,927 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:13,927 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:13,927 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:13,953 - INFO - Iteracja 4: condition_best: VDB500HT >= 5,365.00, quality_best: 0.599, coverage_best: (p=74, n=10, P=143, N=187)
+2025-03-05 17:08:13,953 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 53.50 AND VZBLTY >= 55.00 AND VDB500HT <= 5,840.00 AND VZBLTY >= 65.00 AND VDB500HT >= 5,365.00 THEN class = {5.12} [1.97, 8.27], (p=74, n=10, P=143, N=187)
+2025-03-05 17:08:13,953 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:14,092 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:14,092 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:14,092 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:14,092 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:14,092 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:14,094 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:14,174 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 53.50, quality_best: 0.566, coverage_best: (p=88, n=14, P=161, N=169)
+2025-03-05 17:08:14,174 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 53.50 THEN class = {5.62} [1.99, 9.25], (p=88, n=14, P=161, N=169)
+2025-03-05 17:08:14,174 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:14,311 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:14,311 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:14,311 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:14,312 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:14,341 - INFO - Iteracja 1: condition_best: VDB500HT <= 5,815.00, quality_best: 0.575, coverage_best: (p=87, n=13, P=161, N=169)
+2025-03-05 17:08:14,341 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 53.50 AND VDB500HT <= 5,815.00 THEN class = {5.57} [1.99, 9.15], (p=87, n=13, P=161, N=169)
+2025-03-05 17:08:14,341 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:14,479 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:14,479 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:14,479 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:14,479 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:14,508 - INFO - Iteracja 2: condition_best: DAGPG <= 75.50, quality_best: 0.566, coverage_best: (p=85, n=13, P=161, N=169)
+2025-03-05 17:08:14,508 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 53.50 AND VDB500HT <= 5,815.00 AND DAGPG <= 75.50 THEN class = {5.60} [2.00, 9.21], (p=85, n=13, P=161, N=169)
+2025-03-05 17:08:14,509 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:14,647 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:14,647 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:14,647 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:14,647 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:14,676 - INFO - Iteracja 3: condition_best: DAGPG <= 52.50, quality_best: 0.518, coverage_best: (p=70, n=13, P=152, N=178)
+2025-03-05 17:08:14,676 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 53.50 AND VDB500HT <= 5,815.00 AND DAGPG <= 75.50 AND DAGPG <= 52.50 THEN class = {5.71} [2.24, 9.18], (p=70, n=13, P=152, N=178)
+2025-03-05 17:08:14,676 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:14,814 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:14,814 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:14,814 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:14,814 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:14,840 - INFO - Iteracja 4: condition_best: INVTMP <= 71.50, quality_best: 0.532, coverage_best: (p=70, n=12, P=152, N=178)
+2025-03-05 17:08:14,840 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 53.50 AND VDB500HT <= 5,815.00 AND DAGPG <= 75.50 AND DAGPG <= 52.50 AND INVTMP <= 71.50 THEN class = {5.76} [2.29, 9.22], (p=70, n=12, P=152, N=178)
+2025-03-05 17:08:14,841 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:14,979 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:14,979 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:14,979 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:14,979 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:14,979 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:14,981 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:15,059 - INFO - Iteracja 0: condition_best: HMDTY <= 27.50, quality_best: 0.541, coverage_best: (p=43, n=6, P=124, N=206)
+2025-03-05 17:08:15,059 - INFO - Regula po iteracji 0: IF HMDTY <= 27.50 THEN class = {4.88} [2.70, 7.06], (p=43, n=6, P=124, N=206)
+2025-03-05 17:08:15,059 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:15,196 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:15,196 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:15,196 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:15,196 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:15,212 - INFO - Iteracja 1: condition_best: VDB500HT >= 5,740.00, quality_best: 0.564, coverage_best: (p=31, n=2, P=124, N=206)
+2025-03-05 17:08:15,212 - INFO - Regula po iteracji 1: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 THEN class = {4.88} [2.74, 7.02], (p=31, n=2, P=124, N=206)
+2025-03-05 17:08:15,212 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:15,348 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:15,349 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:15,349 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:15,349 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:15,360 - INFO - Iteracja 2: condition_best: SDAFBTMP <= 60.50, quality_best: 0.566, coverage_best: (p=22, n=2, P=81, N=249)
+2025-03-05 17:08:15,360 - INFO - Regula po iteracji 2: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND SDAFBTMP <= 60.50 THEN class = {3.96} [2.90, 5.02], (p=22, n=2, P=81, N=249)
+2025-03-05 17:08:15,361 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:15,497 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:15,497 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:15,497 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:15,497 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:15,506 - INFO - Iteracja 3: condition_best: VDB500HT <= 5,865.00, quality_best: 0.557, coverage_best: (p=21, n=2, P=81, N=249)
+2025-03-05 17:08:15,506 - INFO - Regula po iteracji 3: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND SDAFBTMP <= 60.50 AND VDB500HT <= 5,865.00 THEN class = {4.00} [2.94, 5.06], (p=21, n=2, P=81, N=249)
+2025-03-05 17:08:15,506 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:15,643 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:15,643 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:15,643 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:15,643 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:15,651 - INFO - Iteracja 4: condition_best: VDB500HT <= 5,845.00, quality_best: 0.548, coverage_best: (p=20, n=2, P=81, N=249)
+2025-03-05 17:08:15,651 - INFO - Regula po iteracji 4: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND SDAFBTMP <= 60.50 AND VDB500HT <= 5,865.00 AND VDB500HT <= 5,845.00 THEN class = {4.00} [2.91, 5.09], (p=20, n=2, P=81, N=249)
+2025-03-05 17:08:15,652 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:15,788 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:15,789 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:15,789 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:15,789 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:15,789 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:15,791 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:15,869 - INFO - Iteracja 0: condition_best: HMDTY <= 27.50, quality_best: 0.541, coverage_best: (p=43, n=6, P=124, N=206)
+2025-03-05 17:08:15,869 - INFO - Regula po iteracji 0: IF HMDTY <= 27.50 THEN class = {4.88} [2.70, 7.06], (p=43, n=6, P=124, N=206)
+2025-03-05 17:08:15,869 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:16,006 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:16,006 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:16,006 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:16,006 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:16,021 - INFO - Iteracja 1: condition_best: VDB500HT >= 5,740.00, quality_best: 0.564, coverage_best: (p=31, n=2, P=124, N=206)
+2025-03-05 17:08:16,021 - INFO - Regula po iteracji 1: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 THEN class = {4.88} [2.74, 7.02], (p=31, n=2, P=124, N=206)
+2025-03-05 17:08:16,021 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:16,158 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:16,158 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:16,158 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:16,158 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:16,169 - INFO - Iteracja 2: condition_best: VDB500HT <= 5,910.00, quality_best: 0.559, coverage_best: (p=30, n=2, P=124, N=206)
+2025-03-05 17:08:16,169 - INFO - Regula po iteracji 2: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND VDB500HT <= 5,910.00 THEN class = {4.84} [2.68, 7.01], (p=30, n=2, P=124, N=206)
+2025-03-05 17:08:16,169 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:16,306 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:16,306 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:16,306 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:16,306 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:16,317 - INFO - Iteracja 3: condition_best: WDSP <= 7.50, quality_best: 0.553, coverage_best: (p=29, n=2, P=124, N=206)
+2025-03-05 17:08:16,317 - INFO - Regula po iteracji 3: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND VDB500HT <= 5,910.00 AND WDSP <= 7.50 THEN class = {4.87} [2.68, 7.07], (p=29, n=2, P=124, N=206)
+2025-03-05 17:08:16,317 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:16,454 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:16,454 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:16,454 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:16,454 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:16,464 - INFO - Iteracja 4: condition_best: WDSP <= 6.50, quality_best: 0.547, coverage_best: (p=28, n=2, P=124, N=206)
+2025-03-05 17:08:16,465 - INFO - Regula po iteracji 4: IF HMDTY <= 27.50 AND VDB500HT >= 5,740.00 AND VDB500HT <= 5,910.00 AND WDSP <= 7.50 AND WDSP <= 6.50 THEN class = {4.87} [2.63, 7.10], (p=28, n=2, P=124, N=206)
+2025-03-05 17:08:16,465 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:16,601 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:16,601 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:16,602 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:16,602 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:16,602 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:16,604 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:16,681 - INFO - Iteracja 0: condition_best: HMDTY <= 27.50, quality_best: 0.541, coverage_best: (p=43, n=6, P=124, N=206)
+2025-03-05 17:08:16,681 - INFO - Regula po iteracji 0: IF HMDTY <= 27.50 THEN class = {4.88} [2.70, 7.06], (p=43, n=6, P=124, N=206)
+2025-03-05 17:08:16,681 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:16,818 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:16,818 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:16,818 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:16,818 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:16,833 - INFO - Iteracja 1: condition_best: SDAFBTMP <= 60.50, quality_best: 0.55, coverage_best: (p=35, n=5, P=102, N=228)
+2025-03-05 17:08:16,833 - INFO - Regula po iteracji 1: IF HMDTY <= 27.50 AND SDAFBTMP <= 60.50 THEN class = {4.33} [2.62, 6.03], (p=35, n=5, P=102, N=228)
+2025-03-05 17:08:16,833 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:16,969 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:16,970 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:16,970 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:16,970 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:16,982 - INFO - Iteracja 2: condition_best: VZBLTY >= 85.00, quality_best: 0.544, coverage_best: (p=31, n=4, P=102, N=228)
+2025-03-05 17:08:16,982 - INFO - Regula po iteracji 2: IF HMDTY <= 27.50 AND SDAFBTMP <= 60.50 AND VZBLTY >= 85.00 THEN class = {4.34} [2.60, 6.08], (p=31, n=4, P=102, N=228)
+2025-03-05 17:08:16,982 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:17,119 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:17,119 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:17,119 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:17,119 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:17,131 - INFO - Iteracja 3: condition_best: SDAFBTMP <= 59.50, quality_best: 0.562, coverage_best: (p=30, n=3, P=102, N=228)
+2025-03-05 17:08:17,131 - INFO - Regula po iteracji 3: IF HMDTY <= 27.50 AND SDAFBTMP <= 60.50 AND VZBLTY >= 85.00 AND SDAFBTMP <= 59.50 THEN class = {4.27} [2.54, 6.00], (p=30, n=3, P=102, N=228)
+2025-03-05 17:08:17,131 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:17,268 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:17,268 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:17,268 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:17,268 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:17,279 - INFO - Iteracja 4: condition_best: INVTMP >= 43.00, quality_best: 0.57, coverage_best: (p=26, n=3, P=81, N=249)
+2025-03-05 17:08:17,279 - INFO - Regula po iteracji 4: IF HMDTY <= 27.50 AND SDAFBTMP <= 60.50 AND VZBLTY >= 85.00 AND SDAFBTMP <= 59.50 AND INVTMP >= 43.00 THEN class = {4.24} [2.49, 6.00], (p=26, n=3, P=81, N=249)
+2025-03-05 17:08:17,279 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:17,416 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:17,416 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:17,416 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:17,416 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:17,416 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:17,421 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:17,499 - INFO - Iteracja 0: condition_best: DAGPG <= -17.50, quality_best: 0.53, coverage_best: (p=57, n=6, P=174, N=156)
+2025-03-05 17:08:17,499 - INFO - Regula po iteracji 0: IF DAGPG <= -17.50 THEN class = {5.95} [1.63, 10.27], (p=57, n=6, P=174, N=156)
+2025-03-05 17:08:17,499 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:17,636 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:17,636 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:17,636 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:17,636 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:17,657 - INFO - Iteracja 1: condition_best: VZBLTY >= 35.00, quality_best: 0.581, coverage_best: (p=53, n=5, P=143, N=187)
+2025-03-05 17:08:17,657 - INFO - Regula po iteracji 1: IF DAGPG <= -17.50 AND VZBLTY >= 35.00 THEN class = {5.31} [1.85, 8.78], (p=53, n=5, P=143, N=187)
+2025-03-05 17:08:17,657 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:17,794 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:17,794 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:17,794 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:17,794 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:17,812 - INFO - Iteracja 2: condition_best: VDB500HT <= 5,880.00, quality_best: 0.612, coverage_best: (p=51, n=3, P=143, N=187)
+2025-03-05 17:08:17,812 - INFO - Regula po iteracji 2: IF DAGPG <= -17.50 AND VZBLTY >= 35.00 AND VDB500HT <= 5,880.00 THEN class = {5.04} [1.67, 8.40], (p=51, n=3, P=143, N=187)
+2025-03-05 17:08:17,812 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:17,952 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:17,952 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:17,952 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:17,953 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:17,969 - INFO - Iteracja 3: condition_best: INVHT >= 518.00, quality_best: 0.612, coverage_best: (p=46, n=2, P=143, N=187)
+2025-03-05 17:08:17,970 - INFO - Regula po iteracji 3: IF DAGPG <= -17.50 AND VZBLTY >= 35.00 AND VDB500HT <= 5,880.00 AND INVHT >= 518.00 THEN class = {4.88} [1.43, 8.32], (p=46, n=2, P=143, N=187)
+2025-03-05 17:08:17,970 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:18,107 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:18,107 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:18,107 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:18,107 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:18,122 - INFO - Iteracja 4: condition_best: VDB500HT >= 5,625.00, quality_best: 0.608, coverage_best: (p=45, n=2, P=143, N=187)
+2025-03-05 17:08:18,122 - INFO - Regula po iteracji 4: IF DAGPG <= -17.50 AND VZBLTY >= 35.00 AND VDB500HT <= 5,880.00 AND INVHT >= 518.00 AND VDB500HT >= 5,625.00 THEN class = {4.91} [1.45, 8.38], (p=45, n=2, P=143, N=187)
+2025-03-05 17:08:18,123 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:18,259 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:18,259 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:18,259 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:18,259 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:18,259 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:18,262 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:18,340 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:18,340 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:18,340 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:18,478 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:18,478 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:18,478 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:18,478 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:18,520 - INFO - Iteracja 1: condition_best: HMDTY <= 60.50, quality_best: 0.579, coverage_best: (p=80, n=12, P=152, N=178)
+2025-03-05 17:08:18,520 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND HMDTY <= 60.50 THEN class = {6.00} [2.51, 9.49], (p=80, n=12, P=152, N=178)
+2025-03-05 17:08:18,520 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:18,657 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:18,657 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:18,657 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:18,657 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:18,684 - INFO - Iteracja 2: condition_best: INVHT >= 368.50, quality_best: 0.607, coverage_best: (p=77, n=9, P=152, N=178)
+2025-03-05 17:08:18,684 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND HMDTY <= 60.50 AND INVHT >= 368.50 THEN class = {5.90} [2.60, 9.19], (p=77, n=9, P=152, N=178)
+2025-03-05 17:08:18,685 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:18,823 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:18,823 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:18,823 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:18,823 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:18,849 - INFO - Iteracja 3: condition_best: VDB500HT >= 5,380.00, quality_best: 0.603, coverage_best: (p=76, n=9, P=152, N=178)
+2025-03-05 17:08:18,849 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 61.50 AND HMDTY <= 60.50 AND INVHT >= 368.50 AND VDB500HT >= 5,380.00 THEN class = {5.93} [2.63, 9.23], (p=76, n=9, P=152, N=178)
+2025-03-05 17:08:18,849 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:18,987 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:18,988 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:18,988 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:18,988 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:19,013 - INFO - Iteracja 4: condition_best: INVHT >= 605.00, quality_best: 0.607, coverage_best: (p=70, n=7, P=152, N=178)
+2025-03-05 17:08:19,013 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 61.50 AND HMDTY <= 60.50 AND INVHT >= 368.50 AND VDB500HT >= 5,380.00 AND INVHT >= 605.00 THEN class = {5.81} [2.60, 9.01], (p=70, n=7, P=152, N=178)
+2025-03-05 17:08:19,013 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:19,152 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:19,152 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:19,152 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:19,152 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:19,152 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:19,157 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:19,234 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:19,234 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:19,234 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:19,374 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:19,374 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:19,374 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:19,374 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:19,414 - INFO - Iteracja 1: condition_best: HMDTY <= 65.50, quality_best: 0.568, coverage_best: (p=94, n=18, P=152, N=178)
+2025-03-05 17:08:19,414 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND HMDTY <= 65.50 THEN class = {6.06} [2.61, 9.52], (p=94, n=18, P=152, N=178)
+2025-03-05 17:08:19,415 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:19,553 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:19,554 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:19,554 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:19,554 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:19,584 - INFO - Iteracja 2: condition_best: INVHT >= 593.50, quality_best: 0.601, coverage_best: (p=85, n=12, P=152, N=178)
+2025-03-05 17:08:19,584 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND HMDTY <= 65.50 AND INVHT >= 593.50 THEN class = {5.81} [2.62, 9.01], (p=85, n=12, P=152, N=178)
+2025-03-05 17:08:19,585 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:19,722 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:19,723 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:19,723 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:19,723 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:19,750 - INFO - Iteracja 3: condition_best: DAGPG <= 64.00, quality_best: 0.597, coverage_best: (p=81, n=11, P=152, N=178)
+2025-03-05 17:08:19,750 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 61.50 AND HMDTY <= 65.50 AND INVHT >= 593.50 AND DAGPG <= 64.00 THEN class = {5.83} [2.58, 9.08], (p=81, n=11, P=152, N=178)
+2025-03-05 17:08:19,750 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:19,888 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:19,888 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:19,888 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:19,888 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:19,915 - INFO - Iteracja 4: condition_best: VZBLTY >= 45.00, quality_best: 0.602, coverage_best: (p=79, n=10, P=152, N=178)
+2025-03-05 17:08:19,915 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 61.50 AND HMDTY <= 65.50 AND INVHT >= 593.50 AND DAGPG <= 64.00 AND VZBLTY >= 45.00 THEN class = {5.78} [2.54, 9.01], (p=79, n=10, P=152, N=178)
+2025-03-05 17:08:19,915 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:20,052 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:20,053 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:20,053 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:20,053 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:20,053 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:20,056 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:20,133 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:20,133 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:20,133 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:20,272 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:20,272 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:20,272 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:20,272 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:20,312 - INFO - Iteracja 1: condition_best: HMDTY <= 71.50, quality_best: 0.568, coverage_best: (p=113, n=22, P=165, N=165)
+2025-03-05 17:08:20,312 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND HMDTY <= 71.50 THEN class = {6.46} [2.90, 10.01], (p=113, n=22, P=165, N=165)
+2025-03-05 17:08:20,312 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:20,450 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:20,450 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:20,450 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:20,450 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:20,485 - INFO - Iteracja 2: condition_best: INVHT >= 347.00, quality_best: 0.573, coverage_best: (p=109, n=20, P=165, N=165)
+2025-03-05 17:08:20,485 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND HMDTY <= 71.50 AND INVHT >= 347.00 THEN class = {6.47} [2.91, 10.03], (p=109, n=20, P=165, N=165)
+2025-03-05 17:08:20,486 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:20,624 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:20,624 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:20,624 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:20,624 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:20,658 - INFO - Iteracja 3: condition_best: INVHT >= 578.50, quality_best: 0.573, coverage_best: (p=100, n=20, P=152, N=178)
+2025-03-05 17:08:20,658 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 61.50 AND HMDTY <= 71.50 AND INVHT >= 347.00 AND INVHT >= 578.50 THEN class = {6.25} [2.90, 9.60], (p=100, n=20, P=152, N=178)
+2025-03-05 17:08:20,658 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:20,796 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:20,796 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:20,796 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:20,796 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:20,829 - INFO - Iteracja 4: condition_best: HMDTY <= 70.50, quality_best: 0.601, coverage_best: (p=99, n=17, P=152, N=178)
+2025-03-05 17:08:20,829 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 61.50 AND HMDTY <= 71.50 AND INVHT >= 347.00 AND INVHT >= 578.50 AND HMDTY <= 70.50 THEN class = {6.15} [2.92, 9.37], (p=99, n=17, P=152, N=178)
+2025-03-05 17:08:20,829 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:20,967 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:20,967 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:20,967 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:20,967 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:20,967 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:20,972 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:21,049 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:21,049 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:21,049 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:21,187 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:21,187 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:21,187 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:21,188 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:21,227 - INFO - Iteracja 1: condition_best: HMDTY <= 73.50, quality_best: 0.566, coverage_best: (p=120, n=25, P=165, N=165)
+2025-03-05 17:08:21,227 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND HMDTY <= 73.50 THEN class = {6.44} [2.72, 10.16], (p=120, n=25, P=165, N=165)
+2025-03-05 17:08:21,227 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:21,366 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:21,366 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:21,366 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:21,366 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:21,403 - INFO - Iteracja 2: condition_best: INVHT >= 368.50, quality_best: 0.58, coverage_best: (p=116, n=22, P=165, N=165)
+2025-03-05 17:08:21,403 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND HMDTY <= 73.50 AND INVHT >= 368.50 THEN class = {6.38} [2.74, 10.01], (p=116, n=22, P=165, N=165)
+2025-03-05 17:08:21,403 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:21,541 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:21,541 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:21,541 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:21,542 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:21,577 - INFO - Iteracja 3: condition_best: VZBLTY <= 325.00, quality_best: 0.586, coverage_best: (p=115, n=21, P=165, N=165)
+2025-03-05 17:08:21,577 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 61.50 AND HMDTY <= 73.50 AND INVHT >= 368.50 AND VZBLTY <= 325.00 THEN class = {6.43} [2.80, 10.07], (p=115, n=21, P=165, N=165)
+2025-03-05 17:08:21,578 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:21,716 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:21,716 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:21,716 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:21,716 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:21,752 - INFO - Iteracja 4: condition_best: VDB500HT >= 5,335.00, quality_best: 0.582, coverage_best: (p=114, n=21, P=165, N=165)
+2025-03-05 17:08:21,752 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 61.50 AND HMDTY <= 73.50 AND INVHT >= 368.50 AND VZBLTY <= 325.00 AND VDB500HT >= 5,335.00 THEN class = {6.46} [2.82, 10.09], (p=114, n=21, P=165, N=165)
+2025-03-05 17:08:21,752 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:21,890 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:21,890 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:21,890 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:21,890 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:21,890 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:21,893 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:23,305 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:23,305 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:23,305 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:23,444 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:23,444 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:23,445 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:23,445 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:23,485 - INFO - Iteracja 1: condition_best: DAGPG <= 64.00, quality_best: 0.559, coverage_best: (p=123, n=27, P=165, N=165)
+2025-03-05 17:08:23,485 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND DAGPG <= 64.00 THEN class = {6.47} [2.71, 10.22], (p=123, n=27, P=165, N=165)
+2025-03-05 17:08:23,485 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:23,624 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:23,624 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:23,624 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:23,624 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:23,663 - INFO - Iteracja 2: condition_best: HMDTY <= 80.50, quality_best: 0.576, coverage_best: (p=120, n=24, P=165, N=165)
+2025-03-05 17:08:23,663 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND DAGPG <= 64.00 AND HMDTY <= 80.50 THEN class = {6.50} [2.77, 10.23], (p=120, n=24, P=165, N=165)
+2025-03-05 17:08:23,663 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:23,801 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:23,801 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:23,801 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:23,801 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:23,839 - INFO - Iteracja 3: condition_best: VZBLTY >= 6.00, quality_best: 0.586, coverage_best: (p=120, n=23, P=165, N=165)
+2025-03-05 17:08:23,839 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 61.50 AND DAGPG <= 64.00 AND HMDTY <= 80.50 AND VZBLTY >= 6.00 THEN class = {6.43} [2.78, 10.09], (p=120, n=23, P=165, N=165)
+2025-03-05 17:08:23,839 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:23,977 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:23,977 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:23,977 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:23,977 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:24,015 - INFO - Iteracja 4: condition_best: VZBLTY <= 325.00, quality_best: 0.592, coverage_best: (p=119, n=22, P=165, N=165)
+2025-03-05 17:08:24,015 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 61.50 AND DAGPG <= 64.00 AND HMDTY <= 80.50 AND VZBLTY >= 6.00 AND VZBLTY <= 325.00 THEN class = {6.49} [2.84, 10.14], (p=119, n=22, P=165, N=165)
+2025-03-05 17:08:24,015 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:24,153 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:24,153 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:24,153 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:24,153 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:24,153 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:24,157 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:24,232 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 61.50, quality_best: 0.528, coverage_best: (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:24,232 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 61.50 THEN class = {6.34} [2.60, 10.08], (p=129, n=33, P=165, N=165)
+2025-03-05 17:08:24,232 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:24,370 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:24,370 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:24,370 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:24,370 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:24,410 - INFO - Iteracja 1: condition_best: VZBLTY <= 325.00, quality_best: 0.533, coverage_best: (p=128, n=32, P=165, N=165)
+2025-03-05 17:08:24,410 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 61.50 AND VZBLTY <= 325.00 THEN class = {6.39} [2.65, 10.13], (p=128, n=32, P=165, N=165)
+2025-03-05 17:08:24,410 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:24,548 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:24,548 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:24,548 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:24,548 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:24,588 - INFO - Iteracja 2: condition_best: INVHT >= 417.50, quality_best: 0.536, coverage_best: (p=122, n=29, P=165, N=165)
+2025-03-05 17:08:24,588 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 61.50 AND VZBLTY <= 325.00 AND INVHT >= 417.50 THEN class = {6.33} [2.65, 10.01], (p=122, n=29, P=165, N=165)
+2025-03-05 17:08:24,588 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:24,726 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:24,726 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:24,726 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:24,726 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:24,765 - INFO - Iteracja 3: condition_best: WDSP <= 8.50, quality_best: 0.536, coverage_best: (p=115, n=26, P=165, N=165)
+2025-03-05 17:08:24,765 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 61.50 AND VZBLTY <= 325.00 AND INVHT >= 417.50 AND WDSP <= 8.50 THEN class = {6.55} [2.84, 10.25], (p=115, n=26, P=165, N=165)
+2025-03-05 17:08:24,765 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:24,905 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:24,905 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:24,905 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:24,905 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:24,942 - INFO - Iteracja 4: condition_best: VDB500HT >= 5,380.00, quality_best: 0.531, coverage_best: (p=114, n=26, P=165, N=165)
+2025-03-05 17:08:24,942 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 61.50 AND VZBLTY <= 325.00 AND INVHT >= 417.50 AND WDSP <= 8.50 AND VDB500HT >= 5,380.00 THEN class = {6.57} [2.87, 10.27], (p=114, n=26, P=165, N=165)
+2025-03-05 17:08:24,942 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:25,080 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:25,080 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:25,080 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:25,080 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:25,080 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:25,082 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:25,158 - INFO - Iteracja 0: condition_best: DAGPG <= -8.50, quality_best: 0.525, coverage_best: (p=77, n=8, P=201, N=129)
+2025-03-05 17:08:25,158 - INFO - Regula po iteracji 0: IF DAGPG <= -8.50 THEN class = {7.12} [1.67, 12.57], (p=77, n=8, P=201, N=129)
+2025-03-05 17:08:25,158 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:25,295 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:25,296 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:25,296 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:25,296 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:25,322 - INFO - Iteracja 1: condition_best: INVTMP <= 80.00, quality_best: 0.577, coverage_best: (p=75, n=5, P=201, N=129)
+2025-03-05 17:08:25,322 - INFO - Regula po iteracji 1: IF DAGPG <= -8.50 AND INVTMP <= 80.00 THEN class = {6.76} [1.50, 12.02], (p=75, n=5, P=201, N=129)
+2025-03-05 17:08:25,322 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:25,459 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:25,460 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:25,460 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:25,460 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:25,484 - INFO - Iteracja 2: condition_best: VDB500HT >= 5,565.00, quality_best: 0.573, coverage_best: (p=74, n=5, P=201, N=129)
+2025-03-05 17:08:25,484 - INFO - Regula po iteracji 2: IF DAGPG <= -8.50 AND INVTMP <= 80.00 AND VDB500HT >= 5,565.00 THEN class = {6.80} [1.51, 12.08], (p=74, n=5, P=201, N=129)
+2025-03-05 17:08:25,484 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:25,622 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:25,622 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:25,622 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:25,622 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:25,646 - INFO - Iteracja 3: condition_best: VDB500HT <= 5,895.00, quality_best: 0.57, coverage_best: (p=73, n=5, P=201, N=129)
+2025-03-05 17:08:25,646 - INFO - Regula po iteracji 3: IF DAGPG <= -8.50 AND INVTMP <= 80.00 AND VDB500HT >= 5,565.00 AND VDB500HT <= 5,895.00 THEN class = {6.74} [1.45, 12.04], (p=73, n=5, P=201, N=129)
+2025-03-05 17:08:25,646 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:25,783 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:25,784 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:25,784 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:25,784 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:25,807 - INFO - Iteracja 4: condition_best: VDB500HT >= 5,605.00, quality_best: 0.566, coverage_best: (p=72, n=5, P=201, N=129)
+2025-03-05 17:08:25,807 - INFO - Regula po iteracji 4: IF DAGPG <= -8.50 AND INVTMP <= 80.00 AND VDB500HT >= 5,565.00 AND VDB500HT <= 5,895.00 AND VDB500HT >= 5,605.00 THEN class = {6.79} [1.48, 12.11], (p=72, n=5, P=201, N=129)
+2025-03-05 17:08:25,808 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:25,945 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:25,945 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:25,945 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:25,945 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:25,945 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:25,947 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:26,022 - INFO - Iteracja 0: condition_best: SDAFBTMP >= 67.50, quality_best: 0.514, coverage_best: (p=83, n=33, P=107, N=223)
+2025-03-05 17:08:26,022 - INFO - Regula po iteracji 0: IF SDAFBTMP >= 67.50 THEN class = {19.80} [12.93, 26.67], (p=83, n=33, P=107, N=223)
+2025-03-05 17:08:26,023 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:26,160 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:26,160 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:26,160 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:26,160 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:26,197 - INFO - Iteracja 1: condition_best: VZBLTY >= 25.00, quality_best: 0.551, coverage_best: (p=79, n=26, P=107, N=223)
+2025-03-05 17:08:26,197 - INFO - Regula po iteracji 1: IF SDAFBTMP >= 67.50 AND VZBLTY >= 25.00 THEN class = {19.49} [12.87, 26.10], (p=79, n=26, P=107, N=223)
+2025-03-05 17:08:26,197 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:26,335 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:26,335 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:26,336 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:26,336 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:26,368 - INFO - Iteracja 2: condition_best: HMDTY <= 88.00, quality_best: 0.554, coverage_best: (p=78, n=25, P=107, N=223)
+2025-03-05 17:08:26,368 - INFO - Regula po iteracji 2: IF SDAFBTMP >= 67.50 AND VZBLTY >= 25.00 AND HMDTY <= 88.00 THEN class = {19.42} [12.81, 26.03], (p=78, n=25, P=107, N=223)
+2025-03-05 17:08:26,368 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:26,506 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:26,506 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:26,506 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:26,506 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:26,538 - INFO - Iteracja 3: condition_best: INVHT >= 368.50, quality_best: 0.561, coverage_best: (p=76, n=23, P=107, N=223)
+2025-03-05 17:08:26,538 - INFO - Regula po iteracji 3: IF SDAFBTMP >= 67.50 AND VZBLTY >= 25.00 AND HMDTY <= 88.00 AND INVHT >= 368.50 THEN class = {19.52} [12.98, 26.05], (p=76, n=23, P=107, N=223)
+2025-03-05 17:08:26,538 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:26,676 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:26,676 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:26,676 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:26,676 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:26,707 - INFO - Iteracja 4: condition_best: WDSP >= 1.00, quality_best: 0.555, coverage_best: (p=75, n=23, P=107, N=223)
+2025-03-05 17:08:26,707 - INFO - Regula po iteracji 4: IF SDAFBTMP >= 67.50 AND VZBLTY >= 25.00 AND HMDTY <= 88.00 AND INVHT >= 368.50 AND WDSP >= 1.00 THEN class = {19.51} [12.94, 26.08], (p=75, n=23, P=107, N=223)
+2025-03-05 17:08:26,707 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:26,845 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:26,845 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:26,845 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:26,845 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:26,845 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:26,847 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:26,919 - INFO - Iteracja 0: condition_best: SDAFBTMP >= 67.50, quality_best: 0.514, coverage_best: (p=83, n=33, P=107, N=223)
+2025-03-05 17:08:26,919 - INFO - Regula po iteracji 0: IF SDAFBTMP >= 67.50 THEN class = {19.80} [12.93, 26.67], (p=83, n=33, P=107, N=223)
+2025-03-05 17:08:26,920 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:27,057 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:27,057 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:27,058 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:27,058 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:27,090 - INFO - Iteracja 1: condition_best: VZBLTY >= 25.00, quality_best: 0.551, coverage_best: (p=79, n=26, P=107, N=223)
+2025-03-05 17:08:27,090 - INFO - Regula po iteracji 1: IF SDAFBTMP >= 67.50 AND VZBLTY >= 25.00 THEN class = {19.49} [12.87, 26.10], (p=79, n=26, P=107, N=223)
+2025-03-05 17:08:27,090 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:27,228 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:27,228 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:27,228 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:27,228 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:27,258 - INFO - Iteracja 2: condition_best: DAGPG <= 73.50, quality_best: 0.554, coverage_best: (p=78, n=25, P=107, N=223)
+2025-03-05 17:08:27,258 - INFO - Regula po iteracji 2: IF SDAFBTMP >= 67.50 AND VZBLTY >= 25.00 AND DAGPG <= 73.50 THEN class = {19.58} [12.97, 26.19], (p=78, n=25, P=107, N=223)
+2025-03-05 17:08:27,259 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:27,396 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:27,396 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:27,396 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:27,397 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:27,426 - INFO - Iteracja 3: condition_best: SDAFBTMP <= 92.50, quality_best: 0.551, coverage_best: (p=76, n=24, P=107, N=223)
+2025-03-05 17:08:27,427 - INFO - Regula po iteracji 3: IF SDAFBTMP >= 67.50 AND VZBLTY >= 25.00 AND DAGPG <= 73.50 AND SDAFBTMP <= 92.50 THEN class = {19.45} [12.83, 26.07], (p=76, n=24, P=107, N=223)
+2025-03-05 17:08:27,427 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:27,564 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:27,564 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:27,564 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:27,564 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:27,594 - INFO - Iteracja 4: condition_best: DAGPG <= 68.00, quality_best: 0.549, coverage_best: (p=74, n=23, P=107, N=223)
+2025-03-05 17:08:27,594 - INFO - Regula po iteracji 4: IF SDAFBTMP >= 67.50 AND VZBLTY >= 25.00 AND DAGPG <= 73.50 AND SDAFBTMP <= 92.50 AND DAGPG <= 68.00 THEN class = {19.57} [12.91, 26.22], (p=74, n=23, P=107, N=223)
+2025-03-05 17:08:27,594 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:27,732 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:27,732 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:27,732 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:27,732 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:27,732 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:27,734 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:27,805 - INFO - Iteracja 0: condition_best: SDAFBTMP >= 67.50, quality_best: 0.514, coverage_best: (p=83, n=33, P=107, N=223)
+2025-03-05 17:08:27,805 - INFO - Regula po iteracji 0: IF SDAFBTMP >= 67.50 THEN class = {19.80} [12.93, 26.67], (p=83, n=33, P=107, N=223)
+2025-03-05 17:08:27,805 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:27,943 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:27,943 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:27,943 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:27,944 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:27,976 - INFO - Iteracja 1: condition_best: VZBLTY >= 12.00, quality_best: 0.539, coverage_best: (p=83, n=30, P=107, N=223)
+2025-03-05 17:08:27,976 - INFO - Regula po iteracji 1: IF SDAFBTMP >= 67.50 AND VZBLTY >= 12.00 THEN class = {19.73} [12.89, 26.58], (p=83, n=30, P=107, N=223)
+2025-03-05 17:08:27,976 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:28,113 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:28,114 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:28,114 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:28,114 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:28,146 - INFO - Iteracja 2: condition_best: INVTMP <= 88.00, quality_best: 0.551, coverage_best: (p=82, n=28, P=107, N=223)
+2025-03-05 17:08:28,146 - INFO - Regula po iteracji 2: IF SDAFBTMP >= 67.50 AND VZBLTY >= 12.00 AND INVTMP <= 88.00 THEN class = {19.49} [12.85, 26.13], (p=82, n=28, P=107, N=223)
+2025-03-05 17:08:28,146 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:28,283 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:28,284 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:28,284 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:28,284 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:28,315 - INFO - Iteracja 3: condition_best: INVHT >= 219.50, quality_best: 0.559, coverage_best: (p=82, n=27, P=107, N=223)
+2025-03-05 17:08:28,315 - INFO - Regula po iteracji 3: IF SDAFBTMP >= 67.50 AND VZBLTY >= 12.00 AND INVTMP <= 88.00 AND INVHT >= 219.50 THEN class = {19.41} [12.79, 26.03], (p=82, n=27, P=107, N=223)
+2025-03-05 17:08:28,315 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:28,453 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:28,453 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:28,453 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:28,453 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:28,485 - INFO - Iteracja 4: condition_best: DAGPG <= 75.50, quality_best: 0.563, coverage_best: (p=81, n=26, P=107, N=223)
+2025-03-05 17:08:28,485 - INFO - Regula po iteracji 4: IF SDAFBTMP >= 67.50 AND VZBLTY >= 12.00 AND INVTMP <= 88.00 AND INVHT >= 219.50 AND DAGPG <= 75.50 THEN class = {19.50} [12.89, 26.12], (p=81, n=26, P=107, N=223)
+2025-03-05 17:08:28,485 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:28,622 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:28,622 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:28,622 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:28,622 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:28,622 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:28,625 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:28,696 - INFO - Iteracja 0: condition_best: INVTMP <= 55.50, quality_best: 0.511, coverage_best: (p=90, n=27, P=134, N=196)
+2025-03-05 17:08:28,696 - INFO - Regula po iteracji 0: IF INVTMP <= 55.50 THEN class = {5.46} [2.78, 8.15], (p=90, n=27, P=134, N=196)
+2025-03-05 17:08:28,696 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:28,834 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:28,834 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:28,834 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:28,834 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:28,863 - INFO - Iteracja 1: condition_best: DAGPG <= 56.50, quality_best: 0.557, coverage_best: (p=81, n=18, P=134, N=196)
+2025-03-05 17:08:28,863 - INFO - Regula po iteracji 1: IF INVTMP <= 55.50 AND DAGPG <= 56.50 THEN class = {5.55} [2.92, 8.18], (p=81, n=18, P=134, N=196)
+2025-03-05 17:08:28,864 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:29,002 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:29,003 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:29,003 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:29,003 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:29,029 - INFO - Iteracja 2: condition_best: INVHT >= 1,297.00, quality_best: 0.564, coverage_best: (p=78, n=16, P=134, N=196)
+2025-03-05 17:08:29,029 - INFO - Regula po iteracji 2: IF INVTMP <= 55.50 AND DAGPG <= 56.50 AND INVHT >= 1,297.00 THEN class = {5.41} [2.82, 8.01], (p=78, n=16, P=134, N=196)
+2025-03-05 17:08:29,029 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:29,168 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:29,168 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:29,168 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:29,168 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:29,194 - INFO - Iteracja 3: condition_best: VZBLTY <= 325.00, quality_best: 0.571, coverage_best: (p=77, n=15, P=134, N=196)
+2025-03-05 17:08:29,194 - INFO - Regula po iteracji 3: IF INVTMP <= 55.50 AND DAGPG <= 56.50 AND INVHT >= 1,297.00 AND VZBLTY <= 325.00 THEN class = {5.48} [2.89, 8.06], (p=77, n=15, P=134, N=196)
+2025-03-05 17:08:29,194 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:29,333 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:29,333 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:29,333 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:29,333 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:29,359 - INFO - Iteracja 4: condition_best: INVHT >= 2,048.50, quality_best: 0.567, coverage_best: (p=71, n=15, P=124, N=206)
+2025-03-05 17:08:29,359 - INFO - Regula po iteracji 4: IF INVTMP <= 55.50 AND DAGPG <= 56.50 AND INVHT >= 1,297.00 AND VZBLTY <= 325.00 AND INVHT >= 2,048.50 THEN class = {5.29} [2.88, 7.70], (p=71, n=15, P=124, N=206)
+2025-03-05 17:08:29,359 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:29,499 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:29,499 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:29,499 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:29,499 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:29,499 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:29,501 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:29,572 - INFO - Iteracja 0: condition_best: INVHT >= 3,359.50, quality_best: 0.509, coverage_best: (p=95, n=24, P=152, N=178)
+2025-03-05 17:08:29,572 - INFO - Regula po iteracji 0: IF INVHT >= 3,359.50 THEN class = {5.71} [2.39, 9.02], (p=95, n=24, P=152, N=178)
+2025-03-05 17:08:29,572 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:29,712 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:29,712 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:29,712 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:29,712 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:29,743 - INFO - Iteracja 1: condition_best: HMDTY <= 76.50, quality_best: 0.543, coverage_best: (p=91, n=19, P=152, N=178)
+2025-03-05 17:08:29,743 - INFO - Regula po iteracji 1: IF INVHT >= 3,359.50 AND HMDTY <= 76.50 THEN class = {5.84} [2.51, 9.16], (p=91, n=19, P=152, N=178)
+2025-03-05 17:08:29,744 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:29,883 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:29,883 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:29,883 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:29,883 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:29,913 - INFO - Iteracja 2: condition_best: VDB500HT <= 5,895.00, quality_best: 0.555, coverage_best: (p=91, n=18, P=152, N=178)
+2025-03-05 17:08:29,913 - INFO - Regula po iteracji 2: IF INVHT >= 3,359.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,895.00 THEN class = {5.79} [2.49, 9.09], (p=91, n=18, P=152, N=178)
+2025-03-05 17:08:29,913 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:30,052 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:30,052 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:30,052 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:30,052 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:30,082 - INFO - Iteracja 3: condition_best: WDSP <= 8.50, quality_best: 0.562, coverage_best: (p=82, n=14, P=152, N=178)
+2025-03-05 17:08:30,082 - INFO - Regula po iteracji 3: IF INVHT >= 3,359.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,895.00 AND WDSP <= 8.50 THEN class = {5.98} [2.68, 9.28], (p=82, n=14, P=152, N=178)
+2025-03-05 17:08:30,083 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:30,221 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:30,222 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:30,222 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:30,222 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:30,249 - INFO - Iteracja 4: condition_best: INVHT >= 3,444.50, quality_best: 0.574, coverage_best: (p=82, n=13, P=152, N=178)
+2025-03-05 17:08:30,249 - INFO - Regula po iteracji 4: IF INVHT >= 3,359.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,895.00 AND WDSP <= 8.50 AND INVHT >= 3,444.50 THEN class = {5.87} [2.72, 9.02], (p=82, n=13, P=152, N=178)
+2025-03-05 17:08:30,249 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:30,388 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:30,388 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:30,388 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:30,388 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:30,388 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:30,391 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:30,462 - INFO - Iteracja 0: condition_best: INVTMP <= 59.50, quality_best: 0.506, coverage_best: (p=113, n=33, P=152, N=178)
+2025-03-05 17:08:30,462 - INFO - Regula po iteracji 0: IF INVTMP <= 59.50 THEN class = {6.08} [2.93, 9.22], (p=113, n=33, P=152, N=178)
+2025-03-05 17:08:30,462 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:30,600 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:30,600 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:30,600 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:30,600 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:30,636 - INFO - Iteracja 1: condition_best: HMDTY <= 80.50, quality_best: 0.538, coverage_best: (p=110, n=28, P=152, N=178)
+2025-03-05 17:08:30,636 - INFO - Regula po iteracji 1: IF INVTMP <= 59.50 AND HMDTY <= 80.50 THEN class = {6.04} [2.99, 9.09], (p=110, n=28, P=152, N=178)
+2025-03-05 17:08:30,636 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:30,774 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:30,774 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:30,774 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:30,774 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:30,808 - INFO - Iteracja 2: condition_best: INVHT >= 557.00, quality_best: 0.552, coverage_best: (p=109, n=26, P=152, N=178)
+2025-03-05 17:08:30,808 - INFO - Regula po iteracji 2: IF INVTMP <= 59.50 AND HMDTY <= 80.50 AND INVHT >= 557.00 THEN class = {6.00} [2.98, 9.02], (p=109, n=26, P=152, N=178)
+2025-03-05 17:08:30,808 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:30,947 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:30,947 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:30,947 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:30,947 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:30,980 - INFO - Iteracja 3: condition_best: VDB500HT >= 5,335.00, quality_best: 0.548, coverage_best: (p=108, n=26, P=152, N=178)
+2025-03-05 17:08:30,980 - INFO - Regula po iteracji 3: IF INVTMP <= 59.50 AND HMDTY <= 80.50 AND INVHT >= 557.00 AND VDB500HT >= 5,335.00 THEN class = {6.02} [3.00, 9.05], (p=108, n=26, P=152, N=178)
+2025-03-05 17:08:30,980 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:31,119 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:31,119 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:31,119 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:31,119 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:31,152 - INFO - Iteracja 4: condition_best: HMDTY <= 79.00, quality_best: 0.543, coverage_best: (p=107, n=26, P=152, N=178)
+2025-03-05 17:08:31,152 - INFO - Regula po iteracji 4: IF INVTMP <= 59.50 AND HMDTY <= 80.50 AND INVHT >= 557.00 AND VDB500HT >= 5,335.00 AND HMDTY <= 79.00 THEN class = {6.03} [3.00, 9.06], (p=107, n=26, P=152, N=178)
+2025-03-05 17:08:31,152 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:31,291 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:31,291 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:31,291 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:31,291 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:31,291 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:31,292 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:31,362 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 64.50, quality_best: 0.49, coverage_best: (p=144, n=45, P=165, N=165)
+2025-03-05 17:08:31,363 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 64.50 THEN class = {6.80} [2.96, 10.64], (p=144, n=45, P=165, N=165)
+2025-03-05 17:08:31,363 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:31,502 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:31,502 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:31,502 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:31,502 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:31,547 - INFO - Iteracja 1: condition_best: HMDTY <= 76.50, quality_best: 0.53, coverage_best: (p=136, n=36, P=165, N=165)
+2025-03-05 17:08:31,547 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 64.50 AND HMDTY <= 76.50 THEN class = {6.72} [2.99, 10.44], (p=136, n=36, P=165, N=165)
+2025-03-05 17:08:31,547 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:31,686 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:31,686 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:31,686 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:31,686 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:31,728 - INFO - Iteracja 2: condition_best: VDB500HT <= 5,885.00, quality_best: 0.539, coverage_best: (p=136, n=35, P=165, N=165)
+2025-03-05 17:08:31,728 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 64.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,885.00 THEN class = {6.69} [2.97, 10.41], (p=136, n=35, P=165, N=165)
+2025-03-05 17:08:31,728 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:31,868 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:31,868 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:31,868 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:31,868 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:31,910 - INFO - Iteracja 3: condition_best: VZBLTY >= 4.00, quality_best: 0.543, coverage_best: (p=135, n=34, P=165, N=165)
+2025-03-05 17:08:31,910 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 64.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,885.00 AND VZBLTY >= 4.00 THEN class = {6.63} [2.96, 10.30], (p=135, n=34, P=165, N=165)
+2025-03-05 17:08:31,910 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:32,049 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:32,049 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:32,049 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:32,049 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:32,091 - INFO - Iteracja 4: condition_best: DAGPG <= 64.00, quality_best: 0.547, coverage_best: (p=127, n=30, P=165, N=165)
+2025-03-05 17:08:32,091 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 64.50 AND HMDTY <= 76.50 AND VDB500HT <= 5,885.00 AND VZBLTY >= 4.00 AND DAGPG <= 64.00 THEN class = {6.71} [2.99, 10.42], (p=127, n=30, P=165, N=165)
+2025-03-05 17:08:32,091 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:32,230 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:32,230 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:32,230 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:32,230 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:32,230 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:32,232 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:32,302 - INFO - Iteracja 0: condition_best: HMDTY <= 59.50, quality_best: 0.483, coverage_best: (p=111, n=19, P=202, N=128)
+2025-03-05 17:08:32,302 - INFO - Regula po iteracji 0: IF HMDTY <= 59.50 THEN class = {7.85} [2.50, 13.19], (p=111, n=19, P=202, N=128)
+2025-03-05 17:08:32,303 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:32,441 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:32,441 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:32,441 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:32,441 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:32,477 - INFO - Iteracja 1: condition_best: SDAFBTMP <= 68.50, quality_best: 0.545, coverage_best: (p=97, n=16, P=174, N=156)
+2025-03-05 17:08:32,477 - INFO - Regula po iteracji 1: IF HMDTY <= 59.50 AND SDAFBTMP <= 68.50 THEN class = {6.84} [2.58, 11.10], (p=97, n=16, P=174, N=156)
+2025-03-05 17:08:32,477 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:32,616 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:32,616 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:32,616 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:32,616 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:32,647 - INFO - Iteracja 2: condition_best: INVHT >= 347.00, quality_best: 0.559, coverage_best: (p=94, n=14, P=174, N=156)
+2025-03-05 17:08:32,647 - INFO - Regula po iteracji 2: IF HMDTY <= 59.50 AND SDAFBTMP <= 68.50 AND INVHT >= 347.00 THEN class = {6.90} [2.62, 11.18], (p=94, n=14, P=174, N=156)
+2025-03-05 17:08:32,647 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:32,785 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:32,785 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:32,785 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:32,785 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:32,815 - INFO - Iteracja 3: condition_best: VZBLTY >= 3.00, quality_best: 0.572, coverage_best: (p=94, n=13, P=174, N=156)
+2025-03-05 17:08:32,815 - INFO - Regula po iteracji 3: IF HMDTY <= 59.50 AND SDAFBTMP <= 68.50 AND INVHT >= 347.00 AND VZBLTY >= 3.00 THEN class = {6.81} [2.60, 11.02], (p=94, n=13, P=174, N=156)
+2025-03-05 17:08:32,815 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:32,953 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:32,953 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:32,953 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:32,953 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:32,983 - INFO - Iteracja 4: condition_best: DAGPG <= 50.50, quality_best: 0.57, coverage_best: (p=90, n=12, P=174, N=156)
+2025-03-05 17:08:32,983 - INFO - Regula po iteracji 4: IF HMDTY <= 59.50 AND SDAFBTMP <= 68.50 AND INVHT >= 347.00 AND VZBLTY >= 3.00 AND DAGPG <= 50.50 THEN class = {6.79} [2.54, 11.05], (p=90, n=12, P=174, N=156)
+2025-03-05 17:08:32,984 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:33,122 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:33,122 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:33,122 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:33,122 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:33,122 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:33,124 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:33,193 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 65.50, quality_best: 0.469, coverage_best: (p=148, n=50, P=165, N=165)
+2025-03-05 17:08:33,193 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 65.50 THEN class = {6.97} [2.99, 10.96], (p=148, n=50, P=165, N=165)
+2025-03-05 17:08:33,193 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:33,332 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:33,332 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:33,332 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:33,332 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:33,378 - INFO - Iteracja 1: condition_best: DAGPG <= 78.00, quality_best: 0.496, coverage_best: (p=151, n=43, P=174, N=156)
+2025-03-05 17:08:33,378 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 65.50 AND DAGPG <= 78.00 THEN class = {6.99} [2.99, 11.00], (p=151, n=43, P=174, N=156)
+2025-03-05 17:08:33,378 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:33,518 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:33,518 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:33,518 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:33,518 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:33,564 - INFO - Iteracja 2: condition_best: INVHT >= 347.00, quality_best: 0.493, coverage_best: (p=146, n=41, P=174, N=156)
+2025-03-05 17:08:33,564 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 65.50 AND DAGPG <= 78.00 AND INVHT >= 347.00 THEN class = {7.00} [2.98, 11.02], (p=146, n=41, P=174, N=156)
+2025-03-05 17:08:33,564 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:33,703 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:33,704 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:33,704 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:33,704 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:33,749 - INFO - Iteracja 3: condition_best: HMDTY <= 90.00, quality_best: 0.489, coverage_best: (p=145, n=41, P=174, N=156)
+2025-03-05 17:08:33,749 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 65.50 AND DAGPG <= 78.00 AND INVHT >= 347.00 AND HMDTY <= 90.00 THEN class = {7.01} [2.98, 11.04], (p=145, n=41, P=174, N=156)
+2025-03-05 17:08:33,749 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:33,889 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:33,889 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:33,889 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:33,889 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:33,934 - INFO - Iteracja 4: condition_best: VDB500HT <= 5,885.00, quality_best: 0.485, coverage_best: (p=144, n=41, P=174, N=156)
+2025-03-05 17:08:33,934 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 65.50 AND DAGPG <= 78.00 AND INVHT >= 347.00 AND HMDTY <= 90.00 AND VDB500HT <= 5,885.00 THEN class = {6.99} [2.96, 11.02], (p=144, n=41, P=174, N=156)
+2025-03-05 17:08:33,935 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:34,075 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:34,075 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:34,075 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:34,075 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:34,075 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:34,076 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:34,145 - INFO - Iteracja 0: condition_best: SDAFBTMP <= 66.50, quality_best: 0.469, coverage_best: (p=158, n=50, P=174, N=156)
+2025-03-05 17:08:34,145 - INFO - Regula po iteracji 0: IF SDAFBTMP <= 66.50 THEN class = {7.31} [2.99, 11.62], (p=158, n=50, P=174, N=156)
+2025-03-05 17:08:34,145 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:34,285 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:34,285 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:34,285 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:34,285 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:34,332 - INFO - Iteracja 1: condition_best: VZBLTY >= 35.00, quality_best: 0.512, coverage_best: (p=153, n=42, P=174, N=156)
+2025-03-05 17:08:34,332 - INFO - Regula po iteracji 1: IF SDAFBTMP <= 66.50 AND VZBLTY >= 35.00 THEN class = {6.99} [2.86, 11.13], (p=153, n=42, P=174, N=156)
+2025-03-05 17:08:34,333 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:34,472 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:34,473 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:34,473 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:34,473 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:34,518 - INFO - Iteracja 2: condition_best: HMDTY <= 76.50, quality_best: 0.531, coverage_best: (p=145, n=36, P=174, N=156)
+2025-03-05 17:08:34,518 - INFO - Regula po iteracji 2: IF SDAFBTMP <= 66.50 AND VZBLTY >= 35.00 AND HMDTY <= 76.50 THEN class = {7.07} [2.91, 11.22], (p=145, n=36, P=174, N=156)
+2025-03-05 17:08:34,518 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:34,657 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:34,657 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:34,657 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:34,657 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:34,700 - INFO - Iteracja 3: condition_best: INVHT >= 368.50, quality_best: 0.538, coverage_best: (p=140, n=33, P=174, N=156)
+2025-03-05 17:08:34,700 - INFO - Regula po iteracji 3: IF SDAFBTMP <= 66.50 AND VZBLTY >= 35.00 AND HMDTY <= 76.50 AND INVHT >= 368.50 THEN class = {7.02} [2.90, 11.13], (p=140, n=33, P=174, N=156)
+2025-03-05 17:08:34,700 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:34,840 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:34,840 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:34,840 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:34,840 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:34,882 - INFO - Iteracja 4: condition_best: VZBLTY <= 325.00, quality_best: 0.543, coverage_best: (p=139, n=32, P=174, N=156)
+2025-03-05 17:08:34,882 - INFO - Regula po iteracji 4: IF SDAFBTMP <= 66.50 AND VZBLTY >= 35.00 AND HMDTY <= 76.50 AND INVHT >= 368.50 AND VZBLTY <= 325.00 THEN class = {7.07} [2.96, 11.18], (p=139, n=32, P=174, N=156)
+2025-03-05 17:08:34,882 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:35,021 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:35,021 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:35,021 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:35,021 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:35,021 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:35,023 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:35,091 - INFO - Iteracja 0: condition_best: INVTMP >= 91.50, quality_best: 0.667, coverage_best: (p=1, n=0, P=3, N=327)
+2025-03-05 17:08:35,091 - INFO - Regula po iteracji 0: IF INVTMP >= 91.50 THEN class = {27.00} [27.00, 27.00], (p=1, n=0, P=3, N=327)
+2025-03-05 17:08:35,091 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:35,228 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:35,228 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:35,228 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:35,228 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:35,228 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 17:08:35,228 - INFO - Regula po iteracji 1: IF INVTMP >= 91.50 THEN class = {27.00} [27.00, 27.00], (p=1, n=0, P=3, N=327)
+2025-03-05 17:08:35,228 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:35,229 - INFO - *******GROWING CR RULE*******
+2025-03-05 17:08:35,297 - INFO - Iteracja 0: condition_best: INVTMP >= 91.50, quality_best: 0.667, coverage_best: (p=1, n=0, P=3, N=327)
+2025-03-05 17:08:35,297 - INFO - Regula po iteracji 0: IF INVTMP >= 91.50 THEN class = {27.00} [27.00, 27.00], (p=1, n=0, P=3, N=327)
+2025-03-05 17:08:35,297 - INFO - *****GROWING RR RULE*****
+2025-03-05 17:08:35,433 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 17:08:35,434 - INFO - Regula po iteracji 0: IF  THEN class = {11.78} [3.78, 19.77], (p=232, n=98, P=232, N=98)
+2025-03-05 17:08:35,434 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 17:08:35,434 - INFO - ***RR NOT FOUND***
+2025-03-05 17:08:35,434 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 17:08:35,434 - INFO - Regula po iteracji 1: IF INVTMP >= 91.50 THEN class = {27.00} [27.00, 27.00], (p=1, n=0, P=3, N=327)
+2025-03-05 17:08:35,434 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 17:08:35,441 - INFO - ************************Finished experiment for ozone.arff with algorithm4************************
+2025-03-05 17:08:35,441 - INFO - *************************************************************************************************************************
+2025-03-05 17:08:35,441 - INFO - *************************************************************************************************************************
+2025-03-05 17:08:35,441 - INFO - *************************************************************************************************************************

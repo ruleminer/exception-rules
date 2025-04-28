@@ -1,0 +1,20 @@
+CR: IF odor = {f} THEN class = p (p=2160, n=0, P=3916, N=4208)
+
+CR: IF gill-color = {b} THEN class = p (p=1728, n=0, P=3916, N=4208)
+
+CR: IF stalk-surface-above-ring = {k} AND gill-spacing = {c} THEN class = p (p=2228, n=0, P=3916, N=4208)
+
+CR: IF gill-size = {n} THEN class = p (p=2224, n=288, P=3916, N=4208), GACE: 0.03, RI: 3.164, RES: 0.576
+RR: IF spore-print-color = {h} THEN class = p (p=1584, n=48, P=3916, N=4208) 
+ER: IF gill-size = {n} AND spore-print-color = {h} THEN class = e (p=48, n=0, P=4208, N=3916) 
+
+CR: IF spore-print-color = {r} THEN class = p (p=72, n=0, P=3916, N=4208)
+
+CR: IF odor = {n} THEN class = e (p=3408, n=120, P=4208, N=3916), GACE: 0.018, RI: 4.996, RES: 0.672
+RR: IF stalk-root = {c} THEN class = e (p=512, n=44, P=4208, N=3916) 
+ER: IF odor = {n} AND stalk-root = {c} THEN class = p (p=8, n=0, P=3916, N=4208) 
+
+CR: IF odor = {a} THEN class = e (p=400, n=0, P=4208, N=3916)
+
+CR: IF odor = {l} THEN class = e (p=400, n=0, P=4208, N=3916)
+

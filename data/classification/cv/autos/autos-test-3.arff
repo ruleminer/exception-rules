@@ -1,0 +1,51 @@
+@relation R_data_frame
+
+@attribute normalized-losses numeric
+@attribute make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute fuel-type {diesel,gas}
+@attribute aspiration {std,turbo}
+@attribute num-of-doors {four,two}
+@attribute body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute drive-wheels {4wd,fwd,rwd}
+@attribute engine-location {front,rear}
+@attribute wheel-base numeric
+@attribute length numeric
+@attribute width numeric
+@attribute height numeric
+@attribute curb-weight numeric
+@attribute engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute engine-size numeric
+@attribute fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute bore numeric
+@attribute stroke numeric
+@attribute compression-ratio numeric
+@attribute horsepower numeric
+@attribute peak-rpm numeric
+@attribute city-mpg numeric
+@attribute highway-mpg numeric
+@attribute price numeric
+@attribute class {-3,-2,-1,0,1,2,3}
+
+@data
+192,bmw,gas,std,four,sedan,rwd,front,101.2,176.8,64.8,54.3,2395,ohc,four,108,mpfi,3.5,2.8,8.8,101,5800,23,29,16925,0
+121,chevrolet,gas,std,two,hatchback,fwd,front,88.4,141.1,60.3,53.2,1488,l,three,61,2bbl,2.91,3.03,9.5,48,5100,47,53,5151,2
+101,honda,gas,std,two,hatchback,fwd,front,93.7,150,64,52.6,1837,ohc,four,79,1bbl,2.91,3.07,10.1,60,5500,38,42,5399,1
+110,honda,gas,std,four,sedan,fwd,front,96.5,163.4,64,54.5,2010,ohc,four,92,1bbl,2.91,3.41,9.2,76,6000,30,34,7295,0
+150,mazda,gas,std,two,hatchback,rwd,front,95.3,169,65.7,49.6,2380,rotor,two,70,4bbl,?,?,9.4,101,6000,17,23,10945,3
+115,mazda,gas,std,four,sedan,fwd,front,98.8,177.8,66.5,55.5,2410,ohc,four,122,2bbl,3.39,3.39,8.6,84,4800,26,32,8495,0
+?,mercedes-benz,gas,std,four,sedan,rwd,front,115.6,202.6,71.7,56.5,3740,ohcv,eight,234,mpfi,3.46,3.1,8.3,155,4750,16,18,34184,-1
+?,mercury,gas,turbo,two,hatchback,rwd,front,102.7,178.4,68,54.8,2910,ohc,four,140,mpfi,3.78,3.12,8,175,5000,19,24,16503,1
+128,nissan,gas,std,two,hatchback,fwd,front,94.5,165.6,63.8,53.3,2028,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,7799,1
+103,nissan,gas,std,four,wagon,fwd,front,94.5,170.2,63.8,53.5,2037,ohc,four,97,2bbl,3.15,3.29,9.4,69,5200,31,37,7999,1
+128,nissan,gas,std,four,sedan,fwd,front,100.4,181.7,66.5,55.1,3095,ohcv,six,181,mpfi,3.43,3.27,9,152,5200,17,22,13499,0
+?,porsche,gas,std,two,hardtop,rwd,rear,89.5,168.9,65,51.6,2756,ohcf,six,194,mpfi,3.74,2.9,9.5,207,5900,17,25,32528,3
+150,saab,gas,std,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2707,ohc,four,121,mpfi,2.54,2.07,9.3,110,5250,21,28,15040,3
+102,subaru,gas,std,four,sedan,fwd,front,97.2,172,65.4,52.5,2145,ohcf,four,108,2bbl,3.62,2.64,9.5,82,4800,32,37,7126,0
+102,subaru,gas,std,four,sedan,fwd,front,97.2,172,65.4,52.5,2340,ohcf,four,108,mpfi,3.62,2.64,9,94,5200,26,32,9960,0
+87,toyota,gas,std,two,hatchback,fwd,front,95.7,158.7,63.6,54.5,2040,ohc,four,92,2bbl,3.05,3.03,9,62,4800,31,38,6338,1
+91,toyota,gas,std,four,sedan,fwd,front,95.7,166.3,64.4,52.8,2140,ohc,four,98,2bbl,3.19,3.03,9,70,4800,28,34,9258,0
+168,toyota,gas,std,two,sedan,rwd,front,94.5,168.7,64,52.6,2265,dohc,four,98,mpfi,3.24,3.08,9.4,112,6600,26,29,9298,1
+65,toyota,gas,std,four,hatchback,fwd,front,102.4,175.6,66.5,53.9,2458,ohc,four,122,mpfi,3.31,3.54,8.7,92,4200,27,32,11248,-1
+122,volkswagen,diesel,std,two,sedan,fwd,front,97.3,171.7,65.5,55.7,2261,ohc,four,97,idi,3.01,3.4,23,52,4800,37,46,7775,2
+94,volkswagen,diesel,turbo,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2319,ohc,four,97,idi,3.01,3.4,23,68,4500,37,42,9495,2

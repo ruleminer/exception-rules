@@ -1,0 +1,800 @@
+2025-03-05 13:27:06,112 - INFO - **********Starting experiment for lowbwt.arff with algorithm3**********
+2025-03-05 13:27:06,120 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:06,139 - INFO - Iteracja 0: condition_best: LOW = {1}, quality_best: 0.729, coverage_best: (p=47, n=12, P=47, N=142)
+2025-03-05 13:27:06,139 - INFO - Regula po iteracji 0: IF LOW = {1} THEN class = {2,097.08} [1,709.53, 2,484.63], (p=47, n=12, P=47, N=142)
+2025-03-05 13:27:06,139 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:06,501 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:06,501 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:06,501 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:06,501 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:06,509 - INFO - Iteracja 1: condition_best: LWT >= 90.00, quality_best: 0.813, coverage_best: (p=49, n=7, P=51, N=138)
+2025-03-05 13:27:06,509 - INFO - Regula po iteracji 1: IF LOW = {1} AND LWT >= 90.00 THEN class = {2,106.93} [1,718.41, 2,495.45], (p=49, n=7, P=51, N=138)
+2025-03-05 13:27:06,509 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:06,870 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:06,870 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:06,870 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:06,870 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:06,876 - INFO - Iteracja 2: condition_best: LWT <= 195.00, quality_best: 0.801, coverage_best: (p=48, n=7, P=51, N=138)
+2025-03-05 13:27:06,876 - INFO - Regula po iteracji 2: IF LOW = {1} AND LWT >= 90.00 AND LWT <= 195.00 THEN class = {2,110.18} [1,718.90, 2,501.46], (p=48, n=7, P=51, N=138)
+2025-03-05 13:27:06,877 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:07,237 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:07,237 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:07,237 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:07,237 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:07,244 - INFO - Iteracja 3: condition_best: AGE <= 33.00, quality_best: 0.799, coverage_best: (p=47, n=7, P=50, N=139)
+2025-03-05 13:27:07,244 - INFO - Regula po iteracji 3: IF LOW = {1} AND LWT >= 90.00 AND LWT <= 195.00 AND AGE <= 33.00 THEN class = {2,128.24} [1,756.76, 2,499.72], (p=47, n=7, P=50, N=139)
+2025-03-05 13:27:07,244 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:07,604 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:07,604 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:07,604 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:07,604 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:07,611 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 0.798, coverage_best: (p=43, n=5, P=50, N=139)
+2025-03-05 13:27:07,611 - INFO - Regula po iteracji 4: IF LOW = {1} AND LWT >= 90.00 AND LWT <= 195.00 AND AGE <= 33.00 AND HT = {0} THEN class = {2,138.42} [1,779.93, 2,496.90], (p=43, n=5, P=50, N=139)
+2025-03-05 13:27:07,611 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:07,970 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:07,970 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:07,970 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:07,970 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:07,970 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:07,972 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:07,985 - INFO - Iteracja 0: condition_best: LWT <= 90.50, quality_best: 0.379, coverage_best: (p=6, n=1, P=95, N=94)
+2025-03-05 13:27:07,985 - INFO - Regula po iteracji 0: IF LWT <= 90.50 THEN class = {2,561.43} [1,961.41, 3,161.45], (p=6, n=1, P=95, N=94)
+2025-03-05 13:27:07,986 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:08,306 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:08,306 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:08,306 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:08,306 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:08,308 - INFO - Iteracja 1: condition_best: SMOKE = {1}, quality_best: 0.38, coverage_best: (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:08,308 - INFO - Regula po iteracji 1: IF LWT <= 90.50 AND SMOKE = {1} THEN class = {2,880.20} [2,541.64, 3,218.76], (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:08,308 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:08,626 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:08,626 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:08,626 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:08,626 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:08,627 - INFO - Iteracja 2: condition_best: HT = {0}, quality_best: 0.38, coverage_best: (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:08,627 - INFO - Regula po iteracji 2: IF LWT <= 90.50 AND SMOKE = {1} AND HT = {0} THEN class = {2,880.20} [2,541.64, 3,218.76], (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:08,628 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:08,944 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:08,944 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:08,945 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:08,945 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:08,946 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:27:08,946 - INFO - Regula po iteracji 3: IF LWT <= 90.50 AND SMOKE = {1} AND HT = {0} THEN class = {2,880.20} [2,541.64, 3,218.76], (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:08,946 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:08,948 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:08,961 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:08,961 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:08,961 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:09,328 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:09,328 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:09,328 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:09,328 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:09,339 - INFO - Iteracja 1: condition_best: LWT <= 101.50, quality_best: 0.445, coverage_best: (p=11, n=2, P=66, N=123)
+2025-03-05 13:27:09,339 - INFO - Regula po iteracji 1: IF LOW = {0} AND LWT <= 101.50 THEN class = {3,045.69} [2,679.88, 3,411.50], (p=11, n=2, P=66, N=123)
+2025-03-05 13:27:09,340 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:09,668 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:09,668 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:09,668 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:09,668 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:09,671 - INFO - Iteracja 2: condition_best: PTL = {0}, quality_best: 0.497, coverage_best: (p=10, n=1, P=65, N=124)
+2025-03-05 13:27:09,671 - INFO - Regula po iteracji 2: IF LOW = {0} AND LWT <= 101.50 AND PTL = {0} THEN class = {3,000.82} [2,649.42, 3,352.22], (p=10, n=1, P=65, N=124)
+2025-03-05 13:27:09,671 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:10,000 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:10,000 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:10,000 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:10,000 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:10,002 - INFO - Iteracja 3: condition_best: HT = {0}, quality_best: 0.482, coverage_best: (p=9, n=1, P=65, N=124)
+2025-03-05 13:27:10,002 - INFO - Regula po iteracji 3: IF LOW = {0} AND LWT <= 101.50 AND PTL = {0} AND HT = {0} THEN class = {3,025.90} [2,666.86, 3,384.94], (p=9, n=1, P=65, N=124)
+2025-03-05 13:27:10,003 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:10,331 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:10,331 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:10,331 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:10,331 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:10,333 - INFO - Iteracja 4: condition_best: AGE <= 30.50, quality_best: 0.463, coverage_best: (p=8, n=1, P=67, N=122)
+2025-03-05 13:27:10,333 - INFO - Regula po iteracji 4: IF LOW = {0} AND LWT <= 101.50 AND PTL = {0} AND HT = {0} AND AGE <= 30.50 THEN class = {3,047.11} [2,674.64, 3,419.58], (p=8, n=1, P=67, N=122)
+2025-03-05 13:27:10,334 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:10,659 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:10,659 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:10,659 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:10,659 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:10,659 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:10,661 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:10,674 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:10,674 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:10,674 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:11,042 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:11,042 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:11,042 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:11,042 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:11,052 - INFO - Iteracja 1: condition_best: LWT >= 122.50, quality_best: 0.403, coverage_best: (p=48, n=20, P=78, N=111)
+2025-03-05 13:27:11,052 - INFO - Regula po iteracji 1: IF LOW = {0} AND LWT >= 122.50 THEN class = {3,416.51} [2,960.63, 3,872.40], (p=48, n=20, P=78, N=111)
+2025-03-05 13:27:11,053 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:11,404 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:11,404 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:11,404 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:11,404 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:11,412 - INFO - Iteracja 2: condition_best: AGE >= 15.00, quality_best: 0.418, coverage_best: (p=48, n=19, P=78, N=111)
+2025-03-05 13:27:11,412 - INFO - Regula po iteracji 2: IF LOW = {0} AND LWT >= 122.50 AND AGE >= 15.00 THEN class = {3,408.69} [2,953.97, 3,863.41], (p=48, n=19, P=78, N=111)
+2025-03-05 13:27:11,412 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:11,763 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:11,763 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:11,763 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:11,763 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:11,771 - INFO - Iteracja 3: condition_best: UI = {0}, quality_best: 0.414, coverage_best: (p=46, n=18, P=78, N=111)
+2025-03-05 13:27:11,771 - INFO - Regula po iteracji 3: IF LOW = {0} AND LWT >= 122.50 AND AGE >= 15.00 AND UI = {0} THEN class = {3,426.06} [2,974.97, 3,877.16], (p=46, n=18, P=78, N=111)
+2025-03-05 13:27:11,771 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:12,121 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:12,121 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:12,121 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:12,121 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:12,128 - INFO - Iteracja 4: condition_best: LWT <= 245.50, quality_best: 0.405, coverage_best: (p=45, n=18, P=78, N=111)
+2025-03-05 13:27:12,128 - INFO - Regula po iteracji 4: IF LOW = {0} AND LWT >= 122.50 AND AGE >= 15.00 AND UI = {0} AND LWT <= 245.50 THEN class = {3,428.02} [2,973.62, 3,882.41], (p=45, n=18, P=78, N=111)
+2025-03-05 13:27:12,129 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:12,478 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:12,478 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:12,478 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:12,478 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:12,478 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:12,481 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:12,493 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:12,493 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:12,493 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:12,862 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:12,862 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:12,862 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:12,862 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:12,872 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:12,872 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:12,872 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:13,241 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:13,241 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:13,241 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:13,241 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:13,251 - INFO - Iteracja 2: condition_best: UI = {0}, quality_best: 0.396, coverage_best: (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:13,251 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} THEN class = {3,365.02} [2,894.39, 3,835.65], (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:13,252 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:13,619 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:13,619 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:13,619 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:13,619 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:13,629 - INFO - Iteracja 3: condition_best: RACE = {2}, quality_best: 0.463, coverage_best: (p=11, n=2, P=58, N=131)
+2025-03-05 13:27:13,629 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND RACE = {2} THEN class = {3,228.92} [2,911.53, 3,546.31], (p=11, n=2, P=58, N=131)
+2025-03-05 13:27:13,629 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:13,978 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:13,978 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:13,978 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:13,978 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:13,981 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 0.529, coverage_best: (p=11, n=1, P=55, N=134)
+2025-03-05 13:27:13,981 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND RACE = {2} AND HT = {0} THEN class = {3,182.17} [2,898.07, 3,466.26], (p=11, n=1, P=55, N=134)
+2025-03-05 13:27:13,982 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:14,329 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:14,330 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:14,330 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:14,330 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:14,330 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:14,333 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:14,345 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:14,345 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:14,345 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:14,714 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:14,714 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:14,714 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:14,714 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:14,724 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:14,724 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:14,724 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:15,092 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:15,092 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:15,092 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:15,092 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:15,102 - INFO - Iteracja 2: condition_best: UI = {0}, quality_best: 0.396, coverage_best: (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:15,102 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} THEN class = {3,365.02} [2,894.39, 3,835.65], (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:15,103 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:15,469 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:15,469 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:15,469 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:15,469 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:15,478 - INFO - Iteracja 3: condition_best: LWT >= 107.00, quality_best: 0.409, coverage_best: (p=69, n=33, P=80, N=109)
+2025-03-05 13:27:15,478 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 THEN class = {3,406.38} [2,945.94, 3,866.83], (p=69, n=33, P=80, N=109)
+2025-03-05 13:27:15,479 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:15,836 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:15,836 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:15,836 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:15,836 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:15,845 - INFO - Iteracja 4: condition_best: AGE <= 24.50, quality_best: 0.46, coverage_best: (p=42, n=16, P=68, N=121)
+2025-03-05 13:27:15,845 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 AND AGE <= 24.50 THEN class = {3,435.33} [3,035.29, 3,835.37], (p=42, n=16, P=68, N=121)
+2025-03-05 13:27:15,845 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:16,192 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:16,192 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:16,193 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:16,193 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:16,193 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:16,195 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:16,208 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:16,208 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:16,208 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:16,576 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:16,576 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:16,576 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:16,576 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:16,587 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:16,587 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:16,587 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:16,955 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:16,955 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:16,955 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:16,955 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:16,965 - INFO - Iteracja 2: condition_best: UI = {0}, quality_best: 0.396, coverage_best: (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:16,965 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} THEN class = {3,365.02} [2,894.39, 3,835.65], (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:16,965 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:17,331 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:17,331 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:17,331 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:17,331 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:17,341 - INFO - Iteracja 3: condition_best: LWT >= 107.00, quality_best: 0.409, coverage_best: (p=69, n=33, P=80, N=109)
+2025-03-05 13:27:17,341 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 THEN class = {3,406.38} [2,945.94, 3,866.83], (p=69, n=33, P=80, N=109)
+2025-03-05 13:27:17,341 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:17,698 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:17,698 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:17,698 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:17,698 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:17,707 - INFO - Iteracja 4: condition_best: AGE >= 17.50, quality_best: 0.404, coverage_best: (p=63, n=28, P=82, N=107)
+2025-03-05 13:27:17,707 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 AND AGE >= 17.50 THEN class = {3,420.41} [2,946.09, 3,894.72], (p=63, n=28, P=82, N=107)
+2025-03-05 13:27:17,707 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:18,064 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:18,064 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:18,064 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:18,064 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:18,064 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:18,067 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:18,079 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:18,079 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:18,079 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:18,450 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:18,450 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:18,450 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:18,450 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:18,461 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:18,461 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:18,461 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:18,832 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:18,833 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:18,833 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:18,833 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:18,842 - INFO - Iteracja 2: condition_best: LWT >= 107.50, quality_best: 0.391, coverage_best: (p=73, n=37, P=81, N=108)
+2025-03-05 13:27:18,842 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 107.50 THEN class = {3,381.44} [2,914.74, 3,848.14], (p=73, n=37, P=81, N=108)
+2025-03-05 13:27:18,843 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:19,202 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:19,202 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:19,202 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:19,202 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:19,211 - INFO - Iteracja 3: condition_best: LWT <= 245.50, quality_best: 0.383, coverage_best: (p=72, n=37, P=81, N=108)
+2025-03-05 13:27:19,211 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 107.50 AND LWT <= 245.50 THEN class = {3,382.16} [2,913.38, 3,850.93], (p=72, n=37, P=81, N=108)
+2025-03-05 13:27:19,211 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:19,569 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:19,570 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:19,570 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:19,570 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:19,579 - INFO - Iteracja 4: condition_best: LWT <= 169.50, quality_best: 0.38, coverage_best: (p=63, n=30, P=82, N=107)
+2025-03-05 13:27:19,579 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 107.50 AND LWT <= 245.50 AND LWT <= 169.50 THEN class = {3,368.22} [2,896.27, 3,840.16], (p=63, n=30, P=82, N=107)
+2025-03-05 13:27:19,579 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:19,929 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:19,929 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:19,929 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:19,929 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:19,929 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:19,931 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:19,943 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:19,943 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:19,943 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:20,312 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:20,312 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:20,312 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:20,312 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:20,323 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:20,323 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:20,323 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:20,691 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:20,691 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:20,691 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:20,691 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:20,701 - INFO - Iteracja 2: condition_best: LWT >= 101.50, quality_best: 0.377, coverage_best: (p=76, n=40, P=82, N=107)
+2025-03-05 13:27:20,701 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 101.50 THEN class = {3,355.84} [2,880.64, 3,831.03], (p=76, n=40, P=82, N=107)
+2025-03-05 13:27:20,701 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:21,061 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:21,061 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:21,061 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:21,062 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:21,071 - INFO - Iteracja 3: condition_best: LWT <= 109.50, quality_best: 0.459, coverage_best: (p=7, n=1, P=58, N=131)
+2025-03-05 13:27:21,071 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 101.50 AND LWT <= 109.50 THEN class = {2,868.25} [2,524.38, 3,212.12], (p=7, n=1, P=58, N=131)
+2025-03-05 13:27:21,071 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:21,398 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:21,398 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:21,398 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:21,398 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:21,400 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 0.459, coverage_best: (p=7, n=1, P=58, N=131)
+2025-03-05 13:27:21,400 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 101.50 AND LWT <= 109.50 AND HT = {0} THEN class = {2,868.25} [2,524.38, 3,212.12], (p=7, n=1, P=58, N=131)
+2025-03-05 13:27:21,401 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:21,727 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:21,727 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:21,727 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:21,727 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:21,728 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:21,730 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:21,743 - INFO - Iteracja 0: condition_best: PTL = {3}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:21,743 - INFO - Regula po iteracji 0: IF PTL = {3} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:21,743 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:22,050 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:22,050 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:22,051 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:22,051 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:22,051 - INFO - Iteracja 1: condition_best: LOW = {0}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:22,051 - INFO - Regula po iteracji 1: IF PTL = {3} AND LOW = {0} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:22,052 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:22,358 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:22,358 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:22,358 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:22,358 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:22,359 - INFO - Iteracja 2: condition_best: RACE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:22,359 - INFO - Regula po iteracji 2: IF PTL = {3} AND LOW = {0} AND RACE = {1} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:22,359 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:22,666 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:22,666 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:22,666 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:22,666 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:22,667 - INFO - Iteracja 3: condition_best: SMOKE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:22,667 - INFO - Regula po iteracji 3: IF PTL = {3} AND LOW = {0} AND RACE = {1} AND SMOKE = {1} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:22,667 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:22,974 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:22,974 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:22,974 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:22,974 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:22,975 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:22,975 - INFO - Regula po iteracji 4: IF PTL = {3} AND LOW = {0} AND RACE = {1} AND SMOKE = {1} AND HT = {0} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:22,975 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:23,281 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:23,282 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:23,282 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:23,282 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:23,282 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:23,282 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:23,294 - INFO - Iteracja 0: condition_best: PTL = {3}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:23,294 - INFO - Regula po iteracji 0: IF PTL = {3} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:23,294 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:23,600 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:23,600 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:23,600 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:23,600 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:23,601 - INFO - Iteracja 1: condition_best: LOW = {0}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:23,601 - INFO - Regula po iteracji 1: IF PTL = {3} AND LOW = {0} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:23,601 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:23,908 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:23,908 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:23,908 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:23,908 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:23,909 - INFO - Iteracja 2: condition_best: RACE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:23,909 - INFO - Regula po iteracji 2: IF PTL = {3} AND LOW = {0} AND RACE = {1} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:23,909 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:24,215 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:24,215 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:24,215 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:24,216 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:24,216 - INFO - Iteracja 3: condition_best: SMOKE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:24,216 - INFO - Regula po iteracji 3: IF PTL = {3} AND LOW = {0} AND RACE = {1} AND SMOKE = {1} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:24,217 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:24,522 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:24,523 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:24,523 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:24,523 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:24,523 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:24,524 - INFO - Regula po iteracji 4: IF PTL = {3} AND LOW = {0} AND RACE = {1} AND SMOKE = {1} AND HT = {0} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:24,524 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:24,830 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:24,830 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:24,830 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:24,830 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:24,830 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:24,835 - INFO - ************************Finished experiment for lowbwt.arff with algorithm3************************
+2025-03-05 13:27:24,835 - INFO - *************************************************************************************************************************
+2025-03-05 13:27:24,835 - INFO - *************************************************************************************************************************
+2025-03-05 13:27:24,835 - INFO - *************************************************************************************************************************
+2025-03-05 13:27:24,836 - INFO - **********Starting experiment for lowbwt.arff with algorithm4**********
+2025-03-05 13:27:24,844 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:24,863 - INFO - Iteracja 0: condition_best: LOW = {1}, quality_best: 0.729, coverage_best: (p=47, n=12, P=47, N=142)
+2025-03-05 13:27:24,863 - INFO - Regula po iteracji 0: IF LOW = {1} THEN class = {2,097.08} [1,709.53, 2,484.63], (p=47, n=12, P=47, N=142)
+2025-03-05 13:27:24,863 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:24,886 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:24,886 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:24,886 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:24,886 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:24,894 - INFO - Iteracja 1: condition_best: LWT >= 90.00, quality_best: 0.813, coverage_best: (p=49, n=7, P=51, N=138)
+2025-03-05 13:27:24,894 - INFO - Regula po iteracji 1: IF LOW = {1} AND LWT >= 90.00 THEN class = {2,106.93} [1,718.41, 2,495.45], (p=49, n=7, P=51, N=138)
+2025-03-05 13:27:24,894 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:24,917 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:24,917 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:24,917 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:24,917 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:24,924 - INFO - Iteracja 2: condition_best: LWT <= 195.00, quality_best: 0.801, coverage_best: (p=48, n=7, P=51, N=138)
+2025-03-05 13:27:24,924 - INFO - Regula po iteracji 2: IF LOW = {1} AND LWT >= 90.00 AND LWT <= 195.00 THEN class = {2,110.18} [1,718.90, 2,501.46], (p=48, n=7, P=51, N=138)
+2025-03-05 13:27:24,924 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:24,947 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:24,947 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:24,947 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:24,947 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:24,954 - INFO - Iteracja 3: condition_best: AGE <= 33.00, quality_best: 0.799, coverage_best: (p=47, n=7, P=50, N=139)
+2025-03-05 13:27:24,954 - INFO - Regula po iteracji 3: IF LOW = {1} AND LWT >= 90.00 AND LWT <= 195.00 AND AGE <= 33.00 THEN class = {2,128.24} [1,756.76, 2,499.72], (p=47, n=7, P=50, N=139)
+2025-03-05 13:27:24,954 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:24,977 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:24,977 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:24,977 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:24,978 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:24,984 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 0.798, coverage_best: (p=43, n=5, P=50, N=139)
+2025-03-05 13:27:24,984 - INFO - Regula po iteracji 4: IF LOW = {1} AND LWT >= 90.00 AND LWT <= 195.00 AND AGE <= 33.00 AND HT = {0} THEN class = {2,138.42} [1,779.93, 2,496.90], (p=43, n=5, P=50, N=139)
+2025-03-05 13:27:24,985 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,007 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,008 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,008 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,008 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,008 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:25,010 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:25,023 - INFO - Iteracja 0: condition_best: LWT <= 90.50, quality_best: 0.379, coverage_best: (p=6, n=1, P=95, N=94)
+2025-03-05 13:27:25,023 - INFO - Regula po iteracji 0: IF LWT <= 90.50 THEN class = {2,561.43} [1,961.41, 3,161.45], (p=6, n=1, P=95, N=94)
+2025-03-05 13:27:25,023 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,046 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,046 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,046 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,046 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,048 - INFO - Iteracja 1: condition_best: SMOKE = {1}, quality_best: 0.38, coverage_best: (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:25,048 - INFO - Regula po iteracji 1: IF LWT <= 90.50 AND SMOKE = {1} THEN class = {2,880.20} [2,541.64, 3,218.76], (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:25,048 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,072 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,072 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,072 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,072 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,073 - INFO - Iteracja 2: condition_best: HT = {0}, quality_best: 0.38, coverage_best: (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:25,073 - INFO - Regula po iteracji 2: IF LWT <= 90.50 AND SMOKE = {1} AND HT = {0} THEN class = {2,880.20} [2,541.64, 3,218.76], (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:25,074 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,097 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,097 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,097 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,097 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,099 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:27:25,099 - INFO - Regula po iteracji 3: IF LWT <= 90.50 AND SMOKE = {1} AND HT = {0} THEN class = {2,880.20} [2,541.64, 3,218.76], (p=4, n=1, P=58, N=131)
+2025-03-05 13:27:25,099 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:25,100 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:25,113 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,113 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,114 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,136 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,137 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,137 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,137 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,148 - INFO - Iteracja 1: condition_best: LWT <= 101.50, quality_best: 0.445, coverage_best: (p=11, n=2, P=66, N=123)
+2025-03-05 13:27:25,148 - INFO - Regula po iteracji 1: IF LOW = {0} AND LWT <= 101.50 THEN class = {3,045.69} [2,679.88, 3,411.50], (p=11, n=2, P=66, N=123)
+2025-03-05 13:27:25,148 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,171 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,171 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,171 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,171 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,174 - INFO - Iteracja 2: condition_best: PTL = {0}, quality_best: 0.497, coverage_best: (p=10, n=1, P=65, N=124)
+2025-03-05 13:27:25,174 - INFO - Regula po iteracji 2: IF LOW = {0} AND LWT <= 101.50 AND PTL = {0} THEN class = {3,000.82} [2,649.42, 3,352.22], (p=10, n=1, P=65, N=124)
+2025-03-05 13:27:25,174 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,197 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,197 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,198 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,198 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,200 - INFO - Iteracja 3: condition_best: HT = {0}, quality_best: 0.482, coverage_best: (p=9, n=1, P=65, N=124)
+2025-03-05 13:27:25,200 - INFO - Regula po iteracji 3: IF LOW = {0} AND LWT <= 101.50 AND PTL = {0} AND HT = {0} THEN class = {3,025.90} [2,666.86, 3,384.94], (p=9, n=1, P=65, N=124)
+2025-03-05 13:27:25,200 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,223 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,223 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,223 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,223 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,226 - INFO - Iteracja 4: condition_best: AGE <= 30.50, quality_best: 0.463, coverage_best: (p=8, n=1, P=67, N=122)
+2025-03-05 13:27:25,226 - INFO - Regula po iteracji 4: IF LOW = {0} AND LWT <= 101.50 AND PTL = {0} AND HT = {0} AND AGE <= 30.50 THEN class = {3,047.11} [2,674.64, 3,419.58], (p=8, n=1, P=67, N=122)
+2025-03-05 13:27:25,226 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,249 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,249 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,249 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,249 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,249 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:25,251 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:25,264 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,264 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,264 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,287 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,287 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,288 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,288 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,298 - INFO - Iteracja 1: condition_best: LWT >= 122.50, quality_best: 0.403, coverage_best: (p=48, n=20, P=78, N=111)
+2025-03-05 13:27:25,298 - INFO - Regula po iteracji 1: IF LOW = {0} AND LWT >= 122.50 THEN class = {3,416.51} [2,960.63, 3,872.40], (p=48, n=20, P=78, N=111)
+2025-03-05 13:27:25,299 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,322 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,322 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,322 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,322 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,329 - INFO - Iteracja 2: condition_best: AGE >= 15.00, quality_best: 0.418, coverage_best: (p=48, n=19, P=78, N=111)
+2025-03-05 13:27:25,329 - INFO - Regula po iteracji 2: IF LOW = {0} AND LWT >= 122.50 AND AGE >= 15.00 THEN class = {3,408.69} [2,953.97, 3,863.41], (p=48, n=19, P=78, N=111)
+2025-03-05 13:27:25,330 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,353 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,353 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,353 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,353 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,360 - INFO - Iteracja 3: condition_best: UI = {0}, quality_best: 0.414, coverage_best: (p=46, n=18, P=78, N=111)
+2025-03-05 13:27:25,361 - INFO - Regula po iteracji 3: IF LOW = {0} AND LWT >= 122.50 AND AGE >= 15.00 AND UI = {0} THEN class = {3,426.06} [2,974.97, 3,877.16], (p=46, n=18, P=78, N=111)
+2025-03-05 13:27:25,361 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,384 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,384 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,384 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,384 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,392 - INFO - Iteracja 4: condition_best: LWT <= 245.50, quality_best: 0.405, coverage_best: (p=45, n=18, P=78, N=111)
+2025-03-05 13:27:25,392 - INFO - Regula po iteracji 4: IF LOW = {0} AND LWT >= 122.50 AND AGE >= 15.00 AND UI = {0} AND LWT <= 245.50 THEN class = {3,428.02} [2,973.62, 3,882.41], (p=45, n=18, P=78, N=111)
+2025-03-05 13:27:25,392 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,415 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,415 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,415 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,415 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,415 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:25,417 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:25,430 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,430 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,430 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,453 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,453 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,453 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,453 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,463 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:25,463 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:25,463 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,486 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,487 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,487 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,487 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,497 - INFO - Iteracja 2: condition_best: UI = {0}, quality_best: 0.396, coverage_best: (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:25,497 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} THEN class = {3,365.02} [2,894.39, 3,835.65], (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:25,497 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,520 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,520 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,520 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,520 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,530 - INFO - Iteracja 3: condition_best: RACE = {2}, quality_best: 0.463, coverage_best: (p=11, n=2, P=58, N=131)
+2025-03-05 13:27:25,530 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND RACE = {2} THEN class = {3,228.92} [2,911.53, 3,546.31], (p=11, n=2, P=58, N=131)
+2025-03-05 13:27:25,530 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,553 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,553 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,553 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,553 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,557 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 0.529, coverage_best: (p=11, n=1, P=55, N=134)
+2025-03-05 13:27:25,557 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND RACE = {2} AND HT = {0} THEN class = {3,182.17} [2,898.07, 3,466.26], (p=11, n=1, P=55, N=134)
+2025-03-05 13:27:25,557 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,580 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,580 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,580 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,580 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,580 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:25,583 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:25,596 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,596 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,596 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,619 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,619 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,619 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,619 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,629 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:25,629 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:25,629 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,652 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,653 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,653 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,653 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,663 - INFO - Iteracja 2: condition_best: UI = {0}, quality_best: 0.396, coverage_best: (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:25,663 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} THEN class = {3,365.02} [2,894.39, 3,835.65], (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:25,663 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,686 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,686 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,686 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,686 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,696 - INFO - Iteracja 3: condition_best: LWT >= 107.00, quality_best: 0.409, coverage_best: (p=69, n=33, P=80, N=109)
+2025-03-05 13:27:25,696 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 THEN class = {3,406.38} [2,945.94, 3,866.83], (p=69, n=33, P=80, N=109)
+2025-03-05 13:27:25,696 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,719 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,719 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,719 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,719 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,728 - INFO - Iteracja 4: condition_best: AGE <= 24.50, quality_best: 0.46, coverage_best: (p=42, n=16, P=68, N=121)
+2025-03-05 13:27:25,728 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 AND AGE <= 24.50 THEN class = {3,435.33} [3,035.29, 3,835.37], (p=42, n=16, P=68, N=121)
+2025-03-05 13:27:25,728 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,751 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,751 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,751 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,752 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,752 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:25,754 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:25,766 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,767 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,767 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,790 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,790 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,790 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,790 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,800 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:25,800 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:25,800 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,823 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,823 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,823 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,823 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,833 - INFO - Iteracja 2: condition_best: UI = {0}, quality_best: 0.396, coverage_best: (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:25,833 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} THEN class = {3,365.02} [2,894.39, 3,835.65], (p=76, n=38, P=82, N=107)
+2025-03-05 13:27:25,834 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,857 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,857 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,857 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,857 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,866 - INFO - Iteracja 3: condition_best: LWT >= 107.00, quality_best: 0.409, coverage_best: (p=69, n=33, P=80, N=109)
+2025-03-05 13:27:25,866 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 THEN class = {3,406.38} [2,945.94, 3,866.83], (p=69, n=33, P=80, N=109)
+2025-03-05 13:27:25,866 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,889 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,889 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,890 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,890 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,898 - INFO - Iteracja 4: condition_best: AGE >= 17.50, quality_best: 0.404, coverage_best: (p=63, n=28, P=82, N=107)
+2025-03-05 13:27:25,898 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 AND AGE >= 17.50 THEN class = {3,420.41} [2,946.09, 3,894.72], (p=63, n=28, P=82, N=107)
+2025-03-05 13:27:25,899 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,922 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,922 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,922 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,922 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,922 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:25,924 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:25,936 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,936 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:25,936 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,959 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,959 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,959 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,959 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:25,969 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:25,969 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:25,970 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:25,993 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:25,993 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:25,993 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:25,993 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,003 - INFO - Iteracja 2: condition_best: LWT >= 107.50, quality_best: 0.391, coverage_best: (p=73, n=37, P=81, N=108)
+2025-03-05 13:27:26,003 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 107.50 THEN class = {3,381.44} [2,914.74, 3,848.14], (p=73, n=37, P=81, N=108)
+2025-03-05 13:27:26,003 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,026 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,026 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,026 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,026 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,035 - INFO - Iteracja 3: condition_best: LWT <= 245.50, quality_best: 0.383, coverage_best: (p=72, n=37, P=81, N=108)
+2025-03-05 13:27:26,035 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 107.50 AND LWT <= 245.50 THEN class = {3,382.16} [2,913.38, 3,850.93], (p=72, n=37, P=81, N=108)
+2025-03-05 13:27:26,036 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,059 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,059 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,059 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,059 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,068 - INFO - Iteracja 4: condition_best: LWT <= 169.50, quality_best: 0.38, coverage_best: (p=63, n=30, P=82, N=107)
+2025-03-05 13:27:26,068 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 107.50 AND LWT <= 245.50 AND LWT <= 169.50 THEN class = {3,368.22} [2,896.27, 3,840.16], (p=63, n=30, P=82, N=107)
+2025-03-05 13:27:26,068 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,091 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,092 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,092 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,092 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,092 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:26,093 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:26,105 - INFO - Iteracja 0: condition_best: LOW = {0}, quality_best: 0.363, coverage_best: (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:26,105 - INFO - Regula po iteracji 0: IF LOW = {0} THEN class = {3,329.32} [2,853.48, 3,805.17], (p=84, n=46, P=84, N=105)
+2025-03-05 13:27:26,105 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,128 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,128 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,129 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,129 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,138 - INFO - Iteracja 1: condition_best: AGE >= 15.50, quality_best: 0.381, coverage_best: (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:26,138 - INFO - Regula po iteracji 1: IF LOW = {0} AND AGE >= 15.50 THEN class = {3,328.85} [2,854.86, 3,802.84], (p=84, n=44, P=84, N=105)
+2025-03-05 13:27:26,139 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,162 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,162 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,162 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,162 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,172 - INFO - Iteracja 2: condition_best: LWT >= 101.50, quality_best: 0.377, coverage_best: (p=76, n=40, P=82, N=107)
+2025-03-05 13:27:26,172 - INFO - Regula po iteracji 2: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 101.50 THEN class = {3,355.84} [2,880.64, 3,831.03], (p=76, n=40, P=82, N=107)
+2025-03-05 13:27:26,172 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,195 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,195 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,195 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,195 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,205 - INFO - Iteracja 3: condition_best: LWT <= 109.50, quality_best: 0.459, coverage_best: (p=7, n=1, P=58, N=131)
+2025-03-05 13:27:26,205 - INFO - Regula po iteracji 3: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 101.50 AND LWT <= 109.50 THEN class = {2,868.25} [2,524.38, 3,212.12], (p=7, n=1, P=58, N=131)
+2025-03-05 13:27:26,205 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,228 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,228 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,228 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,228 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,230 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 0.459, coverage_best: (p=7, n=1, P=58, N=131)
+2025-03-05 13:27:26,230 - INFO - Regula po iteracji 4: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 101.50 AND LWT <= 109.50 AND HT = {0} THEN class = {2,868.25} [2,524.38, 3,212.12], (p=7, n=1, P=58, N=131)
+2025-03-05 13:27:26,231 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,254 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,254 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,254 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,254 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,254 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:26,257 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:26,269 - INFO - Iteracja 0: condition_best: PTL = {3}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,269 - INFO - Regula po iteracji 0: IF PTL = {3} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,269 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,292 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,292 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,293 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,293 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,293 - INFO - Iteracja 1: condition_best: LOW = {0}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,293 - INFO - Regula po iteracji 1: IF PTL = {3} AND LOW = {0} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,294 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,317 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,317 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,317 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,317 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,318 - INFO - Iteracja 2: condition_best: RACE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,318 - INFO - Regula po iteracji 2: IF PTL = {3} AND LOW = {0} AND RACE = {1} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,318 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,341 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,341 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,341 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,341 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,342 - INFO - Iteracja 3: condition_best: SMOKE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,342 - INFO - Regula po iteracji 3: IF PTL = {3} AND LOW = {0} AND RACE = {1} AND SMOKE = {1} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,343 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,366 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,366 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,366 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,366 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,367 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,367 - INFO - Regula po iteracji 4: IF PTL = {3} AND LOW = {0} AND RACE = {1} AND SMOKE = {1} AND HT = {0} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,367 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,390 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,391 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,391 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,391 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,391 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:26,391 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:27:26,403 - INFO - Iteracja 0: condition_best: PTL = {3}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,403 - INFO - Regula po iteracji 0: IF PTL = {3} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,403 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,426 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,426 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,426 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,426 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,427 - INFO - Iteracja 1: condition_best: LOW = {0}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,427 - INFO - Regula po iteracji 1: IF PTL = {3} AND LOW = {0} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,427 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,450 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,451 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,451 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,451 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,451 - INFO - Iteracja 2: condition_best: RACE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,451 - INFO - Regula po iteracji 2: IF PTL = {3} AND LOW = {0} AND RACE = {1} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,452 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,475 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,475 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,475 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,475 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,476 - INFO - Iteracja 3: condition_best: SMOKE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,476 - INFO - Regula po iteracji 3: IF PTL = {3} AND LOW = {0} AND RACE = {1} AND SMOKE = {1} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,476 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,499 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,499 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,500 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,500 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,500 - INFO - Iteracja 4: condition_best: HT = {0}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,500 - INFO - Regula po iteracji 4: IF PTL = {3} AND LOW = {0} AND RACE = {1} AND SMOKE = {1} AND HT = {0} THEN class = {3,637.00} [3,637.00, 3,637.00], (p=1, n=0, P=1, N=188)
+2025-03-05 13:27:26,501 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:27:26,524 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:27:26,524 - INFO - Regula po iteracji 0: IF  THEN class = {2,944.66} [2,217.56, 3,671.75], (p=128, n=61, P=128, N=61)
+2025-03-05 13:27:26,524 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:27:26,524 - INFO - ***RR NOT FOUND***
+2025-03-05 13:27:26,524 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:27:26,528 - INFO - ************************Finished experiment for lowbwt.arff with algorithm4************************
+2025-03-05 13:27:26,528 - INFO - *************************************************************************************************************************
+2025-03-05 13:27:26,528 - INFO - *************************************************************************************************************************
+2025-03-05 13:27:26,528 - INFO - *************************************************************************************************************************

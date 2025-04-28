@@ -1,0 +1,862 @@
+2025-03-04 14:19:39,457 - INFO - **********Starting experiment for autos.arff with algorithm3**********
+2025-03-04 14:19:39,469 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:39,550 - INFO - Iteracja 0: condition_best: height <= 50.35, quality_best: 0.694, coverage_best: (p=16, n=2, P=27, N=178), precision: 0.889
+2025-03-04 14:19:39,550 - INFO - Regula po iteracji 0: IF height <= 50.35 THEN class = 3, (p=16, n=2, P=27, N=178)
+2025-03-04 14:19:39,551 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:39,761 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:39,761 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=11, n=194, P=11, N=194)
+2025-03-04 14:19:39,761 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:39,761 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:39,765 - INFO - Iteracja 1: condition_best: wheel-base <= 97.75, quality_best: 0.796, coverage_best: (p=16, n=0, P=27, N=178), precision: 1.0
+2025-03-04 14:19:39,765 - INFO - Regula po iteracji 1: IF height <= 50.35 AND wheel-base <= 97.75 THEN class = 3, (p=16, n=0, P=27, N=178)
+2025-03-04 14:19:39,765 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:39,766 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:39,803 - INFO - Iteracja 0: condition_best: height <= 51.60, quality_best: 0.304, coverage_best: (p=21, n=28, P=27, N=178), precision: 0.429
+2025-03-04 14:19:39,803 - INFO - Regula po iteracji 0: IF height <= 51.60 THEN class = 3, (p=21, n=28, P=27, N=178)
+2025-03-04 14:19:39,817 - INFO - Iteracja 1: condition_best: price >= 9,927.00, quality_best: 0.703, coverage_best: (p=20, n=4, P=27, N=178), precision: 0.833
+2025-03-04 14:19:39,817 - INFO - Regula po iteracji 1: IF height <= 51.60 AND price >= 9,927.00 THEN class = 3, (p=20, n=4, P=27, N=178)
+2025-03-04 14:19:39,817 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:40,040 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:40,040 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=7, n=198, P=7, N=198)
+2025-03-04 14:19:40,040 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:40,040 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:40,046 - INFO - Iteracja 2: condition_best: wheel-base <= 97.90, quality_best: 0.779, coverage_best: (p=20, n=2, P=27, N=178), precision: 0.909
+2025-03-04 14:19:40,046 - INFO - Regula po iteracji 2: IF height <= 51.60 AND price >= 9,927.00 AND wheel-base <= 97.90 THEN class = 3, (p=20, n=2, P=27, N=178)
+2025-03-04 14:19:40,046 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:40,255 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:40,255 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=7, n=198, P=7, N=198)
+2025-03-04 14:19:40,255 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:40,255 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:40,259 - INFO - Iteracja 3: condition_best: city-mpg <= 24.00, quality_best: 0.823, coverage_best: (p=20, n=1, P=27, N=178), precision: 0.952
+2025-03-04 14:19:40,259 - INFO - Regula po iteracji 3: IF height <= 51.60 AND price >= 9,927.00 AND wheel-base <= 97.90 AND city-mpg <= 24.00 THEN class = 3, (p=20, n=1, P=27, N=178)
+2025-03-04 14:19:40,259 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:40,458 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:40,458 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=7, n=198, P=7, N=198)
+2025-03-04 14:19:40,458 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:40,458 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:40,461 - INFO - Iteracja 4: condition_best: fuel-type = {gas}, quality_best: 0.823, coverage_best: (p=20, n=1, P=27, N=178), precision: 0.952
+2025-03-04 14:19:40,461 - INFO - Regula po iteracji 4: IF height <= 51.60 AND price >= 9,927.00 AND wheel-base <= 97.90 AND city-mpg <= 24.00 AND fuel-type = {gas} THEN class = 3, (p=20, n=1, P=27, N=178)
+2025-03-04 14:19:40,462 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:40,661 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:40,661 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=7, n=198, P=7, N=198)
+2025-03-04 14:19:40,661 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:40,661 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:40,664 - INFO - Iteracja 5: condition_best: num-of-doors = {two}, quality_best: 0.823, coverage_best: (p=20, n=1, P=27, N=178), precision: 0.952
+2025-03-04 14:19:40,664 - INFO - Regula po iteracji 5: IF height <= 51.60 AND price >= 9,927.00 AND wheel-base <= 97.90 AND city-mpg <= 24.00 AND fuel-type = {gas} AND num-of-doors = {two} THEN class = 3, (p=20, n=1, P=27, N=178)
+2025-03-04 14:19:40,665 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:40,865 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:40,865 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=7, n=198, P=7, N=198)
+2025-03-04 14:19:40,865 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:40,865 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:40,868 - INFO - Iteracja 6: condition_best: horsepower >= 90.00, quality_best: 0.823, coverage_best: (p=20, n=1, P=27, N=178), precision: 0.952
+2025-03-04 14:19:40,868 - INFO - Regula po iteracji 6: IF height <= 51.60 AND price >= 9,927.00 AND wheel-base <= 97.90 AND city-mpg <= 24.00 AND fuel-type = {gas} AND num-of-doors = {two} AND horsepower >= 90.00 THEN class = 3, (p=20, n=1, P=27, N=178)
+2025-03-04 14:19:40,869 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:41,068 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:41,069 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=7, n=198, P=7, N=198)
+2025-03-04 14:19:41,069 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:41,069 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:41,072 - INFO - Iteracja 7: condition_best: highway-mpg <= 29.00, quality_best: 0.803, coverage_best: (p=19, n=1, P=27, N=178), precision: 0.95
+2025-03-04 14:19:41,072 - INFO - Regula po iteracji 7: IF height <= 51.60 AND price >= 9,927.00 AND wheel-base <= 97.90 AND city-mpg <= 24.00 AND fuel-type = {gas} AND num-of-doors = {two} AND horsepower >= 90.00 AND highway-mpg <= 29.00 THEN class = 3, (p=19, n=1, P=27, N=178)
+2025-03-04 14:19:41,072 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:41,321 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:41,321 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=8, n=197, P=8, N=197)
+2025-03-04 14:19:41,321 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:41,321 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:41,324 - INFO - Iteracja 8: condition_best: fuel-system = {mpfi}, quality_best: 0.704, coverage_best: (p=11, n=0, P=27, N=178), precision: 1.0
+2025-03-04 14:19:41,325 - INFO - Regula po iteracji 8: IF height <= 51.60 AND price >= 9,927.00 AND wheel-base <= 97.90 AND city-mpg <= 24.00 AND fuel-type = {gas} AND num-of-doors = {two} AND horsepower >= 90.00 AND highway-mpg <= 29.00 AND fuel-system = {mpfi} THEN class = 3, (p=11, n=0, P=27, N=178)
+2025-03-04 14:19:41,325 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:41,326 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:41,363 - INFO - Iteracja 0: condition_best: city-mpg <= 21.00, quality_best: 0.231, coverage_best: (p=23, n=43, P=27, N=178), precision: 0.348
+2025-03-04 14:19:41,363 - INFO - Regula po iteracji 0: IF city-mpg <= 21.00 THEN class = 3, (p=23, n=43, P=27, N=178)
+2025-03-04 14:19:41,383 - INFO - Iteracja 1: condition_best: num-of-doors = {two}, quality_best: 0.603, coverage_best: (p=23, n=10, P=27, N=178), precision: 0.697
+2025-03-04 14:19:41,383 - INFO - Regula po iteracji 1: IF city-mpg <= 21.00 AND num-of-doors = {two} THEN class = 3, (p=23, n=10, P=27, N=178)
+2025-03-04 14:19:41,394 - INFO - Iteracja 2: condition_best: price <= 35,528.00, quality_best: 0.714, coverage_best: (p=22, n=5, P=27, N=178), precision: 0.815
+2025-03-04 14:19:41,394 - INFO - Regula po iteracji 2: IF city-mpg <= 21.00 AND num-of-doors = {two} AND price <= 35,528.00 THEN class = 3, (p=22, n=5, P=27, N=178)
+2025-03-04 14:19:41,394 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:41,626 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:41,626 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=5, n=200, P=5, N=200)
+2025-03-04 14:19:41,626 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:41,626 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:41,632 - INFO - Iteracja 3: condition_best: peak-rpm >= 4,500.00, quality_best: 0.747, coverage_best: (p=22, n=4, P=27, N=178), precision: 0.846
+2025-03-04 14:19:41,633 - INFO - Regula po iteracji 3: IF city-mpg <= 21.00 AND num-of-doors = {two} AND price <= 35,528.00 AND peak-rpm >= 4,500.00 THEN class = 3, (p=22, n=4, P=27, N=178)
+2025-03-04 14:19:41,633 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:41,856 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:41,856 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=5, n=200, P=5, N=200)
+2025-03-04 14:19:41,856 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:41,856 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:41,861 - INFO - Iteracja 4: condition_best: normalized-losses <= 214.00, quality_best: 0.759, coverage_best: (p=14, n=0, P=27, N=178), precision: 1.0
+2025-03-04 14:19:41,861 - INFO - Regula po iteracji 4: IF city-mpg <= 21.00 AND num-of-doors = {two} AND price <= 35,528.00 AND peak-rpm >= 4,500.00 AND normalized-losses <= 214.00 THEN class = 3, (p=14, n=0, P=27, N=178)
+2025-03-04 14:19:41,861 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:41,864 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:41,901 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:41,901 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=27, n=178, P=27, N=178)
+2025-03-04 14:19:41,901 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:41,901 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:41,943 - INFO - Iteracja 0: condition_best: curb-weight <= 1,996.50, quality_best: 0.501, coverage_best: (p=24, n=7, P=54, N=151), precision: 0.774
+2025-03-04 14:19:41,943 - INFO - Regula po iteracji 0: IF curb-weight <= 1,996.50 THEN class = 1, (p=24, n=7, P=54, N=151)
+2025-03-04 14:19:41,949 - INFO - Iteracja 1: condition_best: length >= 158.95, quality_best: 0.602, coverage_best: (p=11, n=0, P=54, N=151), precision: 1.0
+2025-03-04 14:19:41,949 - INFO - Regula po iteracji 1: IF curb-weight <= 1,996.50 AND length >= 158.95 THEN class = 1, (p=11, n=0, P=54, N=151)
+2025-03-04 14:19:41,949 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:41,950 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:41,991 - INFO - Iteracja 0: condition_best: curb-weight <= 1,996.50, quality_best: 0.501, coverage_best: (p=24, n=7, P=54, N=151), precision: 0.774
+2025-03-04 14:19:41,991 - INFO - Regula po iteracji 0: IF curb-weight <= 1,996.50 THEN class = 1, (p=24, n=7, P=54, N=151)
+2025-03-04 14:19:41,996 - INFO - Iteracja 1: condition_best: curb-weight >= 1,944.50, quality_best: 0.602, coverage_best: (p=11, n=0, P=54, N=151), precision: 1.0
+2025-03-04 14:19:41,996 - INFO - Regula po iteracji 1: IF curb-weight <= 1,996.50 AND curb-weight >= 1,944.50 THEN class = 1, (p=11, n=0, P=54, N=151)
+2025-03-04 14:19:41,996 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:41,997 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:42,038 - INFO - Iteracja 0: condition_best: curb-weight <= 1,996.50, quality_best: 0.501, coverage_best: (p=24, n=7, P=54, N=151), precision: 0.774
+2025-03-04 14:19:42,038 - INFO - Regula po iteracji 0: IF curb-weight <= 1,996.50 THEN class = 1, (p=24, n=7, P=54, N=151)
+2025-03-04 14:19:42,043 - INFO - Iteracja 1: condition_best: highway-mpg <= 42.50, quality_best: 0.589, coverage_best: (p=22, n=3, P=54, N=151), precision: 0.88
+2025-03-04 14:19:42,043 - INFO - Regula po iteracji 1: IF curb-weight <= 1,996.50 AND highway-mpg <= 42.50 THEN class = 1, (p=22, n=3, P=54, N=151)
+2025-03-04 14:19:42,043 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:42,268 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:42,268 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=32, n=173, P=32, N=173)
+2025-03-04 14:19:42,268 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:42,269 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:42,272 - INFO - Iteracja 2: condition_best: normalized-losses <= 157.50, quality_best: 0.662, coverage_best: (p=22, n=1, P=54, N=151), precision: 0.957
+2025-03-04 14:19:42,272 - INFO - Regula po iteracji 2: IF curb-weight <= 1,996.50 AND highway-mpg <= 42.50 AND normalized-losses <= 157.50 THEN class = 1, (p=22, n=1, P=54, N=151)
+2025-03-04 14:19:42,272 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:42,480 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:42,480 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=32, n=173, P=32, N=173)
+2025-03-04 14:19:42,480 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:42,480 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:42,482 - INFO - Iteracja 3: condition_best: wheel-base >= 89.85, quality_best: 0.704, coverage_best: (p=22, n=0, P=54, N=151), precision: 1.0
+2025-03-04 14:19:42,482 - INFO - Regula po iteracji 3: IF curb-weight <= 1,996.50 AND highway-mpg <= 42.50 AND normalized-losses <= 157.50 AND wheel-base >= 89.85 THEN class = 1, (p=22, n=0, P=54, N=151)
+2025-03-04 14:19:42,482 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:42,484 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:42,524 - INFO - Iteracja 0: condition_best: curb-weight <= 2,045.00, quality_best: 0.494, coverage_best: (p=30, n=11, P=54, N=151), precision: 0.732
+2025-03-04 14:19:42,524 - INFO - Regula po iteracji 0: IF curb-weight <= 2,045.00 THEN class = 1, (p=30, n=11, P=54, N=151)
+2025-03-04 14:19:42,532 - INFO - Iteracja 1: condition_best: normalized-losses <= 157.50, quality_best: 0.59, coverage_best: (p=29, n=6, P=54, N=151), precision: 0.829
+2025-03-04 14:19:42,532 - INFO - Regula po iteracji 1: IF curb-weight <= 2,045.00 AND normalized-losses <= 157.50 THEN class = 1, (p=29, n=6, P=54, N=151)
+2025-03-04 14:19:42,532 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:42,778 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:42,778 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=25, n=180, P=25, N=180)
+2025-03-04 14:19:42,778 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:42,778 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:42,783 - INFO - Iteracja 2: condition_best: bore >= 2.95, quality_best: 0.703, coverage_best: (p=26, n=1, P=54, N=151), precision: 0.963
+2025-03-04 14:19:42,784 - INFO - Regula po iteracji 2: IF curb-weight <= 2,045.00 AND normalized-losses <= 157.50 AND bore >= 2.95 THEN class = 1, (p=26, n=1, P=54, N=151)
+2025-03-04 14:19:42,784 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:42,991 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:42,991 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=28, n=177, P=28, N=177)
+2025-03-04 14:19:42,991 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:42,991 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:42,994 - INFO - Iteracja 3: condition_best: normalized-losses >= 84.00, quality_best: 0.731, coverage_best: (p=25, n=0, P=54, N=151), precision: 1.0
+2025-03-04 14:19:42,994 - INFO - Regula po iteracji 3: IF curb-weight <= 2,045.00 AND normalized-losses <= 157.50 AND bore >= 2.95 AND normalized-losses >= 84.00 THEN class = 1, (p=25, n=0, P=54, N=151)
+2025-03-04 14:19:42,994 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:42,996 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:43,036 - INFO - Iteracja 0: condition_best: width <= 64.20, quality_best: 0.465, coverage_best: (p=39, n=20, P=54, N=151), precision: 0.661
+2025-03-04 14:19:43,036 - INFO - Regula po iteracji 0: IF width <= 64.20 THEN class = 1, (p=39, n=20, P=54, N=151)
+2025-03-04 14:19:43,048 - INFO - Iteracja 1: condition_best: normalized-losses >= 86.00, quality_best: 0.661, coverage_best: (p=37, n=7, P=54, N=151), precision: 0.841
+2025-03-04 14:19:43,048 - INFO - Regula po iteracji 1: IF width <= 64.20 AND normalized-losses >= 86.00 THEN class = 1, (p=37, n=7, P=54, N=151)
+2025-03-04 14:19:43,049 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:43,298 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:43,298 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=17, n=188, P=17, N=188)
+2025-03-04 14:19:43,298 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:43,298 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:43,305 - INFO - Iteracja 2: condition_best: wheel-base >= 90.70, quality_best: 0.731, coverage_best: (p=37, n=4, P=54, N=151), precision: 0.902
+2025-03-04 14:19:43,305 - INFO - Regula po iteracji 2: IF width <= 64.20 AND normalized-losses >= 86.00 AND wheel-base >= 90.70 THEN class = 1, (p=37, n=4, P=54, N=151)
+2025-03-04 14:19:43,306 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:43,532 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:43,532 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=17, n=188, P=17, N=188)
+2025-03-04 14:19:43,532 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:43,532 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:43,538 - INFO - Iteracja 3: condition_best: wheel-base <= 94.50, quality_best: 0.793, coverage_best: (p=35, n=1, P=54, N=151), precision: 0.972
+2025-03-04 14:19:43,538 - INFO - Regula po iteracji 3: IF width <= 64.20 AND normalized-losses >= 86.00 AND wheel-base >= 90.70 AND wheel-base <= 94.50 THEN class = 1, (p=35, n=1, P=54, N=151)
+2025-03-04 14:19:43,538 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:43,791 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:43,791 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=19, n=186, P=19, N=186)
+2025-03-04 14:19:43,791 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:43,791 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:43,794 - INFO - Iteracja 4: condition_best: normalized-losses <= 212.00, quality_best: 0.824, coverage_best: (p=35, n=0, P=54, N=151), precision: 1.0
+2025-03-04 14:19:43,794 - INFO - Regula po iteracji 4: IF width <= 64.20 AND normalized-losses >= 86.00 AND wheel-base >= 90.70 AND wheel-base <= 94.50 AND normalized-losses <= 212.00 THEN class = 1, (p=35, n=0, P=54, N=151)
+2025-03-04 14:19:43,794 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:43,796 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:43,835 - INFO - Iteracja 0: condition_best: bore <= 3.15, quality_best: 0.382, coverage_best: (p=38, n=26, P=54, N=151), precision: 0.594
+2025-03-04 14:19:43,836 - INFO - Regula po iteracji 0: IF bore <= 3.15 THEN class = 1, (p=38, n=26, P=54, N=151)
+2025-03-04 14:19:43,851 - INFO - Iteracja 1: condition_best: peak-rpm <= 5,500.00, quality_best: 0.456, coverage_best: (p=36, n=18, P=54, N=151), precision: 0.667
+2025-03-04 14:19:43,851 - INFO - Regula po iteracji 1: IF bore <= 3.15 AND peak-rpm <= 5,500.00 THEN class = 1, (p=36, n=18, P=54, N=151)
+2025-03-04 14:19:43,862 - INFO - Iteracja 2: condition_best: compression-ratio <= 22.45, quality_best: 0.533, coverage_best: (p=36, n=13, P=54, N=151), precision: 0.735
+2025-03-04 14:19:43,862 - INFO - Regula po iteracji 2: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 THEN class = 1, (p=36, n=13, P=54, N=151)
+2025-03-04 14:19:43,873 - INFO - Iteracja 3: condition_best: height <= 56.00, quality_best: 0.607, coverage_best: (p=36, n=9, P=54, N=151), precision: 0.8
+2025-03-04 14:19:43,873 - INFO - Regula po iteracji 3: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 THEN class = 1, (p=36, n=9, P=54, N=151)
+2025-03-04 14:19:43,880 - INFO - Iteracja 4: condition_best: wheel-base >= 90.70, quality_best: 0.649, coverage_best: (p=36, n=7, P=54, N=151), precision: 0.837
+2025-03-04 14:19:43,880 - INFO - Regula po iteracji 4: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 THEN class = 1, (p=36, n=7, P=54, N=151)
+2025-03-04 14:19:43,881 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:44,131 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:44,131 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=18, n=187, P=18, N=187)
+2025-03-04 14:19:44,131 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:44,131 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:44,138 - INFO - Iteracja 5: condition_best: compression-ratio >= 7.30, quality_best: 0.672, coverage_best: (p=36, n=6, P=54, N=151), precision: 0.857
+2025-03-04 14:19:44,138 - INFO - Regula po iteracji 5: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 THEN class = 1, (p=36, n=6, P=54, N=151)
+2025-03-04 14:19:44,138 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:44,382 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:44,382 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=18, n=187, P=18, N=187)
+2025-03-04 14:19:44,382 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:44,382 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:44,387 - INFO - Iteracja 6: condition_best: engine-location = {front}, quality_best: 0.672, coverage_best: (p=36, n=6, P=54, N=151), precision: 0.857
+2025-03-04 14:19:44,387 - INFO - Regula po iteracji 6: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} THEN class = 1, (p=36, n=6, P=54, N=151)
+2025-03-04 14:19:44,388 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:44,631 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:44,631 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=18, n=187, P=18, N=187)
+2025-03-04 14:19:44,631 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:44,631 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:44,637 - INFO - Iteracja 7: condition_best: width >= 63.60, quality_best: 0.672, coverage_best: (p=36, n=6, P=54, N=151), precision: 0.857
+2025-03-04 14:19:44,637 - INFO - Regula po iteracji 7: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 THEN class = 1, (p=36, n=6, P=54, N=151)
+2025-03-04 14:19:44,638 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:44,881 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:44,881 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=18, n=187, P=18, N=187)
+2025-03-04 14:19:44,881 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:44,881 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:44,887 - INFO - Iteracja 8: condition_best: fuel-type = {gas}, quality_best: 0.66, coverage_best: (p=35, n=6, P=54, N=151), precision: 0.854
+2025-03-04 14:19:44,887 - INFO - Regula po iteracji 8: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} THEN class = 1, (p=35, n=6, P=54, N=151)
+2025-03-04 14:19:44,887 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:45,132 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:45,132 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=19, n=186, P=19, N=186)
+2025-03-04 14:19:45,132 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:45,132 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:45,137 - INFO - Iteracja 9: condition_best: city-mpg <= 38.00, quality_best: 0.66, coverage_best: (p=35, n=6, P=54, N=151), precision: 0.854
+2025-03-04 14:19:45,138 - INFO - Regula po iteracji 9: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} AND city-mpg <= 38.00 THEN class = 1, (p=35, n=6, P=54, N=151)
+2025-03-04 14:19:45,138 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:45,383 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:45,383 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=19, n=186, P=19, N=186)
+2025-03-04 14:19:45,383 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:45,383 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:45,389 - INFO - Iteracja 10: condition_best: highway-mpg <= 43.00, quality_best: 0.66, coverage_best: (p=35, n=6, P=54, N=151), precision: 0.854
+2025-03-04 14:19:45,389 - INFO - Regula po iteracji 10: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} AND city-mpg <= 38.00 AND highway-mpg <= 43.00 THEN class = 1, (p=35, n=6, P=54, N=151)
+2025-03-04 14:19:45,390 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:45,634 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:45,635 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=19, n=186, P=19, N=186)
+2025-03-04 14:19:45,635 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:45,635 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:45,640 - INFO - Iteracja 11: condition_best: length >= 155.90, quality_best: 0.649, coverage_best: (p=34, n=6, P=54, N=151), precision: 0.85
+2025-03-04 14:19:45,641 - INFO - Regula po iteracji 11: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND length >= 155.90 THEN class = 1, (p=34, n=6, P=54, N=151)
+2025-03-04 14:19:45,641 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:45,886 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:45,886 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=20, n=185, P=20, N=185)
+2025-03-04 14:19:45,886 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:45,886 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:45,892 - INFO - Iteracja 12: condition_best: engine-size >= 90.00, quality_best: 0.649, coverage_best: (p=34, n=6, P=54, N=151), precision: 0.85
+2025-03-04 14:19:45,892 - INFO - Regula po iteracji 12: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND length >= 155.90 AND engine-size >= 90.00 THEN class = 1, (p=34, n=6, P=54, N=151)
+2025-03-04 14:19:45,893 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:46,136 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:46,137 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=20, n=185, P=20, N=185)
+2025-03-04 14:19:46,137 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:46,137 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:46,142 - INFO - Iteracja 13: condition_best: compression-ratio <= 9.60, quality_best: 0.649, coverage_best: (p=34, n=6, P=54, N=151), precision: 0.85
+2025-03-04 14:19:46,143 - INFO - Regula po iteracji 13: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND length >= 155.90 AND engine-size >= 90.00 AND compression-ratio <= 9.60 THEN class = 1, (p=34, n=6, P=54, N=151)
+2025-03-04 14:19:46,144 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:46,388 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:46,388 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=20, n=185, P=20, N=185)
+2025-03-04 14:19:46,388 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:46,388 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:46,394 - INFO - Iteracja 14: condition_best: height >= 50.80, quality_best: 0.59, coverage_best: (p=29, n=6, P=54, N=151), precision: 0.829
+2025-03-04 14:19:46,394 - INFO - Regula po iteracji 14: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND length >= 155.90 AND engine-size >= 90.00 AND compression-ratio <= 9.60 AND height >= 50.80 THEN class = 1, (p=29, n=6, P=54, N=151)
+2025-03-04 14:19:46,395 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:46,643 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:46,643 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=25, n=180, P=25, N=180)
+2025-03-04 14:19:46,643 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:46,643 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:46,649 - INFO - Iteracja 15: condition_best: height >= 50.90, quality_best: 0.577, coverage_best: (p=21, n=3, P=54, N=151), precision: 0.875
+2025-03-04 14:19:46,650 - INFO - Regula po iteracji 15: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND length >= 155.90 AND engine-size >= 90.00 AND compression-ratio <= 9.60 AND height >= 50.80 AND height >= 50.90 THEN class = 1, (p=21, n=3, P=54, N=151)
+2025-03-04 14:19:46,650 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:46,878 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:46,878 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=33, n=172, P=33, N=172)
+2025-03-04 14:19:46,878 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:46,878 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:46,883 - INFO - Iteracja 16: condition_best: wheel-base >= 94.50, quality_best: 0.509, coverage_best: (p=16, n=3, P=54, N=151), precision: 0.842
+2025-03-04 14:19:46,883 - INFO - Regula po iteracji 16: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND length >= 155.90 AND engine-size >= 90.00 AND compression-ratio <= 9.60 AND height >= 50.80 AND height >= 50.90 AND wheel-base >= 94.50 THEN class = 1, (p=16, n=3, P=54, N=151)
+2025-03-04 14:19:46,884 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:47,113 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:47,113 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=38, n=167, P=38, N=167)
+2025-03-04 14:19:47,113 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:47,113 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:47,117 - INFO - Iteracja 17: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:47,118 - INFO - Regula po iteracji 17: IF bore <= 3.15 AND peak-rpm <= 5,500.00 AND compression-ratio <= 22.45 AND height <= 56.00 AND wheel-base >= 90.70 AND compression-ratio >= 7.30 AND engine-location = {front} AND width >= 63.60 AND fuel-type = {gas} AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND length >= 155.90 AND engine-size >= 90.00 AND compression-ratio <= 9.60 AND height >= 50.80 AND height >= 50.90 AND wheel-base >= 94.50 THEN class = 1, (p=16, n=3, P=54, N=151)
+2025-03-04 14:19:47,118 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:47,120 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:47,159 - INFO - Iteracja 0: condition_best: curb-weight <= 2,407.50, quality_best: 0.238, coverage_best: (p=45, n=54, P=54, N=151), precision: 0.455
+2025-03-04 14:19:47,159 - INFO - Regula po iteracji 0: IF curb-weight <= 2,407.50 THEN class = 1, (p=45, n=54, P=54, N=151)
+2025-03-04 14:19:47,180 - INFO - Iteracja 1: condition_best: normalized-losses >= 96.00, quality_best: 0.395, coverage_best: (p=41, n=28, P=54, N=151), precision: 0.594
+2025-03-04 14:19:47,180 - INFO - Regula po iteracji 1: IF curb-weight <= 2,407.50 AND normalized-losses >= 96.00 THEN class = 1, (p=41, n=28, P=54, N=151)
+2025-03-04 14:19:47,195 - INFO - Iteracja 2: condition_best: bore <= 3.45, quality_best: 0.501, coverage_best: (p=41, n=19, P=54, N=151), precision: 0.683
+2025-03-04 14:19:47,195 - INFO - Regula po iteracji 2: IF curb-weight <= 2,407.50 AND normalized-losses >= 96.00 AND bore <= 3.45 THEN class = 1, (p=41, n=19, P=54, N=151)
+2025-03-04 14:19:47,207 - INFO - Iteracja 3: condition_best: height <= 54.50, quality_best: 0.56, coverage_best: (p=41, n=15, P=54, N=151), precision: 0.732
+2025-03-04 14:19:47,208 - INFO - Regula po iteracji 3: IF curb-weight <= 2,407.50 AND normalized-losses >= 96.00 AND bore <= 3.45 AND height <= 54.50 THEN class = 1, (p=41, n=15, P=54, N=151)
+2025-03-04 14:19:47,219 - INFO - Iteracja 4: condition_best: normalized-losses <= 133.00, quality_best: 0.642, coverage_best: (p=29, n=4, P=54, N=151), precision: 0.879
+2025-03-04 14:19:47,219 - INFO - Regula po iteracji 4: IF curb-weight <= 2,407.50 AND normalized-losses >= 96.00 AND bore <= 3.45 AND height <= 54.50 AND normalized-losses <= 133.00 THEN class = 1, (p=29, n=4, P=54, N=151)
+2025-03-04 14:19:47,219 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:47,501 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:47,501 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=25, n=180, P=25, N=180)
+2025-03-04 14:19:47,501 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:47,501 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:47,506 - INFO - Iteracja 5: condition_best: peak-rpm <= 5,650.00, quality_best: 0.714, coverage_best: (p=27, n=1, P=54, N=151), precision: 0.964
+2025-03-04 14:19:47,507 - INFO - Regula po iteracji 5: IF curb-weight <= 2,407.50 AND normalized-losses >= 96.00 AND bore <= 3.45 AND height <= 54.50 AND normalized-losses <= 133.00 AND peak-rpm <= 5,650.00 THEN class = 1, (p=27, n=1, P=54, N=151)
+2025-03-04 14:19:47,507 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:47,716 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:47,716 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=27, n=178, P=27, N=178)
+2025-03-04 14:19:47,716 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:47,716 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:47,719 - INFO - Iteracja 6: condition_best: engine-type = {ohc}, quality_best: 0.75, coverage_best: (p=27, n=0, P=54, N=151), precision: 1.0
+2025-03-04 14:19:47,719 - INFO - Regula po iteracji 6: IF curb-weight <= 2,407.50 AND normalized-losses >= 96.00 AND bore <= 3.45 AND height <= 54.50 AND normalized-losses <= 133.00 AND peak-rpm <= 5,650.00 AND engine-type = {ohc} THEN class = 1, (p=27, n=0, P=54, N=151)
+2025-03-04 14:19:47,719 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:47,723 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:47,763 - INFO - Iteracja 0: condition_best: stroke <= 3.39, quality_best: 0.088, coverage_best: (p=43, n=85, P=54, N=151), precision: 0.336
+2025-03-04 14:19:47,763 - INFO - Regula po iteracji 0: IF stroke <= 3.39 THEN class = 1, (p=43, n=85, P=54, N=151)
+2025-03-04 14:19:47,793 - INFO - Iteracja 1: condition_best: stroke >= 3.08, quality_best: 0.203, coverage_best: (p=37, n=47, P=54, N=151), precision: 0.44
+2025-03-04 14:19:47,793 - INFO - Regula po iteracji 1: IF stroke <= 3.39 AND stroke >= 3.08 THEN class = 1, (p=37, n=47, P=54, N=151)
+2025-03-04 14:19:47,815 - INFO - Iteracja 2: condition_best: height <= 55.70, quality_best: 0.303, coverage_best: (p=37, n=33, P=54, N=151), precision: 0.529
+2025-03-04 14:19:47,815 - INFO - Regula po iteracji 2: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 THEN class = 1, (p=37, n=33, P=54, N=151)
+2025-03-04 14:19:47,832 - INFO - Iteracja 3: condition_best: fuel-type = {gas}, quality_best: 0.34, coverage_best: (p=37, n=29, P=54, N=151), precision: 0.561
+2025-03-04 14:19:47,832 - INFO - Regula po iteracji 3: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} THEN class = 1, (p=37, n=29, P=54, N=151)
+2025-03-04 14:19:47,848 - INFO - Iteracja 4: condition_best: wheel-base >= 92.15, quality_best: 0.36, coverage_best: (p=37, n=27, P=54, N=151), precision: 0.578
+2025-03-04 14:19:47,848 - INFO - Regula po iteracji 4: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 THEN class = 1, (p=37, n=27, P=54, N=151)
+2025-03-04 14:19:47,863 - INFO - Iteracja 5: condition_best: width >= 62.70, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:47,863 - INFO - Regula po iteracji 5: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:47,878 - INFO - Iteracja 6: condition_best: engine-location = {front}, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:47,879 - INFO - Regula po iteracji 6: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:47,894 - INFO - Iteracja 7: condition_best: length >= 155.90, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:47,894 - INFO - Regula po iteracji 7: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:47,910 - INFO - Iteracja 8: condition_best: width >= 63.60, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:47,910 - INFO - Regula po iteracji 8: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:47,926 - INFO - Iteracja 9: condition_best: engine-size >= 90.00, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:47,926 - INFO - Regula po iteracji 9: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:47,942 - INFO - Iteracja 10: condition_best: bore <= 3.94, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:47,942 - INFO - Regula po iteracji 10: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:47,959 - INFO - Iteracja 11: condition_best: bore >= 2.97, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:47,959 - INFO - Regula po iteracji 11: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:47,976 - INFO - Iteracja 12: condition_best: horsepower >= 68.00, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:47,976 - INFO - Regula po iteracji 12: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:47,993 - INFO - Iteracja 13: condition_best: peak-rpm >= 4,250.00, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:47,994 - INFO - Regula po iteracji 13: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:48,011 - INFO - Iteracja 14: condition_best: city-mpg <= 38.00, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:48,011 - INFO - Regula po iteracji 14: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:48,029 - INFO - Iteracja 15: condition_best: highway-mpg <= 43.00, quality_best: 0.37, coverage_best: (p=37, n=26, P=54, N=151), precision: 0.587
+2025-03-04 14:19:48,029 - INFO - Regula po iteracji 15: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 THEN class = 1, (p=37, n=26, P=54, N=151)
+2025-03-04 14:19:48,047 - INFO - Iteracja 16: condition_best: width >= 63.80, quality_best: 0.369, coverage_best: (p=35, n=24, P=54, N=151), precision: 0.593
+2025-03-04 14:19:48,048 - INFO - Regula po iteracji 16: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 THEN class = 1, (p=35, n=24, P=54, N=151)
+2025-03-04 14:19:48,065 - INFO - Iteracja 17: condition_best: length >= 157.30, quality_best: 0.369, coverage_best: (p=35, n=24, P=54, N=151), precision: 0.593
+2025-03-04 14:19:48,066 - INFO - Regula po iteracji 17: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 THEN class = 1, (p=35, n=24, P=54, N=151)
+2025-03-04 14:19:48,083 - INFO - Iteracja 18: condition_best: city-mpg <= 37.00, quality_best: 0.369, coverage_best: (p=35, n=24, P=54, N=151), precision: 0.593
+2025-03-04 14:19:48,084 - INFO - Regula po iteracji 18: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 THEN class = 1, (p=35, n=24, P=54, N=151)
+2025-03-04 14:19:48,101 - INFO - Iteracja 19: condition_best: highway-mpg <= 41.00, quality_best: 0.369, coverage_best: (p=35, n=24, P=54, N=151), precision: 0.593
+2025-03-04 14:19:48,102 - INFO - Regula po iteracji 19: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 THEN class = 1, (p=35, n=24, P=54, N=151)
+2025-03-04 14:19:48,120 - INFO - Iteracja 20: condition_best: stroke >= 3.10, quality_best: 0.356, coverage_best: (p=33, n=23, P=54, N=151), precision: 0.589
+2025-03-04 14:19:48,120 - INFO - Regula po iteracji 20: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 THEN class = 1, (p=33, n=23, P=54, N=151)
+2025-03-04 14:19:48,138 - INFO - Iteracja 21: condition_best: stroke >= 3.11, quality_best: 0.356, coverage_best: (p=33, n=23, P=54, N=151), precision: 0.589
+2025-03-04 14:19:48,139 - INFO - Regula po iteracji 21: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 THEN class = 1, (p=33, n=23, P=54, N=151)
+2025-03-04 14:19:48,156 - INFO - Iteracja 22: condition_best: city-mpg <= 31.00, quality_best: 0.344, coverage_best: (p=31, n=22, P=54, N=151), precision: 0.585
+2025-03-04 14:19:48,157 - INFO - Regula po iteracji 22: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 THEN class = 1, (p=31, n=22, P=54, N=151)
+2025-03-04 14:19:48,174 - INFO - Iteracja 23: condition_best: highway-mpg <= 38.00, quality_best: 0.344, coverage_best: (p=31, n=22, P=54, N=151), precision: 0.585
+2025-03-04 14:19:48,174 - INFO - Regula po iteracji 23: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 THEN class = 1, (p=31, n=22, P=54, N=151)
+2025-03-04 14:19:48,192 - INFO - Iteracja 24: condition_best: stroke <= 3.35, quality_best: 0.33, coverage_best: (p=25, n=17, P=54, N=151), precision: 0.595
+2025-03-04 14:19:48,192 - INFO - Regula po iteracji 24: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 THEN class = 1, (p=25, n=17, P=54, N=151)
+2025-03-04 14:19:48,208 - INFO - Iteracja 25: condition_best: compression-ratio >= 8.00, quality_best: 0.33, coverage_best: (p=25, n=17, P=54, N=151), precision: 0.595
+2025-03-04 14:19:48,208 - INFO - Regula po iteracji 25: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 THEN class = 1, (p=25, n=17, P=54, N=151)
+2025-03-04 14:19:48,223 - INFO - Iteracja 26: condition_best: length >= 158.20, quality_best: 0.287, coverage_best: (p=20, n=15, P=54, N=151), precision: 0.571
+2025-03-04 14:19:48,224 - INFO - Regula po iteracji 26: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 THEN class = 1, (p=20, n=15, P=54, N=151)
+2025-03-04 14:19:48,238 - INFO - Iteracja 27: condition_best: length >= 163.85, quality_best: 0.254, coverage_best: (p=17, n=14, P=54, N=151), precision: 0.548
+2025-03-04 14:19:48,239 - INFO - Regula po iteracji 27: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 AND length >= 163.85 THEN class = 1, (p=17, n=14, P=54, N=151)
+2025-03-04 14:19:48,252 - INFO - Iteracja 28: condition_best: wheel-base >= 94.50, quality_best: 0.184, coverage_best: (p=13, n=14, P=54, N=151), precision: 0.481
+2025-03-04 14:19:48,252 - INFO - Regula po iteracji 28: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 AND length >= 163.85 AND wheel-base >= 94.50 THEN class = 1, (p=13, n=14, P=54, N=151)
+2025-03-04 14:19:48,266 - INFO - Iteracja 29: condition_best: width >= 66.70, quality_best: 0.142, coverage_best: (p=5, n=6, P=54, N=151), precision: 0.455
+2025-03-04 14:19:48,266 - INFO - Regula po iteracji 29: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 AND length >= 163.85 AND wheel-base >= 94.50 AND width >= 66.70 THEN class = 1, (p=5, n=6, P=54, N=151)
+2025-03-04 14:19:48,274 - INFO - Iteracja 30: condition_best: bore >= 3.29, quality_best: 0.217, coverage_best: (p=5, n=4, P=54, N=151), precision: 0.556
+2025-03-04 14:19:48,275 - INFO - Regula po iteracji 30: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 AND length >= 163.85 AND wheel-base >= 94.50 AND width >= 66.70 AND bore >= 3.29 THEN class = 1, (p=5, n=4, P=54, N=151)
+2025-03-04 14:19:48,280 - INFO - Iteracja 31: condition_best: horsepower >= 117.50, quality_best: 0.334, coverage_best: (p=5, n=2, P=54, N=151), precision: 0.714
+2025-03-04 14:19:48,281 - INFO - Regula po iteracji 31: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 AND length >= 163.85 AND wheel-base >= 94.50 AND width >= 66.70 AND bore >= 3.29 AND horsepower >= 117.50 THEN class = 1, (p=5, n=2, P=54, N=151)
+2025-03-04 14:19:48,287 - INFO - Iteracja 32: condition_best: wheel-base >= 96.45, quality_best: 0.423, coverage_best: (p=5, n=1, P=54, N=151), precision: 0.833
+2025-03-04 14:19:48,287 - INFO - Regula po iteracji 32: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 AND length >= 163.85 AND wheel-base >= 94.50 AND width >= 66.70 AND bore >= 3.29 AND horsepower >= 117.50 AND wheel-base >= 96.45 THEN class = 1, (p=5, n=1, P=54, N=151)
+2025-03-04 14:19:48,289 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:48,493 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:48,493 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=49, n=156, P=49, N=156)
+2025-03-04 14:19:48,493 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:48,493 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:48,498 - INFO - Iteracja 33: condition_best: drive-wheels = {rwd}, quality_best: 0.423, coverage_best: (p=5, n=1, P=54, N=151), precision: 0.833
+2025-03-04 14:19:48,498 - INFO - Regula po iteracji 33: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 AND length >= 163.85 AND wheel-base >= 94.50 AND width >= 66.70 AND bore >= 3.29 AND horsepower >= 117.50 AND wheel-base >= 96.45 AND drive-wheels = {rwd} THEN class = 1, (p=5, n=1, P=54, N=151)
+2025-03-04 14:19:48,500 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:48,704 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:48,704 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=49, n=156, P=49, N=156)
+2025-03-04 14:19:48,704 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:48,704 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:48,708 - INFO - Iteracja 34: condition_best: fuel-system = {mpfi}, quality_best: 0.423, coverage_best: (p=5, n=1, P=54, N=151), precision: 0.833
+2025-03-04 14:19:48,709 - INFO - Regula po iteracji 34: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 AND length >= 163.85 AND wheel-base >= 94.50 AND width >= 66.70 AND bore >= 3.29 AND horsepower >= 117.50 AND wheel-base >= 96.45 AND drive-wheels = {rwd} AND fuel-system = {mpfi} THEN class = 1, (p=5, n=1, P=54, N=151)
+2025-03-04 14:19:48,711 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:48,915 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:48,915 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=49, n=156, P=49, N=156)
+2025-03-04 14:19:48,915 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:48,915 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:48,919 - INFO - Iteracja 35: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:48,920 - INFO - Regula po iteracji 35: IF stroke <= 3.39 AND stroke >= 3.08 AND height <= 55.70 AND fuel-type = {gas} AND wheel-base >= 92.15 AND width >= 62.70 AND engine-location = {front} AND length >= 155.90 AND width >= 63.60 AND engine-size >= 90.00 AND bore <= 3.94 AND bore >= 2.97 AND horsepower >= 68.00 AND peak-rpm >= 4,250.00 AND city-mpg <= 38.00 AND highway-mpg <= 43.00 AND width >= 63.80 AND length >= 157.30 AND city-mpg <= 37.00 AND highway-mpg <= 41.00 AND stroke >= 3.10 AND stroke >= 3.11 AND city-mpg <= 31.00 AND highway-mpg <= 38.00 AND stroke <= 3.35 AND compression-ratio >= 8.00 AND length >= 158.20 AND length >= 163.85 AND wheel-base >= 94.50 AND width >= 66.70 AND bore >= 3.29 AND horsepower >= 117.50 AND wheel-base >= 96.45 AND drive-wheels = {rwd} AND fuel-system = {mpfi} THEN class = 1, (p=5, n=1, P=54, N=151)
+2025-03-04 14:19:48,920 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:49,377 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:49,416 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:49,416 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=54, n=151, P=54, N=151)
+2025-03-04 14:19:49,416 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:49,416 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:49,456 - INFO - Iteracja 0: condition_best: make = {volkswagen}, quality_best: 0.309, coverage_best: (p=7, n=5, P=32, N=173), precision: 0.583
+2025-03-04 14:19:49,456 - INFO - Regula po iteracji 0: IF make = {volkswagen} THEN class = 2, (p=7, n=5, P=32, N=173)
+2025-03-04 14:19:49,459 - INFO - Iteracja 1: condition_best: normalized-losses <= 189.00, quality_best: 0.609, coverage_best: (p=7, n=0, P=32, N=173), precision: 1.0
+2025-03-04 14:19:49,460 - INFO - Regula po iteracji 1: IF make = {volkswagen} AND normalized-losses <= 189.00 THEN class = 2, (p=7, n=0, P=32, N=173)
+2025-03-04 14:19:49,460 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:49,460 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:49,499 - INFO - Iteracja 0: condition_best: length <= 158.30, quality_best: 0.135, coverage_best: (p=9, n=18, P=32, N=173), precision: 0.333
+2025-03-04 14:19:49,499 - INFO - Regula po iteracji 0: IF length <= 158.30 THEN class = 2, (p=9, n=18, P=32, N=173)
+2025-03-04 14:19:49,506 - INFO - Iteracja 1: condition_best: peak-rpm <= 5,250.00, quality_best: 0.578, coverage_best: (p=5, n=0, P=32, N=173), precision: 1.0
+2025-03-04 14:19:49,506 - INFO - Regula po iteracji 1: IF length <= 158.30 AND peak-rpm <= 5,250.00 THEN class = 2, (p=5, n=0, P=32, N=173)
+2025-03-04 14:19:49,506 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:49,506 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:49,545 - INFO - Iteracja 0: condition_best: stroke >= 3.40, quality_best: 0.098, coverage_best: (p=19, n=54, P=32, N=173), precision: 0.26
+2025-03-04 14:19:49,545 - INFO - Regula po iteracji 0: IF stroke >= 3.40 THEN class = 2, (p=19, n=54, P=32, N=173)
+2025-03-04 14:19:49,565 - INFO - Iteracja 1: condition_best: make = {toyota}, quality_best: 0.312, coverage_best: (p=6, n=4, P=32, N=173), precision: 0.6
+2025-03-04 14:19:49,565 - INFO - Regula po iteracji 1: IF stroke >= 3.40 AND make = {toyota} THEN class = 2, (p=6, n=4, P=32, N=173)
+2025-03-04 14:19:49,568 - INFO - Iteracja 2: condition_best: num-of-doors = {two}, quality_best: 0.594, coverage_best: (p=6, n=0, P=32, N=173), precision: 1.0
+2025-03-04 14:19:49,568 - INFO - Regula po iteracji 2: IF stroke >= 3.40 AND make = {toyota} AND num-of-doors = {two} THEN class = 2, (p=6, n=0, P=32, N=173)
+2025-03-04 14:19:49,568 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:49,569 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:49,607 - INFO - Iteracja 0: condition_best: stroke >= 3.40, quality_best: 0.098, coverage_best: (p=19, n=54, P=32, N=173), precision: 0.26
+2025-03-04 14:19:49,607 - INFO - Regula po iteracji 0: IF stroke >= 3.40 THEN class = 2, (p=19, n=54, P=32, N=173)
+2025-03-04 14:19:49,623 - INFO - Iteracja 1: condition_best: wheel-base <= 100.10, quality_best: 0.226, coverage_best: (p=19, n=29, P=32, N=173), precision: 0.396
+2025-03-04 14:19:49,623 - INFO - Regula po iteracji 1: IF stroke >= 3.40 AND wheel-base <= 100.10 THEN class = 2, (p=19, n=29, P=32, N=173)
+2025-03-04 14:19:49,636 - INFO - Iteracja 2: condition_best: compression-ratio >= 7.75, quality_best: 0.313, coverage_best: (p=19, n=20, P=32, N=173), precision: 0.487
+2025-03-04 14:19:49,636 - INFO - Regula po iteracji 2: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 THEN class = 2, (p=19, n=20, P=32, N=173)
+2025-03-04 14:19:49,647 - INFO - Iteracja 3: condition_best: width >= 63.85, quality_best: 0.337, coverage_best: (p=19, n=18, P=32, N=173), precision: 0.514
+2025-03-04 14:19:49,647 - INFO - Regula po iteracji 3: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 THEN class = 2, (p=19, n=18, P=32, N=173)
+2025-03-04 14:19:49,657 - INFO - Iteracja 4: condition_best: engine-type = {ohc}, quality_best: 0.351, coverage_best: (p=19, n=17, P=32, N=173), precision: 0.528
+2025-03-04 14:19:49,657 - INFO - Regula po iteracji 4: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} THEN class = 2, (p=19, n=17, P=32, N=173)
+2025-03-04 14:19:49,667 - INFO - Iteracja 5: condition_best: length <= 179.40, quality_best: 0.365, coverage_best: (p=19, n=16, P=32, N=173), precision: 0.543
+2025-03-04 14:19:49,667 - INFO - Regula po iteracji 5: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 THEN class = 2, (p=19, n=16, P=32, N=173)
+2025-03-04 14:19:49,676 - INFO - Iteracja 6: condition_best: height <= 57.00, quality_best: 0.38, coverage_best: (p=19, n=15, P=32, N=173), precision: 0.559
+2025-03-04 14:19:49,676 - INFO - Regula po iteracji 6: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 THEN class = 2, (p=19, n=15, P=32, N=173)
+2025-03-04 14:19:49,685 - INFO - Iteracja 7: condition_best: height >= 49.95, quality_best: 0.396, coverage_best: (p=19, n=14, P=32, N=173), precision: 0.576
+2025-03-04 14:19:49,685 - INFO - Regula po iteracji 7: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 THEN class = 2, (p=19, n=14, P=32, N=173)
+2025-03-04 14:19:49,693 - INFO - Iteracja 8: condition_best: engine-location = {front}, quality_best: 0.396, coverage_best: (p=19, n=14, P=32, N=173), precision: 0.576
+2025-03-04 14:19:49,694 - INFO - Regula po iteracji 8: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 AND engine-location = {front} THEN class = 2, (p=19, n=14, P=32, N=173)
+2025-03-04 14:19:49,702 - INFO - Iteracja 9: condition_best: engine-size >= 92.00, quality_best: 0.396, coverage_best: (p=19, n=14, P=32, N=173), precision: 0.576
+2025-03-04 14:19:49,703 - INFO - Regula po iteracji 9: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 AND engine-location = {front} AND engine-size >= 92.00 THEN class = 2, (p=19, n=14, P=32, N=173)
+2025-03-04 14:19:49,711 - INFO - Iteracja 10: condition_best: bore >= 2.91, quality_best: 0.396, coverage_best: (p=19, n=14, P=32, N=173), precision: 0.576
+2025-03-04 14:19:49,712 - INFO - Regula po iteracji 10: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 AND engine-location = {front} AND engine-size >= 92.00 AND bore >= 2.91 THEN class = 2, (p=19, n=14, P=32, N=173)
+2025-03-04 14:19:49,720 - INFO - Iteracja 11: condition_best: stroke >= 3.40, quality_best: 0.396, coverage_best: (p=19, n=14, P=32, N=173), precision: 0.576
+2025-03-04 14:19:49,721 - INFO - Regula po iteracji 11: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 AND engine-location = {front} AND engine-size >= 92.00 AND bore >= 2.91 AND stroke >= 3.40 THEN class = 2, (p=19, n=14, P=32, N=173)
+2025-03-04 14:19:49,730 - INFO - Iteracja 12: condition_best: price >= 6,692.00, quality_best: 0.393, coverage_best: (p=18, n=13, P=32, N=173), precision: 0.581
+2025-03-04 14:19:49,730 - INFO - Regula po iteracji 12: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 AND engine-location = {front} AND engine-size >= 92.00 AND bore >= 2.91 AND stroke >= 3.40 AND price >= 6,692.00 THEN class = 2, (p=18, n=13, P=32, N=173)
+2025-03-04 14:19:49,739 - INFO - Iteracja 13: condition_best: aspiration = {std}, quality_best: 0.372, coverage_best: (p=17, n=13, P=32, N=173), precision: 0.567
+2025-03-04 14:19:49,739 - INFO - Regula po iteracji 13: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 AND engine-location = {front} AND engine-size >= 92.00 AND bore >= 2.91 AND stroke >= 3.40 AND price >= 6,692.00 AND aspiration = {std} THEN class = 2, (p=17, n=13, P=32, N=173)
+2025-03-04 14:19:49,748 - INFO - Iteracja 14: condition_best: fuel-type = {gas}, quality_best: 0.33, coverage_best: (p=15, n=13, P=32, N=173), precision: 0.536
+2025-03-04 14:19:49,749 - INFO - Regula po iteracji 14: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 AND engine-location = {front} AND engine-size >= 92.00 AND bore >= 2.91 AND stroke >= 3.40 AND price >= 6,692.00 AND aspiration = {std} AND fuel-type = {gas} THEN class = 2, (p=15, n=13, P=32, N=173)
+2025-03-04 14:19:49,757 - INFO - Iteracja 15: condition_best: height <= 54.40, quality_best: 0.314, coverage_best: (p=11, n=9, P=32, N=173), precision: 0.55
+2025-03-04 14:19:49,758 - INFO - Regula po iteracji 15: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 AND engine-location = {front} AND engine-size >= 92.00 AND bore >= 2.91 AND stroke >= 3.40 AND price >= 6,692.00 AND aspiration = {std} AND fuel-type = {gas} AND height <= 54.40 THEN class = 2, (p=11, n=9, P=32, N=173)
+2025-03-04 14:19:49,765 - INFO - Iteracja 16: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:49,766 - INFO - Regula po iteracji 16: IF stroke >= 3.40 AND wheel-base <= 100.10 AND compression-ratio >= 7.75 AND width >= 63.85 AND engine-type = {ohc} AND length <= 179.40 AND height <= 57.00 AND height >= 49.95 AND engine-location = {front} AND engine-size >= 92.00 AND bore >= 2.91 AND stroke >= 3.40 AND price >= 6,692.00 AND aspiration = {std} AND fuel-type = {gas} AND height <= 54.40 THEN class = 2, (p=11, n=9, P=32, N=173)
+2025-03-04 14:19:49,766 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:49,769 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:49,806 - INFO - Iteracja 0: condition_best: num-of-doors = {two}, quality_best: 0.091, coverage_best: (p=22, n=67, P=32, N=173), precision: 0.247
+2025-03-04 14:19:49,807 - INFO - Regula po iteracji 0: IF num-of-doors = {two} THEN class = 2, (p=22, n=67, P=32, N=173)
+2025-03-04 14:19:49,828 - INFO - Iteracja 1: condition_best: city-mpg >= 22.50, quality_best: 0.222, coverage_best: (p=21, n=34, P=32, N=173), precision: 0.382
+2025-03-04 14:19:49,828 - INFO - Regula po iteracji 1: IF num-of-doors = {two} AND city-mpg >= 22.50 THEN class = 2, (p=21, n=34, P=32, N=173)
+2025-03-04 14:19:49,839 - INFO - Iteracja 2: condition_best: width >= 64.30, quality_best: 0.435, coverage_best: (p=14, n=7, P=32, N=173), precision: 0.667
+2025-03-04 14:19:49,839 - INFO - Regula po iteracji 2: IF num-of-doors = {two} AND city-mpg >= 22.50 AND width >= 64.30 THEN class = 2, (p=14, n=7, P=32, N=173)
+2025-03-04 14:19:49,845 - INFO - Iteracja 3: condition_best: stroke <= 3.31, quality_best: 0.578, coverage_best: (p=5, n=0, P=32, N=173), precision: 1.0
+2025-03-04 14:19:49,846 - INFO - Regula po iteracji 3: IF num-of-doors = {two} AND city-mpg >= 22.50 AND width >= 64.30 AND stroke <= 3.31 THEN class = 2, (p=5, n=0, P=32, N=173)
+2025-03-04 14:19:49,846 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:49,847 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:49,885 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:49,885 - INFO - Regula po iteracji 0: IF  THEN class = 2, (p=32, n=173, P=32, N=173)
+2025-03-04 14:19:49,885 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:49,885 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:49,928 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.582, coverage_best: (p=11, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:49,928 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=67, N=138)
+2025-03-04 14:19:49,928 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:49,928 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:49,970 - INFO - Iteracja 0: condition_best: city-mpg <= 15.50, quality_best: 0.404, coverage_best: (p=5, n=1, P=67, N=138), precision: 0.833
+2025-03-04 14:19:49,971 - INFO - Regula po iteracji 0: IF city-mpg <= 15.50 THEN class = 0, (p=5, n=1, P=67, N=138)
+2025-03-04 14:19:49,971 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:50,227 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.589, coverage_best: (p=11, n=0, P=62, N=143), number_of_covered_negatives_best: 0, best_score: 0.766, precision: 1.0
+2025-03-04 14:19:50,227 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=62, N=143)
+2025-03-04 14:19:50,227 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:50,227 - INFO - ***RR FOUND***
+2025-03-04 14:19:50,227 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:50,227 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:50,228 - INFO - Exception precision: 0
+2025-03-04 14:19:50,228 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:50,230 - INFO - Iteracja 1: condition_best: body-style = {sedan}, quality_best: 0.537, coverage_best: (p=5, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:50,230 - INFO - Regula po iteracji 1: IF city-mpg <= 15.50 AND body-style = {sedan} THEN class = 0, (p=5, n=0, P=67, N=138)
+2025-03-04 14:19:50,230 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:50,231 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:50,273 - INFO - Iteracja 0: condition_best: drive-wheels = {4wd}, quality_best: 0.37, coverage_best: (p=7, n=2, P=67, N=138), precision: 0.778
+2025-03-04 14:19:50,273 - INFO - Regula po iteracji 0: IF drive-wheels = {4wd} THEN class = 0, (p=7, n=2, P=67, N=138)
+2025-03-04 14:19:50,277 - INFO - Iteracja 1: condition_best: wheel-base >= 94.50, quality_best: 0.45, coverage_best: (p=7, n=1, P=67, N=138), precision: 0.875
+2025-03-04 14:19:50,277 - INFO - Regula po iteracji 1: IF drive-wheels = {4wd} AND wheel-base >= 94.50 THEN class = 0, (p=7, n=1, P=67, N=138)
+2025-03-04 14:19:50,277 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:50,488 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.592, coverage_best: (p=11, n=0, P=60, N=145), number_of_covered_negatives_best: 0, best_score: 0.775, precision: 1.0
+2025-03-04 14:19:50,488 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=60, N=145)
+2025-03-04 14:19:50,488 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:50,488 - INFO - ***RR FOUND***
+2025-03-04 14:19:50,488 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:50,488 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:50,488 - INFO - Exception precision: 0
+2025-03-04 14:19:50,488 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:50,491 - INFO - Iteracja 2: condition_best: engine-size <= 133.50, quality_best: 0.552, coverage_best: (p=7, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:50,491 - INFO - Regula po iteracji 2: IF drive-wheels = {4wd} AND wheel-base >= 94.50 AND engine-size <= 133.50 THEN class = 0, (p=7, n=0, P=67, N=138)
+2025-03-04 14:19:50,491 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:50,492 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:50,533 - INFO - Iteracja 0: condition_best: make = {subaru}, quality_best: 0.357, coverage_best: (p=9, n=3, P=67, N=138), precision: 0.75
+2025-03-04 14:19:50,534 - INFO - Regula po iteracji 0: IF make = {subaru} THEN class = 0, (p=9, n=3, P=67, N=138)
+2025-03-04 14:19:50,536 - INFO - Iteracja 1: condition_best: num-of-doors = {four}, quality_best: 0.567, coverage_best: (p=9, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:50,536 - INFO - Regula po iteracji 1: IF make = {subaru} AND num-of-doors = {four} THEN class = 0, (p=9, n=0, P=67, N=138)
+2025-03-04 14:19:50,536 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:50,537 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:50,578 - INFO - Iteracja 0: condition_best: make = {bmw}, quality_best: 0.342, coverage_best: (p=6, n=2, P=67, N=138), precision: 0.75
+2025-03-04 14:19:50,579 - INFO - Regula po iteracji 0: IF make = {bmw} THEN class = 0, (p=6, n=2, P=67, N=138)
+2025-03-04 14:19:50,582 - INFO - Iteracja 1: condition_best: price >= 16,677.50, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:50,582 - INFO - Regula po iteracji 1: IF make = {bmw} AND price >= 16,677.50 THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:50,582 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:50,790 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:50,790 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:50,790 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:50,791 - INFO - ***RR FOUND***
+2025-03-04 14:19:50,791 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:50,791 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:50,791 - INFO - Exception precision: 0
+2025-03-04 14:19:50,791 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:50,793 - INFO - Iteracja 2: condition_best: fuel-type = {gas}, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:50,793 - INFO - Regula po iteracji 2: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:50,793 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:51,002 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:51,002 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:51,002 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:51,002 - INFO - ***RR FOUND***
+2025-03-04 14:19:51,002 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:51,002 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:51,002 - INFO - Exception precision: 0
+2025-03-04 14:19:51,002 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:51,004 - INFO - Iteracja 3: condition_best: aspiration = {std}, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:51,005 - INFO - Regula po iteracji 3: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:51,005 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:51,214 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:51,214 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:51,214 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:51,214 - INFO - ***RR FOUND***
+2025-03-04 14:19:51,214 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:51,214 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:51,215 - INFO - Exception precision: 0
+2025-03-04 14:19:51,215 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:51,217 - INFO - Iteracja 4: condition_best: body-style = {sedan}, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:51,217 - INFO - Regula po iteracji 4: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:51,218 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:51,426 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:51,426 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:51,426 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:51,426 - INFO - ***RR FOUND***
+2025-03-04 14:19:51,426 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:51,426 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:51,427 - INFO - Exception precision: 0
+2025-03-04 14:19:51,427 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:51,429 - INFO - Iteracja 5: condition_best: drive-wheels = {rwd}, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:51,429 - INFO - Regula po iteracji 5: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:51,430 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:51,638 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:51,638 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:51,638 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:51,638 - INFO - ***RR FOUND***
+2025-03-04 14:19:51,638 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:51,638 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:51,638 - INFO - Exception precision: 0
+2025-03-04 14:19:51,638 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:51,641 - INFO - Iteracja 6: condition_best: engine-location = {front}, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:51,641 - INFO - Regula po iteracji 6: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} AND engine-location = {front} THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:51,642 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:51,850 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:51,850 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:51,850 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:51,850 - INFO - ***RR FOUND***
+2025-03-04 14:19:51,850 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:51,850 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:51,851 - INFO - Exception precision: 0
+2025-03-04 14:19:51,851 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:51,853 - INFO - Iteracja 7: condition_best: engine-type = {ohc}, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:51,853 - INFO - Regula po iteracji 7: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} AND engine-location = {front} AND engine-type = {ohc} THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:51,854 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:52,062 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:52,062 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:52,062 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:52,062 - INFO - ***RR FOUND***
+2025-03-04 14:19:52,062 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:52,062 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:52,063 - INFO - Exception precision: 0
+2025-03-04 14:19:52,063 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:52,065 - INFO - Iteracja 8: condition_best: fuel-system = {mpfi}, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:52,065 - INFO - Regula po iteracji 8: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} AND engine-location = {front} AND engine-type = {ohc} AND fuel-system = {mpfi} THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:52,066 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:52,274 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:52,274 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:52,274 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:52,274 - INFO - ***RR FOUND***
+2025-03-04 14:19:52,274 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:52,274 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:52,275 - INFO - Exception precision: 0
+2025-03-04 14:19:52,275 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:52,277 - INFO - Iteracja 9: condition_best: bore >= 3.31, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:52,277 - INFO - Regula po iteracji 9: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} AND engine-location = {front} AND engine-type = {ohc} AND fuel-system = {mpfi} AND bore >= 3.31 THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:52,278 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:52,487 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:52,487 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:52,487 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:52,487 - INFO - ***RR FOUND***
+2025-03-04 14:19:52,487 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:52,487 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:52,487 - INFO - Exception precision: 0
+2025-03-04 14:19:52,487 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:52,490 - INFO - Iteracja 10: condition_best: compression-ratio <= 9.00, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:52,490 - INFO - Regula po iteracji 10: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} AND engine-location = {front} AND engine-type = {ohc} AND fuel-system = {mpfi} AND bore >= 3.31 AND compression-ratio <= 9.00 THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:52,491 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:52,699 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:52,699 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:52,699 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:52,699 - INFO - ***RR FOUND***
+2025-03-04 14:19:52,699 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:52,699 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:52,700 - INFO - Exception precision: 0
+2025-03-04 14:19:52,700 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:52,702 - INFO - Iteracja 11: condition_best: peak-rpm >= 4,250.00, quality_best: 0.429, coverage_best: (p=6, n=1, P=67, N=138), precision: 0.857
+2025-03-04 14:19:52,703 - INFO - Regula po iteracji 11: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} AND engine-location = {front} AND engine-type = {ohc} AND fuel-system = {mpfi} AND bore >= 3.31 AND compression-ratio <= 9.00 AND peak-rpm >= 4,250.00 THEN class = 0, (p=6, n=1, P=67, N=138)
+2025-03-04 14:19:52,703 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:52,912 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.59, coverage_best: (p=11, n=0, P=61, N=144), number_of_covered_negatives_best: 0, best_score: 0.77, precision: 1.0
+2025-03-04 14:19:52,912 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=61, N=144)
+2025-03-04 14:19:52,912 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:52,912 - INFO - ***RR FOUND***
+2025-03-04 14:19:52,912 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:52,912 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:52,913 - INFO - Exception precision: 0
+2025-03-04 14:19:52,913 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:52,915 - INFO - Iteracja 12: condition_best: wheel-base <= 103.50, quality_best: 0.404, coverage_best: (p=5, n=1, P=67, N=138), precision: 0.833
+2025-03-04 14:19:52,916 - INFO - Regula po iteracji 12: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} AND engine-location = {front} AND engine-type = {ohc} AND fuel-system = {mpfi} AND bore >= 3.31 AND compression-ratio <= 9.00 AND peak-rpm >= 4,250.00 AND wheel-base <= 103.50 THEN class = 0, (p=5, n=1, P=67, N=138)
+2025-03-04 14:19:52,917 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:53,124 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.589, coverage_best: (p=11, n=0, P=62, N=143), number_of_covered_negatives_best: 0, best_score: 0.766, precision: 1.0
+2025-03-04 14:19:53,125 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=62, N=143)
+2025-03-04 14:19:53,125 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:53,125 - INFO - ***RR FOUND***
+2025-03-04 14:19:53,125 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:53,125 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:53,125 - INFO - Exception precision: 0
+2025-03-04 14:19:53,125 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:53,128 - INFO - Iteracja 13: condition_best: height <= 55.70, quality_best: 0.404, coverage_best: (p=5, n=1, P=67, N=138), precision: 0.833
+2025-03-04 14:19:53,128 - INFO - Regula po iteracji 13: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} AND engine-location = {front} AND engine-type = {ohc} AND fuel-system = {mpfi} AND bore >= 3.31 AND compression-ratio <= 9.00 AND peak-rpm >= 4,250.00 AND wheel-base <= 103.50 AND height <= 55.70 THEN class = 0, (p=5, n=1, P=67, N=138)
+2025-03-04 14:19:53,129 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:53,337 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.589, coverage_best: (p=11, n=0, P=62, N=143), number_of_covered_negatives_best: 0, best_score: 0.766, precision: 1.0
+2025-03-04 14:19:53,337 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=62, N=143)
+2025-03-04 14:19:53,337 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:53,337 - INFO - ***RR FOUND***
+2025-03-04 14:19:53,337 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:53,337 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:53,338 - INFO - Exception precision: 0
+2025-03-04 14:19:53,338 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:53,340 - INFO - Iteracja 14: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:53,341 - INFO - Regula po iteracji 14: IF make = {bmw} AND price >= 16,677.50 AND fuel-type = {gas} AND aspiration = {std} AND body-style = {sedan} AND drive-wheels = {rwd} AND engine-location = {front} AND engine-type = {ohc} AND fuel-system = {mpfi} AND bore >= 3.31 AND compression-ratio <= 9.00 AND peak-rpm >= 4,250.00 AND wheel-base <= 103.50 AND height <= 55.70 THEN class = 0, (p=5, n=1, P=67, N=138)
+2025-03-04 14:19:53,341 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:53,341 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:53,431 - INFO - Iteracja 0: condition_best: num-of-doors = {four}, quality_best: 0.266, coverage_best: (p=59, n=55, P=67, N=138), precision: 0.518
+2025-03-04 14:19:53,432 - INFO - Regula po iteracji 0: IF num-of-doors = {four} THEN class = 0, (p=59, n=55, P=67, N=138)
+2025-03-04 14:19:53,458 - INFO - Iteracja 1: condition_best: stroke <= 3.03, quality_best: 0.562, coverage_best: (p=20, n=2, P=67, N=138), precision: 0.909
+2025-03-04 14:19:53,459 - INFO - Regula po iteracji 1: IF num-of-doors = {four} AND stroke <= 3.03 THEN class = 0, (p=20, n=2, P=67, N=138)
+2025-03-04 14:19:53,459 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:53,684 - INFO - Iteracja 0: condition_best: peak-rpm <= 4,175.00, quality_best: 0.553, coverage_best: (p=5, n=0, P=47, N=158), number_of_covered_negatives_best: 0, best_score: 0.66, precision: 1.0
+2025-03-04 14:19:53,684 - INFO - Regula po iteracji 0: IF peak-rpm <= 4,175.00 THEN class = 0, (p=5, n=0, P=47, N=158)
+2025-03-04 14:19:53,685 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:53,685 - INFO - ***RR FOUND***
+2025-03-04 14:19:53,685 - INFO - Reference rule: IF peak-rpm <= 4,175.00 THEN class = 0
+2025-03-04 14:19:53,685 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:53,685 - INFO - Exception precision: 0
+2025-03-04 14:19:53,685 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:53,689 - INFO - Iteracja 2: condition_best: num-of-cylinders = {four}, quality_best: 0.603, coverage_best: (p=20, n=1, P=67, N=138), precision: 0.952
+2025-03-04 14:19:53,689 - INFO - Regula po iteracji 2: IF num-of-doors = {four} AND stroke <= 3.03 AND num-of-cylinders = {four} THEN class = 0, (p=20, n=1, P=67, N=138)
+2025-03-04 14:19:53,689 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:53,904 - INFO - Iteracja 0: condition_best: peak-rpm <= 4,175.00, quality_best: 0.553, coverage_best: (p=5, n=0, P=47, N=158), number_of_covered_negatives_best: 0, best_score: 0.66, precision: 1.0
+2025-03-04 14:19:53,905 - INFO - Regula po iteracji 0: IF peak-rpm <= 4,175.00 THEN class = 0, (p=5, n=0, P=47, N=158)
+2025-03-04 14:19:53,905 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:53,905 - INFO - ***RR FOUND***
+2025-03-04 14:19:53,905 - INFO - Reference rule: IF peak-rpm <= 4,175.00 THEN class = 0
+2025-03-04 14:19:53,905 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:53,905 - INFO - Exception precision: 0
+2025-03-04 14:19:53,905 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:53,907 - INFO - Iteracja 3: condition_best: length >= 162.50, quality_best: 0.649, coverage_best: (p=20, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:53,907 - INFO - Regula po iteracji 3: IF num-of-doors = {four} AND stroke <= 3.03 AND num-of-cylinders = {four} AND length >= 162.50 THEN class = 0, (p=20, n=0, P=67, N=138)
+2025-03-04 14:19:53,907 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:53,909 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:53,950 - INFO - Iteracja 0: condition_best: num-of-doors = {four}, quality_best: 0.266, coverage_best: (p=59, n=55, P=67, N=138), precision: 0.518
+2025-03-04 14:19:53,950 - INFO - Regula po iteracji 0: IF num-of-doors = {four} THEN class = 0, (p=59, n=55, P=67, N=138)
+2025-03-04 14:19:53,973 - INFO - Iteracja 1: condition_best: peak-rpm >= 5,550.00, quality_best: 0.552, coverage_best: (p=7, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:53,973 - INFO - Regula po iteracji 1: IF num-of-doors = {four} AND peak-rpm >= 5,550.00 THEN class = 0, (p=7, n=0, P=67, N=138)
+2025-03-04 14:19:53,973 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:53,974 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:54,015 - INFO - Iteracja 0: condition_best: num-of-doors = {four}, quality_best: 0.266, coverage_best: (p=59, n=55, P=67, N=138), precision: 0.518
+2025-03-04 14:19:54,015 - INFO - Regula po iteracji 0: IF num-of-doors = {four} THEN class = 0, (p=59, n=55, P=67, N=138)
+2025-03-04 14:19:54,037 - INFO - Iteracja 1: condition_best: peak-rpm <= 4,800.00, quality_best: 0.405, coverage_best: (p=32, n=14, P=67, N=138), precision: 0.696
+2025-03-04 14:19:54,038 - INFO - Regula po iteracji 1: IF num-of-doors = {four} AND peak-rpm <= 4,800.00 THEN class = 0, (p=32, n=14, P=67, N=138)
+2025-03-04 14:19:54,048 - INFO - Iteracja 2: condition_best: wheel-base <= 101.80, quality_best: 0.557, coverage_best: (p=23, n=3, P=67, N=138), precision: 0.885
+2025-03-04 14:19:54,048 - INFO - Regula po iteracji 2: IF num-of-doors = {four} AND peak-rpm <= 4,800.00 AND wheel-base <= 101.80 THEN class = 0, (p=23, n=3, P=67, N=138)
+2025-03-04 14:19:54,049 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:54,281 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.625, coverage_best: (p=11, n=0, P=44, N=161), number_of_covered_negatives_best: 0, best_score: 0.875, precision: 1.0
+2025-03-04 14:19:54,281 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=44, N=161)
+2025-03-04 14:19:54,281 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:54,281 - INFO - ***RR FOUND***
+2025-03-04 14:19:54,281 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:54,281 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:54,282 - INFO - Exception precision: 0
+2025-03-04 14:19:54,282 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:54,286 - INFO - Iteracja 3: condition_best: highway-mpg <= 37.50, quality_best: 0.649, coverage_best: (p=20, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:54,286 - INFO - Regula po iteracji 3: IF num-of-doors = {four} AND peak-rpm <= 4,800.00 AND wheel-base <= 101.80 AND highway-mpg <= 37.50 THEN class = 0, (p=20, n=0, P=67, N=138)
+2025-03-04 14:19:54,286 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:54,287 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:54,327 - INFO - Iteracja 0: condition_best: num-of-doors = {four}, quality_best: 0.266, coverage_best: (p=59, n=55, P=67, N=138), precision: 0.518
+2025-03-04 14:19:54,328 - INFO - Regula po iteracji 0: IF num-of-doors = {four} THEN class = 0, (p=59, n=55, P=67, N=138)
+2025-03-04 14:19:54,350 - INFO - Iteracja 1: condition_best: bore >= 3.37, quality_best: 0.392, coverage_best: (p=35, n=17, P=67, N=138), precision: 0.673
+2025-03-04 14:19:54,350 - INFO - Regula po iteracji 1: IF num-of-doors = {four} AND bore >= 3.37 THEN class = 0, (p=35, n=17, P=67, N=138)
+2025-03-04 14:19:54,360 - INFO - Iteracja 2: condition_best: length <= 185.60, quality_best: 0.642, coverage_best: (p=19, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:54,360 - INFO - Regula po iteracji 2: IF num-of-doors = {four} AND bore >= 3.37 AND length <= 185.60 THEN class = 0, (p=19, n=0, P=67, N=138)
+2025-03-04 14:19:54,360 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:54,361 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:54,401 - INFO - Iteracja 0: condition_best: num-of-doors = {four}, quality_best: 0.266, coverage_best: (p=59, n=55, P=67, N=138), precision: 0.518
+2025-03-04 14:19:54,401 - INFO - Regula po iteracji 0: IF num-of-doors = {four} THEN class = 0, (p=59, n=55, P=67, N=138)
+2025-03-04 14:19:54,424 - INFO - Iteracja 1: condition_best: horsepower <= 101.50, quality_best: 0.36, coverage_best: (p=44, n=27, P=67, N=138), precision: 0.62
+2025-03-04 14:19:54,424 - INFO - Regula po iteracji 1: IF num-of-doors = {four} AND horsepower <= 101.50 THEN class = 0, (p=44, n=27, P=67, N=138)
+2025-03-04 14:19:54,436 - INFO - Iteracja 2: condition_best: horsepower >= 69.50, quality_best: 0.504, coverage_best: (p=38, n=12, P=67, N=138), precision: 0.76
+2025-03-04 14:19:54,436 - INFO - Regula po iteracji 2: IF num-of-doors = {four} AND horsepower <= 101.50 AND horsepower >= 69.50 THEN class = 0, (p=38, n=12, P=67, N=138)
+2025-03-04 14:19:54,443 - INFO - Iteracja 3: condition_best: engine-size <= 121.00, quality_best: 0.587, coverage_best: (p=29, n=4, P=67, N=138), precision: 0.879
+2025-03-04 14:19:54,444 - INFO - Regula po iteracji 3: IF num-of-doors = {four} AND horsepower <= 101.50 AND horsepower >= 69.50 AND engine-size <= 121.00 THEN class = 0, (p=29, n=4, P=67, N=138)
+2025-03-04 14:19:54,444 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:54,685 - INFO - Iteracja 0: condition_best: peak-rpm <= 4,175.00, quality_best: 0.566, coverage_best: (p=5, n=0, P=38, N=167), number_of_covered_negatives_best: 0, best_score: 0.697, precision: 1.0
+2025-03-04 14:19:54,685 - INFO - Regula po iteracji 0: IF peak-rpm <= 4,175.00 THEN class = 0, (p=5, n=0, P=38, N=167)
+2025-03-04 14:19:54,686 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:54,686 - INFO - ***RR FOUND***
+2025-03-04 14:19:54,686 - INFO - Reference rule: IF peak-rpm <= 4,175.00 THEN class = 0
+2025-03-04 14:19:54,686 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:54,686 - INFO - Exception precision: 0
+2025-03-04 14:19:54,686 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:54,691 - INFO - Iteracja 4: condition_best: compression-ratio <= 9.80, quality_best: 0.648, coverage_best: (p=29, n=2, P=67, N=138), precision: 0.935
+2025-03-04 14:19:54,691 - INFO - Regula po iteracji 4: IF num-of-doors = {four} AND horsepower <= 101.50 AND horsepower >= 69.50 AND engine-size <= 121.00 AND compression-ratio <= 9.80 THEN class = 0, (p=29, n=2, P=67, N=138)
+2025-03-04 14:19:54,691 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:54,916 - INFO - Iteracja 0: condition_best: peak-rpm <= 4,175.00, quality_best: 0.566, coverage_best: (p=5, n=0, P=38, N=167), number_of_covered_negatives_best: 0, best_score: 0.697, precision: 1.0
+2025-03-04 14:19:54,916 - INFO - Regula po iteracji 0: IF peak-rpm <= 4,175.00 THEN class = 0, (p=5, n=0, P=38, N=167)
+2025-03-04 14:19:54,916 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:54,916 - INFO - ***RR FOUND***
+2025-03-04 14:19:54,916 - INFO - Reference rule: IF peak-rpm <= 4,175.00 THEN class = 0
+2025-03-04 14:19:54,916 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:54,916 - INFO - Exception precision: 0
+2025-03-04 14:19:54,916 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:54,920 - INFO - Iteracja 5: condition_best: height <= 55.40, quality_best: 0.672, coverage_best: (p=23, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:54,920 - INFO - Regula po iteracji 5: IF num-of-doors = {four} AND horsepower <= 101.50 AND horsepower >= 69.50 AND engine-size <= 121.00 AND compression-ratio <= 9.80 AND height <= 55.40 THEN class = 0, (p=23, n=0, P=67, N=138)
+2025-03-04 14:19:54,920 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:54,922 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:54,961 - INFO - Iteracja 0: condition_best: wheel-base >= 95.50, quality_best: 0.185, coverage_best: (p=64, n=77, P=67, N=138), precision: 0.454
+2025-03-04 14:19:54,961 - INFO - Regula po iteracji 0: IF wheel-base >= 95.50 THEN class = 0, (p=64, n=77, P=67, N=138)
+2025-03-04 14:19:54,993 - INFO - Iteracja 1: condition_best: horsepower <= 98.50, quality_best: 0.398, coverage_best: (p=42, n=22, P=67, N=138), precision: 0.656
+2025-03-04 14:19:54,993 - INFO - Regula po iteracji 1: IF wheel-base >= 95.50 AND horsepower <= 98.50 THEN class = 0, (p=42, n=22, P=67, N=138)
+2025-03-04 14:19:55,005 - INFO - Iteracja 2: condition_best: compression-ratio >= 8.85, quality_best: 0.458, coverage_best: (p=32, n=11, P=67, N=138), precision: 0.744
+2025-03-04 14:19:55,005 - INFO - Regula po iteracji 2: IF wheel-base >= 95.50 AND horsepower <= 98.50 AND compression-ratio >= 8.85 THEN class = 0, (p=32, n=11, P=67, N=138)
+2025-03-04 14:19:55,013 - INFO - Iteracja 3: condition_best: price >= 6,703.00, quality_best: 0.519, coverage_best: (p=32, n=8, P=67, N=138), precision: 0.8
+2025-03-04 14:19:55,013 - INFO - Regula po iteracji 3: IF wheel-base >= 95.50 AND horsepower <= 98.50 AND compression-ratio >= 8.85 AND price >= 6,703.00 THEN class = 0, (p=32, n=8, P=67, N=138)
+2025-03-04 14:19:55,020 - INFO - Iteracja 4: condition_best: height <= 55.60, quality_best: 0.592, coverage_best: (p=23, n=2, P=67, N=138), precision: 0.92
+2025-03-04 14:19:55,020 - INFO - Regula po iteracji 4: IF wheel-base >= 95.50 AND horsepower <= 98.50 AND compression-ratio >= 8.85 AND price >= 6,703.00 AND height <= 55.60 THEN class = 0, (p=23, n=2, P=67, N=138)
+2025-03-04 14:19:55,020 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:55,243 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.625, coverage_best: (p=11, n=0, P=44, N=161), number_of_covered_negatives_best: 0, best_score: 0.875, precision: 1.0
+2025-03-04 14:19:55,243 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=44, N=161)
+2025-03-04 14:19:55,243 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:55,243 - INFO - ***RR FOUND***
+2025-03-04 14:19:55,243 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:55,243 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:55,243 - INFO - Exception precision: 0
+2025-03-04 14:19:55,243 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:55,247 - INFO - Iteracja 5: condition_best: height >= 51.95, quality_best: 0.63, coverage_best: (p=23, n=1, P=67, N=138), precision: 0.958
+2025-03-04 14:19:55,248 - INFO - Regula po iteracji 5: IF wheel-base >= 95.50 AND horsepower <= 98.50 AND compression-ratio >= 8.85 AND price >= 6,703.00 AND height <= 55.60 AND height >= 51.95 THEN class = 0, (p=23, n=1, P=67, N=138)
+2025-03-04 14:19:55,248 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:55,461 - INFO - Iteracja 0: condition_best: make = {peugot}, quality_best: 0.625, coverage_best: (p=11, n=0, P=44, N=161), number_of_covered_negatives_best: 0, best_score: 0.875, precision: 1.0
+2025-03-04 14:19:55,461 - INFO - Regula po iteracji 0: IF make = {peugot} THEN class = 0, (p=11, n=0, P=44, N=161)
+2025-03-04 14:19:55,461 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:55,461 - INFO - ***RR FOUND***
+2025-03-04 14:19:55,461 - INFO - Reference rule: IF make = {peugot} THEN class = 0
+2025-03-04 14:19:55,461 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:19:55,462 - INFO - Exception precision: 0
+2025-03-04 14:19:55,462 - INFO - ***ER NOT FOUND***
+2025-03-04 14:19:55,464 - INFO - Iteracja 6: condition_best: wheel-base <= 101.40, quality_best: 0.664, coverage_best: (p=22, n=0, P=67, N=138), precision: 1.0
+2025-03-04 14:19:55,465 - INFO - Regula po iteracji 6: IF wheel-base >= 95.50 AND horsepower <= 98.50 AND compression-ratio >= 8.85 AND price >= 6,703.00 AND height <= 55.60 AND height >= 51.95 AND wheel-base <= 101.40 THEN class = 0, (p=22, n=0, P=67, N=138)
+2025-03-04 14:19:55,465 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:55,467 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:55,554 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:55,555 - INFO - Regula po iteracji 0: IF  THEN class = 0, (p=67, n=138, P=67, N=138)
+2025-03-04 14:19:55,555 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:55,555 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:55,592 - INFO - Iteracja 0: condition_best: normalized-losses <= 74.00, quality_best: 0.626, coverage_best: (p=9, n=1, P=22, N=183), precision: 0.9
+2025-03-04 14:19:55,592 - INFO - Regula po iteracji 0: IF normalized-losses <= 74.00 THEN class = -1, (p=9, n=1, P=22, N=183)
+2025-03-04 14:19:55,592 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:55,793 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:55,793 - INFO - Regula po iteracji 0: IF  THEN class = -1, (p=13, n=192, P=13, N=192)
+2025-03-04 14:19:55,793 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:55,793 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:55,795 - INFO - Iteracja 1: condition_best: wheel-base >= 99.05, quality_best: 0.705, coverage_best: (p=9, n=0, P=22, N=183), precision: 1.0
+2025-03-04 14:19:55,795 - INFO - Regula po iteracji 1: IF normalized-losses <= 74.00 AND wheel-base >= 99.05 THEN class = -1, (p=9, n=0, P=22, N=183)
+2025-03-04 14:19:55,795 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:55,796 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:55,833 - INFO - Iteracja 0: condition_best: make = {volvo}, quality_best: 0.474, coverage_best: (p=8, n=3, P=22, N=183), precision: 0.727
+2025-03-04 14:19:55,833 - INFO - Regula po iteracji 0: IF make = {volvo} THEN class = -1, (p=8, n=3, P=22, N=183)
+2025-03-04 14:19:55,836 - INFO - Iteracja 1: condition_best: normalized-losses <= 99.00, quality_best: 0.682, coverage_best: (p=8, n=0, P=22, N=183), precision: 1.0
+2025-03-04 14:19:55,836 - INFO - Regula po iteracji 1: IF make = {volvo} AND normalized-losses <= 99.00 THEN class = -1, (p=8, n=0, P=22, N=183)
+2025-03-04 14:19:55,836 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:55,836 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:55,873 - INFO - Iteracja 0: condition_best: wheel-base >= 102.20, quality_best: 0.325, coverage_best: (p=21, n=31, P=22, N=183), precision: 0.404
+2025-03-04 14:19:55,873 - INFO - Regula po iteracji 0: IF wheel-base >= 102.20 THEN class = -1, (p=21, n=31, P=22, N=183)
+2025-03-04 14:19:55,886 - INFO - Iteracja 1: condition_best: normalized-losses <= 114.00, quality_best: 0.75, coverage_best: (p=19, n=4, P=22, N=183), precision: 0.826
+2025-03-04 14:19:55,886 - INFO - Regula po iteracji 1: IF wheel-base >= 102.20 AND normalized-losses <= 114.00 THEN class = -1, (p=19, n=4, P=22, N=183)
+2025-03-04 14:19:55,886 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:56,107 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:56,107 - INFO - Regula po iteracji 0: IF  THEN class = -1, (p=3, n=202, P=3, N=202)
+2025-03-04 14:19:56,107 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:56,107 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:56,112 - INFO - Iteracja 2: condition_best: num-of-doors = {four}, quality_best: 0.789, coverage_best: (p=19, n=3, P=22, N=183), precision: 0.864
+2025-03-04 14:19:56,112 - INFO - Regula po iteracji 2: IF wheel-base >= 102.20 AND normalized-losses <= 114.00 AND num-of-doors = {four} THEN class = -1, (p=19, n=3, P=22, N=183)
+2025-03-04 14:19:56,112 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:56,326 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:56,326 - INFO - Regula po iteracji 0: IF  THEN class = -1, (p=3, n=202, P=3, N=202)
+2025-03-04 14:19:56,326 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:56,326 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:56,329 - INFO - Iteracja 3: condition_best: compression-ratio >= 8.00, quality_best: 0.807, coverage_best: (p=18, n=2, P=22, N=183), precision: 0.9
+2025-03-04 14:19:56,329 - INFO - Regula po iteracji 3: IF wheel-base >= 102.20 AND normalized-losses <= 114.00 AND num-of-doors = {four} AND compression-ratio >= 8.00 THEN class = -1, (p=18, n=2, P=22, N=183)
+2025-03-04 14:19:56,330 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:56,535 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:56,535 - INFO - Regula po iteracji 0: IF  THEN class = -1, (p=4, n=201, P=4, N=201)
+2025-03-04 14:19:56,535 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:56,535 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:56,538 - INFO - Iteracja 4: condition_best: engine-location = {front}, quality_best: 0.807, coverage_best: (p=18, n=2, P=22, N=183), precision: 0.9
+2025-03-04 14:19:56,538 - INFO - Regula po iteracji 4: IF wheel-base >= 102.20 AND normalized-losses <= 114.00 AND num-of-doors = {four} AND compression-ratio >= 8.00 AND engine-location = {front} THEN class = -1, (p=18, n=2, P=22, N=183)
+2025-03-04 14:19:56,539 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:56,744 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:56,744 - INFO - Regula po iteracji 0: IF  THEN class = -1, (p=4, n=201, P=4, N=201)
+2025-03-04 14:19:56,744 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:56,744 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:56,747 - INFO - Iteracja 5: condition_best: bore <= 3.78, quality_best: 0.807, coverage_best: (p=18, n=2, P=22, N=183), precision: 0.9
+2025-03-04 14:19:56,747 - INFO - Regula po iteracji 5: IF wheel-base >= 102.20 AND normalized-losses <= 114.00 AND num-of-doors = {four} AND compression-ratio >= 8.00 AND engine-location = {front} AND bore <= 3.78 THEN class = -1, (p=18, n=2, P=22, N=183)
+2025-03-04 14:19:56,748 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:19:56,953 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:19:56,954 - INFO - Regula po iteracji 0: IF  THEN class = -1, (p=4, n=201, P=4, N=201)
+2025-03-04 14:19:56,954 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:19:56,954 - INFO - ***RR NOT FOUND***
+2025-03-04 14:19:56,956 - INFO - Iteracja 6: condition_best: bore <= 3.68, quality_best: 0.795, coverage_best: (p=13, n=0, P=22, N=183), precision: 1.0
+2025-03-04 14:19:56,957 - INFO - Regula po iteracji 6: IF wheel-base >= 102.20 AND normalized-losses <= 114.00 AND num-of-doors = {four} AND compression-ratio >= 8.00 AND engine-location = {front} AND bore <= 3.78 AND bore <= 3.68 THEN class = -1, (p=13, n=0, P=22, N=183)
+2025-03-04 14:19:56,957 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:56,958 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:56,994 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:56,995 - INFO - Regula po iteracji 0: IF  THEN class = -1, (p=22, n=183, P=22, N=183)
+2025-03-04 14:19:56,995 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:56,995 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:57,028 - INFO - Iteracja 0: condition_best: make = {volvo}, quality_best: 0.262, coverage_best: (p=3, n=8, P=3, N=202), precision: 0.273
+2025-03-04 14:19:57,028 - INFO - Regula po iteracji 0: IF make = {volvo} THEN class = -2, (p=3, n=8, P=3, N=202)
+2025-03-04 14:19:57,031 - INFO - Iteracja 1: condition_best: normalized-losses >= 99.00, quality_best: 1.0, coverage_best: (p=3, n=0, P=3, N=202), precision: 1.0
+2025-03-04 14:19:57,031 - INFO - Regula po iteracji 1: IF make = {volvo} AND normalized-losses >= 99.00 THEN class = -2, (p=3, n=0, P=3, N=202)
+2025-03-04 14:19:57,031 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:57,032 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:19:57,065 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:19:57,065 - INFO - Regula po iteracji 0: IF  THEN class = -2, (p=3, n=202, P=3, N=202)
+2025-03-04 14:19:57,066 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:19:57,077 - INFO - ************************Finished experiment for autos.arff with algorithm3************************
+2025-03-04 14:19:57,077 - INFO - *************************************************************************************************************************
+2025-03-04 14:19:57,077 - INFO - *************************************************************************************************************************
+2025-03-04 14:19:57,077 - INFO - *************************************************************************************************************************

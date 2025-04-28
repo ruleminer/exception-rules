@@ -1,0 +1,8 @@
+
+CR 0: IF HANDTIME <= 15.50 THEN survival_status = {40.0} (p=199, n=0, P=294, N=0)
+RR 0: IF LOGCAT >= 4.59 THEN survival_status = {36.8} (p=140, n=0, P=294, N=0)
+ER 0: IF HANDTIME <= 15.50 AND LOGCAT >= 4.59 THEN survival_status = {117.0} (p=88, n=0, P=294, N=0)
+
+CR 1: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 AND TOWD = {100} THEN survival_status = {13.2} (p=84, n=0, P=294, N=0)
+
+CR 2: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 AND DELDEPTH <= 53.50 THEN survival_status = {13.3} (p=89, n=0, P=294, N=0)

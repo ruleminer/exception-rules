@@ -1,0 +1,74 @@
+
+CR: IF displacement >= 190.50 THEN class = 1 (p=171, n=0, P=249, N=149)
+
+CR: IF displacement >= 169.50 AND horsepower >= 77.50 THEN class = 1 (p=173, n=0, P=249, N=149)
+
+CR: IF displacement >= 148.50 AND mpg <= 30.75 AND horsepower >= 77.50 THEN class = 1 (p=185, n=6, P=249, N=149)
+
+CR: IF displacement >= 134.50 AND acceleration <= 19.55 AND mpg <= 31.00 THEN class = 1 (p=202, n=8, P=249, N=149)
+
+CR: IF displacement >= 121.50 AND mpg <= 23.95 THEN class = 1 (p=185, n=9, P=249, N=149)
+
+CR: IF displacement >= 121.50 AND acceleration <= 19.55 THEN class = 1 (p=212, n=17, P=249, N=149)
+
+CR: IF weight >= 2,583.50 AND mpg <= 31.30 AND acceleration <= 19.60 AND displacement >= 111.00 AND horsepower >= 77.00 THEN class = 1 (p=193, n=22, P=249, N=149)
+
+CR: IF horsepower >= 78.50 AND displacement >= 97.25 AND mpg <= 31.50 AND acceleration <= 20.25 AND weight >= 2,124.50 THEN class = 1 (p=211, n=44, P=249, N=149)
+
+CR: IF displacement >= 104.50 AND mpg <= 34.85 AND acceleration <= 19.50 AND weight >= 2,136.50 THEN class = 1 (p=221, n=54, P=249, N=149)
+
+CR: IF displacement >= 97.25 AND horsepower <= 66.50 THEN class = 1 (p=7, n=0, P=249, N=149)
+
+CR: IF displacement >= 97.25 AND acceleration <= 19.50 AND mpg <= 35.85 THEN class = 1 (p=231, n=63, P=249, N=149)
+
+CR: IF displacement >= 84.00 AND mpg <= 39.20 AND weight >= 1,860.00 AND acceleration <= 22.85 THEN class = 1 (p=248, n=112, P=249, N=149)
+
+CR: IF weight <= 1,797.50 THEN class = 3 (p=7, n=0, P=79, N=319)
+
+CR: IF displacement <= 78.50 AND displacement >= 69.00 THEN class = 3 (p=8, n=0, P=79, N=319)
+
+CR: IF displacement <= 86.00 AND horsepower >= 64.50 AND mpg >= 31.40 THEN class = 3 (p=11, n=0, P=79, N=319)
+
+CR: IF displacement <= 89.00 AND weight >= 1,935.00 AND acceleration <= 19.45 THEN class = 3 (p=18, n=4, P=79, N=319)
+
+CR: IF displacement <= 97.00 AND horsepower >= 83.00 THEN class = 3 (p=9, n=0, P=79, N=319)
+
+CR: IF displacement <= 97.00 AND mpg >= 30.75 AND horsepower <= 70.50 AND weight <= 2,120.00 AND displacement >= 80.00 AND mpg <= 38.55 THEN class = 3 (p=20, n=0, P=79, N=319)
+
+CR: IF displacement <= 97.00 AND acceleration <= 19.45 AND acceleration >= 16.00 AND weight >= 1,910.00 AND mpg >= 26.00 AND displacement >= 81.00 THEN class = 3 (p=23, n=1, P=79, N=319)
+
+CR: IF mpg >= 31.00 AND acceleration >= 16.40 AND mpg <= 35.50 AND horsepower <= 78.50 THEN class = 3 (p=21, n=0, P=79, N=319)
+
+CR: IF mpg <= 34.15 AND mpg >= 31.55 THEN class = 3 (p=22, n=7, P=79, N=319)
+
+CR: IF mpg >= 29.25 AND acceleration <= 19.40 AND acceleration >= 14.45 AND weight <= 2,715.50 AND mpg <= 40.85 THEN class = 3 (p=43, n=24, P=79, N=319)
+
+CR: IF displacement <= 120.00 AND horsepower >= 96.00 THEN class = 3 (p=9, n=0, P=79, N=319)
+
+CR: IF displacement <= 120.00 AND horsepower >= 91.50 AND acceleration <= 17.25 AND weight <= 2,654.50 THEN class = 3 (p=15, n=0, P=79, N=319)
+
+CR: IF displacement <= 146.00 AND horsepower >= 92.50 AND displacement >= 132.50 THEN class = 3 (p=6, n=0, P=79, N=319)
+
+CR: IF horsepower <= 50.50 THEN class = 2 (p=6, n=0, P=70, N=328)
+
+CR: IF acceleration >= 21.25 AND cylinders = {4} AND displacement >= 87.50 THEN class = 2 (p=8, n=1, P=70, N=328)
+
+CR: IF acceleration >= 19.45 AND mpg >= 24.95 AND weight >= 2,054.50 AND horsepower <= 84.00 AND horsepower >= 66.00 THEN class = 2 (p=7, n=0, P=70, N=328)
+
+CR: IF displacement <= 132.50 AND weight >= 2,757.50 THEN class = 2 (p=10, n=0, P=70, N=328)
+
+CR: IF displacement <= 132.50 AND weight >= 2,578.50 AND mpg <= 26.00 AND displacement >= 95.00 THEN class = 2 (p=15, n=0, P=70, N=328)
+
+CR: IF displacement <= 132.50 AND mpg <= 26.00 AND horsepower <= 78.50 AND acceleration <= 18.10 THEN class = 2 (p=8, n=0, P=70, N=328)
+
+CR: IF mpg <= 26.00 AND displacement <= 121.50 AND cylinders = {4} AND acceleration <= 18.10 THEN class = 2 (p=24, n=11, P=70, N=328)
+
+CR: IF mpg <= 29.85 AND weight <= 1,952.50 THEN class = 2 (p=9, n=0, P=70, N=328)
+
+CR: IF mpg <= 30.50 AND acceleration <= 15.95 AND horsepower <= 92.00 AND displacement <= 118.50 AND cylinders = {4} THEN class = 2 (p=18, n=5, P=70, N=328)
+
+CR: IF displacement >= 87.00 AND mpg <= 34.50 AND acceleration <= 15.85 AND acceleration >= 13.60 AND displacement <= 105.00 AND mpg >= 28.50 THEN class = 2 (p=11, n=4, P=70, N=328)
+
+CR: IF displacement <= 132.50 AND acceleration <= 16.00 AND horsepower >= 66.50 AND weight >= 1,920.00 AND horsepower <= 91.50 AND weight <= 2,626.00 AND acceleration >= 14.00 AND mpg >= 23.50 THEN class = 2 (p=24, n=17, P=70, N=328)
+
+CR: IF displacement <= 168.00 AND weight >= 1,812.50 AND acceleration >= 13.95 AND mpg <= 45.45 THEN class = 2 (p=64, n=125, P=70, N=328)

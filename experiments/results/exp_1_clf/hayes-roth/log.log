@@ -1,0 +1,167 @@
+2025-03-04 14:41:13,354 - INFO - **********Starting experiment for hayes-roth.arff with algorithm3**********
+2025-03-04 14:41:13,360 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,361 - INFO - Iteracja 0: condition_best: age = {1}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,361 - INFO - Regula po iteracji 0: IF age = {1} THEN class = 1, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,362 - INFO - Iteracja 1: condition_best: education_level = {1}, quality_best: 0.525, coverage_best: (p=11, n=1, P=51, N=81), precision: 0.917
+2025-03-04 14:41:13,362 - INFO - Regula po iteracji 1: IF age = {1} AND education_level = {1} THEN class = 1, (p=11, n=1, P=51, N=81)
+2025-03-04 14:41:13,362 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:41:13,364 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:41:13,364 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=40, n=92, P=40, N=92)
+2025-03-04 14:41:13,364 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:41:13,364 - INFO - ***RR NOT FOUND***
+2025-03-04 14:41:13,364 - INFO - Iteracja 2: condition_best: marital_status = {2}, quality_best: 0.598, coverage_best: (p=10, n=0, P=51, N=81), precision: 1.0
+2025-03-04 14:41:13,364 - INFO - Regula po iteracji 2: IF age = {1} AND education_level = {1} AND marital_status = {2} THEN class = 1, (p=10, n=0, P=51, N=81)
+2025-03-04 14:41:13,365 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,365 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,366 - INFO - Iteracja 0: condition_best: age = {1}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,366 - INFO - Regula po iteracji 0: IF age = {1} THEN class = 1, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,367 - INFO - Iteracja 1: condition_best: marital_status = {1}, quality_best: 0.525, coverage_best: (p=11, n=1, P=51, N=81), precision: 0.917
+2025-03-04 14:41:13,367 - INFO - Regula po iteracji 1: IF age = {1} AND marital_status = {1} THEN class = 1, (p=11, n=1, P=51, N=81)
+2025-03-04 14:41:13,367 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:41:13,369 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:41:13,369 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=40, n=92, P=40, N=92)
+2025-03-04 14:41:13,369 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:41:13,369 - INFO - ***RR NOT FOUND***
+2025-03-04 14:41:13,369 - INFO - Iteracja 2: condition_best: education_level = {2}, quality_best: 0.598, coverage_best: (p=10, n=0, P=51, N=81), precision: 1.0
+2025-03-04 14:41:13,369 - INFO - Regula po iteracji 2: IF age = {1} AND marital_status = {1} AND education_level = {2} THEN class = 1, (p=10, n=0, P=51, N=81)
+2025-03-04 14:41:13,369 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,370 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,371 - INFO - Iteracja 0: condition_best: age = {1}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,371 - INFO - Regula po iteracji 0: IF age = {1} THEN class = 1, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,371 - INFO - Iteracja 1: condition_best: education_level = {3}, quality_best: 0.141, coverage_best: (p=7, n=6, P=51, N=81), precision: 0.538
+2025-03-04 14:41:13,371 - INFO - Regula po iteracji 1: IF age = {1} AND education_level = {3} THEN class = 1, (p=7, n=6, P=51, N=81)
+2025-03-04 14:41:13,372 - INFO - Iteracja 2: condition_best: marital_status = {2}, quality_best: 0.102, coverage_best: (p=5, n=5, P=51, N=81), precision: 0.5
+2025-03-04 14:41:13,372 - INFO - Regula po iteracji 2: IF age = {1} AND education_level = {3} AND marital_status = {2} THEN class = 1, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,372 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:41:13,372 - INFO - Regula po iteracji 3: IF age = {1} AND education_level = {3} AND marital_status = {2} THEN class = 1, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,372 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,373 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,373 - INFO - Iteracja 0: condition_best: education_level = {1}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,373 - INFO - Regula po iteracji 0: IF education_level = {1} THEN class = 1, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,374 - INFO - Iteracja 1: condition_best: marital_status = {1}, quality_best: 0.525, coverage_best: (p=11, n=1, P=51, N=81), precision: 0.917
+2025-03-04 14:41:13,374 - INFO - Regula po iteracji 1: IF education_level = {1} AND marital_status = {1} THEN class = 1, (p=11, n=1, P=51, N=81)
+2025-03-04 14:41:13,374 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:41:13,376 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:41:13,376 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=40, n=92, P=40, N=92)
+2025-03-04 14:41:13,376 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:41:13,376 - INFO - ***RR NOT FOUND***
+2025-03-04 14:41:13,376 - INFO - Iteracja 2: condition_best: age = {2}, quality_best: 0.598, coverage_best: (p=10, n=0, P=51, N=81), precision: 1.0
+2025-03-04 14:41:13,376 - INFO - Regula po iteracji 2: IF education_level = {1} AND marital_status = {1} AND age = {2} THEN class = 1, (p=10, n=0, P=51, N=81)
+2025-03-04 14:41:13,376 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,377 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,378 - INFO - Iteracja 0: condition_best: education_level = {1}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,378 - INFO - Regula po iteracji 0: IF education_level = {1} THEN class = 1, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,378 - INFO - Iteracja 1: condition_best: marital_status = {3}, quality_best: 0.141, coverage_best: (p=7, n=6, P=51, N=81), precision: 0.538
+2025-03-04 14:41:13,378 - INFO - Regula po iteracji 1: IF education_level = {1} AND marital_status = {3} THEN class = 1, (p=7, n=6, P=51, N=81)
+2025-03-04 14:41:13,379 - INFO - Iteracja 2: condition_best: age = {2}, quality_best: 0.102, coverage_best: (p=5, n=5, P=51, N=81), precision: 0.5
+2025-03-04 14:41:13,379 - INFO - Regula po iteracji 2: IF education_level = {1} AND marital_status = {3} AND age = {2} THEN class = 1, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,379 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:41:13,379 - INFO - Regula po iteracji 3: IF education_level = {1} AND marital_status = {3} AND age = {2} THEN class = 1, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,379 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,379 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,380 - INFO - Iteracja 0: condition_best: marital_status = {1}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,380 - INFO - Regula po iteracji 0: IF marital_status = {1} THEN class = 1, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,381 - INFO - Iteracja 1: condition_best: age = {3}, quality_best: 0.141, coverage_best: (p=7, n=6, P=51, N=81), precision: 0.538
+2025-03-04 14:41:13,381 - INFO - Regula po iteracji 1: IF marital_status = {1} AND age = {3} THEN class = 1, (p=7, n=6, P=51, N=81)
+2025-03-04 14:41:13,381 - INFO - Iteracja 2: condition_best: education_level = {2}, quality_best: 0.102, coverage_best: (p=5, n=5, P=51, N=81), precision: 0.5
+2025-03-04 14:41:13,381 - INFO - Regula po iteracji 2: IF marital_status = {1} AND age = {3} AND education_level = {2} THEN class = 1, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,381 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:41:13,382 - INFO - Regula po iteracji 3: IF marital_status = {1} AND age = {3} AND education_level = {2} THEN class = 1, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,382 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,382 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,382 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:41:13,382 - INFO - Regula po iteracji 0: IF  THEN class = 1, (p=51, n=81, P=51, N=81)
+2025-03-04 14:41:13,382 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,382 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,383 - INFO - Iteracja 0: condition_best: age = {2}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,383 - INFO - Regula po iteracji 0: IF age = {2} THEN class = 2, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,383 - INFO - Iteracja 1: condition_best: education_level = {2}, quality_best: 0.525, coverage_best: (p=11, n=1, P=51, N=81), precision: 0.917
+2025-03-04 14:41:13,384 - INFO - Regula po iteracji 1: IF age = {2} AND education_level = {2} THEN class = 2, (p=11, n=1, P=51, N=81)
+2025-03-04 14:41:13,384 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:41:13,386 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:41:13,386 - INFO - Regula po iteracji 0: IF  THEN class = 2, (p=40, n=92, P=40, N=92)
+2025-03-04 14:41:13,386 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:41:13,386 - INFO - ***RR NOT FOUND***
+2025-03-04 14:41:13,386 - INFO - Iteracja 2: condition_best: marital_status = {1}, quality_best: 0.598, coverage_best: (p=10, n=0, P=51, N=81), precision: 1.0
+2025-03-04 14:41:13,386 - INFO - Regula po iteracji 2: IF age = {2} AND education_level = {2} AND marital_status = {1} THEN class = 2, (p=10, n=0, P=51, N=81)
+2025-03-04 14:41:13,386 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,387 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,388 - INFO - Iteracja 0: condition_best: age = {2}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,388 - INFO - Regula po iteracji 0: IF age = {2} THEN class = 2, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,388 - INFO - Iteracja 1: condition_best: marital_status = {2}, quality_best: 0.525, coverage_best: (p=11, n=1, P=51, N=81), precision: 0.917
+2025-03-04 14:41:13,388 - INFO - Regula po iteracji 1: IF age = {2} AND marital_status = {2} THEN class = 2, (p=11, n=1, P=51, N=81)
+2025-03-04 14:41:13,389 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:41:13,390 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:41:13,390 - INFO - Regula po iteracji 0: IF  THEN class = 2, (p=40, n=92, P=40, N=92)
+2025-03-04 14:41:13,390 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:41:13,390 - INFO - ***RR NOT FOUND***
+2025-03-04 14:41:13,391 - INFO - Iteracja 2: condition_best: education_level = {1}, quality_best: 0.598, coverage_best: (p=10, n=0, P=51, N=81), precision: 1.0
+2025-03-04 14:41:13,391 - INFO - Regula po iteracji 2: IF age = {2} AND marital_status = {2} AND education_level = {1} THEN class = 2, (p=10, n=0, P=51, N=81)
+2025-03-04 14:41:13,391 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,392 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,392 - INFO - Iteracja 0: condition_best: age = {2}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,393 - INFO - Regula po iteracji 0: IF age = {2} THEN class = 2, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,393 - INFO - Iteracja 1: condition_best: marital_status = {3}, quality_best: 0.141, coverage_best: (p=7, n=6, P=51, N=81), precision: 0.538
+2025-03-04 14:41:13,393 - INFO - Regula po iteracji 1: IF age = {2} AND marital_status = {3} THEN class = 2, (p=7, n=6, P=51, N=81)
+2025-03-04 14:41:13,393 - INFO - Iteracja 2: condition_best: education_level = {1}, quality_best: 0.102, coverage_best: (p=5, n=5, P=51, N=81), precision: 0.5
+2025-03-04 14:41:13,394 - INFO - Regula po iteracji 2: IF age = {2} AND marital_status = {3} AND education_level = {1} THEN class = 2, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,394 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:41:13,394 - INFO - Regula po iteracji 3: IF age = {2} AND marital_status = {3} AND education_level = {1} THEN class = 2, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,394 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,394 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,395 - INFO - Iteracja 0: condition_best: education_level = {2}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,395 - INFO - Regula po iteracji 0: IF education_level = {2} THEN class = 2, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,395 - INFO - Iteracja 1: condition_best: marital_status = {2}, quality_best: 0.525, coverage_best: (p=11, n=1, P=51, N=81), precision: 0.917
+2025-03-04 14:41:13,395 - INFO - Regula po iteracji 1: IF education_level = {2} AND marital_status = {2} THEN class = 2, (p=11, n=1, P=51, N=81)
+2025-03-04 14:41:13,396 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:41:13,397 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:41:13,398 - INFO - Regula po iteracji 0: IF  THEN class = 2, (p=40, n=92, P=40, N=92)
+2025-03-04 14:41:13,398 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:41:13,398 - INFO - ***RR NOT FOUND***
+2025-03-04 14:41:13,398 - INFO - Iteracja 2: condition_best: age = {1}, quality_best: 0.598, coverage_best: (p=10, n=0, P=51, N=81), precision: 1.0
+2025-03-04 14:41:13,398 - INFO - Regula po iteracji 2: IF education_level = {2} AND marital_status = {2} AND age = {1} THEN class = 2, (p=10, n=0, P=51, N=81)
+2025-03-04 14:41:13,398 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,399 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,399 - INFO - Iteracja 0: condition_best: education_level = {2}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,400 - INFO - Regula po iteracji 0: IF education_level = {2} THEN class = 2, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,400 - INFO - Iteracja 1: condition_best: age = {3}, quality_best: 0.141, coverage_best: (p=7, n=6, P=51, N=81), precision: 0.538
+2025-03-04 14:41:13,400 - INFO - Regula po iteracji 1: IF education_level = {2} AND age = {3} THEN class = 2, (p=7, n=6, P=51, N=81)
+2025-03-04 14:41:13,400 - INFO - Iteracja 2: condition_best: marital_status = {1}, quality_best: 0.102, coverage_best: (p=5, n=5, P=51, N=81), precision: 0.5
+2025-03-04 14:41:13,401 - INFO - Regula po iteracji 2: IF education_level = {2} AND age = {3} AND marital_status = {1} THEN class = 2, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,401 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:41:13,401 - INFO - Regula po iteracji 3: IF education_level = {2} AND age = {3} AND marital_status = {1} THEN class = 2, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,401 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,401 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,402 - INFO - Iteracja 0: condition_best: marital_status = {2}, quality_best: 0.219, coverage_best: (p=28, n=22, P=51, N=81), precision: 0.56
+2025-03-04 14:41:13,402 - INFO - Regula po iteracji 0: IF marital_status = {2} THEN class = 2, (p=28, n=22, P=51, N=81)
+2025-03-04 14:41:13,402 - INFO - Iteracja 1: condition_best: education_level = {3}, quality_best: 0.141, coverage_best: (p=7, n=6, P=51, N=81), precision: 0.538
+2025-03-04 14:41:13,402 - INFO - Regula po iteracji 1: IF marital_status = {2} AND education_level = {3} THEN class = 2, (p=7, n=6, P=51, N=81)
+2025-03-04 14:41:13,403 - INFO - Iteracja 2: condition_best: age = {1}, quality_best: 0.102, coverage_best: (p=5, n=5, P=51, N=81), precision: 0.5
+2025-03-04 14:41:13,403 - INFO - Regula po iteracji 2: IF marital_status = {2} AND education_level = {3} AND age = {1} THEN class = 2, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,403 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:41:13,403 - INFO - Regula po iteracji 3: IF marital_status = {2} AND education_level = {3} AND age = {1} THEN class = 2, (p=5, n=5, P=51, N=81)
+2025-03-04 14:41:13,403 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,403 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,404 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:41:13,404 - INFO - Regula po iteracji 0: IF  THEN class = 2, (p=51, n=81, P=51, N=81)
+2025-03-04 14:41:13,404 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,404 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,405 - INFO - Iteracja 0: condition_best: age = {4}, quality_best: 0.7, coverage_best: (p=12, n=0, P=30, N=102), precision: 1.0
+2025-03-04 14:41:13,405 - INFO - Regula po iteracji 0: IF age = {4} THEN class = 3, (p=12, n=0, P=30, N=102)
+2025-03-04 14:41:13,405 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,405 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,405 - INFO - Iteracja 0: condition_best: education_level = {4}, quality_best: 0.7, coverage_best: (p=12, n=0, P=30, N=102), precision: 1.0
+2025-03-04 14:41:13,406 - INFO - Regula po iteracji 0: IF education_level = {4} THEN class = 3, (p=12, n=0, P=30, N=102)
+2025-03-04 14:41:13,406 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,406 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,406 - INFO - Iteracja 0: condition_best: marital_status = {4}, quality_best: 0.7, coverage_best: (p=12, n=0, P=30, N=102), precision: 1.0
+2025-03-04 14:41:13,406 - INFO - Regula po iteracji 0: IF marital_status = {4} THEN class = 3, (p=12, n=0, P=30, N=102)
+2025-03-04 14:41:13,406 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,407 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:41:13,407 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:41:13,407 - INFO - Regula po iteracji 0: IF  THEN class = 3, (p=30, n=102, P=30, N=102)
+2025-03-04 14:41:13,407 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:41:13,412 - INFO - ************************Finished experiment for hayes-roth.arff with algorithm3************************
+2025-03-04 14:41:13,412 - INFO - *************************************************************************************************************************
+2025-03-04 14:41:13,412 - INFO - *************************************************************************************************************************
+2025-03-04 14:41:13,412 - INFO - *************************************************************************************************************************

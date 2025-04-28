@@ -1,0 +1,508 @@
+2025-03-04 14:52:44,440 - INFO - **********Starting experiment for kdd-synthetic-control.arff with algorithm3**********
+2025-03-04 14:52:44,462 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:46,333 - INFO - Iteracja 0: condition_best: col_46 <= 36.04, quality_best: 0.133, coverage_best: (p=100, n=260, P=100, N=500), precision: 0.278
+2025-03-04 14:52:46,334 - INFO - Regula po iteracji 0: IF col_46 <= 36.04 THEN class = Normal, (p=100, n=260, P=100, N=500)
+2025-03-04 14:52:47,085 - INFO - Iteracja 1: condition_best: col_57 >= 24.11, quality_best: 0.663, coverage_best: (p=100, n=39, P=100, N=500), precision: 0.719
+2025-03-04 14:52:47,085 - INFO - Regula po iteracji 1: IF col_46 <= 36.04 AND col_57 >= 24.11 THEN class = Normal, (p=100, n=39, P=100, N=500)
+2025-03-04 14:52:47,244 - INFO - Iteracja 2: condition_best: col_4 <= 36.29, quality_best: 0.862, coverage_best: (p=100, n=13, P=100, N=500), precision: 0.885
+2025-03-04 14:52:47,244 - INFO - Regula po iteracji 2: IF col_46 <= 36.04 AND col_57 >= 24.11 AND col_4 <= 36.29 THEN class = Normal, (p=100, n=13, P=100, N=500)
+2025-03-04 14:52:47,245 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:54,415 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:54,416 - INFO - Regula po iteracji 0: IF  THEN class = Normal, (p=0, n=600, P=0, N=600)
+2025-03-04 14:52:54,416 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:54,416 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:54,481 - INFO - Iteracja 3: condition_best: col_35 >= 23.86, quality_best: 0.932, coverage_best: (p=100, n=6, P=100, N=500), precision: 0.943
+2025-03-04 14:52:54,481 - INFO - Regula po iteracji 3: IF col_46 <= 36.04 AND col_57 >= 24.11 AND col_4 <= 36.29 AND col_35 >= 23.86 THEN class = Normal, (p=100, n=6, P=100, N=500)
+2025-03-04 14:52:54,482 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:53:00,384 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:53:00,384 - INFO - Regula po iteracji 0: IF  THEN class = Normal, (p=0, n=600, P=0, N=600)
+2025-03-04 14:53:00,384 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:53:00,384 - INFO - ***RR NOT FOUND***
+2025-03-04 14:53:00,418 - INFO - Iteracja 4: condition_best: col_48 <= 36.22, quality_best: 1.0, coverage_best: (p=100, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:00,418 - INFO - Regula po iteracji 4: IF col_46 <= 36.04 AND col_57 >= 24.11 AND col_4 <= 36.29 AND col_35 >= 23.86 AND col_48 <= 36.22 THEN class = Normal, (p=100, n=0, P=100, N=500)
+2025-03-04 14:53:00,419 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:00,420 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:01,595 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:53:01,595 - INFO - Regula po iteracji 0: IF  THEN class = Normal, (p=100, n=500, P=100, N=500)
+2025-03-04 14:53:01,595 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:01,595 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:02,794 - INFO - Iteracja 0: condition_best: col_4 >= 37.61, quality_best: 0.955, coverage_best: (p=91, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:02,794 - INFO - Regula po iteracji 0: IF col_4 >= 37.61 THEN class = Cyclic, (p=91, n=0, P=100, N=500)
+2025-03-04 14:53:02,794 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:02,795 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:03,985 - INFO - Iteracja 0: condition_best: col_3 >= 36.31, quality_best: 0.945, coverage_best: (p=89, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:03,985 - INFO - Regula po iteracji 0: IF col_3 >= 36.31 THEN class = Cyclic, (p=89, n=0, P=100, N=500)
+2025-03-04 14:53:03,985 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:03,986 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:05,083 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:53:05,084 - INFO - Regula po iteracji 0: IF  THEN class = Cyclic, (p=100, n=500, P=100, N=500)
+2025-03-04 14:53:05,084 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:05,084 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:06,366 - INFO - Iteracja 0: condition_best: col_10 >= 36.10, quality_best: 0.655, coverage_best: (p=31, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:06,367 - INFO - Regula po iteracji 0: IF col_10 >= 36.10 THEN class = Increasing_trend, (p=31, n=0, P=100, N=500)
+2025-03-04 14:53:06,367 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:06,367 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:07,539 - INFO - Iteracja 0: condition_best: col_57 >= 52.89, quality_best: 0.647, coverage_best: (p=34, n=1, P=100, N=500), precision: 0.971
+2025-03-04 14:53:07,539 - INFO - Regula po iteracji 0: IF col_57 >= 52.89 THEN class = Increasing_trend, (p=34, n=1, P=100, N=500)
+2025-03-04 14:53:07,540 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:53:13,235 - INFO - Iteracja 0: condition_best: col_11 >= 38.15, quality_best: 0.475, coverage_best: (p=7, n=1, P=66, N=534), number_of_covered_negatives_best: 0, best_score: 0.581, precision: 0.875
+2025-03-04 14:53:13,236 - INFO - Regula po iteracji 0: IF col_11 >= 38.15 THEN class = Increasing_trend, (p=7, n=1, P=66, N=534)
+2025-03-04 14:53:13,236 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:53:13,236 - INFO - ***RR FOUND***
+2025-03-04 14:53:13,236 - INFO - Reference rule: IF col_11 >= 38.15 THEN class = Increasing_trend
+2025-03-04 14:53:13,236 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:53:13,236 - INFO - Exception precision: 0.0
+2025-03-04 14:53:13,236 - INFO - ***ER NOT FOUND***
+2025-03-04 14:53:13,247 - INFO - Iteracja 1: condition_best: col_10 >= 27.44, quality_best: 0.67, coverage_best: (p=34, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:13,247 - INFO - Regula po iteracji 1: IF col_57 >= 52.89 AND col_10 >= 27.44 THEN class = Increasing_trend, (p=34, n=0, P=100, N=500)
+2025-03-04 14:53:13,247 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:13,248 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:14,412 - INFO - Iteracja 0: condition_best: col_59 >= 54.65, quality_best: 0.635, coverage_best: (p=27, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:14,412 - INFO - Regula po iteracji 0: IF col_59 >= 54.65 THEN class = Increasing_trend, (p=27, n=0, P=100, N=500)
+2025-03-04 14:53:14,413 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:14,413 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:15,540 - INFO - Iteracja 0: condition_best: col_9 >= 36.08, quality_best: 0.63, coverage_best: (p=26, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:15,541 - INFO - Regula po iteracji 0: IF col_9 >= 36.08 THEN class = Increasing_trend, (p=26, n=0, P=100, N=500)
+2025-03-04 14:53:15,541 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:15,541 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:16,746 - INFO - Iteracja 0: condition_best: col_11 >= 36.02, quality_best: 0.63, coverage_best: (p=26, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:16,747 - INFO - Regula po iteracji 0: IF col_11 >= 36.02 THEN class = Increasing_trend, (p=26, n=0, P=100, N=500)
+2025-03-04 14:53:16,747 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:16,747 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:17,874 - INFO - Iteracja 0: condition_best: col_60 >= 50.19, quality_best: 0.626, coverage_best: (p=54, n=10, P=100, N=500), precision: 0.844
+2025-03-04 14:53:17,874 - INFO - Regula po iteracji 0: IF col_60 >= 50.19 THEN class = Increasing_trend, (p=54, n=10, P=100, N=500)
+2025-03-04 14:53:17,875 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:53:25,142 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:53:25,142 - INFO - Regula po iteracji 0: IF  THEN class = Increasing_trend, (p=46, n=554, P=46, N=554)
+2025-03-04 14:53:25,142 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:53:25,142 - INFO - ***RR NOT FOUND***
+2025-03-04 14:53:25,197 - INFO - Iteracja 1: condition_best: col_20 >= 32.89, quality_best: 0.74, coverage_best: (p=48, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:25,197 - INFO - Regula po iteracji 1: IF col_60 >= 50.19 AND col_20 >= 32.89 THEN class = Increasing_trend, (p=48, n=0, P=100, N=500)
+2025-03-04 14:53:25,197 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:25,198 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:26,318 - INFO - Iteracja 0: condition_best: col_22 >= 36.03, quality_best: 0.617, coverage_best: (p=69, n=20, P=100, N=500), precision: 0.775
+2025-03-04 14:53:26,318 - INFO - Regula po iteracji 0: IF col_22 >= 36.03 THEN class = Increasing_trend, (p=69, n=20, P=100, N=500)
+2025-03-04 14:53:26,422 - INFO - Iteracja 1: condition_best: col_20 >= 31.06, quality_best: 0.752, coverage_best: (p=69, n=7, P=100, N=500), precision: 0.908
+2025-03-04 14:53:26,422 - INFO - Regula po iteracji 1: IF col_22 >= 36.03 AND col_20 >= 31.06 THEN class = Increasing_trend, (p=69, n=7, P=100, N=500)
+2025-03-04 14:53:26,423 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:53:33,117 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:53:33,118 - INFO - Regula po iteracji 0: IF  THEN class = Increasing_trend, (p=31, n=569, P=31, N=569)
+2025-03-04 14:53:33,118 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:53:33,118 - INFO - ***RR NOT FOUND***
+2025-03-04 14:53:33,151 - INFO - Iteracja 2: condition_best: col_13 >= 28.37, quality_best: 0.835, coverage_best: (p=67, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:33,151 - INFO - Regula po iteracji 2: IF col_22 >= 36.03 AND col_20 >= 31.06 AND col_13 >= 28.37 THEN class = Increasing_trend, (p=67, n=0, P=100, N=500)
+2025-03-04 14:53:33,151 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:33,152 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:34,357 - INFO - Iteracja 0: condition_best: col_58 >= 48.17, quality_best: 0.529, coverage_best: (p=58, n=22, P=100, N=500), precision: 0.725
+2025-03-04 14:53:34,357 - INFO - Regula po iteracji 0: IF col_58 >= 48.17 THEN class = Increasing_trend, (p=58, n=22, P=100, N=500)
+2025-03-04 14:53:34,445 - INFO - Iteracja 1: condition_best: col_17 >= 33.09, quality_best: 0.693, coverage_best: (p=49, n=3, P=100, N=500), precision: 0.942
+2025-03-04 14:53:34,445 - INFO - Regula po iteracji 1: IF col_58 >= 48.17 AND col_17 >= 33.09 THEN class = Increasing_trend, (p=49, n=3, P=100, N=500)
+2025-03-04 14:53:34,445 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:53:40,387 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:53:40,387 - INFO - Regula po iteracji 0: IF  THEN class = Increasing_trend, (p=51, n=549, P=51, N=549)
+2025-03-04 14:53:40,387 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:53:40,387 - INFO - ***RR NOT FOUND***
+2025-03-04 14:53:40,407 - INFO - Iteracja 2: condition_best: col_19 >= 28.74, quality_best: 0.745, coverage_best: (p=49, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:40,407 - INFO - Regula po iteracji 2: IF col_58 >= 48.17 AND col_17 >= 33.09 AND col_19 >= 28.74 THEN class = Increasing_trend, (p=49, n=0, P=100, N=500)
+2025-03-04 14:53:40,407 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:40,408 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:41,612 - INFO - Iteracja 0: condition_best: col_54 >= 43.97, quality_best: 0.494, coverage_best: (p=79, n=47, P=100, N=500), precision: 0.627
+2025-03-04 14:53:41,612 - INFO - Regula po iteracji 0: IF col_54 >= 43.97 THEN class = Increasing_trend, (p=79, n=47, P=100, N=500)
+2025-03-04 14:53:41,787 - INFO - Iteracja 1: condition_best: col_17 >= 33.60, quality_best: 0.687, coverage_best: (p=60, n=8, P=100, N=500), precision: 0.882
+2025-03-04 14:53:41,787 - INFO - Regula po iteracji 1: IF col_54 >= 43.97 AND col_17 >= 33.60 THEN class = Increasing_trend, (p=60, n=8, P=100, N=500)
+2025-03-04 14:53:41,787 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:53:48,636 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:53:48,636 - INFO - Regula po iteracji 0: IF  THEN class = Increasing_trend, (p=40, n=560, P=40, N=560)
+2025-03-04 14:53:48,636 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:53:48,637 - INFO - ***RR NOT FOUND***
+2025-03-04 14:53:48,677 - INFO - Iteracja 2: condition_best: col_25 >= 30.84, quality_best: 0.784, coverage_best: (p=60, n=1, P=100, N=500), precision: 0.984
+2025-03-04 14:53:48,677 - INFO - Regula po iteracji 2: IF col_54 >= 43.97 AND col_17 >= 33.60 AND col_25 >= 30.84 THEN class = Increasing_trend, (p=60, n=1, P=100, N=500)
+2025-03-04 14:53:48,678 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:53:54,313 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:53:54,314 - INFO - Regula po iteracji 0: IF  THEN class = Increasing_trend, (p=40, n=560, P=40, N=560)
+2025-03-04 14:53:54,314 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:53:54,314 - INFO - ***RR NOT FOUND***
+2025-03-04 14:53:54,324 - INFO - Iteracja 3: condition_best: col_2 >= 24.45, quality_best: 0.8, coverage_best: (p=60, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:54,324 - INFO - Regula po iteracji 3: IF col_54 >= 43.97 AND col_17 >= 33.60 AND col_25 >= 30.84 AND col_2 >= 24.45 THEN class = Increasing_trend, (p=60, n=0, P=100, N=500)
+2025-03-04 14:53:54,324 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:54,325 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:55,443 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:53:55,443 - INFO - Regula po iteracji 0: IF  THEN class = Increasing_trend, (p=100, n=500, P=100, N=500)
+2025-03-04 14:53:55,443 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:55,443 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:56,742 - INFO - Iteracja 0: condition_best: col_16 <= 23.95, quality_best: 0.76, coverage_best: (p=52, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:53:56,743 - INFO - Regula po iteracji 0: IF col_16 <= 23.95 THEN class = Decreasing_trend, (p=52, n=0, P=100, N=500)
+2025-03-04 14:53:56,743 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:53:56,743 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:53:57,907 - INFO - Iteracja 0: condition_best: col_17 <= 23.91, quality_best: 0.699, coverage_best: (p=50, n=3, P=100, N=500), precision: 0.943
+2025-03-04 14:53:57,907 - INFO - Regula po iteracji 0: IF col_17 <= 23.91 THEN class = Decreasing_trend, (p=50, n=3, P=100, N=500)
+2025-03-04 14:53:57,907 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:54:04,077 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:54:04,077 - INFO - Regula po iteracji 0: IF  THEN class = Decreasing_trend, (p=50, n=550, P=50, N=550)
+2025-03-04 14:54:04,077 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:54:04,077 - INFO - ***RR NOT FOUND***
+2025-03-04 14:54:04,094 - INFO - Iteracja 1: condition_best: col_2 <= 36.72, quality_best: 0.75, coverage_best: (p=50, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:04,094 - INFO - Regula po iteracji 1: IF col_17 <= 23.91 AND col_2 <= 36.72 THEN class = Decreasing_trend, (p=50, n=0, P=100, N=500)
+2025-03-04 14:54:04,094 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:04,095 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:05,236 - INFO - Iteracja 0: condition_best: col_60 <= 6.78, quality_best: 0.69, coverage_best: (p=38, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:05,237 - INFO - Regula po iteracji 0: IF col_60 <= 6.78 THEN class = Decreasing_trend, (p=38, n=0, P=100, N=500)
+2025-03-04 14:54:05,237 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:05,237 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:06,469 - INFO - Iteracja 0: condition_best: col_57 <= 9.84, quality_best: 0.672, coverage_best: (p=48, n=4, P=100, N=500), precision: 0.923
+2025-03-04 14:54:06,469 - INFO - Regula po iteracji 0: IF col_57 <= 9.84 THEN class = Decreasing_trend, (p=48, n=4, P=100, N=500)
+2025-03-04 14:54:06,470 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:54:12,634 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:54:12,635 - INFO - Regula po iteracji 0: IF  THEN class = Decreasing_trend, (p=52, n=548, P=52, N=548)
+2025-03-04 14:54:12,635 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:54:12,635 - INFO - ***RR NOT FOUND***
+2025-03-04 14:54:12,662 - INFO - Iteracja 1: condition_best: col_24 <= 29.02, quality_best: 0.74, coverage_best: (p=48, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:12,662 - INFO - Regula po iteracji 1: IF col_57 <= 9.84 AND col_24 <= 29.02 THEN class = Decreasing_trend, (p=48, n=0, P=100, N=500)
+2025-03-04 14:54:12,662 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:12,663 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:13,883 - INFO - Iteracja 0: condition_best: col_60 <= 12.73, quality_best: 0.622, coverage_best: (p=74, n=23, P=100, N=500), precision: 0.763
+2025-03-04 14:54:13,883 - INFO - Regula po iteracji 0: IF col_60 <= 12.73 THEN class = Decreasing_trend, (p=74, n=23, P=100, N=500)
+2025-03-04 14:54:13,988 - INFO - Iteracja 1: condition_best: col_28 <= 25.92, quality_best: 0.781, coverage_best: (p=72, n=6, P=100, N=500), precision: 0.923
+2025-03-04 14:54:13,989 - INFO - Regula po iteracji 1: IF col_60 <= 12.73 AND col_28 <= 25.92 THEN class = Decreasing_trend, (p=72, n=6, P=100, N=500)
+2025-03-04 14:54:13,989 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:54:20,351 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:54:20,351 - INFO - Regula po iteracji 0: IF  THEN class = Decreasing_trend, (p=28, n=572, P=28, N=572)
+2025-03-04 14:54:20,351 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:54:20,351 - INFO - ***RR NOT FOUND***
+2025-03-04 14:54:20,389 - INFO - Iteracja 2: condition_best: col_29 >= 10.95, quality_best: 0.846, coverage_best: (p=72, n=1, P=100, N=500), precision: 0.986
+2025-03-04 14:54:20,389 - INFO - Regula po iteracji 2: IF col_60 <= 12.73 AND col_28 <= 25.92 AND col_29 >= 10.95 THEN class = Decreasing_trend, (p=72, n=1, P=100, N=500)
+2025-03-04 14:54:20,389 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:54:25,963 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:54:25,963 - INFO - Regula po iteracji 0: IF  THEN class = Decreasing_trend, (p=28, n=572, P=28, N=572)
+2025-03-04 14:54:25,963 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:54:25,963 - INFO - ***RR NOT FOUND***
+2025-03-04 14:54:25,974 - INFO - Iteracja 3: condition_best: col_10 <= 32.60, quality_best: 0.86, coverage_best: (p=72, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:25,974 - INFO - Regula po iteracji 3: IF col_60 <= 12.73 AND col_28 <= 25.92 AND col_29 >= 10.95 AND col_10 <= 32.60 THEN class = Decreasing_trend, (p=72, n=0, P=100, N=500)
+2025-03-04 14:54:25,974 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:25,975 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:27,097 - INFO - Iteracja 0: condition_best: col_54 <= 15.46, quality_best: 0.541, coverage_best: (p=85, n=45, P=100, N=500), precision: 0.654
+2025-03-04 14:54:27,097 - INFO - Regula po iteracji 0: IF col_54 <= 15.46 THEN class = Decreasing_trend, (p=85, n=45, P=100, N=500)
+2025-03-04 14:54:27,342 - INFO - Iteracja 1: condition_best: col_26 <= 25.70, quality_best: 0.739, coverage_best: (p=80, n=14, P=100, N=500), precision: 0.851
+2025-03-04 14:54:27,343 - INFO - Regula po iteracji 1: IF col_54 <= 15.46 AND col_26 <= 25.70 THEN class = Decreasing_trend, (p=80, n=14, P=100, N=500)
+2025-03-04 14:54:27,343 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:54:35,027 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:54:35,028 - INFO - Regula po iteracji 0: IF  THEN class = Decreasing_trend, (p=20, n=580, P=20, N=580)
+2025-03-04 14:54:35,028 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:54:35,028 - INFO - ***RR NOT FOUND***
+2025-03-04 14:54:35,099 - INFO - Iteracja 2: condition_best: col_19 <= 31.72, quality_best: 0.861, coverage_best: (p=80, n=3, P=100, N=500), precision: 0.964
+2025-03-04 14:54:35,099 - INFO - Regula po iteracji 2: IF col_54 <= 15.46 AND col_26 <= 25.70 AND col_19 <= 31.72 THEN class = Decreasing_trend, (p=80, n=3, P=100, N=500)
+2025-03-04 14:54:35,099 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:54:40,954 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:54:40,954 - INFO - Regula po iteracji 0: IF  THEN class = Decreasing_trend, (p=20, n=580, P=20, N=580)
+2025-03-04 14:54:40,954 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:54:40,954 - INFO - ***RR NOT FOUND***
+2025-03-04 14:54:40,976 - INFO - Iteracja 3: condition_best: col_9 <= 34.15, quality_best: 0.9, coverage_best: (p=80, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:40,976 - INFO - Regula po iteracji 3: IF col_54 <= 15.46 AND col_26 <= 25.70 AND col_19 <= 31.72 AND col_9 <= 34.15 THEN class = Decreasing_trend, (p=80, n=0, P=100, N=500)
+2025-03-04 14:54:40,976 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:40,977 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:42,100 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:54:42,100 - INFO - Regula po iteracji 0: IF  THEN class = Decreasing_trend, (p=100, n=500, P=100, N=500)
+2025-03-04 14:54:42,100 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:42,100 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:43,414 - INFO - Iteracja 0: condition_best: col_35 >= 50.97, quality_best: 0.55, coverage_best: (p=10, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:43,415 - INFO - Regula po iteracji 0: IF col_35 >= 50.97 THEN class = Upward_shift, (p=10, n=0, P=100, N=500)
+2025-03-04 14:54:43,415 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:43,415 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:44,627 - INFO - Iteracja 0: condition_best: col_33 >= 49.48, quality_best: 0.545, coverage_best: (p=9, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:44,627 - INFO - Regula po iteracji 0: IF col_33 >= 49.48 THEN class = Upward_shift, (p=9, n=0, P=100, N=500)
+2025-03-04 14:54:44,627 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:44,628 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:45,822 - INFO - Iteracja 0: condition_best: col_27 >= 47.80, quality_best: 0.54, coverage_best: (p=8, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:45,822 - INFO - Regula po iteracji 0: IF col_27 >= 47.80 THEN class = Upward_shift, (p=8, n=0, P=100, N=500)
+2025-03-04 14:54:45,822 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:45,823 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:47,101 - INFO - Iteracja 0: condition_best: col_43 >= 51.18, quality_best: 0.418, coverage_best: (p=14, n=4, P=100, N=500), precision: 0.778
+2025-03-04 14:54:47,102 - INFO - Regula po iteracji 0: IF col_43 >= 51.18 THEN class = Upward_shift, (p=14, n=4, P=100, N=500)
+2025-03-04 14:54:47,123 - INFO - Iteracja 1: condition_best: col_13 <= 34.82, quality_best: 0.57, coverage_best: (p=14, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:47,123 - INFO - Regula po iteracji 1: IF col_43 >= 51.18 AND col_13 <= 34.82 THEN class = Upward_shift, (p=14, n=0, P=100, N=500)
+2025-03-04 14:54:47,123 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:47,124 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:48,316 - INFO - Iteracja 0: condition_best: col_32 >= 48.67, quality_best: 0.402, coverage_best: (p=15, n=5, P=100, N=500), precision: 0.75
+2025-03-04 14:54:48,317 - INFO - Regula po iteracji 0: IF col_32 >= 48.67 THEN class = Upward_shift, (p=15, n=5, P=100, N=500)
+2025-03-04 14:54:48,343 - INFO - Iteracja 1: condition_best: col_17 <= 35.49, quality_best: 0.575, coverage_best: (p=15, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:48,343 - INFO - Regula po iteracji 1: IF col_32 >= 48.67 AND col_17 <= 35.49 THEN class = Upward_shift, (p=15, n=0, P=100, N=500)
+2025-03-04 14:54:48,343 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:48,344 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:49,608 - INFO - Iteracja 0: condition_best: col_40 >= 50.62, quality_best: 0.377, coverage_best: (p=13, n=5, P=100, N=500), precision: 0.722
+2025-03-04 14:54:49,609 - INFO - Regula po iteracji 0: IF col_40 >= 50.62 THEN class = Upward_shift, (p=13, n=5, P=100, N=500)
+2025-03-04 14:54:49,631 - INFO - Iteracja 1: condition_best: col_17 <= 35.09, quality_best: 0.565, coverage_best: (p=13, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:49,631 - INFO - Regula po iteracji 1: IF col_40 >= 50.62 AND col_17 <= 35.09 THEN class = Upward_shift, (p=13, n=0, P=100, N=500)
+2025-03-04 14:54:49,631 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:49,632 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:50,814 - INFO - Iteracja 0: condition_best: col_40 >= 45.28, quality_best: 0.364, coverage_best: (p=46, n=33, P=100, N=500), precision: 0.582
+2025-03-04 14:54:50,814 - INFO - Regula po iteracji 0: IF col_40 >= 45.28 THEN class = Upward_shift, (p=46, n=33, P=100, N=500)
+2025-03-04 14:54:50,922 - INFO - Iteracja 1: condition_best: col_27 <= 35.14, quality_best: 0.655, coverage_best: (p=31, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:50,923 - INFO - Regula po iteracji 1: IF col_40 >= 45.28 AND col_27 <= 35.14 THEN class = Upward_shift, (p=31, n=0, P=100, N=500)
+2025-03-04 14:54:50,923 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:50,924 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:52,168 - INFO - Iteracja 0: condition_best: col_42 >= 40.63, quality_best: 0.357, coverage_best: (p=80, n=81, P=100, N=500), precision: 0.497
+2025-03-04 14:54:52,168 - INFO - Regula po iteracji 0: IF col_42 >= 40.63 THEN class = Upward_shift, (p=80, n=81, P=100, N=500)
+2025-03-04 14:54:52,398 - INFO - Iteracja 1: condition_best: col_19 <= 30.16, quality_best: 0.715, coverage_best: (p=43, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:52,398 - INFO - Regula po iteracji 1: IF col_42 >= 40.63 AND col_19 <= 30.16 THEN class = Upward_shift, (p=43, n=0, P=100, N=500)
+2025-03-04 14:54:52,398 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:52,399 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:53,648 - INFO - Iteracja 0: condition_best: col_42 >= 40.63, quality_best: 0.357, coverage_best: (p=80, n=81, P=100, N=500), precision: 0.497
+2025-03-04 14:54:53,648 - INFO - Regula po iteracji 0: IF col_42 >= 40.63 THEN class = Upward_shift, (p=80, n=81, P=100, N=500)
+2025-03-04 14:54:53,836 - INFO - Iteracja 1: condition_best: col_15 <= 29.01, quality_best: 0.69, coverage_best: (p=38, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:54:53,837 - INFO - Regula po iteracji 1: IF col_42 >= 40.63 AND col_15 <= 29.01 THEN class = Upward_shift, (p=38, n=0, P=100, N=500)
+2025-03-04 14:54:53,837 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:54:53,837 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:54:54,985 - INFO - Iteracja 0: condition_best: col_42 >= 40.63, quality_best: 0.357, coverage_best: (p=80, n=81, P=100, N=500), precision: 0.497
+2025-03-04 14:54:54,985 - INFO - Regula po iteracji 0: IF col_42 >= 40.63 THEN class = Upward_shift, (p=80, n=81, P=100, N=500)
+2025-03-04 14:54:55,247 - INFO - Iteracja 1: condition_best: col_16 <= 29.70, quality_best: 0.653, coverage_best: (p=35, n=1, P=100, N=500), precision: 0.972
+2025-03-04 14:54:55,247 - INFO - Regula po iteracji 1: IF col_42 >= 40.63 AND col_16 <= 29.70 THEN class = Upward_shift, (p=35, n=1, P=100, N=500)
+2025-03-04 14:54:55,248 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:55:00,781 - INFO - Iteracja 0: condition_best: col_26 >= 47.72, quality_best: 0.476, coverage_best: (p=7, n=1, P=65, N=535), number_of_covered_negatives_best: 0, best_score: 0.584, precision: 0.875
+2025-03-04 14:55:00,782 - INFO - Regula po iteracji 0: IF col_26 >= 47.72 THEN class = Upward_shift, (p=7, n=1, P=65, N=535)
+2025-03-04 14:55:00,782 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:55:00,782 - INFO - ***RR FOUND***
+2025-03-04 14:55:00,782 - INFO - Reference rule: IF col_26 >= 47.72 THEN class = Upward_shift
+2025-03-04 14:55:00,782 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:55:00,782 - INFO - Exception precision: 0.0
+2025-03-04 14:55:00,782 - INFO - ***ER NOT FOUND***
+2025-03-04 14:55:00,794 - INFO - Iteracja 2: condition_best: col_4 <= 36.18, quality_best: 0.675, coverage_best: (p=35, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:00,794 - INFO - Regula po iteracji 2: IF col_42 >= 40.63 AND col_16 <= 29.70 AND col_4 <= 36.18 THEN class = Upward_shift, (p=35, n=0, P=100, N=500)
+2025-03-04 14:55:00,794 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:00,795 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:01,935 - INFO - Iteracja 0: condition_best: col_42 >= 39.04, quality_best: 0.357, coverage_best: (p=89, n=96, P=100, N=500), precision: 0.481
+2025-03-04 14:55:01,935 - INFO - Regula po iteracji 0: IF col_42 >= 39.04 THEN class = Upward_shift, (p=89, n=96, P=100, N=500)
+2025-03-04 14:55:02,248 - INFO - Iteracja 1: condition_best: col_15 <= 29.58, quality_best: 0.666, coverage_best: (p=47, n=4, P=100, N=500), precision: 0.922
+2025-03-04 14:55:02,249 - INFO - Regula po iteracji 1: IF col_42 >= 39.04 AND col_15 <= 29.58 THEN class = Upward_shift, (p=47, n=4, P=100, N=500)
+2025-03-04 14:55:02,249 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:55:08,368 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:55:08,368 - INFO - Regula po iteracji 0: IF  THEN class = Upward_shift, (p=53, n=547, P=53, N=547)
+2025-03-04 14:55:08,368 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:55:08,368 - INFO - ***RR NOT FOUND***
+2025-03-04 14:55:08,398 - INFO - Iteracja 2: condition_best: col_20 <= 35.10, quality_best: 0.72, coverage_best: (p=44, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:08,398 - INFO - Regula po iteracji 2: IF col_42 >= 39.04 AND col_15 <= 29.58 AND col_20 <= 35.10 THEN class = Upward_shift, (p=44, n=0, P=100, N=500)
+2025-03-04 14:55:08,399 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:08,400 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:09,636 - INFO - Iteracja 0: condition_best: col_42 >= 39.04, quality_best: 0.357, coverage_best: (p=89, n=96, P=100, N=500), precision: 0.481
+2025-03-04 14:55:09,636 - INFO - Regula po iteracji 0: IF col_42 >= 39.04 THEN class = Upward_shift, (p=89, n=96, P=100, N=500)
+2025-03-04 14:55:09,864 - INFO - Iteracja 1: condition_best: col_17 <= 33.70, quality_best: 0.657, coverage_best: (p=77, n=21, P=100, N=500), precision: 0.786
+2025-03-04 14:55:09,865 - INFO - Regula po iteracji 1: IF col_42 >= 39.04 AND col_17 <= 33.70 THEN class = Upward_shift, (p=77, n=21, P=100, N=500)
+2025-03-04 14:55:09,967 - INFO - Iteracja 2: condition_best: col_21 <= 34.86, quality_best: 0.808, coverage_best: (p=70, n=3, P=100, N=500), precision: 0.959
+2025-03-04 14:55:09,967 - INFO - Regula po iteracji 2: IF col_42 >= 39.04 AND col_17 <= 33.70 AND col_21 <= 34.86 THEN class = Upward_shift, (p=70, n=3, P=100, N=500)
+2025-03-04 14:55:09,967 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:55:15,853 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:55:15,854 - INFO - Regula po iteracji 0: IF  THEN class = Upward_shift, (p=30, n=570, P=30, N=570)
+2025-03-04 14:55:15,854 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:55:15,854 - INFO - ***RR NOT FOUND***
+2025-03-04 14:55:15,882 - INFO - Iteracja 3: condition_best: col_16 <= 36.83, quality_best: 0.85, coverage_best: (p=70, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:15,882 - INFO - Regula po iteracji 3: IF col_42 >= 39.04 AND col_17 <= 33.70 AND col_21 <= 34.86 AND col_16 <= 36.83 THEN class = Upward_shift, (p=70, n=0, P=100, N=500)
+2025-03-04 14:55:15,882 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:15,883 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:17,009 - INFO - Iteracja 0: condition_best: col_41 >= 39.61, quality_best: 0.352, coverage_best: (p=84, n=89, P=100, N=500), precision: 0.486
+2025-03-04 14:55:17,009 - INFO - Regula po iteracji 0: IF col_41 >= 39.61 THEN class = Upward_shift, (p=84, n=89, P=100, N=500)
+2025-03-04 14:55:17,239 - INFO - Iteracja 1: condition_best: col_18 <= 29.44, quality_best: 0.68, coverage_best: (p=40, n=1, P=100, N=500), precision: 0.976
+2025-03-04 14:55:17,240 - INFO - Regula po iteracji 1: IF col_41 >= 39.61 AND col_18 <= 29.44 THEN class = Upward_shift, (p=40, n=1, P=100, N=500)
+2025-03-04 14:55:17,240 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:55:22,828 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:55:22,828 - INFO - Regula po iteracji 0: IF  THEN class = Upward_shift, (p=60, n=540, P=60, N=540)
+2025-03-04 14:55:22,828 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:55:22,828 - INFO - ***RR NOT FOUND***
+2025-03-04 14:55:22,840 - INFO - Iteracja 2: condition_best: col_7 <= 36.47, quality_best: 0.7, coverage_best: (p=40, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:22,840 - INFO - Regula po iteracji 2: IF col_41 >= 39.61 AND col_18 <= 29.44 AND col_7 <= 36.47 THEN class = Upward_shift, (p=40, n=0, P=100, N=500)
+2025-03-04 14:55:22,840 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:22,841 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:23,958 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:55:23,958 - INFO - Regula po iteracji 0: IF  THEN class = Upward_shift, (p=100, n=500, P=100, N=500)
+2025-03-04 14:55:23,958 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:23,958 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:25,245 - INFO - Iteracja 0: condition_best: col_29 <= 10.95, quality_best: 0.54, coverage_best: (p=8, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:25,245 - INFO - Regula po iteracji 0: IF col_29 <= 10.95 THEN class = Downward_shift, (p=8, n=0, P=100, N=500)
+2025-03-04 14:55:25,245 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:25,246 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:26,444 - INFO - Iteracja 0: condition_best: col_26 <= 11.24, quality_best: 0.535, coverage_best: (p=7, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:26,445 - INFO - Regula po iteracji 0: IF col_26 <= 11.24 THEN class = Downward_shift, (p=7, n=0, P=100, N=500)
+2025-03-04 14:55:26,445 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:26,445 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:27,726 - INFO - Iteracja 0: condition_best: col_30 <= 9.92, quality_best: 0.535, coverage_best: (p=7, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:27,726 - INFO - Regula po iteracji 0: IF col_30 <= 9.92 THEN class = Downward_shift, (p=7, n=0, P=100, N=500)
+2025-03-04 14:55:27,726 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:27,727 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:28,922 - INFO - Iteracja 0: condition_best: col_34 <= 10.11, quality_best: 0.49, coverage_best: (p=10, n=1, P=100, N=500), precision: 0.909
+2025-03-04 14:55:28,922 - INFO - Regula po iteracji 0: IF col_34 <= 10.11 THEN class = Downward_shift, (p=10, n=1, P=100, N=500)
+2025-03-04 14:55:28,922 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:55:34,464 - INFO - Iteracja 0: condition_best: col_31 <= 10.16, quality_best: 0.424, coverage_best: (p=5, n=1, P=90, N=510), number_of_covered_negatives_best: 0, best_score: 0.48, precision: 0.833
+2025-03-04 14:55:34,465 - INFO - Regula po iteracji 0: IF col_31 <= 10.16 THEN class = Downward_shift, (p=5, n=1, P=90, N=510)
+2025-03-04 14:55:34,465 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:55:34,465 - INFO - ***RR FOUND***
+2025-03-04 14:55:34,465 - INFO - Reference rule: IF col_31 <= 10.16 THEN class = Downward_shift
+2025-03-04 14:55:34,465 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:55:34,465 - INFO - Exception precision: 0.0
+2025-03-04 14:55:34,465 - INFO - ***ER NOT FOUND***
+2025-03-04 14:55:34,475 - INFO - Iteracja 1: condition_best: col_1 >= 24.45, quality_best: 0.55, coverage_best: (p=10, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:34,475 - INFO - Regula po iteracji 1: IF col_34 <= 10.11 AND col_1 >= 24.45 THEN class = Downward_shift, (p=10, n=0, P=100, N=500)
+2025-03-04 14:55:34,475 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:34,476 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:35,670 - INFO - Iteracja 0: condition_best: col_35 <= 10.18, quality_best: 0.426, coverage_best: (p=9, n=2, P=100, N=500), precision: 0.818
+2025-03-04 14:55:35,670 - INFO - Regula po iteracji 0: IF col_35 <= 10.18 THEN class = Downward_shift, (p=9, n=2, P=100, N=500)
+2025-03-04 14:55:35,671 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:55:41,403 - INFO - Iteracja 0: condition_best: col_29 <= 10.95, quality_best: 0.544, coverage_best: (p=8, n=0, P=91, N=509), number_of_covered_negatives_best: 0, best_score: 0.632, precision: 1.0
+2025-03-04 14:55:41,403 - INFO - Regula po iteracji 0: IF col_29 <= 10.95 THEN class = Downward_shift, (p=8, n=0, P=91, N=509)
+2025-03-04 14:55:41,404 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:55:41,404 - INFO - ***RR FOUND***
+2025-03-04 14:55:41,404 - INFO - Reference rule: IF col_29 <= 10.95 THEN class = Downward_shift
+2025-03-04 14:55:41,404 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:55:41,404 - INFO - Exception precision: 0
+2025-03-04 14:55:41,404 - INFO - ***ER NOT FOUND***
+2025-03-04 14:55:41,417 - INFO - Iteracja 1: condition_best: col_8 >= 23.90, quality_best: 0.545, coverage_best: (p=9, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:41,417 - INFO - Regula po iteracji 1: IF col_35 <= 10.18 AND col_8 >= 23.90 THEN class = Downward_shift, (p=9, n=0, P=100, N=500)
+2025-03-04 14:55:41,417 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:41,418 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:42,599 - INFO - Iteracja 0: condition_best: col_34 <= 13.49, quality_best: 0.345, coverage_best: (p=20, n=11, P=100, N=500), precision: 0.645
+2025-03-04 14:55:42,600 - INFO - Regula po iteracji 0: IF col_34 <= 13.49 THEN class = Downward_shift, (p=20, n=11, P=100, N=500)
+2025-03-04 14:55:42,644 - INFO - Iteracja 1: condition_best: col_20 >= 23.85, quality_best: 0.566, coverage_best: (p=20, n=1, P=100, N=500), precision: 0.952
+2025-03-04 14:55:42,644 - INFO - Regula po iteracji 1: IF col_34 <= 13.49 AND col_20 >= 23.85 THEN class = Downward_shift, (p=20, n=1, P=100, N=500)
+2025-03-04 14:55:42,644 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:55:48,207 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:55:48,207 - INFO - Regula po iteracji 0: IF  THEN class = Downward_shift, (p=80, n=520, P=80, N=520)
+2025-03-04 14:55:48,207 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:55:48,207 - INFO - ***RR NOT FOUND***
+2025-03-04 14:55:48,216 - INFO - Iteracja 2: condition_best: col_3 >= 24.60, quality_best: 0.6, coverage_best: (p=20, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:48,217 - INFO - Regula po iteracji 2: IF col_34 <= 13.49 AND col_20 >= 23.85 AND col_3 >= 24.60 THEN class = Downward_shift, (p=20, n=0, P=100, N=500)
+2025-03-04 14:55:48,217 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:48,218 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:49,389 - INFO - Iteracja 0: condition_best: col_37 <= 14.13, quality_best: 0.33, coverage_best: (p=36, n=27, P=100, N=500), precision: 0.571
+2025-03-04 14:55:49,390 - INFO - Regula po iteracji 0: IF col_37 <= 14.13 THEN class = Downward_shift, (p=36, n=27, P=100, N=500)
+2025-03-04 14:55:49,474 - INFO - Iteracja 1: condition_best: col_24 >= 27.64, quality_best: 0.625, coverage_best: (p=25, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:49,474 - INFO - Regula po iteracji 1: IF col_37 <= 14.13 AND col_24 >= 27.64 THEN class = Downward_shift, (p=25, n=0, P=100, N=500)
+2025-03-04 14:55:49,474 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:49,475 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:50,732 - INFO - Iteracja 0: condition_best: col_47 <= 23.44, quality_best: 0.327, coverage_best: (p=94, n=116, P=100, N=500), precision: 0.448
+2025-03-04 14:55:50,732 - INFO - Regula po iteracji 0: IF col_47 <= 23.44 THEN class = Downward_shift, (p=94, n=116, P=100, N=500)
+2025-03-04 14:55:51,043 - INFO - Iteracja 1: condition_best: col_21 >= 31.31, quality_best: 0.725, coverage_best: (p=45, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:51,043 - INFO - Regula po iteracji 1: IF col_47 <= 23.44 AND col_21 >= 31.31 THEN class = Downward_shift, (p=45, n=0, P=100, N=500)
+2025-03-04 14:55:51,043 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:51,044 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:52,186 - INFO - Iteracja 0: condition_best: col_47 <= 23.44, quality_best: 0.327, coverage_best: (p=94, n=116, P=100, N=500), precision: 0.448
+2025-03-04 14:55:52,187 - INFO - Regula po iteracji 0: IF col_47 <= 23.44 THEN class = Downward_shift, (p=94, n=116, P=100, N=500)
+2025-03-04 14:55:52,525 - INFO - Iteracja 1: condition_best: col_21 >= 29.87, quality_best: 0.706, coverage_best: (p=54, n=4, P=100, N=500), precision: 0.931
+2025-03-04 14:55:52,526 - INFO - Regula po iteracji 1: IF col_47 <= 23.44 AND col_21 >= 29.87 THEN class = Downward_shift, (p=54, n=4, P=100, N=500)
+2025-03-04 14:55:52,526 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:55:58,571 - INFO - Iteracja 0: condition_best: col_22 <= 13.10, quality_best: 0.454, coverage_best: (p=5, n=1, P=46, N=554), number_of_covered_negatives_best: 0, best_score: 0.563, precision: 0.833
+2025-03-04 14:55:58,571 - INFO - Regula po iteracji 0: IF col_22 <= 13.10 THEN class = Downward_shift, (p=5, n=1, P=46, N=554)
+2025-03-04 14:55:58,571 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:55:58,572 - INFO - ***RR FOUND***
+2025-03-04 14:55:58,572 - INFO - Reference rule: IF col_22 <= 13.10 THEN class = Downward_shift
+2025-03-04 14:55:58,572 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:55:58,572 - INFO - Exception precision: 0
+2025-03-04 14:55:58,572 - INFO - ***ER NOT FOUND***
+2025-03-04 14:55:58,603 - INFO - Iteracja 2: condition_best: col_9 >= 24.63, quality_best: 0.755, coverage_best: (p=51, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:55:58,603 - INFO - Regula po iteracji 2: IF col_47 <= 23.44 AND col_21 >= 29.87 AND col_9 >= 24.63 THEN class = Downward_shift, (p=51, n=0, P=100, N=500)
+2025-03-04 14:55:58,603 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:55:58,604 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:55:59,831 - INFO - Iteracja 0: condition_best: col_47 <= 23.44, quality_best: 0.327, coverage_best: (p=94, n=116, P=100, N=500), precision: 0.448
+2025-03-04 14:55:59,832 - INFO - Regula po iteracji 0: IF col_47 <= 23.44 THEN class = Downward_shift, (p=94, n=116, P=100, N=500)
+2025-03-04 14:56:00,098 - INFO - Iteracja 1: condition_best: col_24 >= 28.83, quality_best: 0.705, coverage_best: (p=51, n=3, P=100, N=500), precision: 0.944
+2025-03-04 14:56:00,099 - INFO - Regula po iteracji 1: IF col_47 <= 23.44 AND col_24 >= 28.83 THEN class = Downward_shift, (p=51, n=3, P=100, N=500)
+2025-03-04 14:56:00,099 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:56:06,041 - INFO - Iteracja 0: condition_best: col_27 <= 11.26, quality_best: 0.551, coverage_best: (p=5, n=0, P=49, N=551), number_of_covered_negatives_best: 0, best_score: 0.653, precision: 1.0
+2025-03-04 14:56:06,041 - INFO - Regula po iteracji 0: IF col_27 <= 11.26 THEN class = Downward_shift, (p=5, n=0, P=49, N=551)
+2025-03-04 14:56:06,041 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:56:06,041 - INFO - ***RR FOUND***
+2025-03-04 14:56:06,041 - INFO - Reference rule: IF col_27 <= 11.26 THEN class = Downward_shift
+2025-03-04 14:56:06,041 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:56:06,041 - INFO - Exception precision: 0
+2025-03-04 14:56:06,042 - INFO - ***ER NOT FOUND***
+2025-03-04 14:56:06,065 - INFO - Iteracja 2: condition_best: col_28 >= 20.57, quality_best: 0.74, coverage_best: (p=48, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:56:06,065 - INFO - Regula po iteracji 2: IF col_47 <= 23.44 AND col_24 >= 28.83 AND col_28 >= 20.57 THEN class = Downward_shift, (p=48, n=0, P=100, N=500)
+2025-03-04 14:56:06,065 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:56:06,066 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:56:07,188 - INFO - Iteracja 0: condition_best: col_47 <= 23.44, quality_best: 0.327, coverage_best: (p=94, n=116, P=100, N=500), precision: 0.448
+2025-03-04 14:56:07,189 - INFO - Regula po iteracji 0: IF col_47 <= 23.44 THEN class = Downward_shift, (p=94, n=116, P=100, N=500)
+2025-03-04 14:56:07,527 - INFO - Iteracja 1: condition_best: col_22 >= 28.48, quality_best: 0.693, coverage_best: (p=49, n=3, P=100, N=500), precision: 0.942
+2025-03-04 14:56:07,528 - INFO - Regula po iteracji 1: IF col_47 <= 23.44 AND col_22 >= 28.48 THEN class = Downward_shift, (p=49, n=3, P=100, N=500)
+2025-03-04 14:56:07,528 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:56:13,391 - INFO - Iteracja 0: condition_best: col_26 <= 11.24, quality_best: 0.569, coverage_best: (p=7, n=0, P=51, N=549), number_of_covered_negatives_best: 0, best_score: 0.706, precision: 1.0
+2025-03-04 14:56:13,392 - INFO - Regula po iteracji 0: IF col_26 <= 11.24 THEN class = Downward_shift, (p=7, n=0, P=51, N=549)
+2025-03-04 14:56:13,392 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:56:13,392 - INFO - ***RR FOUND***
+2025-03-04 14:56:13,392 - INFO - Reference rule: IF col_26 <= 11.24 THEN class = Downward_shift
+2025-03-04 14:56:13,392 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:56:13,392 - INFO - Exception precision: 0
+2025-03-04 14:56:13,392 - INFO - ***ER NOT FOUND***
+2025-03-04 14:56:13,415 - INFO - Iteracja 2: condition_best: col_7 >= 23.94, quality_best: 0.727, coverage_best: (p=49, n=1, P=100, N=500), precision: 0.98
+2025-03-04 14:56:13,416 - INFO - Regula po iteracji 2: IF col_47 <= 23.44 AND col_22 >= 28.48 AND col_7 >= 23.94 THEN class = Downward_shift, (p=49, n=1, P=100, N=500)
+2025-03-04 14:56:13,416 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:56:18,967 - INFO - Iteracja 0: condition_best: col_26 <= 11.24, quality_best: 0.569, coverage_best: (p=7, n=0, P=51, N=549), number_of_covered_negatives_best: 0, best_score: 0.706, precision: 1.0
+2025-03-04 14:56:18,968 - INFO - Regula po iteracji 0: IF col_26 <= 11.24 THEN class = Downward_shift, (p=7, n=0, P=51, N=549)
+2025-03-04 14:56:18,968 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:56:18,968 - INFO - ***RR FOUND***
+2025-03-04 14:56:18,968 - INFO - Reference rule: IF col_26 <= 11.24 THEN class = Downward_shift
+2025-03-04 14:56:18,968 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:56:18,968 - INFO - Exception precision: 0
+2025-03-04 14:56:18,968 - INFO - ***ER NOT FOUND***
+2025-03-04 14:56:18,978 - INFO - Iteracja 3: condition_best: col_11 >= 23.09, quality_best: 0.745, coverage_best: (p=49, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:56:18,978 - INFO - Regula po iteracji 3: IF col_47 <= 23.44 AND col_22 >= 28.48 AND col_7 >= 23.94 AND col_11 >= 23.09 THEN class = Downward_shift, (p=49, n=0, P=100, N=500)
+2025-03-04 14:56:18,978 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:56:18,979 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:56:20,108 - INFO - Iteracja 0: condition_best: col_44 <= 21.97, quality_best: 0.311, coverage_best: (p=87, n=109, P=100, N=500), precision: 0.444
+2025-03-04 14:56:20,108 - INFO - Regula po iteracji 0: IF col_44 <= 21.97 THEN class = Downward_shift, (p=87, n=109, P=100, N=500)
+2025-03-04 14:56:20,374 - INFO - Iteracja 1: condition_best: col_21 >= 26.11, quality_best: 0.619, coverage_best: (p=76, n=25, P=100, N=500), precision: 0.752
+2025-03-04 14:56:20,374 - INFO - Regula po iteracji 1: IF col_44 <= 21.97 AND col_21 >= 26.11 THEN class = Downward_shift, (p=76, n=25, P=100, N=500)
+2025-03-04 14:56:20,491 - INFO - Iteracja 2: condition_best: col_16 >= 23.97, quality_best: 0.757, coverage_best: (p=76, n=10, P=100, N=500), precision: 0.884
+2025-03-04 14:56:20,491 - INFO - Regula po iteracji 2: IF col_44 <= 21.97 AND col_21 >= 26.11 AND col_16 >= 23.97 THEN class = Downward_shift, (p=76, n=10, P=100, N=500)
+2025-03-04 14:56:20,491 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:56:27,476 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:56:27,476 - INFO - Regula po iteracji 0: IF  THEN class = Downward_shift, (p=24, n=576, P=24, N=576)
+2025-03-04 14:56:27,476 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:56:27,476 - INFO - ***RR NOT FOUND***
+2025-03-04 14:56:27,530 - INFO - Iteracja 3: condition_best: col_13 >= 23.68, quality_best: 0.815, coverage_best: (p=76, n=5, P=100, N=500), precision: 0.938
+2025-03-04 14:56:27,531 - INFO - Regula po iteracji 3: IF col_44 <= 21.97 AND col_21 >= 26.11 AND col_16 >= 23.97 AND col_13 >= 23.68 THEN class = Downward_shift, (p=76, n=5, P=100, N=500)
+2025-03-04 14:56:27,531 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:56:33,766 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:56:33,766 - INFO - Regula po iteracji 0: IF  THEN class = Downward_shift, (p=24, n=576, P=24, N=576)
+2025-03-04 14:56:33,766 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:56:33,766 - INFO - ***RR NOT FOUND***
+2025-03-04 14:56:33,799 - INFO - Iteracja 4: condition_best: col_17 >= 23.59, quality_best: 0.853, coverage_best: (p=76, n=2, P=100, N=500), precision: 0.974
+2025-03-04 14:56:33,799 - INFO - Regula po iteracji 4: IF col_44 <= 21.97 AND col_21 >= 26.11 AND col_16 >= 23.97 AND col_13 >= 23.68 AND col_17 >= 23.59 THEN class = Downward_shift, (p=76, n=2, P=100, N=500)
+2025-03-04 14:56:33,800 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:56:39,345 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:56:39,345 - INFO - Regula po iteracji 0: IF  THEN class = Downward_shift, (p=24, n=576, P=24, N=576)
+2025-03-04 14:56:39,345 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:56:39,346 - INFO - ***RR NOT FOUND***
+2025-03-04 14:56:39,363 - INFO - Iteracja 5: condition_best: col_8 >= 23.33, quality_best: 0.866, coverage_best: (p=76, n=1, P=100, N=500), precision: 0.987
+2025-03-04 14:56:39,363 - INFO - Regula po iteracji 5: IF col_44 <= 21.97 AND col_21 >= 26.11 AND col_16 >= 23.97 AND col_13 >= 23.68 AND col_17 >= 23.59 AND col_8 >= 23.33 THEN class = Downward_shift, (p=76, n=1, P=100, N=500)
+2025-03-04 14:56:39,363 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:56:44,777 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:56:44,777 - INFO - Regula po iteracji 0: IF  THEN class = Downward_shift, (p=24, n=576, P=24, N=576)
+2025-03-04 14:56:44,777 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:56:44,777 - INFO - ***RR NOT FOUND***
+2025-03-04 14:56:44,788 - INFO - Iteracja 6: condition_best: col_11 >= 24.17, quality_best: 0.88, coverage_best: (p=76, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:56:44,789 - INFO - Regula po iteracji 6: IF col_44 <= 21.97 AND col_21 >= 26.11 AND col_16 >= 23.97 AND col_13 >= 23.68 AND col_17 >= 23.59 AND col_8 >= 23.33 AND col_11 >= 24.17 THEN class = Downward_shift, (p=76, n=0, P=100, N=500)
+2025-03-04 14:56:44,789 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:56:44,791 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:56:45,920 - INFO - Iteracja 0: condition_best: col_54 <= 22.65, quality_best: 0.297, coverage_best: (p=94, n=129, P=100, N=500), precision: 0.422
+2025-03-04 14:56:45,920 - INFO - Regula po iteracji 0: IF col_54 <= 22.65 THEN class = Downward_shift, (p=94, n=129, P=100, N=500)
+2025-03-04 14:56:46,229 - INFO - Iteracja 1: condition_best: col_10 >= 31.80, quality_best: 0.644, coverage_best: (p=46, n=5, P=100, N=500), precision: 0.902
+2025-03-04 14:56:46,229 - INFO - Regula po iteracji 1: IF col_54 <= 22.65 AND col_10 >= 31.80 THEN class = Downward_shift, (p=46, n=5, P=100, N=500)
+2025-03-04 14:56:46,229 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:56:52,584 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:56:52,585 - INFO - Regula po iteracji 0: IF  THEN class = Downward_shift, (p=54, n=546, P=54, N=546)
+2025-03-04 14:56:52,585 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:56:52,585 - INFO - ***RR NOT FOUND***
+2025-03-04 14:56:52,622 - INFO - Iteracja 2: condition_best: col_19 >= 24.69, quality_best: 0.706, coverage_best: (p=45, n=1, P=100, N=500), precision: 0.978
+2025-03-04 14:56:52,622 - INFO - Regula po iteracji 2: IF col_54 <= 22.65 AND col_10 >= 31.80 AND col_19 >= 24.69 THEN class = Downward_shift, (p=45, n=1, P=100, N=500)
+2025-03-04 14:56:52,622 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:56:58,286 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:56:58,286 - INFO - Regula po iteracji 0: IF  THEN class = Downward_shift, (p=55, n=545, P=55, N=545)
+2025-03-04 14:56:58,286 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:56:58,286 - INFO - ***RR NOT FOUND***
+2025-03-04 14:56:58,296 - INFO - Iteracja 3: condition_best: col_3 <= 35.17, quality_best: 0.725, coverage_best: (p=45, n=0, P=100, N=500), precision: 1.0
+2025-03-04 14:56:58,296 - INFO - Regula po iteracji 3: IF col_54 <= 22.65 AND col_10 >= 31.80 AND col_19 >= 24.69 AND col_3 <= 35.17 THEN class = Downward_shift, (p=45, n=0, P=100, N=500)
+2025-03-04 14:56:58,296 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:56:58,298 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:56:59,445 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:56:59,445 - INFO - Regula po iteracji 0: IF  THEN class = Downward_shift, (p=100, n=500, P=100, N=500)
+2025-03-04 14:56:59,445 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:56:59,457 - INFO - ************************Finished experiment for kdd-synthetic-control.arff with algorithm3************************
+2025-03-04 14:56:59,458 - INFO - *************************************************************************************************************************
+2025-03-04 14:56:59,458 - INFO - *************************************************************************************************************************
+2025-03-04 14:56:59,458 - INFO - *************************************************************************************************************************

@@ -1,0 +1,104 @@
+
+CR: IF left-weight <= 2.00 AND right-weight <= 2.00 AND left-distance <= 2.00 AND right-distance <= 2.00 THEN class = B (p=6, n=10, P=49, N=576)
+
+CR: IF left-weight <= 2.00 AND right-weight <= 2.00 AND left-distance <= 4.00 AND right-distance <= 4.00 AND left-distance >= 1.50 AND right-distance >= 2.00 THEN class = B (p=8, n=28, P=49, N=576)
+
+CR: IF left-weight <= 2.00 AND right-distance <= 2.00 AND left-distance <= 4.00 AND right-weight <= 4.00 AND left-distance >= 1.50 AND right-weight >= 1.50 THEN class = B (p=8, n=28, P=49, N=576)
+
+CR: IF left-distance <= 2.00 AND right-weight <= 2.00 AND left-weight <= 4.00 AND right-distance <= 4.00 AND left-weight >= 1.50 AND right-distance >= 2.00 THEN class = B (p=8, n=28, P=49, N=576)
+
+CR: IF left-distance <= 2.00 AND right-distance <= 2.00 AND left-weight >= 2.50 AND right-weight >= 3.00 THEN class = B (p=6, n=30, P=49, N=576)
+
+CR: IF left-weight <= 4.00 AND right-weight <= 4.00 AND left-distance <= 4.00 AND right-distance <= 4.00 AND left-weight >= 2.50 AND right-weight >= 2.50 AND left-distance >= 3.00 AND right-distance >= 3.00 THEN class = B (p=6, n=10, P=49, N=576)
+
+CR: IF left-weight <= 4.00 AND left-weight >= 2.00 AND right-distance >= 2.00 AND left-distance >= 4.50 AND right-weight >= 3.00 THEN class = B (p=5, n=31, P=49, N=576)
+
+CR: IF left-distance <= 4.00 AND right-weight >= 1.50 AND left-distance >= 2.00 AND left-weight >= 4.50 AND right-distance >= 3.00 THEN class = B (p=5, n=31, P=49, N=576)
+
+CR: IF left-weight <= 5.00 THEN class = B (p=49, n=576, P=49, N=576)
+
+CR: IF left-weight <= 1.00 AND right-weight >= 3.00 AND left-distance <= 3.00 THEN class = R (p=44, n=1, P=288, N=337)
+
+CR: IF left-weight <= 1.00 AND right-weight >= 3.00 AND right-distance >= 1.50 THEN class = R (p=60, n=0, P=288, N=337)
+
+CR: IF left-weight <= 1.00 AND right-distance >= 2.50 AND right-weight >= 1.50 THEN class = R (p=60, n=0, P=288, N=337)
+
+CR: IF left-weight <= 1.00 AND right-distance >= 2.50 AND left-distance <= 3.00 THEN class = R (p=44, n=1, P=288, N=337)
+
+CR: IF left-weight <= 1.00 AND right-weight >= 2.00 AND left-distance <= 4.00 THEN class = R (p=73, n=7, P=288, N=337)
+
+CR: IF left-distance <= 1.00 AND right-weight >= 3.00 AND left-weight <= 3.00 THEN class = R (p=44, n=1, P=288, N=337)
+
+CR: IF left-distance <= 1.00 AND right-weight >= 3.00 AND right-distance >= 1.50 THEN class = R (p=60, n=0, P=288, N=337)
+
+CR: IF left-distance <= 1.00 AND right-distance >= 2.50 AND right-weight >= 1.50 THEN class = R (p=60, n=0, P=288, N=337)
+
+CR: IF left-distance <= 1.00 AND right-distance >= 2.50 AND left-weight <= 3.00 THEN class = R (p=44, n=1, P=288, N=337)
+
+CR: IF left-distance <= 1.00 AND left-weight <= 4.00 THEN class = R (p=83, n=17, P=288, N=337)
+
+CR: IF left-weight <= 2.00 AND right-weight >= 3.00 AND right-distance >= 3.00 THEN class = R (p=89, n=1, P=288, N=337)
+
+CR: IF left-weight <= 2.00 AND right-weight >= 3.00 AND right-distance >= 2.00 AND left-distance <= 4.00 THEN class = R (p=93, n=3, P=288, N=337)
+
+CR: IF left-weight <= 2.00 AND right-distance >= 3.00 AND right-weight >= 1.50 AND left-distance <= 4.00 THEN class = R (p=93, n=3, P=288, N=337)
+
+CR: IF left-distance <= 2.00 AND right-weight >= 3.00 AND right-distance >= 3.00 THEN class = R (p=89, n=1, P=288, N=337)
+
+CR: IF left-distance <= 2.00 AND right-weight >= 1.50 AND right-distance >= 2.00 AND left-weight <= 4.00 THEN class = R (p=118, n=10, P=288, N=337)
+
+CR: IF right-weight >= 5.00 AND right-distance >= 5.00 THEN class = R (p=24, n=1, P=288, N=337)
+
+CR: IF right-weight >= 5.00 AND right-distance >= 3.50 AND left-weight <= 4.00 THEN class = R (p=39, n=1, P=288, N=337)
+
+CR: IF right-weight >= 5.00 AND left-distance <= 3.00 THEN class = R (p=63, n=12, P=288, N=337)
+
+CR: IF right-distance >= 4.50 AND right-weight >= 3.50 AND left-weight <= 4.00 THEN class = R (p=39, n=1, P=288, N=337)
+
+CR: IF right-distance >= 4.50 AND left-weight <= 3.00 AND left-distance <= 4.00 THEN class = R (p=54, n=6, P=288, N=337)
+
+CR: IF right-weight >= 3.50 AND right-distance >= 3.50 AND left-distance <= 4.00 THEN class = R (p=76, n=4, P=288, N=337)
+
+CR: IF right-weight >= 3.00 AND right-distance >= 2.50 AND left-weight <= 4.00 THEN class = R (p=153, n=27, P=288, N=337)
+
+CR: IF right-weight <= 1.00 AND left-weight >= 3.00 AND right-distance <= 3.00 THEN class = L (p=44, n=1, P=288, N=337)
+
+CR: IF right-weight <= 1.00 AND left-weight >= 3.00 AND left-distance >= 1.50 THEN class = L (p=60, n=0, P=288, N=337)
+
+CR: IF right-weight <= 1.00 AND left-distance >= 3.00 AND right-distance <= 3.00 THEN class = L (p=44, n=1, P=288, N=337)
+
+CR: IF right-weight <= 1.00 AND left-distance >= 3.00 THEN class = L (p=69, n=6, P=288, N=337)
+
+CR: IF right-weight <= 1.00 AND left-weight >= 1.50 AND right-distance <= 4.00 THEN class = L (p=73, n=7, P=288, N=337)
+
+CR: IF right-distance <= 1.00 AND left-weight >= 3.00 AND right-weight <= 3.00 THEN class = L (p=44, n=1, P=288, N=337)
+
+CR: IF right-distance <= 1.00 AND left-weight >= 3.00 AND left-distance >= 1.50 THEN class = L (p=60, n=0, P=288, N=337)
+
+CR: IF right-distance <= 1.00 AND left-distance >= 3.00 AND right-weight <= 3.00 THEN class = L (p=44, n=1, P=288, N=337)
+
+CR: IF right-distance <= 1.00 AND left-distance >= 3.00 THEN class = L (p=69, n=6, P=288, N=337)
+
+CR: IF right-weight <= 2.00 AND left-weight >= 3.00 AND left-distance >= 2.50 THEN class = L (p=89, n=1, P=288, N=337)
+
+CR: IF right-weight <= 2.00 AND left-weight >= 3.00 AND left-distance >= 1.50 AND right-distance <= 4.00 THEN class = L (p=93, n=3, P=288, N=337)
+
+CR: IF right-weight <= 2.00 AND left-distance >= 3.00 AND left-weight >= 1.50 AND right-distance <= 4.00 THEN class = L (p=93, n=3, P=288, N=337)
+
+CR: IF right-distance <= 2.00 AND left-weight >= 3.00 AND left-distance >= 3.00 THEN class = L (p=89, n=1, P=288, N=337)
+
+CR: IF right-distance <= 2.00 AND left-weight >= 3.00 AND right-weight <= 4.00 THEN class = L (p=106, n=14, P=288, N=337)
+
+CR: IF right-distance <= 2.00 AND left-weight >= 2.00 AND left-distance >= 2.00 AND right-weight <= 4.00 THEN class = L (p=118, n=10, P=288, N=337)
+
+CR: IF left-weight >= 4.50 AND left-distance >= 5.00 THEN class = L (p=24, n=1, P=288, N=337)
+
+CR: IF left-weight >= 4.50 AND left-distance >= 4.00 AND right-weight <= 4.00 THEN class = L (p=39, n=1, P=288, N=337)
+
+CR: IF left-weight >= 4.50 AND left-distance >= 1.50 AND right-distance <= 4.00 THEN class = L (p=70, n=10, P=288, N=337)
+
+CR: IF left-distance >= 4.50 AND left-weight >= 4.00 AND right-weight <= 4.00 THEN class = L (p=39, n=1, P=288, N=337)
+
+CR: IF left-distance >= 4.50 AND right-distance <= 3.00 THEN class = L (p=63, n=12, P=288, N=337)
+
+CR: IF left-weight >= 3.50 AND left-distance >= 4.00 THEN class = L (p=89, n=11, P=288, N=337)

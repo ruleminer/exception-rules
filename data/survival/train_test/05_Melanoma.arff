@@ -1,0 +1,295 @@
+% Melanoma {riskRegression}
+%
+% The first six rows:
+%
+%   time status                    event invasion ici      epicel       ulcer thick    sex
+% 1   10      2       death.other.causes  level.1   2     present     present  6.76   Male
+% 2   30      2       death.other.causes  level.0   0 not present not present  0.65   Male
+% 3   35      0                 censored  level.1   2 not present not present  1.34   Male
+% 4   99      2       death.other.causes  level.0   2 not present not present  2.90 Female
+% 5  185      1 death.malignant.melanoma  level.2   2     present     present 12.08   Male
+% 6  204      1 death.malignant.melanoma  level.2   2 not present     present  4.84   Male
+%   age
+% 1  76
+% 2  56
+% 3  41
+% 4  71
+% 5  52
+% 6  28
+%
+% Description:
+% 
+%      In the period 1962-77, 205 patients with malignant melanoma
+%      (cancer of the skin) had a radical operation performed at Odense
+%      University Hospital, Denmark. All patients were followed until the
+%      end of 1977 by which time 134 were still alive while 71 had died
+%      (of out whom 57 had died from cancer and 14 from other causes).
+% 
+%      The object of the study was to assess the effect of risk factors
+%      on survival. Among such risk factors were the sex and age of the
+%      patients and the histological variables tumor thickness and
+%      ulceration (absent vs. present).
+% 
+% Usage:
+% 
+%      data(Melanoma)
+%      
+% Format:
+% 
+%      A data frame with 205 observations on the following 12 variables.
+% 
+%      �time� time in days from operation
+% 
+%      �event� a factor with levels �censored� �death.malignant.melanoma�
+%           �death.other.causes�
+% 
+%      �status� a numeric with values �0=censored�
+%           �1=death.malignant.melanoma� �2=death.other.causes�
+% 
+%      �invasion� a factor with levels �level.0�, �level.1�, �level.2�
+% 
+%      �ici� inflammatory cell infiltration (ICI): 0, 1, 2 or 3
+% 
+%      �epicel� a factor with levels �not present� �present�
+% 
+%      �ulcer� a factor with levels �not present� �present�
+% 
+%      �thick� tumour thickness (in 1/100 mm)
+% 
+%      �sex� a factor with levels �Female� �Male�
+% 
+%      �age� age at operation (years)
+% 
+% Source:
+% 
+%      <URL:
+%      http://192.38.117.59/~linearpredictors/?page=datasets&dataset=Melanoma>
+% 
+% References:
+% 
+%      Regression with linear predictors (2010)
+% 
+%      Andersen, P.K. and Skovgaard, L.T.
+% 
+%      Springer Verlag
+% 
+% Examples:
+% 
+%      data(Melanoma)
+%     
+@relation Melanoma
+@attribute invasion {'level.0','level.1','level.2'}
+@attribute ici numeric
+@attribute epicel {'not present','present'}
+@attribute ulcer {'not present','present'}
+@attribute thick numeric
+@attribute sex {'Female','Male'}
+@attribute age numeric
+@attribute survival_status numeric
+@attribute survival_time numeric
+@data
+'level.1',2,'present','present',6.76,'Male',76,1,10
+'level.0',0,'not present','not present',0.65,'Male',56,1,30
+'level.1',2,'not present','not present',1.34,'Male',41,0,35
+'level.0',2,'not present','not present',2.9,'Female',71,1,99
+'level.2',2,'present','present',12.08,'Male',52,1,185
+'level.2',2,'not present','present',4.84,'Male',28,1,204
+'level.2',2,'present','present',5.16,'Male',77,1,210
+'level.2',2,'not present','present',12.88,'Male',49,1,232
+'level.1',3,'not present','present',3.22,'Female',60,1,232
+'level.0',2,'not present','present',7.41,'Female',68,1,279
+'level.1',1,'not present','present',4.19,'Female',53,1,295
+'level.0',0,'not present','present',0.16,'Female',64,1,355
+'level.0',2,'not present','present',3.87,'Female',68,1,386
+'level.2',2,'present','present',4.84,'Male',63,1,426
+'level.1',3,'not present','present',2.42,'Female',14,1,469
+'level.2',2,'present','present',12.56,'Male',72,1,493
+'level.1',2,'not present','present',5.8,'Male',46,1,529
+'level.2',3,'not present','present',7.06,'Male',72,1,621
+'level.2',3,'not present','present',5.48,'Male',95,1,629
+'level.2',3,'not present','present',7.73,'Male',54,1,659
+'level.1',2,'not present','present',13.85,'Female',89,1,667
+'level.0',1,'present','present',2.34,'Male',25,1,718
+'level.1',2,'not present','present',4.19,'Male',37,1,752
+'level.1',2,'not present','present',4.04,'Male',43,1,779
+'level.1',2,'not present','present',4.84,'Male',68,1,793
+'level.0',2,'present','not present',0.32,'Female',67,1,817
+'level.1',3,'present','present',8.54,'Female',86,1,826
+'level.1',1,'not present','present',2.58,'Female',56,1,833
+'level.1',1,'not present','not present',3.56,'Female',16,1,858
+'level.1',3,'present','not present',3.54,'Female',42,1,869
+'level.0',0,'present','not present',0.97,'Female',65,1,872
+'level.1',2,'not present','present',4.83,'Male',52,1,967
+'level.0',2,'not present','present',1.62,'Male',58,1,977
+'level.2',2,'not present','present',6.44,'Female',60,1,982
+'level.2',2,'present','not present',14.66,'Male',68,1,1041
+'level.1',1,'not present','present',2.58,'Female',75,1,1055
+'level.1',3,'not present','present',3.87,'Male',19,1,1062
+'level.1',2,'not present','present',3.54,'Male',66,1,1075
+'level.1',2,'not present','present',1.34,'Female',56,1,1156
+'level.0',2,'present','present',2.24,'Male',46,1,1228
+'level.1',2,'not present','present',3.87,'Female',58,1,1252
+'level.1',1,'not present','present',3.54,'Female',74,1,1271
+'level.2',3,'not present','present',17.42,'Female',65,1,1312
+'level.0',2,'present','not present',1.29,'Male',64,1,1427
+'level.1',2,'present','not present',3.22,'Male',27,1,1435
+'level.0',1,'present','not present',1.29,'Male',73,0,1499
+'level.0',1,'present','present',4.51,'Male',56,1,1506
+'level.2',2,'present','present',8.38,'Male',63,0,1508
+'level.1',2,'present','not present',1.94,'Female',69,0,1510
+'level.0',2,'present','not present',0.16,'Female',77,0,1512
+'level.0',2,'present','present',2.58,'Male',80,1,1516
+'level.1',2,'present','present',1.29,'Female',76,1,1525
+'level.0',3,'present','not present',0.16,'Female',65,0,1542
+'level.1',1,'not present','not present',1.62,'Female',61,1,1548
+'level.0',1,'present','not present',1.29,'Female',26,0,1557
+'level.1',1,'not present','not present',2.1,'Female',57,1,1560
+'level.0',1,'present','not present',0.32,'Female',45,0,1563
+'level.0',1,'not present','not present',0.81,'Male',31,1,1584
+'level.1',2,'not present','not present',1.13,'Female',36,0,1605
+'level.1',2,'not present','present',5.16,'Female',46,1,1621
+'level.1',1,'not present','not present',1.62,'Female',43,0,1627
+'level.1',1,'present','not present',1.37,'Female',68,0,1634
+'level.0',1,'not present','not present',0.24,'Male',57,0,1641
+'level.0',2,'not present','not present',0.81,'Female',57,0,1641
+'level.0',2,'not present','not present',1.29,'Female',55,0,1648
+'level.1',1,'not present','not present',1.29,'Female',58,0,1652
+'level.0',2,'present','not present',0.97,'Male',20,0,1654
+'level.0',2,'present','not present',1.13,'Female',67,0,1654
+'level.2',2,'not present','present',5.8,'Female',44,1,1667
+'level.1',1,'present','not present',1.29,'Female',59,0,1678
+'level.0',2,'not present','not present',0.48,'Female',32,0,1685
+'level.1',2,'present','not present',1.62,'Male',83,1,1690
+'level.1',2,'not present','not present',2.26,'Female',55,0,1710
+'level.0',2,'not present','not present',0.58,'Male',15,0,1710
+'level.0',3,'not present','present',0.97,'Female',58,1,1726
+'level.1',3,'present','present',2.58,'Female',47,0,1745
+'level.0',1,'not present','not present',0.81,'Female',54,0,1762
+'level.1',2,'present','present',3.54,'Male',55,0,1779
+'level.0',2,'not present','not present',0.97,'Male',38,0,1787
+'level.0',0,'not present','present',1.78,'Female',41,0,1787
+'level.1',1,'not present','not present',1.94,'Female',56,0,1793
+'level.1',2,'present','not present',1.29,'Female',48,0,1804
+'level.1',2,'not present','present',3.22,'Male',44,0,1812
+'level.1',1,'present','not present',1.53,'Female',70,0,1836
+'level.0',1,'present','not present',1.29,'Female',40,0,1839
+'level.0',1,'present','present',1.62,'Male',53,0,1839
+'level.1',0,'present','present',1.62,'Female',65,0,1854
+'level.0',0,'not present','not present',0.32,'Male',54,0,1856
+'level.1',1,'present','present',4.84,'Male',71,1,1860
+'level.0',1,'not present','not present',1.29,'Female',49,0,1864
+'level.0',1,'present','not present',0.97,'Female',55,0,1899
+'level.2',2,'not present','not present',3.06,'Female',69,0,1914
+'level.1',2,'present','not present',3.54,'Male',83,0,1919
+'level.0',2,'not present','present',1.62,'Male',60,0,1920
+'level.2',1,'not present','present',2.58,'Male',40,0,1927
+'level.2',2,'not present','not present',1.94,'Female',77,1,1933
+'level.0',1,'present','not present',0.81,'Female',35,0,1942
+'level.2',1,'not present','present',7.73,'Female',46,0,1955
+'level.1',2,'not present','not present',0.97,'Female',34,0,1956
+'level.2',1,'not present','not present',12.88,'Female',69,0,1958
+'level.0',1,'not present','not present',2.58,'Female',60,0,1963
+'level.1',2,'present','present',4.09,'Male',84,0,1970
+'level.0',3,'not present','not present',0.64,'Female',66,0,2005
+'level.1',1,'present','not present',0.97,'Male',56,0,2007
+'level.1',2,'not present','present',3.22,'Female',75,0,2011
+'level.1',1,'not present','not present',1.62,'Female',36,0,2024
+'level.0',1,'not present','present',3.87,'Male',52,0,2028
+'level.0',2,'present','present',0.32,'Female',58,0,2038
+'level.0',1,'present','not present',0.32,'Female',39,0,2056
+'level.1',1,'present','present',3.22,'Male',68,0,2059
+'level.1',1,'present','not present',2.26,'Male',71,1,2061
+'level.1',3,'not present','not present',3.06,'Female',52,1,2062
+'level.0',0,'not present','present',2.58,'Male',55,0,2075
+'level.0',1,'present','not present',0.65,'Female',66,1,2085
+'level.0',2,'not present','not present',1.13,'Male',35,0,2102
+'level.0',1,'not present','not present',0.81,'Male',44,1,2103
+'level.0',2,'not present','not present',0.97,'Female',72,0,2104
+'level.0',2,'not present','present',1.76,'Female',58,1,2108
+'level.1',0,'present','present',1.94,'Female',54,0,2112
+'level.0',2,'not present','not present',0.65,'Female',33,0,2150
+'level.0',3,'present','not present',0.97,'Female',45,0,2156
+'level.1',2,'not present','not present',5.64,'Male',62,0,2165
+'level.2',2,'present','not present',9.66,'Female',72,0,2209
+'level.0',2,'present','not present',0.1,'Female',51,0,2227
+'level.1',2,'not present','present',5.48,'Male',77,0,2227
+'level.1',2,'not present','present',2.26,'Female',43,1,2256
+'level.2',2,'present','present',4.83,'Female',65,0,2264
+'level.1',2,'present','not present',0.97,'Female',63,0,2339
+'level.0',2,'present','not present',0.97,'Male',60,0,2361
+'level.1',1,'not present','present',5.16,'Female',50,0,2387
+'level.0',1,'not present','not present',0.81,'Male',40,1,2388
+'level.2',2,'not present','present',2.9,'Female',67,0,2403
+'level.1',2,'not present','not present',3.87,'Female',69,0,2426
+'level.1',2,'present','present',1.94,'Female',74,0,2426
+'level.0',2,'present','not present',0.16,'Female',49,0,2431
+'level.0',2,'present','not present',0.64,'Female',47,0,2460
+'level.0',2,'not present','present',2.26,'Female',42,1,2467
+'level.0',3,'not present','not present',1.45,'Female',54,0,2492
+'level.1',2,'not present','present',4.82,'Male',72,0,2493
+'level.0',1,'not present','present',1.29,'Female',45,0,2521
+'level.1',2,'not present','present',7.89,'Male',67,0,2542
+'level.0',0,'not present','present',0.81,'Female',48,0,2559
+'level.1',1,'not present','present',3.54,'Male',34,1,2565
+'level.0',1,'not present','not present',1.29,'Female',44,0,2570
+'level.0',1,'present','not present',0.64,'Female',31,0,2660
+'level.1',2,'not present','present',3.22,'Female',42,0,2666
+'level.0',2,'present','present',1.45,'Female',24,0,2676
+'level.0',2,'present','not present',0.48,'Female',58,0,2738
+'level.1',2,'present','not present',1.94,'Male',78,1,2782
+'level.0',1,'present','not present',0.16,'Male',62,0,2787
+'level.0',1,'present','not present',0.16,'Male',70,0,2984
+'level.0',2,'not present','not present',1.29,'Female',35,0,3032
+'level.0',2,'not present','not present',1.94,'Female',61,0,3040
+'level.1',2,'not present','present',3.54,'Female',54,1,3042
+'level.0',2,'present','not present',0.81,'Female',29,0,3067
+'level.0',0,'not present','not present',0.65,'Male',64,0,3079
+'level.2',1,'present','not present',7.09,'Male',47,0,3101
+'level.0',2,'present','not present',0.16,'Male',62,0,3144
+'level.0',2,'not present','not present',1.62,'Female',32,0,3152
+'level.0',2,'not present','not present',1.62,'Male',49,1,3154
+'level.0',1,'not present','not present',1.29,'Female',25,0,3180
+'level.0',2,'present','not present',6.12,'Male',49,1,3182
+'level.0',1,'not present','not present',0.48,'Female',64,0,3185
+'level.0',2,'present','not present',0.64,'Female',36,0,3199
+'level.1',1,'not present','present',3.22,'Female',58,0,3228
+'level.0',1,'not present','not present',1.94,'Female',37,0,3229
+'level.1',3,'present','not present',2.58,'Male',54,0,3278
+'level.1',1,'not present','present',2.58,'Female',61,0,3297
+'level.0',2,'present','not present',0.81,'Male',31,0,3328
+'level.0',2,'present','present',0.81,'Male',61,0,3330
+'level.1',1,'present','present',3.22,'Female',60,1,3338
+'level.0',3,'present','not present',0.32,'Female',43,0,3383
+'level.1',2,'present','present',3.22,'Female',68,0,3384
+'level.1',2,'not present','not present',2.74,'Female',4,0,3385
+'level.0',2,'not present','present',4.84,'Male',60,0,3388
+'level.0',0,'present','not present',1.62,'Male',50,0,3402
+'level.0',3,'present','not present',0.65,'Female',20,0,3441
+'level.0',2,'present','not present',1.45,'Female',54,1,3458
+'level.0',1,'not present','not present',0.65,'Female',29,0,3459
+'level.0',0,'present','present',1.29,'Male',56,0,3459
+'level.0',0,'not present','not present',1.62,'Female',60,0,3476
+'level.2',2,'not present','not present',3.54,'Female',46,0,3523
+'level.1',2,'not present','not present',3.22,'Female',42,0,3667
+'level.0',0,'present','not present',0.65,'Female',34,0,3695
+'level.0',2,'present','not present',1.03,'Female',56,0,3695
+'level.2',3,'not present','present',7.09,'Male',12,0,3776
+'level.1',2,'not present','present',1.29,'Female',21,0,3776
+'level.0',0,'not present','not present',0.65,'Male',46,0,3830
+'level.0',2,'not present','not present',1.78,'Female',49,0,3856
+'level.2',0,'not present','present',12.24,'Female',35,0,3872
+'level.1',2,'not present','present',8.06,'Male',42,0,3909
+'level.0',2,'present','not present',0.81,'Female',47,0,3968
+'level.1',2,'present','not present',2.1,'Female',69,0,4001
+'level.2',2,'present','not present',3.87,'Female',52,0,4103
+'level.0',2,'present','not present',0.65,'Male',52,0,4119
+'level.0',2,'not present','present',1.94,'Female',30,0,4124
+'level.0',1,'present','not present',0.65,'Male',22,0,4207
+'level.1',3,'present','not present',2.1,'Male',55,0,4310
+'level.0',1,'not present','present',1.94,'Female',26,0,4390
+'level.0',0,'not present','present',1.13,'Female',19,0,4479
+'level.2',3,'present','present',7.06,'Male',29,0,4492
+'level.2',2,'present','not present',6.12,'Female',40,0,4668
+'level.0',1,'present','not present',0.48,'Female',42,0,4688
+'level.0',1,'not present','not present',2.26,'Female',50,0,4926
+'level.1',2,'not present','not present',2.9,'Female',41,0,5565

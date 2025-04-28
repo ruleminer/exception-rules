@@ -1,0 +1,10 @@
+
+CR: IF tear-prod-rate = {reduced} THEN class = none (p=12, n=0, P=15, N=9)
+
+CR: IF astigmatism = {no} AND tear-prod-rate = {normal} AND spectacle-prescrip = {hypermetrope} THEN class = soft (p=3, n=0, P=5, N=19)
+
+CR: IF astigmatism = {no} AND tear-prod-rate = {normal} THEN class = soft (p=5, n=1, P=5, N=19)
+
+CR: IF astigmatism = {yes} AND tear-prod-rate = {normal} AND spectacle-prescrip = {myope} THEN class = hard (p=3, n=0, P=4, N=20)
+
+CR: IF astigmatism = {yes} AND tear-prod-rate = {normal} AND age = {young} THEN class = hard (p=2, n=0, P=4, N=20)

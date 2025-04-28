@@ -1,0 +1,940 @@
+2025-03-04 14:20:00,921 - INFO - **********Starting experiment for breast-cancer.arff with algorithm3**********
+2025-03-04 14:20:00,932 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:00,935 - INFO - Iteracja 0: condition_best: deg-malig = {3}, quality_best: 0.253, coverage_best: (p=45, n=40, P=85, N=201), precision: 0.529
+2025-03-04 14:20:00,936 - INFO - Regula po iteracji 0: IF deg-malig = {3} THEN class = recurrence-events, (p=45, n=40, P=85, N=201)
+2025-03-04 14:20:00,937 - INFO - Iteracja 1: condition_best: inv-nodes = {6-8}, quality_best: 0.474, coverage_best: (p=9, n=1, P=85, N=201), precision: 0.9
+2025-03-04 14:20:00,937 - INFO - Regula po iteracji 1: IF deg-malig = {3} AND inv-nodes = {6-8} THEN class = recurrence-events, (p=9, n=1, P=85, N=201)
+2025-03-04 14:20:00,937 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:00,944 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:00,944 - INFO - Regula po iteracji 0: IF  THEN class = recurrence-events, (p=76, n=210, P=76, N=210)
+2025-03-04 14:20:00,944 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:00,944 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:00,945 - INFO - Iteracja 2: condition_best: irradiat = {yes}, quality_best: 0.535, coverage_best: (p=6, n=0, P=85, N=201), precision: 1.0
+2025-03-04 14:20:00,945 - INFO - Regula po iteracji 2: IF deg-malig = {3} AND inv-nodes = {6-8} AND irradiat = {yes} THEN class = recurrence-events, (p=6, n=0, P=85, N=201)
+2025-03-04 14:20:00,945 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:00,946 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:00,948 - INFO - Iteracja 0: condition_best: deg-malig = {3}, quality_best: 0.253, coverage_best: (p=45, n=40, P=85, N=201), precision: 0.529
+2025-03-04 14:20:00,948 - INFO - Regula po iteracji 0: IF deg-malig = {3} THEN class = recurrence-events, (p=45, n=40, P=85, N=201)
+2025-03-04 14:20:00,949 - INFO - Iteracja 1: condition_best: node-caps = {yes}, quality_best: 0.424, coverage_best: (p=23, n=7, P=85, N=201), precision: 0.767
+2025-03-04 14:20:00,949 - INFO - Regula po iteracji 1: IF deg-malig = {3} AND node-caps = {yes} THEN class = recurrence-events, (p=23, n=7, P=85, N=201)
+2025-03-04 14:20:00,950 - INFO - Iteracja 2: condition_best: breast = {left}, quality_best: 0.5, coverage_best: (p=16, n=2, P=85, N=201), precision: 0.889
+2025-03-04 14:20:00,951 - INFO - Regula po iteracji 2: IF deg-malig = {3} AND node-caps = {yes} AND breast = {left} THEN class = recurrence-events, (p=16, n=2, P=85, N=201)
+2025-03-04 14:20:00,951 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:00,956 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:00,957 - INFO - Regula po iteracji 0: IF  THEN class = recurrence-events, (p=69, n=217, P=69, N=217)
+2025-03-04 14:20:00,957 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:00,957 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:00,958 - INFO - Iteracja 3: condition_best: irradiat = {yes}, quality_best: 0.565, coverage_best: (p=11, n=0, P=85, N=201), precision: 1.0
+2025-03-04 14:20:00,958 - INFO - Regula po iteracji 3: IF deg-malig = {3} AND node-caps = {yes} AND breast = {left} AND irradiat = {yes} THEN class = recurrence-events, (p=11, n=0, P=85, N=201)
+2025-03-04 14:20:00,958 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:00,960 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:00,961 - INFO - Iteracja 0: condition_best: deg-malig = {3}, quality_best: 0.253, coverage_best: (p=45, n=40, P=85, N=201), precision: 0.529
+2025-03-04 14:20:00,962 - INFO - Regula po iteracji 0: IF deg-malig = {3} THEN class = recurrence-events, (p=45, n=40, P=85, N=201)
+2025-03-04 14:20:00,963 - INFO - Iteracja 1: condition_best: node-caps = {yes}, quality_best: 0.424, coverage_best: (p=23, n=7, P=85, N=201), precision: 0.767
+2025-03-04 14:20:00,963 - INFO - Regula po iteracji 1: IF deg-malig = {3} AND node-caps = {yes} THEN class = recurrence-events, (p=23, n=7, P=85, N=201)
+2025-03-04 14:20:00,964 - INFO - Iteracja 2: condition_best: breast = {left}, quality_best: 0.5, coverage_best: (p=16, n=2, P=85, N=201), precision: 0.889
+2025-03-04 14:20:00,964 - INFO - Regula po iteracji 2: IF deg-malig = {3} AND node-caps = {yes} AND breast = {left} THEN class = recurrence-events, (p=16, n=2, P=85, N=201)
+2025-03-04 14:20:00,964 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:00,970 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:00,970 - INFO - Regula po iteracji 0: IF  THEN class = recurrence-events, (p=69, n=217, P=69, N=217)
+2025-03-04 14:20:00,970 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:00,970 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:00,971 - INFO - Iteracja 3: condition_best: irradiat = {no}, quality_best: 0.314, coverage_best: (p=5, n=2, P=85, N=201), precision: 0.714
+2025-03-04 14:20:00,971 - INFO - Regula po iteracji 3: IF deg-malig = {3} AND node-caps = {yes} AND breast = {left} AND irradiat = {no} THEN class = recurrence-events, (p=5, n=2, P=85, N=201)
+2025-03-04 14:20:00,972 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:00,972 - INFO - Regula po iteracji 4: IF deg-malig = {3} AND node-caps = {yes} AND breast = {left} AND irradiat = {no} THEN class = recurrence-events, (p=5, n=2, P=85, N=201)
+2025-03-04 14:20:00,972 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:00,974 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:00,975 - INFO - Iteracja 0: condition_best: deg-malig = {3}, quality_best: 0.253, coverage_best: (p=45, n=40, P=85, N=201), precision: 0.529
+2025-03-04 14:20:00,976 - INFO - Regula po iteracji 0: IF deg-malig = {3} THEN class = recurrence-events, (p=45, n=40, P=85, N=201)
+2025-03-04 14:20:00,977 - INFO - Iteracja 1: condition_best: node-caps = {yes}, quality_best: 0.424, coverage_best: (p=23, n=7, P=85, N=201), precision: 0.767
+2025-03-04 14:20:00,977 - INFO - Regula po iteracji 1: IF deg-malig = {3} AND node-caps = {yes} THEN class = recurrence-events, (p=23, n=7, P=85, N=201)
+2025-03-04 14:20:00,978 - INFO - Iteracja 2: condition_best: menopause = {premeno}, quality_best: 0.423, coverage_best: (p=13, n=3, P=85, N=201), precision: 0.812
+2025-03-04 14:20:00,978 - INFO - Regula po iteracji 2: IF deg-malig = {3} AND node-caps = {yes} AND menopause = {premeno} THEN class = recurrence-events, (p=13, n=3, P=85, N=201)
+2025-03-04 14:20:00,978 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:00,985 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:00,985 - INFO - Regula po iteracji 0: IF  THEN class = recurrence-events, (p=72, n=214, P=72, N=214)
+2025-03-04 14:20:00,985 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:00,985 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:00,986 - INFO - Iteracja 3: condition_best: irradiat = {no}, quality_best: 0.547, coverage_best: (p=8, n=0, P=85, N=201), precision: 1.0
+2025-03-04 14:20:00,986 - INFO - Regula po iteracji 3: IF deg-malig = {3} AND node-caps = {yes} AND menopause = {premeno} AND irradiat = {no} THEN class = recurrence-events, (p=8, n=0, P=85, N=201)
+2025-03-04 14:20:00,986 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:00,988 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:00,989 - INFO - Iteracja 0: condition_best: deg-malig = {3}, quality_best: 0.253, coverage_best: (p=45, n=40, P=85, N=201), precision: 0.529
+2025-03-04 14:20:00,990 - INFO - Regula po iteracji 0: IF deg-malig = {3} THEN class = recurrence-events, (p=45, n=40, P=85, N=201)
+2025-03-04 14:20:00,991 - INFO - Iteracja 1: condition_best: irradiat = {yes}, quality_best: 0.312, coverage_best: (p=19, n=10, P=85, N=201), precision: 0.655
+2025-03-04 14:20:00,991 - INFO - Regula po iteracji 1: IF deg-malig = {3} AND irradiat = {yes} THEN class = recurrence-events, (p=19, n=10, P=85, N=201)
+2025-03-04 14:20:00,992 - INFO - Iteracja 2: condition_best: node-caps = {no}, quality_best: 0.248, coverage_best: (p=8, n=5, P=85, N=201), precision: 0.615
+2025-03-04 14:20:00,992 - INFO - Regula po iteracji 2: IF deg-malig = {3} AND irradiat = {yes} AND node-caps = {no} THEN class = recurrence-events, (p=8, n=5, P=85, N=201)
+2025-03-04 14:20:00,993 - INFO - Iteracja 3: condition_best: inv-nodes = {0-2}, quality_best: 0.247, coverage_best: (p=5, n=3, P=85, N=201), precision: 0.625
+2025-03-04 14:20:00,993 - INFO - Regula po iteracji 3: IF deg-malig = {3} AND irradiat = {yes} AND node-caps = {no} AND inv-nodes = {0-2} THEN class = recurrence-events, (p=5, n=3, P=85, N=201)
+2025-03-04 14:20:00,994 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:00,994 - INFO - Regula po iteracji 4: IF deg-malig = {3} AND irradiat = {yes} AND node-caps = {no} AND inv-nodes = {0-2} THEN class = recurrence-events, (p=5, n=3, P=85, N=201)
+2025-03-04 14:20:00,994 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:00,995 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:00,997 - INFO - Iteracja 0: condition_best: deg-malig = {3}, quality_best: 0.253, coverage_best: (p=45, n=40, P=85, N=201), precision: 0.529
+2025-03-04 14:20:00,997 - INFO - Regula po iteracji 0: IF deg-malig = {3} THEN class = recurrence-events, (p=45, n=40, P=85, N=201)
+2025-03-04 14:20:00,998 - INFO - Iteracja 1: condition_best: inv-nodes = {3-5}, quality_best: 0.311, coverage_best: (p=9, n=4, P=85, N=201), precision: 0.692
+2025-03-04 14:20:00,998 - INFO - Regula po iteracji 1: IF deg-malig = {3} AND inv-nodes = {3-5} THEN class = recurrence-events, (p=9, n=4, P=85, N=201)
+2025-03-04 14:20:00,999 - INFO - Iteracja 2: condition_best: menopause = {ge40}, quality_best: 0.345, coverage_best: (p=6, n=2, P=85, N=201), precision: 0.75
+2025-03-04 14:20:00,999 - INFO - Regula po iteracji 2: IF deg-malig = {3} AND inv-nodes = {3-5} AND menopause = {ge40} THEN class = recurrence-events, (p=6, n=2, P=85, N=201)
+2025-03-04 14:20:01,000 - INFO - Iteracja 3: condition_best: irradiat = {no}, quality_best: 0.314, coverage_best: (p=5, n=2, P=85, N=201), precision: 0.714
+2025-03-04 14:20:01,000 - INFO - Regula po iteracji 3: IF deg-malig = {3} AND inv-nodes = {3-5} AND menopause = {ge40} AND irradiat = {no} THEN class = recurrence-events, (p=5, n=2, P=85, N=201)
+2025-03-04 14:20:01,001 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,001 - INFO - Regula po iteracji 4: IF deg-malig = {3} AND inv-nodes = {3-5} AND menopause = {ge40} AND irradiat = {no} THEN class = recurrence-events, (p=5, n=2, P=85, N=201)
+2025-03-04 14:20:01,001 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,002 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,004 - INFO - Iteracja 0: condition_best: deg-malig = {3}, quality_best: 0.253, coverage_best: (p=45, n=40, P=85, N=201), precision: 0.529
+2025-03-04 14:20:01,004 - INFO - Regula po iteracji 0: IF deg-malig = {3} THEN class = recurrence-events, (p=45, n=40, P=85, N=201)
+2025-03-04 14:20:01,005 - INFO - Iteracja 1: condition_best: menopause = {premeno}, quality_best: 0.293, coverage_best: (p=23, n=14, P=85, N=201), precision: 0.622
+2025-03-04 14:20:01,005 - INFO - Regula po iteracji 1: IF deg-malig = {3} AND menopause = {premeno} THEN class = recurrence-events, (p=23, n=14, P=85, N=201)
+2025-03-04 14:20:01,006 - INFO - Iteracja 2: condition_best: breast = {left}, quality_best: 0.334, coverage_best: (p=14, n=6, P=85, N=201), precision: 0.7
+2025-03-04 14:20:01,006 - INFO - Regula po iteracji 2: IF deg-malig = {3} AND menopause = {premeno} AND breast = {left} THEN class = recurrence-events, (p=14, n=6, P=85, N=201)
+2025-03-04 14:20:01,007 - INFO - Iteracja 3: condition_best: irradiat = {no}, quality_best: 0.213, coverage_best: (p=8, n=6, P=85, N=201), precision: 0.571
+2025-03-04 14:20:01,008 - INFO - Regula po iteracji 3: IF deg-malig = {3} AND menopause = {premeno} AND breast = {left} AND irradiat = {no} THEN class = recurrence-events, (p=8, n=6, P=85, N=201)
+2025-03-04 14:20:01,008 - INFO - Iteracja 4: condition_best: inv-nodes = {0-2}, quality_best: 0.119, coverage_best: (p=5, n=6, P=85, N=201), precision: 0.455
+2025-03-04 14:20:01,009 - INFO - Regula po iteracji 4: IF deg-malig = {3} AND menopause = {premeno} AND breast = {left} AND irradiat = {no} AND inv-nodes = {0-2} THEN class = recurrence-events, (p=5, n=6, P=85, N=201)
+2025-03-04 14:20:01,009 - INFO - Iteracja 5: condition_best: node-caps = {no}, quality_best: 0.119, coverage_best: (p=5, n=6, P=85, N=201), precision: 0.455
+2025-03-04 14:20:01,010 - INFO - Regula po iteracji 5: IF deg-malig = {3} AND menopause = {premeno} AND breast = {left} AND irradiat = {no} AND inv-nodes = {0-2} AND node-caps = {no} THEN class = recurrence-events, (p=5, n=6, P=85, N=201)
+2025-03-04 14:20:01,011 - INFO - Iteracja 6: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,011 - INFO - Regula po iteracji 6: IF deg-malig = {3} AND menopause = {premeno} AND breast = {left} AND irradiat = {no} AND inv-nodes = {0-2} AND node-caps = {no} THEN class = recurrence-events, (p=5, n=6, P=85, N=201)
+2025-03-04 14:20:01,011 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,012 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,014 - INFO - Iteracja 0: condition_best: deg-malig = {3}, quality_best: 0.253, coverage_best: (p=45, n=40, P=85, N=201), precision: 0.529
+2025-03-04 14:20:01,014 - INFO - Regula po iteracji 0: IF deg-malig = {3} THEN class = recurrence-events, (p=45, n=40, P=85, N=201)
+2025-03-04 14:20:01,015 - INFO - Iteracja 1: condition_best: menopause = {ge40}, quality_best: 0.162, coverage_best: (p=22, n=24, P=85, N=201), precision: 0.478
+2025-03-04 14:20:01,015 - INFO - Regula po iteracji 1: IF deg-malig = {3} AND menopause = {ge40} THEN class = recurrence-events, (p=22, n=24, P=85, N=201)
+2025-03-04 14:20:01,016 - INFO - Iteracja 2: condition_best: node-caps = {no}, quality_best: 0.083, coverage_best: (p=12, n=18, P=85, N=201), precision: 0.4
+2025-03-04 14:20:01,017 - INFO - Regula po iteracji 2: IF deg-malig = {3} AND menopause = {ge40} AND node-caps = {no} THEN class = recurrence-events, (p=12, n=18, P=85, N=201)
+2025-03-04 14:20:01,017 - INFO - Iteracja 3: condition_best: irradiat = {no}, quality_best: 0.018, coverage_best: (p=8, n=17, P=85, N=201), precision: 0.32
+2025-03-04 14:20:01,018 - INFO - Regula po iteracji 3: IF deg-malig = {3} AND menopause = {ge40} AND node-caps = {no} AND irradiat = {no} THEN class = recurrence-events, (p=8, n=17, P=85, N=201)
+2025-03-04 14:20:01,019 - INFO - Iteracja 4: condition_best: inv-nodes = {0-2}, quality_best: -0.045, coverage_best: (p=5, n=16, P=85, N=201), precision: 0.238
+2025-03-04 14:20:01,019 - INFO - Regula po iteracji 4: IF deg-malig = {3} AND menopause = {ge40} AND node-caps = {no} AND irradiat = {no} AND inv-nodes = {0-2} THEN class = recurrence-events, (p=5, n=16, P=85, N=201)
+2025-03-04 14:20:01,020 - INFO - Iteracja 5: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,020 - INFO - Regula po iteracji 5: IF deg-malig = {3} AND menopause = {ge40} AND node-caps = {no} AND irradiat = {no} AND inv-nodes = {0-2} THEN class = recurrence-events, (p=5, n=16, P=85, N=201)
+2025-03-04 14:20:01,020 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,020 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,022 - INFO - Iteracja 0: condition_best: node-caps = {yes}, quality_best: 0.249, coverage_best: (p=31, n=25, P=85, N=201), precision: 0.554
+2025-03-04 14:20:01,022 - INFO - Regula po iteracji 0: IF node-caps = {yes} THEN class = recurrence-events, (p=31, n=25, P=85, N=201)
+2025-03-04 14:20:01,023 - INFO - Iteracja 1: condition_best: breast = {left}, quality_best: 0.357, coverage_best: (p=21, n=9, P=85, N=201), precision: 0.7
+2025-03-04 14:20:01,023 - INFO - Regula po iteracji 1: IF node-caps = {yes} AND breast = {left} THEN class = recurrence-events, (p=21, n=9, P=85, N=201)
+2025-03-04 14:20:01,024 - INFO - Iteracja 2: condition_best: deg-malig = {2}, quality_best: 0.09, coverage_best: (p=5, n=7, P=85, N=201), precision: 0.417
+2025-03-04 14:20:01,024 - INFO - Regula po iteracji 2: IF node-caps = {yes} AND breast = {left} AND deg-malig = {2} THEN class = recurrence-events, (p=5, n=7, P=85, N=201)
+2025-03-04 14:20:01,025 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,025 - INFO - Regula po iteracji 3: IF node-caps = {yes} AND breast = {left} AND deg-malig = {2} THEN class = recurrence-events, (p=5, n=7, P=85, N=201)
+2025-03-04 14:20:01,025 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,026 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,028 - INFO - Iteracja 0: condition_best: irradiat = {yes}, quality_best: 0.154, coverage_best: (p=31, n=37, P=85, N=201), precision: 0.456
+2025-03-04 14:20:01,028 - INFO - Regula po iteracji 0: IF irradiat = {yes} THEN class = recurrence-events, (p=31, n=37, P=85, N=201)
+2025-03-04 14:20:01,029 - INFO - Iteracja 1: condition_best: breast-quad = {left_low}, quality_best: 0.2, coverage_best: (p=15, n=13, P=85, N=201), precision: 0.536
+2025-03-04 14:20:01,029 - INFO - Regula po iteracji 1: IF irradiat = {yes} AND breast-quad = {left_low} THEN class = recurrence-events, (p=15, n=13, P=85, N=201)
+2025-03-04 14:20:01,030 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,030 - INFO - Regula po iteracji 2: IF irradiat = {yes} AND breast-quad = {left_low} THEN class = recurrence-events, (p=15, n=13, P=85, N=201)
+2025-03-04 14:20:01,030 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,031 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,033 - INFO - Iteracja 0: condition_best: tumor-size = {30-34}, quality_best: 0.11, coverage_best: (p=25, n=35, P=85, N=201), precision: 0.417
+2025-03-04 14:20:01,033 - INFO - Regula po iteracji 0: IF tumor-size = {30-34} THEN class = recurrence-events, (p=25, n=35, P=85, N=201)
+2025-03-04 14:20:01,034 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,034 - INFO - Regula po iteracji 1: IF tumor-size = {30-34} THEN class = recurrence-events, (p=25, n=35, P=85, N=201)
+2025-03-04 14:20:01,034 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,034 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,036 - INFO - Iteracja 0: condition_best: breast-quad = {right_up}, quality_best: 0.079, coverage_best: (p=13, n=20, P=85, N=201), precision: 0.394
+2025-03-04 14:20:01,036 - INFO - Regula po iteracji 0: IF breast-quad = {right_up} THEN class = recurrence-events, (p=13, n=20, P=85, N=201)
+2025-03-04 14:20:01,037 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,037 - INFO - Regula po iteracji 1: IF breast-quad = {right_up} THEN class = recurrence-events, (p=13, n=20, P=85, N=201)
+2025-03-04 14:20:01,037 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,038 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,039 - INFO - Iteracja 0: condition_best: breast = {left}, quality_best: 0.028, coverage_best: (p=49, n=103, P=85, N=201), precision: 0.322
+2025-03-04 14:20:01,039 - INFO - Regula po iteracji 0: IF breast = {left} THEN class = recurrence-events, (p=49, n=103, P=85, N=201)
+2025-03-04 14:20:01,041 - INFO - Iteracja 1: condition_best: menopause = {premeno}, quality_best: 0.059, coverage_best: (p=27, n=48, P=85, N=201), precision: 0.36
+2025-03-04 14:20:01,041 - INFO - Regula po iteracji 1: IF breast = {left} AND menopause = {premeno} THEN class = recurrence-events, (p=27, n=48, P=85, N=201)
+2025-03-04 14:20:01,042 - INFO - Iteracja 2: condition_best: irradiat = {no}, quality_best: 0.011, coverage_best: (p=18, n=40, P=85, N=201), precision: 0.31
+2025-03-04 14:20:01,042 - INFO - Regula po iteracji 2: IF breast = {left} AND menopause = {premeno} AND irradiat = {no} THEN class = recurrence-events, (p=18, n=40, P=85, N=201)
+2025-03-04 14:20:01,043 - INFO - Iteracja 3: condition_best: inv-nodes = {0-2}, quality_best: -0.035, coverage_best: (p=13, n=38, P=85, N=201), precision: 0.255
+2025-03-04 14:20:01,044 - INFO - Regula po iteracji 3: IF breast = {left} AND menopause = {premeno} AND irradiat = {no} AND inv-nodes = {0-2} THEN class = recurrence-events, (p=13, n=38, P=85, N=201)
+2025-03-04 14:20:01,045 - INFO - Iteracja 4: condition_best: node-caps = {no}, quality_best: -0.031, coverage_best: (p=13, n=37, P=85, N=201), precision: 0.26
+2025-03-04 14:20:01,045 - INFO - Regula po iteracji 4: IF breast = {left} AND menopause = {premeno} AND irradiat = {no} AND inv-nodes = {0-2} AND node-caps = {no} THEN class = recurrence-events, (p=13, n=37, P=85, N=201)
+2025-03-04 14:20:01,046 - INFO - Iteracja 5: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,046 - INFO - Regula po iteracji 5: IF breast = {left} AND menopause = {premeno} AND irradiat = {no} AND inv-nodes = {0-2} AND node-caps = {no} THEN class = recurrence-events, (p=13, n=37, P=85, N=201)
+2025-03-04 14:20:01,046 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,047 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,049 - INFO - Iteracja 0: condition_best: menopause = {premeno}, quality_best: 0.025, coverage_best: (p=48, n=102, P=85, N=201), precision: 0.32
+2025-03-04 14:20:01,049 - INFO - Regula po iteracji 0: IF menopause = {premeno} THEN class = recurrence-events, (p=48, n=102, P=85, N=201)
+2025-03-04 14:20:01,050 - INFO - Iteracja 1: condition_best: irradiat = {no}, quality_best: 0.0, coverage_best: (p=33, n=78, P=85, N=201), precision: 0.297
+2025-03-04 14:20:01,050 - INFO - Regula po iteracji 1: IF menopause = {premeno} AND irradiat = {no} THEN class = recurrence-events, (p=33, n=78, P=85, N=201)
+2025-03-04 14:20:01,051 - INFO - Iteracja 2: condition_best: breast = {right}, quality_best: -0.012, coverage_best: (p=15, n=38, P=85, N=201), precision: 0.283
+2025-03-04 14:20:01,052 - INFO - Regula po iteracji 2: IF menopause = {premeno} AND irradiat = {no} AND breast = {right} THEN class = recurrence-events, (p=15, n=38, P=85, N=201)
+2025-03-04 14:20:01,053 - INFO - Iteracja 3: condition_best: inv-nodes = {0-2}, quality_best: -0.047, coverage_best: (p=10, n=32, P=85, N=201), precision: 0.238
+2025-03-04 14:20:01,053 - INFO - Regula po iteracji 3: IF menopause = {premeno} AND irradiat = {no} AND breast = {right} AND inv-nodes = {0-2} THEN class = recurrence-events, (p=10, n=32, P=85, N=201)
+2025-03-04 14:20:01,054 - INFO - Iteracja 4: condition_best: node-caps = {no}, quality_best: -0.076, coverage_best: (p=8, n=32, P=85, N=201), precision: 0.2
+2025-03-04 14:20:01,054 - INFO - Regula po iteracji 4: IF menopause = {premeno} AND irradiat = {no} AND breast = {right} AND inv-nodes = {0-2} AND node-caps = {no} THEN class = recurrence-events, (p=8, n=32, P=85, N=201)
+2025-03-04 14:20:01,055 - INFO - Iteracja 5: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,055 - INFO - Regula po iteracji 5: IF menopause = {premeno} AND irradiat = {no} AND breast = {right} AND inv-nodes = {0-2} AND node-caps = {no} THEN class = recurrence-events, (p=8, n=32, P=85, N=201)
+2025-03-04 14:20:01,055 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,055 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,057 - INFO - Iteracja 0: condition_best: tumor-size = {20-24}, quality_best: 0.019, coverage_best: (p=16, n=34, P=85, N=201), precision: 0.32
+2025-03-04 14:20:01,057 - INFO - Regula po iteracji 0: IF tumor-size = {20-24} THEN class = recurrence-events, (p=16, n=34, P=85, N=201)
+2025-03-04 14:20:01,058 - INFO - Iteracja 1: condition_best: inv-nodes = {0-2}, quality_best: -0.037, coverage_best: (p=9, n=27, P=85, N=201), precision: 0.25
+2025-03-04 14:20:01,058 - INFO - Regula po iteracji 1: IF tumor-size = {20-24} AND inv-nodes = {0-2} THEN class = recurrence-events, (p=9, n=27, P=85, N=201)
+2025-03-04 14:20:01,059 - INFO - Iteracja 2: condition_best: irradiat = {no}, quality_best: -0.048, coverage_best: (p=8, n=26, P=85, N=201), precision: 0.235
+2025-03-04 14:20:01,059 - INFO - Regula po iteracji 2: IF tumor-size = {20-24} AND inv-nodes = {0-2} AND irradiat = {no} THEN class = recurrence-events, (p=8, n=26, P=85, N=201)
+2025-03-04 14:20:01,060 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,060 - INFO - Regula po iteracji 3: IF tumor-size = {20-24} AND inv-nodes = {0-2} AND irradiat = {no} THEN class = recurrence-events, (p=8, n=26, P=85, N=201)
+2025-03-04 14:20:01,060 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,061 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,062 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,062 - INFO - Regula po iteracji 0: IF  THEN class = recurrence-events, (p=85, n=201, P=85, N=201)
+2025-03-04 14:20:01,062 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,062 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,064 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.499, coverage_best: (p=27, n=1, P=201, N=85), precision: 0.964
+2025-03-04 14:20:01,065 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=201, N=85)
+2025-03-04 14:20:01,065 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,070 - INFO - Iteracja 0: condition_best: tumor-size = {0-4}, quality_best: 0.354, coverage_best: (p=7, n=1, P=174, N=112), number_of_covered_negatives_best: 0, best_score: 0.394, precision: 0.875
+2025-03-04 14:20:01,070 - INFO - Regula po iteracji 0: IF tumor-size = {0-4} THEN class = no-recurrence-events, (p=7, n=1, P=174, N=112)
+2025-03-04 14:20:01,070 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,070 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,071 - INFO - Reference rule: IF tumor-size = {0-4} THEN class = no-recurrence-events
+2025-03-04 14:20:01,071 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,071 - INFO - Exception precision: 0
+2025-03-04 14:20:01,071 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,072 - INFO - Iteracja 1: condition_best: node-caps = {no}, quality_best: 0.567, coverage_best: (p=27, n=0, P=201, N=85), precision: 1.0
+2025-03-04 14:20:01,072 - INFO - Regula po iteracji 1: IF tumor-size = {10-14} AND node-caps = {no} THEN class = no-recurrence-events, (p=27, n=0, P=201, N=85)
+2025-03-04 14:20:01,072 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,073 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,075 - INFO - Iteracja 0: condition_best: tumor-size = {0-4}, quality_best: 0.3, coverage_best: (p=7, n=1, P=201, N=85), precision: 0.875
+2025-03-04 14:20:01,075 - INFO - Regula po iteracji 0: IF tumor-size = {0-4} THEN class = no-recurrence-events, (p=7, n=1, P=201, N=85)
+2025-03-04 14:20:01,075 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,081 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.506, coverage_best: (p=27, n=1, P=194, N=92), number_of_covered_negatives_best: 0, best_score: 0.646, precision: 0.964
+2025-03-04 14:20:01,081 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=194, N=92)
+2025-03-04 14:20:01,081 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,081 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,081 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,081 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,081 - INFO - Exception precision: 0
+2025-03-04 14:20:01,081 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,082 - INFO - Iteracja 1: condition_best: inv-nodes = {0-2}, quality_best: 0.3, coverage_best: (p=7, n=1, P=201, N=85), precision: 0.875
+2025-03-04 14:20:01,082 - INFO - Regula po iteracji 1: IF tumor-size = {0-4} AND inv-nodes = {0-2} THEN class = no-recurrence-events, (p=7, n=1, P=201, N=85)
+2025-03-04 14:20:01,082 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,088 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.506, coverage_best: (p=27, n=1, P=194, N=92), number_of_covered_negatives_best: 0, best_score: 0.646, precision: 0.964
+2025-03-04 14:20:01,088 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=194, N=92)
+2025-03-04 14:20:01,088 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,088 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,088 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,088 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,088 - INFO - Exception precision: 0
+2025-03-04 14:20:01,089 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,089 - INFO - Iteracja 2: condition_best: node-caps = {no}, quality_best: 0.3, coverage_best: (p=7, n=1, P=201, N=85), precision: 0.875
+2025-03-04 14:20:01,089 - INFO - Regula po iteracji 2: IF tumor-size = {0-4} AND inv-nodes = {0-2} AND node-caps = {no} THEN class = no-recurrence-events, (p=7, n=1, P=201, N=85)
+2025-03-04 14:20:01,090 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,095 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.506, coverage_best: (p=27, n=1, P=194, N=92), number_of_covered_negatives_best: 0, best_score: 0.646, precision: 0.964
+2025-03-04 14:20:01,095 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=194, N=92)
+2025-03-04 14:20:01,096 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,096 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,096 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,096 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,096 - INFO - Exception precision: 0
+2025-03-04 14:20:01,096 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,097 - INFO - Iteracja 3: condition_best: irradiat = {no}, quality_best: 0.3, coverage_best: (p=7, n=1, P=201, N=85), precision: 0.875
+2025-03-04 14:20:01,097 - INFO - Regula po iteracji 3: IF tumor-size = {0-4} AND inv-nodes = {0-2} AND node-caps = {no} AND irradiat = {no} THEN class = no-recurrence-events, (p=7, n=1, P=201, N=85)
+2025-03-04 14:20:01,097 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,103 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.506, coverage_best: (p=27, n=1, P=194, N=92), number_of_covered_negatives_best: 0, best_score: 0.646, precision: 0.964
+2025-03-04 14:20:01,103 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=194, N=92)
+2025-03-04 14:20:01,103 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,103 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,103 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,103 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,103 - INFO - Exception precision: 0
+2025-03-04 14:20:01,103 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,104 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,104 - INFO - Regula po iteracji 4: IF tumor-size = {0-4} AND inv-nodes = {0-2} AND node-caps = {no} AND irradiat = {no} THEN class = no-recurrence-events, (p=7, n=1, P=201, N=85)
+2025-03-04 14:20:01,104 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,105 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,107 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.279, coverage_best: (p=59, n=12, P=201, N=85), precision: 0.831
+2025-03-04 14:20:01,107 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=201, N=85)
+2025-03-04 14:20:01,107 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,115 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,115 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=142, n=144, P=142, N=144)
+2025-03-04 14:20:01,115 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,115 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,116 - INFO - Iteracja 1: condition_best: breast-quad = {central}, quality_best: 0.517, coverage_best: (p=7, n=0, P=201, N=85), precision: 1.0
+2025-03-04 14:20:01,116 - INFO - Regula po iteracji 1: IF deg-malig = {1} AND breast-quad = {central} THEN class = no-recurrence-events, (p=7, n=0, P=201, N=85)
+2025-03-04 14:20:01,116 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,117 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,119 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.279, coverage_best: (p=59, n=12, P=201, N=85), precision: 0.831
+2025-03-04 14:20:01,119 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=201, N=85)
+2025-03-04 14:20:01,120 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,127 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,127 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=142, n=144, P=142, N=144)
+2025-03-04 14:20:01,127 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,127 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,128 - INFO - Iteracja 1: condition_best: breast-quad = {right_low}, quality_best: 0.517, coverage_best: (p=7, n=0, P=201, N=85), precision: 1.0
+2025-03-04 14:20:01,128 - INFO - Regula po iteracji 1: IF deg-malig = {1} AND breast-quad = {right_low} THEN class = no-recurrence-events, (p=7, n=0, P=201, N=85)
+2025-03-04 14:20:01,128 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,129 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,131 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.279, coverage_best: (p=59, n=12, P=201, N=85), precision: 0.831
+2025-03-04 14:20:01,131 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=201, N=85)
+2025-03-04 14:20:01,132 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,139 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,139 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=142, n=144, P=142, N=144)
+2025-03-04 14:20:01,139 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,139 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,140 - INFO - Iteracja 1: condition_best: menopause = {ge40}, quality_best: 0.406, coverage_best: (p=31, n=3, P=201, N=85), precision: 0.912
+2025-03-04 14:20:01,140 - INFO - Regula po iteracji 1: IF deg-malig = {1} AND menopause = {ge40} THEN class = no-recurrence-events, (p=31, n=3, P=201, N=85)
+2025-03-04 14:20:01,141 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,146 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,147 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=170, n=116, P=170, N=116)
+2025-03-04 14:20:01,147 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,147 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,147 - INFO - Iteracja 2: condition_best: age = {50-59}, quality_best: 0.537, coverage_best: (p=15, n=0, P=201, N=85), precision: 1.0
+2025-03-04 14:20:01,148 - INFO - Regula po iteracji 2: IF deg-malig = {1} AND menopause = {ge40} AND age = {50-59} THEN class = no-recurrence-events, (p=15, n=0, P=201, N=85)
+2025-03-04 14:20:01,148 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,149 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,151 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.279, coverage_best: (p=59, n=12, P=201, N=85), precision: 0.831
+2025-03-04 14:20:01,151 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=201, N=85)
+2025-03-04 14:20:01,151 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,159 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,159 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=142, n=144, P=142, N=144)
+2025-03-04 14:20:01,159 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,159 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,160 - INFO - Iteracja 1: condition_best: menopause = {ge40}, quality_best: 0.406, coverage_best: (p=31, n=3, P=201, N=85), precision: 0.912
+2025-03-04 14:20:01,160 - INFO - Regula po iteracji 1: IF deg-malig = {1} AND menopause = {ge40} THEN class = no-recurrence-events, (p=31, n=3, P=201, N=85)
+2025-03-04 14:20:01,160 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,166 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,166 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=170, n=116, P=170, N=116)
+2025-03-04 14:20:01,166 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,166 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,167 - INFO - Iteracja 2: condition_best: irradiat = {no}, quality_best: 0.508, coverage_best: (p=29, n=1, P=201, N=85), precision: 0.967
+2025-03-04 14:20:01,167 - INFO - Regula po iteracji 2: IF deg-malig = {1} AND menopause = {ge40} AND irradiat = {no} THEN class = no-recurrence-events, (p=29, n=1, P=201, N=85)
+2025-03-04 14:20:01,168 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,173 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,173 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=172, n=114, P=172, N=114)
+2025-03-04 14:20:01,173 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,173 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,174 - INFO - Iteracja 3: condition_best: inv-nodes = {0-2}, quality_best: 0.508, coverage_best: (p=29, n=1, P=201, N=85), precision: 0.967
+2025-03-04 14:20:01,175 - INFO - Regula po iteracji 3: IF deg-malig = {1} AND menopause = {ge40} AND irradiat = {no} AND inv-nodes = {0-2} THEN class = no-recurrence-events, (p=29, n=1, P=201, N=85)
+2025-03-04 14:20:01,175 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,181 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,181 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=172, n=114, P=172, N=114)
+2025-03-04 14:20:01,181 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,181 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,182 - INFO - Iteracja 4: condition_best: node-caps = {no}, quality_best: 0.508, coverage_best: (p=29, n=1, P=201, N=85), precision: 0.967
+2025-03-04 14:20:01,182 - INFO - Regula po iteracji 4: IF deg-malig = {1} AND menopause = {ge40} AND irradiat = {no} AND inv-nodes = {0-2} AND node-caps = {no} THEN class = no-recurrence-events, (p=29, n=1, P=201, N=85)
+2025-03-04 14:20:01,182 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,188 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,188 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=172, n=114, P=172, N=114)
+2025-03-04 14:20:01,188 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,188 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,189 - INFO - Iteracja 5: condition_best: age = {60-69}, quality_best: 0.379, coverage_best: (p=11, n=1, P=201, N=85), precision: 0.917
+2025-03-04 14:20:01,189 - INFO - Regula po iteracji 5: IF deg-malig = {1} AND menopause = {ge40} AND irradiat = {no} AND inv-nodes = {0-2} AND node-caps = {no} AND age = {60-69} THEN class = no-recurrence-events, (p=11, n=1, P=201, N=85)
+2025-03-04 14:20:01,190 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,196 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.262, coverage_best: (p=23, n=5, P=190, N=96), number_of_covered_negatives_best: 0, best_score: 0.383, precision: 0.821
+2025-03-04 14:20:01,196 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=23, n=5, P=190, N=96)
+2025-03-04 14:20:01,196 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,196 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,196 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,196 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,196 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,196 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,197 - INFO - Iteracja 6: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,197 - INFO - Regula po iteracji 6: IF deg-malig = {1} AND menopause = {ge40} AND irradiat = {no} AND inv-nodes = {0-2} AND node-caps = {no} AND age = {60-69} THEN class = no-recurrence-events, (p=11, n=1, P=201, N=85)
+2025-03-04 14:20:01,197 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,199 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,201 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.279, coverage_best: (p=59, n=12, P=201, N=85), precision: 0.831
+2025-03-04 14:20:01,201 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=201, N=85)
+2025-03-04 14:20:01,201 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,208 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,209 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=142, n=144, P=142, N=144)
+2025-03-04 14:20:01,209 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,209 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,210 - INFO - Iteracja 1: condition_best: tumor-size = {25-29}, quality_best: 0.364, coverage_best: (p=10, n=1, P=201, N=85), precision: 0.909
+2025-03-04 14:20:01,210 - INFO - Regula po iteracji 1: IF deg-malig = {1} AND tumor-size = {25-29} THEN class = no-recurrence-events, (p=10, n=1, P=201, N=85)
+2025-03-04 14:20:01,210 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,216 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.509, coverage_best: (p=27, n=1, P=191, N=95), number_of_covered_negatives_best: 0, best_score: 0.651, precision: 0.964
+2025-03-04 14:20:01,216 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=191, N=95)
+2025-03-04 14:20:01,216 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,216 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,216 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,216 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,216 - INFO - Exception precision: 0
+2025-03-04 14:20:01,216 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,217 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,217 - INFO - Regula po iteracji 2: IF deg-malig = {1} AND tumor-size = {25-29} THEN class = no-recurrence-events, (p=10, n=1, P=201, N=85)
+2025-03-04 14:20:01,217 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,218 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,220 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.279, coverage_best: (p=59, n=12, P=201, N=85), precision: 0.831
+2025-03-04 14:20:01,220 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=201, N=85)
+2025-03-04 14:20:01,220 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,228 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,228 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=142, n=144, P=142, N=144)
+2025-03-04 14:20:01,228 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,228 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,229 - INFO - Iteracja 1: condition_best: node-caps = {no}, quality_best: 0.347, coverage_best: (p=57, n=9, P=201, N=85), precision: 0.864
+2025-03-04 14:20:01,229 - INFO - Regula po iteracji 1: IF deg-malig = {1} AND node-caps = {no} THEN class = no-recurrence-events, (p=57, n=9, P=201, N=85)
+2025-03-04 14:20:01,229 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,236 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,236 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=144, n=142, P=144, N=142)
+2025-03-04 14:20:01,236 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,236 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,237 - INFO - Iteracja 2: condition_best: breast = {left}, quality_best: 0.406, coverage_best: (p=31, n=3, P=201, N=85), precision: 0.912
+2025-03-04 14:20:01,237 - INFO - Regula po iteracji 2: IF deg-malig = {1} AND node-caps = {no} AND breast = {left} THEN class = no-recurrence-events, (p=31, n=3, P=201, N=85)
+2025-03-04 14:20:01,238 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,244 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,244 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=170, n=116, P=170, N=116)
+2025-03-04 14:20:01,244 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,244 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,245 - INFO - Iteracja 3: condition_best: irradiat = {no}, quality_best: 0.454, coverage_best: (p=30, n=2, P=201, N=85), precision: 0.938
+2025-03-04 14:20:01,245 - INFO - Regula po iteracji 3: IF deg-malig = {1} AND node-caps = {no} AND breast = {left} AND irradiat = {no} THEN class = no-recurrence-events, (p=30, n=2, P=201, N=85)
+2025-03-04 14:20:01,245 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,251 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,251 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=171, n=115, P=171, N=115)
+2025-03-04 14:20:01,251 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,251 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,252 - INFO - Iteracja 4: condition_best: inv-nodes = {0-2}, quality_best: 0.454, coverage_best: (p=30, n=2, P=201, N=85), precision: 0.938
+2025-03-04 14:20:01,253 - INFO - Regula po iteracji 4: IF deg-malig = {1} AND node-caps = {no} AND breast = {left} AND irradiat = {no} AND inv-nodes = {0-2} THEN class = no-recurrence-events, (p=30, n=2, P=201, N=85)
+2025-03-04 14:20:01,253 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,259 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,259 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=171, n=115, P=171, N=115)
+2025-03-04 14:20:01,259 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,259 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,260 - INFO - Iteracja 5: condition_best: breast-quad = {left_low}, quality_best: 0.424, coverage_best: (p=15, n=1, P=201, N=85), precision: 0.938
+2025-03-04 14:20:01,260 - INFO - Regula po iteracji 5: IF deg-malig = {1} AND node-caps = {no} AND breast = {left} AND irradiat = {no} AND inv-nodes = {0-2} AND breast-quad = {left_low} THEN class = no-recurrence-events, (p=15, n=1, P=201, N=85)
+2025-03-04 14:20:01,261 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,267 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.334, coverage_best: (p=24, n=4, P=186, N=100), number_of_covered_negatives_best: 0, best_score: 0.463, precision: 0.857
+2025-03-04 14:20:01,267 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=24, n=4, P=186, N=100)
+2025-03-04 14:20:01,267 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,267 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,267 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,267 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,267 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,267 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,268 - INFO - Iteracja 6: condition_best: menopause = {premeno}, quality_best: 0.326, coverage_best: (p=8, n=1, P=201, N=85), precision: 0.889
+2025-03-04 14:20:01,269 - INFO - Regula po iteracji 6: IF deg-malig = {1} AND node-caps = {no} AND breast = {left} AND irradiat = {no} AND inv-nodes = {0-2} AND breast-quad = {left_low} AND menopause = {premeno} THEN class = no-recurrence-events, (p=8, n=1, P=201, N=85)
+2025-03-04 14:20:01,269 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,275 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.443, coverage_best: (p=26, n=2, P=193, N=93), number_of_covered_negatives_best: 0, best_score: 0.577, precision: 0.929
+2025-03-04 14:20:01,275 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=26, n=2, P=193, N=93)
+2025-03-04 14:20:01,275 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,275 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,275 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,275 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,276 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,276 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,276 - INFO - Iteracja 7: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,277 - INFO - Regula po iteracji 7: IF deg-malig = {1} AND node-caps = {no} AND breast = {left} AND irradiat = {no} AND inv-nodes = {0-2} AND breast-quad = {left_low} AND menopause = {premeno} THEN class = no-recurrence-events, (p=8, n=1, P=201, N=85)
+2025-03-04 14:20:01,277 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,279 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,281 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.279, coverage_best: (p=59, n=12, P=201, N=85), precision: 0.831
+2025-03-04 14:20:01,281 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=201, N=85)
+2025-03-04 14:20:01,281 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,288 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,288 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=142, n=144, P=142, N=144)
+2025-03-04 14:20:01,288 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,288 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,289 - INFO - Iteracja 1: condition_best: node-caps = {no}, quality_best: 0.347, coverage_best: (p=57, n=9, P=201, N=85), precision: 0.864
+2025-03-04 14:20:01,290 - INFO - Regula po iteracji 1: IF deg-malig = {1} AND node-caps = {no} THEN class = no-recurrence-events, (p=57, n=9, P=201, N=85)
+2025-03-04 14:20:01,290 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,297 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,297 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=144, n=142, P=144, N=142)
+2025-03-04 14:20:01,297 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,297 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,298 - INFO - Iteracja 2: condition_best: inv-nodes = {0-2}, quality_best: 0.341, coverage_best: (p=56, n=9, P=201, N=85), precision: 0.862
+2025-03-04 14:20:01,298 - INFO - Regula po iteracji 2: IF deg-malig = {1} AND node-caps = {no} AND inv-nodes = {0-2} THEN class = no-recurrence-events, (p=56, n=9, P=201, N=85)
+2025-03-04 14:20:01,298 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,305 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,305 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=145, n=141, P=145, N=141)
+2025-03-04 14:20:01,305 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,305 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,306 - INFO - Iteracja 3: condition_best: age = {40-49}, quality_best: 0.236, coverage_best: (p=15, n=3, P=201, N=85), precision: 0.833
+2025-03-04 14:20:01,307 - INFO - Regula po iteracji 3: IF deg-malig = {1} AND node-caps = {no} AND inv-nodes = {0-2} AND age = {40-49} THEN class = no-recurrence-events, (p=15, n=3, P=201, N=85)
+2025-03-04 14:20:01,307 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,313 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.334, coverage_best: (p=24, n=4, P=186, N=100), number_of_covered_negatives_best: 0, best_score: 0.463, precision: 0.857
+2025-03-04 14:20:01,313 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=24, n=4, P=186, N=100)
+2025-03-04 14:20:01,313 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,313 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,313 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,313 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,314 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,314 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,314 - INFO - Iteracja 4: condition_best: menopause = {premeno}, quality_best: 0.236, coverage_best: (p=15, n=3, P=201, N=85), precision: 0.833
+2025-03-04 14:20:01,315 - INFO - Regula po iteracji 4: IF deg-malig = {1} AND node-caps = {no} AND inv-nodes = {0-2} AND age = {40-49} AND menopause = {premeno} THEN class = no-recurrence-events, (p=15, n=3, P=201, N=85)
+2025-03-04 14:20:01,315 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,321 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.334, coverage_best: (p=24, n=4, P=186, N=100), number_of_covered_negatives_best: 0, best_score: 0.463, precision: 0.857
+2025-03-04 14:20:01,321 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=24, n=4, P=186, N=100)
+2025-03-04 14:20:01,322 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,322 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,322 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,322 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,322 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,322 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,323 - INFO - Iteracja 5: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,323 - INFO - Regula po iteracji 5: IF deg-malig = {1} AND node-caps = {no} AND inv-nodes = {0-2} AND age = {40-49} AND menopause = {premeno} THEN class = no-recurrence-events, (p=15, n=3, P=201, N=85)
+2025-03-04 14:20:01,323 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,324 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,326 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,326 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,328 - INFO - Iteracja 1: condition_best: breast-quad = {right_low}, quality_best: 0.441, coverage_best: (p=17, n=1, P=201, N=85), precision: 0.944
+2025-03-04 14:20:01,328 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND breast-quad = {right_low} THEN class = no-recurrence-events, (p=17, n=1, P=201, N=85)
+2025-03-04 14:20:01,328 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,334 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.397, coverage_best: (p=25, n=3, P=184, N=102), number_of_covered_negatives_best: 0, best_score: 0.533, precision: 0.893
+2025-03-04 14:20:01,334 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=25, n=3, P=184, N=102)
+2025-03-04 14:20:01,334 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,334 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,334 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,334 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,334 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,334 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,335 - INFO - Iteracja 2: condition_best: irradiat = {no}, quality_best: 0.54, coverage_best: (p=16, n=0, P=201, N=85), precision: 1.0
+2025-03-04 14:20:01,335 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND breast-quad = {right_low} AND irradiat = {no} THEN class = no-recurrence-events, (p=16, n=0, P=201, N=85)
+2025-03-04 14:20:01,335 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,337 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,339 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,339 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,341 - INFO - Iteracja 1: condition_best: menopause = {ge40}, quality_best: 0.323, coverage_best: (p=79, n=15, P=201, N=85), precision: 0.84
+2025-03-04 14:20:01,341 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND menopause = {ge40} THEN class = no-recurrence-events, (p=79, n=15, P=201, N=85)
+2025-03-04 14:20:01,341 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,349 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,349 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=122, n=164, P=122, N=164)
+2025-03-04 14:20:01,349 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,349 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,350 - INFO - Iteracja 2: condition_best: tumor-size = {15-19}, quality_best: 0.535, coverage_best: (p=14, n=0, P=201, N=85), precision: 1.0
+2025-03-04 14:20:01,350 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND menopause = {ge40} AND tumor-size = {15-19} THEN class = no-recurrence-events, (p=14, n=0, P=201, N=85)
+2025-03-04 14:20:01,350 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,352 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,354 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,354 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,355 - INFO - Iteracja 1: condition_best: menopause = {ge40}, quality_best: 0.323, coverage_best: (p=79, n=15, P=201, N=85), precision: 0.84
+2025-03-04 14:20:01,356 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND menopause = {ge40} THEN class = no-recurrence-events, (p=79, n=15, P=201, N=85)
+2025-03-04 14:20:01,356 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,364 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,364 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=122, n=164, P=122, N=164)
+2025-03-04 14:20:01,364 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,364 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,365 - INFO - Iteracja 2: condition_best: breast = {left}, quality_best: 0.406, coverage_best: (p=45, n=5, P=201, N=85), precision: 0.9
+2025-03-04 14:20:01,365 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} THEN class = no-recurrence-events, (p=45, n=5, P=201, N=85)
+2025-03-04 14:20:01,365 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,372 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,372 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=156, n=130, P=156, N=130)
+2025-03-04 14:20:01,372 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,372 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,373 - INFO - Iteracja 3: condition_best: breast-quad = {left_low}, quality_best: 0.462, coverage_best: (p=20, n=1, P=201, N=85), precision: 0.952
+2025-03-04 14:20:01,373 - INFO - Regula po iteracji 3: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND breast-quad = {left_low} THEN class = no-recurrence-events, (p=20, n=1, P=201, N=85)
+2025-03-04 14:20:01,374 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,379 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.289, coverage_best: (p=23, n=5, P=181, N=105), number_of_covered_negatives_best: 0, best_score: 0.417, precision: 0.821
+2025-03-04 14:20:01,379 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=23, n=5, P=181, N=105)
+2025-03-04 14:20:01,379 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,379 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,379 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,379 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,380 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,380 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,381 - INFO - Iteracja 4: condition_best: age = {60-69}, quality_best: 0.527, coverage_best: (p=11, n=0, P=201, N=85), precision: 1.0
+2025-03-04 14:20:01,381 - INFO - Regula po iteracji 4: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND breast-quad = {left_low} AND age = {60-69} THEN class = no-recurrence-events, (p=11, n=0, P=201, N=85)
+2025-03-04 14:20:01,381 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,385 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,387 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,387 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,388 - INFO - Iteracja 1: condition_best: menopause = {ge40}, quality_best: 0.323, coverage_best: (p=79, n=15, P=201, N=85), precision: 0.84
+2025-03-04 14:20:01,389 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND menopause = {ge40} THEN class = no-recurrence-events, (p=79, n=15, P=201, N=85)
+2025-03-04 14:20:01,389 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,396 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,397 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=122, n=164, P=122, N=164)
+2025-03-04 14:20:01,397 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,397 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,398 - INFO - Iteracja 2: condition_best: breast = {left}, quality_best: 0.406, coverage_best: (p=45, n=5, P=201, N=85), precision: 0.9
+2025-03-04 14:20:01,398 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} THEN class = no-recurrence-events, (p=45, n=5, P=201, N=85)
+2025-03-04 14:20:01,398 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,405 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,405 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=156, n=130, P=156, N=130)
+2025-03-04 14:20:01,405 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,405 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,406 - INFO - Iteracja 3: condition_best: breast-quad = {left_low}, quality_best: 0.462, coverage_best: (p=20, n=1, P=201, N=85), precision: 0.952
+2025-03-04 14:20:01,406 - INFO - Regula po iteracji 3: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND breast-quad = {left_low} THEN class = no-recurrence-events, (p=20, n=1, P=201, N=85)
+2025-03-04 14:20:01,407 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,412 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.289, coverage_best: (p=23, n=5, P=181, N=105), number_of_covered_negatives_best: 0, best_score: 0.417, precision: 0.821
+2025-03-04 14:20:01,412 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=23, n=5, P=181, N=105)
+2025-03-04 14:20:01,412 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,412 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,412 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,412 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,413 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,413 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,414 - INFO - Iteracja 4: condition_best: node-caps = {no}, quality_best: 0.462, coverage_best: (p=20, n=1, P=201, N=85), precision: 0.952
+2025-03-04 14:20:01,414 - INFO - Regula po iteracji 4: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND breast-quad = {left_low} AND node-caps = {no} THEN class = no-recurrence-events, (p=20, n=1, P=201, N=85)
+2025-03-04 14:20:01,414 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,420 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.289, coverage_best: (p=23, n=5, P=181, N=105), number_of_covered_negatives_best: 0, best_score: 0.417, precision: 0.821
+2025-03-04 14:20:01,420 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=23, n=5, P=181, N=105)
+2025-03-04 14:20:01,420 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,420 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,420 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,420 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,421 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,421 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,421 - INFO - Iteracja 5: condition_best: irradiat = {no}, quality_best: 0.455, coverage_best: (p=19, n=1, P=201, N=85), precision: 0.95
+2025-03-04 14:20:01,422 - INFO - Regula po iteracji 5: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND breast-quad = {left_low} AND node-caps = {no} AND irradiat = {no} THEN class = no-recurrence-events, (p=19, n=1, P=201, N=85)
+2025-03-04 14:20:01,422 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,428 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.287, coverage_best: (p=23, n=5, P=182, N=104), number_of_covered_negatives_best: 0, best_score: 0.413, precision: 0.821
+2025-03-04 14:20:01,428 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=23, n=5, P=182, N=104)
+2025-03-04 14:20:01,428 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,428 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,428 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,428 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,429 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,429 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,430 - INFO - Iteracja 6: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,430 - INFO - Regula po iteracji 6: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND breast-quad = {left_low} AND node-caps = {no} AND irradiat = {no} THEN class = no-recurrence-events, (p=19, n=1, P=201, N=85)
+2025-03-04 14:20:01,430 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,432 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,434 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,434 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,436 - INFO - Iteracja 1: condition_best: menopause = {ge40}, quality_best: 0.323, coverage_best: (p=79, n=15, P=201, N=85), precision: 0.84
+2025-03-04 14:20:01,436 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND menopause = {ge40} THEN class = no-recurrence-events, (p=79, n=15, P=201, N=85)
+2025-03-04 14:20:01,436 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,444 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,444 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=122, n=164, P=122, N=164)
+2025-03-04 14:20:01,444 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,444 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,445 - INFO - Iteracja 2: condition_best: breast = {left}, quality_best: 0.406, coverage_best: (p=45, n=5, P=201, N=85), precision: 0.9
+2025-03-04 14:20:01,445 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} THEN class = no-recurrence-events, (p=45, n=5, P=201, N=85)
+2025-03-04 14:20:01,446 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,452 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,452 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=156, n=130, P=156, N=130)
+2025-03-04 14:20:01,452 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,452 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,453 - INFO - Iteracja 3: condition_best: irradiat = {no}, quality_best: 0.422, coverage_best: (p=41, n=4, P=201, N=85), precision: 0.911
+2025-03-04 14:20:01,453 - INFO - Regula po iteracji 3: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND irradiat = {no} THEN class = no-recurrence-events, (p=41, n=4, P=201, N=85)
+2025-03-04 14:20:01,454 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,460 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,460 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=160, n=126, P=160, N=126)
+2025-03-04 14:20:01,460 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,460 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,461 - INFO - Iteracja 4: condition_best: node-caps = {no}, quality_best: 0.422, coverage_best: (p=41, n=4, P=201, N=85), precision: 0.911
+2025-03-04 14:20:01,461 - INFO - Regula po iteracji 4: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND irradiat = {no} AND node-caps = {no} THEN class = no-recurrence-events, (p=41, n=4, P=201, N=85)
+2025-03-04 14:20:01,462 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,468 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,468 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=160, n=126, P=160, N=126)
+2025-03-04 14:20:01,468 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,468 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,469 - INFO - Iteracja 5: condition_best: tumor-size = {20-24}, quality_best: 0.326, coverage_best: (p=8, n=1, P=201, N=85), precision: 0.889
+2025-03-04 14:20:01,470 - INFO - Regula po iteracji 5: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND irradiat = {no} AND node-caps = {no} AND tumor-size = {20-24} THEN class = no-recurrence-events, (p=8, n=1, P=201, N=85)
+2025-03-04 14:20:01,470 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,476 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.507, coverage_best: (p=27, n=1, P=193, N=93), number_of_covered_negatives_best: 0, best_score: 0.647, precision: 0.964
+2025-03-04 14:20:01,476 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=193, N=93)
+2025-03-04 14:20:01,476 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,476 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,476 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,476 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,476 - INFO - Exception precision: 0
+2025-03-04 14:20:01,476 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,477 - INFO - Iteracja 6: condition_best: breast-quad = {left_up}, quality_best: 0.225, coverage_best: (p=5, n=1, P=201, N=85), precision: 0.833
+2025-03-04 14:20:01,478 - INFO - Regula po iteracji 6: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND irradiat = {no} AND node-caps = {no} AND tumor-size = {20-24} AND breast-quad = {left_up} THEN class = no-recurrence-events, (p=5, n=1, P=201, N=85)
+2025-03-04 14:20:01,478 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,484 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.504, coverage_best: (p=27, n=1, P=196, N=90), number_of_covered_negatives_best: 0, best_score: 0.642, precision: 0.964
+2025-03-04 14:20:01,484 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=196, N=90)
+2025-03-04 14:20:01,484 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,484 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,484 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,484 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,485 - INFO - Exception precision: 0
+2025-03-04 14:20:01,485 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,485 - INFO - Iteracja 7: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,486 - INFO - Regula po iteracji 7: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} AND irradiat = {no} AND node-caps = {no} AND tumor-size = {20-24} AND breast-quad = {left_up} THEN class = no-recurrence-events, (p=5, n=1, P=201, N=85)
+2025-03-04 14:20:01,486 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,488 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,489 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,490 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,491 - INFO - Iteracja 1: condition_best: menopause = {ge40}, quality_best: 0.323, coverage_best: (p=79, n=15, P=201, N=85), precision: 0.84
+2025-03-04 14:20:01,491 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND menopause = {ge40} THEN class = no-recurrence-events, (p=79, n=15, P=201, N=85)
+2025-03-04 14:20:01,492 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,499 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,499 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=122, n=164, P=122, N=164)
+2025-03-04 14:20:01,499 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,499 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,501 - INFO - Iteracja 2: condition_best: age = {50-59}, quality_best: 0.404, coverage_best: (p=38, n=4, P=201, N=85), precision: 0.905
+2025-03-04 14:20:01,501 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND menopause = {ge40} AND age = {50-59} THEN class = no-recurrence-events, (p=38, n=4, P=201, N=85)
+2025-03-04 14:20:01,501 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,507 - INFO - Iteracja 0: condition_best: age = {70-79}, quality_best: 0.316, coverage_best: (p=5, n=1, P=163, N=123), number_of_covered_negatives_best: 0, best_score: 0.346, precision: 0.833
+2025-03-04 14:20:01,507 - INFO - Regula po iteracji 0: IF age = {70-79} THEN class = no-recurrence-events, (p=5, n=1, P=163, N=123)
+2025-03-04 14:20:01,507 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,507 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,508 - INFO - Reference rule: IF age = {70-79} THEN class = no-recurrence-events
+2025-03-04 14:20:01,508 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,508 - INFO - Exception precision: 0
+2025-03-04 14:20:01,508 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,509 - INFO - Iteracja 3: condition_best: breast = {right}, quality_best: 0.455, coverage_best: (p=19, n=1, P=201, N=85), precision: 0.95
+2025-03-04 14:20:01,509 - INFO - Regula po iteracji 3: IF inv-nodes = {0-2} AND menopause = {ge40} AND age = {50-59} AND breast = {right} THEN class = no-recurrence-events, (p=19, n=1, P=201, N=85)
+2025-03-04 14:20:01,509 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,515 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.401, coverage_best: (p=25, n=3, P=182, N=104), number_of_covered_negatives_best: 0, best_score: 0.538, precision: 0.893
+2025-03-04 14:20:01,515 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=25, n=3, P=182, N=104)
+2025-03-04 14:20:01,515 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,515 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,515 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,515 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,516 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,516 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,516 - INFO - Iteracja 4: condition_best: breast-quad = {left_up}, quality_best: 0.515, coverage_best: (p=6, n=0, P=201, N=85), precision: 1.0
+2025-03-04 14:20:01,517 - INFO - Regula po iteracji 4: IF inv-nodes = {0-2} AND menopause = {ge40} AND age = {50-59} AND breast = {right} AND breast-quad = {left_up} THEN class = no-recurrence-events, (p=6, n=0, P=201, N=85)
+2025-03-04 14:20:01,517 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,519 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,521 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,521 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,523 - INFO - Iteracja 1: condition_best: menopause = {ge40}, quality_best: 0.323, coverage_best: (p=79, n=15, P=201, N=85), precision: 0.84
+2025-03-04 14:20:01,523 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND menopause = {ge40} THEN class = no-recurrence-events, (p=79, n=15, P=201, N=85)
+2025-03-04 14:20:01,523 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,531 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,531 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=122, n=164, P=122, N=164)
+2025-03-04 14:20:01,531 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,531 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,532 - INFO - Iteracja 2: condition_best: irradiat = {no}, quality_best: 0.376, coverage_best: (p=72, n=11, P=201, N=85), precision: 0.867
+2025-03-04 14:20:01,533 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND menopause = {ge40} AND irradiat = {no} THEN class = no-recurrence-events, (p=72, n=11, P=201, N=85)
+2025-03-04 14:20:01,533 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,540 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,540 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=129, n=157, P=129, N=157)
+2025-03-04 14:20:01,540 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,540 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,541 - INFO - Iteracja 3: condition_best: node-caps = {no}, quality_best: 0.371, coverage_best: (p=71, n=11, P=201, N=85), precision: 0.866
+2025-03-04 14:20:01,542 - INFO - Regula po iteracji 3: IF inv-nodes = {0-2} AND menopause = {ge40} AND irradiat = {no} AND node-caps = {no} THEN class = no-recurrence-events, (p=71, n=11, P=201, N=85)
+2025-03-04 14:20:01,542 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,549 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,549 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=130, n=156, P=130, N=156)
+2025-03-04 14:20:01,549 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,549 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,550 - INFO - Iteracja 4: condition_best: breast = {right}, quality_best: 0.209, coverage_best: (p=30, n=7, P=201, N=85), precision: 0.811
+2025-03-04 14:20:01,551 - INFO - Regula po iteracji 4: IF inv-nodes = {0-2} AND menopause = {ge40} AND irradiat = {no} AND node-caps = {no} AND breast = {right} THEN class = no-recurrence-events, (p=30, n=7, P=201, N=85)
+2025-03-04 14:20:01,551 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,558 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.368, coverage_best: (p=24, n=4, P=171, N=115), number_of_covered_negatives_best: 0, best_score: 0.508, precision: 0.857
+2025-03-04 14:20:01,558 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=24, n=4, P=171, N=115)
+2025-03-04 14:20:01,558 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,558 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,558 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,558 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,558 - INFO - Exception precision: 0.0
+2025-03-04 14:20:01,558 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,559 - INFO - Iteracja 5: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,560 - INFO - Regula po iteracji 5: IF inv-nodes = {0-2} AND menopause = {ge40} AND irradiat = {no} AND node-caps = {no} AND breast = {right} THEN class = no-recurrence-events, (p=30, n=7, P=201, N=85)
+2025-03-04 14:20:01,560 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,561 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,563 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,563 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,565 - INFO - Iteracja 1: condition_best: irradiat = {no}, quality_best: 0.293, coverage_best: (p=147, n=36, P=201, N=85), precision: 0.803
+2025-03-04 14:20:01,565 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND irradiat = {no} THEN class = no-recurrence-events, (p=147, n=36, P=201, N=85)
+2025-03-04 14:20:01,565 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,576 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,576 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=54, n=232, P=54, N=232)
+2025-03-04 14:20:01,576 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,576 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,577 - INFO - Iteracja 2: condition_best: node-caps = {no}, quality_best: 0.337, coverage_best: (p=145, n=32, P=201, N=85), precision: 0.819
+2025-03-04 14:20:01,578 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} THEN class = no-recurrence-events, (p=145, n=32, P=201, N=85)
+2025-03-04 14:20:01,578 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,588 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,588 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=56, n=230, P=56, N=230)
+2025-03-04 14:20:01,588 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,588 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,589 - INFO - Iteracja 3: condition_best: age = {50-59}, quality_best: 0.329, coverage_best: (p=54, n=9, P=201, N=85), precision: 0.857
+2025-03-04 14:20:01,590 - INFO - Regula po iteracji 3: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} AND age = {50-59} THEN class = no-recurrence-events, (p=54, n=9, P=201, N=85)
+2025-03-04 14:20:01,590 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,597 - INFO - Iteracja 0: condition_best: age = {70-79}, quality_best: 0.34, coverage_best: (p=5, n=1, P=147, N=139), number_of_covered_negatives_best: 0, best_score: 0.374, precision: 0.833
+2025-03-04 14:20:01,597 - INFO - Regula po iteracji 0: IF age = {70-79} THEN class = no-recurrence-events, (p=5, n=1, P=147, N=139)
+2025-03-04 14:20:01,597 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,597 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,597 - INFO - Reference rule: IF age = {70-79} THEN class = no-recurrence-events
+2025-03-04 14:20:01,597 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,598 - INFO - Exception precision: 0
+2025-03-04 14:20:01,598 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,599 - INFO - Iteracja 4: condition_best: breast-quad = {left_low}, quality_best: 0.399, coverage_best: (p=22, n=2, P=201, N=85), precision: 0.917
+2025-03-04 14:20:01,599 - INFO - Regula po iteracji 4: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} AND age = {50-59} AND breast-quad = {left_low} THEN class = no-recurrence-events, (p=22, n=2, P=201, N=85)
+2025-03-04 14:20:01,600 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,605 - INFO - Iteracja 0: condition_best: breast-quad = {central}, quality_best: 0.269, coverage_best: (p=17, n=4, P=179, N=107), number_of_covered_negatives_best: 0, best_score: 0.364, precision: 0.81
+2025-03-04 14:20:01,605 - INFO - Regula po iteracji 0: IF breast-quad = {central} THEN class = no-recurrence-events, (p=17, n=4, P=179, N=107)
+2025-03-04 14:20:01,605 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,605 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,606 - INFO - Reference rule: IF breast-quad = {central} THEN class = no-recurrence-events
+2025-03-04 14:20:01,606 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,606 - INFO - Exception precision: 0
+2025-03-04 14:20:01,606 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,607 - INFO - Iteracja 5: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,607 - INFO - Regula po iteracji 5: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} AND age = {50-59} AND breast-quad = {left_low} THEN class = no-recurrence-events, (p=22, n=2, P=201, N=85)
+2025-03-04 14:20:01,607 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,610 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,611 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,612 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,613 - INFO - Iteracja 1: condition_best: irradiat = {no}, quality_best: 0.293, coverage_best: (p=147, n=36, P=201, N=85), precision: 0.803
+2025-03-04 14:20:01,613 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND irradiat = {no} THEN class = no-recurrence-events, (p=147, n=36, P=201, N=85)
+2025-03-04 14:20:01,614 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,624 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,624 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=54, n=232, P=54, N=232)
+2025-03-04 14:20:01,624 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,624 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,626 - INFO - Iteracja 2: condition_best: node-caps = {no}, quality_best: 0.337, coverage_best: (p=145, n=32, P=201, N=85), precision: 0.819
+2025-03-04 14:20:01,626 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} THEN class = no-recurrence-events, (p=145, n=32, P=201, N=85)
+2025-03-04 14:20:01,626 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,636 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,636 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=56, n=230, P=56, N=230)
+2025-03-04 14:20:01,636 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,636 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,638 - INFO - Iteracja 3: condition_best: breast = {left}, quality_best: 0.292, coverage_best: (p=81, n=17, P=201, N=85), precision: 0.827
+2025-03-04 14:20:01,638 - INFO - Regula po iteracji 3: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} AND breast = {left} THEN class = no-recurrence-events, (p=81, n=17, P=201, N=85)
+2025-03-04 14:20:01,639 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,646 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,647 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=120, n=166, P=120, N=166)
+2025-03-04 14:20:01,647 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,647 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,648 - INFO - Iteracja 4: condition_best: breast-quad = {left_low}, quality_best: 0.329, coverage_best: (p=39, n=6, P=201, N=85), precision: 0.867
+2025-03-04 14:20:01,648 - INFO - Regula po iteracji 4: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} AND breast = {left} AND breast-quad = {left_low} THEN class = no-recurrence-events, (p=39, n=6, P=201, N=85)
+2025-03-04 14:20:01,649 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,655 - INFO - Iteracja 0: condition_best: breast-quad = {central}, quality_best: 0.31, coverage_best: (p=17, n=4, P=162, N=124), number_of_covered_negatives_best: 0, best_score: 0.415, precision: 0.81
+2025-03-04 14:20:01,655 - INFO - Regula po iteracji 0: IF breast-quad = {central} THEN class = no-recurrence-events, (p=17, n=4, P=162, N=124)
+2025-03-04 14:20:01,655 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,655 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,655 - INFO - Reference rule: IF breast-quad = {central} THEN class = no-recurrence-events
+2025-03-04 14:20:01,655 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,656 - INFO - Exception precision: 0
+2025-03-04 14:20:01,656 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,657 - INFO - Iteracja 5: condition_best: menopause = {premeno}, quality_best: 0.146, coverage_best: (p=18, n=5, P=201, N=85), precision: 0.783
+2025-03-04 14:20:01,657 - INFO - Regula po iteracji 5: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} AND breast = {left} AND breast-quad = {left_low} AND menopause = {premeno} THEN class = no-recurrence-events, (p=18, n=5, P=201, N=85)
+2025-03-04 14:20:01,658 - INFO - Iteracja 6: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,658 - INFO - Regula po iteracji 6: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} AND breast = {left} AND breast-quad = {left_low} AND menopause = {premeno} THEN class = no-recurrence-events, (p=18, n=5, P=201, N=85)
+2025-03-04 14:20:01,658 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,660 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,661 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,662 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,663 - INFO - Iteracja 1: condition_best: deg-malig = {2}, quality_best: 0.292, coverage_best: (p=81, n=17, P=201, N=85), precision: 0.827
+2025-03-04 14:20:01,663 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND deg-malig = {2} THEN class = no-recurrence-events, (p=81, n=17, P=201, N=85)
+2025-03-04 14:20:01,664 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,672 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.529, coverage_best: (p=59, n=12, P=120, N=166), number_of_covered_negatives_best: 0, best_score: 1.02, precision: 0.831
+2025-03-04 14:20:01,672 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=120, N=166)
+2025-03-04 14:20:01,672 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,672 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,672 - INFO - Reference rule: IF deg-malig = {1} THEN class = no-recurrence-events
+2025-03-04 14:20:01,672 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,672 - INFO - Exception precision: 0
+2025-03-04 14:20:01,672 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,673 - INFO - Iteracja 2: condition_best: breast-quad = {left_up}, quality_best: 0.321, coverage_best: (p=27, n=4, P=201, N=85), precision: 0.871
+2025-03-04 14:20:01,673 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND deg-malig = {2} AND breast-quad = {left_up} THEN class = no-recurrence-events, (p=27, n=4, P=201, N=85)
+2025-03-04 14:20:01,674 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,680 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.381, coverage_best: (p=59, n=12, P=174, N=112), number_of_covered_negatives_best: 0, best_score: 0.72, precision: 0.831
+2025-03-04 14:20:01,680 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=174, N=112)
+2025-03-04 14:20:01,680 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,680 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,680 - INFO - Reference rule: IF deg-malig = {1} THEN class = no-recurrence-events
+2025-03-04 14:20:01,680 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,680 - INFO - Exception precision: 0
+2025-03-04 14:20:01,680 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,681 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,682 - INFO - Regula po iteracji 3: IF inv-nodes = {0-2} AND deg-malig = {2} AND breast-quad = {left_up} THEN class = no-recurrence-events, (p=27, n=4, P=201, N=85)
+2025-03-04 14:20:01,682 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,683 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,685 - INFO - Iteracja 0: condition_best: inv-nodes = {0-2}, quality_best: 0.25, coverage_best: (p=167, n=46, P=201, N=85), precision: 0.784
+2025-03-04 14:20:01,685 - INFO - Regula po iteracji 0: IF inv-nodes = {0-2} THEN class = no-recurrence-events, (p=167, n=46, P=201, N=85)
+2025-03-04 14:20:01,686 - INFO - Iteracja 1: condition_best: node-caps = {no}, quality_best: 0.282, coverage_best: (p=160, n=41, P=201, N=85), precision: 0.796
+2025-03-04 14:20:01,687 - INFO - Regula po iteracji 1: IF inv-nodes = {0-2} AND node-caps = {no} THEN class = no-recurrence-events, (p=160, n=41, P=201, N=85)
+2025-03-04 14:20:01,688 - INFO - Iteracja 2: condition_best: menopause = {premeno}, quality_best: 0.094, coverage_best: (p=78, n=27, P=201, N=85), precision: 0.743
+2025-03-04 14:20:01,688 - INFO - Regula po iteracji 2: IF inv-nodes = {0-2} AND node-caps = {no} AND menopause = {premeno} THEN class = no-recurrence-events, (p=78, n=27, P=201, N=85)
+2025-03-04 14:20:01,689 - INFO - Iteracja 3: condition_best: irradiat = {yes}, quality_best: -0.181, coverage_best: (p=9, n=6, P=201, N=85), precision: 0.6
+2025-03-04 14:20:01,690 - INFO - Regula po iteracji 3: IF inv-nodes = {0-2} AND node-caps = {no} AND menopause = {premeno} AND irradiat = {yes} THEN class = no-recurrence-events, (p=9, n=6, P=201, N=85)
+2025-03-04 14:20:01,690 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,691 - INFO - Regula po iteracji 4: IF inv-nodes = {0-2} AND node-caps = {no} AND menopause = {premeno} AND irradiat = {yes} THEN class = no-recurrence-events, (p=9, n=6, P=201, N=85)
+2025-03-04 14:20:01,691 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,692 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,693 - INFO - Iteracja 0: condition_best: node-caps = {no}, quality_best: 0.21, coverage_best: (p=171, n=51, P=201, N=85), precision: 0.77
+2025-03-04 14:20:01,694 - INFO - Regula po iteracji 0: IF node-caps = {no} THEN class = no-recurrence-events, (p=171, n=51, P=201, N=85)
+2025-03-04 14:20:01,695 - INFO - Iteracja 1: condition_best: irradiat = {no}, quality_best: 0.296, coverage_best: (p=151, n=37, P=201, N=85), precision: 0.803
+2025-03-04 14:20:01,695 - INFO - Regula po iteracji 1: IF node-caps = {no} AND irradiat = {no} THEN class = no-recurrence-events, (p=151, n=37, P=201, N=85)
+2025-03-04 14:20:01,696 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,706 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:20:01,706 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=50, n=236, P=50, N=236)
+2025-03-04 14:20:01,707 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,707 - INFO - ***RR NOT FOUND***
+2025-03-04 14:20:01,708 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,708 - INFO - Regula po iteracji 2: IF node-caps = {no} AND irradiat = {no} THEN class = no-recurrence-events, (p=151, n=37, P=201, N=85)
+2025-03-04 14:20:01,708 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,709 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,711 - INFO - Iteracja 0: condition_best: node-caps = {no}, quality_best: 0.21, coverage_best: (p=171, n=51, P=201, N=85), precision: 0.77
+2025-03-04 14:20:01,711 - INFO - Regula po iteracji 0: IF node-caps = {no} THEN class = no-recurrence-events, (p=171, n=51, P=201, N=85)
+2025-03-04 14:20:01,713 - INFO - Iteracja 1: condition_best: breast = {right}, quality_best: 0.122, coverage_best: (p=80, n=26, P=201, N=85), precision: 0.755
+2025-03-04 14:20:01,713 - INFO - Regula po iteracji 1: IF node-caps = {no} AND breast = {right} THEN class = no-recurrence-events, (p=80, n=26, P=201, N=85)
+2025-03-04 14:20:01,714 - INFO - Iteracja 2: condition_best: irradiat = {yes}, quality_best: -0.183, coverage_best: (p=12, n=8, P=201, N=85), precision: 0.6
+2025-03-04 14:20:01,714 - INFO - Regula po iteracji 2: IF node-caps = {no} AND breast = {right} AND irradiat = {yes} THEN class = no-recurrence-events, (p=12, n=8, P=201, N=85)
+2025-03-04 14:20:01,715 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,715 - INFO - Regula po iteracji 3: IF node-caps = {no} AND breast = {right} AND irradiat = {yes} THEN class = no-recurrence-events, (p=12, n=8, P=201, N=85)
+2025-03-04 14:20:01,715 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,716 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,718 - INFO - Iteracja 0: condition_best: deg-malig = {2}, quality_best: 0.207, coverage_best: (p=102, n=28, P=201, N=85), precision: 0.785
+2025-03-04 14:20:01,718 - INFO - Regula po iteracji 0: IF deg-malig = {2} THEN class = no-recurrence-events, (p=102, n=28, P=201, N=85)
+2025-03-04 14:20:01,719 - INFO - Iteracja 1: condition_best: breast-quad = {left_up}, quality_best: 0.267, coverage_best: (p=36, n=7, P=201, N=85), precision: 0.837
+2025-03-04 14:20:01,719 - INFO - Regula po iteracji 1: IF deg-malig = {2} AND breast-quad = {left_up} THEN class = no-recurrence-events, (p=36, n=7, P=201, N=85)
+2025-03-04 14:20:01,719 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,726 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.408, coverage_best: (p=59, n=12, P=165, N=121), number_of_covered_negatives_best: 0, best_score: 0.765, precision: 0.831
+2025-03-04 14:20:01,726 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=165, N=121)
+2025-03-04 14:20:01,726 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,726 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,726 - INFO - Reference rule: IF deg-malig = {1} THEN class = no-recurrence-events
+2025-03-04 14:20:01,726 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,727 - INFO - Exception precision: 0
+2025-03-04 14:20:01,727 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,727 - INFO - Iteracja 2: condition_best: node-caps = {yes}, quality_best: 0.326, coverage_best: (p=8, n=1, P=201, N=85), precision: 0.889
+2025-03-04 14:20:01,728 - INFO - Regula po iteracji 2: IF deg-malig = {2} AND breast-quad = {left_up} AND node-caps = {yes} THEN class = no-recurrence-events, (p=8, n=1, P=201, N=85)
+2025-03-04 14:20:01,728 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,734 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.507, coverage_best: (p=27, n=1, P=193, N=93), number_of_covered_negatives_best: 0, best_score: 0.647, precision: 0.964
+2025-03-04 14:20:01,734 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=193, N=93)
+2025-03-04 14:20:01,734 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,734 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,734 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,734 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,734 - INFO - Exception precision: 0
+2025-03-04 14:20:01,734 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,735 - INFO - Iteracja 3: condition_best: breast = {right}, quality_best: 0.3, coverage_best: (p=7, n=1, P=201, N=85), precision: 0.875
+2025-03-04 14:20:01,735 - INFO - Regula po iteracji 3: IF deg-malig = {2} AND breast-quad = {left_up} AND node-caps = {yes} AND breast = {right} THEN class = no-recurrence-events, (p=7, n=1, P=201, N=85)
+2025-03-04 14:20:01,736 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,741 - INFO - Iteracja 0: condition_best: tumor-size = {10-14}, quality_best: 0.506, coverage_best: (p=27, n=1, P=194, N=92), number_of_covered_negatives_best: 0, best_score: 0.646, precision: 0.964
+2025-03-04 14:20:01,741 - INFO - Regula po iteracji 0: IF tumor-size = {10-14} THEN class = no-recurrence-events, (p=27, n=1, P=194, N=92)
+2025-03-04 14:20:01,741 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,742 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,742 - INFO - Reference rule: IF tumor-size = {10-14} THEN class = no-recurrence-events
+2025-03-04 14:20:01,742 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,742 - INFO - Exception precision: 0
+2025-03-04 14:20:01,742 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,743 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,743 - INFO - Regula po iteracji 4: IF deg-malig = {2} AND breast-quad = {left_up} AND node-caps = {yes} AND breast = {right} THEN class = no-recurrence-events, (p=7, n=1, P=201, N=85)
+2025-03-04 14:20:01,743 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,744 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,746 - INFO - Iteracja 0: condition_best: deg-malig = {2}, quality_best: 0.207, coverage_best: (p=102, n=28, P=201, N=85), precision: 0.785
+2025-03-04 14:20:01,746 - INFO - Regula po iteracji 0: IF deg-malig = {2} THEN class = no-recurrence-events, (p=102, n=28, P=201, N=85)
+2025-03-04 14:20:01,747 - INFO - Iteracja 1: condition_best: irradiat = {no}, quality_best: 0.242, coverage_best: (p=79, n=19, P=201, N=85), precision: 0.806
+2025-03-04 14:20:01,748 - INFO - Regula po iteracji 1: IF deg-malig = {2} AND irradiat = {no} THEN class = no-recurrence-events, (p=79, n=19, P=201, N=85)
+2025-03-04 14:20:01,748 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:20:01,756 - INFO - Iteracja 0: condition_best: deg-malig = {1}, quality_best: 0.523, coverage_best: (p=59, n=12, P=122, N=164), number_of_covered_negatives_best: 0, best_score: 1.007, precision: 0.831
+2025-03-04 14:20:01,756 - INFO - Regula po iteracji 0: IF deg-malig = {1} THEN class = no-recurrence-events, (p=59, n=12, P=122, N=164)
+2025-03-04 14:20:01,756 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:20:01,756 - INFO - ***RR FOUND***
+2025-03-04 14:20:01,756 - INFO - Reference rule: IF deg-malig = {1} THEN class = no-recurrence-events
+2025-03-04 14:20:01,756 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:20:01,757 - INFO - Exception precision: 0
+2025-03-04 14:20:01,757 - INFO - ***ER NOT FOUND***
+2025-03-04 14:20:01,758 - INFO - Iteracja 2: condition_best: node-caps = {yes}, quality_best: 0.083, coverage_best: (p=9, n=3, P=201, N=85), precision: 0.75
+2025-03-04 14:20:01,758 - INFO - Regula po iteracji 2: IF deg-malig = {2} AND irradiat = {no} AND node-caps = {yes} THEN class = no-recurrence-events, (p=9, n=3, P=201, N=85)
+2025-03-04 14:20:01,759 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,759 - INFO - Regula po iteracji 3: IF deg-malig = {2} AND irradiat = {no} AND node-caps = {yes} THEN class = no-recurrence-events, (p=9, n=3, P=201, N=85)
+2025-03-04 14:20:01,759 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,760 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,761 - INFO - Iteracja 0: condition_best: age = {50-59}, quality_best: 0.084, coverage_best: (p=71, n=25, P=201, N=85), precision: 0.74
+2025-03-04 14:20:01,762 - INFO - Regula po iteracji 0: IF age = {50-59} THEN class = no-recurrence-events, (p=71, n=25, P=201, N=85)
+2025-03-04 14:20:01,763 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,763 - INFO - Regula po iteracji 1: IF age = {50-59} THEN class = no-recurrence-events, (p=71, n=25, P=201, N=85)
+2025-03-04 14:20:01,763 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,763 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,765 - INFO - Iteracja 0: condition_best: age = {40-49}, quality_best: -0.006, coverage_best: (p=63, n=27, P=201, N=85), precision: 0.7
+2025-03-04 14:20:01,765 - INFO - Regula po iteracji 0: IF age = {40-49} THEN class = no-recurrence-events, (p=63, n=27, P=201, N=85)
+2025-03-04 14:20:01,766 - INFO - Iteracja 1: condition_best: menopause = {premeno}, quality_best: 0.029, coverage_best: (p=58, n=23, P=201, N=85), precision: 0.716
+2025-03-04 14:20:01,766 - INFO - Regula po iteracji 1: IF age = {40-49} AND menopause = {premeno} THEN class = no-recurrence-events, (p=58, n=23, P=201, N=85)
+2025-03-04 14:20:01,767 - INFO - Iteracja 2: condition_best: irradiat = {yes}, quality_best: 0.044, coverage_best: (p=16, n=6, P=201, N=85), precision: 0.727
+2025-03-04 14:20:01,768 - INFO - Regula po iteracji 2: IF age = {40-49} AND menopause = {premeno} AND irradiat = {yes} THEN class = no-recurrence-events, (p=16, n=6, P=201, N=85)
+2025-03-04 14:20:01,768 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,769 - INFO - Regula po iteracji 3: IF age = {40-49} AND menopause = {premeno} AND irradiat = {yes} THEN class = no-recurrence-events, (p=16, n=6, P=201, N=85)
+2025-03-04 14:20:01,769 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,770 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:20:01,772 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:20:01,772 - INFO - Regula po iteracji 0: IF  THEN class = no-recurrence-events, (p=201, n=85, P=201, N=85)
+2025-03-04 14:20:01,772 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:20:01,787 - INFO - ************************Finished experiment for breast-cancer.arff with algorithm3************************
+2025-03-04 14:20:01,787 - INFO - *************************************************************************************************************************
+2025-03-04 14:20:01,787 - INFO - *************************************************************************************************************************
+2025-03-04 14:20:01,787 - INFO - *************************************************************************************************************************

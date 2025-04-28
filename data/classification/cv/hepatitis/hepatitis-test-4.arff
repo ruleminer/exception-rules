@@ -1,0 +1,39 @@
+@relation R_data_frame
+
+@attribute AGE numeric
+@attribute SEX {male,female}
+@attribute STEROID {no,yes}
+@attribute ANTIVIRALS {no,yes}
+@attribute FATIGUE {no,yes}
+@attribute MALAISE {no,yes}
+@attribute ANOREXIA {no,yes}
+@attribute LIVER_BIG {no,yes}
+@attribute LIVER_FIRM {no,yes}
+@attribute SPLEEN_PALPABLE {no,yes}
+@attribute SPIDERS {no,yes}
+@attribute ASCITES {no,yes}
+@attribute VARICES {no,yes}
+@attribute BILIRUBIN numeric
+@attribute ALK_PHOSPHATE numeric
+@attribute SGOT numeric
+@attribute ALBUMIN numeric
+@attribute PROTIME numeric
+@attribute HISTOLOGY {no,yes}
+@attribute class {DIE,LIVE}
+
+@data
+30,male,no,no,no,no,no,no,no,no,no,no,no,1,85,18,4,?,no,LIVE
+47,female,no,yes,no,no,no,yes,no,no,no,no,no,?,?,60,?,?,no,LIVE
+66,female,yes,no,yes,no,no,yes,no,no,no,no,no,1.2,102,53,4.3,?,no,LIVE
+33,female,yes,no,no,no,no,yes,no,no,no,no,no,1,46,90,4.4,60,no,LIVE
+49,female,yes,no,yes,yes,no,yes,no,no,no,no,no,0.8,103,43,3.5,66,no,LIVE
+56,female,no,no,no,no,no,yes,no,no,no,no,no,0.7,62,33,3,?,no,LIVE
+34,male,no,yes,no,no,no,yes,yes,no,no,no,no,0.6,30,24,4,76,no,LIVE
+34,female,no,no,yes,no,no,no,yes,no,yes,no,no,1,72,46,4.4,57,no,LIVE
+67,male,no,no,yes,yes,no,yes,no,?,?,?,?,1.5,179,69,2.9,?,no,LIVE
+47,female,yes,no,yes,yes,no,yes,yes,no,no,yes,yes,1.7,86,20,2.1,46,yes,DIE
+35,female,no,no,yes,no,no,?,?,yes,yes,yes,no,1.5,138,58,2.6,?,yes,DIE
+45,female,no,no,yes,no,no,yes,yes,yes,no,no,no,1.2,81,65,3,?,no,LIVE
+56,female,no,no,yes,yes,yes,no,yes,no,yes,no,no,2.9,90,153,4,?,yes,DIE
+72,female,yes,yes,yes,no,no,yes,yes,no,no,no,no,1,115,52,3.4,50,yes,LIVE
+51,female,yes,no,yes,no,no,yes,yes,yes,yes,no,yes,1,?,20,3,63,yes,LIVE

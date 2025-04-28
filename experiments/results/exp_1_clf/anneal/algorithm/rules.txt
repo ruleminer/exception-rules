@@ -1,0 +1,66 @@
+
+CR: IF surface-quality = {E} AND condition = {S} THEN class = 3 (p=277, n=0, P=684, N=214)
+
+CR: IF surface-quality = {E} AND hardness <= 77.50 THEN class = 3 (p=297, n=2, P=684, N=214)
+RR_0: IF carbon >= 3.50 THEN class = 3 (p=74, n=2, P=684, N=214)
+ER_0, type None: IF surface-quality = {E} AND hardness <= 77.50 AND carbon >= 3.50 THEN class = U (p=2, n=0, P=40, N=858)
+
+CR: IF surface-quality = {F} THEN class = 3 (p=60, n=0, P=684, N=214)
+
+CR: IF carbon >= 27.50 THEN class = 3 (p=56, n=0, P=684, N=214)
+
+CR: IF surface-quality = {D} THEN class = 3 (p=55, n=0, P=684, N=214)
+
+CR: IF oil = {N} THEN class = 3 (p=22, n=0, P=684, N=214)
+
+CR: IF steel = {W} THEN class = 3 (p=19, n=0, P=684, N=214)
+
+CR: IF enamelability = {1} THEN class = 3 (p=6, n=0, P=684, N=214)
+
+CR: IF carbon >= 3.50 THEN class = 3 (p=74, n=2, P=684, N=214)
+RR_0: IF surface-quality = {E} THEN class = 3 (p=297, n=13, P=684, N=214)
+ER_0, type None: IF carbon >= 3.50 AND surface-quality = {E} THEN class = U (p=2, n=0, P=40, N=858)
+
+CR: IF bf = {Y} AND carbon <= 0.00 AND steel = {A} THEN class = 3 (p=79, n=0, P=684, N=214)
+
+CR: IF thick <= 0.31 AND hardness <= 67.50 THEN class = 3 (p=56, n=0, P=684, N=214)
+
+CR: IF thick <= 0.80 AND condition = {S} THEN class = 3 (p=306, n=0, P=684, N=214)
+
+CR: IF thick <= 0.80 AND family = {?} AND hardness <= 82.50 THEN class = 3 (p=350, n=1, P=684, N=214)
+
+CR: IF lustre = {Y} AND hardness <= 77.50 THEN class = 3 (p=48, n=0, P=684, N=214)
+
+CR: IF cbond = {Y} AND hardness <= 82.50 THEN class = 3 (p=69, n=0, P=684, N=214)
+
+CR: IF condition = {S} AND steel = {A} AND family = {?} THEN class = 3 (p=256, n=0, P=684, N=214)
+
+CR: IF formability = {2} AND surface-quality = {G} THEN class = 3 (p=54, n=0, P=684, N=214)
+
+CR: IF thick >= 2.10 AND hardness <= 77.50 AND width >= 600.05 THEN class = 3 (p=88, n=0, P=684, N=214)
+
+CR: IF thick >= 2.10 AND hardness <= 77.50 AND carbon <= 9.00 THEN class = 3 (p=80, n=0, P=684, N=214)
+
+CR: IF family = {?} AND steel = {A} AND carbon <= 0.00 AND hardness <= 75.00 THEN class = 3 (p=303, n=0, P=684, N=214)
+
+CR: IF family = {?} AND thick <= 1.55 AND strength <= 375.00 AND enamelability = {?} AND width <= 1,410.05 AND hardness <= 75.00 THEN class = 3 (p=454, n=31, P=684, N=214)
+
+CR: IF family = {?} AND hardness <= 75.00 AND len <= 0.00 AND strength <= 550.00 AND enamelability = {?} AND width >= 113.50 THEN class = 3 (p=267, n=12, P=684, N=214)
+RR_0: IF surface-quality = {E} THEN class = 3 (p=297, n=13, P=684, N=214)
+ER_0, type None: IF family = {?} AND hardness <= 75.00 AND len <= 0.00 AND strength <= 550.00 AND enamelability = {?} AND width >= 113.50 AND product-type = {C} AND surface-finish = {?} AND m = {?} AND chrom = {?} AND phos = {?} AND marvi = {?} AND exptl = {?} AND ferro = {?} AND corr = {?} AND jurofm = {?} AND s = {?} AND p = {?} AND carbon >= 0.00 AND hardness >= 0.00 AND strength >= 0.00 AND len >= 0.00 AND bc = {?} AND bf = {?} AND shape = {COIL} AND width >= 600.05 AND bl = {?} AND blue/bright/varn/clean = {?} AND formability = {?} AND packing = {?} AND non-ageing = {?} AND width <= 1,320.00 AND cbond = {?} AND surface-quality = {E} THEN class = U (p=1, n=0, P=40, N=858)
+
+CR: IF hardness >= 80.00 AND width >= 39.50 THEN class = U (p=36, n=0, P=40, N=858)
+
+CR: IF steel = {S} AND carbon <= 35.00 THEN class = 1 (p=5, n=0, P=8, N=890)
+
+CR: IF family = {TN} THEN class = 5 (p=67, n=0, P=67, N=831)
+
+CR: IF enamelability = {2} THEN class = 2 (p=10, n=0, P=99, N=799)
+
+CR: IF surface-finish = {P} THEN class = 2 (p=9, n=0, P=99, N=799)
+
+CR: IF width >= 1,410.05 AND surface-quality = {?} THEN class = 2 (p=14, n=0, P=99, N=799)
+
+CR: IF strength >= 450.00 AND steel = {M} THEN class = 2 (p=11, n=0, P=99, N=799)
+
+CR: IF surface-quality = {?} AND condition = {S} AND steel = {R} THEN class = 2 (p=70, n=0, P=99, N=799)

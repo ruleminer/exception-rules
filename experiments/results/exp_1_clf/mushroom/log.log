@@ -1,0 +1,96 @@
+2025-03-04 14:57:51,200 - INFO - **********Starting experiment for mushroom.arff with algorithm3**********
+2025-03-04 14:57:51,408 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:51,605 - INFO - Iteracja 0: condition_best: odor = {f}, quality_best: 0.776, coverage_best: (p=2160, n=0, P=3916, N=4208), precision: 1.0
+2025-03-04 14:57:51,607 - INFO - Regula po iteracji 0: IF odor = {f} THEN class = p, (p=2160, n=0, P=3916, N=4208)
+2025-03-04 14:57:51,607 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:51,624 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:51,699 - INFO - Iteracja 0: condition_best: gill-color = {b}, quality_best: 0.721, coverage_best: (p=1728, n=0, P=3916, N=4208), precision: 1.0
+2025-03-04 14:57:51,701 - INFO - Regula po iteracji 0: IF gill-color = {b} THEN class = p, (p=1728, n=0, P=3916, N=4208)
+2025-03-04 14:57:51,701 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:51,709 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:51,783 - INFO - Iteracja 0: condition_best: stalk-surface-above-ring = {k}, quality_best: 0.693, coverage_best: (p=2228, n=144, P=3916, N=4208), precision: 0.939
+2025-03-04 14:57:51,784 - INFO - Regula po iteracji 0: IF stalk-surface-above-ring = {k} THEN class = p, (p=2228, n=144, P=3916, N=4208)
+2025-03-04 14:57:51,787 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:57:51,949 - INFO - Iteracja 0: condition_best: odor = {p}, quality_best: 0.576, coverage_best: (p=256, n=0, P=1688, N=6436), number_of_covered_negatives_best: 0, best_score: 0.727, precision: 1.0
+2025-03-04 14:57:51,950 - INFO - Regula po iteracji 0: IF odor = {p} THEN class = p, (p=256, n=0, P=1688, N=6436)
+2025-03-04 14:57:51,950 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:57:51,950 - INFO - ***RR FOUND***
+2025-03-04 14:57:51,950 - INFO - Reference rule: IF odor = {p} THEN class = p
+2025-03-04 14:57:51,950 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:57:51,953 - INFO - Exception precision: 0
+2025-03-04 14:57:51,953 - INFO - ***ER NOT FOUND***
+2025-03-04 14:57:51,976 - INFO - Iteracja 1: condition_best: gill-spacing = {c}, quality_best: 0.784, coverage_best: (p=2228, n=0, P=3916, N=4208), precision: 1.0
+2025-03-04 14:57:51,979 - INFO - Regula po iteracji 1: IF stalk-surface-above-ring = {k} AND gill-spacing = {c} THEN class = p, (p=2228, n=0, P=3916, N=4208)
+2025-03-04 14:57:51,979 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:51,989 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:52,063 - INFO - Iteracja 0: condition_best: gill-size = {n}, quality_best: 0.61, coverage_best: (p=2224, n=288, P=3916, N=4208), precision: 0.885
+2025-03-04 14:57:52,065 - INFO - Regula po iteracji 0: IF gill-size = {n} THEN class = p, (p=2224, n=288, P=3916, N=4208)
+2025-03-04 14:57:52,067 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:57:52,287 - INFO - Iteracja 0: condition_best: spore-print-color = {h}, quality_best: 0.932, coverage_best: (p=1584, n=48, P=1692, N=6432), number_of_covered_negatives_best: 48, best_score: 2.035, precision: 0.971
+2025-03-04 14:57:52,289 - INFO - Regula po iteracji 0: IF spore-print-color = {h} THEN class = p, (p=1584, n=48, P=1692, N=6432)
+2025-03-04 14:57:52,289 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:57:52,289 - INFO - ***RR FOUND***
+2025-03-04 14:57:52,289 - INFO - Reference rule: IF spore-print-color = {h} THEN class = p
+2025-03-04 14:57:52,289 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:57:52,292 - INFO - Exception precision: 1.0
+2025-03-04 14:57:52,305 - INFO - ***ER FOUND***
+2025-03-04 14:57:52,305 - INFO - Exception rule: IF gill-size = {n} AND spore-print-color = {h} THEN class = e (p=48, n=0, P=4208, N=3916)
+2025-03-04 14:57:52,305 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:52,308 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:52,384 - INFO - Iteracja 0: condition_best: spore-print-color = {r}, quality_best: 0.509, coverage_best: (p=72, n=0, P=3916, N=4208), precision: 1.0
+2025-03-04 14:57:52,386 - INFO - Regula po iteracji 0: IF spore-print-color = {r} THEN class = p, (p=72, n=0, P=3916, N=4208)
+2025-03-04 14:57:52,386 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:52,387 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:52,464 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:57:52,465 - INFO - Regula po iteracji 0: IF  THEN class = p, (p=3916, n=4208, P=3916, N=4208)
+2025-03-04 14:57:52,465 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:52,465 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:52,545 - INFO - Iteracja 0: condition_best: odor = {n}, quality_best: 0.841, coverage_best: (p=3408, n=120, P=4208, N=3916), precision: 0.966
+2025-03-04 14:57:52,547 - INFO - Regula po iteracji 0: IF odor = {n} THEN class = e, (p=3408, n=120, P=4208, N=3916)
+2025-03-04 14:57:52,549 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:57:52,698 - INFO - Iteracja 0: condition_best: stalk-root = {c}, quality_best: 0.748, coverage_best: (p=512, n=44, P=800, N=7324), number_of_covered_negatives_best: 8, best_score: 1.455, precision: 0.921
+2025-03-04 14:57:52,700 - INFO - Regula po iteracji 0: IF stalk-root = {c} THEN class = e, (p=512, n=44, P=800, N=7324)
+2025-03-04 14:57:52,700 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:57:52,700 - INFO - ***RR FOUND***
+2025-03-04 14:57:52,700 - INFO - Reference rule: IF stalk-root = {c} THEN class = e
+2025-03-04 14:57:52,700 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:57:52,703 - INFO - Exception precision: 1.0
+2025-03-04 14:57:52,716 - INFO - ***ER FOUND***
+2025-03-04 14:57:52,716 - INFO - Exception rule: IF odor = {n} AND stalk-root = {c} THEN class = p (p=8, n=0, P=3916, N=4208)
+2025-03-04 14:57:52,716 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:52,735 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:52,809 - INFO - Iteracja 0: condition_best: odor = {a}, quality_best: 0.548, coverage_best: (p=400, n=0, P=4208, N=3916), precision: 1.0
+2025-03-04 14:57:52,811 - INFO - Regula po iteracji 0: IF odor = {a} THEN class = e, (p=400, n=0, P=4208, N=3916)
+2025-03-04 14:57:52,811 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:52,815 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:52,891 - INFO - Iteracja 0: condition_best: odor = {l}, quality_best: 0.548, coverage_best: (p=400, n=0, P=4208, N=3916), precision: 1.0
+2025-03-04 14:57:52,892 - INFO - Regula po iteracji 0: IF odor = {l} THEN class = e, (p=400, n=0, P=4208, N=3916)
+2025-03-04 14:57:52,892 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:52,895 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:57:52,970 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:57:52,970 - INFO - Regula po iteracji 0: IF  THEN class = e, (p=4208, n=3916, P=4208, N=3916)
+2025-03-04 14:57:52,970 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:57:53,005 - INFO - ******
+2025-03-04 14:57:53,005 - INFO - CR rule: IF gill-size = {n} THEN class = p (p=2224, n=288, P=3916, N=4208)
+2025-03-04 14:57:53,005 - INFO - RR rule: IF spore-print-color = {h} THEN class = p (p=1584, n=48, P=3916, N=4208)
+2025-03-04 14:57:53,005 - INFO - er rule: IF gill-size = {n} AND spore-print-color = {h} THEN class = e (p=48, n=0, P=4208, N=3916)
+2025-03-04 14:57:53,005 - INFO - RR precision: 0.9705882352941176, RR coverage: 0.4044943820224719
+2025-03-04 14:57:53,005 - INFO - p: AVG precision: 0.9770700636942674, AVG coverage: 0.42962206332992847, AVG domain precision: 0.4950415063333615
+2025-03-04 14:57:53,005 - INFO - ER precision: 1.0, ER coverage: 0.011406844106463879, ER domain precision: 0.482028557360906
+2025-03-04 14:57:53,005 - INFO - e: AVG precision: 0.9886621315192743, AVG coverage: 0.3333333333333333, AVG domain precision: 0.47069068888018034
+2025-03-04 14:57:53,005 - INFO - er rule type: 2
+2025-03-04 14:57:53,005 - INFO - ******
+2025-03-04 14:57:53,010 - INFO - ******
+2025-03-04 14:57:53,010 - INFO - CR rule: IF odor = {n} THEN class = e (p=3408, n=120, P=4208, N=3916)
+2025-03-04 14:57:53,010 - INFO - RR rule: IF stalk-root = {c} THEN class = e (p=512, n=44, P=4208, N=3916)
+2025-03-04 14:57:53,010 - INFO - er rule: IF odor = {n} AND stalk-root = {c} THEN class = p (p=8, n=0, P=3916, N=4208)
+2025-03-04 14:57:53,010 - INFO - RR precision: 0.920863309352518, RR coverage: 0.12167300380228137
+2025-03-04 14:57:53,010 - INFO - e: AVG precision: 0.9886621315192743, AVG coverage: 0.3333333333333333, AVG domain precision: 0.47069068888018034
+2025-03-04 14:57:53,010 - INFO - ER precision: 1.0, ER coverage: 0.0020429009193054137, ER domain precision: 0.517971442639094
+2025-03-04 14:57:53,010 - INFO - p: AVG precision: 0.9770700636942674, AVG coverage: 0.42962206332992847, AVG domain precision: 0.4950415063333615
+2025-03-04 14:57:53,010 - INFO - er rule type: 2
+2025-03-04 14:57:53,010 - INFO - ******
+2025-03-04 14:57:53,014 - INFO - ************************Finished experiment for mushroom.arff with algorithm3************************
+2025-03-04 14:57:53,014 - INFO - *************************************************************************************************************************
+2025-03-04 14:57:53,014 - INFO - *************************************************************************************************************************
+2025-03-04 14:57:53,014 - INFO - *************************************************************************************************************************

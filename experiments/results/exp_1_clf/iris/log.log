@@ -1,0 +1,216 @@
+2025-03-04 14:52:44,021 - INFO - **********Starting experiment for iris.arff with algorithm3**********
+2025-03-04 14:52:44,025 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,030 - INFO - Iteracja 0: condition_best: petallength <= 2.45, quality_best: 1.0, coverage_best: (p=50, n=0, P=50, N=100), precision: 1.0
+2025-03-04 14:52:44,030 - INFO - Regula po iteracji 0: IF petallength <= 2.45 THEN class = Iris-setosa, (p=50, n=0, P=50, N=100)
+2025-03-04 14:52:44,030 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,031 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,033 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:52:44,034 - INFO - Regula po iteracji 0: IF  THEN class = Iris-setosa, (p=50, n=100, P=50, N=100)
+2025-03-04 14:52:44,034 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,034 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,037 - INFO - Iteracja 0: condition_best: sepalwidth <= 2.30, quality_best: 0.35, coverage_best: (p=6, n=2, P=50, N=100), precision: 0.75
+2025-03-04 14:52:44,037 - INFO - Regula po iteracji 0: IF sepalwidth <= 2.30 THEN class = Iris-versicolor, (p=6, n=2, P=50, N=100)
+2025-03-04 14:52:44,038 - INFO - Iteracja 1: condition_best: sepallength >= 4.75, quality_best: 0.44, coverage_best: (p=6, n=1, P=50, N=100), precision: 0.857
+2025-03-04 14:52:44,038 - INFO - Regula po iteracji 1: IF sepalwidth <= 2.30 AND sepallength >= 4.75 THEN class = Iris-versicolor, (p=6, n=1, P=50, N=100)
+2025-03-04 14:52:44,038 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,056 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,056 - INFO - Regula po iteracji 0: IF  THEN class = Iris-versicolor, (p=44, n=106, P=44, N=106)
+2025-03-04 14:52:44,056 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,056 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,056 - INFO - Iteracja 2: condition_best: petallength <= 4.75, quality_best: 0.56, coverage_best: (p=6, n=0, P=50, N=100), precision: 1.0
+2025-03-04 14:52:44,057 - INFO - Regula po iteracji 2: IF sepalwidth <= 2.30 AND sepallength >= 4.75 AND petallength <= 4.75 THEN class = Iris-versicolor, (p=6, n=0, P=50, N=100)
+2025-03-04 14:52:44,057 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,058 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,061 - INFO - Iteracja 0: condition_best: sepalwidth <= 2.90, quality_best: 0.332, coverage_best: (p=34, n=23, P=50, N=100), precision: 0.596
+2025-03-04 14:52:44,061 - INFO - Regula po iteracji 0: IF sepalwidth <= 2.90 THEN class = Iris-versicolor, (p=34, n=23, P=50, N=100)
+2025-03-04 14:52:44,063 - INFO - Iteracja 1: condition_best: petallength <= 4.80, quality_best: 0.683, coverage_best: (p=32, n=4, P=50, N=100), precision: 0.889
+2025-03-04 14:52:44,064 - INFO - Regula po iteracji 1: IF sepalwidth <= 2.90 AND petallength <= 4.80 THEN class = Iris-versicolor, (p=32, n=4, P=50, N=100)
+2025-03-04 14:52:44,064 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,085 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,085 - INFO - Regula po iteracji 0: IF  THEN class = Iris-versicolor, (p=18, n=132, P=18, N=132)
+2025-03-04 14:52:44,085 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,085 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,086 - INFO - Iteracja 2: condition_best: sepallength >= 4.70, quality_best: 0.748, coverage_best: (p=32, n=2, P=50, N=100), precision: 0.941
+2025-03-04 14:52:44,086 - INFO - Regula po iteracji 2: IF sepalwidth <= 2.90 AND petallength <= 4.80 AND sepallength >= 4.70 THEN class = Iris-versicolor, (p=32, n=2, P=50, N=100)
+2025-03-04 14:52:44,086 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,105 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,105 - INFO - Regula po iteracji 0: IF  THEN class = Iris-versicolor, (p=18, n=132, P=18, N=132)
+2025-03-04 14:52:44,105 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,105 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,106 - INFO - Iteracja 3: condition_best: petalwidth <= 1.60, quality_best: 0.82, coverage_best: (p=32, n=0, P=50, N=100), precision: 1.0
+2025-03-04 14:52:44,106 - INFO - Regula po iteracji 3: IF sepalwidth <= 2.90 AND petallength <= 4.80 AND sepallength >= 4.70 AND petalwidth <= 1.60 THEN class = Iris-versicolor, (p=32, n=0, P=50, N=100)
+2025-03-04 14:52:44,106 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,107 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,111 - INFO - Iteracja 0: condition_best: petallength >= 2.45, quality_best: 0.25, coverage_best: (p=50, n=50, P=50, N=100), precision: 0.5
+2025-03-04 14:52:44,111 - INFO - Regula po iteracji 0: IF petallength >= 2.45 THEN class = Iris-versicolor, (p=50, n=50, P=50, N=100)
+2025-03-04 14:52:44,114 - INFO - Iteracja 1: condition_best: petallength <= 4.75, quality_best: 0.909, coverage_best: (p=44, n=1, P=50, N=100), precision: 0.978
+2025-03-04 14:52:44,114 - INFO - Regula po iteracji 1: IF petallength >= 2.45 AND petallength <= 4.75 THEN class = Iris-versicolor, (p=44, n=1, P=50, N=100)
+2025-03-04 14:52:44,114 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,129 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,129 - INFO - Regula po iteracji 0: IF  THEN class = Iris-versicolor, (p=6, n=144, P=6, N=144)
+2025-03-04 14:52:44,129 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,129 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,130 - INFO - Iteracja 2: condition_best: petalwidth <= 1.65, quality_best: 0.94, coverage_best: (p=44, n=0, P=50, N=100), precision: 1.0
+2025-03-04 14:52:44,130 - INFO - Regula po iteracji 2: IF petallength >= 2.45 AND petallength <= 4.75 AND petalwidth <= 1.65 THEN class = Iris-versicolor, (p=44, n=0, P=50, N=100)
+2025-03-04 14:52:44,130 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,130 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,134 - INFO - Iteracja 0: condition_best: petallength >= 2.45, quality_best: 0.25, coverage_best: (p=50, n=50, P=50, N=100), precision: 0.5
+2025-03-04 14:52:44,134 - INFO - Regula po iteracji 0: IF petallength >= 2.45 THEN class = Iris-versicolor, (p=50, n=50, P=50, N=100)
+2025-03-04 14:52:44,136 - INFO - Iteracja 1: condition_best: petallength <= 5.10, quality_best: 0.636, coverage_best: (p=50, n=16, P=50, N=100), precision: 0.758
+2025-03-04 14:52:44,137 - INFO - Regula po iteracji 1: IF petallength >= 2.45 AND petallength <= 5.10 THEN class = Iris-versicolor, (p=50, n=16, P=50, N=100)
+2025-03-04 14:52:44,139 - INFO - Iteracja 2: condition_best: petalwidth <= 1.80, quality_best: 0.793, coverage_best: (p=50, n=8, P=50, N=100), precision: 0.862
+2025-03-04 14:52:44,139 - INFO - Regula po iteracji 2: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 THEN class = Iris-versicolor, (p=50, n=8, P=50, N=100)
+2025-03-04 14:52:44,139 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,156 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,156 - INFO - Regula po iteracji 0: IF  THEN class = Iris-versicolor, (p=0, n=150, P=0, N=150)
+2025-03-04 14:52:44,156 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,156 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,158 - INFO - Iteracja 3: condition_best: sepallength >= 4.90, quality_best: 0.793, coverage_best: (p=50, n=8, P=50, N=100), precision: 0.862
+2025-03-04 14:52:44,158 - INFO - Regula po iteracji 3: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 AND sepallength >= 4.90 THEN class = Iris-versicolor, (p=50, n=8, P=50, N=100)
+2025-03-04 14:52:44,158 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,176 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,176 - INFO - Regula po iteracji 0: IF  THEN class = Iris-versicolor, (p=0, n=150, P=0, N=150)
+2025-03-04 14:52:44,176 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,176 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,178 - INFO - Iteracja 4: condition_best: sepalwidth >= 2.20, quality_best: 0.782, coverage_best: (p=49, n=8, P=50, N=100), precision: 0.86
+2025-03-04 14:52:44,178 - INFO - Regula po iteracji 4: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 AND sepallength >= 4.90 AND sepalwidth >= 2.20 THEN class = Iris-versicolor, (p=49, n=8, P=50, N=100)
+2025-03-04 14:52:44,178 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,197 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,197 - INFO - Regula po iteracji 0: IF  THEN class = Iris-versicolor, (p=1, n=149, P=1, N=149)
+2025-03-04 14:52:44,197 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,197 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,199 - INFO - Iteracja 5: condition_best: sepalwidth >= 2.25, quality_best: 0.781, coverage_best: (p=47, n=7, P=50, N=100), precision: 0.87
+2025-03-04 14:52:44,199 - INFO - Regula po iteracji 5: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 AND sepallength >= 4.90 AND sepalwidth >= 2.20 AND sepalwidth >= 2.25 THEN class = Iris-versicolor, (p=47, n=7, P=50, N=100)
+2025-03-04 14:52:44,199 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,218 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,218 - INFO - Regula po iteracji 0: IF  THEN class = Iris-versicolor, (p=3, n=147, P=3, N=147)
+2025-03-04 14:52:44,218 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,218 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,220 - INFO - Iteracja 6: condition_best: sepalwidth >= 2.50, quality_best: 0.711, coverage_best: (p=41, n=7, P=50, N=100), precision: 0.854
+2025-03-04 14:52:44,220 - INFO - Regula po iteracji 6: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 AND sepallength >= 4.90 AND sepalwidth >= 2.20 AND sepalwidth >= 2.25 AND sepalwidth >= 2.50 THEN class = Iris-versicolor, (p=41, n=7, P=50, N=100)
+2025-03-04 14:52:44,220 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,241 - INFO - Iteracja 0: condition_best: sepalwidth <= 2.45, quality_best: 0.807, coverage_best: (p=9, n=2, P=9, N=141), number_of_covered_negatives_best: 0, best_score: 1.807, precision: 0.818
+2025-03-04 14:52:44,241 - INFO - Regula po iteracji 0: IF sepalwidth <= 2.45 THEN class = Iris-versicolor, (p=9, n=2, P=9, N=141)
+2025-03-04 14:52:44,241 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,241 - INFO - ***RR FOUND***
+2025-03-04 14:52:44,241 - INFO - Reference rule: IF sepalwidth <= 2.45 THEN class = Iris-versicolor
+2025-03-04 14:52:44,241 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:52:44,241 - INFO - Exception precision: 0
+2025-03-04 14:52:44,241 - INFO - ***ER NOT FOUND***
+2025-03-04 14:52:44,243 - INFO - Iteracja 7: condition_best: sepallength >= 5.00, quality_best: 0.736, coverage_best: (p=41, n=6, P=50, N=100), precision: 0.872
+2025-03-04 14:52:44,243 - INFO - Regula po iteracji 7: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 AND sepallength >= 4.90 AND sepalwidth >= 2.20 AND sepalwidth >= 2.25 AND sepalwidth >= 2.50 AND sepallength >= 5.00 THEN class = Iris-versicolor, (p=41, n=6, P=50, N=100)
+2025-03-04 14:52:44,243 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,263 - INFO - Iteracja 0: condition_best: sepalwidth <= 2.45, quality_best: 0.807, coverage_best: (p=9, n=2, P=9, N=141), number_of_covered_negatives_best: 0, best_score: 1.807, precision: 0.818
+2025-03-04 14:52:44,263 - INFO - Regula po iteracji 0: IF sepalwidth <= 2.45 THEN class = Iris-versicolor, (p=9, n=2, P=9, N=141)
+2025-03-04 14:52:44,263 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,263 - INFO - ***RR FOUND***
+2025-03-04 14:52:44,263 - INFO - Reference rule: IF sepalwidth <= 2.45 THEN class = Iris-versicolor
+2025-03-04 14:52:44,263 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:52:44,264 - INFO - Exception precision: 0
+2025-03-04 14:52:44,264 - INFO - ***ER NOT FOUND***
+2025-03-04 14:52:44,265 - INFO - Iteracja 8: condition_best: sepallength >= 5.90, quality_best: 0.503, coverage_best: (p=23, n=6, P=50, N=100), precision: 0.793
+2025-03-04 14:52:44,265 - INFO - Regula po iteracji 8: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 AND sepallength >= 4.90 AND sepalwidth >= 2.20 AND sepalwidth >= 2.25 AND sepalwidth >= 2.50 AND sepallength >= 5.00 AND sepallength >= 5.90 THEN class = Iris-versicolor, (p=23, n=6, P=50, N=100)
+2025-03-04 14:52:44,267 - INFO - Iteracja 9: condition_best: petalwidth >= 1.50, quality_best: 0.31, coverage_best: (p=12, n=6, P=50, N=100), precision: 0.667
+2025-03-04 14:52:44,267 - INFO - Regula po iteracji 9: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 AND sepallength >= 4.90 AND sepalwidth >= 2.20 AND sepalwidth >= 2.25 AND sepalwidth >= 2.50 AND sepallength >= 5.00 AND sepallength >= 5.90 AND petalwidth >= 1.50 THEN class = Iris-versicolor, (p=12, n=6, P=50, N=100)
+2025-03-04 14:52:44,268 - INFO - Iteracja 10: condition_best: petallength >= 4.80, quality_best: 0.1, coverage_best: (p=5, n=6, P=50, N=100), precision: 0.455
+2025-03-04 14:52:44,268 - INFO - Regula po iteracji 10: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 AND sepallength >= 4.90 AND sepalwidth >= 2.20 AND sepalwidth >= 2.25 AND sepalwidth >= 2.50 AND sepallength >= 5.00 AND sepallength >= 5.90 AND petalwidth >= 1.50 AND petallength >= 4.80 THEN class = Iris-versicolor, (p=5, n=6, P=50, N=100)
+2025-03-04 14:52:44,269 - INFO - Iteracja 11: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:52:44,270 - INFO - Regula po iteracji 11: IF petallength >= 2.45 AND petallength <= 5.10 AND petalwidth <= 1.80 AND sepallength >= 4.90 AND sepalwidth >= 2.20 AND sepalwidth >= 2.25 AND sepalwidth >= 2.50 AND sepallength >= 5.00 AND sepallength >= 5.90 AND petalwidth >= 1.50 AND petallength >= 4.80 THEN class = Iris-versicolor, (p=5, n=6, P=50, N=100)
+2025-03-04 14:52:44,270 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,270 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,273 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:52:44,273 - INFO - Regula po iteracji 0: IF  THEN class = Iris-versicolor, (p=50, n=100, P=50, N=100)
+2025-03-04 14:52:44,273 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,274 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,277 - INFO - Iteracja 0: condition_best: petalwidth >= 1.75, quality_best: 0.919, coverage_best: (p=45, n=1, P=50, N=100), precision: 0.978
+2025-03-04 14:52:44,277 - INFO - Regula po iteracji 0: IF petalwidth >= 1.75 THEN class = Iris-virginica, (p=45, n=1, P=50, N=100)
+2025-03-04 14:52:44,277 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,292 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,292 - INFO - Regula po iteracji 0: IF  THEN class = Iris-virginica, (p=5, n=145, P=5, N=145)
+2025-03-04 14:52:44,292 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,293 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,293 - INFO - Iteracja 1: condition_best: petallength >= 4.80, quality_best: 0.919, coverage_best: (p=45, n=1, P=50, N=100), precision: 0.978
+2025-03-04 14:52:44,293 - INFO - Regula po iteracji 1: IF petalwidth >= 1.75 AND petallength >= 4.80 THEN class = Iris-virginica, (p=45, n=1, P=50, N=100)
+2025-03-04 14:52:44,293 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,309 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,309 - INFO - Regula po iteracji 0: IF  THEN class = Iris-virginica, (p=5, n=145, P=5, N=145)
+2025-03-04 14:52:44,309 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,309 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,309 - INFO - Iteracja 2: condition_best: petalwidth >= 1.80, quality_best: 0.919, coverage_best: (p=45, n=1, P=50, N=100), precision: 0.978
+2025-03-04 14:52:44,309 - INFO - Regula po iteracji 2: IF petalwidth >= 1.75 AND petallength >= 4.80 AND petalwidth >= 1.80 THEN class = Iris-virginica, (p=45, n=1, P=50, N=100)
+2025-03-04 14:52:44,310 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,325 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,325 - INFO - Regula po iteracji 0: IF  THEN class = Iris-virginica, (p=5, n=145, P=5, N=145)
+2025-03-04 14:52:44,325 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,325 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,325 - INFO - Iteracja 3: condition_best: sepallength >= 5.85, quality_best: 0.867, coverage_best: (p=40, n=1, P=50, N=100), precision: 0.976
+2025-03-04 14:52:44,326 - INFO - Regula po iteracji 3: IF petalwidth >= 1.75 AND petallength >= 4.80 AND petalwidth >= 1.80 AND sepallength >= 5.85 THEN class = Iris-virginica, (p=40, n=1, P=50, N=100)
+2025-03-04 14:52:44,326 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,343 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,343 - INFO - Regula po iteracji 0: IF  THEN class = Iris-virginica, (p=10, n=140, P=10, N=140)
+2025-03-04 14:52:44,343 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,343 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,343 - INFO - Iteracja 4: condition_best: sepallength >= 5.90, quality_best: 0.867, coverage_best: (p=40, n=1, P=50, N=100), precision: 0.976
+2025-03-04 14:52:44,343 - INFO - Regula po iteracji 4: IF petalwidth >= 1.75 AND petallength >= 4.80 AND petalwidth >= 1.80 AND sepallength >= 5.85 AND sepallength >= 5.90 THEN class = Iris-virginica, (p=40, n=1, P=50, N=100)
+2025-03-04 14:52:44,344 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,360 - INFO - Iteracja 0: condition_best: None quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), number_of_covered_negatives_best: 0, best_score: 0, precision: 0
+2025-03-04 14:52:44,360 - INFO - Regula po iteracji 0: IF  THEN class = Iris-virginica, (p=10, n=140, P=10, N=140)
+2025-03-04 14:52:44,360 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,360 - INFO - ***RR NOT FOUND***
+2025-03-04 14:52:44,361 - INFO - Iteracja 5: condition_best: sepalwidth <= 3.20, quality_best: 0.783, coverage_best: (p=32, n=1, P=50, N=100), precision: 0.97
+2025-03-04 14:52:44,361 - INFO - Regula po iteracji 5: IF petalwidth >= 1.75 AND petallength >= 4.80 AND petalwidth >= 1.80 AND sepallength >= 5.85 AND sepallength >= 5.90 AND sepalwidth <= 3.20 THEN class = Iris-virginica, (p=32, n=1, P=50, N=100)
+2025-03-04 14:52:44,361 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,383 - INFO - Iteracja 0: condition_best: petalwidth >= 2.35, quality_best: 0.518, coverage_best: (p=5, n=1, P=18, N=132), number_of_covered_negatives_best: 0, best_score: 0.796, precision: 0.833
+2025-03-04 14:52:44,383 - INFO - Regula po iteracji 0: IF petalwidth >= 2.35 THEN class = Iris-virginica, (p=5, n=1, P=18, N=132)
+2025-03-04 14:52:44,383 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,383 - INFO - ***RR FOUND***
+2025-03-04 14:52:44,383 - INFO - Reference rule: IF petalwidth >= 2.35 THEN class = Iris-virginica
+2025-03-04 14:52:44,383 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:52:44,384 - INFO - Exception precision: 0.0
+2025-03-04 14:52:44,384 - INFO - ***ER NOT FOUND***
+2025-03-04 14:52:44,384 - INFO - Iteracja 6: condition_best: petalwidth <= 1.80, quality_best: 0.534, coverage_best: (p=11, n=1, P=50, N=100), precision: 0.917
+2025-03-04 14:52:44,384 - INFO - Regula po iteracji 6: IF petalwidth >= 1.75 AND petallength >= 4.80 AND petalwidth >= 1.80 AND sepallength >= 5.85 AND sepallength >= 5.90 AND sepalwidth <= 3.20 AND petalwidth <= 1.80 THEN class = Iris-virginica, (p=11, n=1, P=50, N=100)
+2025-03-04 14:52:44,385 - INFO - *****GROWING RR RULE*****
+2025-03-04 14:52:44,403 - INFO - Iteracja 0: condition_best: petalwidth >= 1.85, quality_best: 0.936, coverage_best: (p=34, n=0, P=39, N=111), number_of_covered_negatives_best: 0, best_score: 1.808, precision: 1.0
+2025-03-04 14:52:44,403 - INFO - Regula po iteracji 0: IF petalwidth >= 1.85 THEN class = Iris-virginica, (p=34, n=0, P=39, N=111)
+2025-03-04 14:52:44,403 - INFO - *****STOP GROWING RR RULE*****
+2025-03-04 14:52:44,403 - INFO - ***RR FOUND***
+2025-03-04 14:52:44,403 - INFO - Reference rule: IF petalwidth >= 1.85 THEN class = Iris-virginica
+2025-03-04 14:52:44,403 - INFO - ***CHECKING EXCEPTION***
+2025-03-04 14:52:44,404 - INFO - Exception precision: 0
+2025-03-04 14:52:44,404 - INFO - ***ER NOT FOUND***
+2025-03-04 14:52:44,404 - INFO - Iteracja 7: condition_best: sepalwidth <= 3.15, quality_best: 0.6, coverage_best: (p=10, n=0, P=50, N=100), precision: 1.0
+2025-03-04 14:52:44,404 - INFO - Regula po iteracji 7: IF petalwidth >= 1.75 AND petallength >= 4.80 AND petalwidth >= 1.80 AND sepallength >= 5.85 AND sepallength >= 5.90 AND sepalwidth <= 3.20 AND petalwidth <= 1.80 AND sepalwidth <= 3.15 THEN class = Iris-virginica, (p=10, n=0, P=50, N=100)
+2025-03-04 14:52:44,404 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,405 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,408 - INFO - Iteracja 0: condition_best: petallength >= 4.45, quality_best: 0.556, coverage_best: (p=50, n=21, P=50, N=100), precision: 0.704
+2025-03-04 14:52:44,408 - INFO - Regula po iteracji 0: IF petallength >= 4.45 THEN class = Iris-virginica, (p=50, n=21, P=50, N=100)
+2025-03-04 14:52:44,410 - INFO - Iteracja 1: condition_best: petalwidth >= 1.40, quality_best: 0.603, coverage_best: (p=50, n=18, P=50, N=100), precision: 0.735
+2025-03-04 14:52:44,410 - INFO - Regula po iteracji 1: IF petallength >= 4.45 AND petalwidth >= 1.40 THEN class = Iris-virginica, (p=50, n=18, P=50, N=100)
+2025-03-04 14:52:44,413 - INFO - Iteracja 2: condition_best: sepalwidth >= 2.20, quality_best: 0.603, coverage_best: (p=50, n=18, P=50, N=100), precision: 0.735
+2025-03-04 14:52:44,413 - INFO - Regula po iteracji 2: IF petallength >= 4.45 AND petalwidth >= 1.40 AND sepalwidth >= 2.20 THEN class = Iris-virginica, (p=50, n=18, P=50, N=100)
+2025-03-04 14:52:44,415 - INFO - Iteracja 3: condition_best: petallength >= 4.50, quality_best: 0.603, coverage_best: (p=50, n=18, P=50, N=100), precision: 0.735
+2025-03-04 14:52:44,415 - INFO - Regula po iteracji 3: IF petallength >= 4.45 AND petalwidth >= 1.40 AND sepalwidth >= 2.20 AND petallength >= 4.50 THEN class = Iris-virginica, (p=50, n=18, P=50, N=100)
+2025-03-04 14:52:44,418 - INFO - Iteracja 4: condition_best: sepalwidth <= 3.40, quality_best: 0.567, coverage_best: (p=47, n=18, P=50, N=100), precision: 0.723
+2025-03-04 14:52:44,418 - INFO - Regula po iteracji 4: IF petallength >= 4.45 AND petalwidth >= 1.40 AND sepalwidth >= 2.20 AND petallength >= 4.50 AND sepalwidth <= 3.40 THEN class = Iris-virginica, (p=47, n=18, P=50, N=100)
+2025-03-04 14:52:44,420 - INFO - Iteracja 5: condition_best: sepalwidth <= 3.30, quality_best: 0.559, coverage_best: (p=45, n=17, P=50, N=100), precision: 0.726
+2025-03-04 14:52:44,421 - INFO - Regula po iteracji 5: IF petallength >= 4.45 AND petalwidth >= 1.40 AND sepalwidth >= 2.20 AND petallength >= 4.50 AND sepalwidth <= 3.40 AND sepalwidth <= 3.30 THEN class = Iris-virginica, (p=45, n=17, P=50, N=100)
+2025-03-04 14:52:44,423 - INFO - Iteracja 6: condition_best: sepalwidth <= 3.20, quality_best: 0.539, coverage_best: (p=42, n=16, P=50, N=100), precision: 0.724
+2025-03-04 14:52:44,423 - INFO - Regula po iteracji 6: IF petallength >= 4.45 AND petalwidth >= 1.40 AND sepalwidth >= 2.20 AND petallength >= 4.50 AND sepalwidth <= 3.40 AND sepalwidth <= 3.30 AND sepalwidth <= 3.20 THEN class = Iris-virginica, (p=42, n=16, P=50, N=100)
+2025-03-04 14:52:44,426 - INFO - Iteracja 7: condition_best: sepalwidth <= 3.10, quality_best: 0.531, coverage_best: (p=37, n=13, P=50, N=100), precision: 0.74
+2025-03-04 14:52:44,426 - INFO - Regula po iteracji 7: IF petallength >= 4.45 AND petalwidth >= 1.40 AND sepalwidth >= 2.20 AND petallength >= 4.50 AND sepalwidth <= 3.40 AND sepalwidth <= 3.30 AND sepalwidth <= 3.20 AND sepalwidth <= 3.10 THEN class = Iris-virginica, (p=37, n=13, P=50, N=100)
+2025-03-04 14:52:44,428 - INFO - Iteracja 8: condition_best: sepalwidth <= 3.00, quality_best: 0.519, coverage_best: (p=33, n=11, P=50, N=100), precision: 0.75
+2025-03-04 14:52:44,428 - INFO - Regula po iteracji 8: IF petallength >= 4.45 AND petalwidth >= 1.40 AND sepalwidth >= 2.20 AND petallength >= 4.50 AND sepalwidth <= 3.40 AND sepalwidth <= 3.30 AND sepalwidth <= 3.20 AND sepalwidth <= 3.10 AND sepalwidth <= 3.00 THEN class = Iris-virginica, (p=33, n=11, P=50, N=100)
+2025-03-04 14:52:44,430 - INFO - Iteracja 9: condition_best: petalwidth <= 1.70, quality_best: -0.017, coverage_best: (p=5, n=11, P=50, N=100), precision: 0.312
+2025-03-04 14:52:44,430 - INFO - Regula po iteracji 9: IF petallength >= 4.45 AND petalwidth >= 1.40 AND sepalwidth >= 2.20 AND petallength >= 4.50 AND sepalwidth <= 3.40 AND sepalwidth <= 3.30 AND sepalwidth <= 3.20 AND sepalwidth <= 3.10 AND sepalwidth <= 3.00 AND petalwidth <= 1.70 THEN class = Iris-virginica, (p=5, n=11, P=50, N=100)
+2025-03-04 14:52:44,432 - INFO - Iteracja 10: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:52:44,432 - INFO - Regula po iteracji 10: IF petallength >= 4.45 AND petalwidth >= 1.40 AND sepalwidth >= 2.20 AND petallength >= 4.50 AND sepalwidth <= 3.40 AND sepalwidth <= 3.30 AND sepalwidth <= 3.20 AND sepalwidth <= 3.10 AND sepalwidth <= 3.00 AND petalwidth <= 1.70 THEN class = Iris-virginica, (p=5, n=11, P=50, N=100)
+2025-03-04 14:52:44,432 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,433 - INFO - *******GROWING CR RULE*******
+2025-03-04 14:52:44,436 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 14:52:44,436 - INFO - Regula po iteracji 0: IF  THEN class = Iris-virginica, (p=50, n=100, P=50, N=100)
+2025-03-04 14:52:44,436 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 14:52:44,439 - INFO - ************************Finished experiment for iris.arff with algorithm3************************
+2025-03-04 14:52:44,439 - INFO - *************************************************************************************************************************
+2025-03-04 14:52:44,439 - INFO - *************************************************************************************************************************
+2025-03-04 14:52:44,439 - INFO - *************************************************************************************************************************

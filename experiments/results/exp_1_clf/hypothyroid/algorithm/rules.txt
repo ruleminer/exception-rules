@@ -1,0 +1,54 @@
+
+CR: IF TSH <= 6.05 AND TT4 >= 48.50 THEN class = negative (p=2991, n=0, P=3481, N=291)
+
+CR: IF TSH <= 6.05 AND TT4 >= 27.00 THEN class = negative (p=3011, n=1, P=3481, N=291)
+
+CR: IF TSH <= 6.05 THEN class = negative (p=3035, n=2, P=3481, N=291)
+
+CR: IF TSH <= 6.50 AND TT4 >= 60.50 THEN class = negative (p=2959, n=19, P=3481, N=291)
+
+CR: IF TSH <= 6.70 AND FTI >= 67.50 THEN class = negative (p=2848, n=21, P=3481, N=291)
+
+CR: IF TSH <= 7.10 AND FTI >= 67.50 THEN class = negative (p=2853, n=33, P=3481, N=291)
+
+CR: IF TSH <= 7.60 AND FTI >= 67.00 THEN class = negative (p=2864, n=43, P=3481, N=291)
+
+CR: IF TSH <= 7.90 AND age >= 7.00 AND TT4 >= 64.50 AND lithium = {f} THEN class = negative (p=2921, n=50, P=3481, N=291)
+
+CR: IF TSH <= 8.50 AND TT4 >= 68.00 AND age >= 1.50 AND lithium = {f} THEN class = negative (p=2905, n=59, P=3481, N=291)
+
+CR: IF TSH_measured = {f} THEN class = negative (p=369, n=0, P=3481, N=291)
+
+CR: IF FTI >= 134.00 AND age <= 75.50 THEN class = negative (p=507, n=0, P=3481, N=291)
+
+CR: IF age >= 9.00 AND age <= 83.00 AND TSH <= 17.00 AND TT4 >= 106.00 AND FTI >= 118.00 THEN class = negative (p=858, n=4, P=3481, N=291)
+
+CR: IF FTI >= 103.50 AND T3 >= 1.30 AND age >= 1.50 THEN class = negative (p=1367, n=21, P=3481, N=291)
+
+CR: IF FTI >= 98.00 AND TT4 >= 87.00 AND age >= 19.00 THEN class = negative (p=1981, n=45, P=3481, N=291)
+
+CR: IF FTI >= 88.00 AND age <= 82.00 AND sick = {f} AND lithium = {f} AND age >= 19.50 THEN class = negative (p=2379, n=79, P=3481, N=291)
+
+CR: IF FTI >= 82.00 AND sick = {f} AND query_on_thyroxine = {f} AND lithium = {f} AND age <= 81.50 AND age >= 7.50 AND TT4 >= 74.50 THEN class = negative (p=2480, n=90, P=3481, N=291)
+
+CR: IF on_thyroxine = {t} AND TT4 >= 68.00 THEN class = negative (p=427, n=0, P=3481, N=291)
+
+CR: IF thyroid_surgery = {t} AND T3 <= 2.05 THEN class = negative (p=26, n=0, P=3481, N=291)
+
+CR: IF TSH >= 6.05 AND FTI >= 64.50 AND on_thyroxine = {f} AND TT4 <= 150.50 AND thyroid_surgery = {f} AND T4U >= 0.52 THEN class = compensated_hypothyroid (p=177, n=1, P=194, N=3578)
+
+CR: IF TSH >= 6.05 AND TT4 >= 63.50 AND on_thyroxine = {f} AND TT4 <= 150.50 AND thyroid_surgery = {f} THEN class = compensated_hypothyroid (p=183, n=9, P=194, N=3578)
+
+CR: IF FTI <= 53.50 AND TSH >= 6.15 AND thyroid_surgery = {f} THEN class = primary_hypothyroid (p=67, n=0, P=95, N=3677)
+
+CR: IF FTI <= 59.00 AND TSH >= 5.85 AND thyroid_surgery = {f} THEN class = primary_hypothyroid (p=77, n=1, P=95, N=3677)
+
+CR: IF FTI <= 61.00 AND TSH >= 5.85 AND thyroid_surgery = {f} AND age <= 84.50 THEN class = primary_hypothyroid (p=82, n=1, P=95, N=3677)
+
+CR: IF TSH >= 41.00 AND TT4 <= 63.00 AND thyroid_surgery = {f} THEN class = primary_hypothyroid (p=56, n=1, P=95, N=3677)
+
+CR: IF FTI <= 64.00 AND TSH >= 5.85 AND T4U <= 1.42 AND age <= 84.50 THEN class = primary_hypothyroid (p=87, n=2, P=95, N=3677)
+
+CR: IF TT4 <= 48.00 AND TSH <= 0.01 AND query_hypothyroid = {t} THEN class = secondary_hypothyroid (p=1, n=0, P=2, N=3770)
+
+CR: IF TT4 <= 48.00 AND TT4 >= 47.50 AND sex = {F} AND referral_source = {other} THEN class = secondary_hypothyroid (p=1, n=0, P=2, N=3770)

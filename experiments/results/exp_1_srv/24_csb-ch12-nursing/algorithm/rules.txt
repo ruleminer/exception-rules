@@ -1,0 +1,36 @@
+
+CR 0: IF gender = {0} AND hlstat <= 4.50 AND age >= 71.50 THEN survival_status = {161.0} (p=967, n=0, P=1601, N=0)
+
+CR 1: IF gender = {0} AND hlstat <= 4.50 AND age >= 67.50 THEN survival_status = {156.0} (p=1022, n=0, P=1601, N=0)
+
+CR 2: IF gender = {0} AND hlstat <= 4.50 AND age >= 65.50 THEN survival_status = {155.0} (p=1040, n=0, P=1601, N=0)
+
+CR 3: IF gender = {0} AND hlstat <= 4.50 AND marstat = {0} THEN survival_status = {159.0} (p=957, n=0, P=1601, N=0)
+
+CR 4: IF gender = {0} AND age >= 73.50 THEN survival_status = {152.0} (p=1030, n=0, P=1601, N=0)
+RR 4: IF hlstat <= 3.50 AND age >= 67.50 THEN survival_status = {151.0} (p=887, n=0, P=1601, N=0)
+ER 4: IF gender = {0} AND age >= 73.50 AND hlstat <= 3.50 AND age >= 67.50 THEN survival_status = {198.0} (p=590, n=0, P=1601, N=0)
+
+CR 5: IF gender = {0} AND age >= 71.50 THEN survival_status = {148.0} (p=1083, n=0, P=1601, N=0)
+RR 5: IF hlstat <= 3.50 AND age >= 65.50 THEN survival_status = {148.0} (p=904, n=0, P=1601, N=0)
+ER 5: IF gender = {0} AND age >= 71.50 AND hlstat <= 3.50 AND age >= 65.50 THEN survival_status = {191.0} (p=625, n=0, P=1601, N=0)
+
+CR 6: IF gender = {0} AND age >= 67.50 THEN survival_status = {144.0} (p=1147, n=0, P=1601, N=0)
+RR 6: IF hlstat <= 3.50 THEN survival_status = {147.0} (p=919, n=0, P=1601, N=0)
+ER 6: IF gender = {0} AND age >= 67.50 AND hlstat <= 3.50 THEN survival_status = {172.0} (p=666, n=0, P=1601, N=0)
+
+CR 7: IF gender = {1} AND hlstat >= 2.50 AND age >= 73.50 THEN survival_status = {51.0} (p=281, n=0, P=1601, N=0)
+
+CR 8: IF gender = {1} AND hlstat >= 2.50 AND age >= 72.50 THEN survival_status = {51.0} (p=291, n=0, P=1601, N=0)
+
+CR 9: IF gender = {1} AND age >= 69.50 AND hlstat >= 2.50 THEN survival_status = {51.0} (p=315, n=0, P=1601, N=0)
+
+CR 10: IF gender = {1} AND age >= 79.50 AND age <= 90.50 THEN survival_status = {40.0} (p=186, n=0, P=1601, N=0)
+
+CR 11: IF gender = {1} AND age >= 69.50 AND age <= 91.50 THEN survival_status = {63.0} (p=343, n=0, P=1601, N=0)
+
+CR 12: IF gender = {1} AND age >= 69.50 THEN survival_status = {65.0} (p=387, n=0, P=1601, N=0)
+
+CR 13: IF gender = {1} AND age >= 68.50 AND age <= 91.50 THEN survival_status = {65.0} (p=349, n=0, P=1601, N=0)
+
+CR 14: IF gender = {1} AND age <= 91.50 THEN survival_status = {66.0} (p=379, n=0, P=1601, N=0)

@@ -1,0 +1,38 @@
+@relation R_data_frame
+
+@attribute lymphatics {normal,arched,deformed,displaced}
+@attribute block_of_affere {no,yes}
+@attribute bl_of_lymph_c {no,yes}
+@attribute bl_of_lymph_s {no,yes}
+@attribute by_pass {no,yes}
+@attribute extravasates {no,yes}
+@attribute regeneration_of {no,yes}
+@attribute early_uptake_in {no,yes}
+@attribute lym_nodes_dimin numeric
+@attribute lym_nodes_enlar numeric
+@attribute changes_in_lym {bean,oval,round}
+@attribute defect_in_node {no,lacunar,lac_margin,lac_central}
+@attribute changes_in_node {no,lacunar,lac_margin,lac_central}
+@attribute changes_in_stru {no,grainy,drop_like,coarse,diluted,reticular,stripped,faint}
+@attribute special_forms {no,chalices,vesicles}
+@attribute dislocation_of {no,yes}
+@attribute exclusion_of_no {no,yes}
+@attribute no_of_nodes_in numeric
+@attribute class {normal,metastases,malign_lymph,fibrosis}
+
+@data
+displaced,no,no,no,no,no,no,yes,1,2,oval,lac_margin,lac_margin,drop_like,vesicles,yes,no,1,malign_lymph
+arched,no,no,no,no,yes,no,yes,1,3,oval,lacunar,lacunar,coarse,vesicles,no,yes,5,malign_lymph
+deformed,yes,no,no,yes,yes,no,yes,1,3,round,lacunar,lac_margin,coarse,chalices,yes,yes,2,metastases
+displaced,yes,no,no,no,no,no,yes,1,2,oval,lacunar,lac_central,faint,no,no,yes,2,malign_lymph
+deformed,yes,no,no,no,yes,no,yes,1,2,oval,lacunar,lacunar,no,vesicles,no,no,1,metastases
+deformed,no,no,no,yes,no,no,yes,1,2,round,lac_margin,lac_margin,diluted,vesicles,no,no,1,metastases
+deformed,no,no,no,no,yes,no,no,1,3,oval,lac_margin,lac_margin,faint,vesicles,yes,yes,2,malign_lymph
+arched,yes,yes,no,yes,yes,yes,yes,1,3,round,lac_central,lac_central,diluted,vesicles,yes,yes,5,malign_lymph
+arched,yes,no,no,no,no,no,no,1,2,round,lac_margin,lac_margin,grainy,chalices,yes,yes,1,metastases
+deformed,yes,no,no,yes,yes,no,no,1,2,oval,lac_central,lac_margin,grainy,no,yes,yes,3,metastases
+displaced,yes,no,no,yes,yes,no,no,1,1,round,lac_margin,lac_margin,drop_like,vesicles,yes,yes,3,metastases
+deformed,no,no,no,no,yes,no,yes,1,4,oval,lacunar,lacunar,coarse,vesicles,yes,yes,7,malign_lymph
+displaced,no,no,no,no,yes,no,yes,1,4,oval,lacunar,lac_central,stripped,vesicles,yes,yes,2,malign_lymph
+displaced,yes,no,no,no,no,no,no,1,4,round,lac_margin,lac_margin,coarse,chalices,yes,no,1,metastases
+arched,yes,no,no,no,no,no,no,1,2,round,lac_margin,lac_margin,drop_like,vesicles,no,yes,1,metastases

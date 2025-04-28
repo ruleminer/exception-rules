@@ -1,0 +1,111 @@
+2025-03-04 19:10:37,366 - INFO - **********Starting experiment for zoo.arff with algorithm3**********
+2025-03-04 19:10:37,378 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,380 - INFO - Iteracja 0: condition_best: milk = {true}, quality_best: 1.0, coverage_best: (p=41, n=0, P=41, N=60), precision: 1.0
+2025-03-04 19:10:37,381 - INFO - Regula po iteracji 0: IF milk = {true} THEN class = mammal, (p=41, n=0, P=41, N=60)
+2025-03-04 19:10:37,381 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,381 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,382 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:10:37,383 - INFO - Regula po iteracji 0: IF  THEN class = mammal, (p=41, n=60, P=41, N=60)
+2025-03-04 19:10:37,383 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,383 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,384 - INFO - Iteracja 0: condition_best: fins = {true}, quality_best: 0.73, coverage_best: (p=13, n=4, P=13, N=88), precision: 0.765
+2025-03-04 19:10:37,384 - INFO - Regula po iteracji 0: IF fins = {true} THEN class = fish, (p=13, n=4, P=13, N=88)
+2025-03-04 19:10:37,385 - INFO - Iteracja 1: condition_best: eggs = {true}, quality_best: 1.0, coverage_best: (p=13, n=0, P=13, N=88), precision: 1.0
+2025-03-04 19:10:37,385 - INFO - Regula po iteracji 1: IF fins = {true} AND eggs = {true} THEN class = fish, (p=13, n=0, P=13, N=88)
+2025-03-04 19:10:37,385 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,386 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,387 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:10:37,387 - INFO - Regula po iteracji 0: IF  THEN class = fish, (p=13, n=88, P=13, N=88)
+2025-03-04 19:10:37,387 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,388 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,389 - INFO - Iteracja 0: condition_best: feathers = {true}, quality_best: 1.0, coverage_best: (p=20, n=0, P=20, N=81), precision: 1.0
+2025-03-04 19:10:37,389 - INFO - Regula po iteracji 0: IF feathers = {true} THEN class = bird, (p=20, n=0, P=20, N=81)
+2025-03-04 19:10:37,389 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,389 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,391 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:10:37,391 - INFO - Regula po iteracji 0: IF  THEN class = bird, (p=20, n=81, P=20, N=81)
+2025-03-04 19:10:37,391 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,391 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,393 - INFO - Iteracja 0: condition_best: backbone = {false}, quality_best: 0.507, coverage_best: (p=10, n=8, P=10, N=91), precision: 0.556
+2025-03-04 19:10:37,393 - INFO - Regula po iteracji 0: IF backbone = {false} THEN class = invertebrate, (p=10, n=8, P=10, N=91)
+2025-03-04 19:10:37,394 - INFO - Iteracja 1: condition_best: breathes = {false}, quality_best: 0.85, coverage_best: (p=7, n=0, P=10, N=91), precision: 1.0
+2025-03-04 19:10:37,394 - INFO - Regula po iteracji 1: IF backbone = {false} AND breathes = {false} THEN class = invertebrate, (p=7, n=0, P=10, N=91)
+2025-03-04 19:10:37,394 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,394 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,396 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:10:37,396 - INFO - Regula po iteracji 0: IF  THEN class = invertebrate, (p=10, n=91, P=10, N=91)
+2025-03-04 19:10:37,396 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,396 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,398 - INFO - Iteracja 0: condition_best: legs >= 5.50, quality_best: 0.638, coverage_best: (p=8, n=4, P=8, N=93), precision: 0.667
+2025-03-04 19:10:37,398 - INFO - Regula po iteracji 0: IF legs >= 5.50 THEN class = insect, (p=8, n=4, P=8, N=93)
+2025-03-04 19:10:37,399 - INFO - Iteracja 1: condition_best: predator = {false}, quality_best: 0.938, coverage_best: (p=7, n=0, P=8, N=93), precision: 1.0
+2025-03-04 19:10:37,399 - INFO - Regula po iteracji 1: IF legs >= 5.50 AND predator = {false} THEN class = insect, (p=7, n=0, P=8, N=93)
+2025-03-04 19:10:37,399 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,399 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,401 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:10:37,401 - INFO - Regula po iteracji 0: IF  THEN class = insect, (p=8, n=93, P=8, N=93)
+2025-03-04 19:10:37,401 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,401 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,402 - INFO - Iteracja 0: condition_best: aquatic = {true}, quality_best: 0.074, coverage_best: (p=4, n=32, P=4, N=97), precision: 0.111
+2025-03-04 19:10:37,403 - INFO - Regula po iteracji 0: IF aquatic = {true} THEN class = amphibian, (p=4, n=32, P=4, N=97)
+2025-03-04 19:10:37,404 - INFO - Iteracja 1: condition_best: legs >= 3.00, quality_best: 0.337, coverage_best: (p=4, n=7, P=4, N=97), precision: 0.364
+2025-03-04 19:10:37,404 - INFO - Regula po iteracji 1: IF aquatic = {true} AND legs >= 3.00 THEN class = amphibian, (p=4, n=7, P=4, N=97)
+2025-03-04 19:10:37,405 - INFO - Iteracja 2: condition_best: toothed = {true}, quality_best: 0.792, coverage_best: (p=4, n=1, P=4, N=97), precision: 0.8
+2025-03-04 19:10:37,405 - INFO - Regula po iteracji 2: IF aquatic = {true} AND legs >= 3.00 AND toothed = {true} THEN class = amphibian, (p=4, n=1, P=4, N=97)
+2025-03-04 19:10:37,406 - INFO - Iteracja 3: condition_best: hair = {false}, quality_best: 1.0, coverage_best: (p=4, n=0, P=4, N=97), precision: 1.0
+2025-03-04 19:10:37,406 - INFO - Regula po iteracji 3: IF aquatic = {true} AND legs >= 3.00 AND toothed = {true} AND hair = {false} THEN class = amphibian, (p=4, n=0, P=4, N=97)
+2025-03-04 19:10:37,406 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,407 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,409 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:10:37,409 - INFO - Regula po iteracji 0: IF  THEN class = amphibian, (p=4, n=97, P=4, N=97)
+2025-03-04 19:10:37,409 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,409 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,410 - INFO - Iteracja 0: condition_best: venomous = {true}, quality_best: 0.148, coverage_best: (p=2, n=6, P=5, N=96), precision: 0.25
+2025-03-04 19:10:37,410 - INFO - Regula po iteracji 0: IF venomous = {true} THEN class = reptile, (p=2, n=6, P=5, N=96)
+2025-03-04 19:10:37,411 - INFO - Iteracja 1: condition_best: toothed = {true}, quality_best: 0.332, coverage_best: (p=2, n=2, P=5, N=96), precision: 0.5
+2025-03-04 19:10:37,411 - INFO - Regula po iteracji 1: IF venomous = {true} AND toothed = {true} THEN class = reptile, (p=2, n=2, P=5, N=96)
+2025-03-04 19:10:37,412 - INFO - Iteracja 2: condition_best: eggs = {false}, quality_best: 0.6, coverage_best: (p=1, n=0, P=5, N=96), precision: 1.0
+2025-03-04 19:10:37,412 - INFO - Regula po iteracji 2: IF venomous = {true} AND toothed = {true} AND eggs = {false} THEN class = reptile, (p=1, n=0, P=5, N=96)
+2025-03-04 19:10:37,412 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,413 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,415 - INFO - Iteracja 0: condition_best: venomous = {true}, quality_best: 0.148, coverage_best: (p=2, n=6, P=5, N=96), precision: 0.25
+2025-03-04 19:10:37,415 - INFO - Regula po iteracji 0: IF venomous = {true} THEN class = reptile, (p=2, n=6, P=5, N=96)
+2025-03-04 19:10:37,416 - INFO - Iteracja 1: condition_best: toothed = {true}, quality_best: 0.332, coverage_best: (p=2, n=2, P=5, N=96), precision: 0.5
+2025-03-04 19:10:37,416 - INFO - Regula po iteracji 1: IF venomous = {true} AND toothed = {true} THEN class = reptile, (p=2, n=2, P=5, N=96)
+2025-03-04 19:10:37,417 - INFO - Iteracja 2: condition_best: aquatic = {false}, quality_best: 0.6, coverage_best: (p=1, n=0, P=5, N=96), precision: 1.0
+2025-03-04 19:10:37,417 - INFO - Regula po iteracji 2: IF venomous = {true} AND toothed = {true} AND aquatic = {false} THEN class = reptile, (p=1, n=0, P=5, N=96)
+2025-03-04 19:10:37,417 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,417 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,419 - INFO - Iteracja 0: condition_best: legs <= 0.00, quality_best: 0.068, coverage_best: (p=3, n=20, P=5, N=96), precision: 0.13
+2025-03-04 19:10:37,419 - INFO - Regula po iteracji 0: IF legs <= 0.00 THEN class = reptile, (p=3, n=20, P=5, N=96)
+2025-03-04 19:10:37,420 - INFO - Iteracja 1: condition_best: fins = {false}, quality_best: 0.319, coverage_best: (p=3, n=4, P=5, N=96), precision: 0.429
+2025-03-04 19:10:37,420 - INFO - Regula po iteracji 1: IF legs <= 0.00 AND fins = {false} THEN class = reptile, (p=3, n=4, P=5, N=96)
+2025-03-04 19:10:37,421 - INFO - Iteracja 2: condition_best: toothed = {true}, quality_best: 0.8, coverage_best: (p=3, n=0, P=5, N=96), precision: 1.0
+2025-03-04 19:10:37,421 - INFO - Regula po iteracji 2: IF legs <= 0.00 AND fins = {false} AND toothed = {true} THEN class = reptile, (p=3, n=0, P=5, N=96)
+2025-03-04 19:10:37,421 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,422 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,423 - INFO - Iteracja 0: condition_best: hair = {false}, quality_best: 0.039, coverage_best: (p=5, n=53, P=5, N=96), precision: 0.086
+2025-03-04 19:10:37,423 - INFO - Regula po iteracji 0: IF hair = {false} THEN class = reptile, (p=5, n=53, P=5, N=96)
+2025-03-04 19:10:37,425 - INFO - Iteracja 1: condition_best: toothed = {true}, quality_best: 0.118, coverage_best: (p=4, n=19, P=5, N=96), precision: 0.174
+2025-03-04 19:10:37,425 - INFO - Regula po iteracji 1: IF hair = {false} AND toothed = {true} THEN class = reptile, (p=4, n=19, P=5, N=96)
+2025-03-04 19:10:37,426 - INFO - Iteracja 2: condition_best: aquatic = {false}, quality_best: 0.8, coverage_best: (p=3, n=0, P=5, N=96), precision: 1.0
+2025-03-04 19:10:37,426 - INFO - Regula po iteracji 2: IF hair = {false} AND toothed = {true} AND aquatic = {false} THEN class = reptile, (p=3, n=0, P=5, N=96)
+2025-03-04 19:10:37,426 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,427 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,428 - INFO - Iteracja 0: condition_best: hair = {false}, quality_best: 0.039, coverage_best: (p=5, n=53, P=5, N=96), precision: 0.086
+2025-03-04 19:10:37,428 - INFO - Regula po iteracji 0: IF hair = {false} THEN class = reptile, (p=5, n=53, P=5, N=96)
+2025-03-04 19:10:37,430 - INFO - Iteracja 1: condition_best: aquatic = {false}, quality_best: 0.099, coverage_best: (p=4, n=22, P=5, N=96), precision: 0.154
+2025-03-04 19:10:37,430 - INFO - Regula po iteracji 1: IF hair = {false} AND aquatic = {false} THEN class = reptile, (p=4, n=22, P=5, N=96)
+2025-03-04 19:10:37,431 - INFO - Iteracja 2: condition_best: feathers = {false}, quality_best: 0.269, coverage_best: (p=4, n=8, P=5, N=96), precision: 0.333
+2025-03-04 19:10:37,431 - INFO - Regula po iteracji 2: IF hair = {false} AND aquatic = {false} AND feathers = {false} THEN class = reptile, (p=4, n=8, P=5, N=96)
+2025-03-04 19:10:37,432 - INFO - Iteracja 3: condition_best: backbone = {true}, quality_best: 0.9, coverage_best: (p=4, n=0, P=5, N=96), precision: 1.0
+2025-03-04 19:10:37,432 - INFO - Regula po iteracji 3: IF hair = {false} AND aquatic = {false} AND feathers = {false} AND backbone = {true} THEN class = reptile, (p=4, n=0, P=5, N=96)
+2025-03-04 19:10:37,432 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,433 - INFO - *******GROWING CR RULE*******
+2025-03-04 19:10:37,434 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), precision: 0
+2025-03-04 19:10:37,435 - INFO - Regula po iteracji 0: IF  THEN class = reptile, (p=5, n=96, P=5, N=96)
+2025-03-04 19:10:37,435 - INFO - *******STOP GROWING CR RULE*******
+2025-03-04 19:10:37,439 - INFO - ************************Finished experiment for zoo.arff with algorithm3************************
+2025-03-04 19:10:37,439 - INFO - *************************************************************************************************************************
+2025-03-04 19:10:37,439 - INFO - *************************************************************************************************************************
+2025-03-04 19:10:37,439 - INFO - *************************************************************************************************************************

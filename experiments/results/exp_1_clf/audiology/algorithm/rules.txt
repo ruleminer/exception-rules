@@ -1,0 +1,86 @@
+
+CR: IF age_gt_60 = {t} AND history_noise = {f} AND tymp = {a} AND history_dizziness = {f} THEN class = cochlear_age (p=52, n=1, P=57, N=169)
+
+CR: IF age_gt_60 = {t} AND o_ar_c = {normal} AND notch_4k = {f} AND history_nausea = {f} AND m_m_sn_gt_1k = {f} AND mod_sn_gt_1k = {f} AND mod_sn_gt_3k = {f} AND s_sn_gt_1k = {f} AND s_sn_gt_2k = {f} THEN class = cochlear_age (p=51, n=2, P=57, N=169)
+
+CR: IF history_noise = {t} AND age_gt_60 = {t} AND air = {mild} AND m_s_sn_gt_3k = {f} THEN class = cochlear_age_and_noise (p=18, n=0, P=22, N=204)
+
+CR: IF notch_at_4k = {t} AND age_gt_60 = {f} AND history_dizziness = {f} THEN class = cochlear_poss_noise (p=12, n=0, P=20, N=206)
+
+CR: IF history_noise = {t} AND age_gt_60 = {f} AND tymp = {a} AND history_dizziness = {f} AND history_heredity = {f} AND mod_sn_gt_4k = {f} AND m_m_gt_2k = {f} THEN class = cochlear_poss_noise (p=20, n=1, P=20, N=206)
+
+CR: IF tymp = {as} AND bone = {mild} AND age_gt_60 = {f} THEN class = mixed_cochlear_unk_fixation (p=9, n=0, P=9, N=217)
+
+CR: IF bone = {normal} AND ar_u = {normal} AND boneAbnormal = {f} AND m_sn_gt_4k = {f} AND mod_gt_4k = {f} THEN class = normal_ear (p=11, n=0, P=22, N=204)
+
+CR: IF air = {normal} AND o_ar_u = {absent} AND tymp = {a} AND history_noise = {f} AND late_wave_poor = {f} AND mod_gt_4k = {f} AND mod_sn_gt_4k = {f} THEN class = normal_ear (p=11, n=0, P=22, N=204)
+
+CR: IF air = {normal} AND history_noise = {f} AND m_sn_gt_2k = {f} AND m_sn_gt_4k = {f} AND mod_sn_gt_3k = {f} AND history_roaring = {f} AND mod_sn_gt_2k = {f} AND history_fluctuating = {f} AND m_sn_2_3k = {f} AND m_sn_gt_6k = {f} AND mod_gt_4k = {f} AND mod_sn_gt_4k = {f} AND tymp = {a} THEN class = normal_ear (p=21, n=0, P=22, N=204)
+
+CR: IF mod_s_mixed = {t} THEN class = mixed_cochlear_age_fixation (p=1, n=0, P=2, N=224)
+
+CR: IF tymp = {as} AND boneAbnormal = {t} THEN class = mixed_cochlear_age_fixation (p=1, n=0, P=2, N=224)
+
+CR: IF mod_sn_gt_3k = {t} AND history_noise = {f} AND age_gt_60 = {f} THEN class = cochlear_unknown (p=6, n=0, P=48, N=178)
+
+CR: IF age_gt_60 = {f} AND notch_4k = {t} AND history_noise = {f} THEN class = cochlear_unknown (p=10, n=0, P=48, N=178)
+
+CR: IF age_gt_60 = {f} AND bone = {unmeasured} AND notch_at_4k = {f} AND m_sn_gt_2k = {f} THEN class = cochlear_unknown (p=11, n=0, P=48, N=178)
+
+CR: IF age_gt_60 = {f} AND o_ar_u = {normal} AND history_noise = {f} AND static_normal = {t} AND ar_c = {normal} AND o_ar_c = {normal} THEN class = cochlear_unknown (p=20, n=2, P=48, N=178)
+
+CR: IF age_gt_60 = {f} AND o_ar_u = {normal} AND history_noise = {f} AND airBoneGap = {f} AND history_fluctuating = {f} AND history_nausea = {f} AND history_ringing = {f} AND viith_nerve_signs = {f} THEN class = cochlear_unknown (p=29, n=5, P=48, N=178)
+
+CR: IF age_gt_60 = {f} AND tymp = {a} AND boneAbnormal = {t} AND history_noise = {f} AND history_buzzing = {f} THEN class = cochlear_unknown (p=16, n=1, P=48, N=178)
+
+CR: IF age_gt_60 = {f} AND tymp = {a} AND notch_at_4k = {f} AND static_normal = {t} AND s_sn_gt_2k = {f} AND history_fluctuating = {f} AND history_ringing = {f} AND m_m_sn_gt_2k = {f} AND s_sn_gt_4k = {f} AND airBoneGap = {f} AND history_buzzing = {f} AND late_wave_poor = {f} AND viith_nerve_signs = {f} THEN class = cochlear_unknown (p=47, n=21, P=48, N=178)
+
+CR: IF m_s_sn_gt_2k = {t} THEN class = mixed_cochlear_age_otitis_media (p=1, n=0, P=4, N=222)
+
+CR: IF tymp = {c} AND age_gt_60 = {t} THEN class = mixed_cochlear_age_otitis_media (p=3, n=0, P=4, N=222)
+
+CR: IF ar_u = {absent} AND age_gt_60 = {t} AND speech = {normal} AND boneAbnormal = {f} THEN class = mixed_cochlear_age_otitis_media (p=2, n=0, P=4, N=222)
+
+CR: IF speech = {very_poor} AND bone = {mild} AND air = {mild} THEN class = acoustic_neuroma (p=1, n=0, P=1, N=225)
+
+CR: IF tymp = {b} AND boneAbnormal = {t} THEN class = mixed_cochlear_unk_ser_om (p=3, n=0, P=3, N=223)
+
+CR: IF tymp = {ad} AND airBoneGap = {t} THEN class = conductive_discontinuity (p=2, n=0, P=2, N=224)
+
+CR: IF wave_V_delayed = {t} THEN class = retrocochlear_unknown (p=2, n=0, P=2, N=224)
+
+CR: IF tymp = {as} AND bone = {normal} THEN class = conductive_fixation (p=6, n=0, P=6, N=220)
+
+CR: IF viith_nerve_signs = {t} THEN class = bells_palsy (p=1, n=0, P=1, N=225)
+
+CR: IF history_heredity = {t} THEN class = cochlear_noise_and_heredity (p=2, n=0, P=2, N=224)
+
+CR: IF tymp = {c} AND ar_u = {normal} THEN class = mixed_poss_noise_om (p=2, n=0, P=2, N=224)
+
+CR: IF tymp = {b} AND air = {mild} AND age_gt_60 = {f} THEN class = otitis_media (p=1, n=0, P=4, N=222)
+
+CR: IF tymp = {b} AND bone = {normal} AND age_gt_60 = {f} THEN class = otitis_media (p=1, n=0, P=4, N=222)
+
+CR: IF airBoneGap = {t} AND ar_u = {elevated} THEN class = otitis_media (p=1, n=0, P=4, N=222)
+
+CR: IF tymp = {c} AND ar_u = {elevated} THEN class = otitis_media (p=1, n=0, P=4, N=222)
+
+CR: IF history_fluctuating = {t} THEN class = possible_menieres (p=7, n=0, P=8, N=218)
+
+CR: IF bser = {degraded} THEN class = possible_brainstem_disorder (p=2, n=0, P=4, N=222)
+
+CR: IF waveform_ItoV_prolonged = {t} THEN class = possible_brainstem_disorder (p=2, n=0, P=4, N=222)
+
+CR: IF air = {severe} AND age_gt_60 = {t} THEN class = cochlear_age_plus_poss_menieres (p=1, n=0, P=1, N=225)
+
+CR: IF tymp = {b} AND air = {normal} THEN class = mixed_cochlear_age_s_om (p=1, n=0, P=2, N=224)
+
+CR: IF tymp = {b} AND ar_c = {normal} THEN class = mixed_cochlear_age_s_om (p=1, n=0, P=2, N=224)
+
+CR: IF m_gt_1k = {t} THEN class = mixed_cochlear_unk_discontinuity (p=1, n=0, P=2, N=224)
+
+CR: IF tymp = {ad} AND airBoneGap = {f} THEN class = mixed_cochlear_unk_discontinuity (p=2, n=0, P=2, N=224)
+
+CR: IF bser = {normal} AND air = {mild} THEN class = mixed_poss_central_om (p=1, n=0, P=1, N=225)
+
+CR: IF bser = {normal} AND air = {normal} THEN class = poss_central (p=1, n=0, P=1, N=225)

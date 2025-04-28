@@ -1,0 +1,10 @@
+
+CR: IF wage-increase-first-year >= 4.15 THEN class = good (p=22, n=1, P=37, N=20)
+
+CR: IF wage-increase-third-year >= 3.25 THEN class = good (p=10, n=0, P=37, N=20)
+
+CR: IF wage-increase-first-year >= 2.90 AND statutory-holidays >= 11.00 THEN class = good (p=26, n=1, P=37, N=20)
+
+CR: IF pension = {none} THEN class = bad (p=11, n=0, P=20, N=37)
+
+CR: IF wage-increase-first-year <= 2.65 AND working-hours >= 35.00 THEN class = bad (p=13, n=1, P=20, N=37)

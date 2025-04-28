@@ -1,0 +1,18 @@
+
+CR 0: IF age >= 17.50 AND vagina <= 0.50 AND npartner <= 3.50 AND iinfct >= 1.50 THEN survival_status = {1090.0} (p=466, n=0, P=877, N=0)
+RR 0: IF race = {W} THEN survival_status = {1168.0} (p=292, n=0, P=877, N=0)
+ER 0: IF age >= 17.50 AND vagina <= 0.50 AND npartner <= 3.50 AND iinfct >= 1.50 AND race = {W} THEN survival_status = {inf} (p=179, n=0, P=877, N=0)
+
+CR 1: IF age >= 17.50 AND vagina <= 0.50 AND npartner <= 3.50 AND age <= 42.00 THEN survival_status = {858.0} (p=534, n=0, P=877, N=0)
+
+CR 2: IF age >= 17.50 AND vagina <= 0.50 AND age <= 42.00 AND iinfct >= 1.50 THEN survival_status = {956.0} (p=469, n=0, P=877, N=0)
+RR 2: IF race = {W} THEN survival_status = {1168.0} (p=292, n=0, P=877, N=0)
+ER 2: IF age >= 17.50 AND vagina <= 0.50 AND age <= 42.00 AND iinfct >= 1.50 AND race = {W} THEN survival_status = {inf} (p=178, n=0, P=877, N=0)
+
+CR 3: IF age >= 17.50 AND age <= 42.00 AND iinfct >= 1.50 AND npartner <= 3.50 THEN survival_status = {890.0} (p=513, n=0, P=877, N=0)
+
+CR 4: IF age >= 17.50 AND age <= 42.00 AND npartner <= 14.50 THEN survival_status = {824.0} (p=605, n=0, P=877, N=0)
+
+CR 5: IF age <= 17.50 THEN survival_status = {400.0} (p=266, n=0, P=877, N=0)
+RR 5: IF dchexam <= 0.50 THEN survival_status = {390.0} (p=48, n=0, P=877, N=0)
+ER 5: IF age <= 17.50 AND dchexam <= 0.50 THEN survival_status = {225.0} (p=18, n=0, P=877, N=0)

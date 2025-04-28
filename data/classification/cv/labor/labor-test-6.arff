@@ -1,0 +1,27 @@
+@relation R_data_frame
+
+@attribute duration numeric
+@attribute wage-increase-first-year numeric
+@attribute wage-increase-second-year numeric
+@attribute wage-increase-third-year numeric
+@attribute cost-of-living-adjustment {none,tcf,tc}
+@attribute working-hours numeric
+@attribute pension {none,ret_allw,empl_contr}
+@attribute standby-pay numeric
+@attribute shift-differential numeric
+@attribute education-allowance {yes,no}
+@attribute statutory-holidays numeric
+@attribute vacation {below_average,average,generous}
+@attribute longterm-disability-assistance {yes,no}
+@attribute contribution-to-dental-plan {none,half,full}
+@attribute bereavement-assistance {yes,no}
+@attribute contribution-to-health-plan {none,half,full}
+@attribute class {bad,good}
+
+@data
+3,4.5,4.5,5,?,40,?,?,?,?,12,average,?,half,yes,half,good
+1,2.1,?,?,tc,40,ret_allw,2,3,no,9,below_average,yes,half,?,none,bad
+1,2,?,?,none,38,none,?,?,yes,11,average,no,none,no,none,bad
+2,4,5,?,tcf,35,?,13,5,?,15,generous,?,?,?,?,good
+3,3.5,4,4.6,tcf,27,?,?,?,?,?,?,?,?,?,?,good
+2,4.6,4.6,?,tcf,38,?,?,?,?,?,?,yes,half,?,half,good

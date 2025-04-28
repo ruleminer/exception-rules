@@ -1,0 +1,256 @@
+2025-03-05 13:01:05,540 - INFO - **********Starting experiment for gascons.arff with algorithm3**********
+2025-03-05 13:01:05,542 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:05,555 - INFO - Iteracja 0: condition_best: price_index_for_used_cars <= 0.98, quality_best: 0.679, coverage_best: (p=4, n=1, P=5, N=22)
+2025-03-05 13:01:05,555 - INFO - Regula po iteracji 0: IF price_index_for_used_cars <= 0.98 THEN class = {140.92} [128.20, 153.64], (p=4, n=1, P=5, N=22)
+2025-03-05 13:01:05,555 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:05,853 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:05,854 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:05,854 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:05,854 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:05,855 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:01:05,855 - INFO - Regula po iteracji 1: IF price_index_for_used_cars <= 0.98 THEN class = {140.92} [128.20, 153.64], (p=4, n=1, P=5, N=22)
+2025-03-05 13:01:05,855 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:05,856 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:05,865 - INFO - Iteracja 0: condition_best: year >= 1,970.50, quality_best: 0.638, coverage_best: (p=13, n=3, P=13, N=14)
+2025-03-05 13:01:05,865 - INFO - Regula po iteracji 0: IF year >= 1,970.50 THEN class = {238.94} [225.39, 252.49], (p=13, n=3, P=13, N=14)
+2025-03-05 13:01:05,866 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:06,191 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:06,192 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:06,192 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:06,192 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:06,197 - INFO - Iteracja 1: condition_best: disposable_income <= 9,730.00, quality_best: 0.6, coverage_best: (p=10, n=2, P=13, N=14)
+2025-03-05 13:01:06,197 - INFO - Regula po iteracji 1: IF year >= 1,970.50 AND disposable_income <= 9,730.00 THEN class = {237.30} [223.98, 250.62], (p=10, n=2, P=13, N=14)
+2025-03-05 13:01:06,198 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:06,521 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:06,521 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:06,522 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:06,522 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:06,526 - INFO - Iteracja 2: condition_best: year >= 1,971.50, quality_best: 0.63, coverage_best: (p=9, n=2, P=11, N=16)
+2025-03-05 13:01:06,526 - INFO - Regula po iteracji 2: IF year >= 1,970.50 AND disposable_income <= 9,730.00 AND year >= 1,971.50 THEN class = {239.03} [226.47, 251.59], (p=9, n=2, P=11, N=16)
+2025-03-05 13:01:06,526 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:06,851 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:06,851 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:06,851 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:06,851 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:06,855 - INFO - Iteracja 3: condition_best: disposable_income >= 492.00, quality_best: 0.683, coverage_best: (p=9, n=1, P=13, N=14)
+2025-03-05 13:01:06,855 - INFO - Regula po iteracji 3: IF year >= 1,970.50 AND disposable_income <= 9,730.00 AND year >= 1,971.50 AND disposable_income >= 492.00 THEN class = {238.46} [225.42, 251.50], (p=9, n=1, P=13, N=14)
+2025-03-05 13:01:06,855 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:07,180 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:07,180 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:07,180 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:07,180 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:07,184 - INFO - Iteracja 4: condition_best: disposable_income >= 671.50, quality_best: 0.635, coverage_best: (p=8, n=1, P=13, N=14)
+2025-03-05 13:01:07,184 - INFO - Regula po iteracji 4: IF year >= 1,970.50 AND disposable_income <= 9,730.00 AND year >= 1,971.50 AND disposable_income >= 492.00 AND disposable_income >= 671.50 THEN class = {237.64} [224.15, 251.14], (p=8, n=1, P=13, N=14)
+2025-03-05 13:01:07,184 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:07,497 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:07,497 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:07,497 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:07,497 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:07,497 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:07,500 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:07,509 - INFO - Iteracja 0: condition_best: year >= 1,970.50, quality_best: 0.638, coverage_best: (p=13, n=3, P=13, N=14)
+2025-03-05 13:01:07,509 - INFO - Regula po iteracji 0: IF year >= 1,970.50 THEN class = {238.94} [225.39, 252.49], (p=13, n=3, P=13, N=14)
+2025-03-05 13:01:07,509 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:07,837 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:07,837 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:07,838 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:07,838 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:07,843 - INFO - Iteracja 1: condition_best: disposable_income <= 9,879.50, quality_best: 0.591, coverage_best: (p=12, n=3, P=13, N=14)
+2025-03-05 13:01:07,843 - INFO - Regula po iteracji 1: IF year >= 1,970.50 AND disposable_income <= 9,879.50 THEN class = {238.89} [224.90, 252.89], (p=12, n=3, P=13, N=14)
+2025-03-05 13:01:07,843 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:08,168 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:08,168 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:08,168 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:08,168 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:08,174 - INFO - Iteracja 2: condition_best: price_index_for_used_cars <= 3.78, quality_best: 0.542, coverage_best: (p=11, n=3, P=13, N=14)
+2025-03-05 13:01:08,174 - INFO - Regula po iteracji 2: IF year >= 1,970.50 AND disposable_income <= 9,879.50 AND price_index_for_used_cars <= 3.78 THEN class = {238.40} [224.04, 252.76], (p=11, n=3, P=13, N=14)
+2025-03-05 13:01:08,174 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:08,498 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:08,498 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:08,498 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:08,499 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:08,504 - INFO - Iteracja 3: condition_best: year <= 1,985.00, quality_best: 0.437, coverage_best: (p=9, n=4, P=11, N=16)
+2025-03-05 13:01:08,504 - INFO - Regula po iteracji 3: IF year >= 1,970.50 AND disposable_income <= 9,879.50 AND price_index_for_used_cars <= 3.78 AND year <= 1,985.00 THEN class = {236.02} [224.08, 247.95], (p=9, n=4, P=11, N=16)
+2025-03-05 13:01:08,504 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:08,827 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:08,827 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:08,827 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:08,827 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:08,832 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:01:08,832 - INFO - Regula po iteracji 4: IF year >= 1,970.50 AND disposable_income <= 9,879.50 AND price_index_for_used_cars <= 3.78 AND year <= 1,985.00 THEN class = {236.02} [224.08, 247.95], (p=9, n=4, P=11, N=16)
+2025-03-05 13:01:08,832 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:08,833 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:08,842 - INFO - Iteracja 0: condition_best: year <= 1,970.50, quality_best: 0.509, coverage_best: (p=7, n=4, P=7, N=20)
+2025-03-05 13:01:08,842 - INFO - Regula po iteracji 0: IF year <= 1,970.50 THEN class = {160.63} [135.47, 185.79], (p=7, n=4, P=7, N=20)
+2025-03-05 13:01:08,842 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:09,145 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:09,146 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:09,146 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:09,146 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:09,149 - INFO - Iteracja 1: condition_best: year >= 1,964.50, quality_best: 0.609, coverage_best: (p=4, n=2, P=4, N=23)
+2025-03-05 13:01:09,150 - INFO - Regula po iteracji 1: IF year <= 1,970.50 AND year >= 1,964.50 THEN class = {179.73} [161.93, 197.53], (p=4, n=2, P=4, N=23)
+2025-03-05 13:01:09,150 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:09,447 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:09,447 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:09,447 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:09,447 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:09,449 - INFO - Iteracja 2: condition_best: price_index_for_used_cars >= 0.98, quality_best: 0.464, coverage_best: (p=3, n=2, P=4, N=23)
+2025-03-05 13:01:09,449 - INFO - Regula po iteracji 2: IF year <= 1,970.50 AND year >= 1,964.50 AND price_index_for_used_cars >= 0.98 THEN class = {182.70} [164.60, 200.80], (p=3, n=2, P=4, N=23)
+2025-03-05 13:01:09,450 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:09,744 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:09,744 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:09,744 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:09,744 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:09,746 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:01:09,746 - INFO - Regula po iteracji 3: IF year <= 1,970.50 AND year >= 1,964.50 AND price_index_for_used_cars >= 0.98 THEN class = {182.70} [164.60, 200.80], (p=3, n=2, P=4, N=23)
+2025-03-05 13:01:09,746 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:09,746 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:09,756 - INFO - Iteracja 0: condition_best: disposable_income <= 671.50, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=25)
+2025-03-05 13:01:09,756 - INFO - Regula po iteracji 0: IF disposable_income <= 671.50 THEN class = {245.25} [244.70, 245.80], (p=2, n=0, P=2, N=25)
+2025-03-05 13:01:09,756 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,048 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,048 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,048 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,048 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,049 - INFO - Iteracja 1: condition_best: year <= 1,984.50, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=26)
+2025-03-05 13:01:10,049 - INFO - Regula po iteracji 1: IF disposable_income <= 671.50 AND year <= 1,984.50 THEN class = {244.70} [244.70, 244.70], (p=1, n=0, P=1, N=26)
+2025-03-05 13:01:10,049 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,337 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,338 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,338 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,338 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,338 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:01:10,338 - INFO - Regula po iteracji 2: IF disposable_income <= 671.50 AND year <= 1,984.50 THEN class = {244.70} [244.70, 244.70], (p=1, n=0, P=1, N=26)
+2025-03-05 13:01:10,338 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:10,340 - INFO - ************************Finished experiment for gascons.arff with algorithm3************************
+2025-03-05 13:01:10,340 - INFO - *************************************************************************************************************************
+2025-03-05 13:01:10,340 - INFO - *************************************************************************************************************************
+2025-03-05 13:01:10,340 - INFO - *************************************************************************************************************************
+2025-03-05 13:01:10,341 - INFO - **********Starting experiment for gascons.arff with algorithm4**********
+2025-03-05 13:01:10,343 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:10,356 - INFO - Iteracja 0: condition_best: price_index_for_used_cars <= 0.98, quality_best: 0.679, coverage_best: (p=4, n=1, P=5, N=22)
+2025-03-05 13:01:10,356 - INFO - Regula po iteracji 0: IF price_index_for_used_cars <= 0.98 THEN class = {140.92} [128.20, 153.64], (p=4, n=1, P=5, N=22)
+2025-03-05 13:01:10,356 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,375 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,375 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,375 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,375 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,377 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:01:10,377 - INFO - Regula po iteracji 1: IF price_index_for_used_cars <= 0.98 THEN class = {140.92} [128.20, 153.64], (p=4, n=1, P=5, N=22)
+2025-03-05 13:01:10,377 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:10,377 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:10,387 - INFO - Iteracja 0: condition_best: year >= 1,970.50, quality_best: 0.638, coverage_best: (p=13, n=3, P=13, N=14)
+2025-03-05 13:01:10,387 - INFO - Regula po iteracji 0: IF year >= 1,970.50 THEN class = {238.94} [225.39, 252.49], (p=13, n=3, P=13, N=14)
+2025-03-05 13:01:10,387 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,406 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,406 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,406 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,406 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,412 - INFO - Iteracja 1: condition_best: disposable_income <= 9,730.00, quality_best: 0.6, coverage_best: (p=10, n=2, P=13, N=14)
+2025-03-05 13:01:10,412 - INFO - Regula po iteracji 1: IF year >= 1,970.50 AND disposable_income <= 9,730.00 THEN class = {237.30} [223.98, 250.62], (p=10, n=2, P=13, N=14)
+2025-03-05 13:01:10,412 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,431 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,431 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,431 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,431 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,435 - INFO - Iteracja 2: condition_best: year >= 1,971.50, quality_best: 0.63, coverage_best: (p=9, n=2, P=11, N=16)
+2025-03-05 13:01:10,435 - INFO - Regula po iteracji 2: IF year >= 1,970.50 AND disposable_income <= 9,730.00 AND year >= 1,971.50 THEN class = {239.03} [226.47, 251.59], (p=9, n=2, P=11, N=16)
+2025-03-05 13:01:10,436 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,454 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,454 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,455 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,455 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,459 - INFO - Iteracja 3: condition_best: disposable_income >= 492.00, quality_best: 0.683, coverage_best: (p=9, n=1, P=13, N=14)
+2025-03-05 13:01:10,459 - INFO - Regula po iteracji 3: IF year >= 1,970.50 AND disposable_income <= 9,730.00 AND year >= 1,971.50 AND disposable_income >= 492.00 THEN class = {238.46} [225.42, 251.50], (p=9, n=1, P=13, N=14)
+2025-03-05 13:01:10,459 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,478 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,478 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,478 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,478 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,482 - INFO - Iteracja 4: condition_best: disposable_income >= 671.50, quality_best: 0.635, coverage_best: (p=8, n=1, P=13, N=14)
+2025-03-05 13:01:10,482 - INFO - Regula po iteracji 4: IF year >= 1,970.50 AND disposable_income <= 9,730.00 AND year >= 1,971.50 AND disposable_income >= 492.00 AND disposable_income >= 671.50 THEN class = {237.64} [224.15, 251.14], (p=8, n=1, P=13, N=14)
+2025-03-05 13:01:10,482 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,501 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,501 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,501 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,501 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,501 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:10,503 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:10,513 - INFO - Iteracja 0: condition_best: year >= 1,970.50, quality_best: 0.638, coverage_best: (p=13, n=3, P=13, N=14)
+2025-03-05 13:01:10,513 - INFO - Regula po iteracji 0: IF year >= 1,970.50 THEN class = {238.94} [225.39, 252.49], (p=13, n=3, P=13, N=14)
+2025-03-05 13:01:10,513 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,532 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,532 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,532 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,532 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,538 - INFO - Iteracja 1: condition_best: disposable_income <= 9,879.50, quality_best: 0.591, coverage_best: (p=12, n=3, P=13, N=14)
+2025-03-05 13:01:10,538 - INFO - Regula po iteracji 1: IF year >= 1,970.50 AND disposable_income <= 9,879.50 THEN class = {238.89} [224.90, 252.89], (p=12, n=3, P=13, N=14)
+2025-03-05 13:01:10,538 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,557 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,557 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,557 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,557 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,563 - INFO - Iteracja 2: condition_best: price_index_for_used_cars <= 3.78, quality_best: 0.542, coverage_best: (p=11, n=3, P=13, N=14)
+2025-03-05 13:01:10,563 - INFO - Regula po iteracji 2: IF year >= 1,970.50 AND disposable_income <= 9,879.50 AND price_index_for_used_cars <= 3.78 THEN class = {238.40} [224.04, 252.76], (p=11, n=3, P=13, N=14)
+2025-03-05 13:01:10,563 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,582 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,582 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,582 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,582 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,587 - INFO - Iteracja 3: condition_best: year <= 1,985.00, quality_best: 0.437, coverage_best: (p=9, n=4, P=11, N=16)
+2025-03-05 13:01:10,587 - INFO - Regula po iteracji 3: IF year >= 1,970.50 AND disposable_income <= 9,879.50 AND price_index_for_used_cars <= 3.78 AND year <= 1,985.00 THEN class = {236.02} [224.08, 247.95], (p=9, n=4, P=11, N=16)
+2025-03-05 13:01:10,587 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,606 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,606 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,606 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,606 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,611 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:01:10,611 - INFO - Regula po iteracji 4: IF year >= 1,970.50 AND disposable_income <= 9,879.50 AND price_index_for_used_cars <= 3.78 AND year <= 1,985.00 THEN class = {236.02} [224.08, 247.95], (p=9, n=4, P=11, N=16)
+2025-03-05 13:01:10,611 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:10,612 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:10,621 - INFO - Iteracja 0: condition_best: year <= 1,970.50, quality_best: 0.509, coverage_best: (p=7, n=4, P=7, N=20)
+2025-03-05 13:01:10,621 - INFO - Regula po iteracji 0: IF year <= 1,970.50 THEN class = {160.63} [135.47, 185.79], (p=7, n=4, P=7, N=20)
+2025-03-05 13:01:10,621 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,640 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,640 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,640 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,640 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,644 - INFO - Iteracja 1: condition_best: year >= 1,964.50, quality_best: 0.609, coverage_best: (p=4, n=2, P=4, N=23)
+2025-03-05 13:01:10,644 - INFO - Regula po iteracji 1: IF year <= 1,970.50 AND year >= 1,964.50 THEN class = {179.73} [161.93, 197.53], (p=4, n=2, P=4, N=23)
+2025-03-05 13:01:10,644 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,663 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,664 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,664 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,664 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,666 - INFO - Iteracja 2: condition_best: price_index_for_used_cars >= 0.98, quality_best: 0.464, coverage_best: (p=3, n=2, P=4, N=23)
+2025-03-05 13:01:10,666 - INFO - Regula po iteracji 2: IF year <= 1,970.50 AND year >= 1,964.50 AND price_index_for_used_cars >= 0.98 THEN class = {182.70} [164.60, 200.80], (p=3, n=2, P=4, N=23)
+2025-03-05 13:01:10,666 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,685 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,685 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,685 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,685 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,687 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:01:10,687 - INFO - Regula po iteracji 3: IF year <= 1,970.50 AND year >= 1,964.50 AND price_index_for_used_cars >= 0.98 THEN class = {182.70} [164.60, 200.80], (p=3, n=2, P=4, N=23)
+2025-03-05 13:01:10,687 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:10,688 - INFO - *******GROWING CR RULE*******
+2025-03-05 13:01:10,697 - INFO - Iteracja 0: condition_best: disposable_income <= 671.50, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=25)
+2025-03-05 13:01:10,697 - INFO - Regula po iteracji 0: IF disposable_income <= 671.50 THEN class = {245.25} [244.70, 245.80], (p=2, n=0, P=2, N=25)
+2025-03-05 13:01:10,698 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,717 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,717 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,717 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,717 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,717 - INFO - Iteracja 1: condition_best: year <= 1,984.50, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=26)
+2025-03-05 13:01:10,717 - INFO - Regula po iteracji 1: IF disposable_income <= 671.50 AND year <= 1,984.50 THEN class = {244.70} [244.70, 244.70], (p=1, n=0, P=1, N=26)
+2025-03-05 13:01:10,718 - INFO - *****GROWING RR RULE*****
+2025-03-05 13:01:10,737 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2025-03-05 13:01:10,737 - INFO - Regula po iteracji 0: IF  THEN class = {207.03} [164.05, 250.01], (p=19, n=8, P=19, N=8)
+2025-03-05 13:01:10,737 - INFO - *****STOP GROWING RR RULE*****
+2025-03-05 13:01:10,737 - INFO - ***RR NOT FOUND***
+2025-03-05 13:01:10,737 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2025-03-05 13:01:10,737 - INFO - Regula po iteracji 2: IF disposable_income <= 671.50 AND year <= 1,984.50 THEN class = {244.70} [244.70, 244.70], (p=1, n=0, P=1, N=26)
+2025-03-05 13:01:10,737 - INFO - *******STOP GROWING CR RULE*******
+2025-03-05 13:01:10,739 - INFO - ************************Finished experiment for gascons.arff with algorithm4************************
+2025-03-05 13:01:10,739 - INFO - *************************************************************************************************************************
+2025-03-05 13:01:10,739 - INFO - *************************************************************************************************************************
+2025-03-05 13:01:10,739 - INFO - *************************************************************************************************************************

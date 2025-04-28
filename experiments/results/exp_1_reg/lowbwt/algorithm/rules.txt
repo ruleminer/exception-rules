@@ -1,0 +1,20 @@
+
+CR 0: IF LOW = {1} AND LWT >= 90.00 THEN class = {2,106.93} [1,718.41, 2,495.45] (p=49, n=7, P=51, N=138)
+
+CR 1: IF LWT <= 90.50 AND SMOKE = {1} THEN class = {2,880.20} [2,541.64, 3,218.76] (p=4, n=1, P=58, N=131)
+
+CR 2: IF LOW = {0} AND LWT <= 101.50 AND PTL = {0} THEN class = {3,000.82} [2,649.42, 3,352.22] (p=10, n=1, P=65, N=124)
+
+CR 3: IF LOW = {0} AND LWT >= 122.50 AND AGE >= 15.00 THEN class = {3,408.69} [2,953.97, 3,863.41] (p=48, n=19, P=78, N=111)
+
+CR 4: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND RACE = {2} AND HT = {0} THEN class = {3,182.17} [2,898.07, 3,466.26] (p=11, n=1, P=55, N=134)
+
+CR 5: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 AND AGE <= 24.50 THEN class = {3,435.33} [3,035.29, 3,835.37] (p=42, n=16, P=68, N=121)
+
+CR 6: IF LOW = {0} AND AGE >= 15.50 AND UI = {0} AND LWT >= 107.00 THEN class = {3,406.38} [2,945.94, 3,866.83] (p=69, n=33, P=80, N=109)
+
+CR 7: IF LOW = {0} AND AGE >= 15.50 AND LWT >= 107.50 THEN class = {3,381.44} [2,914.74, 3,848.14] (p=73, n=37, P=81, N=108)
+
+CR 8: IF LOW = {0} AND LWT >= 101.50 AND LWT <= 109.50 THEN class = {2,868.25} [2,524.38, 3,212.12] (p=7, n=1, P=58, N=131)
+
+CR 9: IF PTL = {3} THEN class = {3,637.00} [3,637.00, 3,637.00] (p=1, n=0, P=1, N=188)

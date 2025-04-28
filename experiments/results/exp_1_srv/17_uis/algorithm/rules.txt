@@ -1,0 +1,6 @@
+
+CR 0: IF FRAC >= 0.09 THEN survival_status = {180.0} (p=548, n=0, P=575, N=0)
+
+CR 1: IF FRAC <= 0.94 THEN survival_status = {106.0} (p=348, n=0, P=575, N=0)
+RR 1: IF NDT >= 5.50 AND FRAC <= 1.56 THEN survival_status = {121.0} (p=144, n=0, P=575, N=0)
+ER 1: IF FRAC <= 0.94 AND NDT >= 5.50 AND FRAC <= 1.56 THEN survival_status = {80.0} (p=100, n=0, P=575, N=0)
