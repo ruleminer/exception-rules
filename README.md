@@ -1,7 +1,7 @@
 # Exception-Rules
 
 This repository contains the datasets, algorithm implementations, and experimental results associated with the article "Discovering Exception Rules via Sequential Covering in
-Classification, Regression, and Survival Data" submitted to the ECAI 2025 conference.
+Classification, Regression, and Survival Data".
 
 ## Repository Structure
 
@@ -47,4 +47,4 @@ Classification, Regression, and Survival Data" submitted to the ECAI 2025 confer
 
 ## Additional Information
 
-The code and datasets contained in this repository are intended solely for research and academic purposes in relation to the ECAI 2025 conference submission.
+The code and datasets contained in this repository are intended solely for research and academic purposes.
