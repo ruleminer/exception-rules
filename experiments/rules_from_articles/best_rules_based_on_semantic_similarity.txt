@@ -1,0 +1,52 @@
+CR
+
+Our approach vs MEPRO 
+Similarity 0.56
+IF odor = {n} THEN class = {e}
+IF gill-size = {b} THEN class = {e}
+
+Our approach vs MEPROUX
+Similarity 0.63
+IF gill-size = {n} THEN class = {p}
+IF bruises = {f} AND gill-attachment = {f} AND ring-number = {o} THEN class = {p}
+
+Our approach vs Hussain
+Similarity 0.52
+IF gill-size = {n} THEN class = {p}
+IF stalk-root = {?} THEN class = {p}
+
+ 
+Our approach vs Ant colony 
+Similarity 1.0
+IF odor = {n} THEN class = {e}
+IF odor = {n} THEN class = {e}
+
+
+
+Dla tych reguł ER
+
+
+Our approach vs MEPRO 
+0.0
+IF odor = {n} AND stalk-root = {c} THEN class = {p}
+IF gill-size = {b} AND odor = {f} THEN class = {p}
+
+Our approach vs MEPROUX
+0.0
+IF gill-size = {n} AND spore-print-color = {h} THEN class = {e}
+IF bruises = {f} AND gill-attachment = {f} AND ring-number = {o} AND stalk-surface-above-ring = {f} THEN class = {e}
+
+Our approach vs Hussain
+0.0
+IF gill-size = {n} AND spore-print-color = {h} THEN class = {e}
+IF stalk-root = {?} AND bruises = {f} AND gill-size = {b} AND stalk-shape = {e} AND veil-type = {p} THEN class = {e} 
+
+ 
+Our approach vs Ant colony 
+1.0
+IF odor = {n} AND stalk-root = {c} THEN class = {p}
+IF odor = {n} AND stalk-color-above-ring = {y} THEN class = {p}
+
+
+
+

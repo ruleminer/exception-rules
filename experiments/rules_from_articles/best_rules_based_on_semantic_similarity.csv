@@ -1,0 +1,41 @@
+Algorithm, CR rule, Similarity
+                MEPRO
+Our approach, IF odor = {n} THEN class = {e}, 0.56
+MEPRO, IF gill-size = {b} THEN class = {e}, 0.56
+                MEPROUX
+Our approach, IF gill-size = {n} THEN class = {p},0.63
+MEPROUX, IF bruises = {f} AND gill-attachment = {f} AND ring-number = {o} THEN class = {p}, 0.63
+                Hussain
+Our approach, IF gill-size = {n} THEN class = {p}, 0.52
+Hussain, IF stalk-root = {?} THEN class = {p}, 0.52
+                Ant colony
+Our approach, IF odor = {n} THEN class = {e}, 1
+Ant colony, IF odor = {n} THEN class = {e}, 1 
+
+
+
+
+Our approach vs MEPRO 
+Similarity 0.56
+IF odor = {n} THEN class = {e}
+IF gill-size = {b} THEN class = {e}
+
+Our approach vs MEPROUX
+Similarity 0.63
+IF gill-size = {n} THEN class = {p}
+IF bruises = {f} AND gill-attachment = {f} AND ring-number = {o} THEN class = {p}
+
+Our approach vs Hussain
+Similarity 0.52
+IF gill-size = {n} THEN class = {p}
+IF stalk-root = {?} THEN class = {p}
+
+ 
+Our approach vs Ant colony 
+Similarity 1.0
+IF odor = {n} THEN class = {e}
+IF odor = {n} THEN class = {e}
+
+
+
+

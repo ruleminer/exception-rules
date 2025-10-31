@@ -1,0 +1,26 @@
+Ant colony 
+CR: IF bruises = {t} THEN class = e (p=2752, n=624, P=4208, N=3916), GACE: 0.033, RI: 2.46, RES: 0.606
+RR: IF spore-print-color = {r} THEN class = p (p=72, n=0, P=3916, N=4208) 
+ER: IF bruises = {t} AND spore-print-color = {r} THEN class = p (p=72, n=0, P=3916, N=4208) 
+
+MEPRO 
+CR: IF bruises = {f} AND gill-attachment = {f} AND ring-number = {o} THEN class = p (p=3256, n=960, P=3916, N=4208), GACE: 0.119, RI: 2.367, RES: 0.903
+RR: IF odor = {n} AND stalk-color-below-ring = {w} THEN class = e (p=1904, n=80, P=4208, N=3916) 
+ER: IF bruises = {f} AND gill-attachment = {f} AND ring-number = {o} AND odor = {n} AND stalk-color-below-ring = {w} THEN class = e (p=912, n=0, P=4208, N=3916) 
+
+
+MEPROUX
+CR: IF bruises = {f} AND gill-attachment = {f} AND ring-number = {o} THEN class = p (p=3256, n=960, P=3916, N=4208), GACE: 0.079, RI: 2.68, RES: 0.772
+RR: IF stalk-surface-above-ring = {f} THEN class = e (p=408, n=144, P=4208, N=3916) 
+ER: IF bruises = {f} AND gill-attachment = {f} AND ring-number = {o} AND stalk-surface-above-ring = {f} THEN class = e (p=408, n=0, P=4208, N=3916) 
+
+Hussain
+CR: IF stalk-root = {?} THEN class = p (p=1760, n=720, P=3916, N=4208), GACE: 0.051, RI: 3.818, RES: 0.641
+RR: IF bruises = {f} AND gill-size = {b} AND stalk-shape = {e} AND veil-type = {p} THEN class = e (p=496, n=1332, P=4208, N=3916) 
+ER: IF stalk-root = {?} AND bruises = {f} AND gill-size = {b} AND stalk-shape = {e} AND veil-type = {p} THEN class = e (p=480, n=0, P=4208, N=3916) 
+
+
+Our approach
+CR: IF gill-size = {n} THEN class = p (p=2224, n=288, P=3916, N=4208), GACE: 0.03, RI: 3.164, RES: 0.576
+RR: IF spore-print-color = {h} THEN class = p (p=1584, n=48, P=3916, N=4208) 
+ER: IF gill-size = {n} AND spore-print-color = {h} THEN class = e (p=48, n=0, P=4208, N=3916) 
