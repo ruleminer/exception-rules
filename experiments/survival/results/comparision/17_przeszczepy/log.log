@@ -1,0 +1,167 @@
+2026-04-08 10:48:45,901 - INFO - **********Starting experiment for 17_przeszczepy.arff with algorithm_rulekit**********
+2026-04-08 10:48:47,160 - INFO - ************************Finished experiment for 17_przeszczepy.arff with algorithm_rulekit************************
+2026-04-08 10:48:47,160 - INFO - *************************************************************************************************************************
+2026-04-08 10:48:47,160 - INFO - *************************************************************************************************************************
+2026-04-08 10:48:47,160 - INFO - *************************************************************************************************************************
+2026-04-08 10:48:47,161 - INFO - **********Starting experiment for 17_przeszczepy.arff with algorithm_log_rank**********
+2026-04-08 10:48:47,179 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:48:49,808 - INFO - Iteracja 0: condition_best: PLTrecovery <= 500,123.50, quality_best: 1.0, coverage_best: (p=115, n=0, P=130, N=0)
+2026-04-08 10:48:49,812 - INFO - Regula po iteracji 0: IF PLTrecovery <= 500,123.50 THEN survival_status = {nan}, (p=115, n=0, P=130, N=0)
+2026-04-08 10:48:52,474 - INFO - Iteracja 1: condition_best: CD34kgx10d6 <= 46.31, quality_best: 1.0, coverage_best: (p=114, n=0, P=130, N=0)
+2026-04-08 10:48:52,478 - INFO - Regula po iteracji 1: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 THEN survival_status = {inf}, (p=114, n=0, P=130, N=0)
+2026-04-08 10:48:55,224 - INFO - Iteracja 2: condition_best: Recipientage <= 19.25, quality_best: 1.0, coverage_best: (p=113, n=0, P=130, N=0)
+2026-04-08 10:48:55,229 - INFO - Regula po iteracji 2: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 THEN survival_status = {inf}, (p=113, n=0, P=130, N=0)
+2026-04-08 10:48:58,032 - INFO - Iteracja 3: condition_best: Recipientage <= 18.30, quality_best: 1.0, coverage_best: (p=112, n=0, P=130, N=0)
+2026-04-08 10:48:58,036 - INFO - Regula po iteracji 3: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 AND Recipientage <= 18.30 THEN survival_status = {inf}, (p=112, n=0, P=130, N=0)
+2026-04-08 10:49:00,928 - INFO - Iteracja 4: condition_best: CD34kgx10d6 >= 1.05, quality_best: 1.0, coverage_best: (p=111, n=0, P=130, N=0)
+2026-04-08 10:49:00,932 - INFO - Regula po iteracji 4: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 AND Recipientage <= 18.30 AND CD34kgx10d6 >= 1.05 THEN survival_status = {inf}, (p=111, n=0, P=130, N=0)
+2026-04-08 10:49:00,932 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:49:00,936 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:49:02,916 - INFO - Iteracja 0: condition_best: PLTrecovery >= 500,123.50, quality_best: 1.0, coverage_best: (p=15, n=0, P=130, N=0)
+2026-04-08 10:49:02,921 - INFO - Regula po iteracji 0: IF PLTrecovery >= 500,123.50 THEN survival_status = {nan}, (p=15, n=0, P=130, N=0)
+2026-04-08 10:49:03,286 - INFO - Iteracja 1: condition_best: RecipientRh = {1}, quality_best: 1.0, coverage_best: (p=14, n=0, P=130, N=0)
+2026-04-08 10:49:03,290 - INFO - Regula po iteracji 1: IF PLTrecovery >= 500,123.50 AND RecipientRh = {1} THEN survival_status = {42.0}, (p=14, n=0, P=130, N=0)
+2026-04-08 10:49:03,648 - INFO - Iteracja 2: condition_best: Txpostrelapse = {0}, quality_best: 1.0, coverage_best: (p=13, n=0, P=130, N=0)
+2026-04-08 10:49:03,652 - INFO - Regula po iteracji 2: IF PLTrecovery >= 500,123.50 AND RecipientRh = {1} AND Txpostrelapse = {0} THEN survival_status = {41.0}, (p=13, n=0, P=130, N=0)
+2026-04-08 10:49:04,005 - INFO - Iteracja 3: condition_best: Gendermatch = {0}, quality_best: 1.0, coverage_best: (p=12, n=0, P=130, N=0)
+2026-04-08 10:49:04,008 - INFO - Regula po iteracji 3: IF PLTrecovery >= 500,123.50 AND RecipientRh = {1} AND Txpostrelapse = {0} AND Gendermatch = {0} THEN survival_status = {41.0}, (p=12, n=0, P=130, N=0)
+2026-04-08 10:49:04,350 - INFO - Iteracja 4: condition_best: Relapse = {0}, quality_best: 1.0, coverage_best: (p=12, n=0, P=130, N=0)
+2026-04-08 10:49:04,354 - INFO - Regula po iteracji 4: IF PLTrecovery >= 500,123.50 AND RecipientRh = {1} AND Txpostrelapse = {0} AND Gendermatch = {0} AND Relapse = {0} THEN survival_status = {35.0}, (p=12, n=0, P=130, N=0)
+2026-04-08 10:49:04,354 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:49:04,357 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:49:06,231 - INFO - Iteracja 0: condition_best: PLTrecovery <= 500,123.50, quality_best: 1.0, coverage_best: (p=115, n=0, P=130, N=0)
+2026-04-08 10:49:06,235 - INFO - Regula po iteracji 0: IF PLTrecovery <= 500,123.50 THEN survival_status = {nan}, (p=115, n=0, P=130, N=0)
+2026-04-08 10:49:08,229 - INFO - Iteracja 1: condition_best: CD34kgx10d6 <= 46.31, quality_best: 1.0, coverage_best: (p=114, n=0, P=130, N=0)
+2026-04-08 10:49:08,233 - INFO - Regula po iteracji 1: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 THEN survival_status = {inf}, (p=114, n=0, P=130, N=0)
+2026-04-08 10:49:10,301 - INFO - Iteracja 2: condition_best: Recipientage <= 19.25, quality_best: 1.0, coverage_best: (p=113, n=0, P=130, N=0)
+2026-04-08 10:49:10,305 - INFO - Regula po iteracji 2: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 THEN survival_status = {inf}, (p=113, n=0, P=130, N=0)
+2026-04-08 10:49:12,440 - INFO - Iteracja 3: condition_best: Recipientage <= 18.30, quality_best: 1.0, coverage_best: (p=112, n=0, P=130, N=0)
+2026-04-08 10:49:12,444 - INFO - Regula po iteracji 3: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 AND Recipientage <= 18.30 THEN survival_status = {inf}, (p=112, n=0, P=130, N=0)
+2026-04-08 10:49:14,662 - INFO - Iteracja 4: condition_best: CD34kgx10d6 >= 1.05, quality_best: 1.0, coverage_best: (p=111, n=0, P=130, N=0)
+2026-04-08 10:49:14,666 - INFO - Regula po iteracji 4: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 AND Recipientage <= 18.30 AND CD34kgx10d6 >= 1.05 THEN survival_status = {inf}, (p=111, n=0, P=130, N=0)
+2026-04-08 10:49:14,666 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:49:15,499 - INFO - ************************Finished experiment for 17_przeszczepy.arff with algorithm_log_rank************************
+2026-04-08 10:49:15,499 - INFO - *************************************************************************************************************************
+2026-04-08 10:49:15,499 - INFO - *************************************************************************************************************************
+2026-04-08 10:49:15,499 - INFO - *************************************************************************************************************************
+2026-04-08 10:49:15,500 - INFO - **********Starting experiment for 17_przeszczepy.arff with algorithm_log_rank_with_exceptions**********
+2026-04-08 10:49:15,517 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:49:18,126 - INFO - Iteracja 0: condition_best: PLTrecovery <= 500,123.50, quality_best: 1.0, coverage_best: (p=115, n=0, P=130, N=0)
+2026-04-08 10:49:18,130 - INFO - Regula po iteracji 0: IF PLTrecovery <= 500,123.50 THEN survival_status = {nan}, (p=115, n=0, P=130, N=0)
+2026-04-08 10:49:18,130 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:49:25,105 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:49:25,109 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:49:25,109 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:49:25,109 - INFO - ***RR NOT FOUND***
+2026-04-08 10:49:27,765 - INFO - Iteracja 1: condition_best: CD34kgx10d6 <= 46.31, quality_best: 1.0, coverage_best: (p=114, n=0, P=130, N=0)
+2026-04-08 10:49:27,769 - INFO - Regula po iteracji 1: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 THEN survival_status = {inf}, (p=114, n=0, P=130, N=0)
+2026-04-08 10:49:27,769 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:49:34,747 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:49:34,751 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:49:34,751 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:49:34,751 - INFO - ***RR NOT FOUND***
+2026-04-08 10:49:37,481 - INFO - Iteracja 2: condition_best: Recipientage <= 19.25, quality_best: 1.0, coverage_best: (p=113, n=0, P=130, N=0)
+2026-04-08 10:49:37,485 - INFO - Regula po iteracji 2: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 THEN survival_status = {inf}, (p=113, n=0, P=130, N=0)
+2026-04-08 10:49:37,485 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:49:44,412 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:49:44,415 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:49:44,415 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:49:44,415 - INFO - ***RR NOT FOUND***
+2026-04-08 10:49:47,214 - INFO - Iteracja 3: condition_best: Recipientage <= 18.30, quality_best: 1.0, coverage_best: (p=112, n=0, P=130, N=0)
+2026-04-08 10:49:47,219 - INFO - Regula po iteracji 3: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 AND Recipientage <= 18.30 THEN survival_status = {inf}, (p=112, n=0, P=130, N=0)
+2026-04-08 10:49:47,219 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:49:54,179 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:49:54,182 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:49:54,182 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:49:54,182 - INFO - ***RR NOT FOUND***
+2026-04-08 10:49:57,067 - INFO - Iteracja 4: condition_best: CD34kgx10d6 >= 1.05, quality_best: 1.0, coverage_best: (p=111, n=0, P=130, N=0)
+2026-04-08 10:49:57,071 - INFO - Regula po iteracji 4: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 AND Recipientage <= 18.30 AND CD34kgx10d6 >= 1.05 THEN survival_status = {inf}, (p=111, n=0, P=130, N=0)
+2026-04-08 10:49:57,071 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:50:04,016 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:50:04,020 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:50:04,020 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:50:04,020 - INFO - ***RR NOT FOUND***
+2026-04-08 10:50:04,020 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:50:04,024 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:50:05,999 - INFO - Iteracja 0: condition_best: PLTrecovery >= 500,123.50, quality_best: 1.0, coverage_best: (p=15, n=0, P=130, N=0)
+2026-04-08 10:50:06,003 - INFO - Regula po iteracji 0: IF PLTrecovery >= 500,123.50 THEN survival_status = {nan}, (p=15, n=0, P=130, N=0)
+2026-04-08 10:50:06,003 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:50:11,302 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:50:11,305 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:50:11,305 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:50:11,305 - INFO - ***RR NOT FOUND***
+2026-04-08 10:50:11,668 - INFO - Iteracja 1: condition_best: RecipientRh = {1}, quality_best: 1.0, coverage_best: (p=14, n=0, P=130, N=0)
+2026-04-08 10:50:11,672 - INFO - Regula po iteracji 1: IF PLTrecovery >= 500,123.50 AND RecipientRh = {1} THEN survival_status = {42.0}, (p=14, n=0, P=130, N=0)
+2026-04-08 10:50:11,672 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:50:17,111 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:50:17,115 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:50:17,115 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:50:17,115 - INFO - ***RR NOT FOUND***
+2026-04-08 10:50:17,474 - INFO - Iteracja 2: condition_best: Txpostrelapse = {0}, quality_best: 1.0, coverage_best: (p=13, n=0, P=130, N=0)
+2026-04-08 10:50:17,478 - INFO - Regula po iteracji 2: IF PLTrecovery >= 500,123.50 AND RecipientRh = {1} AND Txpostrelapse = {0} THEN survival_status = {41.0}, (p=13, n=0, P=130, N=0)
+2026-04-08 10:50:17,478 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:50:22,732 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:50:22,735 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:50:22,736 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:50:22,736 - INFO - ***RR NOT FOUND***
+2026-04-08 10:50:23,092 - INFO - Iteracja 3: condition_best: Gendermatch = {0}, quality_best: 1.0, coverage_best: (p=12, n=0, P=130, N=0)
+2026-04-08 10:50:23,095 - INFO - Regula po iteracji 3: IF PLTrecovery >= 500,123.50 AND RecipientRh = {1} AND Txpostrelapse = {0} AND Gendermatch = {0} THEN survival_status = {41.0}, (p=12, n=0, P=130, N=0)
+2026-04-08 10:50:23,096 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:50:28,334 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:50:28,337 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:50:28,337 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:50:28,337 - INFO - ***RR NOT FOUND***
+2026-04-08 10:50:28,681 - INFO - Iteracja 4: condition_best: Relapse = {0}, quality_best: 1.0, coverage_best: (p=12, n=0, P=130, N=0)
+2026-04-08 10:50:28,684 - INFO - Regula po iteracji 4: IF PLTrecovery >= 500,123.50 AND RecipientRh = {1} AND Txpostrelapse = {0} AND Gendermatch = {0} AND Relapse = {0} THEN survival_status = {35.0}, (p=12, n=0, P=130, N=0)
+2026-04-08 10:50:28,685 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:50:33,964 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:50:33,967 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:50:33,967 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:50:33,967 - INFO - ***RR NOT FOUND***
+2026-04-08 10:50:33,968 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:50:33,971 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:50:35,863 - INFO - Iteracja 0: condition_best: PLTrecovery <= 500,123.50, quality_best: 1.0, coverage_best: (p=115, n=0, P=130, N=0)
+2026-04-08 10:50:35,867 - INFO - Regula po iteracji 0: IF PLTrecovery <= 500,123.50 THEN survival_status = {nan}, (p=115, n=0, P=130, N=0)
+2026-04-08 10:50:35,867 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:50:42,880 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:50:42,884 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:50:42,884 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:50:42,884 - INFO - ***RR NOT FOUND***
+2026-04-08 10:50:44,891 - INFO - Iteracja 1: condition_best: CD34kgx10d6 <= 46.31, quality_best: 1.0, coverage_best: (p=114, n=0, P=130, N=0)
+2026-04-08 10:50:44,895 - INFO - Regula po iteracji 1: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 THEN survival_status = {inf}, (p=114, n=0, P=130, N=0)
+2026-04-08 10:50:44,895 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:50:51,897 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:50:51,901 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:50:51,901 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:50:51,901 - INFO - ***RR NOT FOUND***
+2026-04-08 10:50:53,971 - INFO - Iteracja 2: condition_best: Recipientage <= 19.25, quality_best: 1.0, coverage_best: (p=113, n=0, P=130, N=0)
+2026-04-08 10:50:53,975 - INFO - Regula po iteracji 2: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 THEN survival_status = {inf}, (p=113, n=0, P=130, N=0)
+2026-04-08 10:50:53,975 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:51:00,919 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:51:00,923 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:51:00,923 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:51:00,923 - INFO - ***RR NOT FOUND***
+2026-04-08 10:51:03,071 - INFO - Iteracja 3: condition_best: Recipientage <= 18.30, quality_best: 1.0, coverage_best: (p=112, n=0, P=130, N=0)
+2026-04-08 10:51:03,075 - INFO - Regula po iteracji 3: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 AND Recipientage <= 18.30 THEN survival_status = {inf}, (p=112, n=0, P=130, N=0)
+2026-04-08 10:51:03,075 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:51:09,979 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:51:09,982 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:51:09,982 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:51:09,982 - INFO - ***RR NOT FOUND***
+2026-04-08 10:51:12,202 - INFO - Iteracja 4: condition_best: CD34kgx10d6 >= 1.05, quality_best: 1.0, coverage_best: (p=111, n=0, P=130, N=0)
+2026-04-08 10:51:12,206 - INFO - Regula po iteracji 4: IF PLTrecovery <= 500,123.50 AND CD34kgx10d6 <= 46.31 AND Recipientage <= 19.25 AND Recipientage <= 18.30 AND CD34kgx10d6 >= 1.05 THEN survival_status = {inf}, (p=111, n=0, P=130, N=0)
+2026-04-08 10:51:12,206 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:51:19,118 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:51:19,122 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=130, n=0, P=130, N=0)
+2026-04-08 10:51:19,122 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:51:19,122 - INFO - ***RR NOT FOUND***
+2026-04-08 10:51:19,122 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:51:19,957 - INFO - ************************Finished experiment for 17_przeszczepy.arff with algorithm_log_rank_with_exceptions************************
+2026-04-08 10:51:19,957 - INFO - *************************************************************************************************************************
+2026-04-08 10:51:19,957 - INFO - *************************************************************************************************************************
+2026-04-08 10:51:19,957 - INFO - *************************************************************************************************************************
+2026-04-08 10:51:19,958 - INFO - **********Starting experiment for 17_przeszczepy.arff with survival_tree**********
+2026-04-08 10:51:20,026 - INFO - ************************Finished experiment for 17_przeszczepy.arff with survival_tree************************
+2026-04-08 10:51:20,026 - INFO - *************************************************************************************************************************
+2026-04-08 10:51:20,026 - INFO - *************************************************************************************************************************
+2026-04-08 10:51:20,026 - INFO - *************************************************************************************************************************

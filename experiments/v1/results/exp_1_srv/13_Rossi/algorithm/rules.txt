@@ -1,0 +1,10 @@
+
+CR 0: IF age >= 19.50 AND prio <= 10.50 AND age <= 43.50 THEN survival_status = {inf} (p=351, n=0, P=432, N=0)
+
+CR 1: IF age >= 19.50 AND prio <= 13.50 AND age <= 43.50 THEN survival_status = {inf} (p=359, n=0, P=432, N=0)
+
+CR 2: IF age >= 19.50 AND prio <= 16.50 THEN survival_status = {inf} (p=365, n=0, P=432, N=0)
+
+CR 3: IF age <= 19.50 THEN survival_status = {inf} (p=66, n=0, P=432, N=0)
+RR 3: IF prio >= 8.50 AND emp6 = {no} THEN survival_status = {inf} (p=21, n=0, P=432, N=0)
+ER 3: IF age <= 19.50 AND prio >= 8.50 AND emp6 = {no} THEN survival_status = {14.0} (p=4, n=0, P=432, N=0)

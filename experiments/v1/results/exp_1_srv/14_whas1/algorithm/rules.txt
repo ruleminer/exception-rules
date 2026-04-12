@@ -1,0 +1,12 @@
+
+CR 0: IF SHO <= 0.50 THEN survival_status = {3078.0} (p=443, n=0, P=481, N=0)
+RR 0: IF CPK >= 701.50 THEN survival_status = {4162.0} (p=200, n=0, P=481, N=0)
+ER 0: IF SHO <= 0.50 AND AGE <= 97.50 AND AGE <= 96.50 AND CPK >= 701.50 THEN survival_status = {inf} (p=173, n=0, P=481, N=0)
+
+CR 1: IF AGE <= 69.50 THEN survival_status = {inf} (p=262, n=0, P=481, N=0)
+RR 1: IF CHF <= 0.50 THEN survival_status = {4240.0} (p=285, n=0, P=481, N=0)
+ER 1: IF AGE <= 69.50 AND CHF <= 0.50 THEN survival_status = {inf} (p=188, n=0, P=481, N=0)
+
+CR 2: IF AGE >= 66.50 THEN survival_status = {623.0} (p=252, n=0, P=481, N=0)
+RR 2: IF CPK >= 2,160.00 AND AGE >= 36.50 THEN survival_status = {910.0} (p=51, n=0, P=481, N=0)
+ER 2: IF AGE >= 66.50 AND CPK >= 2,160.00 AND AGE >= 36.50 THEN survival_status = {14.0} (p=24, n=0, P=481, N=0)

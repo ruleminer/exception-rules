@@ -1,0 +1,117 @@
+2026-04-12 13:10:42,694 - INFO - **********Starting experiment for 03_csb-ch07-halibut.arff with algorithm**********
+2026-04-12 13:10:42,699 - INFO - *******GROWING CR RULE*******
+2026-04-12 13:10:43,215 - INFO - Iteracja 0: condition_best: HANDTIME <= 15.50, quality_best: 1.0, coverage_best: (p=199, n=0, P=294, N=0)
+2026-04-12 13:10:43,219 - INFO - Regula po iteracji 0: IF HANDTIME <= 15.50 THEN survival_status = {nan}, (p=199, n=0, P=294, N=0)
+2026-04-12 13:10:43,219 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:44,481 - INFO - Iteracja 0: condition_best: LOGCAT >= 4.59, quality_best: 1.0, coverage_best: (p=140, n=0, P=294, N=0), p_value: 0.974
+2026-04-12 13:10:44,486 - INFO - Regula po iteracji 0: IF LOGCAT >= 4.59 THEN survival_status = {nan}, (p=140, n=0, P=294, N=0)
+2026-04-12 13:10:45,389 - INFO - Iteracja 1: condition_best: DELDEPTH <= 53.50, quality_best: 1.0, coverage_best: (p=137, n=0, P=294, N=0), p_value: 0.997
+2026-04-12 13:10:45,394 - INFO - Regula po iteracji 1: IF LOGCAT >= 4.59 AND DELDEPTH <= 53.50 THEN survival_status = {36.8}, (p=137, n=0, P=294, N=0)
+2026-04-12 13:10:46,271 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.997
+2026-04-12 13:10:46,275 - INFO - Regula po iteracji 2: IF LOGCAT >= 4.59 AND DELDEPTH <= 53.50 THEN survival_status = {36.8}, (p=137, n=0, P=294, N=0)
+2026-04-12 13:10:46,275 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:46,275 - INFO - ***RR FOUND***
+2026-04-12 13:10:46,275 - INFO - Reference rule: IF LOGCAT >= 4.59 THEN survival_status = {36.8}
+2026-04-12 13:10:46,275 - INFO - ***CHECKING EXCEPTION***
+2026-04-12 13:10:46,277 - INFO - ER vs CR p_value: 0.0162419809675991
+2026-04-12 13:10:46,278 - INFO - ER vs RR p_value: 0.031034809285219067
+2026-04-12 13:10:46,293 - INFO - ***ER FOUND***
+2026-04-12 13:10:46,293 - INFO - Exception rule: IF HANDTIME <= 15.50 AND LOGCAT >= 4.59 THEN survival_status = {117.0} (p=88, n=0, P=294, N=0)
+2026-04-12 13:10:46,293 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 13:10:46,298 - INFO - *******GROWING CR RULE*******
+2026-04-12 13:10:46,683 - INFO - Iteracja 0: condition_best: HANDTIME >= 15.50, quality_best: 1.0, coverage_best: (p=95, n=0, P=294, N=0)
+2026-04-12 13:10:46,687 - INFO - Regula po iteracji 0: IF HANDTIME >= 15.50 THEN survival_status = {nan}, (p=95, n=0, P=294, N=0)
+2026-04-12 13:10:46,687 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:47,816 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:10:47,819 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:10:47,819 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:47,819 - INFO - ***RR NOT FOUND***
+2026-04-12 13:10:48,082 - INFO - Iteracja 1: condition_best: LENGTH <= 52.50, quality_best: 1.0, coverage_best: (p=90, n=0, P=294, N=0)
+2026-04-12 13:10:48,086 - INFO - Regula po iteracji 1: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 THEN survival_status = {15.2}, (p=90, n=0, P=294, N=0)
+2026-04-12 13:10:48,086 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:49,206 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:10:49,209 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:10:49,209 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:49,209 - INFO - ***RR NOT FOUND***
+2026-04-12 13:10:49,468 - INFO - Iteracja 2: condition_best: TOWD = {100}, quality_best: 1.0, coverage_best: (p=84, n=0, P=294, N=0)
+2026-04-12 13:10:49,472 - INFO - Regula po iteracji 2: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 AND TOWD = {100} THEN survival_status = {13.3}, (p=84, n=0, P=294, N=0)
+2026-04-12 13:10:49,472 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:50,580 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:10:50,583 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:10:50,583 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:50,583 - INFO - ***RR NOT FOUND***
+2026-04-12 13:10:50,841 - INFO - Iteracja 3: condition_best: DELDEPTH <= 53.50, quality_best: 1.0, coverage_best: (p=83, n=0, P=294, N=0)
+2026-04-12 13:10:50,845 - INFO - Regula po iteracji 3: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 AND TOWD = {100} AND DELDEPTH <= 53.50 THEN survival_status = {13.2}, (p=83, n=0, P=294, N=0)
+2026-04-12 13:10:50,846 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:51,949 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:10:51,952 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:10:51,952 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:51,952 - INFO - ***RR NOT FOUND***
+2026-04-12 13:10:52,206 - INFO - Iteracja 4: condition_best: LENGTH <= 51.50, quality_best: 1.0, coverage_best: (p=82, n=0, P=294, N=0)
+2026-04-12 13:10:52,211 - INFO - Regula po iteracji 4: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 AND TOWD = {100} AND DELDEPTH <= 53.50 AND LENGTH <= 51.50 THEN survival_status = {13.2}, (p=82, n=0, P=294, N=0)
+2026-04-12 13:10:52,211 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:53,318 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:10:53,322 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:10:53,322 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:53,323 - INFO - ***RR NOT FOUND***
+2026-04-12 13:10:53,323 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 13:10:53,335 - INFO - *******GROWING CR RULE*******
+2026-04-12 13:10:53,664 - INFO - Iteracja 0: condition_best: HANDTIME >= 15.50, quality_best: 1.0, coverage_best: (p=95, n=0, P=294, N=0)
+2026-04-12 13:10:53,668 - INFO - Regula po iteracji 0: IF HANDTIME >= 15.50 THEN survival_status = {nan}, (p=95, n=0, P=294, N=0)
+2026-04-12 13:10:53,668 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:54,806 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:10:54,809 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:10:54,809 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:54,809 - INFO - ***RR NOT FOUND***
+2026-04-12 13:10:55,037 - INFO - Iteracja 1: condition_best: LENGTH <= 52.50, quality_best: 1.0, coverage_best: (p=90, n=0, P=294, N=0)
+2026-04-12 13:10:55,041 - INFO - Regula po iteracji 1: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 THEN survival_status = {15.2}, (p=90, n=0, P=294, N=0)
+2026-04-12 13:10:55,041 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:56,165 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:10:56,168 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:10:56,168 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:56,168 - INFO - ***RR NOT FOUND***
+2026-04-12 13:10:56,392 - INFO - Iteracja 2: condition_best: DELDEPTH <= 53.50, quality_best: 1.0, coverage_best: (p=89, n=0, P=294, N=0)
+2026-04-12 13:10:56,396 - INFO - Regula po iteracji 2: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 AND DELDEPTH <= 53.50 THEN survival_status = {13.3}, (p=89, n=0, P=294, N=0)
+2026-04-12 13:10:56,396 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:57,517 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:10:57,520 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:10:57,520 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:57,520 - INFO - ***RR NOT FOUND***
+2026-04-12 13:10:57,744 - INFO - Iteracja 3: condition_best: HANDTIME <= 37.00, quality_best: 1.0, coverage_best: (p=88, n=0, P=294, N=0)
+2026-04-12 13:10:57,748 - INFO - Regula po iteracji 3: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 AND DELDEPTH <= 53.50 AND HANDTIME <= 37.00 THEN survival_status = {13.3}, (p=88, n=0, P=294, N=0)
+2026-04-12 13:10:57,748 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:10:58,870 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:10:58,873 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:10:58,873 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:10:58,873 - INFO - ***RR NOT FOUND***
+2026-04-12 13:10:59,101 - INFO - Iteracja 4: condition_best: LENGTH >= 29.50, quality_best: 1.0, coverage_best: (p=87, n=0, P=294, N=0)
+2026-04-12 13:10:59,105 - INFO - Regula po iteracji 4: IF HANDTIME >= 15.50 AND LENGTH <= 52.50 AND DELDEPTH <= 53.50 AND HANDTIME <= 37.00 AND LENGTH >= 29.50 THEN survival_status = {13.3}, (p=87, n=0, P=294, N=0)
+2026-04-12 13:10:59,105 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:11:00,222 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 13:11:00,225 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=294, n=0, P=294, N=0)
+2026-04-12 13:11:00,225 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:11:00,225 - INFO - ***RR NOT FOUND***
+2026-04-12 13:11:00,225 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 13:11:00,237 - INFO - *******GROWING CR RULE*******
+2026-04-12 13:11:00,557 - INFO - Iteracja 0: condition_best: HANDTIME <= 15.50, quality_best: 1.0, coverage_best: (p=199, n=0, P=294, N=0)
+2026-04-12 13:11:00,562 - INFO - Regula po iteracji 0: IF HANDTIME <= 15.50 THEN survival_status = {nan}, (p=199, n=0, P=294, N=0)
+2026-04-12 13:11:00,562 - INFO - *****GROWING RR RULE*****
+2026-04-12 13:11:01,824 - INFO - Iteracja 0: condition_best: LOGCAT >= 4.59, quality_best: 1.0, coverage_best: (p=140, n=0, P=294, N=0), p_value: 0.974
+2026-04-12 13:11:01,829 - INFO - Regula po iteracji 0: IF LOGCAT >= 4.59 THEN survival_status = {nan}, (p=140, n=0, P=294, N=0)
+2026-04-12 13:11:02,732 - INFO - Iteracja 1: condition_best: DELDEPTH <= 53.50, quality_best: 1.0, coverage_best: (p=137, n=0, P=294, N=0), p_value: 0.997
+2026-04-12 13:11:02,736 - INFO - Regula po iteracji 1: IF LOGCAT >= 4.59 AND DELDEPTH <= 53.50 THEN survival_status = {36.8}, (p=137, n=0, P=294, N=0)
+2026-04-12 13:11:03,617 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.997
+2026-04-12 13:11:03,621 - INFO - Regula po iteracji 2: IF LOGCAT >= 4.59 AND DELDEPTH <= 53.50 THEN survival_status = {36.8}, (p=137, n=0, P=294, N=0)
+2026-04-12 13:11:03,621 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 13:11:03,622 - INFO - ***RR FOUND***
+2026-04-12 13:11:03,622 - INFO - Reference rule: IF LOGCAT >= 4.59 THEN survival_status = {36.8}
+2026-04-12 13:11:03,622 - INFO - ***CHECKING EXCEPTION***
+2026-04-12 13:11:03,624 - INFO - ER vs CR p_value: 0.0162419809675991
+2026-04-12 13:11:03,624 - INFO - ER vs RR p_value: 0.031034809285219067
+2026-04-12 13:11:03,639 - INFO - ***ER FOUND***
+2026-04-12 13:11:03,639 - INFO - Exception rule: IF HANDTIME <= 15.50 AND LOGCAT >= 4.59 THEN survival_status = {117.0} (p=88, n=0, P=294, N=0)
+2026-04-12 13:11:03,639 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 13:11:03,787 - INFO - ************************Finished experiment for 03_csb-ch07-halibut.arff with algorithm************************
+2026-04-12 13:11:03,787 - INFO - *************************************************************************************************************************
+2026-04-12 13:11:03,787 - INFO - *************************************************************************************************************************
+2026-04-12 13:11:03,787 - INFO - *************************************************************************************************************************

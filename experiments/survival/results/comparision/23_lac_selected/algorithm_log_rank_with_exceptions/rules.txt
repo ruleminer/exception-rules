@@ -1,0 +1,8 @@
+
+CR 0: IF SLC1A6 >= 9.05 AND WNT1 <= 9.78 THEN survival_status = {inf} (p=49, n=0, P=60, N=0)
+RR 0: IF FADD <= 9.85 THEN survival_status = {inf} (p=43, n=0, P=60, N=0)
+ER 0: IF SLC1A6 >= 9.05 AND WNT1 <= 9.78 AND FADD <= 9.85 THEN survival_status = {inf} (p=35, n=0, P=60, N=0)
+
+CR 1: IF SLC1A6 <= 9.05 AND KIAA0317 <= 10.04 THEN survival_status = {7.2} (p=5, n=0, P=60, N=0)
+
+CR 2: IF MT2A <= 14.64 AND FUT3 <= 11.29 AND FADD <= 10.17 AND RPS26 >= 11.06 AND CSTB <= 13.35 THEN survival_status = {inf} (p=45, n=0, P=60, N=0)

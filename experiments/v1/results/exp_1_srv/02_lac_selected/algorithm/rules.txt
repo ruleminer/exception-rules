@@ -1,0 +1,10 @@
+
+CR 0: IF INHA_a <= 11.33 AND UBC <= 12.51 THEN survival_status = {inf} (p=74, n=0, P=86, N=0)
+RR 0: IF SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf} (p=22, n=0, P=86, N=0)
+ER 0: IF INHA_a <= 11.33 AND UBC <= 12.51 AND SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf} (p=16, n=0, P=86, N=0)
+
+CR 1: IF INHA_a <= 11.33 AND FADD <= 10.24 AND ATP2B1 <= 9.92 THEN survival_status = {inf} (p=76, n=0, P=86, N=0)
+RR 1: IF GCNT1_a <= 7.50 THEN survival_status = {inf} (p=39, n=0, P=86, N=0)
+ER 1: IF INHA_a <= 11.33 AND FADD <= 10.24 AND ATP2B1 <= 9.92 AND GCNT1_a <= 7.50 THEN survival_status = {inf} (p=33, n=0, P=86, N=0)
+
+CR 2: IF INHA_a >= 11.33 AND ITK >= 7.36 THEN survival_status = {4.0} (p=6, n=0, P=86, N=0)

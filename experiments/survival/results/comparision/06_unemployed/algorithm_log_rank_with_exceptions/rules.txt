@@ -1,0 +1,18 @@
+
+CR 0: IF age = {old} THEN survival_status = {inf} (p=43, n=0, P=210, N=0)
+
+CR 1: IF age = {young} AND birth >= 30.50 AND birth <= 130.50 THEN survival_status = {2.0} (p=21, n=0, P=210, N=0)
+
+CR 2: IF age = {young} AND birth >= 30.50 AND birth <= 194.00 THEN survival_status = {2.0} (p=37, n=0, P=210, N=0)
+
+CR 3: IF age = {young} AND birth <= 198.50 THEN survival_status = {5.0} (p=46, n=0, P=210, N=0)
+
+CR 4: IF age = {young} AND birth >= 30.50 AND birth <= 210.50 THEN survival_status = {4.0} (p=44, n=0, P=210, N=0)
+
+CR 5: IF age = {young} AND birth >= 30.50 THEN survival_status = {5.0} (p=49, n=0, P=210, N=0)
+
+CR 6: IF birth <= 198.50 AND age = {middle} THEN survival_status = {10.0} (p=104, n=0, P=210, N=0)
+RR 6: IF gender = {male} AND birth <= 181.50 THEN survival_status = {9.0} (p=104, n=0, P=210, N=0)
+ER 6: IF birth <= 198.50 AND age = {middle} AND gender = {male} AND birth <= 181.50 THEN survival_status = {4.0} (p=50, n=0, P=210, N=0)
+
+CR 7: IF birth >= 198.50 AND birth <= 213.50 THEN survival_status = {inf} (p=18, n=0, P=210, N=0)

@@ -1,0 +1,412 @@
+2026-04-08 10:27:00,035 - INFO - **********Starting experiment for 07_Melanoma.arff with algorithm_rulekit**********
+2026-04-08 10:27:01,283 - INFO - ************************Finished experiment for 07_Melanoma.arff with algorithm_rulekit************************
+2026-04-08 10:27:01,283 - INFO - *************************************************************************************************************************
+2026-04-08 10:27:01,283 - INFO - *************************************************************************************************************************
+2026-04-08 10:27:01,283 - INFO - *************************************************************************************************************************
+2026-04-08 10:27:01,284 - INFO - **********Starting experiment for 07_Melanoma.arff with algorithm_log_rank**********
+2026-04-08 10:27:01,291 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:01,726 - INFO - Iteracja 0: condition_best: ulcer = {not present}, quality_best: 1.0, coverage_best: (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:01,730 - INFO - Regula po iteracji 0: IF ulcer = {not present} THEN survival_status = {nan}, (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:02,065 - INFO - Iteracja 1: condition_best: age <= 70.50, quality_best: 1.0, coverage_best: (p=69, n=0, P=143, N=0)
+2026-04-08 10:27:02,069 - INFO - Regula po iteracji 1: IF ulcer = {not present} AND age <= 70.50 THEN survival_status = {inf}, (p=69, n=0, P=143, N=0)
+2026-04-08 10:27:02,392 - INFO - Iteracja 2: condition_best: age >= 18.00, quality_best: 1.0, coverage_best: (p=68, n=0, P=143, N=0)
+2026-04-08 10:27:02,395 - INFO - Regula po iteracji 2: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 THEN survival_status = {inf}, (p=68, n=0, P=143, N=0)
+2026-04-08 10:27:02,725 - INFO - Iteracja 3: condition_best: thick <= 13.77, quality_best: 1.0, coverage_best: (p=67, n=0, P=143, N=0)
+2026-04-08 10:27:02,730 - INFO - Regula po iteracji 3: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 AND thick <= 13.77 THEN survival_status = {inf}, (p=67, n=0, P=143, N=0)
+2026-04-08 10:27:03,057 - INFO - Iteracja 4: condition_best: thick <= 9.98, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:03,061 - INFO - Regula po iteracji 4: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 AND thick <= 13.77 AND thick <= 9.98 THEN survival_status = {inf}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:03,061 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:03,073 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:03,450 - INFO - Iteracja 0: condition_best: ulcer = {not present}, quality_best: 1.0, coverage_best: (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:03,454 - INFO - Regula po iteracji 0: IF ulcer = {not present} THEN survival_status = {nan}, (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:03,751 - INFO - Iteracja 1: condition_best: age >= 18.00, quality_best: 1.0, coverage_best: (p=76, n=0, P=143, N=0)
+2026-04-08 10:27:03,755 - INFO - Regula po iteracji 1: IF ulcer = {not present} AND age >= 18.00 THEN survival_status = {inf}, (p=76, n=0, P=143, N=0)
+2026-04-08 10:27:04,055 - INFO - Iteracja 2: condition_best: thick <= 13.77, quality_best: 1.0, coverage_best: (p=75, n=0, P=143, N=0)
+2026-04-08 10:27:04,058 - INFO - Regula po iteracji 2: IF ulcer = {not present} AND age >= 18.00 AND thick <= 13.77 THEN survival_status = {inf}, (p=75, n=0, P=143, N=0)
+2026-04-08 10:27:04,366 - INFO - Iteracja 3: condition_best: age <= 77.50, quality_best: 1.0, coverage_best: (p=72, n=0, P=143, N=0)
+2026-04-08 10:27:04,370 - INFO - Regula po iteracji 3: IF ulcer = {not present} AND age >= 18.00 AND thick <= 13.77 AND age <= 77.50 THEN survival_status = {inf}, (p=72, n=0, P=143, N=0)
+2026-04-08 10:27:04,679 - INFO - Iteracja 4: condition_best: thick <= 11.27, quality_best: 1.0, coverage_best: (p=71, n=0, P=143, N=0)
+2026-04-08 10:27:04,682 - INFO - Regula po iteracji 4: IF ulcer = {not present} AND age >= 18.00 AND thick <= 13.77 AND age <= 77.50 AND thick <= 11.27 THEN survival_status = {inf}, (p=71, n=0, P=143, N=0)
+2026-04-08 10:27:04,683 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:04,694 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:05,066 - INFO - Iteracja 0: condition_best: ulcer = {not present}, quality_best: 1.0, coverage_best: (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:05,070 - INFO - Regula po iteracji 0: IF ulcer = {not present} THEN survival_status = {nan}, (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:05,362 - INFO - Iteracja 1: condition_best: thick >= 0.13, quality_best: 1.0, coverage_best: (p=76, n=0, P=143, N=0)
+2026-04-08 10:27:05,366 - INFO - Regula po iteracji 1: IF ulcer = {not present} AND thick >= 0.13 THEN survival_status = {inf}, (p=76, n=0, P=143, N=0)
+2026-04-08 10:27:05,663 - INFO - Iteracja 2: condition_best: ici >= 0.50, quality_best: 1.0, coverage_best: (p=70, n=0, P=143, N=0)
+2026-04-08 10:27:05,667 - INFO - Regula po iteracji 2: IF ulcer = {not present} AND thick >= 0.13 AND ici >= 0.50 THEN survival_status = {inf}, (p=70, n=0, P=143, N=0)
+2026-04-08 10:27:05,961 - INFO - Iteracja 3: condition_best: thick >= 0.20, quality_best: 0.999, coverage_best: (p=64, n=0, P=143, N=0)
+2026-04-08 10:27:05,965 - INFO - Regula po iteracji 3: IF ulcer = {not present} AND thick >= 0.13 AND ici >= 0.50 AND thick >= 0.20 THEN survival_status = {inf}, (p=64, n=0, P=143, N=0)
+2026-04-08 10:27:06,258 - INFO - Iteracja 4: condition_best: thick >= 0.28, quality_best: 0.998, coverage_best: (p=63, n=0, P=143, N=0)
+2026-04-08 10:27:06,262 - INFO - Regula po iteracji 4: IF ulcer = {not present} AND thick >= 0.13 AND ici >= 0.50 AND thick >= 0.20 AND thick >= 0.28 THEN survival_status = {inf}, (p=63, n=0, P=143, N=0)
+2026-04-08 10:27:06,262 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:06,266 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:06,629 - INFO - Iteracja 0: condition_best: ulcer = {present}, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:06,633 - INFO - Regula po iteracji 0: IF ulcer = {present} THEN survival_status = {nan}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:06,924 - INFO - Iteracja 1: condition_best: thick >= 2.09, quality_best: 1.0, coverage_best: (p=51, n=0, P=143, N=0)
+2026-04-08 10:27:06,927 - INFO - Regula po iteracji 1: IF ulcer = {present} AND thick >= 2.09 THEN survival_status = {1860.0}, (p=51, n=0, P=143, N=0)
+2026-04-08 10:27:07,176 - INFO - Iteracja 2: condition_best: ici >= 0.50, quality_best: 1.0, coverage_best: (p=50, n=0, P=143, N=0)
+2026-04-08 10:27:07,180 - INFO - Regula po iteracji 2: IF ulcer = {present} AND thick >= 2.09 AND ici >= 0.50 THEN survival_status = {1506.0}, (p=50, n=0, P=143, N=0)
+2026-04-08 10:27:07,428 - INFO - Iteracja 3: condition_best: age >= 13.00, quality_best: 1.0, coverage_best: (p=49, n=0, P=143, N=0)
+2026-04-08 10:27:07,432 - INFO - Regula po iteracji 3: IF ulcer = {present} AND thick >= 2.09 AND ici >= 0.50 AND age >= 13.00 THEN survival_status = {1312.0}, (p=49, n=0, P=143, N=0)
+2026-04-08 10:27:07,684 - INFO - Iteracja 4: condition_best: thick <= 15.64, quality_best: 1.0, coverage_best: (p=48, n=0, P=143, N=0)
+2026-04-08 10:27:07,687 - INFO - Regula po iteracji 4: IF ulcer = {present} AND thick >= 2.09 AND ici >= 0.50 AND age >= 13.00 AND thick <= 15.64 THEN survival_status = {1312.0}, (p=48, n=0, P=143, N=0)
+2026-04-08 10:27:07,688 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:07,699 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:08,025 - INFO - Iteracja 0: condition_best: ulcer = {present}, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:08,029 - INFO - Regula po iteracji 0: IF ulcer = {present} THEN survival_status = {nan}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:08,293 - INFO - Iteracja 1: condition_best: ici >= 0.50, quality_best: 1.0, coverage_best: (p=60, n=0, P=143, N=0)
+2026-04-08 10:27:08,297 - INFO - Regula po iteracji 1: IF ulcer = {present} AND ici >= 0.50 THEN survival_status = {1860.0}, (p=60, n=0, P=143, N=0)
+2026-04-08 10:27:08,545 - INFO - Iteracja 2: condition_best: thick >= 0.89, quality_best: 1.0, coverage_best: (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:08,549 - INFO - Regula po iteracji 2: IF ulcer = {present} AND ici >= 0.50 AND thick >= 0.89 THEN survival_status = {1621.0}, (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:08,796 - INFO - Iteracja 3: condition_best: age >= 42.50, quality_best: 1.0, coverage_best: (p=46, n=0, P=143, N=0)
+2026-04-08 10:27:08,799 - INFO - Regula po iteracji 3: IF ulcer = {present} AND ici >= 0.50 AND thick >= 0.89 AND age >= 42.50 THEN survival_status = {1525.0}, (p=46, n=0, P=143, N=0)
+2026-04-08 10:27:09,003 - INFO - Iteracja 4: condition_best: thick >= 1.13, quality_best: 1.0, coverage_best: (p=45, n=0, P=143, N=0)
+2026-04-08 10:27:09,007 - INFO - Regula po iteracji 4: IF ulcer = {present} AND ici >= 0.50 AND thick >= 0.89 AND age >= 42.50 AND thick >= 1.13 THEN survival_status = {1516.0}, (p=45, n=0, P=143, N=0)
+2026-04-08 10:27:09,007 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:09,018 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:09,336 - INFO - Iteracja 0: condition_best: ulcer = {present}, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:09,339 - INFO - Regula po iteracji 0: IF ulcer = {present} THEN survival_status = {nan}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:09,600 - INFO - Iteracja 1: condition_best: ici >= 0.50, quality_best: 1.0, coverage_best: (p=60, n=0, P=143, N=0)
+2026-04-08 10:27:09,604 - INFO - Regula po iteracji 1: IF ulcer = {present} AND ici >= 0.50 THEN survival_status = {1860.0}, (p=60, n=0, P=143, N=0)
+2026-04-08 10:27:09,851 - INFO - Iteracja 2: condition_best: thick <= 15.64, quality_best: 1.0, coverage_best: (p=59, n=0, P=143, N=0)
+2026-04-08 10:27:09,855 - INFO - Regula po iteracji 2: IF ulcer = {present} AND ici >= 0.50 AND thick <= 15.64 THEN survival_status = {1621.0}, (p=59, n=0, P=143, N=0)
+2026-04-08 10:27:10,105 - INFO - Iteracja 3: condition_best: thick <= 13.37, quality_best: 1.0, coverage_best: (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:10,109 - INFO - Regula po iteracji 3: IF ulcer = {present} AND ici >= 0.50 AND thick <= 15.64 AND thick <= 13.37 THEN survival_status = {1726.0}, (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:10,363 - INFO - Iteracja 4: condition_best: age <= 83.00, quality_best: 1.0, coverage_best: (p=57, n=0, P=143, N=0)
+2026-04-08 10:27:10,367 - INFO - Regula po iteracji 4: IF ulcer = {present} AND ici >= 0.50 AND thick <= 15.64 AND thick <= 13.37 AND age <= 83.00 THEN survival_status = {1726.0}, (p=57, n=0, P=143, N=0)
+2026-04-08 10:27:10,367 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:10,375 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:10,691 - INFO - Iteracja 0: condition_best: ulcer = {present}, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:10,695 - INFO - Regula po iteracji 0: IF ulcer = {present} THEN survival_status = {nan}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:10,952 - INFO - Iteracja 1: condition_best: age >= 31.50, quality_best: 1.0, coverage_best: (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:10,955 - INFO - Regula po iteracji 1: IF ulcer = {present} AND age >= 31.50 THEN survival_status = {1860.0}, (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:11,186 - INFO - Iteracja 2: condition_best: age >= 34.50, quality_best: 1.0, coverage_best: (p=57, n=0, P=143, N=0)
+2026-04-08 10:27:11,190 - INFO - Regula po iteracji 2: IF ulcer = {present} AND age >= 31.50 AND age >= 34.50 THEN survival_status = {1726.0}, (p=57, n=0, P=143, N=0)
+2026-04-08 10:27:11,427 - INFO - Iteracja 3: condition_best: thick <= 15.64, quality_best: 1.0, coverage_best: (p=56, n=0, P=143, N=0)
+2026-04-08 10:27:11,431 - INFO - Regula po iteracji 3: IF ulcer = {present} AND age >= 31.50 AND age >= 34.50 AND thick <= 15.64 THEN survival_status = {1726.0}, (p=56, n=0, P=143, N=0)
+2026-04-08 10:27:11,677 - INFO - Iteracja 4: condition_best: thick <= 13.37, quality_best: 1.0, coverage_best: (p=55, n=0, P=143, N=0)
+2026-04-08 10:27:11,681 - INFO - Regula po iteracji 4: IF ulcer = {present} AND age >= 31.50 AND age >= 34.50 AND thick <= 15.64 AND thick <= 13.37 THEN survival_status = {1726.0}, (p=55, n=0, P=143, N=0)
+2026-04-08 10:27:11,681 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:11,689 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:11,999 - INFO - Iteracja 0: condition_best: ulcer = {not present}, quality_best: 1.0, coverage_best: (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:12,003 - INFO - Regula po iteracji 0: IF ulcer = {not present} THEN survival_status = {nan}, (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:12,254 - INFO - Iteracja 1: condition_best: age <= 70.50, quality_best: 1.0, coverage_best: (p=69, n=0, P=143, N=0)
+2026-04-08 10:27:12,258 - INFO - Regula po iteracji 1: IF ulcer = {not present} AND age <= 70.50 THEN survival_status = {inf}, (p=69, n=0, P=143, N=0)
+2026-04-08 10:27:12,502 - INFO - Iteracja 2: condition_best: age >= 18.00, quality_best: 1.0, coverage_best: (p=68, n=0, P=143, N=0)
+2026-04-08 10:27:12,505 - INFO - Regula po iteracji 2: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 THEN survival_status = {inf}, (p=68, n=0, P=143, N=0)
+2026-04-08 10:27:12,754 - INFO - Iteracja 3: condition_best: thick <= 13.77, quality_best: 1.0, coverage_best: (p=67, n=0, P=143, N=0)
+2026-04-08 10:27:12,757 - INFO - Regula po iteracji 3: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 AND thick <= 13.77 THEN survival_status = {inf}, (p=67, n=0, P=143, N=0)
+2026-04-08 10:27:13,012 - INFO - Iteracja 4: condition_best: thick <= 9.98, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:13,015 - INFO - Regula po iteracji 4: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 AND thick <= 13.77 AND thick <= 9.98 THEN survival_status = {inf}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:13,015 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:13,975 - INFO - ************************Finished experiment for 07_Melanoma.arff with algorithm_log_rank************************
+2026-04-08 10:27:13,975 - INFO - *************************************************************************************************************************
+2026-04-08 10:27:13,975 - INFO - *************************************************************************************************************************
+2026-04-08 10:27:13,975 - INFO - *************************************************************************************************************************
+2026-04-08 10:27:13,976 - INFO - **********Starting experiment for 07_Melanoma.arff with algorithm_log_rank_with_exceptions**********
+2026-04-08 10:27:13,983 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:14,412 - INFO - Iteracja 0: condition_best: ulcer = {not present}, quality_best: 1.0, coverage_best: (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:14,415 - INFO - Regula po iteracji 0: IF ulcer = {not present} THEN survival_status = {nan}, (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:14,416 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:15,447 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:15,450 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:15,450 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:15,450 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:15,784 - INFO - Iteracja 1: condition_best: age <= 70.50, quality_best: 1.0, coverage_best: (p=69, n=0, P=143, N=0)
+2026-04-08 10:27:15,788 - INFO - Regula po iteracji 1: IF ulcer = {not present} AND age <= 70.50 THEN survival_status = {inf}, (p=69, n=0, P=143, N=0)
+2026-04-08 10:27:15,788 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:16,804 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:16,806 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:16,807 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:16,807 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:17,130 - INFO - Iteracja 2: condition_best: age >= 18.00, quality_best: 1.0, coverage_best: (p=68, n=0, P=143, N=0)
+2026-04-08 10:27:17,134 - INFO - Regula po iteracji 2: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 THEN survival_status = {inf}, (p=68, n=0, P=143, N=0)
+2026-04-08 10:27:17,134 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:18,140 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:18,143 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:18,143 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:18,143 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:18,465 - INFO - Iteracja 3: condition_best: thick <= 13.77, quality_best: 1.0, coverage_best: (p=67, n=0, P=143, N=0)
+2026-04-08 10:27:18,470 - INFO - Regula po iteracji 3: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 AND thick <= 13.77 THEN survival_status = {inf}, (p=67, n=0, P=143, N=0)
+2026-04-08 10:27:18,470 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:19,476 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:19,478 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:19,478 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:19,479 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:19,807 - INFO - Iteracja 4: condition_best: thick <= 9.98, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:19,811 - INFO - Regula po iteracji 4: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 AND thick <= 13.77 AND thick <= 9.98 THEN survival_status = {inf}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:19,811 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:20,811 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:20,814 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:20,814 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:20,814 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:20,814 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:20,826 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:21,202 - INFO - Iteracja 0: condition_best: ulcer = {not present}, quality_best: 1.0, coverage_best: (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:21,205 - INFO - Regula po iteracji 0: IF ulcer = {not present} THEN survival_status = {nan}, (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:21,206 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:22,243 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:22,246 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:22,246 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:22,246 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:22,539 - INFO - Iteracja 1: condition_best: age >= 18.00, quality_best: 1.0, coverage_best: (p=76, n=0, P=143, N=0)
+2026-04-08 10:27:22,542 - INFO - Regula po iteracji 1: IF ulcer = {not present} AND age >= 18.00 THEN survival_status = {inf}, (p=76, n=0, P=143, N=0)
+2026-04-08 10:27:22,543 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:23,567 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:23,569 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:23,569 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:23,569 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:23,866 - INFO - Iteracja 2: condition_best: thick <= 13.77, quality_best: 1.0, coverage_best: (p=75, n=0, P=143, N=0)
+2026-04-08 10:27:23,870 - INFO - Regula po iteracji 2: IF ulcer = {not present} AND age >= 18.00 AND thick <= 13.77 THEN survival_status = {inf}, (p=75, n=0, P=143, N=0)
+2026-04-08 10:27:23,870 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:24,897 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:24,901 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:24,901 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:24,901 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:25,210 - INFO - Iteracja 3: condition_best: age <= 77.50, quality_best: 1.0, coverage_best: (p=72, n=0, P=143, N=0)
+2026-04-08 10:27:25,214 - INFO - Regula po iteracji 3: IF ulcer = {not present} AND age >= 18.00 AND thick <= 13.77 AND age <= 77.50 THEN survival_status = {inf}, (p=72, n=0, P=143, N=0)
+2026-04-08 10:27:25,214 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:26,236 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:26,239 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:26,239 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:26,239 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:26,547 - INFO - Iteracja 4: condition_best: thick <= 11.27, quality_best: 1.0, coverage_best: (p=71, n=0, P=143, N=0)
+2026-04-08 10:27:26,551 - INFO - Regula po iteracji 4: IF ulcer = {not present} AND age >= 18.00 AND thick <= 13.77 AND age <= 77.50 AND thick <= 11.27 THEN survival_status = {inf}, (p=71, n=0, P=143, N=0)
+2026-04-08 10:27:26,551 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:27,566 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:27,569 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:27,569 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:27,569 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:27,569 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:27,581 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:27,952 - INFO - Iteracja 0: condition_best: ulcer = {not present}, quality_best: 1.0, coverage_best: (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:27,955 - INFO - Regula po iteracji 0: IF ulcer = {not present} THEN survival_status = {nan}, (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:27,955 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:28,995 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:28,998 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:28,999 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:28,999 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:29,294 - INFO - Iteracja 1: condition_best: thick >= 0.13, quality_best: 1.0, coverage_best: (p=76, n=0, P=143, N=0)
+2026-04-08 10:27:29,297 - INFO - Regula po iteracji 1: IF ulcer = {not present} AND thick >= 0.13 THEN survival_status = {inf}, (p=76, n=0, P=143, N=0)
+2026-04-08 10:27:29,298 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:30,338 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:30,341 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:30,341 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:30,341 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:30,639 - INFO - Iteracja 2: condition_best: ici >= 0.50, quality_best: 1.0, coverage_best: (p=70, n=0, P=143, N=0)
+2026-04-08 10:27:30,642 - INFO - Regula po iteracji 2: IF ulcer = {not present} AND thick >= 0.13 AND ici >= 0.50 THEN survival_status = {inf}, (p=70, n=0, P=143, N=0)
+2026-04-08 10:27:30,643 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:31,666 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:31,669 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:31,669 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:31,669 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:31,968 - INFO - Iteracja 3: condition_best: thick >= 0.20, quality_best: 0.999, coverage_best: (p=64, n=0, P=143, N=0)
+2026-04-08 10:27:31,972 - INFO - Regula po iteracji 3: IF ulcer = {not present} AND thick >= 0.13 AND ici >= 0.50 AND thick >= 0.20 THEN survival_status = {inf}, (p=64, n=0, P=143, N=0)
+2026-04-08 10:27:31,972 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:32,985 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:32,987 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:32,987 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:32,988 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:33,283 - INFO - Iteracja 4: condition_best: thick >= 0.28, quality_best: 0.998, coverage_best: (p=63, n=0, P=143, N=0)
+2026-04-08 10:27:33,287 - INFO - Regula po iteracji 4: IF ulcer = {not present} AND thick >= 0.13 AND ici >= 0.50 AND thick >= 0.20 AND thick >= 0.28 THEN survival_status = {inf}, (p=63, n=0, P=143, N=0)
+2026-04-08 10:27:33,287 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:34,296 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:34,298 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:34,299 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:34,299 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:34,299 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:34,303 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:34,667 - INFO - Iteracja 0: condition_best: ulcer = {present}, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:34,671 - INFO - Regula po iteracji 0: IF ulcer = {present} THEN survival_status = {nan}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:34,671 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:35,685 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:35,688 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:35,688 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:35,688 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:35,981 - INFO - Iteracja 1: condition_best: thick >= 2.09, quality_best: 1.0, coverage_best: (p=51, n=0, P=143, N=0)
+2026-04-08 10:27:35,984 - INFO - Regula po iteracji 1: IF ulcer = {present} AND thick >= 2.09 THEN survival_status = {1860.0}, (p=51, n=0, P=143, N=0)
+2026-04-08 10:27:35,985 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:36,953 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:36,956 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:36,956 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:36,956 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:37,207 - INFO - Iteracja 2: condition_best: ici >= 0.50, quality_best: 1.0, coverage_best: (p=50, n=0, P=143, N=0)
+2026-04-08 10:27:37,211 - INFO - Regula po iteracji 2: IF ulcer = {present} AND thick >= 2.09 AND ici >= 0.50 THEN survival_status = {1506.0}, (p=50, n=0, P=143, N=0)
+2026-04-08 10:27:37,211 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:38,179 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:38,182 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:38,182 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:38,182 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:38,432 - INFO - Iteracja 3: condition_best: age >= 13.00, quality_best: 1.0, coverage_best: (p=49, n=0, P=143, N=0)
+2026-04-08 10:27:38,435 - INFO - Regula po iteracji 3: IF ulcer = {present} AND thick >= 2.09 AND ici >= 0.50 AND age >= 13.00 THEN survival_status = {1312.0}, (p=49, n=0, P=143, N=0)
+2026-04-08 10:27:38,436 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:39,402 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:39,406 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:39,406 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:39,406 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:39,657 - INFO - Iteracja 4: condition_best: thick <= 15.64, quality_best: 1.0, coverage_best: (p=48, n=0, P=143, N=0)
+2026-04-08 10:27:39,661 - INFO - Regula po iteracji 4: IF ulcer = {present} AND thick >= 2.09 AND ici >= 0.50 AND age >= 13.00 AND thick <= 15.64 THEN survival_status = {1312.0}, (p=48, n=0, P=143, N=0)
+2026-04-08 10:27:39,662 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:40,624 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:40,627 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:40,627 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:40,627 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:40,627 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:40,638 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:40,961 - INFO - Iteracja 0: condition_best: ulcer = {present}, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:40,964 - INFO - Regula po iteracji 0: IF ulcer = {present} THEN survival_status = {nan}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:40,965 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:41,978 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:41,981 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:41,981 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:41,981 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:42,245 - INFO - Iteracja 1: condition_best: ici >= 0.50, quality_best: 1.0, coverage_best: (p=60, n=0, P=143, N=0)
+2026-04-08 10:27:42,249 - INFO - Regula po iteracji 1: IF ulcer = {present} AND ici >= 0.50 THEN survival_status = {1860.0}, (p=60, n=0, P=143, N=0)
+2026-04-08 10:27:42,249 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:43,251 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:43,253 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:43,254 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:43,254 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:43,504 - INFO - Iteracja 2: condition_best: thick >= 0.89, quality_best: 1.0, coverage_best: (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:43,508 - INFO - Regula po iteracji 2: IF ulcer = {present} AND ici >= 0.50 AND thick >= 0.89 THEN survival_status = {1621.0}, (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:43,508 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:44,488 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:44,491 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:44,491 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:44,491 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:44,739 - INFO - Iteracja 3: condition_best: age >= 42.50, quality_best: 1.0, coverage_best: (p=46, n=0, P=143, N=0)
+2026-04-08 10:27:44,743 - INFO - Regula po iteracji 3: IF ulcer = {present} AND ici >= 0.50 AND thick >= 0.89 AND age >= 42.50 THEN survival_status = {1525.0}, (p=46, n=0, P=143, N=0)
+2026-04-08 10:27:44,743 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:45,683 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:45,686 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:45,686 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:45,686 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:45,891 - INFO - Iteracja 4: condition_best: thick >= 1.13, quality_best: 1.0, coverage_best: (p=45, n=0, P=143, N=0)
+2026-04-08 10:27:45,894 - INFO - Regula po iteracji 4: IF ulcer = {present} AND ici >= 0.50 AND thick >= 0.89 AND age >= 42.50 AND thick >= 1.13 THEN survival_status = {1516.0}, (p=45, n=0, P=143, N=0)
+2026-04-08 10:27:45,895 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:46,833 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:46,836 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:46,836 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:46,836 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:46,836 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:46,848 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:47,170 - INFO - Iteracja 0: condition_best: ulcer = {present}, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:47,174 - INFO - Regula po iteracji 0: IF ulcer = {present} THEN survival_status = {nan}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:47,174 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:48,189 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:48,191 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:48,192 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:48,192 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:48,453 - INFO - Iteracja 1: condition_best: ici >= 0.50, quality_best: 1.0, coverage_best: (p=60, n=0, P=143, N=0)
+2026-04-08 10:27:48,457 - INFO - Regula po iteracji 1: IF ulcer = {present} AND ici >= 0.50 THEN survival_status = {1860.0}, (p=60, n=0, P=143, N=0)
+2026-04-08 10:27:48,457 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:49,458 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:49,460 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:49,460 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:49,460 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:49,708 - INFO - Iteracja 2: condition_best: thick <= 15.64, quality_best: 1.0, coverage_best: (p=59, n=0, P=143, N=0)
+2026-04-08 10:27:49,712 - INFO - Regula po iteracji 2: IF ulcer = {present} AND ici >= 0.50 AND thick <= 15.64 THEN survival_status = {1621.0}, (p=59, n=0, P=143, N=0)
+2026-04-08 10:27:49,712 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:50,707 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:50,710 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:50,710 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:50,710 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:50,962 - INFO - Iteracja 3: condition_best: thick <= 13.37, quality_best: 1.0, coverage_best: (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:50,966 - INFO - Regula po iteracji 3: IF ulcer = {present} AND ici >= 0.50 AND thick <= 15.64 AND thick <= 13.37 THEN survival_status = {1726.0}, (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:50,966 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:51,962 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:51,965 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:51,965 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:51,965 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:52,223 - INFO - Iteracja 4: condition_best: age <= 83.00, quality_best: 1.0, coverage_best: (p=57, n=0, P=143, N=0)
+2026-04-08 10:27:52,226 - INFO - Regula po iteracji 4: IF ulcer = {present} AND ici >= 0.50 AND thick <= 15.64 AND thick <= 13.37 AND age <= 83.00 THEN survival_status = {1726.0}, (p=57, n=0, P=143, N=0)
+2026-04-08 10:27:52,227 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:53,211 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:53,213 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:53,213 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:53,214 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:53,214 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:53,221 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:53,539 - INFO - Iteracja 0: condition_best: ulcer = {present}, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:53,543 - INFO - Regula po iteracji 0: IF ulcer = {present} THEN survival_status = {nan}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:27:53,543 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:54,562 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:54,566 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:54,566 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:54,566 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:54,827 - INFO - Iteracja 1: condition_best: age >= 31.50, quality_best: 1.0, coverage_best: (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:54,831 - INFO - Regula po iteracji 1: IF ulcer = {present} AND age >= 31.50 THEN survival_status = {1860.0}, (p=58, n=0, P=143, N=0)
+2026-04-08 10:27:54,831 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:55,824 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:55,827 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:55,827 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:55,827 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:56,063 - INFO - Iteracja 2: condition_best: age >= 34.50, quality_best: 1.0, coverage_best: (p=57, n=0, P=143, N=0)
+2026-04-08 10:27:56,066 - INFO - Regula po iteracji 2: IF ulcer = {present} AND age >= 31.50 AND age >= 34.50 THEN survival_status = {1726.0}, (p=57, n=0, P=143, N=0)
+2026-04-08 10:27:56,066 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:57,056 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:57,058 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:57,058 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:57,058 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:57,302 - INFO - Iteracja 3: condition_best: thick <= 15.64, quality_best: 1.0, coverage_best: (p=56, n=0, P=143, N=0)
+2026-04-08 10:27:57,305 - INFO - Regula po iteracji 3: IF ulcer = {present} AND age >= 31.50 AND age >= 34.50 AND thick <= 15.64 THEN survival_status = {1726.0}, (p=56, n=0, P=143, N=0)
+2026-04-08 10:27:57,306 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:58,292 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:58,295 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:58,295 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:58,295 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:58,543 - INFO - Iteracja 4: condition_best: thick <= 13.37, quality_best: 1.0, coverage_best: (p=55, n=0, P=143, N=0)
+2026-04-08 10:27:58,546 - INFO - Regula po iteracji 4: IF ulcer = {present} AND age >= 31.50 AND age >= 34.50 AND thick <= 15.64 AND thick <= 13.37 THEN survival_status = {1726.0}, (p=55, n=0, P=143, N=0)
+2026-04-08 10:27:58,547 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:27:59,529 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:27:59,532 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:27:59,532 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:27:59,532 - INFO - ***RR NOT FOUND***
+2026-04-08 10:27:59,532 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:27:59,540 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:27:59,852 - INFO - Iteracja 0: condition_best: ulcer = {not present}, quality_best: 1.0, coverage_best: (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:59,855 - INFO - Regula po iteracji 0: IF ulcer = {not present} THEN survival_status = {nan}, (p=77, n=0, P=143, N=0)
+2026-04-08 10:27:59,855 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:28:00,899 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:28:00,902 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:28:00,903 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:28:00,903 - INFO - ***RR NOT FOUND***
+2026-04-08 10:28:01,156 - INFO - Iteracja 1: condition_best: age <= 70.50, quality_best: 1.0, coverage_best: (p=69, n=0, P=143, N=0)
+2026-04-08 10:28:01,160 - INFO - Regula po iteracji 1: IF ulcer = {not present} AND age <= 70.50 THEN survival_status = {inf}, (p=69, n=0, P=143, N=0)
+2026-04-08 10:28:01,160 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:28:02,178 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:28:02,181 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:28:02,181 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:28:02,181 - INFO - ***RR NOT FOUND***
+2026-04-08 10:28:02,429 - INFO - Iteracja 2: condition_best: age >= 18.00, quality_best: 1.0, coverage_best: (p=68, n=0, P=143, N=0)
+2026-04-08 10:28:02,432 - INFO - Regula po iteracji 2: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 THEN survival_status = {inf}, (p=68, n=0, P=143, N=0)
+2026-04-08 10:28:02,432 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:28:03,448 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:28:03,451 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:28:03,451 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:28:03,451 - INFO - ***RR NOT FOUND***
+2026-04-08 10:28:03,698 - INFO - Iteracja 3: condition_best: thick <= 13.77, quality_best: 1.0, coverage_best: (p=67, n=0, P=143, N=0)
+2026-04-08 10:28:03,702 - INFO - Regula po iteracji 3: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 AND thick <= 13.77 THEN survival_status = {inf}, (p=67, n=0, P=143, N=0)
+2026-04-08 10:28:03,702 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:28:04,705 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:28:04,708 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:28:04,708 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:28:04,708 - INFO - ***RR NOT FOUND***
+2026-04-08 10:28:04,963 - INFO - Iteracja 4: condition_best: thick <= 9.98, quality_best: 1.0, coverage_best: (p=66, n=0, P=143, N=0)
+2026-04-08 10:28:04,966 - INFO - Regula po iteracji 4: IF ulcer = {not present} AND age <= 70.50 AND age >= 18.00 AND thick <= 13.77 AND thick <= 9.98 THEN survival_status = {inf}, (p=66, n=0, P=143, N=0)
+2026-04-08 10:28:04,967 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:28:05,964 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:28:05,966 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=143, n=0, P=143, N=0)
+2026-04-08 10:28:05,967 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:28:05,967 - INFO - ***RR NOT FOUND***
+2026-04-08 10:28:05,967 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:28:06,928 - INFO - ************************Finished experiment for 07_Melanoma.arff with algorithm_log_rank_with_exceptions************************
+2026-04-08 10:28:06,928 - INFO - *************************************************************************************************************************
+2026-04-08 10:28:06,928 - INFO - *************************************************************************************************************************
+2026-04-08 10:28:06,928 - INFO - *************************************************************************************************************************
+2026-04-08 10:28:06,929 - INFO - **********Starting experiment for 07_Melanoma.arff with survival_tree**********
+2026-04-08 10:28:06,973 - INFO - ************************Finished experiment for 07_Melanoma.arff with survival_tree************************
+2026-04-08 10:28:06,973 - INFO - *************************************************************************************************************************
+2026-04-08 10:28:06,973 - INFO - *************************************************************************************************************************
+2026-04-08 10:28:06,973 - INFO - *************************************************************************************************************************

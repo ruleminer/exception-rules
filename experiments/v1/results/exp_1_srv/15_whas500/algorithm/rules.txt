@@ -1,0 +1,10 @@
+
+CR 0: IF age <= 88.50 THEN survival_status = {2160.0} (p=464, n=0, P=500, N=0)
+
+CR 1: IF chf <= 0.50 THEN survival_status = {2358.0} (p=345, n=0, P=500, N=0)
+RR 1: IF hr <= 71.50 THEN survival_status = {inf} (p=141, n=0, P=500, N=0)
+ER 1: IF chf <= 0.50 AND hr <= 71.50 THEN survival_status = {inf} (p=111, n=0, P=500, N=0)
+
+CR 2: IF age >= 64.50 THEN survival_status = {920.0} (p=328, n=0, P=500, N=0)
+RR 2: IF bmi <= 25.40 THEN survival_status = {849.0} (p=214, n=0, P=500, N=0)
+ER 2: IF age >= 64.50 AND bmi <= 25.40 THEN survival_status = {406.0} (p=168, n=0, P=500, N=0)

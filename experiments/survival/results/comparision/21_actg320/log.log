@@ -1,0 +1,853 @@
+2026-04-08 11:13:10,382 - INFO - **********Starting experiment for 21_actg320.arff with algorithm_rulekit**********
+2026-04-08 11:13:18,570 - INFO - ************************Finished experiment for 21_actg320.arff with algorithm_rulekit************************
+2026-04-08 11:13:18,570 - INFO - *************************************************************************************************************************
+2026-04-08 11:13:18,570 - INFO - *************************************************************************************************************************
+2026-04-08 11:13:18,570 - INFO - *************************************************************************************************************************
+2026-04-08 11:13:18,570 - INFO - **********Starting experiment for 21_actg320.arff with algorithm_log_rank**********
+2026-04-08 11:13:18,586 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:13:24,148 - INFO - Iteracja 0: condition_best: cd4 >= 23.25, quality_best: 1.0, coverage_best: (p=613, n=0, P=805, N=0)
+2026-04-08 11:13:24,155 - INFO - Regula po iteracji 0: IF cd4 >= 23.25 THEN survival_status = {nan}, (p=613, n=0, P=805, N=0)
+2026-04-08 11:13:29,271 - INFO - Iteracja 1: condition_best: karnof >= 75.00, quality_best: 1.0, coverage_best: (p=602, n=0, P=805, N=0)
+2026-04-08 11:13:29,277 - INFO - Regula po iteracji 1: IF cd4 >= 23.25 AND karnof >= 75.00 THEN survival_status = {inf}, (p=602, n=0, P=805, N=0)
+2026-04-08 11:13:34,417 - INFO - Iteracja 2: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=595, n=0, P=805, N=0)
+2026-04-08 11:13:34,423 - INFO - Regula po iteracji 2: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 THEN survival_status = {inf}, (p=595, n=0, P=805, N=0)
+2026-04-08 11:13:39,521 - INFO - Iteracja 3: condition_best: txgrp <= 3.50, quality_best: 1.0, coverage_best: (p=594, n=0, P=805, N=0)
+2026-04-08 11:13:39,527 - INFO - Regula po iteracji 3: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 AND txgrp <= 3.50 THEN survival_status = {inf}, (p=594, n=0, P=805, N=0)
+2026-04-08 11:13:44,629 - INFO - Iteracja 4: condition_best: txgrp <= 2.50, quality_best: 1.0, coverage_best: (p=593, n=0, P=805, N=0)
+2026-04-08 11:13:44,635 - INFO - Regula po iteracji 4: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 AND txgrp <= 3.50 AND txgrp <= 2.50 THEN survival_status = {inf}, (p=593, n=0, P=805, N=0)
+2026-04-08 11:13:44,635 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:13:44,654 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:13:47,926 - INFO - Iteracja 0: condition_best: cd4 >= 23.25, quality_best: 1.0, coverage_best: (p=613, n=0, P=805, N=0)
+2026-04-08 11:13:47,932 - INFO - Regula po iteracji 0: IF cd4 >= 23.25 THEN survival_status = {nan}, (p=613, n=0, P=805, N=0)
+2026-04-08 11:13:51,015 - INFO - Iteracja 1: condition_best: karnof >= 75.00, quality_best: 1.0, coverage_best: (p=602, n=0, P=805, N=0)
+2026-04-08 11:13:51,021 - INFO - Regula po iteracji 1: IF cd4 >= 23.25 AND karnof >= 75.00 THEN survival_status = {inf}, (p=602, n=0, P=805, N=0)
+2026-04-08 11:13:54,148 - INFO - Iteracja 2: condition_best: txgrp <= 3.50, quality_best: 1.0, coverage_best: (p=601, n=0, P=805, N=0)
+2026-04-08 11:13:54,154 - INFO - Regula po iteracji 2: IF cd4 >= 23.25 AND karnof >= 75.00 AND txgrp <= 3.50 THEN survival_status = {inf}, (p=601, n=0, P=805, N=0)
+2026-04-08 11:13:57,307 - INFO - Iteracja 3: condition_best: txgrp <= 2.50, quality_best: 1.0, coverage_best: (p=600, n=0, P=805, N=0)
+2026-04-08 11:13:57,313 - INFO - Regula po iteracji 3: IF cd4 >= 23.25 AND karnof >= 75.00 AND txgrp <= 3.50 AND txgrp <= 2.50 THEN survival_status = {inf}, (p=600, n=0, P=805, N=0)
+2026-04-08 11:14:00,485 - INFO - Iteracja 4: condition_best: age <= 72.00, quality_best: 1.0, coverage_best: (p=599, n=0, P=805, N=0)
+2026-04-08 11:14:00,491 - INFO - Regula po iteracji 4: IF cd4 >= 23.25 AND karnof >= 75.00 AND txgrp <= 3.50 AND txgrp <= 2.50 AND age <= 72.00 THEN survival_status = {inf}, (p=599, n=0, P=805, N=0)
+2026-04-08 11:14:00,491 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:14:00,505 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:14:03,755 - INFO - Iteracja 0: condition_best: cd4 >= 23.25, quality_best: 1.0, coverage_best: (p=613, n=0, P=805, N=0)
+2026-04-08 11:14:03,761 - INFO - Regula po iteracji 0: IF cd4 >= 23.25 THEN survival_status = {nan}, (p=613, n=0, P=805, N=0)
+2026-04-08 11:14:06,843 - INFO - Iteracja 1: condition_best: age <= 50.50, quality_best: 1.0, coverage_best: (p=556, n=0, P=805, N=0)
+2026-04-08 11:14:06,849 - INFO - Regula po iteracji 1: IF cd4 >= 23.25 AND age <= 50.50 THEN survival_status = {inf}, (p=556, n=0, P=805, N=0)
+2026-04-08 11:14:09,785 - INFO - Iteracja 2: condition_best: txgrp <= 3.50, quality_best: 1.0, coverage_best: (p=555, n=0, P=805, N=0)
+2026-04-08 11:14:09,790 - INFO - Regula po iteracji 2: IF cd4 >= 23.25 AND age <= 50.50 AND txgrp <= 3.50 THEN survival_status = {inf}, (p=555, n=0, P=805, N=0)
+2026-04-08 11:14:12,746 - INFO - Iteracja 3: condition_best: txgrp <= 2.50, quality_best: 1.0, coverage_best: (p=554, n=0, P=805, N=0)
+2026-04-08 11:14:12,751 - INFO - Regula po iteracji 3: IF cd4 >= 23.25 AND age <= 50.50 AND txgrp <= 3.50 AND txgrp <= 2.50 THEN survival_status = {inf}, (p=554, n=0, P=805, N=0)
+2026-04-08 11:14:15,748 - INFO - Iteracja 4: condition_best: cd4 <= 329.00, quality_best: 1.0, coverage_best: (p=553, n=0, P=805, N=0)
+2026-04-08 11:14:15,753 - INFO - Regula po iteracji 4: IF cd4 >= 23.25 AND age <= 50.50 AND txgrp <= 3.50 AND txgrp <= 2.50 AND cd4 <= 329.00 THEN survival_status = {inf}, (p=553, n=0, P=805, N=0)
+2026-04-08 11:14:15,753 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:14:15,767 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:14:18,995 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:19,000 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:19,983 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:19,988 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:20,859 - INFO - Iteracja 2: condition_best: cd4 >= 2.25, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:20,864 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:21,690 - INFO - Iteracja 3: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=108, n=0, P=805, N=0)
+2026-04-08 11:14:21,694 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND karnof <= 95.00 THEN survival_status = {inf}, (p=108, n=0, P=805, N=0)
+2026-04-08 11:14:22,474 - INFO - Iteracja 4: condition_best: tx <= 0.50, quality_best: 1.0, coverage_best: (p=52, n=0, P=805, N=0)
+2026-04-08 11:14:22,479 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND karnof <= 95.00 AND tx <= 0.50 THEN survival_status = {inf}, (p=52, n=0, P=805, N=0)
+2026-04-08 11:14:22,479 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:14:22,500 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:14:25,516 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:25,522 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:26,452 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:26,457 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:27,279 - INFO - Iteracja 2: condition_best: cd4 >= 2.25, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:27,284 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:28,064 - INFO - Iteracja 3: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=108, n=0, P=805, N=0)
+2026-04-08 11:14:28,069 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND karnof <= 95.00 THEN survival_status = {inf}, (p=108, n=0, P=805, N=0)
+2026-04-08 11:14:28,804 - INFO - Iteracja 4: condition_best: priorzdv <= 89.00, quality_best: 1.0, coverage_best: (p=105, n=0, P=805, N=0)
+2026-04-08 11:14:28,809 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND karnof <= 95.00 AND priorzdv <= 89.00 THEN survival_status = {inf}, (p=105, n=0, P=805, N=0)
+2026-04-08 11:14:28,810 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:14:28,830 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:14:31,638 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:31,643 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:32,516 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:32,521 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:33,300 - INFO - Iteracja 2: condition_best: cd4 >= 2.25, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:33,306 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:34,040 - INFO - Iteracja 3: condition_best: cd4 <= 18.50, quality_best: 1.0, coverage_best: (p=119, n=0, P=805, N=0)
+2026-04-08 11:14:34,044 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND cd4 <= 18.50 THEN survival_status = {inf}, (p=119, n=0, P=805, N=0)
+2026-04-08 11:14:34,714 - INFO - Iteracja 4: condition_best: priorzdv <= 71.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=805, N=0)
+2026-04-08 11:14:34,719 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND cd4 <= 18.50 AND priorzdv <= 71.50 THEN survival_status = {inf}, (p=114, n=0, P=805, N=0)
+2026-04-08 11:14:34,719 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:14:34,753 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:14:37,503 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:37,508 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:38,354 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:38,359 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:39,110 - INFO - Iteracja 2: condition_best: cd4 >= 2.25, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:39,115 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:39,829 - INFO - Iteracja 3: condition_best: priorzdv <= 89.00, quality_best: 1.0, coverage_best: (p=134, n=0, P=805, N=0)
+2026-04-08 11:14:39,834 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND priorzdv <= 89.00 THEN survival_status = {inf}, (p=134, n=0, P=805, N=0)
+2026-04-08 11:14:40,529 - INFO - Iteracja 4: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=133, n=0, P=805, N=0)
+2026-04-08 11:14:40,534 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND priorzdv <= 89.00 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=133, n=0, P=805, N=0)
+2026-04-08 11:14:40,534 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:14:40,555 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:14:43,266 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:43,271 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:44,109 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:44,114 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:44,861 - INFO - Iteracja 2: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=139, n=0, P=805, N=0)
+2026-04-08 11:14:44,866 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=139, n=0, P=805, N=0)
+2026-04-08 11:14:45,580 - INFO - Iteracja 3: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:45,584 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 1.50 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:14:46,305 - INFO - Iteracja 4: condition_best: priorzdv >= 5.50, quality_best: 1.0, coverage_best: (p=137, n=0, P=805, N=0)
+2026-04-08 11:14:46,310 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 1.50 AND strat2 <= 0.50 AND priorzdv >= 5.50 THEN survival_status = {inf}, (p=137, n=0, P=805, N=0)
+2026-04-08 11:14:46,310 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:14:46,331 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:14:49,032 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:49,037 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:49,873 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:49,878 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:50,624 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=126, n=0, P=805, N=0)
+2026-04-08 11:14:50,629 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=126, n=0, P=805, N=0)
+2026-04-08 11:14:51,335 - INFO - Iteracja 3: condition_best: tx <= 0.50, quality_best: 1.0, coverage_best: (p=59, n=0, P=805, N=0)
+2026-04-08 11:14:51,340 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 AND tx <= 0.50 THEN survival_status = {inf}, (p=59, n=0, P=805, N=0)
+2026-04-08 11:14:51,866 - INFO - Iteracja 4: condition_best: age <= 55.00, quality_best: 1.0, coverage_best: (p=58, n=0, P=805, N=0)
+2026-04-08 11:14:51,871 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 AND tx <= 0.50 AND age <= 55.00 THEN survival_status = {inf}, (p=58, n=0, P=805, N=0)
+2026-04-08 11:14:51,871 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:14:51,891 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:14:54,740 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:54,746 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:14:55,577 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:55,582 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:14:56,323 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=126, n=0, P=805, N=0)
+2026-04-08 11:14:56,329 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=126, n=0, P=805, N=0)
+2026-04-08 11:14:57,028 - INFO - Iteracja 3: condition_best: priorzdv <= 87.50, quality_best: 1.0, coverage_best: (p=121, n=0, P=805, N=0)
+2026-04-08 11:14:57,033 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 AND priorzdv <= 87.50 THEN survival_status = {inf}, (p=121, n=0, P=805, N=0)
+2026-04-08 11:14:57,711 - INFO - Iteracja 4: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=120, n=0, P=805, N=0)
+2026-04-08 11:14:57,716 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 AND priorzdv <= 87.50 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=120, n=0, P=805, N=0)
+2026-04-08 11:14:57,716 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:14:57,737 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:15:00,370 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:00,375 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:01,195 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:15:01,200 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:15:01,933 - INFO - Iteracja 2: condition_best: cd4 <= 18.50, quality_best: 1.0, coverage_best: (p=140, n=0, P=805, N=0)
+2026-04-08 11:15:01,938 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 <= 18.50 THEN survival_status = {inf}, (p=140, n=0, P=805, N=0)
+2026-04-08 11:15:02,603 - INFO - Iteracja 3: condition_best: priorzdv <= 128.00, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:15:02,608 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 <= 18.50 AND priorzdv <= 128.00 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:15:03,269 - INFO - Iteracja 4: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=137, n=0, P=805, N=0)
+2026-04-08 11:15:03,275 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 <= 18.50 AND priorzdv <= 128.00 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=137, n=0, P=805, N=0)
+2026-04-08 11:15:03,275 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:15:03,308 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:15:05,930 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:05,936 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:06,752 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:06,758 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:07,543 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=129, n=0, P=805, N=0)
+2026-04-08 11:15:07,548 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=129, n=0, P=805, N=0)
+2026-04-08 11:15:08,290 - INFO - Iteracja 3: condition_best: age >= 28.50, quality_best: 1.0, coverage_best: (p=116, n=0, P=805, N=0)
+2026-04-08 11:15:08,296 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND age >= 28.50 THEN survival_status = {inf}, (p=116, n=0, P=805, N=0)
+2026-04-08 11:15:08,975 - INFO - Iteracja 4: condition_best: tx <= 0.50, quality_best: 1.0, coverage_best: (p=57, n=0, P=805, N=0)
+2026-04-08 11:15:08,981 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND age >= 28.50 AND tx <= 0.50 THEN survival_status = {inf}, (p=57, n=0, P=805, N=0)
+2026-04-08 11:15:08,981 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:15:09,001 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:15:11,587 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:11,593 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:12,408 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:12,413 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:13,193 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=129, n=0, P=805, N=0)
+2026-04-08 11:15:13,199 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=129, n=0, P=805, N=0)
+2026-04-08 11:15:13,938 - INFO - Iteracja 3: condition_best: age >= 26.50, quality_best: 1.0, coverage_best: (p=119, n=0, P=805, N=0)
+2026-04-08 11:15:13,944 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND age >= 26.50 THEN survival_status = {inf}, (p=119, n=0, P=805, N=0)
+2026-04-08 11:15:14,638 - INFO - Iteracja 4: condition_best: cd4 >= 3.75, quality_best: 1.0, coverage_best: (p=110, n=0, P=805, N=0)
+2026-04-08 11:15:14,643 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND age >= 26.50 AND cd4 >= 3.75 THEN survival_status = {inf}, (p=110, n=0, P=805, N=0)
+2026-04-08 11:15:14,643 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:15:14,676 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:15:17,239 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:17,245 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:18,052 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:18,058 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:18,840 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=129, n=0, P=805, N=0)
+2026-04-08 11:15:18,845 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=129, n=0, P=805, N=0)
+2026-04-08 11:15:19,579 - INFO - Iteracja 3: condition_best: cd4 >= 3.75, quality_best: 1.0, coverage_best: (p=119, n=0, P=805, N=0)
+2026-04-08 11:15:19,585 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND cd4 >= 3.75 THEN survival_status = {inf}, (p=119, n=0, P=805, N=0)
+2026-04-08 11:15:20,287 - INFO - Iteracja 4: condition_best: age >= 21.00, quality_best: 1.0, coverage_best: (p=117, n=0, P=805, N=0)
+2026-04-08 11:15:20,292 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND cd4 >= 3.75 AND age >= 21.00 THEN survival_status = {inf}, (p=117, n=0, P=805, N=0)
+2026-04-08 11:15:20,292 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:15:20,326 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:15:22,874 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:22,879 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:23,678 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:23,683 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:24,445 - INFO - Iteracja 2: condition_best: priorzdv >= 9.75, quality_best: 1.0, coverage_best: (p=136, n=0, P=805, N=0)
+2026-04-08 11:15:24,450 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv >= 9.75 THEN survival_status = {inf}, (p=136, n=0, P=805, N=0)
+2026-04-08 11:15:25,177 - INFO - Iteracja 3: condition_best: cd4 <= 18.50, quality_best: 1.0, coverage_best: (p=118, n=0, P=805, N=0)
+2026-04-08 11:15:25,182 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv >= 9.75 AND cd4 <= 18.50 THEN survival_status = {inf}, (p=118, n=0, P=805, N=0)
+2026-04-08 11:15:25,846 - INFO - Iteracja 4: condition_best: priorzdv <= 71.50, quality_best: 1.0, coverage_best: (p=113, n=0, P=805, N=0)
+2026-04-08 11:15:25,851 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv >= 9.75 AND cd4 <= 18.50 AND priorzdv <= 71.50 THEN survival_status = {inf}, (p=113, n=0, P=805, N=0)
+2026-04-08 11:15:25,851 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:15:25,884 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:15:28,417 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:28,423 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:15:29,208 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:29,213 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:15:29,977 - INFO - Iteracja 2: condition_best: priorzdv <= 89.00, quality_best: 1.0, coverage_best: (p=167, n=0, P=805, N=0)
+2026-04-08 11:15:29,982 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv <= 89.00 THEN survival_status = {inf}, (p=167, n=0, P=805, N=0)
+2026-04-08 11:15:30,736 - INFO - Iteracja 3: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=165, n=0, P=805, N=0)
+2026-04-08 11:15:30,741 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv <= 89.00 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=165, n=0, P=805, N=0)
+2026-04-08 11:15:31,502 - INFO - Iteracja 4: condition_best: age >= 15.50, quality_best: 1.0, coverage_best: (p=164, n=0, P=805, N=0)
+2026-04-08 11:15:31,507 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv <= 89.00 AND strat2 <= 0.50 AND age >= 15.50 THEN survival_status = {inf}, (p=164, n=0, P=805, N=0)
+2026-04-08 11:15:31,507 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:15:31,527 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:15:34,026 - INFO - Iteracja 0: condition_best: cd4 >= 23.25, quality_best: 1.0, coverage_best: (p=613, n=0, P=805, N=0)
+2026-04-08 11:15:34,032 - INFO - Regula po iteracji 0: IF cd4 >= 23.25 THEN survival_status = {nan}, (p=613, n=0, P=805, N=0)
+2026-04-08 11:15:36,443 - INFO - Iteracja 1: condition_best: karnof >= 75.00, quality_best: 1.0, coverage_best: (p=602, n=0, P=805, N=0)
+2026-04-08 11:15:36,449 - INFO - Regula po iteracji 1: IF cd4 >= 23.25 AND karnof >= 75.00 THEN survival_status = {inf}, (p=602, n=0, P=805, N=0)
+2026-04-08 11:15:38,893 - INFO - Iteracja 2: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=595, n=0, P=805, N=0)
+2026-04-08 11:15:38,899 - INFO - Regula po iteracji 2: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 THEN survival_status = {inf}, (p=595, n=0, P=805, N=0)
+2026-04-08 11:15:41,363 - INFO - Iteracja 3: condition_best: txgrp <= 3.50, quality_best: 1.0, coverage_best: (p=594, n=0, P=805, N=0)
+2026-04-08 11:15:41,369 - INFO - Regula po iteracji 3: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 AND txgrp <= 3.50 THEN survival_status = {inf}, (p=594, n=0, P=805, N=0)
+2026-04-08 11:15:43,879 - INFO - Iteracja 4: condition_best: txgrp <= 2.50, quality_best: 1.0, coverage_best: (p=593, n=0, P=805, N=0)
+2026-04-08 11:15:43,886 - INFO - Regula po iteracji 4: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 AND txgrp <= 3.50 AND txgrp <= 2.50 THEN survival_status = {inf}, (p=593, n=0, P=805, N=0)
+2026-04-08 11:15:43,886 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:15:50,364 - INFO - ************************Finished experiment for 21_actg320.arff with algorithm_log_rank************************
+2026-04-08 11:15:50,364 - INFO - *************************************************************************************************************************
+2026-04-08 11:15:50,364 - INFO - *************************************************************************************************************************
+2026-04-08 11:15:50,364 - INFO - *************************************************************************************************************************
+2026-04-08 11:15:50,365 - INFO - **********Starting experiment for 21_actg320.arff with algorithm_log_rank_with_exceptions**********
+2026-04-08 11:15:50,380 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:15:55,911 - INFO - Iteracja 0: condition_best: cd4 >= 23.25, quality_best: 1.0, coverage_best: (p=613, n=0, P=805, N=0)
+2026-04-08 11:15:55,916 - INFO - Regula po iteracji 0: IF cd4 >= 23.25 THEN survival_status = {nan}, (p=613, n=0, P=805, N=0)
+2026-04-08 11:15:55,917 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:16:09,709 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:16:09,713 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:16:09,713 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:16:09,714 - INFO - ***RR NOT FOUND***
+2026-04-08 11:16:14,983 - INFO - Iteracja 1: condition_best: karnof >= 75.00, quality_best: 1.0, coverage_best: (p=602, n=0, P=805, N=0)
+2026-04-08 11:16:14,989 - INFO - Regula po iteracji 1: IF cd4 >= 23.25 AND karnof >= 75.00 THEN survival_status = {inf}, (p=602, n=0, P=805, N=0)
+2026-04-08 11:16:14,989 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:16:28,761 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:16:28,765 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:16:28,765 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:16:28,766 - INFO - ***RR NOT FOUND***
+2026-04-08 11:16:33,871 - INFO - Iteracja 2: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=595, n=0, P=805, N=0)
+2026-04-08 11:16:33,876 - INFO - Regula po iteracji 2: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 THEN survival_status = {inf}, (p=595, n=0, P=805, N=0)
+2026-04-08 11:16:33,877 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:16:47,607 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:16:47,612 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:16:47,612 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:16:47,612 - INFO - ***RR NOT FOUND***
+2026-04-08 11:16:52,698 - INFO - Iteracja 3: condition_best: txgrp <= 3.50, quality_best: 1.0, coverage_best: (p=594, n=0, P=805, N=0)
+2026-04-08 11:16:52,704 - INFO - Regula po iteracji 3: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 AND txgrp <= 3.50 THEN survival_status = {inf}, (p=594, n=0, P=805, N=0)
+2026-04-08 11:16:52,705 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:17:06,449 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:17:06,453 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:17:06,454 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:17:06,454 - INFO - ***RR NOT FOUND***
+2026-04-08 11:17:11,547 - INFO - Iteracja 4: condition_best: txgrp <= 2.50, quality_best: 1.0, coverage_best: (p=593, n=0, P=805, N=0)
+2026-04-08 11:17:11,553 - INFO - Regula po iteracji 4: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 AND txgrp <= 3.50 AND txgrp <= 2.50 THEN survival_status = {inf}, (p=593, n=0, P=805, N=0)
+2026-04-08 11:17:11,553 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:17:25,286 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:17:25,290 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:17:25,290 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:17:25,290 - INFO - ***RR NOT FOUND***
+2026-04-08 11:17:25,290 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:17:25,309 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:17:28,574 - INFO - Iteracja 0: condition_best: cd4 >= 23.25, quality_best: 1.0, coverage_best: (p=613, n=0, P=805, N=0)
+2026-04-08 11:17:28,580 - INFO - Regula po iteracji 0: IF cd4 >= 23.25 THEN survival_status = {nan}, (p=613, n=0, P=805, N=0)
+2026-04-08 11:17:28,580 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:17:42,383 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:17:42,387 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:17:42,388 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:17:42,388 - INFO - ***RR NOT FOUND***
+2026-04-08 11:17:45,493 - INFO - Iteracja 1: condition_best: karnof >= 75.00, quality_best: 1.0, coverage_best: (p=602, n=0, P=805, N=0)
+2026-04-08 11:17:45,499 - INFO - Regula po iteracji 1: IF cd4 >= 23.25 AND karnof >= 75.00 THEN survival_status = {inf}, (p=602, n=0, P=805, N=0)
+2026-04-08 11:17:45,499 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:17:59,269 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:17:59,273 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:17:59,273 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:17:59,273 - INFO - ***RR NOT FOUND***
+2026-04-08 11:18:02,401 - INFO - Iteracja 2: condition_best: txgrp <= 3.50, quality_best: 1.0, coverage_best: (p=601, n=0, P=805, N=0)
+2026-04-08 11:18:02,407 - INFO - Regula po iteracji 2: IF cd4 >= 23.25 AND karnof >= 75.00 AND txgrp <= 3.50 THEN survival_status = {inf}, (p=601, n=0, P=805, N=0)
+2026-04-08 11:18:02,407 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:18:16,222 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:18:16,226 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:18:16,227 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:18:16,227 - INFO - ***RR NOT FOUND***
+2026-04-08 11:18:19,396 - INFO - Iteracja 3: condition_best: txgrp <= 2.50, quality_best: 1.0, coverage_best: (p=600, n=0, P=805, N=0)
+2026-04-08 11:18:19,402 - INFO - Regula po iteracji 3: IF cd4 >= 23.25 AND karnof >= 75.00 AND txgrp <= 3.50 AND txgrp <= 2.50 THEN survival_status = {inf}, (p=600, n=0, P=805, N=0)
+2026-04-08 11:18:19,402 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:18:33,164 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:18:33,168 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:18:33,168 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:18:33,169 - INFO - ***RR NOT FOUND***
+2026-04-08 11:18:36,363 - INFO - Iteracja 4: condition_best: age <= 72.00, quality_best: 1.0, coverage_best: (p=599, n=0, P=805, N=0)
+2026-04-08 11:18:36,369 - INFO - Regula po iteracji 4: IF cd4 >= 23.25 AND karnof >= 75.00 AND txgrp <= 3.50 AND txgrp <= 2.50 AND age <= 72.00 THEN survival_status = {inf}, (p=599, n=0, P=805, N=0)
+2026-04-08 11:18:36,369 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:18:50,141 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:18:50,146 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:18:50,146 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:18:50,146 - INFO - ***RR NOT FOUND***
+2026-04-08 11:18:50,146 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:18:50,160 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:18:53,396 - INFO - Iteracja 0: condition_best: cd4 >= 23.25, quality_best: 1.0, coverage_best: (p=613, n=0, P=805, N=0)
+2026-04-08 11:18:53,402 - INFO - Regula po iteracji 0: IF cd4 >= 23.25 THEN survival_status = {nan}, (p=613, n=0, P=805, N=0)
+2026-04-08 11:18:53,402 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:19:07,244 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:19:07,249 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:19:07,249 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:19:07,249 - INFO - ***RR NOT FOUND***
+2026-04-08 11:19:10,327 - INFO - Iteracja 1: condition_best: age <= 50.50, quality_best: 1.0, coverage_best: (p=556, n=0, P=805, N=0)
+2026-04-08 11:19:10,332 - INFO - Regula po iteracji 1: IF cd4 >= 23.25 AND age <= 50.50 THEN survival_status = {inf}, (p=556, n=0, P=805, N=0)
+2026-04-08 11:19:10,332 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:19:24,030 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:19:24,034 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:19:24,034 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:19:24,034 - INFO - ***RR NOT FOUND***
+2026-04-08 11:19:26,954 - INFO - Iteracja 2: condition_best: txgrp <= 3.50, quality_best: 1.0, coverage_best: (p=555, n=0, P=805, N=0)
+2026-04-08 11:19:26,960 - INFO - Regula po iteracji 2: IF cd4 >= 23.25 AND age <= 50.50 AND txgrp <= 3.50 THEN survival_status = {inf}, (p=555, n=0, P=805, N=0)
+2026-04-08 11:19:26,960 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:19:40,591 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:19:40,596 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:19:40,596 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:19:40,596 - INFO - ***RR NOT FOUND***
+2026-04-08 11:19:43,545 - INFO - Iteracja 3: condition_best: txgrp <= 2.50, quality_best: 1.0, coverage_best: (p=554, n=0, P=805, N=0)
+2026-04-08 11:19:43,551 - INFO - Regula po iteracji 3: IF cd4 >= 23.25 AND age <= 50.50 AND txgrp <= 3.50 AND txgrp <= 2.50 THEN survival_status = {inf}, (p=554, n=0, P=805, N=0)
+2026-04-08 11:19:43,551 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:19:57,220 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:19:57,224 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:19:57,224 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:19:57,224 - INFO - ***RR NOT FOUND***
+2026-04-08 11:20:00,206 - INFO - Iteracja 4: condition_best: cd4 <= 329.00, quality_best: 1.0, coverage_best: (p=553, n=0, P=805, N=0)
+2026-04-08 11:20:00,212 - INFO - Regula po iteracji 4: IF cd4 >= 23.25 AND age <= 50.50 AND txgrp <= 3.50 AND txgrp <= 2.50 AND cd4 <= 329.00 THEN survival_status = {inf}, (p=553, n=0, P=805, N=0)
+2026-04-08 11:20:00,212 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:20:13,965 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:20:13,969 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:20:13,970 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:20:13,970 - INFO - ***RR NOT FOUND***
+2026-04-08 11:20:13,970 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:20:13,984 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:20:17,201 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:20:17,206 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:20:17,207 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:20:29,135 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:20:29,139 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:20:29,140 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:20:29,140 - INFO - ***RR NOT FOUND***
+2026-04-08 11:20:30,119 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:20:30,124 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:20:30,124 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:20:41,910 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:20:41,914 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:20:41,914 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:20:41,915 - INFO - ***RR NOT FOUND***
+2026-04-08 11:20:42,794 - INFO - Iteracja 2: condition_best: cd4 >= 2.25, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:20:42,799 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:20:42,799 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:20:54,494 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:20:54,498 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:20:54,498 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:20:54,498 - INFO - ***RR NOT FOUND***
+2026-04-08 11:20:55,328 - INFO - Iteracja 3: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=108, n=0, P=805, N=0)
+2026-04-08 11:20:55,333 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND karnof <= 95.00 THEN survival_status = {inf}, (p=108, n=0, P=805, N=0)
+2026-04-08 11:20:55,333 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:21:06,890 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:21:06,894 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:21:06,894 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:21:06,894 - INFO - ***RR NOT FOUND***
+2026-04-08 11:21:07,673 - INFO - Iteracja 4: condition_best: tx <= 0.50, quality_best: 1.0, coverage_best: (p=52, n=0, P=805, N=0)
+2026-04-08 11:21:07,678 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND karnof <= 95.00 AND tx <= 0.50 THEN survival_status = {inf}, (p=52, n=0, P=805, N=0)
+2026-04-08 11:21:07,678 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:21:18,887 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:21:18,891 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:21:18,891 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:21:18,891 - INFO - ***RR NOT FOUND***
+2026-04-08 11:21:18,891 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:21:18,912 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:21:21,931 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:21:21,936 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:21:21,936 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:21:33,846 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:21:33,851 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:21:33,851 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:21:33,851 - INFO - ***RR NOT FOUND***
+2026-04-08 11:21:34,772 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:21:34,777 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:21:34,777 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:21:46,477 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:21:46,482 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:21:46,482 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:21:46,482 - INFO - ***RR NOT FOUND***
+2026-04-08 11:21:47,300 - INFO - Iteracja 2: condition_best: cd4 >= 2.25, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:21:47,305 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:21:47,305 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:21:58,918 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:21:58,923 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:21:58,923 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:21:58,923 - INFO - ***RR NOT FOUND***
+2026-04-08 11:21:59,694 - INFO - Iteracja 3: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=108, n=0, P=805, N=0)
+2026-04-08 11:21:59,699 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND karnof <= 95.00 THEN survival_status = {inf}, (p=108, n=0, P=805, N=0)
+2026-04-08 11:21:59,700 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:22:11,182 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:22:11,187 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:22:11,187 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:22:11,187 - INFO - ***RR NOT FOUND***
+2026-04-08 11:22:11,933 - INFO - Iteracja 4: condition_best: priorzdv <= 89.00, quality_best: 1.0, coverage_best: (p=105, n=0, P=805, N=0)
+2026-04-08 11:22:11,938 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND karnof <= 95.00 AND priorzdv <= 89.00 THEN survival_status = {inf}, (p=105, n=0, P=805, N=0)
+2026-04-08 11:22:11,939 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:22:23,413 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:22:23,418 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:22:23,418 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:22:23,418 - INFO - ***RR NOT FOUND***
+2026-04-08 11:22:23,418 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:22:23,439 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:22:26,255 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:22:26,260 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:22:26,260 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:22:38,125 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:22:38,130 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:22:38,130 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:22:38,130 - INFO - ***RR NOT FOUND***
+2026-04-08 11:22:38,989 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:22:38,994 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:22:38,994 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:22:50,757 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:22:50,762 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:22:50,762 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:22:50,762 - INFO - ***RR NOT FOUND***
+2026-04-08 11:22:51,533 - INFO - Iteracja 2: condition_best: cd4 >= 2.25, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:22:51,538 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:22:51,538 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:23:03,174 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:23:03,179 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:23:03,179 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:23:03,179 - INFO - ***RR NOT FOUND***
+2026-04-08 11:23:03,913 - INFO - Iteracja 3: condition_best: cd4 <= 18.50, quality_best: 1.0, coverage_best: (p=119, n=0, P=805, N=0)
+2026-04-08 11:23:03,918 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND cd4 <= 18.50 THEN survival_status = {inf}, (p=119, n=0, P=805, N=0)
+2026-04-08 11:23:03,918 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:23:15,472 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:23:15,477 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:23:15,477 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:23:15,477 - INFO - ***RR NOT FOUND***
+2026-04-08 11:23:16,149 - INFO - Iteracja 4: condition_best: priorzdv <= 71.50, quality_best: 1.0, coverage_best: (p=114, n=0, P=805, N=0)
+2026-04-08 11:23:16,154 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND cd4 <= 18.50 AND priorzdv <= 71.50 THEN survival_status = {inf}, (p=114, n=0, P=805, N=0)
+2026-04-08 11:23:16,154 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:23:27,655 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:23:27,660 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:23:27,660 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:23:27,660 - INFO - ***RR NOT FOUND***
+2026-04-08 11:23:27,660 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:23:27,693 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:23:30,420 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:23:30,425 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:23:30,425 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:23:42,305 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:23:42,310 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:23:42,310 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:23:42,310 - INFO - ***RR NOT FOUND***
+2026-04-08 11:23:43,161 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:23:43,166 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:23:43,166 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:23:54,902 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:23:54,907 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:23:54,907 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:23:54,907 - INFO - ***RR NOT FOUND***
+2026-04-08 11:23:55,654 - INFO - Iteracja 2: condition_best: cd4 >= 2.25, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:23:55,659 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:23:55,659 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:24:07,289 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:24:07,294 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:24:07,294 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:24:07,294 - INFO - ***RR NOT FOUND***
+2026-04-08 11:24:08,014 - INFO - Iteracja 3: condition_best: priorzdv <= 89.00, quality_best: 1.0, coverage_best: (p=134, n=0, P=805, N=0)
+2026-04-08 11:24:08,019 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND priorzdv <= 89.00 THEN survival_status = {inf}, (p=134, n=0, P=805, N=0)
+2026-04-08 11:24:08,019 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:24:19,659 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:24:19,663 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:24:19,664 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:24:19,664 - INFO - ***RR NOT FOUND***
+2026-04-08 11:24:20,368 - INFO - Iteracja 4: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=133, n=0, P=805, N=0)
+2026-04-08 11:24:20,373 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 2.25 AND priorzdv <= 89.00 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=133, n=0, P=805, N=0)
+2026-04-08 11:24:20,374 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:24:31,953 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:24:31,958 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:24:31,958 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:24:31,958 - INFO - ***RR NOT FOUND***
+2026-04-08 11:24:31,958 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:24:31,979 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:24:34,692 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:24:34,698 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:24:34,698 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:24:46,536 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:24:46,541 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:24:46,541 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:24:46,541 - INFO - ***RR NOT FOUND***
+2026-04-08 11:24:47,386 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:24:47,391 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:24:47,392 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:24:59,115 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:24:59,120 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:24:59,120 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:24:59,120 - INFO - ***RR NOT FOUND***
+2026-04-08 11:24:59,864 - INFO - Iteracja 2: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=139, n=0, P=805, N=0)
+2026-04-08 11:24:59,869 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=139, n=0, P=805, N=0)
+2026-04-08 11:24:59,869 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:25:11,519 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:25:11,524 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:25:11,524 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:25:11,524 - INFO - ***RR NOT FOUND***
+2026-04-08 11:25:12,241 - INFO - Iteracja 3: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:25:12,246 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 1.50 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:25:12,246 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:25:23,881 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:25:23,886 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:25:23,886 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:25:23,886 - INFO - ***RR NOT FOUND***
+2026-04-08 11:25:24,615 - INFO - Iteracja 4: condition_best: priorzdv >= 5.50, quality_best: 1.0, coverage_best: (p=137, n=0, P=805, N=0)
+2026-04-08 11:25:24,620 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 >= 1.50 AND strat2 <= 0.50 AND priorzdv >= 5.50 THEN survival_status = {inf}, (p=137, n=0, P=805, N=0)
+2026-04-08 11:25:24,621 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:25:36,183 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:25:36,188 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:25:36,188 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:25:36,188 - INFO - ***RR NOT FOUND***
+2026-04-08 11:25:36,188 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:25:36,209 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:25:38,891 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:25:38,897 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:25:38,897 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:25:50,796 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:25:50,800 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:25:50,801 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:25:50,801 - INFO - ***RR NOT FOUND***
+2026-04-08 11:25:51,643 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:25:51,648 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:25:51,649 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:26:03,435 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:26:03,440 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:26:03,440 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:26:03,440 - INFO - ***RR NOT FOUND***
+2026-04-08 11:26:04,183 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=126, n=0, P=805, N=0)
+2026-04-08 11:26:04,188 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=126, n=0, P=805, N=0)
+2026-04-08 11:26:04,189 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:26:15,840 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:26:15,845 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:26:15,845 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:26:15,845 - INFO - ***RR NOT FOUND***
+2026-04-08 11:26:16,559 - INFO - Iteracja 3: condition_best: tx <= 0.50, quality_best: 1.0, coverage_best: (p=59, n=0, P=805, N=0)
+2026-04-08 11:26:16,564 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 AND tx <= 0.50 THEN survival_status = {inf}, (p=59, n=0, P=805, N=0)
+2026-04-08 11:26:16,564 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:26:27,804 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:26:27,808 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:26:27,808 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:26:27,808 - INFO - ***RR NOT FOUND***
+2026-04-08 11:26:28,327 - INFO - Iteracja 4: condition_best: age <= 55.00, quality_best: 1.0, coverage_best: (p=58, n=0, P=805, N=0)
+2026-04-08 11:26:28,332 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 AND tx <= 0.50 AND age <= 55.00 THEN survival_status = {inf}, (p=58, n=0, P=805, N=0)
+2026-04-08 11:26:28,332 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:26:39,547 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:26:39,551 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:26:39,552 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:26:39,552 - INFO - ***RR NOT FOUND***
+2026-04-08 11:26:39,552 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:26:39,572 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:26:42,227 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:26:42,233 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:26:42,233 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:26:54,117 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:26:54,122 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:26:54,122 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:26:54,122 - INFO - ***RR NOT FOUND***
+2026-04-08 11:26:54,940 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:26:54,946 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:26:54,946 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:27:06,720 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:27:06,725 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:27:06,725 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:27:06,725 - INFO - ***RR NOT FOUND***
+2026-04-08 11:27:07,462 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=126, n=0, P=805, N=0)
+2026-04-08 11:27:07,467 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=126, n=0, P=805, N=0)
+2026-04-08 11:27:07,467 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:27:19,252 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:27:19,256 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:27:19,256 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:27:19,257 - INFO - ***RR NOT FOUND***
+2026-04-08 11:27:19,956 - INFO - Iteracja 3: condition_best: priorzdv <= 87.50, quality_best: 1.0, coverage_best: (p=121, n=0, P=805, N=0)
+2026-04-08 11:27:19,961 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 AND priorzdv <= 87.50 THEN survival_status = {inf}, (p=121, n=0, P=805, N=0)
+2026-04-08 11:27:19,962 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:27:31,595 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:27:31,600 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:27:31,600 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:27:31,600 - INFO - ***RR NOT FOUND***
+2026-04-08 11:27:32,282 - INFO - Iteracja 4: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=120, n=0, P=805, N=0)
+2026-04-08 11:27:32,287 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND karnof <= 95.00 AND priorzdv <= 87.50 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=120, n=0, P=805, N=0)
+2026-04-08 11:27:32,287 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:27:43,873 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:27:43,878 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:27:43,878 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:27:43,878 - INFO - ***RR NOT FOUND***
+2026-04-08 11:27:43,878 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:27:43,899 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:27:46,499 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:27:46,504 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:27:46,505 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:27:58,420 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:27:58,425 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:27:58,425 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:27:58,425 - INFO - ***RR NOT FOUND***
+2026-04-08 11:27:59,238 - INFO - Iteracja 1: condition_best: age >= 30.50, quality_best: 1.0, coverage_best: (p=159, n=0, P=805, N=0)
+2026-04-08 11:27:59,244 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND age >= 30.50 THEN survival_status = {inf}, (p=159, n=0, P=805, N=0)
+2026-04-08 11:27:59,244 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:28:11,000 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:28:11,005 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:28:11,005 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:28:11,005 - INFO - ***RR NOT FOUND***
+2026-04-08 11:28:11,739 - INFO - Iteracja 2: condition_best: cd4 <= 18.50, quality_best: 1.0, coverage_best: (p=140, n=0, P=805, N=0)
+2026-04-08 11:28:11,744 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 <= 18.50 THEN survival_status = {inf}, (p=140, n=0, P=805, N=0)
+2026-04-08 11:28:11,744 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:28:23,385 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:28:23,390 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:28:23,390 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:28:23,390 - INFO - ***RR NOT FOUND***
+2026-04-08 11:28:24,062 - INFO - Iteracja 3: condition_best: priorzdv <= 128.00, quality_best: 1.0, coverage_best: (p=138, n=0, P=805, N=0)
+2026-04-08 11:28:24,067 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 <= 18.50 AND priorzdv <= 128.00 THEN survival_status = {inf}, (p=138, n=0, P=805, N=0)
+2026-04-08 11:28:24,068 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:28:35,731 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:28:35,736 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:28:35,736 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:28:35,736 - INFO - ***RR NOT FOUND***
+2026-04-08 11:28:36,387 - INFO - Iteracja 4: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=137, n=0, P=805, N=0)
+2026-04-08 11:28:36,393 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND age >= 30.50 AND cd4 <= 18.50 AND priorzdv <= 128.00 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=137, n=0, P=805, N=0)
+2026-04-08 11:28:36,393 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:28:48,009 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:28:48,014 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:28:48,014 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:28:48,014 - INFO - ***RR NOT FOUND***
+2026-04-08 11:28:48,014 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:28:48,047 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:28:50,654 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:28:50,660 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:28:50,660 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:29:02,591 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:29:02,596 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:29:02,596 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:29:02,596 - INFO - ***RR NOT FOUND***
+2026-04-08 11:29:03,411 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:29:03,416 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:29:03,416 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:29:15,272 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:29:15,277 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:29:15,277 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:29:15,277 - INFO - ***RR NOT FOUND***
+2026-04-08 11:29:16,061 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=129, n=0, P=805, N=0)
+2026-04-08 11:29:16,066 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=129, n=0, P=805, N=0)
+2026-04-08 11:29:16,066 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:29:27,747 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:29:27,752 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:29:27,752 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:29:27,752 - INFO - ***RR NOT FOUND***
+2026-04-08 11:29:28,498 - INFO - Iteracja 3: condition_best: age >= 28.50, quality_best: 1.0, coverage_best: (p=116, n=0, P=805, N=0)
+2026-04-08 11:29:28,503 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND age >= 28.50 THEN survival_status = {inf}, (p=116, n=0, P=805, N=0)
+2026-04-08 11:29:28,503 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:29:40,189 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:29:40,193 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:29:40,193 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:29:40,194 - INFO - ***RR NOT FOUND***
+2026-04-08 11:29:40,875 - INFO - Iteracja 4: condition_best: tx <= 0.50, quality_best: 1.0, coverage_best: (p=57, n=0, P=805, N=0)
+2026-04-08 11:29:40,880 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND age >= 28.50 AND tx <= 0.50 THEN survival_status = {inf}, (p=57, n=0, P=805, N=0)
+2026-04-08 11:29:40,881 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:29:52,134 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:29:52,138 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:29:52,139 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:29:52,139 - INFO - ***RR NOT FOUND***
+2026-04-08 11:29:52,139 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:29:52,159 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:29:54,761 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:29:54,766 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:29:54,767 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:30:06,683 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:30:06,687 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:30:06,687 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:30:06,687 - INFO - ***RR NOT FOUND***
+2026-04-08 11:30:07,490 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:30:07,496 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:30:07,496 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:30:19,325 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:30:19,330 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:30:19,330 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:30:19,330 - INFO - ***RR NOT FOUND***
+2026-04-08 11:30:20,117 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=129, n=0, P=805, N=0)
+2026-04-08 11:30:20,123 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=129, n=0, P=805, N=0)
+2026-04-08 11:30:20,123 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:30:31,804 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:30:31,808 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:30:31,808 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:30:31,808 - INFO - ***RR NOT FOUND***
+2026-04-08 11:30:32,546 - INFO - Iteracja 3: condition_best: age >= 26.50, quality_best: 1.0, coverage_best: (p=119, n=0, P=805, N=0)
+2026-04-08 11:30:32,551 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND age >= 26.50 THEN survival_status = {inf}, (p=119, n=0, P=805, N=0)
+2026-04-08 11:30:32,551 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:30:44,177 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:30:44,182 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:30:44,182 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:30:44,182 - INFO - ***RR NOT FOUND***
+2026-04-08 11:30:44,884 - INFO - Iteracja 4: condition_best: cd4 >= 3.75, quality_best: 1.0, coverage_best: (p=110, n=0, P=805, N=0)
+2026-04-08 11:30:44,890 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND age >= 26.50 AND cd4 >= 3.75 THEN survival_status = {inf}, (p=110, n=0, P=805, N=0)
+2026-04-08 11:30:44,890 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:30:56,412 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:30:56,416 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:30:56,416 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:30:56,416 - INFO - ***RR NOT FOUND***
+2026-04-08 11:30:56,417 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:30:56,450 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:30:59,013 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:30:59,019 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:30:59,019 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:31:10,844 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:31:10,848 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:31:10,848 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:31:10,848 - INFO - ***RR NOT FOUND***
+2026-04-08 11:31:11,646 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:31:11,652 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:31:11,652 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:31:23,410 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:31:23,415 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:31:23,415 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:31:23,415 - INFO - ***RR NOT FOUND***
+2026-04-08 11:31:24,184 - INFO - Iteracja 2: condition_best: karnof <= 95.00, quality_best: 1.0, coverage_best: (p=129, n=0, P=805, N=0)
+2026-04-08 11:31:24,189 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 THEN survival_status = {inf}, (p=129, n=0, P=805, N=0)
+2026-04-08 11:31:24,190 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:31:35,788 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:31:35,793 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:31:35,793 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:31:35,793 - INFO - ***RR NOT FOUND***
+2026-04-08 11:31:36,513 - INFO - Iteracja 3: condition_best: cd4 >= 3.75, quality_best: 1.0, coverage_best: (p=119, n=0, P=805, N=0)
+2026-04-08 11:31:36,518 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND cd4 >= 3.75 THEN survival_status = {inf}, (p=119, n=0, P=805, N=0)
+2026-04-08 11:31:36,518 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:31:48,010 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:31:48,014 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:31:48,014 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:31:48,014 - INFO - ***RR NOT FOUND***
+2026-04-08 11:31:48,709 - INFO - Iteracja 4: condition_best: age >= 21.00, quality_best: 1.0, coverage_best: (p=117, n=0, P=805, N=0)
+2026-04-08 11:31:48,714 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND karnof <= 95.00 AND cd4 >= 3.75 AND age >= 21.00 THEN survival_status = {inf}, (p=117, n=0, P=805, N=0)
+2026-04-08 11:31:48,715 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:32:00,341 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:32:00,346 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:32:00,346 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:32:00,346 - INFO - ***RR NOT FOUND***
+2026-04-08 11:32:00,346 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:32:00,379 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:32:02,945 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:32:02,950 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:32:02,951 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:32:14,898 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:32:14,902 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:32:14,902 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:32:14,902 - INFO - ***RR NOT FOUND***
+2026-04-08 11:32:15,701 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:32:15,706 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:32:15,706 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:32:27,501 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:32:27,505 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:32:27,505 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:32:27,505 - INFO - ***RR NOT FOUND***
+2026-04-08 11:32:28,280 - INFO - Iteracja 2: condition_best: priorzdv >= 9.75, quality_best: 1.0, coverage_best: (p=136, n=0, P=805, N=0)
+2026-04-08 11:32:28,285 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv >= 9.75 THEN survival_status = {inf}, (p=136, n=0, P=805, N=0)
+2026-04-08 11:32:28,285 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:32:39,933 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:32:39,938 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:32:39,938 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:32:39,938 - INFO - ***RR NOT FOUND***
+2026-04-08 11:32:40,673 - INFO - Iteracja 3: condition_best: cd4 <= 18.50, quality_best: 1.0, coverage_best: (p=118, n=0, P=805, N=0)
+2026-04-08 11:32:40,678 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv >= 9.75 AND cd4 <= 18.50 THEN survival_status = {inf}, (p=118, n=0, P=805, N=0)
+2026-04-08 11:32:40,678 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:32:52,250 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:32:52,254 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:32:52,254 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:32:52,254 - INFO - ***RR NOT FOUND***
+2026-04-08 11:32:52,928 - INFO - Iteracja 4: condition_best: priorzdv <= 71.50, quality_best: 1.0, coverage_best: (p=113, n=0, P=805, N=0)
+2026-04-08 11:32:52,933 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv >= 9.75 AND cd4 <= 18.50 AND priorzdv <= 71.50 THEN survival_status = {inf}, (p=113, n=0, P=805, N=0)
+2026-04-08 11:32:52,933 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:33:04,425 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:33:04,429 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:33:04,429 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:33:04,429 - INFO - ***RR NOT FOUND***
+2026-04-08 11:33:04,429 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:33:04,462 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:33:06,990 - INFO - Iteracja 0: condition_best: cd4 <= 23.25, quality_best: 1.0, coverage_best: (p=192, n=0, P=805, N=0)
+2026-04-08 11:33:06,996 - INFO - Regula po iteracji 0: IF cd4 <= 23.25 THEN survival_status = {nan}, (p=192, n=0, P=805, N=0)
+2026-04-08 11:33:06,996 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:33:18,958 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:33:18,962 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:33:18,963 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:33:18,963 - INFO - ***RR NOT FOUND***
+2026-04-08 11:33:19,754 - INFO - Iteracja 1: condition_best: cd4 >= 1.50, quality_best: 1.0, coverage_best: (p=171, n=0, P=805, N=0)
+2026-04-08 11:33:19,759 - INFO - Regula po iteracji 1: IF cd4 <= 23.25 AND cd4 >= 1.50 THEN survival_status = {inf}, (p=171, n=0, P=805, N=0)
+2026-04-08 11:33:19,759 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:33:31,645 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:33:31,650 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:33:31,650 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:33:31,650 - INFO - ***RR NOT FOUND***
+2026-04-08 11:33:32,415 - INFO - Iteracja 2: condition_best: priorzdv <= 89.00, quality_best: 1.0, coverage_best: (p=167, n=0, P=805, N=0)
+2026-04-08 11:33:32,420 - INFO - Regula po iteracji 2: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv <= 89.00 THEN survival_status = {inf}, (p=167, n=0, P=805, N=0)
+2026-04-08 11:33:32,420 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:33:44,242 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:33:44,247 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:33:44,247 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:33:44,247 - INFO - ***RR NOT FOUND***
+2026-04-08 11:33:45,009 - INFO - Iteracja 3: condition_best: strat2 <= 0.50, quality_best: 1.0, coverage_best: (p=165, n=0, P=805, N=0)
+2026-04-08 11:33:45,014 - INFO - Regula po iteracji 3: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv <= 89.00 AND strat2 <= 0.50 THEN survival_status = {inf}, (p=165, n=0, P=805, N=0)
+2026-04-08 11:33:45,015 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:33:56,823 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:33:56,828 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:33:56,828 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:33:56,828 - INFO - ***RR NOT FOUND***
+2026-04-08 11:33:57,596 - INFO - Iteracja 4: condition_best: age >= 15.50, quality_best: 1.0, coverage_best: (p=164, n=0, P=805, N=0)
+2026-04-08 11:33:57,601 - INFO - Regula po iteracji 4: IF cd4 <= 23.25 AND cd4 >= 1.50 AND priorzdv <= 89.00 AND strat2 <= 0.50 AND age >= 15.50 THEN survival_status = {inf}, (p=164, n=0, P=805, N=0)
+2026-04-08 11:33:57,601 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:34:09,407 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:34:09,412 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:34:09,412 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:34:09,412 - INFO - ***RR NOT FOUND***
+2026-04-08 11:34:09,412 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:34:09,432 - INFO - *******GROWING CR RULE*******
+2026-04-08 11:34:11,923 - INFO - Iteracja 0: condition_best: cd4 >= 23.25, quality_best: 1.0, coverage_best: (p=613, n=0, P=805, N=0)
+2026-04-08 11:34:11,929 - INFO - Regula po iteracji 0: IF cd4 >= 23.25 THEN survival_status = {nan}, (p=613, n=0, P=805, N=0)
+2026-04-08 11:34:11,929 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:34:25,821 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:34:25,826 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:34:25,826 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:34:25,826 - INFO - ***RR NOT FOUND***
+2026-04-08 11:34:28,225 - INFO - Iteracja 1: condition_best: karnof >= 75.00, quality_best: 1.0, coverage_best: (p=602, n=0, P=805, N=0)
+2026-04-08 11:34:28,231 - INFO - Regula po iteracji 1: IF cd4 >= 23.25 AND karnof >= 75.00 THEN survival_status = {inf}, (p=602, n=0, P=805, N=0)
+2026-04-08 11:34:28,231 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:34:42,043 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:34:42,047 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:34:42,048 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:34:42,048 - INFO - ***RR NOT FOUND***
+2026-04-08 11:34:44,492 - INFO - Iteracja 2: condition_best: age <= 62.50, quality_best: 1.0, coverage_best: (p=595, n=0, P=805, N=0)
+2026-04-08 11:34:44,498 - INFO - Regula po iteracji 2: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 THEN survival_status = {inf}, (p=595, n=0, P=805, N=0)
+2026-04-08 11:34:44,499 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:34:58,289 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:34:58,293 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:34:58,294 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:34:58,294 - INFO - ***RR NOT FOUND***
+2026-04-08 11:35:00,747 - INFO - Iteracja 3: condition_best: txgrp <= 3.50, quality_best: 1.0, coverage_best: (p=594, n=0, P=805, N=0)
+2026-04-08 11:35:00,754 - INFO - Regula po iteracji 3: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 AND txgrp <= 3.50 THEN survival_status = {inf}, (p=594, n=0, P=805, N=0)
+2026-04-08 11:35:00,754 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:35:14,590 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:35:14,594 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:35:14,595 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:35:14,595 - INFO - ***RR NOT FOUND***
+2026-04-08 11:35:17,072 - INFO - Iteracja 4: condition_best: txgrp <= 2.50, quality_best: 1.0, coverage_best: (p=593, n=0, P=805, N=0)
+2026-04-08 11:35:17,078 - INFO - Regula po iteracji 4: IF cd4 >= 23.25 AND karnof >= 75.00 AND age <= 62.50 AND txgrp <= 3.50 AND txgrp <= 2.50 THEN survival_status = {inf}, (p=593, n=0, P=805, N=0)
+2026-04-08 11:35:17,078 - INFO - *****GROWING RR RULE*****
+2026-04-08 11:35:30,908 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 11:35:30,912 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=805, n=0, P=805, N=0)
+2026-04-08 11:35:30,912 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 11:35:30,913 - INFO - ***RR NOT FOUND***
+2026-04-08 11:35:30,913 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 11:35:37,539 - INFO - ************************Finished experiment for 21_actg320.arff with algorithm_log_rank_with_exceptions************************
+2026-04-08 11:35:37,539 - INFO - *************************************************************************************************************************
+2026-04-08 11:35:37,539 - INFO - *************************************************************************************************************************
+2026-04-08 11:35:37,539 - INFO - *************************************************************************************************************************
+2026-04-08 11:35:37,540 - INFO - **********Starting experiment for 21_actg320.arff with survival_tree**********
+2026-04-08 11:35:37,630 - INFO - ************************Finished experiment for 21_actg320.arff with survival_tree************************
+2026-04-08 11:35:37,630 - INFO - *************************************************************************************************************************
+2026-04-08 11:35:37,630 - INFO - *************************************************************************************************************************
+2026-04-08 11:35:37,630 - INFO - *************************************************************************************************************************

@@ -1,0 +1,10 @@
+
+CR 0: IF HANDTIME <= 18.50 AND DELDEPTH <= 19.00 THEN survival_status = {38.0} (p=152, n=0, P=205, N=0)
+RR 0: IF DELDEPTH >= 14.00 THEN survival_status = {9.3} (p=33, n=0, P=205, N=0)
+ER 0: IF HANDTIME <= 18.50 AND DELDEPTH <= 19.00 AND DELDEPTH >= 14.00 THEN survival_status = {353.0} (p=10, n=0, P=205, N=0)
+
+CR 1: IF HANDTIME <= 18.50 AND LENGTH >= 34.50 THEN survival_status = {39.3} (p=137, n=0, P=205, N=0)
+
+CR 2: IF HANDTIME >= 18.50 AND DELDEPTH <= 53.50 AND TOWD = {100} AND HANDTIME <= 37.00 THEN survival_status = {8.0} (p=40, n=0, P=205, N=0)
+
+CR 3: IF HANDTIME >= 18.50 AND LENGTH <= 55.00 THEN survival_status = {13.1} (p=45, n=0, P=205, N=0)

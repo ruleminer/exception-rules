@@ -1,0 +1,8 @@
+
+CR 0: IF Stage4 = {0} THEN survival_status = {1234.0} (p=537, n=0, P=722, N=0)
+RR 0: IF Cell_Type <= 1.50 THEN survival_status = {1359.0} (p=457, n=0, P=722, N=0)
+ER 0: IF Stage4 = {0} AND Cell_Type <= 1.50 THEN survival_status = {1617.0} (p=370, n=0, P=722, N=0)
+
+CR 1: IF Stage1 >= 1.50 THEN survival_status = {623.0} (p=466, n=0, P=722, N=0)
+RR 1: IF Cell_Type >= 1.50 THEN survival_status = {604.0} (p=263, n=0, P=722, N=0)
+ER 1: IF Stage1 >= 1.50 AND Cell_Type >= 1.50 THEN survival_status = {505.0} (p=211, n=0, P=722, N=0)

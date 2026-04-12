@@ -1,0 +1,10 @@
+
+CR 0: IF cd4 >= 18.75 AND karnof >= 75.00 AND age <= 66.50 THEN survival_status = {inf} (p=876, n=0, P=1151, N=0)
+
+CR 1: IF cd4 >= 18.75 AND karnof >= 75.00 THEN survival_status = {inf} (p=881, n=0, P=1151, N=0)
+
+CR 2: IF cd4 >= 18.75 AND age <= 66.50 THEN survival_status = {inf} (p=893, n=0, P=1151, N=0)
+
+CR 3: IF cd4 <= 18.75 THEN survival_status = {inf} (p=253, n=0, P=1151, N=0)
+RR 3: IF karnof <= 85.00 THEN survival_status = {inf} (p=214, n=0, P=1151, N=0)
+ER 3: IF cd4 <= 18.75 AND karnof <= 85.00 THEN survival_status = {inf} (p=80, n=0, P=1151, N=0)

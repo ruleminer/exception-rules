@@ -1,0 +1,12 @@
+
+CR 0: IF chol0 <= 271.50 THEN survival_status = {inf} (p=2719, n=0, P=3154, N=0)
+RR 0: IF dbp0 <= 84.50 THEN survival_status = {inf} (p=2130, n=0, P=3154, N=0)
+ER 0: IF chol0 <= 271.50 AND dbp0 <= 84.50 THEN survival_status = {inf} (p=1876, n=0, P=3154, N=0)
+
+CR 1: IF chol0 >= 264.50 THEN survival_status = {inf} (p=550, n=0, P=3154, N=0)
+RR 1: IF sbp0 >= 147.00 THEN survival_status = {inf} (p=341, n=0, P=3154, N=0)
+ER 1: IF chol0 >= 264.50 AND sbp0 >= 147.00 THEN survival_status = {inf} (p=75, n=0, P=3154, N=0)
+
+CR 2: IF age0 <= 47.50 THEN survival_status = {inf} (p=1951, n=0, P=3154, N=0)
+RR 2: IF chol0 <= 236.50 AND sbp0 <= 186.00 THEN survival_status = {inf} (p=1951, n=0, P=3154, N=0)
+ER 2: IF age0 <= 47.50 AND chol0 <= 236.50 AND sbp0 <= 186.00 THEN survival_status = {inf} (p=1285, n=0, P=3154, N=0)

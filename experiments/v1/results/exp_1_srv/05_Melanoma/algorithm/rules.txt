@@ -1,0 +1,20 @@
+
+CR 0: IF thick <= 3.38 AND age <= 70.50 AND age >= 14.50 THEN survival_status = {inf} (p=130, n=0, P=205, N=0)
+
+CR 1: IF thick <= 3.38 AND age <= 74.50 AND age >= 14.50 THEN survival_status = {inf} (p=135, n=0, P=205, N=0)
+
+CR 2: IF thick <= 3.38 AND age <= 76.50 THEN survival_status = {inf} (p=140, n=0, P=205, N=0)
+
+CR 3: IF thick <= 3.38 AND age >= 14.50 THEN survival_status = {inf} (p=143, n=0, P=205, N=0)
+RR 3: IF age <= 55.50 AND thick <= 12.16 THEN survival_status = {inf} (p=108, n=0, P=205, N=0)
+ER 3: IF thick <= 3.38 AND age >= 14.50 AND age <= 55.50 AND thick <= 12.16 THEN survival_status = {inf} (p=79, n=0, P=205, N=0)
+
+CR 4: IF ulcer = {present} AND age >= 42.50 AND ici >= 1.50 AND thick >= 4.83 THEN survival_status = {659.0} (p=22, n=0, P=205, N=0)
+
+CR 5: IF ulcer = {present} AND age >= 42.50 AND ici >= 1.50 AND thick >= 3.71 THEN survival_status = {793.0} (p=29, n=0, P=205, N=0)
+
+CR 6: IF thick >= 3.38 AND ulcer = {present} AND age >= 42.50 THEN survival_status = {1075.0} (p=39, n=0, P=205, N=0)
+
+CR 7: IF thick >= 3.38 AND ulcer = {present} AND ici >= 0.50 AND age >= 15.50 THEN survival_status = {1075.0} (p=45, n=0, P=205, N=0)
+
+CR 8: IF thick >= 3.38 AND ici >= 0.50 AND age >= 14.00 THEN survival_status = {1312.0} (p=58, n=0, P=205, N=0)

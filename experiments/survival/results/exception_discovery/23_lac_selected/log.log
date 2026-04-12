@@ -1,0 +1,115 @@
+2026-04-12 14:19:04,637 - INFO - **********Starting experiment for 23_lac_selected.arff with algorithm**********
+2026-04-12 14:19:04,644 - INFO - *******GROWING CR RULE*******
+2026-04-12 14:19:28,396 - INFO - Iteracja 0: condition_best: INHA_a <= 11.33, quality_best: 1.0, coverage_best: (p=79, n=0, P=86, N=0)
+2026-04-12 14:19:28,400 - INFO - Regula po iteracji 0: IF INHA_a <= 11.33 THEN survival_status = {nan}, (p=79, n=0, P=86, N=0)
+2026-04-12 14:19:28,400 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:20:30,161 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 14:20:30,165 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=86, n=0, P=86, N=0)
+2026-04-12 14:20:30,165 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:20:30,165 - INFO - ***RR NOT FOUND***
+2026-04-12 14:20:55,141 - INFO - Iteracja 1: condition_best: UBC <= 12.51, quality_best: 1.0, coverage_best: (p=74, n=0, P=86, N=0)
+2026-04-12 14:20:55,145 - INFO - Regula po iteracji 1: IF INHA_a <= 11.33 AND UBC <= 12.51 THEN survival_status = {inf}, (p=74, n=0, P=86, N=0)
+2026-04-12 14:20:55,145 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:21:55,869 - INFO - Iteracja 0: condition_best: SLC1A6 <= 9.25, quality_best: 0.23, coverage_best: (p=23, n=0, P=86, N=0), p_value: 0.429
+2026-04-12 14:21:55,873 - INFO - Regula po iteracji 0: IF SLC1A6 <= 9.25 THEN survival_status = {nan}, (p=23, n=0, P=86, N=0)
+2026-04-12 14:22:11,018 - INFO - Iteracja 1: condition_best: CRK <= 8.57, quality_best: 0.537, coverage_best: (p=22, n=0, P=86, N=0), p_value: 0.693
+2026-04-12 14:22:11,022 - INFO - Regula po iteracji 1: IF SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf}, (p=22, n=0, P=86, N=0)
+2026-04-12 14:22:25,711 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.693
+2026-04-12 14:22:25,715 - INFO - Regula po iteracji 2: IF SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf}, (p=22, n=0, P=86, N=0)
+2026-04-12 14:22:25,715 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:22:25,715 - INFO - ***RR FOUND***
+2026-04-12 14:22:25,715 - INFO - Reference rule: IF SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf}
+2026-04-12 14:22:25,715 - INFO - ***CHECKING EXCEPTION***
+2026-04-12 14:22:25,716 - INFO - ER vs CR p_value: 0.04826896954864823
+2026-04-12 14:22:25,716 - INFO - ER vs RR p_value: 0.04230495938646994
+2026-04-12 14:22:25,728 - INFO - ***ER FOUND***
+2026-04-12 14:22:25,728 - INFO - Exception rule: IF INHA_a <= 11.33 AND UBC <= 12.51 AND SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf} (p=16, n=0, P=86, N=0)
+2026-04-12 14:22:25,728 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 14:22:25,732 - INFO - *******GROWING CR RULE*******
+2026-04-12 14:22:44,353 - INFO - Iteracja 0: condition_best: INHA_a <= 11.33, quality_best: 1.0, coverage_best: (p=79, n=0, P=86, N=0)
+2026-04-12 14:22:44,358 - INFO - Regula po iteracji 0: IF INHA_a <= 11.33 THEN survival_status = {nan}, (p=79, n=0, P=86, N=0)
+2026-04-12 14:22:44,358 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:23:46,075 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 14:23:46,078 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=86, n=0, P=86, N=0)
+2026-04-12 14:23:46,078 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:23:46,079 - INFO - ***RR NOT FOUND***
+2026-04-12 14:24:06,441 - INFO - Iteracja 1: condition_best: FADD <= 10.24, quality_best: 1.0, coverage_best: (p=77, n=0, P=86, N=0)
+2026-04-12 14:24:06,446 - INFO - Regula po iteracji 1: IF INHA_a <= 11.33 AND FADD <= 10.24 THEN survival_status = {inf}, (p=77, n=0, P=86, N=0)
+2026-04-12 14:24:06,446 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:25:07,975 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 14:25:07,979 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=86, n=0, P=86, N=0)
+2026-04-12 14:25:07,979 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:25:07,979 - INFO - ***RR NOT FOUND***
+2026-04-12 14:25:28,288 - INFO - Iteracja 2: condition_best: ATP2B1 <= 9.92, quality_best: 1.0, coverage_best: (p=76, n=0, P=86, N=0)
+2026-04-12 14:25:28,292 - INFO - Regula po iteracji 2: IF INHA_a <= 11.33 AND FADD <= 10.24 AND ATP2B1 <= 9.92 THEN survival_status = {inf}, (p=76, n=0, P=86, N=0)
+2026-04-12 14:25:28,292 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:26:29,639 - INFO - Iteracja 0: condition_best: GCNT1_a <= 7.50, quality_best: 0.886, coverage_best: (p=39, n=0, P=86, N=0), p_value: 0.99
+2026-04-12 14:26:29,644 - INFO - Regula po iteracji 0: IF GCNT1_a <= 7.50 THEN survival_status = {nan}, (p=39, n=0, P=86, N=0)
+2026-04-12 14:26:56,802 - INFO - Iteracja 1: condition_best: CRK >= 8.08, quality_best: 0.833, coverage_best: (p=34, n=0, P=86, N=0), p_value: 1.0
+2026-04-12 14:26:56,806 - INFO - Regula po iteracji 1: IF GCNT1_a <= 7.50 AND CRK >= 8.08 THEN survival_status = {inf}, (p=34, n=0, P=86, N=0)
+2026-04-12 14:27:20,948 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2026-04-12 14:27:20,952 - INFO - Regula po iteracji 2: IF GCNT1_a <= 7.50 AND CRK >= 8.08 THEN survival_status = {inf}, (p=34, n=0, P=86, N=0)
+2026-04-12 14:27:20,952 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:27:20,953 - INFO - ***RR FOUND***
+2026-04-12 14:27:20,953 - INFO - Reference rule: IF GCNT1_a <= 7.50 THEN survival_status = {inf}
+2026-04-12 14:27:20,953 - INFO - ***CHECKING EXCEPTION***
+2026-04-12 14:27:20,954 - INFO - ER vs CR p_value: 0.03596813805261123
+2026-04-12 14:27:20,954 - INFO - ER vs RR p_value: 0.04941891020979272
+2026-04-12 14:27:20,966 - INFO - ***ER FOUND***
+2026-04-12 14:27:20,966 - INFO - Exception rule: IF INHA_a <= 11.33 AND FADD <= 10.24 AND ATP2B1 <= 9.92 AND GCNT1_a <= 7.50 THEN survival_status = {inf} (p=33, n=0, P=86, N=0)
+2026-04-12 14:27:20,966 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 14:27:20,969 - INFO - *******GROWING CR RULE*******
+2026-04-12 14:27:39,016 - INFO - Iteracja 0: condition_best: INHA_a >= 11.33, quality_best: 1.0, coverage_best: (p=7, n=0, P=86, N=0)
+2026-04-12 14:27:39,020 - INFO - Regula po iteracji 0: IF INHA_a >= 11.33 THEN survival_status = {nan}, (p=7, n=0, P=86, N=0)
+2026-04-12 14:27:39,020 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:28:26,572 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 14:28:26,576 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=86, n=0, P=86, N=0)
+2026-04-12 14:28:26,576 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:28:26,576 - INFO - ***RR NOT FOUND***
+2026-04-12 14:28:28,034 - INFO - Iteracja 1: condition_best: ITK >= 7.36, quality_best: 1.0, coverage_best: (p=6, n=0, P=86, N=0)
+2026-04-12 14:28:28,037 - INFO - Regula po iteracji 1: IF INHA_a >= 11.33 AND ITK >= 7.36 THEN survival_status = {5.8}, (p=6, n=0, P=86, N=0)
+2026-04-12 14:28:28,037 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:29:15,196 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 14:29:15,200 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=86, n=0, P=86, N=0)
+2026-04-12 14:29:15,200 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:29:15,200 - INFO - ***RR NOT FOUND***
+2026-04-12 14:29:16,464 - INFO - Iteracja 2: condition_best: ADM >= 9.02, quality_best: 1.0, coverage_best: (p=5, n=0, P=86, N=0)
+2026-04-12 14:29:16,467 - INFO - Regula po iteracji 2: IF INHA_a >= 11.33 AND ITK >= 7.36 AND ADM >= 9.02 THEN survival_status = {4.0}, (p=5, n=0, P=86, N=0)
+2026-04-12 14:29:16,467 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:30:02,837 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 14:30:02,841 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=86, n=0, P=86, N=0)
+2026-04-12 14:30:02,841 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:30:02,841 - INFO - ***RR NOT FOUND***
+2026-04-12 14:30:03,891 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-12 14:30:03,894 - INFO - Regula po iteracji 3: IF INHA_a >= 11.33 AND ITK >= 7.36 AND ADM >= 9.02 THEN survival_status = {4.0}, (p=5, n=0, P=86, N=0)
+2026-04-12 14:30:03,895 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 14:30:03,901 - INFO - *******GROWING CR RULE*******
+2026-04-12 14:30:21,807 - INFO - Iteracja 0: condition_best: INHA_a <= 11.33, quality_best: 1.0, coverage_best: (p=79, n=0, P=86, N=0)
+2026-04-12 14:30:21,812 - INFO - Regula po iteracji 0: IF INHA_a <= 11.33 THEN survival_status = {nan}, (p=79, n=0, P=86, N=0)
+2026-04-12 14:30:21,812 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:31:23,418 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-12 14:31:23,422 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=86, n=0, P=86, N=0)
+2026-04-12 14:31:23,422 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:31:23,422 - INFO - ***RR NOT FOUND***
+2026-04-12 14:31:43,053 - INFO - Iteracja 1: condition_best: UBC <= 12.51, quality_best: 1.0, coverage_best: (p=74, n=0, P=86, N=0)
+2026-04-12 14:31:43,057 - INFO - Regula po iteracji 1: IF INHA_a <= 11.33 AND UBC <= 12.51 THEN survival_status = {inf}, (p=74, n=0, P=86, N=0)
+2026-04-12 14:31:43,058 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:32:43,876 - INFO - Iteracja 0: condition_best: SLC1A6 <= 9.25, quality_best: 0.23, coverage_best: (p=23, n=0, P=86, N=0), p_value: 0.429
+2026-04-12 14:32:43,881 - INFO - Regula po iteracji 0: IF SLC1A6 <= 9.25 THEN survival_status = {nan}, (p=23, n=0, P=86, N=0)
+2026-04-12 14:32:58,987 - INFO - Iteracja 1: condition_best: CRK <= 8.57, quality_best: 0.537, coverage_best: (p=22, n=0, P=86, N=0), p_value: 0.693
+2026-04-12 14:32:58,991 - INFO - Regula po iteracji 1: IF SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf}, (p=22, n=0, P=86, N=0)
+2026-04-12 14:33:13,679 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.693
+2026-04-12 14:33:13,683 - INFO - Regula po iteracji 2: IF SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf}, (p=22, n=0, P=86, N=0)
+2026-04-12 14:33:13,683 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:33:13,683 - INFO - ***RR FOUND***
+2026-04-12 14:33:13,683 - INFO - Reference rule: IF SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf}
+2026-04-12 14:33:13,683 - INFO - ***CHECKING EXCEPTION***
+2026-04-12 14:33:13,685 - INFO - ER vs CR p_value: 0.04826896954864823
+2026-04-12 14:33:13,685 - INFO - ER vs RR p_value: 0.04230495938646994
+2026-04-12 14:33:13,697 - INFO - ***ER FOUND***
+2026-04-12 14:33:13,697 - INFO - Exception rule: IF INHA_a <= 11.33 AND UBC <= 12.51 AND SLC1A6 <= 9.25 AND CRK <= 8.57 THEN survival_status = {inf} (p=16, n=0, P=86, N=0)
+2026-04-12 14:33:13,697 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 14:33:13,951 - INFO - ************************Finished experiment for 23_lac_selected.arff with algorithm************************
+2026-04-12 14:33:13,951 - INFO - *************************************************************************************************************************
+2026-04-12 14:33:13,951 - INFO - *************************************************************************************************************************
+2026-04-12 14:33:13,951 - INFO - *************************************************************************************************************************

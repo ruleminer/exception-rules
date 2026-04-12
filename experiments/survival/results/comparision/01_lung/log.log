@@ -1,0 +1,127 @@
+2026-04-08 10:23:00,854 - INFO - **********Starting experiment for 01_lung.arff with algorithm_rulekit**********
+2026-04-08 10:23:10,818 - INFO - ************************Finished experiment for 01_lung.arff with algorithm_rulekit************************
+2026-04-08 10:23:10,818 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:10,818 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:10,819 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:10,819 - INFO - **********Starting experiment for 01_lung.arff with algorithm_log_rank**********
+2026-04-08 10:23:10,836 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:23:11,057 - INFO - Iteracja 0: condition_best: Stage4 = {0}, quality_best: 1.0, coverage_best: (p=532, n=0, P=722, N=0)
+2026-04-08 10:23:11,065 - INFO - Regula po iteracji 0: IF Stage4 = {0} THEN survival_status = {nan}, (p=532, n=0, P=722, N=0)
+2026-04-08 10:23:11,285 - INFO - Iteracja 1: condition_best: Cell_Type <= 2.50, quality_best: 1.0, coverage_best: (p=446, n=0, P=722, N=0)
+2026-04-08 10:23:11,293 - INFO - Regula po iteracji 1: IF Stage4 = {0} AND Cell_Type <= 2.50 THEN survival_status = {1336.0}, (p=446, n=0, P=722, N=0)
+2026-04-08 10:23:11,480 - INFO - Iteracja 2: condition_best: Cell_Type <= 1.50, quality_best: 1.0, coverage_best: (p=373, n=0, P=722, N=0)
+2026-04-08 10:23:11,488 - INFO - Regula po iteracji 2: IF Stage4 = {0} AND Cell_Type <= 2.50 AND Cell_Type <= 1.50 THEN survival_status = {1493.0}, (p=373, n=0, P=722, N=0)
+2026-04-08 10:23:11,662 - INFO - Iteracja 3: condition_best: Stage2 <= 2.50, quality_best: 1.0, coverage_best: (p=314, n=0, P=722, N=0)
+2026-04-08 10:23:11,670 - INFO - Regula po iteracji 3: IF Stage4 = {0} AND Cell_Type <= 2.50 AND Cell_Type <= 1.50 AND Stage2 <= 2.50 THEN survival_status = {1644.0}, (p=314, n=0, P=722, N=0)
+2026-04-08 10:23:11,829 - INFO - Iteracja 4: condition_best: Operated = {1}, quality_best: 1.0, coverage_best: (p=263, n=0, P=722, N=0)
+2026-04-08 10:23:11,837 - INFO - Regula po iteracji 4: IF Stage4 = {0} AND Cell_Type <= 2.50 AND Cell_Type <= 1.50 AND Stage2 <= 2.50 AND Operated = {1} THEN survival_status = {1844.0}, (p=263, n=0, P=722, N=0)
+2026-04-08 10:23:11,837 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:23:11,848 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:23:12,010 - INFO - Iteracja 0: condition_best: Stage1 >= 1.50, quality_best: 1.0, coverage_best: (p=480, n=0, P=722, N=0)
+2026-04-08 10:23:12,018 - INFO - Regula po iteracji 0: IF Stage1 >= 1.50 THEN survival_status = {nan}, (p=480, n=0, P=722, N=0)
+2026-04-08 10:23:12,176 - INFO - Iteracja 1: condition_best: Cell_Type <= 3.50, quality_best: 1.0, coverage_best: (p=473, n=0, P=722, N=0)
+2026-04-08 10:23:12,184 - INFO - Regula po iteracji 1: IF Stage1 >= 1.50 AND Cell_Type <= 3.50 THEN survival_status = {651.0}, (p=473, n=0, P=722, N=0)
+2026-04-08 10:23:12,336 - INFO - Iteracja 2: condition_best: Means_of_Detection >= 0.50, quality_best: 1.0, coverage_best: (p=459, n=0, P=722, N=0)
+2026-04-08 10:23:12,344 - INFO - Regula po iteracji 2: IF Stage1 >= 1.50 AND Cell_Type <= 3.50 AND Means_of_Detection >= 0.50 THEN survival_status = {652.0}, (p=459, n=0, P=722, N=0)
+2026-04-08 10:23:12,488 - INFO - Iteracja 3: condition_best: Stage1 >= 2.50, quality_best: 1.0, coverage_best: (p=382, n=0, P=722, N=0)
+2026-04-08 10:23:12,496 - INFO - Regula po iteracji 3: IF Stage1 >= 1.50 AND Cell_Type <= 3.50 AND Means_of_Detection >= 0.50 AND Stage1 >= 2.50 THEN survival_status = {662.0}, (p=382, n=0, P=722, N=0)
+2026-04-08 10:23:12,630 - INFO - Iteracja 4: condition_best: Cell_Type >= 0.50, quality_best: 1.0, coverage_best: (p=295, n=0, P=722, N=0)
+2026-04-08 10:23:12,638 - INFO - Regula po iteracji 4: IF Stage1 >= 1.50 AND Cell_Type <= 3.50 AND Means_of_Detection >= 0.50 AND Stage1 >= 2.50 AND Cell_Type >= 0.50 THEN survival_status = {608.0}, (p=295, n=0, P=722, N=0)
+2026-04-08 10:23:12,638 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:23:12,646 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:23:12,790 - INFO - Iteracja 0: condition_best: Stage4 = {0}, quality_best: 1.0, coverage_best: (p=532, n=0, P=722, N=0)
+2026-04-08 10:23:12,798 - INFO - Regula po iteracji 0: IF Stage4 = {0} THEN survival_status = {nan}, (p=532, n=0, P=722, N=0)
+2026-04-08 10:23:12,946 - INFO - Iteracja 1: condition_best: Cell_Type <= 2.50, quality_best: 1.0, coverage_best: (p=446, n=0, P=722, N=0)
+2026-04-08 10:23:12,954 - INFO - Regula po iteracji 1: IF Stage4 = {0} AND Cell_Type <= 2.50 THEN survival_status = {1336.0}, (p=446, n=0, P=722, N=0)
+2026-04-08 10:23:13,083 - INFO - Iteracja 2: condition_best: Cell_Type <= 1.50, quality_best: 1.0, coverage_best: (p=373, n=0, P=722, N=0)
+2026-04-08 10:23:13,091 - INFO - Regula po iteracji 2: IF Stage4 = {0} AND Cell_Type <= 2.50 AND Cell_Type <= 1.50 THEN survival_status = {1493.0}, (p=373, n=0, P=722, N=0)
+2026-04-08 10:23:13,209 - INFO - Iteracja 3: condition_best: Stage2 <= 2.50, quality_best: 1.0, coverage_best: (p=314, n=0, P=722, N=0)
+2026-04-08 10:23:13,217 - INFO - Regula po iteracji 3: IF Stage4 = {0} AND Cell_Type <= 2.50 AND Cell_Type <= 1.50 AND Stage2 <= 2.50 THEN survival_status = {1644.0}, (p=314, n=0, P=722, N=0)
+2026-04-08 10:23:13,326 - INFO - Iteracja 4: condition_best: Operated = {1}, quality_best: 1.0, coverage_best: (p=263, n=0, P=722, N=0)
+2026-04-08 10:23:13,334 - INFO - Regula po iteracji 4: IF Stage4 = {0} AND Cell_Type <= 2.50 AND Cell_Type <= 1.50 AND Stage2 <= 2.50 AND Operated = {1} THEN survival_status = {1844.0}, (p=263, n=0, P=722, N=0)
+2026-04-08 10:23:13,334 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:23:20,913 - INFO - ************************Finished experiment for 01_lung.arff with algorithm_log_rank************************
+2026-04-08 10:23:20,913 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:20,913 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:20,913 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:20,914 - INFO - **********Starting experiment for 01_lung.arff with algorithm_log_rank_with_exceptions**********
+2026-04-08 10:23:20,928 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:23:21,149 - INFO - Iteracja 0: condition_best: Stage4 = {0}, quality_best: 1.0, coverage_best: (p=532, n=0, P=722, N=0)
+2026-04-08 10:23:21,157 - INFO - Regula po iteracji 0: IF Stage4 = {0} THEN survival_status = {nan}, (p=532, n=0, P=722, N=0)
+2026-04-08 10:23:21,158 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:23:21,746 - INFO - Iteracja 0: condition_best: Cell_Type <= 1.50, quality_best: 1.0, coverage_best: (p=459, n=0, P=722, N=0), p_value: 0.781
+2026-04-08 10:23:21,755 - INFO - Regula po iteracji 0: IF Cell_Type <= 1.50 THEN survival_status = {nan}, (p=459, n=0, P=722, N=0)
+2026-04-08 10:23:22,203 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.781
+2026-04-08 10:23:22,212 - INFO - Regula po iteracji 1: IF Cell_Type <= 1.50 THEN survival_status = {1457.0}, (p=459, n=0, P=722, N=0)
+2026-04-08 10:23:22,212 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:23:22,212 - INFO - ***RR FOUND***
+2026-04-08 10:23:22,212 - INFO - Reference rule: IF Cell_Type <= 1.50 THEN survival_status = {1457.0}
+2026-04-08 10:23:22,212 - INFO - ***CHECKING EXCEPTION***
+2026-04-08 10:23:22,219 - INFO - ER vs CR p_value: 0.01946908237242506
+2026-04-08 10:23:22,219 - INFO - ER vs RR p_value: 0.04549685908188905
+2026-04-08 10:23:22,246 - INFO - ***ER FOUND***
+2026-04-08 10:23:22,246 - INFO - Exception rule: IF Stage4 = {0} AND Cell_Type <= 1.50 THEN survival_status = {1644.0} (p=373, n=0, P=722, N=0)
+2026-04-08 10:23:22,246 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:23:22,257 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:23:22,420 - INFO - Iteracja 0: condition_best: Stage1 >= 1.50, quality_best: 1.0, coverage_best: (p=480, n=0, P=722, N=0)
+2026-04-08 10:23:22,428 - INFO - Regula po iteracji 0: IF Stage1 >= 1.50 THEN survival_status = {nan}, (p=480, n=0, P=722, N=0)
+2026-04-08 10:23:22,428 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:23:22,991 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:23:22,995 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=722, n=0, P=722, N=0)
+2026-04-08 10:23:22,995 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:23:22,995 - INFO - ***RR NOT FOUND***
+2026-04-08 10:23:23,154 - INFO - Iteracja 1: condition_best: Cell_Type <= 3.50, quality_best: 1.0, coverage_best: (p=473, n=0, P=722, N=0)
+2026-04-08 10:23:23,162 - INFO - Regula po iteracji 1: IF Stage1 >= 1.50 AND Cell_Type <= 3.50 THEN survival_status = {651.0}, (p=473, n=0, P=722, N=0)
+2026-04-08 10:23:23,162 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:23:23,721 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:23:23,725 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=722, n=0, P=722, N=0)
+2026-04-08 10:23:23,725 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:23:23,725 - INFO - ***RR NOT FOUND***
+2026-04-08 10:23:23,876 - INFO - Iteracja 2: condition_best: Means_of_Detection >= 0.50, quality_best: 1.0, coverage_best: (p=459, n=0, P=722, N=0)
+2026-04-08 10:23:23,883 - INFO - Regula po iteracji 2: IF Stage1 >= 1.50 AND Cell_Type <= 3.50 AND Means_of_Detection >= 0.50 THEN survival_status = {652.0}, (p=459, n=0, P=722, N=0)
+2026-04-08 10:23:23,884 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:23:24,434 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:23:24,438 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=722, n=0, P=722, N=0)
+2026-04-08 10:23:24,439 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:23:24,439 - INFO - ***RR NOT FOUND***
+2026-04-08 10:23:24,581 - INFO - Iteracja 3: condition_best: Stage1 >= 2.50, quality_best: 1.0, coverage_best: (p=382, n=0, P=722, N=0)
+2026-04-08 10:23:24,589 - INFO - Regula po iteracji 3: IF Stage1 >= 1.50 AND Cell_Type <= 3.50 AND Means_of_Detection >= 0.50 AND Stage1 >= 2.50 THEN survival_status = {662.0}, (p=382, n=0, P=722, N=0)
+2026-04-08 10:23:24,589 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:23:25,122 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:23:25,126 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=722, n=0, P=722, N=0)
+2026-04-08 10:23:25,126 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:23:25,126 - INFO - ***RR NOT FOUND***
+2026-04-08 10:23:25,257 - INFO - Iteracja 4: condition_best: Cell_Type >= 0.50, quality_best: 1.0, coverage_best: (p=295, n=0, P=722, N=0)
+2026-04-08 10:23:25,264 - INFO - Regula po iteracji 4: IF Stage1 >= 1.50 AND Cell_Type <= 3.50 AND Means_of_Detection >= 0.50 AND Stage1 >= 2.50 AND Cell_Type >= 0.50 THEN survival_status = {608.0}, (p=295, n=0, P=722, N=0)
+2026-04-08 10:23:25,265 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:23:25,765 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-08 10:23:25,769 - INFO - Regula po iteracji 0: IF  THEN survival_status = {nan}, (p=722, n=0, P=722, N=0)
+2026-04-08 10:23:25,769 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:23:25,769 - INFO - ***RR NOT FOUND***
+2026-04-08 10:23:25,769 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:23:25,777 - INFO - *******GROWING CR RULE*******
+2026-04-08 10:23:25,920 - INFO - Iteracja 0: condition_best: Stage4 = {0}, quality_best: 1.0, coverage_best: (p=532, n=0, P=722, N=0)
+2026-04-08 10:23:25,928 - INFO - Regula po iteracji 0: IF Stage4 = {0} THEN survival_status = {nan}, (p=532, n=0, P=722, N=0)
+2026-04-08 10:23:25,928 - INFO - *****GROWING RR RULE*****
+2026-04-08 10:23:26,510 - INFO - Iteracja 0: condition_best: Cell_Type <= 1.50, quality_best: 1.0, coverage_best: (p=459, n=0, P=722, N=0), p_value: 0.781
+2026-04-08 10:23:26,518 - INFO - Regula po iteracji 0: IF Cell_Type <= 1.50 THEN survival_status = {nan}, (p=459, n=0, P=722, N=0)
+2026-04-08 10:23:26,964 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.781
+2026-04-08 10:23:26,972 - INFO - Regula po iteracji 1: IF Cell_Type <= 1.50 THEN survival_status = {1457.0}, (p=459, n=0, P=722, N=0)
+2026-04-08 10:23:26,972 - INFO - *****STOP GROWING RR RULE*****
+2026-04-08 10:23:26,972 - INFO - ***RR FOUND***
+2026-04-08 10:23:26,972 - INFO - Reference rule: IF Cell_Type <= 1.50 THEN survival_status = {1457.0}
+2026-04-08 10:23:26,972 - INFO - ***CHECKING EXCEPTION***
+2026-04-08 10:23:26,979 - INFO - ER vs CR p_value: 0.01946908237242506
+2026-04-08 10:23:26,979 - INFO - ER vs RR p_value: 0.04549685908188905
+2026-04-08 10:23:27,005 - INFO - ***ER FOUND***
+2026-04-08 10:23:27,005 - INFO - Exception rule: IF Stage4 = {0} AND Cell_Type <= 1.50 THEN survival_status = {1644.0} (p=373, n=0, P=722, N=0)
+2026-04-08 10:23:27,006 - INFO - *******STOP GROWING CR RULE*******
+2026-04-08 10:23:34,543 - INFO - ************************Finished experiment for 01_lung.arff with algorithm_log_rank_with_exceptions************************
+2026-04-08 10:23:34,543 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:34,543 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:34,543 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:34,544 - INFO - **********Starting experiment for 01_lung.arff with survival_tree**********
+2026-04-08 10:23:34,636 - INFO - ************************Finished experiment for 01_lung.arff with survival_tree************************
+2026-04-08 10:23:34,636 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:34,636 - INFO - *************************************************************************************************************************
+2026-04-08 10:23:34,636 - INFO - *************************************************************************************************************************

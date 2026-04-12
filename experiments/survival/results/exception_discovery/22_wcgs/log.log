@@ -1,0 +1,83 @@
+2026-04-12 14:08:13,705 - INFO - **********Starting experiment for 22_wcgs.arff with algorithm**********
+2026-04-12 14:08:13,734 - INFO - *******GROWING CR RULE*******
+2026-04-12 14:08:37,569 - INFO - Iteracja 0: condition_best: chol0 <= 271.50, quality_best: 1.0, coverage_best: (p=2719, n=0, P=3154, N=0)
+2026-04-12 14:08:37,583 - INFO - Regula po iteracji 0: IF chol0 <= 271.50 THEN survival_status = {nan}, (p=2719, n=0, P=3154, N=0)
+2026-04-12 14:08:37,583 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:09:38,648 - INFO - Iteracja 0: condition_best: dbp0 <= 84.50, quality_best: 1.0, coverage_best: (p=2130, n=0, P=3154, N=0), p_value: 0.995
+2026-04-12 14:09:38,662 - INFO - Regula po iteracji 0: IF dbp0 <= 84.50 THEN survival_status = {nan}, (p=2130, n=0, P=3154, N=0)
+2026-04-12 14:10:27,511 - INFO - Iteracja 1: condition_best: weight0 >= 101.50, quality_best: 1.0, coverage_best: (p=2129, n=0, P=3154, N=0), p_value: 0.999
+2026-04-12 14:10:27,525 - INFO - Regula po iteracji 1: IF dbp0 <= 84.50 AND weight0 >= 101.50 THEN survival_status = {inf}, (p=2129, n=0, P=3154, N=0)
+2026-04-12 14:11:16,339 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.999
+2026-04-12 14:11:16,354 - INFO - Regula po iteracji 2: IF dbp0 <= 84.50 AND weight0 >= 101.50 THEN survival_status = {inf}, (p=2129, n=0, P=3154, N=0)
+2026-04-12 14:11:16,354 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:11:16,354 - INFO - ***RR FOUND***
+2026-04-12 14:11:16,354 - INFO - Reference rule: IF dbp0 <= 84.50 THEN survival_status = {inf}
+2026-04-12 14:11:16,354 - INFO - ***CHECKING EXCEPTION***
+2026-04-12 14:11:16,370 - INFO - ER vs CR p_value: 0.03795763765122462
+2026-04-12 14:11:16,370 - INFO - ER vs RR p_value: 0.047977660351019136
+2026-04-12 14:11:16,417 - INFO - ***ER FOUND***
+2026-04-12 14:11:16,417 - INFO - Exception rule: IF chol0 <= 271.50 AND dbp0 <= 84.50 THEN survival_status = {inf} (p=1876, n=0, P=3154, N=0)
+2026-04-12 14:11:16,417 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 14:11:16,446 - INFO - *******GROWING CR RULE*******
+2026-04-12 14:11:27,938 - INFO - Iteracja 0: condition_best: chol0 >= 264.50, quality_best: 1.0, coverage_best: (p=550, n=0, P=3154, N=0)
+2026-04-12 14:11:27,951 - INFO - Regula po iteracji 0: IF chol0 >= 264.50 THEN survival_status = {nan}, (p=550, n=0, P=3154, N=0)
+2026-04-12 14:11:27,951 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:12:17,654 - INFO - Iteracja 0: condition_best: sbp0 >= 147.00, quality_best: 1.0, coverage_best: (p=341, n=0, P=3154, N=0), p_value: 0.981
+2026-04-12 14:12:17,666 - INFO - Regula po iteracji 0: IF sbp0 >= 147.00 THEN survival_status = {nan}, (p=341, n=0, P=3154, N=0)
+2026-04-12 14:12:44,091 - INFO - Iteracja 1: condition_best: weight0 >= 141.50, quality_best: 1.0, coverage_best: (p=323, n=0, P=3154, N=0), p_value: 1.0
+2026-04-12 14:12:44,104 - INFO - Regula po iteracji 1: IF sbp0 >= 147.00 AND weight0 >= 141.50 THEN survival_status = {inf}, (p=323, n=0, P=3154, N=0)
+2026-04-12 14:13:09,419 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2026-04-12 14:13:09,431 - INFO - Regula po iteracji 2: IF sbp0 >= 147.00 AND weight0 >= 141.50 THEN survival_status = {inf}, (p=323, n=0, P=3154, N=0)
+2026-04-12 14:13:09,431 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:13:09,432 - INFO - ***RR FOUND***
+2026-04-12 14:13:09,432 - INFO - Reference rule: IF sbp0 >= 147.00 THEN survival_status = {inf}
+2026-04-12 14:13:09,432 - INFO - ***CHECKING EXCEPTION***
+2026-04-12 14:13:09,437 - INFO - ER vs CR p_value: 0.010301243799842541
+2026-04-12 14:13:09,437 - INFO - ER vs RR p_value: 0.017314371114746097
+2026-04-12 14:13:09,478 - INFO - ***ER FOUND***
+2026-04-12 14:13:09,478 - INFO - Exception rule: IF chol0 >= 264.50 AND sbp0 >= 147.00 THEN survival_status = {inf} (p=75, n=0, P=3154, N=0)
+2026-04-12 14:13:09,479 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 14:13:09,492 - INFO - *******GROWING CR RULE*******
+2026-04-12 14:13:19,096 - INFO - Iteracja 0: condition_best: age0 <= 47.50, quality_best: 1.0, coverage_best: (p=1951, n=0, P=3154, N=0)
+2026-04-12 14:13:19,111 - INFO - Regula po iteracji 0: IF age0 <= 47.50 THEN survival_status = {nan}, (p=1951, n=0, P=3154, N=0)
+2026-04-12 14:13:19,111 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:14:16,922 - INFO - Iteracja 0: condition_best: chol0 <= 236.50, quality_best: 1.0, coverage_best: (p=1960, n=0, P=3154, N=0), p_value: 0.968
+2026-04-12 14:14:16,936 - INFO - Regula po iteracji 0: IF chol0 <= 236.50 THEN survival_status = {nan}, (p=1960, n=0, P=3154, N=0)
+2026-04-12 14:14:57,151 - INFO - Iteracja 1: condition_best: sbp0 <= 186.00, quality_best: 1.0, coverage_best: (p=1951, n=0, P=3154, N=0), p_value: 0.997
+2026-04-12 14:14:57,165 - INFO - Regula po iteracji 1: IF chol0 <= 236.50 AND sbp0 <= 186.00 THEN survival_status = {inf}, (p=1951, n=0, P=3154, N=0)
+2026-04-12 14:15:36,583 - INFO - Iteracja 2: condition_best: sbp0 >= 99.00, quality_best: 1.0, coverage_best: (p=1950, n=0, P=3154, N=0), p_value: 1.0
+2026-04-12 14:15:36,598 - INFO - Regula po iteracji 2: IF chol0 <= 236.50 AND sbp0 <= 186.00 AND sbp0 >= 99.00 THEN survival_status = {inf}, (p=1950, n=0, P=3154, N=0)
+2026-04-12 14:16:16,018 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 1.0
+2026-04-12 14:16:16,033 - INFO - Regula po iteracji 3: IF chol0 <= 236.50 AND sbp0 <= 186.00 AND sbp0 >= 99.00 THEN survival_status = {inf}, (p=1950, n=0, P=3154, N=0)
+2026-04-12 14:16:16,033 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:16:16,033 - INFO - ***RR FOUND***
+2026-04-12 14:16:16,033 - INFO - Reference rule: IF chol0 <= 236.50 AND sbp0 <= 186.00 THEN survival_status = {inf}
+2026-04-12 14:16:16,033 - INFO - ***CHECKING EXCEPTION***
+2026-04-12 14:16:16,046 - INFO - ER vs CR p_value: 0.0010671088303891851
+2026-04-12 14:16:16,046 - INFO - ER vs RR p_value: 0.0010739583990174717
+2026-04-12 14:16:16,092 - INFO - ***ER FOUND***
+2026-04-12 14:16:16,092 - INFO - Exception rule: IF age0 <= 47.50 AND chol0 <= 236.50 AND sbp0 <= 186.00 THEN survival_status = {inf} (p=1285, n=0, P=3154, N=0)
+2026-04-12 14:16:16,092 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 14:16:16,106 - INFO - *******GROWING CR RULE*******
+2026-04-12 14:16:25,646 - INFO - Iteracja 0: condition_best: chol0 <= 271.50, quality_best: 1.0, coverage_best: (p=2719, n=0, P=3154, N=0)
+2026-04-12 14:16:25,660 - INFO - Regula po iteracji 0: IF chol0 <= 271.50 THEN survival_status = {nan}, (p=2719, n=0, P=3154, N=0)
+2026-04-12 14:16:25,660 - INFO - *****GROWING RR RULE*****
+2026-04-12 14:17:26,519 - INFO - Iteracja 0: condition_best: dbp0 <= 84.50, quality_best: 1.0, coverage_best: (p=2130, n=0, P=3154, N=0), p_value: 0.995
+2026-04-12 14:17:26,534 - INFO - Regula po iteracji 0: IF dbp0 <= 84.50 THEN survival_status = {nan}, (p=2130, n=0, P=3154, N=0)
+2026-04-12 14:18:15,300 - INFO - Iteracja 1: condition_best: weight0 >= 101.50, quality_best: 1.0, coverage_best: (p=2129, n=0, P=3154, N=0), p_value: 0.999
+2026-04-12 14:18:15,314 - INFO - Regula po iteracji 1: IF dbp0 <= 84.50 AND weight0 >= 101.50 THEN survival_status = {inf}, (p=2129, n=0, P=3154, N=0)
+2026-04-12 14:19:04,031 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0.999
+2026-04-12 14:19:04,045 - INFO - Regula po iteracji 2: IF dbp0 <= 84.50 AND weight0 >= 101.50 THEN survival_status = {inf}, (p=2129, n=0, P=3154, N=0)
+2026-04-12 14:19:04,045 - INFO - *****STOP GROWING RR RULE*****
+2026-04-12 14:19:04,045 - INFO - ***RR FOUND***
+2026-04-12 14:19:04,045 - INFO - Reference rule: IF dbp0 <= 84.50 THEN survival_status = {inf}
+2026-04-12 14:19:04,045 - INFO - ***CHECKING EXCEPTION***
+2026-04-12 14:19:04,062 - INFO - ER vs CR p_value: 0.03795763765122462
+2026-04-12 14:19:04,062 - INFO - ER vs RR p_value: 0.047977660351019136
+2026-04-12 14:19:04,109 - INFO - ***ER FOUND***
+2026-04-12 14:19:04,109 - INFO - Exception rule: IF chol0 <= 271.50 AND dbp0 <= 84.50 THEN survival_status = {inf} (p=1876, n=0, P=3154, N=0)
+2026-04-12 14:19:04,109 - INFO - *******STOP GROWING CR RULE*******
+2026-04-12 14:19:04,636 - INFO - ************************Finished experiment for 22_wcgs.arff with algorithm************************
+2026-04-12 14:19:04,636 - INFO - *************************************************************************************************************************
+2026-04-12 14:19:04,636 - INFO - *************************************************************************************************************************
+2026-04-12 14:19:04,636 - INFO - *************************************************************************************************************************

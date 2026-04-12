@@ -1,0 +1,22 @@
+
+CR 0: ANCrecovery <= 500013 and PLTrecovery <= 500142 and Recipientage <= 14.05 and Relapse <= 0.5 and ANCrecovery <= 13.5
+
+CR 1: ANCrecovery <= 500013 and PLTrecovery <= 500142 and Recipientage <= 14.05 and Relapse <= 0.5 and ANCrecovery > 13.5
+
+CR 2: ANCrecovery <= 500013 and PLTrecovery <= 500142 and Recipientage <= 14.05 and Relapse > 0.5 and Disease != chronic
+
+CR 3: ANCrecovery <= 500013 and PLTrecovery <= 500142 and Recipientage <= 14.05 and Relapse > 0.5 and Disease = chronic
+
+CR 4: ANCrecovery <= 500013 and PLTrecovery <= 500142 and Recipientage > 14.05 and CD3dCD34 <= 11.4573 and time_to_aGvHD_III_IV <= 27.5
+
+CR 5: ANCrecovery <= 500013 and PLTrecovery <= 500142 and Recipientage > 14.05 and CD3dCD34 <= 11.4573 and time_to_aGvHD_III_IV > 27.5
+
+CR 6: ANCrecovery <= 500013 and PLTrecovery <= 500142 and Recipientage > 14.05 and CD3dCD34 > 11.4573
+
+CR 7: ANCrecovery <= 500013 and PLTrecovery > 500142 and time_to_aGvHD_III_IV <= 20
+
+CR 8: ANCrecovery <= 500013 and PLTrecovery > 500142 and time_to_aGvHD_III_IV > 20 and CD3dCD34 <= 1.11014
+
+CR 9: ANCrecovery <= 500013 and PLTrecovery > 500142 and time_to_aGvHD_III_IV > 20 and CD3dCD34 > 1.11014
+
+CR 10: ANCrecovery > 500013
