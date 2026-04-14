@@ -1,0 +1,110 @@
+
+CR 0: IF age <= 36.00 AND fbs = {0} AND trestbps <= 134.00 AND age >= 31.50 THEN class = {212.80} [177.03, 248.57] (p=4, n=1, P=149, N=154)
+
+CR 1: IF age <= 39.50 AND thal = {3} AND fbs = {0} AND exang = {0} AND oldpeak <= 2.45 THEN class = {210.10} [170.52, 249.68] (p=9, n=1, P=161, N=142)
+
+CR 2: IF age <= 40.50 AND thalach >= 122.00 AND fbs = {0} AND age >= 31.50 AND restecg = {0} THEN class = {208.77} [189.04, 228.50] (p=9, n=4, P=85, N=218)
+
+CR 3: IF thalach <= 104.00 AND oldpeak >= 1.10 AND sex = {1} AND thal = {7} THEN class = {277.40} [271.31, 283.49] (p=4, n=1, P=19, N=284)
+
+CR 4: IF thalach <= 104.00 AND age >= 54.50 AND age >= 56.50 AND thalach <= 101.00 AND age >= 58.00 THEN class = {227.83} [190.52, 265.15] (p=3, n=3, P=175, N=128)
+
+CR 5: IF age >= 65.50 AND age <= 69.50 AND thalach >= 89.50 AND oldpeak <= 3.00 AND oldpeak >= 1.70 THEN class = {235.20} [224.78, 245.62] (p=4, n=1, P=57, N=246)
+
+CR 6: IF age >= 65.50 AND age <= 69.50 AND thalach >= 89.50 AND oldpeak <= 3.00 AND trestbps <= 179.00 THEN class = {263.95} [189.49, 338.41] (p=19, n=1, P=261, N=42)
+
+CR 7: IF age >= 65.50 AND restecg = {2} THEN class = {277.11} [199.85, 354.37] (p=17, n=1, P=248, N=55)
+RR 7: IF thalach >= 150.50 THEN class = {249.46} [194.79, 304.14] (p=130, n=34, P=231, N=72)
+ER 7: IF age >= 65.50 AND restecg = {2} AND thalach >= 150.50 THEN class = {362.00} [244.93, 479.07] (p=3, n=1, P=142, N=161)
+
+CR 8: IF age >= 65.50 AND num <= 3.50 AND trestbps >= 103.00 AND trestbps <= 179.00 AND trestbps <= 169.00 THEN class = {257.14} [187.51, 326.77] (p=26, n=2, P=258, N=45)
+RR 8: IF thalach >= 151.50 THEN class = {248.34} [193.89, 302.78] (p=123, n=37, P=226, N=77)
+ER 8: IF age >= 65.50 AND num <= 3.50 AND trestbps >= 103.00 AND trestbps <= 179.00 AND trestbps <= 169.00 AND thalach >= 151.50 THEN class = {335.00} [219.50, 450.50] (p=4, n=1, P=207, N=96)
+
+CR 9: IF thalach >= 184.50 AND age >= 31.50 AND sex = {1} AND exang = {0} AND age <= 53.00 THEN class = {229.50} [205.28, 253.72] (p=4, n=2, P=115, N=188)
+
+CR 10: IF trestbps <= 105.50 AND age <= 54.50 AND thalach >= 145.50 AND age >= 40.00 THEN class = {206.80} [195.93, 217.67] (p=4, n=1, P=54, N=249)
+
+CR 11: IF trestbps <= 105.50 AND age <= 63.50 AND oldpeak <= 1.10 AND thalach <= 164.00 AND fbs = {0} THEN class = {255.33} [224.87, 285.79] (p=5, n=1, P=135, N=168)
+
+CR 12: IF trestbps <= 109.00 THEN class = {237.20} [195.54, 278.86] (p=16, n=4, P=196, N=107)
+RR 12: IF thalach >= 169.50 THEN class = {237.65} [192.40, 282.89] (p=42, n=20, P=204, N=99)
+ER 12: IF trestbps <= 109.00 AND thalach >= 169.50 THEN class = {181.33} [152.74, 209.93] (p=2, n=1, P=67, N=236)
+
+CR 13: IF thalach <= 112.50 AND trestbps >= 123.50 THEN class = {255.44} [216.58, 294.30] (p=13, n=3, P=163, N=140)
+RR 13: IF thal = {3} THEN class = {246.83} [198.28, 295.39] (p=113, n=53, P=208, N=95)
+ER 13: IF thalach <= 112.50 AND trestbps >= 123.50 AND thal = {3} THEN class = {300.67} [285.23, 316.10] (p=2, n=1, P=38, N=265)
+
+CR 14: IF trestbps >= 173.00 AND thalach >= 125.00 AND age <= 67.00 AND age <= 65.00 THEN class = {283.00} [258.04, 307.96] (p=3, n=2, P=77, N=226)
+
+CR 15: IF trestbps >= 151.00 AND sex = {1} AND age >= 53.00 AND trestbps >= 153.00 AND oldpeak <= 1.95 THEN class = {257.08} [224.32, 289.84] (p=12, n=1, P=142, N=161)
+
+CR 16: IF trestbps >= 151.00 AND thalach <= 149.00 THEN class = {259.32} [218.06, 300.57] (p=15, n=4, P=167, N=136)
+RR 16: IF age <= 56.50 THEN class = {240.38} [195.41, 285.34] (p=113, n=49, P=205, N=98)
+ER 16: IF trestbps >= 151.00 AND thalach <= 149.00 AND age <= 56.50 THEN class = {301.33} [283.18, 319.49] (p=2, n=1, P=42, N=261)
+
+CR 17: IF trestbps >= 151.00 AND oldpeak <= 4.10 AND thalach >= 124.50 AND age >= 46.00 AND oldpeak <= 1.95 THEN class = {265.24} [224.30, 306.18] (p=16, n=5, P=163, N=140)
+
+CR 18: IF trestbps <= 111.00 THEN class = {232.85} [191.77, 273.92] (p=30, n=9, P=192, N=111)
+RR 18: IF thalach >= 169.50 THEN class = {237.65} [192.40, 282.89] (p=42, n=20, P=204, N=99)
+ER 18: IF trestbps <= 111.00 AND thalach >= 169.50 THEN class = {185.25} [159.58, 210.92] (p=3, n=1, P=67, N=236)
+
+CR 19: IF thalach >= 177.50 THEN class = {234.73} [198.03, 271.43] (p=22, n=8, P=175, N=128)
+RR 19: IF sex = {0} THEN class = {261.75} [197.19, 326.32] (p=73, n=24, P=243, N=60)
+ER 19: IF thalach >= 177.50 AND sex = {0} THEN class = {196.75} [187.10, 206.40] (p=2, n=2, P=37, N=266)
+
+CR 20: IF age <= 41.50 AND num <= 0.50 AND thalach <= 178.50 AND age >= 40.50 AND fbs = {0} THEN class = {232.57} [195.00, 270.15] (p=6, n=1, P=184, N=119)
+
+CR 21: IF trestbps >= 147.00 AND slope = {2} AND age >= 59.50 AND thalach <= 161.00 AND oldpeak >= 0.05 THEN class = {261.73} [210.94, 312.51] (p=10, n=1, P=203, N=100)
+
+CR 22: IF trestbps >= 147.00 AND trestbps <= 157.00 AND thalach <= 172.50 AND oldpeak >= 0.70 AND age >= 44.50 THEN class = {254.31} [209.70, 298.93] (p=15, n=1, P=184, N=119)
+
+CR 23: IF trestbps <= 113.00 AND thalach >= 125.50 AND age <= 69.00 AND trestbps >= 109.00 AND age >= 42.00 THEN class = {231.56} [193.84, 269.27] (p=15, n=3, P=182, N=121)
+
+CR 24: IF trestbps >= 144.50 AND thalach <= 150.50 AND trestbps <= 190.00 AND trestbps <= 155.50 AND ca <= 2.50 THEN class = {244.67} [211.13, 278.20] (p=12, n=3, P=155, N=148)
+
+CR 25: IF thalach >= 162.50 AND thalach <= 165.50 AND age >= 49.50 AND age <= 66.50 AND sex = {1} THEN class = {222.00} [209.83, 234.17] (p=7, n=1, P=65, N=238)
+
+CR 26: IF thalach >= 162.50 AND thalach <= 168.50 AND age >= 42.00 AND thalach >= 164.50 AND age >= 45.50 THEN class = {243.36} [206.03, 280.70] (p=10, n=1, P=166, N=137)
+
+CR 27: IF thalach >= 162.50 AND age <= 51.50 THEN class = {231.73} [194.08, 269.38] (p=40, n=12, P=182, N=121)
+RR 27: IF trestbps <= 109.00 THEN class = {237.20} [195.54, 278.86] (p=16, n=4, P=196, N=107)
+ER 27: IF thalach >= 162.50 AND age <= 51.50 AND trestbps <= 109.00 THEN class = {185.50} [159.71, 211.29] (p=3, n=1, P=71, N=232)
+
+CR 28: IF thalach >= 162.50 AND age >= 59.50 AND thalach <= 176.50 AND trestbps <= 165.00 AND num <= 2.50 THEN class = {269.00} [234.98, 303.02] (p=6, n=2, P=127, N=176)
+
+CR 29: IF thalach >= 162.50 AND oldpeak <= 1.10 AND age <= 56.50 AND thal = {3} AND trestbps <= 137.00 THEN class = {230.79} [190.70, 270.88] (p=31, n=7, P=188, N=115)
+
+CR 30: IF thalach >= 162.50 AND oldpeak <= 1.10 AND thalach <= 181.50 AND age >= 34.50 AND thalach >= 163.50 THEN class = {236.06} [194.07, 278.05] (p=41, n=10, P=197, N=106)
+
+CR 31: IF restecg = {2} AND oldpeak <= 1.85 AND thal = {7} AND age >= 42.00 AND thalach >= 129.00 THEN class = {277.17} [208.58, 345.77] (p=22, n=1, P=225, N=78)
+RR 31: IF sex = {0} THEN class = {261.75} [197.19, 326.32] (p=73, n=24, P=243, N=60)
+ER 31: IF restecg = {2} AND oldpeak <= 1.85 AND thal = {7} AND age >= 42.00 AND thalach >= 129.00 AND sex = {0} THEN class = {435.50} [307.00, 564.00] (p=2, n=0, P=34, N=269)
+
+CR 32: IF restecg = {2} AND oldpeak <= 1.85 AND age >= 41.50 AND num <= 2.50 AND thalach <= 189.00 THEN class = {261.06} [207.26, 314.86] (p=73, n=10, P=209, N=94)
+
+CR 33: IF restecg = {2} AND oldpeak <= 2.90 AND age >= 42.50 AND ca <= 1.50 AND age >= 43.50 THEN class = {257.26} [205.56, 308.96] (p=82, n=13, P=208, N=95)
+
+CR 34: IF restecg = {2} AND oldpeak <= 2.90 AND age >= 42.50 AND thalach >= 111.50 AND thalach <= 189.00 THEN class = {259.55} [206.37, 312.73] (p=92, n=17, P=210, N=93)
+
+CR 35: IF restecg = {2} AND age >= 52.50 AND age <= 60.50 AND thalach >= 108.50 AND oldpeak >= 0.10 THEN class = {258.59} [218.24, 298.94] (p=31, n=8, P=164, N=139)
+
+CR 36: IF age <= 53.50 AND thalach >= 142.50 AND num <= 1.50 AND thalach <= 161.50 AND age <= 52.50 THEN class = {229.50} [200.75, 258.25] (p=22, n=6, P=143, N=160)
+
+CR 37: IF age <= 53.50 AND thalach >= 142.50 AND num <= 2.50 AND age >= 36.00 AND trestbps <= 139.00 THEN class = {232.71} [195.89, 269.53] (p=60, n=16, P=181, N=122)
+
+CR 38: IF age <= 53.50 AND thalach >= 124.00 AND age >= 36.00 AND thalach <= 180.50 AND trestbps <= 139.00 THEN class = {234.79} [194.33, 275.25] (p=63, n=18, P=193, N=110)
+
+CR 39: IF thalach >= 150.50 AND cp = {4} AND restecg = {0} AND sex = {1} AND oldpeak <= 1.55 THEN class = {228.76} [201.76, 255.77] (p=15, n=2, P=133, N=170)
+
+CR 40: IF thalach >= 150.50 AND age >= 39.50 AND thalach >= 156.50 THEN class = {249.93} [194.20, 305.66] (p=101, n=22, P=233, N=70)
+RR 40: IF age >= 66.50 THEN class = {259.96} [186.51, 333.41] (p=23, n=3, P=262, N=41)
+ER 40: IF thalach >= 150.50 AND age >= 39.50 AND thalach >= 156.50 AND age >= 66.50 THEN class = {340.20} [226.81, 453.59] (p=4, n=1, P=190, N=113)
+
+CR 41: IF age >= 46.50 AND sex = {1} AND num <= 0.50 AND thalach <= 181.00 AND trestbps <= 171.00 THEN class = {231.13} [195.83, 266.43] (p=42, n=12, P=172, N=131)
+
+CR 42: IF age >= 46.50 AND sex = {1} AND trestbps <= 139.00 THEN class = {242.69} [201.96, 283.41] (p=74, n=28, P=187, N=116)
+RR 42: IF age >= 67.50 THEN class = {245.76} [199.29, 292.24] (p=10, n=7, P=200, N=103)
+ER 42: IF age >= 46.50 AND sex = {1} AND trestbps <= 139.00 AND age >= 67.50 THEN class = {301.00} [282.51, 319.49] (p=1, n=2, P=45, N=258)
+
+CR 43: IF age >= 46.50 AND oldpeak <= 2.95 AND slope = {2} AND thalach >= 121.00 AND thalach <= 169.50 THEN class = {252.47} [195.54, 309.41] (p=66, n=8, P=239, N=64)

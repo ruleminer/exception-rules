@@ -1,0 +1,730 @@
+2026-04-14 12:18:39,727 - INFO - **********Starting experiment for fruitfly.arff with algorithm_rulekit**********
+2026-04-14 12:18:39,807 - INFO - ************************Finished experiment for fruitfly.arff with algorithm_rulekit************************
+2026-04-14 12:18:39,807 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:39,807 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:39,807 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:39,808 - INFO - **********Starting experiment for fruitfly.arff with algorithm_rer**********
+2026-04-14 12:18:39,813 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,822 - INFO - Iteracja 0: condition_best: THORAX >= 85.00, quality_best: 0.366, coverage_best: (p=4, n=1, P=36, N=51)
+2026-04-14 12:18:39,822 - INFO - Regula po iteracji 0: IF THORAX >= 85.00 THEN class = {22.60} [15.80, 29.40], (p=4, n=1, P=36, N=51)
+2026-04-14 12:18:39,823 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:18:39,823 - INFO - Regula po iteracji 1: IF THORAX >= 85.00 THEN class = {22.60} [15.80, 29.40], (p=4, n=1, P=36, N=51)
+2026-04-14 12:18:39,823 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,824 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,829 - INFO - Iteracja 0: condition_best: THORAX >= 62.00, quality_best: 0.309, coverage_best: (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:39,829 - INFO - Regula po iteracji 0: IF THORAX >= 62.00 THEN class = {23.06} [7.45, 38.67], (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:39,832 - INFO - Iteracja 1: condition_best: SLEEP <= 0.93, quality_best: 0.36, coverage_best: (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:39,832 - INFO - Regula po iteracji 1: IF THORAX >= 62.00 AND SLEEP <= 0.93 THEN class = {22.64} [6.99, 38.29], (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:39,835 - INFO - Iteracja 2: condition_best: SLEEP >= 0.83, quality_best: 0.355, coverage_best: (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:39,835 - INFO - Regula po iteracji 2: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 THEN class = {21.83} [9.91, 33.74], (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:39,837 - INFO - Iteracja 3: condition_best: SLEEP <= 0.89, quality_best: 0.41, coverage_best: (p=16, n=5, P=38, N=49)
+2026-04-14 12:18:39,837 - INFO - Regula po iteracji 3: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND SLEEP <= 0.89 THEN class = {19.10} [11.81, 26.38], (p=16, n=5, P=38, N=49)
+2026-04-14 12:18:39,839 - INFO - Iteracja 4: condition_best: THORAX <= 74.00, quality_best: 0.45, coverage_best: (p=11, n=2, P=41, N=46)
+2026-04-14 12:18:39,839 - INFO - Regula po iteracji 4: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND SLEEP <= 0.89 AND THORAX <= 74.00 THEN class = {19.46} [11.84, 27.08], (p=11, n=2, P=41, N=46)
+2026-04-14 12:18:39,839 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,840 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,845 - INFO - Iteracja 0: condition_best: THORAX >= 62.00, quality_best: 0.309, coverage_best: (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:39,845 - INFO - Regula po iteracji 0: IF THORAX >= 62.00 THEN class = {23.06} [7.45, 38.67], (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:39,848 - INFO - Iteracja 1: condition_best: SLEEP <= 0.93, quality_best: 0.36, coverage_best: (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:39,848 - INFO - Regula po iteracji 1: IF THORAX >= 62.00 AND SLEEP <= 0.93 THEN class = {22.64} [6.99, 38.29], (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:39,851 - INFO - Iteracja 2: condition_best: SLEEP >= 0.83, quality_best: 0.355, coverage_best: (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:39,851 - INFO - Regula po iteracji 2: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 THEN class = {21.83} [9.91, 33.74], (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:39,853 - INFO - Iteracja 3: condition_best: SLEEP <= 0.89, quality_best: 0.41, coverage_best: (p=16, n=5, P=38, N=49)
+2026-04-14 12:18:39,853 - INFO - Regula po iteracji 3: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND SLEEP <= 0.89 THEN class = {19.10} [11.81, 26.38], (p=16, n=5, P=38, N=49)
+2026-04-14 12:18:39,855 - INFO - Iteracja 4: condition_best: THORAX <= 93.50, quality_best: 0.388, coverage_best: (p=15, n=5, P=38, N=49)
+2026-04-14 12:18:39,855 - INFO - Regula po iteracji 4: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND SLEEP <= 0.89 AND THORAX <= 93.50 THEN class = {19.15} [11.69, 26.61], (p=15, n=5, P=38, N=49)
+2026-04-14 12:18:39,855 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,856 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,861 - INFO - Iteracja 0: condition_best: THORAX >= 62.00, quality_best: 0.309, coverage_best: (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:39,861 - INFO - Regula po iteracji 0: IF THORAX >= 62.00 THEN class = {23.06} [7.45, 38.67], (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:39,864 - INFO - Iteracja 1: condition_best: SLEEP <= 0.93, quality_best: 0.36, coverage_best: (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:39,864 - INFO - Regula po iteracji 1: IF THORAX >= 62.00 AND SLEEP <= 0.93 THEN class = {22.64} [6.99, 38.29], (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:39,866 - INFO - Iteracja 2: condition_best: SLEEP >= 0.83, quality_best: 0.355, coverage_best: (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:39,866 - INFO - Regula po iteracji 2: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 THEN class = {21.83} [9.91, 33.74], (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:39,869 - INFO - Iteracja 3: condition_best: THORAX <= 91.00, quality_best: 0.384, coverage_best: (p=22, n=4, P=57, N=30)
+2026-04-14 12:18:39,869 - INFO - Regula po iteracji 3: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND THORAX <= 91.00 THEN class = {21.50} [9.26, 33.74], (p=22, n=4, P=57, N=30)
+2026-04-14 12:18:39,871 - INFO - Iteracja 4: condition_best: THORAX <= 85.00, quality_best: 0.378, coverage_best: (p=21, n=3, P=62, N=25)
+2026-04-14 12:18:39,871 - INFO - Regula po iteracji 4: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND THORAX <= 91.00 AND THORAX <= 85.00 THEN class = {21.67} [8.95, 34.38], (p=21, n=3, P=62, N=25)
+2026-04-14 12:18:39,871 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,871 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,877 - INFO - Iteracja 0: condition_best: THORAX >= 62.00, quality_best: 0.309, coverage_best: (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:39,877 - INFO - Regula po iteracji 0: IF THORAX >= 62.00 THEN class = {23.06} [7.45, 38.67], (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:39,880 - INFO - Iteracja 1: condition_best: THORAX <= 91.00, quality_best: 0.33, coverage_best: (p=28, n=3, P=71, N=16)
+2026-04-14 12:18:39,880 - INFO - Regula po iteracji 1: IF THORAX >= 62.00 AND THORAX <= 91.00 THEN class = {22.90} [6.76, 39.05], (p=28, n=3, P=71, N=16)
+2026-04-14 12:18:39,882 - INFO - Iteracja 2: condition_best: THORAX <= 89.50, quality_best: 0.315, coverage_best: (p=27, n=3, P=71, N=16)
+2026-04-14 12:18:39,882 - INFO - Regula po iteracji 2: IF THORAX >= 62.00 AND THORAX <= 91.00 AND THORAX <= 89.50 THEN class = {22.97} [6.56, 39.37], (p=27, n=3, P=71, N=16)
+2026-04-14 12:18:39,884 - INFO - Iteracja 3: condition_best: THORAX <= 85.00, quality_best: 0.299, coverage_best: (p=26, n=3, P=71, N=16)
+2026-04-14 12:18:39,884 - INFO - Regula po iteracji 3: IF THORAX >= 62.00 AND THORAX <= 91.00 AND THORAX <= 89.50 AND THORAX <= 85.00 THEN class = {23.14} [6.48, 39.80], (p=26, n=3, P=71, N=16)
+2026-04-14 12:18:39,887 - INFO - Iteracja 4: condition_best: THORAX <= 80.50, quality_best: 0.198, coverage_best: (p=22, n=3, P=72, N=15)
+2026-04-14 12:18:39,887 - INFO - Regula po iteracji 4: IF THORAX >= 62.00 AND THORAX <= 91.00 AND THORAX <= 89.50 AND THORAX <= 85.00 AND THORAX <= 80.50 THEN class = {23.88} [6.28, 41.48], (p=22, n=3, P=72, N=15)
+2026-04-14 12:18:39,887 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,887 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,893 - INFO - Iteracja 0: condition_best: SLEEP >= 0.89, quality_best: 0.273, coverage_best: (p=11, n=3, P=53, N=34)
+2026-04-14 12:18:39,893 - INFO - Regula po iteracji 0: IF SLEEP >= 0.89 THEN class = {29.57} [14.45, 44.69], (p=11, n=3, P=53, N=34)
+2026-04-14 12:18:39,895 - INFO - Iteracja 1: condition_best: THORAX <= 73.50, quality_best: 0.372, coverage_best: (p=7, n=1, P=55, N=32)
+2026-04-14 12:18:39,895 - INFO - Regula po iteracji 1: IF SLEEP >= 0.89 AND THORAX <= 73.50 THEN class = {32.00} [14.08, 49.92], (p=7, n=1, P=55, N=32)
+2026-04-14 12:18:39,896 - INFO - Iteracja 2: condition_best: THORAX <= 70.00, quality_best: 0.332, coverage_best: (p=6, n=1, P=56, N=31)
+2026-04-14 12:18:39,896 - INFO - Regula po iteracji 2: IF SLEEP >= 0.89 AND THORAX <= 73.50 AND THORAX <= 70.00 THEN class = {33.43} [14.71, 52.15], (p=6, n=1, P=56, N=31)
+2026-04-14 12:18:39,897 - INFO - Iteracja 3: condition_best: THORAX <= 63.00, quality_best: 0.081, coverage_best: (p=3, n=2, P=46, N=41)
+2026-04-14 12:18:39,897 - INFO - Regula po iteracji 3: IF SLEEP >= 0.89 AND THORAX <= 73.50 AND THORAX <= 70.00 AND THORAX <= 63.00 THEN class = {29.00} [17.12, 40.88], (p=3, n=2, P=46, N=41)
+2026-04-14 12:18:39,898 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:18:39,898 - INFO - Regula po iteracji 4: IF SLEEP >= 0.89 AND THORAX <= 73.50 AND THORAX <= 70.00 AND THORAX <= 63.00 THEN class = {29.00} [17.12, 40.88], (p=3, n=2, P=46, N=41)
+2026-04-14 12:18:39,898 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,899 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,904 - INFO - Iteracja 0: condition_best: THORAX <= 33.50, quality_best: 0.253, coverage_best: (p=7, n=3, P=41, N=46)
+2026-04-14 12:18:39,905 - INFO - Regula po iteracji 0: IF THORAX <= 33.50 THEN class = {24.50} [15.38, 33.62], (p=7, n=3, P=41, N=46)
+2026-04-14 12:18:39,906 - INFO - Iteracja 1: condition_best: THORAX >= 20.00, quality_best: 0.365, coverage_best: (p=6, n=2, P=31, N=56)
+2026-04-14 12:18:39,906 - INFO - Regula po iteracji 1: IF THORAX <= 33.50 AND THORAX >= 20.00 THEN class = {25.88} [19.68, 32.07], (p=6, n=2, P=31, N=56)
+2026-04-14 12:18:39,907 - INFO - Iteracja 2: condition_best: TYPE = {1}, quality_best: 0.365, coverage_best: (p=6, n=2, P=31, N=56)
+2026-04-14 12:18:39,907 - INFO - Regula po iteracji 2: IF THORAX <= 33.50 AND THORAX >= 20.00 AND TYPE = {1} THEN class = {25.88} [19.68, 32.07], (p=6, n=2, P=31, N=56)
+2026-04-14 12:18:39,909 - INFO - Iteracja 3: condition_best: PARTNERS = {8}, quality_best: 0.323, coverage_best: (p=5, n=2, P=31, N=56)
+2026-04-14 12:18:39,909 - INFO - Regula po iteracji 3: IF THORAX <= 33.50 AND THORAX >= 20.00 AND TYPE = {1} AND PARTNERS = {8} THEN class = {26.29} [19.77, 32.80], (p=5, n=2, P=31, N=56)
+2026-04-14 12:18:39,910 - INFO - Iteracja 4: condition_best: THORAX >= 28.00, quality_best: 0.284, coverage_best: (p=4, n=2, P=29, N=58)
+2026-04-14 12:18:39,910 - INFO - Regula po iteracji 4: IF THORAX <= 33.50 AND THORAX >= 20.00 AND TYPE = {1} AND PARTNERS = {8} AND THORAX >= 28.00 THEN class = {27.33} [20.86, 33.81], (p=4, n=2, P=29, N=58)
+2026-04-14 12:18:39,910 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,910 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,916 - INFO - Iteracja 0: condition_best: THORAX >= 58.50, quality_best: 0.224, coverage_best: (p=34, n=5, P=71, N=16)
+2026-04-14 12:18:39,916 - INFO - Regula po iteracji 0: IF THORAX >= 58.50 THEN class = {22.03} [6.78, 37.27], (p=34, n=5, P=71, N=16)
+2026-04-14 12:18:39,919 - INFO - Iteracja 1: condition_best: SLEEP <= 0.89, quality_best: 0.312, coverage_best: (p=26, n=4, P=66, N=21)
+2026-04-14 12:18:39,919 - INFO - Regula po iteracji 1: IF THORAX >= 58.50 AND SLEEP <= 0.89 THEN class = {19.67} [5.70, 33.63], (p=26, n=4, P=66, N=21)
+2026-04-14 12:18:39,922 - INFO - Iteracja 2: condition_best: THORAX <= 71.50, quality_best: 0.461, coverage_best: (p=19, n=1, P=71, N=16)
+2026-04-14 12:18:39,922 - INFO - Regula po iteracji 2: IF THORAX >= 58.50 AND SLEEP <= 0.89 AND THORAX <= 71.50 THEN class = {20.10} [4.33, 35.87], (p=19, n=1, P=71, N=16)
+2026-04-14 12:18:39,923 - INFO - Iteracja 3: condition_best: THORAX <= 70.50, quality_best: 0.419, coverage_best: (p=18, n=1, P=73, N=14)
+2026-04-14 12:18:39,923 - INFO - Regula po iteracji 3: IF THORAX >= 58.50 AND SLEEP <= 0.89 AND THORAX <= 71.50 AND THORAX <= 70.50 THEN class = {20.37} [4.24, 36.50], (p=18, n=1, P=73, N=14)
+2026-04-14 12:18:39,925 - INFO - Iteracja 4: condition_best: SLEEP >= 0.74, quality_best: 0.343, coverage_best: (p=17, n=1, P=76, N=11)
+2026-04-14 12:18:39,925 - INFO - Regula po iteracji 4: IF THORAX >= 58.50 AND SLEEP <= 0.89 AND THORAX <= 71.50 AND THORAX <= 70.50 AND SLEEP >= 0.74 THEN class = {20.39} [3.82, 36.96], (p=17, n=1, P=76, N=11)
+2026-04-14 12:18:39,925 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,926 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,931 - INFO - Iteracja 0: condition_best: THORAX >= 55.00, quality_best: 0.207, coverage_best: (p=39, n=7, P=69, N=18)
+2026-04-14 12:18:39,931 - INFO - Regula po iteracji 0: IF THORAX >= 55.00 THEN class = {22.30} [7.22, 37.39], (p=39, n=7, P=69, N=18)
+2026-04-14 12:18:39,934 - INFO - Iteracja 1: condition_best: SLEEP <= 0.89, quality_best: 0.274, coverage_best: (p=30, n=5, P=67, N=20)
+2026-04-14 12:18:39,934 - INFO - Regula po iteracji 1: IF THORAX >= 55.00 AND SLEEP <= 0.89 THEN class = {20.00} [5.75, 34.25], (p=30, n=5, P=67, N=20)
+2026-04-14 12:18:39,937 - INFO - Iteracja 2: condition_best: THORAX <= 62.00, quality_best: 0.333, coverage_best: (p=9, n=1, P=66, N=21)
+2026-04-14 12:18:39,937 - INFO - Regula po iteracji 2: IF THORAX >= 55.00 AND SLEEP <= 0.89 AND THORAX <= 62.00 THEN class = {18.50} [4.87, 32.13], (p=9, n=1, P=66, N=21)
+2026-04-14 12:18:39,938 - INFO - Iteracja 3: condition_best: THORAX <= 60.50, quality_best: 0.088, coverage_best: (p=7, n=2, P=64, N=23)
+2026-04-14 12:18:39,938 - INFO - Regula po iteracji 3: IF THORAX >= 55.00 AND SLEEP <= 0.89 AND THORAX <= 62.00 AND THORAX <= 60.50 THEN class = {19.89} [6.21, 33.57], (p=7, n=2, P=64, N=23)
+2026-04-14 12:18:39,940 - INFO - Iteracja 4: condition_best: THORAX <= 58.50, quality_best: -0.046, coverage_best: (p=4, n=1, P=71, N=16)
+2026-04-14 12:18:39,940 - INFO - Regula po iteracji 4: IF THORAX >= 55.00 AND SLEEP <= 0.89 AND THORAX <= 62.00 AND THORAX <= 60.50 AND THORAX <= 58.50 THEN class = {22.00} [6.29, 37.71], (p=4, n=1, P=71, N=16)
+2026-04-14 12:18:39,940 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,940 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,946 - INFO - Iteracja 0: condition_best: THORAX <= 35.00, quality_best: 0.201, coverage_best: (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:39,946 - INFO - Regula po iteracji 0: IF THORAX <= 35.00 THEN class = {24.91} [16.11, 33.70], (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:39,947 - INFO - Iteracja 1: condition_best: TYPE = {1}, quality_best: 0.201, coverage_best: (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:39,947 - INFO - Regula po iteracji 1: IF THORAX <= 35.00 AND TYPE = {1} THEN class = {24.91} [16.11, 33.70], (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:39,949 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:18:39,949 - INFO - Regula po iteracji 2: IF THORAX <= 35.00 AND TYPE = {1} THEN class = {24.91} [16.11, 33.70], (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:39,949 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,949 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,955 - INFO - Iteracja 0: condition_best: SLEEP >= 0.77, quality_best: 0.173, coverage_best: (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:39,955 - INFO - Regula po iteracji 0: IF SLEEP >= 0.77 THEN class = {22.97} [9.07, 36.87], (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:39,959 - INFO - Iteracja 1: condition_best: PARTNERS = {8}, quality_best: 0.298, coverage_best: (p=14, n=5, P=45, N=42)
+2026-04-14 12:18:39,959 - INFO - Regula po iteracji 1: IF SLEEP >= 0.77 AND PARTNERS = {8} THEN class = {22.42} [13.43, 31.41], (p=14, n=5, P=45, N=42)
+2026-04-14 12:18:39,962 - INFO - Iteracja 2: condition_best: THORAX >= 33.50, quality_best: 0.386, coverage_best: (p=13, n=3, P=46, N=41)
+2026-04-14 12:18:39,962 - INFO - Regula po iteracji 2: IF SLEEP >= 0.77 AND PARTNERS = {8} AND THORAX >= 33.50 THEN class = {21.19} [12.33, 30.04], (p=13, n=3, P=46, N=41)
+2026-04-14 12:18:39,963 - INFO - Iteracja 3: condition_best: SLEEP >= 0.83, quality_best: 0.363, coverage_best: (p=12, n=3, P=46, N=41)
+2026-04-14 12:18:39,963 - INFO - Regula po iteracji 3: IF SLEEP >= 0.77 AND PARTNERS = {8} AND THORAX >= 33.50 AND SLEEP >= 0.83 THEN class = {21.67} [12.72, 30.61], (p=12, n=3, P=46, N=41)
+2026-04-14 12:18:39,965 - INFO - Iteracja 4: condition_best: THORAX >= 38.00, quality_best: 0.338, coverage_best: (p=11, n=3, P=46, N=41)
+2026-04-14 12:18:39,965 - INFO - Regula po iteracji 4: IF SLEEP >= 0.77 AND PARTNERS = {8} AND THORAX >= 33.50 AND SLEEP >= 0.83 AND THORAX >= 38.00 THEN class = {21.14} [12.11, 30.17], (p=11, n=3, P=46, N=41)
+2026-04-14 12:18:39,965 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,966 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,971 - INFO - Iteracja 0: condition_best: SLEEP >= 0.77, quality_best: 0.173, coverage_best: (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:39,971 - INFO - Regula po iteracji 0: IF SLEEP >= 0.77 THEN class = {22.97} [9.07, 36.87], (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:39,975 - INFO - Iteracja 1: condition_best: THORAX <= 96.50, quality_best: 0.183, coverage_best: (p=49, n=13, P=64, N=23)
+2026-04-14 12:18:39,975 - INFO - Regula po iteracji 1: IF SLEEP >= 0.77 AND THORAX <= 96.50 THEN class = {23.05} [9.05, 37.05], (p=49, n=13, P=64, N=23)
+2026-04-14 12:18:39,980 - INFO - Iteracja 2: condition_best: THORAX <= 51.50, quality_best: 0.18, coverage_best: (p=13, n=4, P=58, N=29)
+2026-04-14 12:18:39,980 - INFO - Regula po iteracji 2: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 51.50 THEN class = {22.00} [9.96, 34.04], (p=13, n=4, P=58, N=29)
+2026-04-14 12:18:39,982 - INFO - Iteracja 3: condition_best: PARTNERS = {1}, quality_best: 0.324, coverage_best: (p=7, n=1, P=61, N=26)
+2026-04-14 12:18:39,982 - INFO - Regula po iteracji 3: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 51.50 AND PARTNERS = {1} THEN class = {22.25} [9.26, 35.24], (p=7, n=1, P=61, N=26)
+2026-04-14 12:18:39,984 - INFO - Iteracja 4: condition_best: SLEEP <= 0.86, quality_best: 0.293, coverage_best: (p=4, n=1, P=49, N=38)
+2026-04-14 12:18:39,984 - INFO - Regula po iteracji 4: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 51.50 AND PARTNERS = {1} AND SLEEP <= 0.86 THEN class = {19.00} [9.75, 28.25], (p=4, n=1, P=49, N=38)
+2026-04-14 12:18:39,984 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:39,984 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:39,990 - INFO - Iteracja 0: condition_best: SLEEP >= 0.77, quality_best: 0.173, coverage_best: (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:39,990 - INFO - Regula po iteracji 0: IF SLEEP >= 0.77 THEN class = {22.97} [9.07, 36.87], (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:39,994 - INFO - Iteracja 1: condition_best: THORAX <= 96.50, quality_best: 0.183, coverage_best: (p=49, n=13, P=64, N=23)
+2026-04-14 12:18:39,994 - INFO - Regula po iteracji 1: IF SLEEP >= 0.77 AND THORAX <= 96.50 THEN class = {23.05} [9.05, 37.05], (p=49, n=13, P=64, N=23)
+2026-04-14 12:18:39,998 - INFO - Iteracja 2: condition_best: THORAX <= 55.00, quality_best: 0.179, coverage_best: (p=18, n=4, P=65, N=22)
+2026-04-14 12:18:39,998 - INFO - Regula po iteracji 2: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 55.00 THEN class = {25.23} [9.55, 40.90], (p=18, n=4, P=65, N=22)
+2026-04-14 12:18:40,001 - INFO - Iteracja 3: condition_best: THORAX >= 28.00, quality_best: 0.156, coverage_best: (p=17, n=4, P=65, N=22)
+2026-04-14 12:18:40,001 - INFO - Regula po iteracji 3: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 55.00 AND THORAX >= 28.00 THEN class = {25.48} [9.48, 41.48], (p=17, n=4, P=65, N=22)
+2026-04-14 12:18:40,003 - INFO - Iteracja 4: condition_best: SLEEP <= 0.89, quality_best: 0.118, coverage_best: (p=15, n=3, P=69, N=18)
+2026-04-14 12:18:40,003 - INFO - Regula po iteracji 4: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 55.00 AND THORAX >= 28.00 AND SLEEP <= 0.89 THEN class = {24.83} [8.67, 41.00], (p=15, n=3, P=69, N=18)
+2026-04-14 12:18:40,003 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,004 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,009 - INFO - Iteracja 0: condition_best: THORAX <= 45.00, quality_best: 0.156, coverage_best: (p=17, n=4, P=65, N=22)
+2026-04-14 12:18:40,009 - INFO - Regula po iteracji 0: IF THORAX <= 45.00 THEN class = {25.24} [9.24, 41.23], (p=17, n=4, P=65, N=22)
+2026-04-14 12:18:40,011 - INFO - Iteracja 1: condition_best: THORAX >= 20.00, quality_best: 0.234, coverage_best: (p=16, n=3, P=65, N=22)
+2026-04-14 12:18:40,011 - INFO - Regula po iteracji 1: IF THORAX <= 45.00 AND THORAX >= 20.00 THEN class = {25.89} [9.94, 41.85], (p=16, n=3, P=65, N=22)
+2026-04-14 12:18:40,014 - INFO - Iteracja 2: condition_best: THORAX >= 23.50, quality_best: 0.21, coverage_best: (p=15, n=3, P=65, N=22)
+2026-04-14 12:18:40,014 - INFO - Regula po iteracji 2: IF THORAX <= 45.00 AND THORAX >= 20.00 AND THORAX >= 23.50 THEN class = {26.06} [9.68, 42.43], (p=15, n=3, P=65, N=22)
+2026-04-14 12:18:40,016 - INFO - Iteracja 3: condition_best: SLEEP <= 0.82, quality_best: 0.211, coverage_best: (p=13, n=2, P=69, N=18)
+2026-04-14 12:18:40,016 - INFO - Regula po iteracji 3: IF THORAX <= 45.00 AND THORAX >= 20.00 AND THORAX >= 23.50 AND SLEEP <= 0.82 THEN class = {26.33} [8.67, 44.00], (p=13, n=2, P=69, N=18)
+2026-04-14 12:18:40,018 - INFO - Iteracja 4: condition_best: THORAX >= 28.00, quality_best: 0.182, coverage_best: (p=12, n=2, P=69, N=18)
+2026-04-14 12:18:40,018 - INFO - Regula po iteracji 4: IF THORAX <= 45.00 AND THORAX >= 20.00 AND THORAX >= 23.50 AND SLEEP <= 0.82 AND THORAX >= 28.00 THEN class = {26.79} [8.59, 44.98], (p=12, n=2, P=69, N=18)
+2026-04-14 12:18:40,018 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,019 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,027 - INFO - Iteracja 0: condition_best: SLEEP >= 0.70, quality_best: 0.079, coverage_best: (p=64, n=15, P=69, N=18)
+2026-04-14 12:18:40,028 - INFO - Regula po iteracji 0: IF SLEEP >= 0.70 THEN class = {23.39} [7.23, 39.55], (p=64, n=15, P=69, N=18)
+2026-04-14 12:18:40,032 - INFO - Iteracja 1: condition_best: SLEEP <= 0.86, quality_best: 0.143, coverage_best: (p=43, n=6, P=74, N=13)
+2026-04-14 12:18:40,033 - INFO - Regula po iteracji 1: IF SLEEP >= 0.70 AND SLEEP <= 0.86 THEN class = {21.57} [4.38, 38.77], (p=43, n=6, P=74, N=13)
+2026-04-14 12:18:40,036 - INFO - Iteracja 2: condition_best: THORAX >= 39.50, quality_best: 0.231, coverage_best: (p=35, n=4, P=74, N=13)
+2026-04-14 12:18:40,036 - INFO - Regula po iteracji 2: IF SLEEP >= 0.70 AND SLEEP <= 0.86 AND THORAX >= 39.50 THEN class = {19.26} [3.35, 35.16], (p=35, n=4, P=74, N=13)
+2026-04-14 12:18:40,039 - INFO - Iteracja 3: condition_best: THORAX <= 93.00, quality_best: 0.216, coverage_best: (p=34, n=4, P=74, N=13)
+2026-04-14 12:18:40,039 - INFO - Regula po iteracji 3: IF SLEEP >= 0.70 AND SLEEP <= 0.86 AND THORAX >= 39.50 AND THORAX <= 93.00 THEN class = {19.29} [3.18, 35.40], (p=34, n=4, P=74, N=13)
+2026-04-14 12:18:40,042 - INFO - Iteracja 4: condition_best: THORAX >= 44.00, quality_best: 0.241, coverage_best: (p=31, n=4, P=72, N=15)
+2026-04-14 12:18:40,042 - INFO - Regula po iteracji 4: IF SLEEP >= 0.70 AND SLEEP <= 0.86 AND THORAX >= 39.50 AND THORAX <= 93.00 AND THORAX >= 44.00 THEN class = {18.46} [1.95, 34.97], (p=31, n=4, P=72, N=15)
+2026-04-14 12:18:40,042 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,043 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,048 - INFO - Iteracja 0: condition_best: THORAX <= 17.50, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:40,048 - INFO - Regula po iteracji 0: IF THORAX <= 17.50 THEN class = {34.00} [34.00, 34.00], (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:40,049 - INFO - Iteracja 1: condition_best: PARTNERS = {8}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:40,049 - INFO - Regula po iteracji 1: IF THORAX <= 17.50 AND PARTNERS = {8} THEN class = {34.00} [34.00, 34.00], (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:40,049 - INFO - Iteracja 2: condition_best: TYPE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:40,049 - INFO - Regula po iteracji 2: IF THORAX <= 17.50 AND PARTNERS = {8} AND TYPE = {1} THEN class = {34.00} [34.00, 34.00], (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:40,049 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:18:40,050 - INFO - Regula po iteracji 3: IF THORAX <= 17.50 AND PARTNERS = {8} AND TYPE = {1} THEN class = {34.00} [34.00, 34.00], (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:40,050 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,060 - INFO - ************************Finished experiment for fruitfly.arff with algorithm_rer************************
+2026-04-14 12:18:40,060 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:40,060 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:40,060 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:40,061 - INFO - **********Starting experiment for fruitfly.arff with algorithm_rer_with_exceptions**********
+2026-04-14 12:18:40,066 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,075 - INFO - Iteracja 0: condition_best: THORAX >= 85.00, quality_best: 0.366, coverage_best: (p=4, n=1, P=36, N=51)
+2026-04-14 12:18:40,075 - INFO - Regula po iteracji 0: IF THORAX >= 85.00 THEN class = {22.60} [15.80, 29.40], (p=4, n=1, P=36, N=51)
+2026-04-14 12:18:40,075 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,086 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,086 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,086 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,086 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,087 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:18:40,087 - INFO - Regula po iteracji 1: IF THORAX >= 85.00 THEN class = {22.60} [15.80, 29.40], (p=4, n=1, P=36, N=51)
+2026-04-14 12:18:40,087 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,088 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,094 - INFO - Iteracja 0: condition_best: THORAX >= 62.00, quality_best: 0.309, coverage_best: (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:40,094 - INFO - Regula po iteracji 0: IF THORAX >= 62.00 THEN class = {23.06} [7.45, 38.67], (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:40,094 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,105 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,105 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,105 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,105 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,108 - INFO - Iteracja 1: condition_best: SLEEP <= 0.93, quality_best: 0.36, coverage_best: (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:40,108 - INFO - Regula po iteracji 1: IF THORAX >= 62.00 AND SLEEP <= 0.93 THEN class = {22.64} [6.99, 38.29], (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:40,108 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,118 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,119 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,119 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,119 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,122 - INFO - Iteracja 2: condition_best: SLEEP >= 0.83, quality_best: 0.355, coverage_best: (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:40,122 - INFO - Regula po iteracji 2: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 THEN class = {21.83} [9.91, 33.74], (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:40,122 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,132 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,133 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,133 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,133 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,135 - INFO - Iteracja 3: condition_best: SLEEP <= 0.89, quality_best: 0.41, coverage_best: (p=16, n=5, P=38, N=49)
+2026-04-14 12:18:40,135 - INFO - Regula po iteracji 3: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND SLEEP <= 0.89 THEN class = {19.10} [11.81, 26.38], (p=16, n=5, P=38, N=49)
+2026-04-14 12:18:40,135 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,146 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,146 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,146 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,146 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,148 - INFO - Iteracja 4: condition_best: THORAX <= 74.00, quality_best: 0.45, coverage_best: (p=11, n=2, P=41, N=46)
+2026-04-14 12:18:40,148 - INFO - Regula po iteracji 4: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND SLEEP <= 0.89 AND THORAX <= 74.00 THEN class = {19.46} [11.84, 27.08], (p=11, n=2, P=41, N=46)
+2026-04-14 12:18:40,149 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,161 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,162 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,162 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,162 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,162 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,163 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,168 - INFO - Iteracja 0: condition_best: THORAX >= 62.00, quality_best: 0.309, coverage_best: (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:40,169 - INFO - Regula po iteracji 0: IF THORAX >= 62.00 THEN class = {23.06} [7.45, 38.67], (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:40,169 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,179 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,179 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,179 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,179 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,182 - INFO - Iteracja 1: condition_best: SLEEP <= 0.93, quality_best: 0.36, coverage_best: (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:40,182 - INFO - Regula po iteracji 1: IF THORAX >= 62.00 AND SLEEP <= 0.93 THEN class = {22.64} [6.99, 38.29], (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:40,182 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,192 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,193 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,193 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,193 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,195 - INFO - Iteracja 2: condition_best: SLEEP >= 0.83, quality_best: 0.355, coverage_best: (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:40,195 - INFO - Regula po iteracji 2: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 THEN class = {21.83} [9.91, 33.74], (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:40,196 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,206 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,206 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,206 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,206 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,208 - INFO - Iteracja 3: condition_best: SLEEP <= 0.89, quality_best: 0.41, coverage_best: (p=16, n=5, P=38, N=49)
+2026-04-14 12:18:40,208 - INFO - Regula po iteracji 3: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND SLEEP <= 0.89 THEN class = {19.10} [11.81, 26.38], (p=16, n=5, P=38, N=49)
+2026-04-14 12:18:40,209 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,219 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,219 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,219 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,219 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,221 - INFO - Iteracja 4: condition_best: THORAX <= 93.50, quality_best: 0.388, coverage_best: (p=15, n=5, P=38, N=49)
+2026-04-14 12:18:40,221 - INFO - Regula po iteracji 4: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND SLEEP <= 0.89 AND THORAX <= 93.50 THEN class = {19.15} [11.69, 26.61], (p=15, n=5, P=38, N=49)
+2026-04-14 12:18:40,222 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,232 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,232 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,232 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,232 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,232 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,233 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,239 - INFO - Iteracja 0: condition_best: THORAX >= 62.00, quality_best: 0.309, coverage_best: (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:40,239 - INFO - Regula po iteracji 0: IF THORAX >= 62.00 THEN class = {23.06} [7.45, 38.67], (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:40,239 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,249 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,249 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,249 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,249 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,252 - INFO - Iteracja 1: condition_best: SLEEP <= 0.93, quality_best: 0.36, coverage_best: (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:40,252 - INFO - Regula po iteracji 1: IF THORAX >= 62.00 AND SLEEP <= 0.93 THEN class = {22.64} [6.99, 38.29], (p=30, n=3, P=71, N=16)
+2026-04-14 12:18:40,252 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,262 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,263 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,263 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,263 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,265 - INFO - Iteracja 2: condition_best: SLEEP >= 0.83, quality_best: 0.355, coverage_best: (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:40,265 - INFO - Regula po iteracji 2: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 THEN class = {21.83} [9.91, 33.74], (p=24, n=5, P=57, N=30)
+2026-04-14 12:18:40,265 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,276 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,276 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,276 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,276 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,278 - INFO - Iteracja 3: condition_best: THORAX <= 91.00, quality_best: 0.384, coverage_best: (p=22, n=4, P=57, N=30)
+2026-04-14 12:18:40,278 - INFO - Regula po iteracji 3: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND THORAX <= 91.00 THEN class = {21.50} [9.26, 33.74], (p=22, n=4, P=57, N=30)
+2026-04-14 12:18:40,279 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,289 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,289 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,289 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,289 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,291 - INFO - Iteracja 4: condition_best: THORAX <= 85.00, quality_best: 0.378, coverage_best: (p=21, n=3, P=62, N=25)
+2026-04-14 12:18:40,291 - INFO - Regula po iteracji 4: IF THORAX >= 62.00 AND SLEEP <= 0.93 AND SLEEP >= 0.83 AND THORAX <= 91.00 AND THORAX <= 85.00 THEN class = {21.67} [8.95, 34.38], (p=21, n=3, P=62, N=25)
+2026-04-14 12:18:40,292 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,302 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,302 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,302 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,302 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,302 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,303 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,308 - INFO - Iteracja 0: condition_best: THORAX >= 62.00, quality_best: 0.309, coverage_best: (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:40,309 - INFO - Regula po iteracji 0: IF THORAX >= 62.00 THEN class = {23.06} [7.45, 38.67], (p=30, n=4, P=69, N=18)
+2026-04-14 12:18:40,309 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,319 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,319 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,319 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,319 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,322 - INFO - Iteracja 1: condition_best: THORAX <= 91.00, quality_best: 0.33, coverage_best: (p=28, n=3, P=71, N=16)
+2026-04-14 12:18:40,322 - INFO - Regula po iteracji 1: IF THORAX >= 62.00 AND THORAX <= 91.00 THEN class = {22.90} [6.76, 39.05], (p=28, n=3, P=71, N=16)
+2026-04-14 12:18:40,322 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,332 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,332 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,333 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,333 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,335 - INFO - Iteracja 2: condition_best: THORAX <= 89.50, quality_best: 0.315, coverage_best: (p=27, n=3, P=71, N=16)
+2026-04-14 12:18:40,335 - INFO - Regula po iteracji 2: IF THORAX >= 62.00 AND THORAX <= 91.00 AND THORAX <= 89.50 THEN class = {22.97} [6.56, 39.37], (p=27, n=3, P=71, N=16)
+2026-04-14 12:18:40,335 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,346 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,346 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,346 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,346 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,348 - INFO - Iteracja 3: condition_best: THORAX <= 85.00, quality_best: 0.299, coverage_best: (p=26, n=3, P=71, N=16)
+2026-04-14 12:18:40,348 - INFO - Regula po iteracji 3: IF THORAX >= 62.00 AND THORAX <= 91.00 AND THORAX <= 89.50 AND THORAX <= 85.00 THEN class = {23.14} [6.48, 39.80], (p=26, n=3, P=71, N=16)
+2026-04-14 12:18:40,349 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,359 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,359 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,359 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,359 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,361 - INFO - Iteracja 4: condition_best: THORAX <= 80.50, quality_best: 0.198, coverage_best: (p=22, n=3, P=72, N=15)
+2026-04-14 12:18:40,361 - INFO - Regula po iteracji 4: IF THORAX >= 62.00 AND THORAX <= 91.00 AND THORAX <= 89.50 AND THORAX <= 85.00 AND THORAX <= 80.50 THEN class = {23.88} [6.28, 41.48], (p=22, n=3, P=72, N=15)
+2026-04-14 12:18:40,362 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,374 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,374 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,374 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,374 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,374 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,375 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,380 - INFO - Iteracja 0: condition_best: SLEEP >= 0.89, quality_best: 0.273, coverage_best: (p=11, n=3, P=53, N=34)
+2026-04-14 12:18:40,380 - INFO - Regula po iteracji 0: IF SLEEP >= 0.89 THEN class = {29.57} [14.45, 44.69], (p=11, n=3, P=53, N=34)
+2026-04-14 12:18:40,381 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,391 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,391 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,391 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,391 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,393 - INFO - Iteracja 1: condition_best: THORAX <= 73.50, quality_best: 0.372, coverage_best: (p=7, n=1, P=55, N=32)
+2026-04-14 12:18:40,393 - INFO - Regula po iteracji 1: IF SLEEP >= 0.89 AND THORAX <= 73.50 THEN class = {32.00} [14.08, 49.92], (p=7, n=1, P=55, N=32)
+2026-04-14 12:18:40,393 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,404 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,404 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,404 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,404 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,405 - INFO - Iteracja 2: condition_best: THORAX <= 70.00, quality_best: 0.332, coverage_best: (p=6, n=1, P=56, N=31)
+2026-04-14 12:18:40,405 - INFO - Regula po iteracji 2: IF SLEEP >= 0.89 AND THORAX <= 73.50 AND THORAX <= 70.00 THEN class = {33.43} [14.71, 52.15], (p=6, n=1, P=56, N=31)
+2026-04-14 12:18:40,405 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,416 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,416 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,416 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,416 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,417 - INFO - Iteracja 3: condition_best: THORAX <= 63.00, quality_best: 0.081, coverage_best: (p=3, n=2, P=46, N=41)
+2026-04-14 12:18:40,417 - INFO - Regula po iteracji 3: IF SLEEP >= 0.89 AND THORAX <= 73.50 AND THORAX <= 70.00 AND THORAX <= 63.00 THEN class = {29.00} [17.12, 40.88], (p=3, n=2, P=46, N=41)
+2026-04-14 12:18:40,417 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,428 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,428 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,428 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,428 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,429 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:18:40,429 - INFO - Regula po iteracji 4: IF SLEEP >= 0.89 AND THORAX <= 73.50 AND THORAX <= 70.00 AND THORAX <= 63.00 THEN class = {29.00} [17.12, 40.88], (p=3, n=2, P=46, N=41)
+2026-04-14 12:18:40,429 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,430 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,435 - INFO - Iteracja 0: condition_best: THORAX <= 33.50, quality_best: 0.253, coverage_best: (p=7, n=3, P=41, N=46)
+2026-04-14 12:18:40,435 - INFO - Regula po iteracji 0: IF THORAX <= 33.50 THEN class = {24.50} [15.38, 33.62], (p=7, n=3, P=41, N=46)
+2026-04-14 12:18:40,435 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,446 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,446 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,446 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,446 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,447 - INFO - Iteracja 1: condition_best: THORAX >= 20.00, quality_best: 0.365, coverage_best: (p=6, n=2, P=31, N=56)
+2026-04-14 12:18:40,447 - INFO - Regula po iteracji 1: IF THORAX <= 33.50 AND THORAX >= 20.00 THEN class = {25.88} [19.68, 32.07], (p=6, n=2, P=31, N=56)
+2026-04-14 12:18:40,448 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,458 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,458 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,458 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,458 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,460 - INFO - Iteracja 2: condition_best: TYPE = {1}, quality_best: 0.365, coverage_best: (p=6, n=2, P=31, N=56)
+2026-04-14 12:18:40,460 - INFO - Regula po iteracji 2: IF THORAX <= 33.50 AND THORAX >= 20.00 AND TYPE = {1} THEN class = {25.88} [19.68, 32.07], (p=6, n=2, P=31, N=56)
+2026-04-14 12:18:40,460 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,470 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,470 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,470 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,470 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,472 - INFO - Iteracja 3: condition_best: PARTNERS = {8}, quality_best: 0.323, coverage_best: (p=5, n=2, P=31, N=56)
+2026-04-14 12:18:40,472 - INFO - Regula po iteracji 3: IF THORAX <= 33.50 AND THORAX >= 20.00 AND TYPE = {1} AND PARTNERS = {8} THEN class = {26.29} [19.77, 32.80], (p=5, n=2, P=31, N=56)
+2026-04-14 12:18:40,472 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,482 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,482 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,483 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,483 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,484 - INFO - Iteracja 4: condition_best: THORAX >= 28.00, quality_best: 0.284, coverage_best: (p=4, n=2, P=29, N=58)
+2026-04-14 12:18:40,484 - INFO - Regula po iteracji 4: IF THORAX <= 33.50 AND THORAX >= 20.00 AND TYPE = {1} AND PARTNERS = {8} AND THORAX >= 28.00 THEN class = {27.33} [20.86, 33.81], (p=4, n=2, P=29, N=58)
+2026-04-14 12:18:40,484 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,494 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,494 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,495 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,495 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,495 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,495 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,501 - INFO - Iteracja 0: condition_best: THORAX >= 58.50, quality_best: 0.224, coverage_best: (p=34, n=5, P=71, N=16)
+2026-04-14 12:18:40,501 - INFO - Regula po iteracji 0: IF THORAX >= 58.50 THEN class = {22.03} [6.78, 37.27], (p=34, n=5, P=71, N=16)
+2026-04-14 12:18:40,501 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,511 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,511 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,511 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,512 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,515 - INFO - Iteracja 1: condition_best: SLEEP <= 0.89, quality_best: 0.312, coverage_best: (p=26, n=4, P=66, N=21)
+2026-04-14 12:18:40,515 - INFO - Regula po iteracji 1: IF THORAX >= 58.50 AND SLEEP <= 0.89 THEN class = {19.67} [5.70, 33.63], (p=26, n=4, P=66, N=21)
+2026-04-14 12:18:40,515 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,525 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,525 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,525 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,525 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,528 - INFO - Iteracja 2: condition_best: THORAX <= 71.50, quality_best: 0.461, coverage_best: (p=19, n=1, P=71, N=16)
+2026-04-14 12:18:40,528 - INFO - Regula po iteracji 2: IF THORAX >= 58.50 AND SLEEP <= 0.89 AND THORAX <= 71.50 THEN class = {20.10} [4.33, 35.87], (p=19, n=1, P=71, N=16)
+2026-04-14 12:18:40,528 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,538 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,539 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,539 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,539 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,540 - INFO - Iteracja 3: condition_best: THORAX <= 70.50, quality_best: 0.419, coverage_best: (p=18, n=1, P=73, N=14)
+2026-04-14 12:18:40,540 - INFO - Regula po iteracji 3: IF THORAX >= 58.50 AND SLEEP <= 0.89 AND THORAX <= 71.50 AND THORAX <= 70.50 THEN class = {20.37} [4.24, 36.50], (p=18, n=1, P=73, N=14)
+2026-04-14 12:18:40,541 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,551 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,551 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,551 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,551 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,553 - INFO - Iteracja 4: condition_best: SLEEP >= 0.74, quality_best: 0.343, coverage_best: (p=17, n=1, P=76, N=11)
+2026-04-14 12:18:40,553 - INFO - Regula po iteracji 4: IF THORAX >= 58.50 AND SLEEP <= 0.89 AND THORAX <= 71.50 AND THORAX <= 70.50 AND SLEEP >= 0.74 THEN class = {20.39} [3.82, 36.96], (p=17, n=1, P=76, N=11)
+2026-04-14 12:18:40,553 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,571 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,571 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,571 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,571 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,571 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,572 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,577 - INFO - Iteracja 0: condition_best: THORAX >= 55.00, quality_best: 0.207, coverage_best: (p=39, n=7, P=69, N=18)
+2026-04-14 12:18:40,577 - INFO - Regula po iteracji 0: IF THORAX >= 55.00 THEN class = {22.30} [7.22, 37.39], (p=39, n=7, P=69, N=18)
+2026-04-14 12:18:40,578 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,588 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,588 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,588 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,588 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,591 - INFO - Iteracja 1: condition_best: SLEEP <= 0.89, quality_best: 0.274, coverage_best: (p=30, n=5, P=67, N=20)
+2026-04-14 12:18:40,591 - INFO - Regula po iteracji 1: IF THORAX >= 55.00 AND SLEEP <= 0.89 THEN class = {20.00} [5.75, 34.25], (p=30, n=5, P=67, N=20)
+2026-04-14 12:18:40,592 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,602 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,602 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,602 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,602 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,605 - INFO - Iteracja 2: condition_best: THORAX <= 62.00, quality_best: 0.333, coverage_best: (p=9, n=1, P=66, N=21)
+2026-04-14 12:18:40,605 - INFO - Regula po iteracji 2: IF THORAX >= 55.00 AND SLEEP <= 0.89 AND THORAX <= 62.00 THEN class = {18.50} [4.87, 32.13], (p=9, n=1, P=66, N=21)
+2026-04-14 12:18:40,605 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,615 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,616 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,616 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,616 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,617 - INFO - Iteracja 3: condition_best: THORAX <= 60.50, quality_best: 0.088, coverage_best: (p=7, n=2, P=64, N=23)
+2026-04-14 12:18:40,617 - INFO - Regula po iteracji 3: IF THORAX >= 55.00 AND SLEEP <= 0.89 AND THORAX <= 62.00 AND THORAX <= 60.50 THEN class = {19.89} [6.21, 33.57], (p=7, n=2, P=64, N=23)
+2026-04-14 12:18:40,617 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,631 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,631 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,631 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,631 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,633 - INFO - Iteracja 4: condition_best: THORAX <= 58.50, quality_best: -0.046, coverage_best: (p=4, n=1, P=71, N=16)
+2026-04-14 12:18:40,633 - INFO - Regula po iteracji 4: IF THORAX >= 55.00 AND SLEEP <= 0.89 AND THORAX <= 62.00 AND THORAX <= 60.50 AND THORAX <= 58.50 THEN class = {22.00} [6.29, 37.71], (p=4, n=1, P=71, N=16)
+2026-04-14 12:18:40,633 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,647 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,647 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,647 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,647 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,647 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,647 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,653 - INFO - Iteracja 0: condition_best: THORAX <= 35.00, quality_best: 0.201, coverage_best: (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:40,653 - INFO - Regula po iteracji 0: IF THORAX <= 35.00 THEN class = {24.91} [16.11, 33.70], (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:40,653 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,664 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,664 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,664 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,664 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,665 - INFO - Iteracja 1: condition_best: TYPE = {1}, quality_best: 0.201, coverage_best: (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:40,665 - INFO - Regula po iteracji 1: IF THORAX <= 35.00 AND TYPE = {1} THEN class = {24.91} [16.11, 33.70], (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:40,666 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,676 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,676 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,676 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,676 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,678 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:18:40,678 - INFO - Regula po iteracji 2: IF THORAX <= 35.00 AND TYPE = {1} THEN class = {24.91} [16.11, 33.70], (p=7, n=4, P=39, N=48)
+2026-04-14 12:18:40,678 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,678 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,684 - INFO - Iteracja 0: condition_best: SLEEP >= 0.77, quality_best: 0.173, coverage_best: (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:40,684 - INFO - Regula po iteracji 0: IF SLEEP >= 0.77 THEN class = {22.97} [9.07, 36.87], (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:40,684 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,694 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,694 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,695 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,695 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,699 - INFO - Iteracja 1: condition_best: PARTNERS = {8}, quality_best: 0.298, coverage_best: (p=14, n=5, P=45, N=42)
+2026-04-14 12:18:40,699 - INFO - Regula po iteracji 1: IF SLEEP >= 0.77 AND PARTNERS = {8} THEN class = {22.42} [13.43, 31.41], (p=14, n=5, P=45, N=42)
+2026-04-14 12:18:40,699 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,709 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,710 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,710 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,710 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,712 - INFO - Iteracja 2: condition_best: THORAX >= 33.50, quality_best: 0.386, coverage_best: (p=13, n=3, P=46, N=41)
+2026-04-14 12:18:40,712 - INFO - Regula po iteracji 2: IF SLEEP >= 0.77 AND PARTNERS = {8} AND THORAX >= 33.50 THEN class = {21.19} [12.33, 30.04], (p=13, n=3, P=46, N=41)
+2026-04-14 12:18:40,712 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,722 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,723 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,723 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,723 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,724 - INFO - Iteracja 3: condition_best: SLEEP >= 0.83, quality_best: 0.363, coverage_best: (p=12, n=3, P=46, N=41)
+2026-04-14 12:18:40,725 - INFO - Regula po iteracji 3: IF SLEEP >= 0.77 AND PARTNERS = {8} AND THORAX >= 33.50 AND SLEEP >= 0.83 THEN class = {21.67} [12.72, 30.61], (p=12, n=3, P=46, N=41)
+2026-04-14 12:18:40,725 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,735 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,735 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,735 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,735 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,737 - INFO - Iteracja 4: condition_best: THORAX >= 38.00, quality_best: 0.338, coverage_best: (p=11, n=3, P=46, N=41)
+2026-04-14 12:18:40,737 - INFO - Regula po iteracji 4: IF SLEEP >= 0.77 AND PARTNERS = {8} AND THORAX >= 33.50 AND SLEEP >= 0.83 AND THORAX >= 38.00 THEN class = {21.14} [12.11, 30.17], (p=11, n=3, P=46, N=41)
+2026-04-14 12:18:40,737 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,748 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,748 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,748 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,748 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,748 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,748 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,754 - INFO - Iteracja 0: condition_best: SLEEP >= 0.77, quality_best: 0.173, coverage_best: (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:40,754 - INFO - Regula po iteracji 0: IF SLEEP >= 0.77 THEN class = {22.97} [9.07, 36.87], (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:40,754 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,764 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,764 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,764 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,764 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,769 - INFO - Iteracja 1: condition_best: THORAX <= 96.50, quality_best: 0.183, coverage_best: (p=49, n=13, P=64, N=23)
+2026-04-14 12:18:40,769 - INFO - Regula po iteracji 1: IF SLEEP >= 0.77 AND THORAX <= 96.50 THEN class = {23.05} [9.05, 37.05], (p=49, n=13, P=64, N=23)
+2026-04-14 12:18:40,769 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,779 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,779 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,779 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,779 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,783 - INFO - Iteracja 2: condition_best: THORAX <= 51.50, quality_best: 0.18, coverage_best: (p=13, n=4, P=58, N=29)
+2026-04-14 12:18:40,784 - INFO - Regula po iteracji 2: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 51.50 THEN class = {22.00} [9.96, 34.04], (p=13, n=4, P=58, N=29)
+2026-04-14 12:18:40,784 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,797 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,798 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,798 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,798 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,800 - INFO - Iteracja 3: condition_best: PARTNERS = {1}, quality_best: 0.324, coverage_best: (p=7, n=1, P=61, N=26)
+2026-04-14 12:18:40,800 - INFO - Regula po iteracji 3: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 51.50 AND PARTNERS = {1} THEN class = {22.25} [9.26, 35.24], (p=7, n=1, P=61, N=26)
+2026-04-14 12:18:40,800 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,810 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,811 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,811 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,811 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,812 - INFO - Iteracja 4: condition_best: SLEEP <= 0.86, quality_best: 0.293, coverage_best: (p=4, n=1, P=49, N=38)
+2026-04-14 12:18:40,812 - INFO - Regula po iteracji 4: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 51.50 AND PARTNERS = {1} AND SLEEP <= 0.86 THEN class = {19.00} [9.75, 28.25], (p=4, n=1, P=49, N=38)
+2026-04-14 12:18:40,813 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,823 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,823 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,823 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,823 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,823 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,824 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,829 - INFO - Iteracja 0: condition_best: SLEEP >= 0.77, quality_best: 0.173, coverage_best: (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:40,829 - INFO - Regula po iteracji 0: IF SLEEP >= 0.77 THEN class = {22.97} [9.07, 36.87], (p=49, n=14, P=63, N=24)
+2026-04-14 12:18:40,829 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,839 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,840 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,840 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,840 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,844 - INFO - Iteracja 1: condition_best: THORAX <= 96.50, quality_best: 0.183, coverage_best: (p=49, n=13, P=64, N=23)
+2026-04-14 12:18:40,844 - INFO - Regula po iteracji 1: IF SLEEP >= 0.77 AND THORAX <= 96.50 THEN class = {23.05} [9.05, 37.05], (p=49, n=13, P=64, N=23)
+2026-04-14 12:18:40,844 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,854 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,854 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,855 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,855 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,859 - INFO - Iteracja 2: condition_best: THORAX <= 55.00, quality_best: 0.179, coverage_best: (p=18, n=4, P=65, N=22)
+2026-04-14 12:18:40,859 - INFO - Regula po iteracji 2: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 55.00 THEN class = {25.23} [9.55, 40.90], (p=18, n=4, P=65, N=22)
+2026-04-14 12:18:40,859 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,869 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,870 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,870 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,870 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,872 - INFO - Iteracja 3: condition_best: THORAX >= 28.00, quality_best: 0.156, coverage_best: (p=17, n=4, P=65, N=22)
+2026-04-14 12:18:40,872 - INFO - Regula po iteracji 3: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 55.00 AND THORAX >= 28.00 THEN class = {25.48} [9.48, 41.48], (p=17, n=4, P=65, N=22)
+2026-04-14 12:18:40,872 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,883 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,883 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,883 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,883 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,885 - INFO - Iteracja 4: condition_best: SLEEP <= 0.89, quality_best: 0.118, coverage_best: (p=15, n=3, P=69, N=18)
+2026-04-14 12:18:40,885 - INFO - Regula po iteracji 4: IF SLEEP >= 0.77 AND THORAX <= 96.50 AND THORAX <= 55.00 AND THORAX >= 28.00 AND SLEEP <= 0.89 THEN class = {24.83} [8.67, 41.00], (p=15, n=3, P=69, N=18)
+2026-04-14 12:18:40,886 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,896 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,896 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,896 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,896 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,896 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,897 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,902 - INFO - Iteracja 0: condition_best: THORAX <= 45.00, quality_best: 0.156, coverage_best: (p=17, n=4, P=65, N=22)
+2026-04-14 12:18:40,902 - INFO - Regula po iteracji 0: IF THORAX <= 45.00 THEN class = {25.24} [9.24, 41.23], (p=17, n=4, P=65, N=22)
+2026-04-14 12:18:40,902 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,912 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,912 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,912 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,913 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,915 - INFO - Iteracja 1: condition_best: THORAX >= 20.00, quality_best: 0.234, coverage_best: (p=16, n=3, P=65, N=22)
+2026-04-14 12:18:40,915 - INFO - Regula po iteracji 1: IF THORAX <= 45.00 AND THORAX >= 20.00 THEN class = {25.89} [9.94, 41.85], (p=16, n=3, P=65, N=22)
+2026-04-14 12:18:40,915 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,925 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,926 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,926 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,926 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,928 - INFO - Iteracja 2: condition_best: THORAX >= 23.50, quality_best: 0.21, coverage_best: (p=15, n=3, P=65, N=22)
+2026-04-14 12:18:40,928 - INFO - Regula po iteracji 2: IF THORAX <= 45.00 AND THORAX >= 20.00 AND THORAX >= 23.50 THEN class = {26.06} [9.68, 42.43], (p=15, n=3, P=65, N=22)
+2026-04-14 12:18:40,928 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,939 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,939 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,939 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,939 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,941 - INFO - Iteracja 3: condition_best: SLEEP <= 0.82, quality_best: 0.211, coverage_best: (p=13, n=2, P=69, N=18)
+2026-04-14 12:18:40,941 - INFO - Regula po iteracji 3: IF THORAX <= 45.00 AND THORAX >= 20.00 AND THORAX >= 23.50 AND SLEEP <= 0.82 THEN class = {26.33} [8.67, 44.00], (p=13, n=2, P=69, N=18)
+2026-04-14 12:18:40,942 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,952 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,952 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,952 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,952 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,954 - INFO - Iteracja 4: condition_best: THORAX >= 28.00, quality_best: 0.182, coverage_best: (p=12, n=2, P=69, N=18)
+2026-04-14 12:18:40,954 - INFO - Regula po iteracji 4: IF THORAX <= 45.00 AND THORAX >= 20.00 AND THORAX >= 23.50 AND SLEEP <= 0.82 AND THORAX >= 28.00 THEN class = {26.79} [8.59, 44.98], (p=12, n=2, P=69, N=18)
+2026-04-14 12:18:40,954 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,965 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,965 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,965 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,965 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,965 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:40,965 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:40,971 - INFO - Iteracja 0: condition_best: SLEEP >= 0.70, quality_best: 0.079, coverage_best: (p=64, n=15, P=69, N=18)
+2026-04-14 12:18:40,971 - INFO - Regula po iteracji 0: IF SLEEP >= 0.70 THEN class = {23.39} [7.23, 39.55], (p=64, n=15, P=69, N=18)
+2026-04-14 12:18:40,971 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,981 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,981 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,981 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,981 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:40,986 - INFO - Iteracja 1: condition_best: SLEEP <= 0.86, quality_best: 0.143, coverage_best: (p=43, n=6, P=74, N=13)
+2026-04-14 12:18:40,986 - INFO - Regula po iteracji 1: IF SLEEP >= 0.70 AND SLEEP <= 0.86 THEN class = {21.57} [4.38, 38.77], (p=43, n=6, P=74, N=13)
+2026-04-14 12:18:40,986 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:40,996 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:40,997 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:40,997 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:40,997 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:41,001 - INFO - Iteracja 2: condition_best: THORAX >= 39.50, quality_best: 0.231, coverage_best: (p=35, n=4, P=74, N=13)
+2026-04-14 12:18:41,001 - INFO - Regula po iteracji 2: IF SLEEP >= 0.70 AND SLEEP <= 0.86 AND THORAX >= 39.50 THEN class = {19.26} [3.35, 35.16], (p=35, n=4, P=74, N=13)
+2026-04-14 12:18:41,001 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:41,011 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:41,011 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:41,011 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:41,011 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:41,014 - INFO - Iteracja 3: condition_best: THORAX <= 93.00, quality_best: 0.216, coverage_best: (p=34, n=4, P=74, N=13)
+2026-04-14 12:18:41,014 - INFO - Regula po iteracji 3: IF SLEEP >= 0.70 AND SLEEP <= 0.86 AND THORAX >= 39.50 AND THORAX <= 93.00 THEN class = {19.29} [3.18, 35.40], (p=34, n=4, P=74, N=13)
+2026-04-14 12:18:41,015 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:41,025 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:41,025 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:41,025 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:41,025 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:41,028 - INFO - Iteracja 4: condition_best: THORAX >= 44.00, quality_best: 0.241, coverage_best: (p=31, n=4, P=72, N=15)
+2026-04-14 12:18:41,028 - INFO - Regula po iteracji 4: IF SLEEP >= 0.70 AND SLEEP <= 0.86 AND THORAX >= 39.50 AND THORAX <= 93.00 AND THORAX >= 44.00 THEN class = {18.46} [1.95, 34.97], (p=31, n=4, P=72, N=15)
+2026-04-14 12:18:41,028 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:41,039 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:41,039 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:41,039 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:41,039 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:41,039 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:41,039 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:18:41,045 - INFO - Iteracja 0: condition_best: THORAX <= 17.50, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:41,045 - INFO - Regula po iteracji 0: IF THORAX <= 17.50 THEN class = {34.00} [34.00, 34.00], (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:41,045 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:41,055 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:41,055 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:41,055 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:41,055 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:41,056 - INFO - Iteracja 1: condition_best: PARTNERS = {8}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:41,056 - INFO - Regula po iteracji 1: IF THORAX <= 17.50 AND PARTNERS = {8} THEN class = {34.00} [34.00, 34.00], (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:41,056 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:41,066 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:41,066 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:41,067 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:41,067 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:41,067 - INFO - Iteracja 2: condition_best: TYPE = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:41,067 - INFO - Regula po iteracji 2: IF THORAX <= 17.50 AND PARTNERS = {8} AND TYPE = {1} THEN class = {34.00} [34.00, 34.00], (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:41,067 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:18:41,078 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:18:41,078 - INFO - Regula po iteracji 0: IF  THEN class = {23.13} [7.09, 39.17], (p=69, n=18, P=69, N=18)
+2026-04-14 12:18:41,078 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:18:41,078 - INFO - ***RR NOT FOUND***
+2026-04-14 12:18:41,078 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:18:41,078 - INFO - Regula po iteracji 3: IF THORAX <= 17.50 AND PARTNERS = {8} AND TYPE = {1} THEN class = {34.00} [34.00, 34.00], (p=1, n=0, P=1, N=86)
+2026-04-14 12:18:41,078 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:18:41,088 - INFO - ************************Finished experiment for fruitfly.arff with algorithm_rer_with_exceptions************************
+2026-04-14 12:18:41,088 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:41,088 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:41,088 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:41,089 - INFO - **********Starting experiment for fruitfly.arff with decision_tree**********
+2026-04-14 12:18:41,106 - INFO - ************************Finished experiment for fruitfly.arff with decision_tree************************
+2026-04-14 12:18:41,106 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:41,106 - INFO - *************************************************************************************************************************
+2026-04-14 12:18:41,106 - INFO - *************************************************************************************************************************

@@ -1,0 +1,22 @@
+
+CR 0: IF NONW >= 14.20 AND PREC <= 53.50 AND JANT <= 50.50 AND PREC >= 32.00 AND EDUC >= 10.15 THEN class = {985.29} [939.55, 1,031.03] (p=10, n=1, P=29, N=31)
+
+CR 1: IF NONW >= 14.20 AND PREC <= 53.50 AND JANT <= 50.50 AND OVR65 >= 6.15 AND OVR65 >= 6.35 THEN class = {990.14} [941.67, 1,038.62] (p=12, n=2, P=28, N=32)
+
+CR 2: IF PREC <= 29.00 AND JULT >= 65.50 AND PREC <= 26.50 THEN class = {844.33} [815.59, 873.07] (p=4, n=1, P=9, N=51)
+
+CR 3: IF NOX <= 3.50 AND EDUC >= 10.65 AND PREC <= 45.50 AND JANT <= 45.50 THEN class = {873.99} [847.55, 900.44] (p=4, n=1, P=13, N=47)
+
+CR 4: IF NONW >= 12.80 AND POPN >= 3.09 AND DENS <= 6,281.50 AND JULT <= 83.00 AND OVR65 <= 9.25 THEN class = {993.83} [954.68, 1,032.97] (p=16, n=2, P=23, N=37)
+
+CR 5: IF POPN <= 3.05 AND PREC >= 14.50 THEN class = {912.21} [867.77, 956.65] (p=3, n=2, P=27, N=33)
+
+CR 6: IF NONW <= 5.20 THEN class = {903.41} [854.80, 952.01] (p=13, n=4, P=28, N=32)
+RR 6: IF POOR <= 11.00 THEN class = {913.42} [846.71, 980.14] (p=7, n=3, P=40, N=20)
+ER 6: IF NONW <= 5.20 AND POOR <= 11.00 THEN class = {840.88} [804.77, 876.98] (p=2, n=1, P=10, N=50)
+
+CR 7: IF HOUS <= 79.85 AND HOUS >= 71.05 AND JULT >= 70.50 AND OVR65 <= 11.20 AND JANT >= 23.50 THEN class = {959.50} [908.74, 1,010.25] (p=17, n=2, P=35, N=25)
+
+CR 8: IF NONW <= 9.15 THEN class = {905.15} [855.53, 954.76] (p=21, n=8, P=31, N=29)
+RR 8: IF JANT >= 39.50 THEN class = {934.44} [852.57, 1,016.32] (p=11, n=5, P=50, N=10)
+ER 8: IF NONW <= 9.15 AND JANT >= 39.50 THEN class = {847.88} [808.62, 887.15] (p=2, n=2, P=10, N=50)

@@ -71,9 +71,6 @@ class MyRuleRegressor():
                 carry_on = self._grow(rule, self.X_numpy, self.y_numpy, uncovered)
 
                 if (carry_on):
-                    if(self.prune):
-                        self._prune(rule)
-
                     previously_uncovered = len(uncovered)
                     
                     positive_covered_indices = np.where(rule.positive_covered_mask(self.X_numpy, self.y_numpy) == 1)[0]
@@ -105,6 +102,7 @@ class MyRuleRegressor():
             self.logger.info("*******GROWING CR RULE*******")
         i = 0
         while(carry_on):
+
             condition_best, quality_best, coverage_best = self._induce_condition(rule, X, y, uncovered)
             
             if condition_best is not None:
@@ -135,8 +133,6 @@ class MyRuleRegressor():
             self.logger.info("*******STOP GROWING CR RULE*******")
 
         if len(rule.premise.subconditions) > 0:
-            maks_quality_index = np.argmax(rule_qualities)
-            rule.premise.subconditions = rule.premise.subconditions[:maks_quality_index+1]
             return True
         else:
             return False
@@ -146,8 +142,8 @@ class MyRuleRegressor():
     def _search_exceptions(self, rule, X, y):
 
 
-        cr_covered = np.where(rule.positive_covered_mask(X, y) == 1)[0]
-        cr_uncovered = np.where(rule.positive_covered_mask(X, y) == 0)[0]
+        cr_covered = np.where(rule.premise._calculate_covered_mask(X) == 1)[0]
+        cr_uncovered = np.where(rule.premise._calculate_uncovered_mask(X) == 1)[0]
 
 
         reference_rule = self._rule_factory(self.columns_names, self.label_name, self.X_numpy, self.y_numpy)
@@ -163,55 +159,49 @@ class MyRuleRegressor():
             if self.if_logging:
                 self.logger.info("***RR FOUND***")
                 self.logger.info(f"Reference rule: {reference_rule}")
-            found_exception = self._check_exception_candidate(X, y, rule, reference_rule)
-            if found_exception:
-                return True
-            else:
-                return False
+            self._update_exception_candidate(X, y, rule, reference_rule)
+            return True
         else:
             if self.if_logging:
                 self.logger.info("***RR NOT FOUND***")
             return False
     
-    def _check_exception_candidate(self, X, y, comonsense_rules, reference_rule) -> bool:
-            
+    def _update_exception_candidate(self, X, y, comonsense_rules, reference_rule) -> bool:
+           
             if self.if_logging:
                 self.logger.info("***CHECKING EXCEPTION***")
-            
+           
             exception_rule = self._rule_factory(self.columns_names, self.label_name, self.X_numpy, self.y_numpy)
             exception_rule.premise.subconditions.extend(comonsense_rules.premise.subconditions)
             exception_rule.premise.subconditions.extend(reference_rule.premise.subconditions)
-
+ 
             exception_rule.calculate_coverage(X, y)
+ 
+            comonsense_rules.reference_rule = reference_rule  
+            comonsense_rules.exception_rule = exception_rule
+            triple_ruleset = RegressionRuleSet(rules = [comonsense_rules,exception_rule,reference_rule])
+            triple_ruleset.update(self.X_pandas,self.y_pandas, measure=self.measure_function)
+
+    def _check_exception_candidate(self, X, y, cr_covered, rr_covered, er_covered) -> bool:
+        
+        cr_filtered = cr_covered[~np.isin(cr_covered, er_covered)]
+        rr_filtered = rr_covered[~np.isin(rr_covered, er_covered)]
+
+        y_cr = y[cr_filtered]
+        y_rr = y[rr_filtered]
+        y_er = y[er_covered]
+
+        cr_rr_p_value = self.calculate_p_value(y_cr, y_rr)
+        er_rr_p_value = self.calculate_p_value(y_er, y_rr)
+        er_cr_p_value = self.calculate_p_value(y_er, y_cr)
 
 
-            er_covered = np.where(exception_rule.premise._calculate_covered_mask(X,) == 1)[0]
-            cr_covered = np.where(comonsense_rules.premise._calculate_covered_mask(X) == 1)[0]
-            rr_covered = np.where(reference_rule.premise._calculate_covered_mask(X) == 1)[0]
+        if cr_rr_p_value > 0.05 and er_cr_p_value <= 0.05 and er_rr_p_value <= 0.05:
+            return True
+        else:
+            return False
 
-            cr_rr_p_value = self.calculate_p_value(y[cr_covered], y[rr_covered])
-            rr_er_p_value = self.calculate_p_value(y[rr_covered], y[er_covered])
-            cr_er_p_value = self.calculate_p_value(y[cr_covered], y[er_covered])
-
-
-            if self.if_logging:
-                self.logger.info(f"CR vs RR p_value: {cr_rr_p_value}")
-                self.logger.info(f"ER vs CR p_value: {cr_er_p_value}")
-                self.logger.info(f"ER vs RR p_value: {rr_er_p_value}")
-                                 
-            if (cr_er_p_value <= 0.05) and (rr_er_p_value <= 0.05):
-                comonsense_rules.reference_rule = reference_rule   
-                comonsense_rules.exception_rule = exception_rule
-                triple_ruleset = RegressionRuleSet(rules = [comonsense_rules,exception_rule,reference_rule])
-                triple_ruleset.update(self.X_pandas,self.y_pandas, measure=self.measure_function)
-                if self.if_logging:
-                    self.logger.info("***ER FOUND***")
-                    self.logger.info(f"Exception rule: {exception_rule}")
-                return True
-            else:
-                if self.if_logging:
-                    self.logger.info("***ER NOT FOUND***")
-                return False 
+       
 
     def _grow_reference_rule(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray,uncovered, cr_covered) -> AbstractRule:
         carry_on = True
@@ -256,8 +246,6 @@ class MyRuleRegressor():
             self.logger.info("*****STOP GROWING RR RULE*****")
         
         if len(rule.premise.subconditions) > 0:
-            maks_quality_index = np.argmax(rule_qualities)
-            rule.premise.subconditions = rule.premise.subconditions[:maks_quality_index+1]
             return True
         else:
             return False
@@ -283,6 +271,8 @@ class MyRuleRegressor():
             possible_conditions_filtered = list(filter(lambda i: i not in rule.premise.subconditions, possible_conditions))
             if len(possible_conditions_filtered) != 0:
                 for condition in possible_conditions_filtered:
+
+                    candidate = False
                            
                     condition_str = condition.__hash__()
                     if condition_str in self.conditions_coverage_cache:
@@ -331,16 +321,19 @@ class MyRuleRegressor():
                     else:
                         candidate = False
 
+                    
                     quality, coverage = self._calculate_quality_using_covered(X, y, rule_with_condition_covered_mask)
-                    score = quality
-                    scores.append(score)
+
+                    score = len(er_covered)
 
 
-                    if (score > best_score) and len(er_covered) > 0 and candidate:
-                        if self._check_candidate(new_covered_examples, rr_uncovered):
+
+                    if (score > best_score) and candidate:
+                        if self._check_candidate(new_covered_examples, rr_uncovered) and self._check_exception_candidate(X, y, cr_covered, rr_covered, er_covered):
                             condition_best = condition
                             quality_best = quality
                             coverage_best = coverage
+
 
                             best_score = score
     

@@ -1,0 +1,89 @@
+2026-04-14 12:22:02,921 - INFO - **********Starting experiment for longley.arff with algorithm_rulekit**********
+2026-04-14 12:22:02,935 - INFO - ************************Finished experiment for longley.arff with algorithm_rulekit************************
+2026-04-14 12:22:02,935 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:02,936 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:02,936 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:02,936 - INFO - **********Starting experiment for longley.arff with algorithm_rer**********
+2026-04-14 12:22:02,938 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:22:02,945 - INFO - Iteracja 0: condition_best: deflator >= 100.60, quality_best: 0.476, coverage_best: (p=4, n=2, P=4, N=7)
+2026-04-14 12:22:02,945 - INFO - Regula po iteracji 0: IF deflator >= 100.60 THEN class = {67,960.67} [66,482.39, 69,438.95], (p=4, n=2, P=4, N=7)
+2026-04-14 12:22:02,948 - INFO - Iteracja 1: condition_best: deflator <= 114.75, quality_best: 0.45, coverage_best: (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:02,948 - INFO - Regula po iteracji 1: IF deflator >= 100.60 AND deflator <= 114.75 THEN class = {67,442.60} [66,436.61, 68,448.59], (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:02,950 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:22:02,951 - INFO - Regula po iteracji 2: IF deflator >= 100.60 AND deflator <= 114.75 THEN class = {67,442.60} [66,436.61, 68,448.59], (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:02,951 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:22:02,951 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:22:02,956 - INFO - Iteracja 0: condition_best: deflator <= 100.60, quality_best: 0.45, coverage_best: (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:02,956 - INFO - Regula po iteracji 0: IF deflator <= 100.60 THEN class = {62,665.80} [60,915.61, 64,415.99], (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:02,958 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:22:02,958 - INFO - Regula po iteracji 1: IF deflator <= 100.60 THEN class = {62,665.80} [60,915.61, 64,415.99], (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:02,958 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:22:02,959 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:22:02,964 - INFO - Iteracja 0: condition_best: deflator <= 92.85, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=9)
+2026-04-14 12:22:02,964 - INFO - Regula po iteracji 0: IF deflator <= 92.85 THEN class = {60,679.00} [60,171.00, 61,187.00], (p=2, n=0, P=2, N=9)
+2026-04-14 12:22:02,964 - INFO - Iteracja 1: condition_best: deflator <= 88.85, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=10)
+2026-04-14 12:22:02,965 - INFO - Regula po iteracji 1: IF deflator <= 92.85 AND deflator <= 88.85 THEN class = {60,171.00} [60,171.00, 60,171.00], (p=1, n=0, P=1, N=10)
+2026-04-14 12:22:02,965 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:22:02,965 - INFO - Regula po iteracji 2: IF deflator <= 92.85 AND deflator <= 88.85 THEN class = {60,171.00} [60,171.00, 60,171.00], (p=1, n=0, P=1, N=10)
+2026-04-14 12:22:02,965 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:22:02,969 - INFO - ************************Finished experiment for longley.arff with algorithm_rer************************
+2026-04-14 12:22:02,969 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:02,969 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:02,969 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:02,969 - INFO - **********Starting experiment for longley.arff with algorithm_rer_with_exceptions**********
+2026-04-14 12:22:02,971 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:22:02,978 - INFO - Iteracja 0: condition_best: deflator >= 100.60, quality_best: 0.476, coverage_best: (p=4, n=2, P=4, N=7)
+2026-04-14 12:22:02,978 - INFO - Regula po iteracji 0: IF deflator >= 100.60 THEN class = {67,960.67} [66,482.39, 69,438.95], (p=4, n=2, P=4, N=7)
+2026-04-14 12:22:02,978 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:22:02,988 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:22:02,988 - INFO - Regula po iteracji 0: IF  THEN class = {65,553.91} [62,465.98, 68,641.84], (p=7, n=4, P=7, N=4)
+2026-04-14 12:22:02,988 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:22:02,988 - INFO - ***RR NOT FOUND***
+2026-04-14 12:22:02,991 - INFO - Iteracja 1: condition_best: deflator <= 114.75, quality_best: 0.45, coverage_best: (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:02,991 - INFO - Regula po iteracji 1: IF deflator >= 100.60 AND deflator <= 114.75 THEN class = {67,442.60} [66,436.61, 68,448.59], (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:02,992 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:22:03,001 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:22:03,002 - INFO - Regula po iteracji 0: IF  THEN class = {65,553.91} [62,465.98, 68,641.84], (p=7, n=4, P=7, N=4)
+2026-04-14 12:22:03,002 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:22:03,002 - INFO - ***RR NOT FOUND***
+2026-04-14 12:22:03,004 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:22:03,004 - INFO - Regula po iteracji 2: IF deflator >= 100.60 AND deflator <= 114.75 THEN class = {67,442.60} [66,436.61, 68,448.59], (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:03,004 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:22:03,004 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:22:03,010 - INFO - Iteracja 0: condition_best: deflator <= 100.60, quality_best: 0.45, coverage_best: (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:03,010 - INFO - Regula po iteracji 0: IF deflator <= 100.60 THEN class = {62,665.80} [60,915.61, 64,415.99], (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:03,010 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:22:03,020 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:22:03,020 - INFO - Regula po iteracji 0: IF  THEN class = {65,553.91} [62,465.98, 68,641.84], (p=7, n=4, P=7, N=4)
+2026-04-14 12:22:03,020 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:22:03,020 - INFO - ***RR NOT FOUND***
+2026-04-14 12:22:03,022 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:22:03,022 - INFO - Regula po iteracji 1: IF deflator <= 100.60 THEN class = {62,665.80} [60,915.61, 64,415.99], (p=3, n=2, P=3, N=8)
+2026-04-14 12:22:03,022 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:22:03,022 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:22:03,027 - INFO - Iteracja 0: condition_best: deflator <= 92.85, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=9)
+2026-04-14 12:22:03,028 - INFO - Regula po iteracji 0: IF deflator <= 92.85 THEN class = {60,679.00} [60,171.00, 61,187.00], (p=2, n=0, P=2, N=9)
+2026-04-14 12:22:03,028 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:22:03,038 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:22:03,038 - INFO - Regula po iteracji 0: IF  THEN class = {65,553.91} [62,465.98, 68,641.84], (p=7, n=4, P=7, N=4)
+2026-04-14 12:22:03,038 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:22:03,038 - INFO - ***RR NOT FOUND***
+2026-04-14 12:22:03,039 - INFO - Iteracja 1: condition_best: deflator <= 88.85, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=10)
+2026-04-14 12:22:03,039 - INFO - Regula po iteracji 1: IF deflator <= 92.85 AND deflator <= 88.85 THEN class = {60,171.00} [60,171.00, 60,171.00], (p=1, n=0, P=1, N=10)
+2026-04-14 12:22:03,039 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:22:03,049 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:22:03,049 - INFO - Regula po iteracji 0: IF  THEN class = {65,553.91} [62,465.98, 68,641.84], (p=7, n=4, P=7, N=4)
+2026-04-14 12:22:03,049 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:22:03,049 - INFO - ***RR NOT FOUND***
+2026-04-14 12:22:03,050 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:22:03,050 - INFO - Regula po iteracji 2: IF deflator <= 92.85 AND deflator <= 88.85 THEN class = {60,171.00} [60,171.00, 60,171.00], (p=1, n=0, P=1, N=10)
+2026-04-14 12:22:03,050 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:22:03,053 - INFO - ************************Finished experiment for longley.arff with algorithm_rer_with_exceptions************************
+2026-04-14 12:22:03,053 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:03,053 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:03,053 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:03,054 - INFO - **********Starting experiment for longley.arff with decision_tree**********
+2026-04-14 12:22:03,068 - INFO - ************************Finished experiment for longley.arff with decision_tree************************
+2026-04-14 12:22:03,068 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:03,068 - INFO - *************************************************************************************************************************
+2026-04-14 12:22:03,068 - INFO - *************************************************************************************************************************

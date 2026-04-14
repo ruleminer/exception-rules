@@ -1,0 +1,30 @@
+
+CR 0: IF THORAX >= 85.00 THEN class = {22.60} [15.80, 29.40] (p=4, n=1, P=36, N=51)
+
+CR 1: IF THORAX >= 62.00 AND SLEEP >= 0.83 AND SLEEP < 0.89 AND THORAX < 74.00 THEN class = {19.46} [11.84, 27.08] (p=11, n=2, P=41, N=46)
+
+CR 2: IF THORAX >= 62.00 AND SLEEP >= 0.83 AND SLEEP < 0.89 THEN class = {19.10} [11.81, 26.38] (p=16, n=5, P=38, N=49)
+
+CR 3: IF THORAX >= 62.00 AND SLEEP < 0.93 AND SLEEP >= 0.83 AND THORAX < 91.00 THEN class = {21.50} [9.26, 33.74] (p=22, n=4, P=57, N=30)
+
+CR 4: IF THORAX >= 62.00 AND THORAX < 91.00 THEN class = {22.90} [6.76, 39.05] (p=28, n=3, P=71, N=16)
+
+CR 5: IF SLEEP >= 0.89 AND THORAX < 73.50 THEN class = {32.00} [14.08, 49.92] (p=7, n=1, P=55, N=32)
+
+CR 6: IF THORAX < 33.50 AND THORAX >= 20.00 THEN class = {25.88} [19.68, 32.07] (p=6, n=2, P=31, N=56)
+
+CR 7: IF THORAX >= 58.50 AND SLEEP < 0.89 AND THORAX < 71.50 THEN class = {20.10} [4.33, 35.87] (p=19, n=1, P=71, N=16)
+
+CR 8: IF THORAX >= 55.00 AND SLEEP < 0.89 AND THORAX < 62.00 THEN class = {18.50} [4.87, 32.13] (p=9, n=1, P=66, N=21)
+
+CR 9: IF THORAX < 39.50 THEN class = {26.86} [8.64, 45.08] (p=12, n=2, P=69, N=18)
+
+CR 10: IF SLEEP >= 0.77 AND PARTNERS = {8} AND THORAX >= 33.50 THEN class = {21.19} [12.33, 30.04] (p=13, n=3, P=46, N=41)
+
+CR 11: IF SLEEP >= 0.77 AND THORAX < 51.50 AND PARTNERS = {1} THEN class = {22.25} [9.26, 35.24] (p=7, n=1, P=61, N=26)
+
+CR 12: IF SLEEP >= 0.73 THEN class = {24.03} [7.58, 40.47] (p=61, n=12, P=70, N=17)
+
+CR 13: IF SLEEP < 0.73 AND THORAX < 48.00 AND THORAX >= 35.00 THEN class = {11.14} [3.71, 18.58] (p=5, n=2, P=37, N=50)
+
+CR 14: IF THORAX >= 48.50 AND THORAX < 49.50 THEN class = {49.00} [49.00, 49.00] (p=1, n=0, P=2, N=85)

@@ -1,0 +1,807 @@
+2026-04-14 12:04:13,481 - INFO - **********Starting experiment for ele-1.arff with algorithm_rulekit**********
+2026-04-14 12:04:13,617 - INFO - ************************Finished experiment for ele-1.arff with algorithm_rulekit************************
+2026-04-14 12:04:13,617 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:13,617 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:13,617 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:13,617 - INFO - **********Starting experiment for ele-1.arff with algorithm_rer**********
+2026-04-14 12:04:13,623 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:13,678 - INFO - Iteracja 0: condition_best: Distance <= 118.33, quality_best: 0.747, coverage_best: (p=6, n=1, P=8, N=338)
+2026-04-14 12:04:13,678 - INFO - Regula po iteracji 0: IF Distance <= 118.33 THEN class = {140.43} [79.02, 201.84], (p=6, n=1, P=8, N=338)
+2026-04-14 12:04:13,680 - INFO - Iteracja 1: condition_best: Distance <= 115.83, quality_best: 0.674, coverage_best: (p=5, n=1, P=8, N=338)
+2026-04-14 12:04:13,680 - INFO - Regula po iteracji 1: IF Distance <= 118.33 AND Distance <= 115.83 THEN class = {134.50} [70.05, 198.95], (p=5, n=1, P=8, N=338)
+2026-04-14 12:04:13,681 - INFO - Iteracja 2: condition_best: Distance <= 114.17, quality_best: 0.596, coverage_best: (p=4, n=1, P=8, N=338)
+2026-04-14 12:04:13,681 - INFO - Regula po iteracji 2: IF Distance <= 118.33 AND Distance <= 115.83 AND Distance <= 114.17 THEN class = {136.20} [65.72, 206.68], (p=4, n=1, P=8, N=338)
+2026-04-14 12:04:13,682 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:13,682 - INFO - Regula po iteracji 3: IF Distance <= 118.33 AND Distance <= 115.83 AND Distance <= 114.17 THEN class = {136.20} [65.72, 206.68], (p=4, n=1, P=8, N=338)
+2026-04-14 12:04:13,682 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:13,685 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:13,729 - INFO - Iteracja 0: condition_best: Distance <= 131.67, quality_best: 0.685, coverage_best: (p=8, n=2, P=11, N=335)
+2026-04-14 12:04:13,729 - INFO - Regula po iteracji 0: IF Distance <= 131.67 THEN class = {210.30} [73.54, 347.06], (p=8, n=2, P=11, N=335)
+2026-04-14 12:04:13,731 - INFO - Iteracja 1: condition_best: Inhabitants <= 19.50, quality_best: 0.63, coverage_best: (p=7, n=2, P=11, N=335)
+2026-04-14 12:04:13,731 - INFO - Regula po iteracji 1: IF Distance <= 131.67 AND Inhabitants <= 19.50 THEN class = {203.56} [60.98, 346.13], (p=7, n=2, P=11, N=335)
+2026-04-14 12:04:13,733 - INFO - Iteracja 2: condition_best: Distance >= 70.00, quality_best: 0.517, coverage_best: (p=6, n=2, P=15, N=331)
+2026-04-14 12:04:13,733 - INFO - Regula po iteracji 2: IF Distance <= 131.67 AND Inhabitants <= 19.50 AND Distance >= 70.00 THEN class = {214.25} [66.47, 362.03], (p=6, n=2, P=15, N=331)
+2026-04-14 12:04:13,734 - INFO - Iteracja 3: condition_best: Distance >= 95.00, quality_best: 0.407, coverage_best: (p=4, n=2, P=16, N=330)
+2026-04-14 12:04:13,734 - INFO - Regula po iteracji 3: IF Distance <= 131.67 AND Inhabitants <= 19.50 AND Distance >= 70.00 AND Distance >= 95.00 THEN class = {250.33} [96.43, 404.24], (p=4, n=2, P=16, N=330)
+2026-04-14 12:04:13,735 - INFO - Iteracja 4: condition_best: Distance >= 110.00, quality_best: 0.349, coverage_best: (p=3, n=2, P=15, N=331)
+2026-04-14 12:04:13,735 - INFO - Regula po iteracji 4: IF Distance <= 131.67 AND Inhabitants <= 19.50 AND Distance >= 70.00 AND Distance >= 95.00 AND Distance >= 110.00 THEN class = {284.40} [137.91, 430.89], (p=3, n=2, P=15, N=331)
+2026-04-14 12:04:13,735 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:13,738 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:13,782 - INFO - Iteracja 0: condition_best: Distance <= 153.33, quality_best: 0.682, coverage_best: (p=13, n=2, P=22, N=324)
+2026-04-14 12:04:13,783 - INFO - Regula po iteracji 0: IF Distance <= 153.33 THEN class = {266.07} [71.09, 461.04], (p=13, n=2, P=22, N=324)
+2026-04-14 12:04:13,785 - INFO - Iteracja 1: condition_best: Distance >= 70.00, quality_best: 0.635, coverage_best: (p=12, n=2, P=24, N=322)
+2026-04-14 12:04:13,785 - INFO - Regula po iteracji 1: IF Distance <= 153.33 AND Distance >= 70.00 THEN class = {276.64} [79.03, 474.26], (p=12, n=2, P=24, N=322)
+2026-04-14 12:04:13,787 - INFO - Iteracja 2: condition_best: Distance >= 109.17, quality_best: 0.521, coverage_best: (p=9, n=2, P=30, N=316)
+2026-04-14 12:04:13,787 - INFO - Regula po iteracji 2: IF Distance <= 153.33 AND Distance >= 70.00 AND Distance >= 109.17 THEN class = {325.55} [129.64, 521.45], (p=9, n=2, P=30, N=316)
+2026-04-14 12:04:13,788 - INFO - Iteracja 3: condition_best: Distance >= 114.17, quality_best: 0.487, coverage_best: (p=8, n=2, P=32, N=314)
+2026-04-14 12:04:13,788 - INFO - Regula po iteracji 3: IF Distance <= 153.33 AND Distance >= 70.00 AND Distance >= 109.17 AND Distance >= 114.17 THEN class = {331.00} [126.33, 535.67], (p=8, n=2, P=32, N=314)
+2026-04-14 12:04:13,790 - INFO - Iteracja 4: condition_best: Distance >= 115.83, quality_best: 0.463, coverage_best: (p=7, n=2, P=31, N=315)
+2026-04-14 12:04:13,790 - INFO - Regula po iteracji 4: IF Distance <= 153.33 AND Distance >= 70.00 AND Distance >= 109.17 AND Distance >= 114.17 AND Distance >= 115.83 THEN class = {353.78} [150.42, 557.14], (p=7, n=2, P=31, N=315)
+2026-04-14 12:04:13,790 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:13,793 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:13,837 - INFO - Iteracja 0: condition_best: Distance <= 319.16, quality_best: 0.561, coverage_best: (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:13,837 - INFO - Regula po iteracji 0: IF Distance <= 319.16 THEN class = {694.24} [318.28, 1,070.20], (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:13,848 - INFO - Iteracja 1: condition_best: Inhabitants <= 9.50, quality_best: 0.627, coverage_best: (p=16, n=2, P=37, N=309)
+2026-04-14 12:04:13,848 - INFO - Regula po iteracji 1: IF Distance <= 319.16 AND Inhabitants <= 9.50 THEN class = {321.39} [76.04, 566.74], (p=16, n=2, P=37, N=309)
+2026-04-14 12:04:13,851 - INFO - Iteracja 2: condition_best: Distance <= 290.84, quality_best: 0.707, coverage_best: (p=15, n=1, P=29, N=317)
+2026-04-14 12:04:13,851 - INFO - Regula po iteracji 2: IF Distance <= 319.16 AND Inhabitants <= 9.50 AND Distance <= 290.84 THEN class = {279.38} [61.04, 497.71], (p=15, n=1, P=29, N=317)
+2026-04-14 12:04:13,853 - INFO - Iteracja 3: condition_best: Distance >= 70.00, quality_best: 0.666, coverage_best: (p=14, n=1, P=32, N=314)
+2026-04-14 12:04:13,853 - INFO - Regula po iteracji 3: IF Distance <= 319.16 AND Inhabitants <= 9.50 AND Distance <= 290.84 AND Distance >= 70.00 THEN class = {290.13} [68.78, 511.49], (p=14, n=1, P=32, N=314)
+2026-04-14 12:04:13,856 - INFO - Iteracja 4: condition_best: Distance >= 110.00, quality_best: 0.596, coverage_best: (p=11, n=1, P=35, N=311)
+2026-04-14 12:04:13,856 - INFO - Regula po iteracji 4: IF Distance <= 319.16 AND Inhabitants <= 9.50 AND Distance <= 290.84 AND Distance >= 70.00 AND Distance >= 110.00 THEN class = {338.33} [115.89, 560.78], (p=11, n=1, P=35, N=311)
+2026-04-14 12:04:13,856 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:13,858 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:13,902 - INFO - Iteracja 0: condition_best: Distance <= 319.16, quality_best: 0.561, coverage_best: (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:13,902 - INFO - Regula po iteracji 0: IF Distance <= 319.16 THEN class = {694.24} [318.28, 1,070.20], (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:13,913 - INFO - Iteracja 1: condition_best: Inhabitants >= 1.50, quality_best: 0.59, coverage_best: (p=68, n=17, P=104, N=242)
+2026-04-14 12:04:13,913 - INFO - Regula po iteracji 1: IF Distance <= 319.16 AND Inhabitants >= 1.50 THEN class = {713.54} [345.71, 1,081.37], (p=68, n=17, P=104, N=242)
+2026-04-14 12:04:13,924 - INFO - Iteracja 2: condition_best: Distance <= 317.50, quality_best: 0.578, coverage_best: (p=67, n=17, P=106, N=240)
+2026-04-14 12:04:13,924 - INFO - Regula po iteracji 2: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 THEN class = {714.12} [344.14, 1,084.10], (p=67, n=17, P=106, N=240)
+2026-04-14 12:04:13,934 - INFO - Iteracja 3: condition_best: Distance <= 310.83, quality_best: 0.573, coverage_best: (p=63, n=16, P=103, N=243)
+2026-04-14 12:04:13,935 - INFO - Regula po iteracji 3: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 AND Distance <= 310.83 THEN class = {697.48} [323.41, 1,071.56], (p=63, n=16, P=103, N=243)
+2026-04-14 12:04:13,945 - INFO - Iteracja 4: condition_best: Distance >= 95.00, quality_best: 0.594, coverage_best: (p=63, n=14, P=104, N=242)
+2026-04-14 12:04:13,945 - INFO - Regula po iteracji 4: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 AND Distance <= 310.83 AND Distance >= 95.00 THEN class = {712.35} [345.16, 1,079.54], (p=63, n=14, P=104, N=242)
+2026-04-14 12:04:13,945 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:13,947 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:13,990 - INFO - Iteracja 0: condition_best: Distance <= 319.16, quality_best: 0.561, coverage_best: (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:13,990 - INFO - Regula po iteracji 0: IF Distance <= 319.16 THEN class = {694.24} [318.28, 1,070.20], (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:14,000 - INFO - Iteracja 1: condition_best: Inhabitants >= 1.50, quality_best: 0.59, coverage_best: (p=68, n=17, P=104, N=242)
+2026-04-14 12:04:14,000 - INFO - Regula po iteracji 1: IF Distance <= 319.16 AND Inhabitants >= 1.50 THEN class = {713.54} [345.71, 1,081.37], (p=68, n=17, P=104, N=242)
+2026-04-14 12:04:14,010 - INFO - Iteracja 2: condition_best: Distance <= 317.50, quality_best: 0.578, coverage_best: (p=67, n=17, P=106, N=240)
+2026-04-14 12:04:14,011 - INFO - Regula po iteracji 2: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 THEN class = {714.12} [344.14, 1,084.10], (p=67, n=17, P=106, N=240)
+2026-04-14 12:04:14,021 - INFO - Iteracja 3: condition_best: Distance >= 72.50, quality_best: 0.557, coverage_best: (p=65, n=18, P=105, N=241)
+2026-04-14 12:04:14,021 - INFO - Regula po iteracji 3: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 AND Distance >= 72.50 THEN class = {721.30} [354.97, 1,087.63], (p=65, n=18, P=105, N=241)
+2026-04-14 12:04:14,031 - INFO - Iteracja 4: condition_best: Distance >= 114.17, quality_best: 0.547, coverage_best: (p=62, n=18, P=102, N=244)
+2026-04-14 12:04:14,031 - INFO - Regula po iteracji 4: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 AND Distance >= 72.50 AND Distance >= 114.17 THEN class = {742.31} [386.26, 1,098.37], (p=62, n=18, P=102, N=244)
+2026-04-14 12:04:14,032 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:14,033 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,077 - INFO - Iteracja 0: condition_best: Distance <= 333.34, quality_best: 0.543, coverage_best: (p=72, n=23, P=107, N=239)
+2026-04-14 12:04:14,077 - INFO - Regula po iteracji 0: IF Distance <= 333.34 THEN class = {721.40} [344.19, 1,098.61], (p=72, n=23, P=107, N=239)
+2026-04-14 12:04:14,088 - INFO - Iteracja 1: condition_best: Inhabitants <= 117.00, quality_best: 0.538, coverage_best: (p=70, n=24, P=102, N=244)
+2026-04-14 12:04:14,089 - INFO - Regula po iteracji 1: IF Distance <= 333.34 AND Inhabitants <= 117.00 THEN class = {708.11} [351.71, 1,064.50], (p=70, n=24, P=102, N=244)
+2026-04-14 12:04:14,100 - INFO - Iteracja 2: condition_best: Distance <= 328.34, quality_best: 0.544, coverage_best: (p=69, n=23, P=101, N=245)
+2026-04-14 12:04:14,100 - INFO - Regula po iteracji 2: IF Distance <= 333.34 AND Inhabitants <= 117.00 AND Distance <= 328.34 THEN class = {702.78} [344.91, 1,060.65], (p=69, n=23, P=101, N=245)
+2026-04-14 12:04:14,111 - INFO - Iteracja 3: condition_best: Inhabitants <= 81.00, quality_best: 0.545, coverage_best: (p=68, n=23, P=99, N=247)
+2026-04-14 12:04:14,111 - INFO - Regula po iteracji 3: IF Distance <= 333.34 AND Inhabitants <= 117.00 AND Distance <= 328.34 AND Inhabitants <= 81.00 THEN class = {694.99} [343.01, 1,046.97], (p=68, n=23, P=99, N=247)
+2026-04-14 12:04:14,122 - INFO - Iteracja 4: condition_best: Distance >= 70.00, quality_best: 0.538, coverage_best: (p=67, n=23, P=99, N=247)
+2026-04-14 12:04:14,122 - INFO - Regula po iteracji 4: IF Distance <= 333.34 AND Inhabitants <= 117.00 AND Distance <= 328.34 AND Inhabitants <= 81.00 AND Distance >= 70.00 THEN class = {701.40} [352.79, 1,050.01], (p=67, n=23, P=99, N=247)
+2026-04-14 12:04:14,122 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:14,124 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,166 - INFO - Iteracja 0: condition_best: Distance <= 415.84, quality_best: 0.513, coverage_best: (p=109, n=40, P=133, N=213)
+2026-04-14 12:04:14,166 - INFO - Regula po iteracji 0: IF Distance <= 415.84 THEN class = {894.51} [464.41, 1,324.61], (p=109, n=40, P=133, N=213)
+2026-04-14 12:04:14,184 - INFO - Iteracja 1: condition_best: Inhabitants <= 72.50, quality_best: 0.522, coverage_best: (p=107, n=38, P=132, N=214)
+2026-04-14 12:04:14,184 - INFO - Regula po iteracji 1: IF Distance <= 415.84 AND Inhabitants <= 72.50 THEN class = {878.25} [457.41, 1,299.08], (p=107, n=38, P=132, N=214)
+2026-04-14 12:04:14,201 - INFO - Iteracja 2: condition_best: Distance >= 70.00, quality_best: 0.529, coverage_best: (p=107, n=37, P=132, N=214)
+2026-04-14 12:04:14,201 - INFO - Regula po iteracji 2: IF Distance <= 415.84 AND Inhabitants <= 72.50 AND Distance >= 70.00 THEN class = {883.53} [466.05, 1,301.01], (p=107, n=37, P=132, N=214)
+2026-04-14 12:04:14,217 - INFO - Iteracja 3: condition_best: Inhabitants <= 69.00, quality_best: 0.524, coverage_best: (p=106, n=37, P=132, N=214)
+2026-04-14 12:04:14,217 - INFO - Regula po iteracji 3: IF Distance <= 415.84 AND Inhabitants <= 72.50 AND Distance >= 70.00 AND Inhabitants <= 69.00 THEN class = {880.72} [463.14, 1,298.30], (p=106, n=37, P=132, N=214)
+2026-04-14 12:04:14,234 - INFO - Iteracja 4: condition_best: Inhabitants <= 58.50, quality_best: 0.524, coverage_best: (p=103, n=36, P=130, N=216)
+2026-04-14 12:04:14,234 - INFO - Regula po iteracji 4: IF Distance <= 415.84 AND Inhabitants <= 72.50 AND Distance >= 70.00 AND Inhabitants <= 69.00 AND Inhabitants <= 58.50 THEN class = {876.40} [462.64, 1,290.16], (p=103, n=36, P=130, N=216)
+2026-04-14 12:04:14,234 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:14,236 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,278 - INFO - Iteracja 0: condition_best: Distance >= 447.50, quality_best: 0.509, coverage_best: (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:14,278 - INFO - Regula po iteracji 0: IF Distance >= 447.50 THEN class = {2,378.40} [1,322.31, 3,434.50], (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:14,301 - INFO - Iteracja 1: condition_best: Distance <= 1,034.17, quality_best: 0.524, coverage_best: (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:14,301 - INFO - Regula po iteracji 1: IF Distance >= 447.50 AND Distance <= 1,034.17 THEN class = {2,320.68} [1,300.73, 3,340.63], (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:14,324 - INFO - Iteracja 2: condition_best: Inhabitants >= 11.50, quality_best: 0.548, coverage_best: (p=122, n=34, P=153, N=193)
+2026-04-14 12:04:14,324 - INFO - Regula po iteracji 2: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 11.50 THEN class = {2,421.76} [1,418.85, 3,424.66], (p=122, n=34, P=153, N=193)
+2026-04-14 12:04:14,346 - INFO - Iteracja 3: condition_best: Distance <= 1,010.00, quality_best: 0.556, coverage_best: (p=121, n=32, P=154, N=192)
+2026-04-14 12:04:14,346 - INFO - Regula po iteracji 3: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 11.50 AND Distance <= 1,010.00 THEN class = {2,398.50} [1,403.01, 3,394.00], (p=121, n=32, P=154, N=192)
+2026-04-14 12:04:14,367 - INFO - Iteracja 4: condition_best: Inhabitants >= 12.50, quality_best: 0.559, coverage_best: (p=120, n=32, P=152, N=194)
+2026-04-14 12:04:14,367 - INFO - Regula po iteracji 4: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 11.50 AND Distance <= 1,010.00 AND Inhabitants >= 12.50 THEN class = {2,407.28} [1,414.44, 3,400.13], (p=120, n=32, P=152, N=194)
+2026-04-14 12:04:14,367 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:14,368 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,406 - INFO - Iteracja 0: condition_best: Distance >= 447.50, quality_best: 0.509, coverage_best: (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:14,406 - INFO - Regula po iteracji 0: IF Distance >= 447.50 THEN class = {2,378.40} [1,322.31, 3,434.50], (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:14,428 - INFO - Iteracja 1: condition_best: Distance <= 1,034.17, quality_best: 0.524, coverage_best: (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:14,428 - INFO - Regula po iteracji 1: IF Distance >= 447.50 AND Distance <= 1,034.17 THEN class = {2,320.68} [1,300.73, 3,340.63], (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:14,448 - INFO - Iteracja 2: condition_best: Inhabitants >= 10.50, quality_best: 0.542, coverage_best: (p=124, n=34, P=157, N=189)
+2026-04-14 12:04:14,448 - INFO - Regula po iteracji 2: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 10.50 THEN class = {2,402.02} [1,390.34, 3,413.70], (p=124, n=34, P=157, N=189)
+2026-04-14 12:04:14,468 - INFO - Iteracja 3: condition_best: Distance <= 1,017.50, quality_best: 0.538, coverage_best: (p=123, n=34, P=157, N=189)
+2026-04-14 12:04:14,468 - INFO - Regula po iteracji 3: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 10.50 AND Distance <= 1,017.50 THEN class = {2,391.99} [1,384.96, 3,399.02], (p=123, n=34, P=157, N=189)
+2026-04-14 12:04:14,487 - INFO - Iteracja 4: condition_best: Distance >= 449.16, quality_best: 0.537, coverage_best: (p=122, n=34, P=156, N=190)
+2026-04-14 12:04:14,488 - INFO - Regula po iteracji 4: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 10.50 AND Distance <= 1,017.50 AND Distance >= 449.16 THEN class = {2,397.07} [1,388.83, 3,405.31], (p=122, n=34, P=156, N=190)
+2026-04-14 12:04:14,488 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:14,488 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,526 - INFO - Iteracja 0: condition_best: Distance >= 447.50, quality_best: 0.509, coverage_best: (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:14,526 - INFO - Regula po iteracji 0: IF Distance >= 447.50 THEN class = {2,378.40} [1,322.31, 3,434.50], (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:14,548 - INFO - Iteracja 1: condition_best: Distance <= 1,034.17, quality_best: 0.524, coverage_best: (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:14,548 - INFO - Regula po iteracji 1: IF Distance >= 447.50 AND Distance <= 1,034.17 THEN class = {2,320.68} [1,300.73, 3,340.63], (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:14,568 - INFO - Iteracja 2: condition_best: Inhabitants >= 6.50, quality_best: 0.54, coverage_best: (p=134, n=35, P=167, N=179)
+2026-04-14 12:04:14,568 - INFO - Regula po iteracji 2: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 6.50 THEN class = {2,335.44} [1,318.88, 3,352.01], (p=134, n=35, P=167, N=179)
+2026-04-14 12:04:14,588 - INFO - Iteracja 3: condition_best: Distance <= 1,017.50, quality_best: 0.549, coverage_best: (p=134, n=34, P=167, N=179)
+2026-04-14 12:04:14,588 - INFO - Regula po iteracji 3: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 6.50 AND Distance <= 1,017.50 THEN class = {2,325.67} [1,314.03, 3,337.32], (p=134, n=34, P=167, N=179)
+2026-04-14 12:04:14,609 - INFO - Iteracja 4: condition_best: Inhabitants <= 260.00, quality_best: 0.545, coverage_best: (p=133, n=34, P=167, N=179)
+2026-04-14 12:04:14,609 - INFO - Regula po iteracji 4: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 6.50 AND Distance <= 1,017.50 AND Inhabitants <= 260.00 THEN class = {2,321.10} [1,308.16, 3,334.03], (p=133, n=34, P=167, N=179)
+2026-04-14 12:04:14,609 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:14,609 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,648 - INFO - Iteracja 0: condition_best: Distance >= 447.50, quality_best: 0.509, coverage_best: (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:14,648 - INFO - Regula po iteracji 0: IF Distance >= 447.50 THEN class = {2,378.40} [1,322.31, 3,434.50], (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:14,669 - INFO - Iteracja 1: condition_best: Distance <= 1,140.84, quality_best: 0.521, coverage_best: (p=136, n=38, P=168, N=178)
+2026-04-14 12:04:14,669 - INFO - Regula po iteracji 1: IF Distance >= 447.50 AND Distance <= 1,140.84 THEN class = {2,341.19} [1,305.35, 3,377.03], (p=136, n=38, P=168, N=178)
+2026-04-14 12:04:14,690 - INFO - Iteracja 2: condition_best: Distance >= 454.16, quality_best: 0.52, coverage_best: (p=133, n=37, P=167, N=179)
+2026-04-14 12:04:14,690 - INFO - Regula po iteracji 2: IF Distance >= 447.50 AND Distance <= 1,140.84 AND Distance >= 454.16 THEN class = {2,361.82} [1,323.98, 3,399.67], (p=133, n=37, P=167, N=179)
+2026-04-14 12:04:14,710 - INFO - Iteracja 3: condition_best: Inhabitants <= 260.00, quality_best: 0.513, coverage_best: (p=132, n=37, P=168, N=178)
+2026-04-14 12:04:14,710 - INFO - Regula po iteracji 3: IF Distance >= 447.50 AND Distance <= 1,140.84 AND Distance >= 454.16 AND Inhabitants <= 260.00 THEN class = {2,357.51} [1,318.12, 3,396.91], (p=132, n=37, P=168, N=178)
+2026-04-14 12:04:14,731 - INFO - Iteracja 4: condition_best: Distance >= 465.00, quality_best: 0.509, coverage_best: (p=124, n=36, P=162, N=184)
+2026-04-14 12:04:14,731 - INFO - Regula po iteracji 4: IF Distance >= 447.50 AND Distance <= 1,140.84 AND Distance >= 454.16 AND Inhabitants <= 260.00 AND Distance >= 465.00 THEN class = {2,405.43} [1,363.74, 3,447.12], (p=124, n=36, P=162, N=184)
+2026-04-14 12:04:14,731 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:14,732 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,769 - INFO - Iteracja 0: condition_best: Distance <= 428.34, quality_best: 0.497, coverage_best: (p=118, n=41, P=147, N=199)
+2026-04-14 12:04:14,770 - INFO - Regula po iteracji 0: IF Distance <= 428.34 THEN class = {935.35} [462.68, 1,408.03], (p=118, n=41, P=147, N=199)
+2026-04-14 12:04:14,787 - INFO - Iteracja 1: condition_best: Inhabitants <= 51.50, quality_best: 0.531, coverage_best: (p=105, n=35, P=133, N=213)
+2026-04-14 12:04:14,787 - INFO - Regula po iteracji 1: IF Distance <= 428.34 AND Inhabitants <= 51.50 THEN class = {871.80} [441.89, 1,301.71], (p=105, n=35, P=133, N=213)
+2026-04-14 12:04:14,802 - INFO - Iteracja 2: condition_best: Inhabitants >= 1.50, quality_best: 0.546, coverage_best: (p=104, n=33, P=132, N=214)
+2026-04-14 12:04:14,802 - INFO - Regula po iteracji 2: IF Distance <= 428.34 AND Inhabitants <= 51.50 AND Inhabitants >= 1.50 THEN class = {887.66} [466.88, 1,308.45], (p=104, n=33, P=132, N=214)
+2026-04-14 12:04:14,816 - INFO - Iteracja 3: condition_best: Inhabitants <= 41.50, quality_best: 0.551, coverage_best: (p=97, n=31, P=125, N=221)
+2026-04-14 12:04:14,816 - INFO - Regula po iteracji 3: IF Distance <= 428.34 AND Inhabitants <= 51.50 AND Inhabitants >= 1.50 AND Inhabitants <= 41.50 THEN class = {861.71} [456.37, 1,267.05], (p=97, n=31, P=125, N=221)
+2026-04-14 12:04:14,829 - INFO - Iteracja 4: condition_best: Distance >= 72.50, quality_best: 0.56, coverage_best: (p=97, n=30, P=125, N=221)
+2026-04-14 12:04:14,829 - INFO - Regula po iteracji 4: IF Distance <= 428.34 AND Inhabitants <= 51.50 AND Inhabitants >= 1.50 AND Inhabitants <= 41.50 AND Distance >= 72.50 THEN class = {867.57} [466.07, 1,269.07], (p=97, n=30, P=125, N=221)
+2026-04-14 12:04:14,829 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:14,830 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,867 - INFO - Iteracja 0: condition_best: Distance <= 428.34, quality_best: 0.497, coverage_best: (p=118, n=41, P=147, N=199)
+2026-04-14 12:04:14,867 - INFO - Regula po iteracji 0: IF Distance <= 428.34 THEN class = {935.35} [462.68, 1,408.03], (p=118, n=41, P=147, N=199)
+2026-04-14 12:04:14,884 - INFO - Iteracja 1: condition_best: Inhabitants <= 101.50, quality_best: 0.504, coverage_best: (p=117, n=40, P=146, N=200)
+2026-04-14 12:04:14,885 - INFO - Regula po iteracji 1: IF Distance <= 428.34 AND Inhabitants <= 101.50 THEN class = {928.18} [459.86, 1,396.51], (p=117, n=40, P=146, N=200)
+2026-04-14 12:04:14,902 - INFO - Iteracja 2: condition_best: Inhabitants <= 85.50, quality_best: 0.503, coverage_best: (p=116, n=40, P=145, N=201)
+2026-04-14 12:04:14,902 - INFO - Regula po iteracji 2: IF Distance <= 428.34 AND Inhabitants <= 101.50 AND Inhabitants <= 85.50 THEN class = {925.08} [456.87, 1,393.30], (p=116, n=40, P=145, N=201)
+2026-04-14 12:04:14,919 - INFO - Iteracja 3: condition_best: Distance >= 70.00, quality_best: 0.51, coverage_best: (p=116, n=39, P=145, N=201)
+2026-04-14 12:04:14,919 - INFO - Regula po iteracji 3: IF Distance <= 428.34 AND Inhabitants <= 101.50 AND Inhabitants <= 85.50 AND Distance >= 70.00 THEN class = {930.29} [465.09, 1,395.49], (p=116, n=39, P=145, N=201)
+2026-04-14 12:04:14,936 - INFO - Iteracja 4: condition_best: Distance >= 82.50, quality_best: 0.509, coverage_best: (p=115, n=39, P=144, N=202)
+2026-04-14 12:04:14,936 - INFO - Regula po iteracji 4: IF Distance <= 428.34 AND Inhabitants <= 101.50 AND Inhabitants <= 85.50 AND Distance >= 70.00 AND Distance >= 82.50 THEN class = {935.81} [474.19, 1,397.43], (p=115, n=39, P=144, N=202)
+2026-04-14 12:04:14,936 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:14,936 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,973 - INFO - Iteracja 0: condition_best: Distance >= 445.00, quality_best: 0.494, coverage_best: (p=138, n=42, P=169, N=177)
+2026-04-14 12:04:14,973 - INFO - Regula po iteracji 0: IF Distance >= 445.00 THEN class = {2,367.04} [1,310.00, 3,424.09], (p=138, n=42, P=169, N=177)
+2026-04-14 12:04:14,994 - INFO - Iteracja 1: condition_best: Inhabitants >= 6.50, quality_best: 0.513, coverage_best: (p=138, n=40, P=168, N=178)
+2026-04-14 12:04:14,994 - INFO - Regula po iteracji 1: IF Distance >= 445.00 AND Inhabitants >= 6.50 THEN class = {2,381.58} [1,327.85, 3,435.31], (p=138, n=40, P=168, N=178)
+2026-04-14 12:04:15,015 - INFO - Iteracja 2: condition_best: Distance <= 1,516.66, quality_best: 0.521, coverage_best: (p=138, n=39, P=168, N=178)
+2026-04-14 12:04:15,015 - INFO - Regula po iteracji 2: IF Distance >= 445.00 AND Inhabitants >= 6.50 AND Distance <= 1,516.66 THEN class = {2,373.97} [1,322.16, 3,425.78], (p=138, n=39, P=168, N=178)
+2026-04-14 12:04:15,037 - INFO - Iteracja 3: condition_best: Inhabitants >= 11.50, quality_best: 0.518, coverage_best: (p=125, n=39, P=154, N=192)
+2026-04-14 12:04:15,037 - INFO - Regula po iteracji 3: IF Distance >= 445.00 AND Inhabitants >= 6.50 AND Distance <= 1,516.66 AND Inhabitants >= 11.50 THEN class = {2,459.13} [1,420.27, 3,497.99], (p=125, n=39, P=154, N=192)
+2026-04-14 12:04:15,057 - INFO - Iteracja 4: condition_best: Inhabitants <= 127.50, quality_best: 0.513, coverage_best: (p=122, n=37, P=156, N=190)
+2026-04-14 12:04:15,057 - INFO - Regula po iteracji 4: IF Distance >= 445.00 AND Inhabitants >= 6.50 AND Distance <= 1,516.66 AND Inhabitants >= 11.50 AND Inhabitants <= 127.50 THEN class = {2,421.57} [1,403.27, 3,439.88], (p=122, n=37, P=156, N=190)
+2026-04-14 12:04:15,057 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:15,058 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:15,095 - INFO - Iteracja 0: condition_best: Distance >= 428.34, quality_best: 0.487, coverage_best: (p=143, n=44, P=172, N=174)
+2026-04-14 12:04:15,095 - INFO - Regula po iteracji 0: IF Distance >= 428.34 THEN class = {2,338.52} [1,285.58, 3,391.46], (p=143, n=44, P=172, N=174)
+2026-04-14 12:04:15,116 - INFO - Iteracja 1: condition_best: Inhabitants >= 12.50, quality_best: 0.531, coverage_best: (p=130, n=40, P=154, N=192)
+2026-04-14 12:04:15,117 - INFO - Regula po iteracji 1: IF Distance >= 428.34 AND Inhabitants >= 12.50 THEN class = {2,449.14} [1,416.07, 3,482.20], (p=130, n=40, P=154, N=192)
+2026-04-14 12:04:15,137 - INFO - Iteracja 2: condition_best: Distance <= 1,017.50, quality_best: 0.575, coverage_best: (p=129, n=33, P=156, N=190)
+2026-04-14 12:04:15,137 - INFO - Regula po iteracji 2: IF Distance >= 428.34 AND Inhabitants >= 12.50 AND Distance <= 1,017.50 THEN class = {2,381.83} [1,389.10, 3,374.55], (p=129, n=33, P=156, N=190)
+2026-04-14 12:04:15,157 - INFO - Iteracja 3: condition_best: Distance <= 1,015.00, quality_best: 0.57, coverage_best: (p=128, n=33, P=156, N=190)
+2026-04-14 12:04:15,157 - INFO - Regula po iteracji 3: IF Distance >= 428.34 AND Inhabitants >= 12.50 AND Distance <= 1,017.50 AND Distance <= 1,015.00 THEN class = {2,371.49} [1,384.41, 3,358.57], (p=128, n=33, P=156, N=190)
+2026-04-14 12:04:15,177 - INFO - Iteracja 4: condition_best: Inhabitants >= 13.50, quality_best: 0.577, coverage_best: (p=126, n=32, P=154, N=192)
+2026-04-14 12:04:15,177 - INFO - Regula po iteracji 4: IF Distance >= 428.34 AND Inhabitants >= 12.50 AND Distance <= 1,017.50 AND Distance <= 1,015.00 AND Inhabitants >= 13.50 THEN class = {2,388.10} [1,401.80, 3,374.40], (p=126, n=32, P=154, N=192)
+2026-04-14 12:04:15,177 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:15,178 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:15,214 - INFO - Iteracja 0: condition_best: Inhabitants >= 260.00, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=345)
+2026-04-14 12:04:15,214 - INFO - Regula po iteracji 0: IF Inhabitants >= 260.00 THEN class = {3,090.00} [3,090.00, 3,090.00], (p=1, n=0, P=1, N=345)
+2026-04-14 12:04:15,215 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:15,215 - INFO - Regula po iteracji 1: IF Inhabitants >= 260.00 THEN class = {3,090.00} [3,090.00, 3,090.00], (p=1, n=0, P=1, N=345)
+2026-04-14 12:04:15,215 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:15,224 - INFO - ************************Finished experiment for ele-1.arff with algorithm_rer************************
+2026-04-14 12:04:15,224 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:15,224 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:15,224 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:15,225 - INFO - **********Starting experiment for ele-1.arff with algorithm_rer_with_exceptions**********
+2026-04-14 12:04:15,230 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:15,285 - INFO - Iteracja 0: condition_best: Distance <= 118.33, quality_best: 0.747, coverage_best: (p=6, n=1, P=8, N=338)
+2026-04-14 12:04:15,285 - INFO - Regula po iteracji 0: IF Distance <= 118.33 THEN class = {140.43} [79.02, 201.84], (p=6, n=1, P=8, N=338)
+2026-04-14 12:04:15,285 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,357 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,357 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:15,357 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,357 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,359 - INFO - Iteracja 1: condition_best: Distance <= 115.83, quality_best: 0.674, coverage_best: (p=5, n=1, P=8, N=338)
+2026-04-14 12:04:15,359 - INFO - Regula po iteracji 1: IF Distance <= 118.33 AND Distance <= 115.83 THEN class = {134.50} [70.05, 198.95], (p=5, n=1, P=8, N=338)
+2026-04-14 12:04:15,359 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,431 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,431 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:15,431 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,431 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,432 - INFO - Iteracja 2: condition_best: Distance <= 114.17, quality_best: 0.596, coverage_best: (p=4, n=1, P=8, N=338)
+2026-04-14 12:04:15,432 - INFO - Regula po iteracji 2: IF Distance <= 118.33 AND Distance <= 115.83 AND Distance <= 114.17 THEN class = {136.20} [65.72, 206.68], (p=4, n=1, P=8, N=338)
+2026-04-14 12:04:15,433 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,504 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,504 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:15,504 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,504 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,505 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:15,505 - INFO - Regula po iteracji 3: IF Distance <= 118.33 AND Distance <= 115.83 AND Distance <= 114.17 THEN class = {136.20} [65.72, 206.68], (p=4, n=1, P=8, N=338)
+2026-04-14 12:04:15,505 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:15,508 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:15,552 - INFO - Iteracja 0: condition_best: Distance <= 131.67, quality_best: 0.685, coverage_best: (p=8, n=2, P=11, N=335)
+2026-04-14 12:04:15,552 - INFO - Regula po iteracji 0: IF Distance <= 131.67 THEN class = {210.30} [73.54, 347.06], (p=8, n=2, P=11, N=335)
+2026-04-14 12:04:15,553 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,624 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,624 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:15,624 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,624 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,626 - INFO - Iteracja 1: condition_best: Inhabitants <= 19.50, quality_best: 0.63, coverage_best: (p=7, n=2, P=11, N=335)
+2026-04-14 12:04:15,626 - INFO - Regula po iteracji 1: IF Distance <= 131.67 AND Inhabitants <= 19.50 THEN class = {203.56} [60.98, 346.13], (p=7, n=2, P=11, N=335)
+2026-04-14 12:04:15,626 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,698 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,698 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:15,698 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,698 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,700 - INFO - Iteracja 2: condition_best: Distance >= 70.00, quality_best: 0.517, coverage_best: (p=6, n=2, P=15, N=331)
+2026-04-14 12:04:15,700 - INFO - Regula po iteracji 2: IF Distance <= 131.67 AND Inhabitants <= 19.50 AND Distance >= 70.00 THEN class = {214.25} [66.47, 362.03], (p=6, n=2, P=15, N=331)
+2026-04-14 12:04:15,700 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,772 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,772 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:15,772 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,772 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,774 - INFO - Iteracja 3: condition_best: Distance >= 95.00, quality_best: 0.407, coverage_best: (p=4, n=2, P=16, N=330)
+2026-04-14 12:04:15,774 - INFO - Regula po iteracji 3: IF Distance <= 131.67 AND Inhabitants <= 19.50 AND Distance >= 70.00 AND Distance >= 95.00 THEN class = {250.33} [96.43, 404.24], (p=4, n=2, P=16, N=330)
+2026-04-14 12:04:15,774 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,845 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,845 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:15,845 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,845 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,847 - INFO - Iteracja 4: condition_best: Distance >= 110.00, quality_best: 0.349, coverage_best: (p=3, n=2, P=15, N=331)
+2026-04-14 12:04:15,847 - INFO - Regula po iteracji 4: IF Distance <= 131.67 AND Inhabitants <= 19.50 AND Distance >= 70.00 AND Distance >= 95.00 AND Distance >= 110.00 THEN class = {284.40} [137.91, 430.89], (p=3, n=2, P=15, N=331)
+2026-04-14 12:04:15,847 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,918 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,918 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:15,918 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,918 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,918 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:15,920 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:15,964 - INFO - Iteracja 0: condition_best: Distance <= 153.33, quality_best: 0.682, coverage_best: (p=13, n=2, P=22, N=324)
+2026-04-14 12:04:15,964 - INFO - Regula po iteracji 0: IF Distance <= 153.33 THEN class = {266.07} [71.09, 461.04], (p=13, n=2, P=22, N=324)
+2026-04-14 12:04:15,965 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,035 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,036 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,036 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,036 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,038 - INFO - Iteracja 1: condition_best: Distance >= 70.00, quality_best: 0.635, coverage_best: (p=12, n=2, P=24, N=322)
+2026-04-14 12:04:16,038 - INFO - Regula po iteracji 1: IF Distance <= 153.33 AND Distance >= 70.00 THEN class = {276.64} [79.03, 474.26], (p=12, n=2, P=24, N=322)
+2026-04-14 12:04:16,038 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,109 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,109 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,109 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,110 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,111 - INFO - Iteracja 2: condition_best: Distance >= 109.17, quality_best: 0.521, coverage_best: (p=9, n=2, P=30, N=316)
+2026-04-14 12:04:16,112 - INFO - Regula po iteracji 2: IF Distance <= 153.33 AND Distance >= 70.00 AND Distance >= 109.17 THEN class = {325.55} [129.64, 521.45], (p=9, n=2, P=30, N=316)
+2026-04-14 12:04:16,112 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,182 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,183 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,183 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,183 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,184 - INFO - Iteracja 3: condition_best: Distance >= 114.17, quality_best: 0.487, coverage_best: (p=8, n=2, P=32, N=314)
+2026-04-14 12:04:16,184 - INFO - Regula po iteracji 3: IF Distance <= 153.33 AND Distance >= 70.00 AND Distance >= 109.17 AND Distance >= 114.17 THEN class = {331.00} [126.33, 535.67], (p=8, n=2, P=32, N=314)
+2026-04-14 12:04:16,185 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,256 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,256 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,256 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,256 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,257 - INFO - Iteracja 4: condition_best: Distance >= 115.83, quality_best: 0.463, coverage_best: (p=7, n=2, P=31, N=315)
+2026-04-14 12:04:16,257 - INFO - Regula po iteracji 4: IF Distance <= 153.33 AND Distance >= 70.00 AND Distance >= 109.17 AND Distance >= 114.17 AND Distance >= 115.83 THEN class = {353.78} [150.42, 557.14], (p=7, n=2, P=31, N=315)
+2026-04-14 12:04:16,258 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,328 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,328 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,329 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,329 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,329 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:16,331 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:16,375 - INFO - Iteracja 0: condition_best: Distance <= 319.16, quality_best: 0.561, coverage_best: (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:16,376 - INFO - Regula po iteracji 0: IF Distance <= 319.16 THEN class = {694.24} [318.28, 1,070.20], (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:16,376 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,448 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,448 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,448 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,448 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,459 - INFO - Iteracja 1: condition_best: Inhabitants <= 9.50, quality_best: 0.627, coverage_best: (p=16, n=2, P=37, N=309)
+2026-04-14 12:04:16,459 - INFO - Regula po iteracji 1: IF Distance <= 319.16 AND Inhabitants <= 9.50 THEN class = {321.39} [76.04, 566.74], (p=16, n=2, P=37, N=309)
+2026-04-14 12:04:16,459 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,530 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,530 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,531 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,531 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,533 - INFO - Iteracja 2: condition_best: Distance <= 290.84, quality_best: 0.707, coverage_best: (p=15, n=1, P=29, N=317)
+2026-04-14 12:04:16,533 - INFO - Regula po iteracji 2: IF Distance <= 319.16 AND Inhabitants <= 9.50 AND Distance <= 290.84 THEN class = {279.38} [61.04, 497.71], (p=15, n=1, P=29, N=317)
+2026-04-14 12:04:16,534 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,605 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,605 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,605 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,605 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,607 - INFO - Iteracja 3: condition_best: Distance >= 70.00, quality_best: 0.666, coverage_best: (p=14, n=1, P=32, N=314)
+2026-04-14 12:04:16,607 - INFO - Regula po iteracji 3: IF Distance <= 319.16 AND Inhabitants <= 9.50 AND Distance <= 290.84 AND Distance >= 70.00 THEN class = {290.13} [68.78, 511.49], (p=14, n=1, P=32, N=314)
+2026-04-14 12:04:16,608 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,679 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,679 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,679 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,679 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,681 - INFO - Iteracja 4: condition_best: Distance >= 110.00, quality_best: 0.596, coverage_best: (p=11, n=1, P=35, N=311)
+2026-04-14 12:04:16,681 - INFO - Regula po iteracji 4: IF Distance <= 319.16 AND Inhabitants <= 9.50 AND Distance <= 290.84 AND Distance >= 70.00 AND Distance >= 110.00 THEN class = {338.33} [115.89, 560.78], (p=11, n=1, P=35, N=311)
+2026-04-14 12:04:16,681 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,752 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,752 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,753 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,753 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,753 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:16,755 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:16,799 - INFO - Iteracja 0: condition_best: Distance <= 319.16, quality_best: 0.561, coverage_best: (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:16,799 - INFO - Regula po iteracji 0: IF Distance <= 319.16 THEN class = {694.24} [318.28, 1,070.20], (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:16,799 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,870 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,871 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,871 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,871 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,882 - INFO - Iteracja 1: condition_best: Inhabitants >= 1.50, quality_best: 0.59, coverage_best: (p=68, n=17, P=104, N=242)
+2026-04-14 12:04:16,882 - INFO - Regula po iteracji 1: IF Distance <= 319.16 AND Inhabitants >= 1.50 THEN class = {713.54} [345.71, 1,081.37], (p=68, n=17, P=104, N=242)
+2026-04-14 12:04:16,882 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,954 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,954 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:16,954 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,954 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,965 - INFO - Iteracja 2: condition_best: Distance <= 317.50, quality_best: 0.578, coverage_best: (p=67, n=17, P=106, N=240)
+2026-04-14 12:04:16,965 - INFO - Regula po iteracji 2: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 THEN class = {714.12} [344.14, 1,084.10], (p=67, n=17, P=106, N=240)
+2026-04-14 12:04:16,965 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,037 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,037 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,038 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,038 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,048 - INFO - Iteracja 3: condition_best: Distance <= 310.83, quality_best: 0.573, coverage_best: (p=63, n=16, P=103, N=243)
+2026-04-14 12:04:17,049 - INFO - Regula po iteracji 3: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 AND Distance <= 310.83 THEN class = {697.48} [323.41, 1,071.56], (p=63, n=16, P=103, N=243)
+2026-04-14 12:04:17,049 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,121 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,121 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,121 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,121 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,132 - INFO - Iteracja 4: condition_best: Distance >= 95.00, quality_best: 0.594, coverage_best: (p=63, n=14, P=104, N=242)
+2026-04-14 12:04:17,132 - INFO - Regula po iteracji 4: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 AND Distance <= 310.83 AND Distance >= 95.00 THEN class = {712.35} [345.16, 1,079.54], (p=63, n=14, P=104, N=242)
+2026-04-14 12:04:17,132 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,204 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,204 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,204 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,204 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,204 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:17,206 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:17,249 - INFO - Iteracja 0: condition_best: Distance <= 319.16, quality_best: 0.561, coverage_best: (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:17,249 - INFO - Regula po iteracji 0: IF Distance <= 319.16 THEN class = {694.24} [318.28, 1,070.20], (p=68, n=20, P=103, N=243)
+2026-04-14 12:04:17,249 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,321 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,321 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,321 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,321 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,331 - INFO - Iteracja 1: condition_best: Inhabitants >= 1.50, quality_best: 0.59, coverage_best: (p=68, n=17, P=104, N=242)
+2026-04-14 12:04:17,332 - INFO - Regula po iteracji 1: IF Distance <= 319.16 AND Inhabitants >= 1.50 THEN class = {713.54} [345.71, 1,081.37], (p=68, n=17, P=104, N=242)
+2026-04-14 12:04:17,332 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,403 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,403 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,404 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,404 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,414 - INFO - Iteracja 2: condition_best: Distance <= 317.50, quality_best: 0.578, coverage_best: (p=67, n=17, P=106, N=240)
+2026-04-14 12:04:17,414 - INFO - Regula po iteracji 2: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 THEN class = {714.12} [344.14, 1,084.10], (p=67, n=17, P=106, N=240)
+2026-04-14 12:04:17,414 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,486 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,486 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,486 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,486 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,497 - INFO - Iteracja 3: condition_best: Distance >= 72.50, quality_best: 0.557, coverage_best: (p=65, n=18, P=105, N=241)
+2026-04-14 12:04:17,497 - INFO - Regula po iteracji 3: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 AND Distance >= 72.50 THEN class = {721.30} [354.97, 1,087.63], (p=65, n=18, P=105, N=241)
+2026-04-14 12:04:17,497 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,568 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,569 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,569 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,569 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,579 - INFO - Iteracja 4: condition_best: Distance >= 114.17, quality_best: 0.547, coverage_best: (p=62, n=18, P=102, N=244)
+2026-04-14 12:04:17,579 - INFO - Regula po iteracji 4: IF Distance <= 319.16 AND Inhabitants >= 1.50 AND Distance <= 317.50 AND Distance >= 72.50 AND Distance >= 114.17 THEN class = {742.31} [386.26, 1,098.37], (p=62, n=18, P=102, N=244)
+2026-04-14 12:04:17,580 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,651 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,651 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,651 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,651 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,652 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:17,654 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:17,696 - INFO - Iteracja 0: condition_best: Distance <= 333.34, quality_best: 0.543, coverage_best: (p=72, n=23, P=107, N=239)
+2026-04-14 12:04:17,696 - INFO - Regula po iteracji 0: IF Distance <= 333.34 THEN class = {721.40} [344.19, 1,098.61], (p=72, n=23, P=107, N=239)
+2026-04-14 12:04:17,696 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,768 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,768 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,768 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,768 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,780 - INFO - Iteracja 1: condition_best: Inhabitants <= 117.00, quality_best: 0.538, coverage_best: (p=70, n=24, P=102, N=244)
+2026-04-14 12:04:17,780 - INFO - Regula po iteracji 1: IF Distance <= 333.34 AND Inhabitants <= 117.00 THEN class = {708.11} [351.71, 1,064.50], (p=70, n=24, P=102, N=244)
+2026-04-14 12:04:17,780 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,851 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,852 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,852 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,852 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,863 - INFO - Iteracja 2: condition_best: Distance <= 328.34, quality_best: 0.544, coverage_best: (p=69, n=23, P=101, N=245)
+2026-04-14 12:04:17,863 - INFO - Regula po iteracji 2: IF Distance <= 333.34 AND Inhabitants <= 117.00 AND Distance <= 328.34 THEN class = {702.78} [344.91, 1,060.65], (p=69, n=23, P=101, N=245)
+2026-04-14 12:04:17,863 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,935 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,935 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:17,935 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,935 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,946 - INFO - Iteracja 3: condition_best: Inhabitants <= 81.00, quality_best: 0.545, coverage_best: (p=68, n=23, P=99, N=247)
+2026-04-14 12:04:17,946 - INFO - Regula po iteracji 3: IF Distance <= 333.34 AND Inhabitants <= 117.00 AND Distance <= 328.34 AND Inhabitants <= 81.00 THEN class = {694.99} [343.01, 1,046.97], (p=68, n=23, P=99, N=247)
+2026-04-14 12:04:17,947 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,019 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,019 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,019 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,019 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,032 - INFO - Iteracja 4: condition_best: Distance >= 70.00, quality_best: 0.538, coverage_best: (p=67, n=23, P=99, N=247)
+2026-04-14 12:04:18,032 - INFO - Regula po iteracji 4: IF Distance <= 333.34 AND Inhabitants <= 117.00 AND Distance <= 328.34 AND Inhabitants <= 81.00 AND Distance >= 70.00 THEN class = {701.40} [352.79, 1,050.01], (p=67, n=23, P=99, N=247)
+2026-04-14 12:04:18,033 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,105 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,105 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,105 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,105 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,105 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:18,107 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:18,150 - INFO - Iteracja 0: condition_best: Distance <= 415.84, quality_best: 0.513, coverage_best: (p=109, n=40, P=133, N=213)
+2026-04-14 12:04:18,150 - INFO - Regula po iteracji 0: IF Distance <= 415.84 THEN class = {894.51} [464.41, 1,324.61], (p=109, n=40, P=133, N=213)
+2026-04-14 12:04:18,150 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,223 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,223 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,223 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,223 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,241 - INFO - Iteracja 1: condition_best: Inhabitants <= 72.50, quality_best: 0.522, coverage_best: (p=107, n=38, P=132, N=214)
+2026-04-14 12:04:18,241 - INFO - Regula po iteracji 1: IF Distance <= 415.84 AND Inhabitants <= 72.50 THEN class = {878.25} [457.41, 1,299.08], (p=107, n=38, P=132, N=214)
+2026-04-14 12:04:18,241 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,314 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,314 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,314 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,314 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,331 - INFO - Iteracja 2: condition_best: Distance >= 70.00, quality_best: 0.529, coverage_best: (p=107, n=37, P=132, N=214)
+2026-04-14 12:04:18,331 - INFO - Regula po iteracji 2: IF Distance <= 415.84 AND Inhabitants <= 72.50 AND Distance >= 70.00 THEN class = {883.53} [466.05, 1,301.01], (p=107, n=37, P=132, N=214)
+2026-04-14 12:04:18,331 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,404 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,404 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,404 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,404 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,421 - INFO - Iteracja 3: condition_best: Inhabitants <= 69.00, quality_best: 0.524, coverage_best: (p=106, n=37, P=132, N=214)
+2026-04-14 12:04:18,421 - INFO - Regula po iteracji 3: IF Distance <= 415.84 AND Inhabitants <= 72.50 AND Distance >= 70.00 AND Inhabitants <= 69.00 THEN class = {880.72} [463.14, 1,298.30], (p=106, n=37, P=132, N=214)
+2026-04-14 12:04:18,421 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,494 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,494 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,494 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,494 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,511 - INFO - Iteracja 4: condition_best: Inhabitants <= 58.50, quality_best: 0.524, coverage_best: (p=103, n=36, P=130, N=216)
+2026-04-14 12:04:18,511 - INFO - Regula po iteracji 4: IF Distance <= 415.84 AND Inhabitants <= 72.50 AND Distance >= 70.00 AND Inhabitants <= 69.00 AND Inhabitants <= 58.50 THEN class = {876.40} [462.64, 1,290.16], (p=103, n=36, P=130, N=216)
+2026-04-14 12:04:18,512 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,584 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,584 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,584 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,584 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,584 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:18,586 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:18,628 - INFO - Iteracja 0: condition_best: Distance >= 447.50, quality_best: 0.509, coverage_best: (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:18,628 - INFO - Regula po iteracji 0: IF Distance >= 447.50 THEN class = {2,378.40} [1,322.31, 3,434.50], (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:18,628 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,701 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,701 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,701 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,701 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,725 - INFO - Iteracja 1: condition_best: Distance <= 1,034.17, quality_best: 0.524, coverage_best: (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:18,725 - INFO - Regula po iteracji 1: IF Distance >= 447.50 AND Distance <= 1,034.17 THEN class = {2,320.68} [1,300.73, 3,340.63], (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:18,725 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,798 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,798 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,798 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,799 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,821 - INFO - Iteracja 2: condition_best: Inhabitants >= 11.50, quality_best: 0.548, coverage_best: (p=122, n=34, P=153, N=193)
+2026-04-14 12:04:18,821 - INFO - Regula po iteracji 2: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 11.50 THEN class = {2,421.76} [1,418.85, 3,424.66], (p=122, n=34, P=153, N=193)
+2026-04-14 12:04:18,822 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,894 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,894 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,894 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,894 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,916 - INFO - Iteracja 3: condition_best: Distance <= 1,010.00, quality_best: 0.556, coverage_best: (p=121, n=32, P=154, N=192)
+2026-04-14 12:04:18,916 - INFO - Regula po iteracji 3: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 11.50 AND Distance <= 1,010.00 THEN class = {2,398.50} [1,403.01, 3,394.00], (p=121, n=32, P=154, N=192)
+2026-04-14 12:04:18,916 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,989 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,989 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:18,989 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,989 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,010 - INFO - Iteracja 4: condition_best: Inhabitants >= 12.50, quality_best: 0.559, coverage_best: (p=120, n=32, P=152, N=194)
+2026-04-14 12:04:19,010 - INFO - Regula po iteracji 4: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 11.50 AND Distance <= 1,010.00 AND Inhabitants >= 12.50 THEN class = {2,407.28} [1,414.44, 3,400.13], (p=120, n=32, P=152, N=194)
+2026-04-14 12:04:19,010 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,083 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,083 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,083 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,083 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,083 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:19,084 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:19,122 - INFO - Iteracja 0: condition_best: Distance >= 447.50, quality_best: 0.509, coverage_best: (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:19,122 - INFO - Regula po iteracji 0: IF Distance >= 447.50 THEN class = {2,378.40} [1,322.31, 3,434.50], (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:19,123 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,195 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,195 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,195 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,195 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,217 - INFO - Iteracja 1: condition_best: Distance <= 1,034.17, quality_best: 0.524, coverage_best: (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:19,217 - INFO - Regula po iteracji 1: IF Distance >= 447.50 AND Distance <= 1,034.17 THEN class = {2,320.68} [1,300.73, 3,340.63], (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:19,217 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,290 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,290 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,290 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,290 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,310 - INFO - Iteracja 2: condition_best: Inhabitants >= 10.50, quality_best: 0.542, coverage_best: (p=124, n=34, P=157, N=189)
+2026-04-14 12:04:19,310 - INFO - Regula po iteracji 2: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 10.50 THEN class = {2,402.02} [1,390.34, 3,413.70], (p=124, n=34, P=157, N=189)
+2026-04-14 12:04:19,311 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,383 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,383 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,384 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,384 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,403 - INFO - Iteracja 3: condition_best: Distance <= 1,017.50, quality_best: 0.538, coverage_best: (p=123, n=34, P=157, N=189)
+2026-04-14 12:04:19,403 - INFO - Regula po iteracji 3: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 10.50 AND Distance <= 1,017.50 THEN class = {2,391.99} [1,384.96, 3,399.02], (p=123, n=34, P=157, N=189)
+2026-04-14 12:04:19,404 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,476 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,477 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,477 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,477 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,496 - INFO - Iteracja 4: condition_best: Distance >= 449.16, quality_best: 0.537, coverage_best: (p=122, n=34, P=156, N=190)
+2026-04-14 12:04:19,496 - INFO - Regula po iteracji 4: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 10.50 AND Distance <= 1,017.50 AND Distance >= 449.16 THEN class = {2,397.07} [1,388.83, 3,405.31], (p=122, n=34, P=156, N=190)
+2026-04-14 12:04:19,497 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,569 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,570 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,570 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,570 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,570 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:19,570 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:19,609 - INFO - Iteracja 0: condition_best: Distance >= 447.50, quality_best: 0.509, coverage_best: (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:19,609 - INFO - Regula po iteracji 0: IF Distance >= 447.50 THEN class = {2,378.40} [1,322.31, 3,434.50], (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:19,609 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,681 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,682 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,682 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,682 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,703 - INFO - Iteracja 1: condition_best: Distance <= 1,034.17, quality_best: 0.524, coverage_best: (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:19,703 - INFO - Regula po iteracji 1: IF Distance >= 447.50 AND Distance <= 1,034.17 THEN class = {2,320.68} [1,300.73, 3,340.63], (p=134, n=37, P=167, N=179)
+2026-04-14 12:04:19,703 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,776 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,776 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,776 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,776 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,797 - INFO - Iteracja 2: condition_best: Inhabitants >= 6.50, quality_best: 0.54, coverage_best: (p=134, n=35, P=167, N=179)
+2026-04-14 12:04:19,797 - INFO - Regula po iteracji 2: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 6.50 THEN class = {2,335.44} [1,318.88, 3,352.01], (p=134, n=35, P=167, N=179)
+2026-04-14 12:04:19,797 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,869 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,870 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,870 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,870 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,890 - INFO - Iteracja 3: condition_best: Distance <= 1,017.50, quality_best: 0.549, coverage_best: (p=134, n=34, P=167, N=179)
+2026-04-14 12:04:19,890 - INFO - Regula po iteracji 3: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 6.50 AND Distance <= 1,017.50 THEN class = {2,325.67} [1,314.03, 3,337.32], (p=134, n=34, P=167, N=179)
+2026-04-14 12:04:19,890 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,963 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,963 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:19,963 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,963 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,983 - INFO - Iteracja 4: condition_best: Inhabitants <= 260.00, quality_best: 0.545, coverage_best: (p=133, n=34, P=167, N=179)
+2026-04-14 12:04:19,983 - INFO - Regula po iteracji 4: IF Distance >= 447.50 AND Distance <= 1,034.17 AND Inhabitants >= 6.50 AND Distance <= 1,017.50 AND Inhabitants <= 260.00 THEN class = {2,321.10} [1,308.16, 3,334.03], (p=133, n=34, P=167, N=179)
+2026-04-14 12:04:19,984 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,056 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,056 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,056 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,056 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,056 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:20,057 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:20,094 - INFO - Iteracja 0: condition_best: Distance >= 447.50, quality_best: 0.509, coverage_best: (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:20,094 - INFO - Regula po iteracji 0: IF Distance >= 447.50 THEN class = {2,378.40} [1,322.31, 3,434.50], (p=138, n=40, P=169, N=177)
+2026-04-14 12:04:20,095 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,167 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,168 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,168 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,168 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,189 - INFO - Iteracja 1: condition_best: Distance <= 1,140.84, quality_best: 0.521, coverage_best: (p=136, n=38, P=168, N=178)
+2026-04-14 12:04:20,189 - INFO - Regula po iteracji 1: IF Distance >= 447.50 AND Distance <= 1,140.84 THEN class = {2,341.19} [1,305.35, 3,377.03], (p=136, n=38, P=168, N=178)
+2026-04-14 12:04:20,189 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,262 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,262 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,262 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,262 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,282 - INFO - Iteracja 2: condition_best: Distance >= 454.16, quality_best: 0.52, coverage_best: (p=133, n=37, P=167, N=179)
+2026-04-14 12:04:20,282 - INFO - Regula po iteracji 2: IF Distance >= 447.50 AND Distance <= 1,140.84 AND Distance >= 454.16 THEN class = {2,361.82} [1,323.98, 3,399.67], (p=133, n=37, P=167, N=179)
+2026-04-14 12:04:20,283 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,355 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,355 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,355 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,355 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,376 - INFO - Iteracja 3: condition_best: Inhabitants <= 260.00, quality_best: 0.513, coverage_best: (p=132, n=37, P=168, N=178)
+2026-04-14 12:04:20,376 - INFO - Regula po iteracji 3: IF Distance >= 447.50 AND Distance <= 1,140.84 AND Distance >= 454.16 AND Inhabitants <= 260.00 THEN class = {2,357.51} [1,318.12, 3,396.91], (p=132, n=37, P=168, N=178)
+2026-04-14 12:04:20,376 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,448 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,448 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,449 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,449 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,469 - INFO - Iteracja 4: condition_best: Distance >= 465.00, quality_best: 0.509, coverage_best: (p=124, n=36, P=162, N=184)
+2026-04-14 12:04:20,469 - INFO - Regula po iteracji 4: IF Distance >= 447.50 AND Distance <= 1,140.84 AND Distance >= 454.16 AND Inhabitants <= 260.00 AND Distance >= 465.00 THEN class = {2,405.43} [1,363.74, 3,447.12], (p=124, n=36, P=162, N=184)
+2026-04-14 12:04:20,469 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,542 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,542 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,542 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,542 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,542 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:20,543 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:20,580 - INFO - Iteracja 0: condition_best: Distance <= 428.34, quality_best: 0.497, coverage_best: (p=118, n=41, P=147, N=199)
+2026-04-14 12:04:20,580 - INFO - Regula po iteracji 0: IF Distance <= 428.34 THEN class = {935.35} [462.68, 1,408.03], (p=118, n=41, P=147, N=199)
+2026-04-14 12:04:20,581 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,653 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,653 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,653 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,653 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,671 - INFO - Iteracja 1: condition_best: Inhabitants <= 51.50, quality_best: 0.531, coverage_best: (p=105, n=35, P=133, N=213)
+2026-04-14 12:04:20,671 - INFO - Regula po iteracji 1: IF Distance <= 428.34 AND Inhabitants <= 51.50 THEN class = {871.80} [441.89, 1,301.71], (p=105, n=35, P=133, N=213)
+2026-04-14 12:04:20,671 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,743 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,743 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,743 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,743 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,758 - INFO - Iteracja 2: condition_best: Inhabitants >= 1.50, quality_best: 0.546, coverage_best: (p=104, n=33, P=132, N=214)
+2026-04-14 12:04:20,759 - INFO - Regula po iteracji 2: IF Distance <= 428.34 AND Inhabitants <= 51.50 AND Inhabitants >= 1.50 THEN class = {887.66} [466.88, 1,308.45], (p=104, n=33, P=132, N=214)
+2026-04-14 12:04:20,759 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,831 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,831 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,832 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,832 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,846 - INFO - Iteracja 3: condition_best: Inhabitants <= 41.50, quality_best: 0.551, coverage_best: (p=97, n=31, P=125, N=221)
+2026-04-14 12:04:20,846 - INFO - Regula po iteracji 3: IF Distance <= 428.34 AND Inhabitants <= 51.50 AND Inhabitants >= 1.50 AND Inhabitants <= 41.50 THEN class = {861.71} [456.37, 1,267.05], (p=97, n=31, P=125, N=221)
+2026-04-14 12:04:20,846 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,918 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,918 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:20,918 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,918 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,931 - INFO - Iteracja 4: condition_best: Distance >= 72.50, quality_best: 0.56, coverage_best: (p=97, n=30, P=125, N=221)
+2026-04-14 12:04:20,931 - INFO - Regula po iteracji 4: IF Distance <= 428.34 AND Inhabitants <= 51.50 AND Inhabitants >= 1.50 AND Inhabitants <= 41.50 AND Distance >= 72.50 THEN class = {867.57} [466.07, 1,269.07], (p=97, n=30, P=125, N=221)
+2026-04-14 12:04:20,932 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,004 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,004 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,004 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,004 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,004 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:21,004 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:21,042 - INFO - Iteracja 0: condition_best: Distance <= 428.34, quality_best: 0.497, coverage_best: (p=118, n=41, P=147, N=199)
+2026-04-14 12:04:21,042 - INFO - Regula po iteracji 0: IF Distance <= 428.34 THEN class = {935.35} [462.68, 1,408.03], (p=118, n=41, P=147, N=199)
+2026-04-14 12:04:21,042 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,115 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,115 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,115 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,115 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,133 - INFO - Iteracja 1: condition_best: Inhabitants <= 101.50, quality_best: 0.504, coverage_best: (p=117, n=40, P=146, N=200)
+2026-04-14 12:04:21,133 - INFO - Regula po iteracji 1: IF Distance <= 428.34 AND Inhabitants <= 101.50 THEN class = {928.18} [459.86, 1,396.51], (p=117, n=40, P=146, N=200)
+2026-04-14 12:04:21,133 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,205 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,206 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,206 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,206 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,223 - INFO - Iteracja 2: condition_best: Inhabitants <= 85.50, quality_best: 0.503, coverage_best: (p=116, n=40, P=145, N=201)
+2026-04-14 12:04:21,223 - INFO - Regula po iteracji 2: IF Distance <= 428.34 AND Inhabitants <= 101.50 AND Inhabitants <= 85.50 THEN class = {925.08} [456.87, 1,393.30], (p=116, n=40, P=145, N=201)
+2026-04-14 12:04:21,223 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,296 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,296 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,296 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,296 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,313 - INFO - Iteracja 3: condition_best: Distance >= 70.00, quality_best: 0.51, coverage_best: (p=116, n=39, P=145, N=201)
+2026-04-14 12:04:21,314 - INFO - Regula po iteracji 3: IF Distance <= 428.34 AND Inhabitants <= 101.50 AND Inhabitants <= 85.50 AND Distance >= 70.00 THEN class = {930.29} [465.09, 1,395.49], (p=116, n=39, P=145, N=201)
+2026-04-14 12:04:21,314 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,386 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,387 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,387 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,387 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,404 - INFO - Iteracja 4: condition_best: Distance >= 82.50, quality_best: 0.509, coverage_best: (p=115, n=39, P=144, N=202)
+2026-04-14 12:04:21,404 - INFO - Regula po iteracji 4: IF Distance <= 428.34 AND Inhabitants <= 101.50 AND Inhabitants <= 85.50 AND Distance >= 70.00 AND Distance >= 82.50 THEN class = {935.81} [474.19, 1,397.43], (p=115, n=39, P=144, N=202)
+2026-04-14 12:04:21,404 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,477 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,477 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,477 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,477 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,477 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:21,478 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:21,515 - INFO - Iteracja 0: condition_best: Distance >= 445.00, quality_best: 0.494, coverage_best: (p=138, n=42, P=169, N=177)
+2026-04-14 12:04:21,515 - INFO - Regula po iteracji 0: IF Distance >= 445.00 THEN class = {2,367.04} [1,310.00, 3,424.09], (p=138, n=42, P=169, N=177)
+2026-04-14 12:04:21,515 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,588 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,588 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,588 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,588 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,609 - INFO - Iteracja 1: condition_best: Inhabitants >= 6.50, quality_best: 0.513, coverage_best: (p=138, n=40, P=168, N=178)
+2026-04-14 12:04:21,609 - INFO - Regula po iteracji 1: IF Distance >= 445.00 AND Inhabitants >= 6.50 THEN class = {2,381.58} [1,327.85, 3,435.31], (p=138, n=40, P=168, N=178)
+2026-04-14 12:04:21,609 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,682 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,682 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,682 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,682 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,704 - INFO - Iteracja 2: condition_best: Distance <= 1,516.66, quality_best: 0.521, coverage_best: (p=138, n=39, P=168, N=178)
+2026-04-14 12:04:21,704 - INFO - Regula po iteracji 2: IF Distance >= 445.00 AND Inhabitants >= 6.50 AND Distance <= 1,516.66 THEN class = {2,373.97} [1,322.16, 3,425.78], (p=138, n=39, P=168, N=178)
+2026-04-14 12:04:21,704 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,776 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,777 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,777 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,777 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,798 - INFO - Iteracja 3: condition_best: Inhabitants >= 11.50, quality_best: 0.518, coverage_best: (p=125, n=39, P=154, N=192)
+2026-04-14 12:04:21,798 - INFO - Regula po iteracji 3: IF Distance >= 445.00 AND Inhabitants >= 6.50 AND Distance <= 1,516.66 AND Inhabitants >= 11.50 THEN class = {2,459.13} [1,420.27, 3,497.99], (p=125, n=39, P=154, N=192)
+2026-04-14 12:04:21,798 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,871 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,871 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,871 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,871 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,891 - INFO - Iteracja 4: condition_best: Inhabitants <= 127.50, quality_best: 0.513, coverage_best: (p=122, n=37, P=156, N=190)
+2026-04-14 12:04:21,892 - INFO - Regula po iteracji 4: IF Distance >= 445.00 AND Inhabitants >= 6.50 AND Distance <= 1,516.66 AND Inhabitants >= 11.50 AND Inhabitants <= 127.50 THEN class = {2,421.57} [1,403.27, 3,439.88], (p=122, n=37, P=156, N=190)
+2026-04-14 12:04:21,892 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,964 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,964 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:21,964 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,964 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,964 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:21,965 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:22,002 - INFO - Iteracja 0: condition_best: Distance >= 428.34, quality_best: 0.487, coverage_best: (p=143, n=44, P=172, N=174)
+2026-04-14 12:04:22,002 - INFO - Regula po iteracji 0: IF Distance >= 428.34 THEN class = {2,338.52} [1,285.58, 3,391.46], (p=143, n=44, P=172, N=174)
+2026-04-14 12:04:22,002 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:22,074 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:22,074 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:22,075 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:22,075 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:22,096 - INFO - Iteracja 1: condition_best: Inhabitants >= 12.50, quality_best: 0.531, coverage_best: (p=130, n=40, P=154, N=192)
+2026-04-14 12:04:22,096 - INFO - Regula po iteracji 1: IF Distance >= 428.34 AND Inhabitants >= 12.50 THEN class = {2,449.14} [1,416.07, 3,482.20], (p=130, n=40, P=154, N=192)
+2026-04-14 12:04:22,097 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:22,169 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:22,169 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:22,169 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:22,169 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:22,190 - INFO - Iteracja 2: condition_best: Distance <= 1,017.50, quality_best: 0.575, coverage_best: (p=129, n=33, P=156, N=190)
+2026-04-14 12:04:22,190 - INFO - Regula po iteracji 2: IF Distance >= 428.34 AND Inhabitants >= 12.50 AND Distance <= 1,017.50 THEN class = {2,381.83} [1,389.10, 3,374.55], (p=129, n=33, P=156, N=190)
+2026-04-14 12:04:22,190 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:22,262 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:22,262 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:22,263 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:22,263 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:22,282 - INFO - Iteracja 3: condition_best: Distance <= 1,015.00, quality_best: 0.57, coverage_best: (p=128, n=33, P=156, N=190)
+2026-04-14 12:04:22,282 - INFO - Regula po iteracji 3: IF Distance >= 428.34 AND Inhabitants >= 12.50 AND Distance <= 1,017.50 AND Distance <= 1,015.00 THEN class = {2,371.49} [1,384.41, 3,358.57], (p=128, n=33, P=156, N=190)
+2026-04-14 12:04:22,283 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:22,355 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:22,355 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:22,355 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:22,355 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:22,375 - INFO - Iteracja 4: condition_best: Inhabitants >= 13.50, quality_best: 0.577, coverage_best: (p=126, n=32, P=154, N=192)
+2026-04-14 12:04:22,375 - INFO - Regula po iteracji 4: IF Distance >= 428.34 AND Inhabitants >= 12.50 AND Distance <= 1,017.50 AND Distance <= 1,015.00 AND Inhabitants >= 13.50 THEN class = {2,388.10} [1,401.80, 3,374.40], (p=126, n=32, P=154, N=192)
+2026-04-14 12:04:22,376 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:22,448 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:22,448 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:22,448 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:22,448 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:22,448 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:22,449 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:22,485 - INFO - Iteracja 0: condition_best: Inhabitants >= 260.00, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=345)
+2026-04-14 12:04:22,485 - INFO - Regula po iteracji 0: IF Inhabitants >= 260.00 THEN class = {3,090.00} [3,090.00, 3,090.00], (p=1, n=0, P=1, N=345)
+2026-04-14 12:04:22,486 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:22,556 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:22,556 - INFO - Regula po iteracji 0: IF  THEN class = {1,693.71} [602.44, 2,784.98], (p=254, n=92, P=254, N=92)
+2026-04-14 12:04:22,556 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:22,556 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:22,556 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:22,556 - INFO - Regula po iteracji 1: IF Inhabitants >= 260.00 THEN class = {3,090.00} [3,090.00, 3,090.00], (p=1, n=0, P=1, N=345)
+2026-04-14 12:04:22,556 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:22,566 - INFO - ************************Finished experiment for ele-1.arff with algorithm_rer_with_exceptions************************
+2026-04-14 12:04:22,566 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:22,566 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:22,566 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:22,566 - INFO - **********Starting experiment for ele-1.arff with decision_tree**********
+2026-04-14 12:04:22,582 - INFO - ************************Finished experiment for ele-1.arff with decision_tree************************
+2026-04-14 12:04:22,582 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:22,582 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:22,582 - INFO - *************************************************************************************************************************

@@ -1,0 +1,444 @@
+2026-04-14 11:58:18,000 - INFO - **********Starting experiment for auto93.arff with algorithm_rulekit**********
+2026-04-14 11:58:18,168 - INFO - ************************Finished experiment for auto93.arff with algorithm_rulekit************************
+2026-04-14 11:58:18,168 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:18,168 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:18,168 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:18,169 - INFO - **********Starting experiment for auto93.arff with algorithm_rer**********
+2026-04-14 11:58:18,176 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:18,235 - INFO - Iteracja 0: condition_best: Horsepower <= 91.00, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,235 - INFO - Regula po iteracji 0: IF Horsepower <= 91.00 THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,242 - INFO - Iteracja 1: condition_best: Type = {Small}, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,242 - INFO - Regula po iteracji 1: IF Horsepower <= 91.00 AND Type = {Small} THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,248 - INFO - Iteracja 2: condition_best: Air_Bags_standard = {0}, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,248 - INFO - Regula po iteracji 2: IF Horsepower <= 91.00 AND Type = {Small} AND Air_Bags_standard = {0} THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,254 - INFO - Iteracja 3: condition_best: Manual_transmission_available = {1}, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,254 - INFO - Regula po iteracji 3: IF Horsepower <= 91.00 AND Type = {Small} AND Air_Bags_standard = {0} AND Manual_transmission_available = {1} THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,260 - INFO - Iteracja 4: condition_best: Domestic = {0}, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,260 - INFO - Regula po iteracji 4: IF Horsepower <= 91.00 AND Type = {Small} AND Air_Bags_standard = {0} AND Manual_transmission_available = {1} AND Domestic = {0} THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:18,261 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:18,261 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:18,301 - INFO - Iteracja 0: condition_best: Weight <= 2,890.00, quality_best: 0.82, coverage_best: (p=21, n=1, P=27, N=38)
+2026-04-14 11:58:18,301 - INFO - Regula po iteracji 0: IF Weight <= 2,890.00 THEN class = {11.91} [7.65, 16.17], (p=21, n=1, P=27, N=38)
+2026-04-14 11:58:18,320 - INFO - Iteracja 1: condition_best: Manual_transmission_available = {1}, quality_best: 0.799, coverage_best: (p=20, n=1, P=27, N=38)
+2026-04-14 11:58:18,320 - INFO - Regula po iteracji 1: IF Weight <= 2,890.00 AND Manual_transmission_available = {1} THEN class = {11.73} [7.45, 16.01], (p=20, n=1, P=27, N=38)
+2026-04-14 11:58:18,337 - INFO - Iteracja 2: condition_best: City_MPG <= 44.00, quality_best: 0.779, coverage_best: (p=19, n=1, P=27, N=38)
+2026-04-14 11:58:18,337 - INFO - Regula po iteracji 2: IF Weight <= 2,890.00 AND Manual_transmission_available = {1} AND City_MPG <= 44.00 THEN class = {11.90} [7.58, 16.22], (p=19, n=1, P=27, N=38)
+2026-04-14 11:58:18,353 - INFO - Iteracja 3: condition_best: City_MPG <= 40.50, quality_best: 0.758, coverage_best: (p=18, n=1, P=27, N=38)
+2026-04-14 11:58:18,354 - INFO - Regula po iteracji 3: IF Weight <= 2,890.00 AND Manual_transmission_available = {1} AND City_MPG <= 44.00 AND City_MPG <= 40.50 THEN class = {11.89} [7.46, 16.32], (p=18, n=1, P=27, N=38)
+2026-04-14 11:58:18,370 - INFO - Iteracja 4: condition_best: Engine_size <= 2.25, quality_best: 0.737, coverage_best: (p=17, n=1, P=27, N=38)
+2026-04-14 11:58:18,370 - INFO - Regula po iteracji 4: IF Weight <= 2,890.00 AND Manual_transmission_available = {1} AND City_MPG <= 44.00 AND City_MPG <= 40.50 AND Engine_size <= 2.25 THEN class = {11.92} [7.37, 16.47], (p=17, n=1, P=27, N=38)
+2026-04-14 11:58:18,370 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:18,370 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:18,410 - INFO - Iteracja 0: condition_best: Fuel_tank_capacity <= 15.65, quality_best: 0.651, coverage_best: (p=18, n=2, P=30, N=35)
+2026-04-14 11:58:18,410 - INFO - Regula po iteracji 0: IF Fuel_tank_capacity <= 15.65 THEN class = {12.42} [7.17, 17.67], (p=18, n=2, P=30, N=35)
+2026-04-14 11:58:18,427 - INFO - Iteracja 1: condition_best: City_MPG <= 44.00, quality_best: 0.711, coverage_best: (p=18, n=1, P=31, N=34)
+2026-04-14 11:58:18,427 - INFO - Regula po iteracji 1: IF Fuel_tank_capacity <= 15.65 AND City_MPG <= 44.00 THEN class = {12.63} [7.33, 17.93], (p=18, n=1, P=31, N=34)
+2026-04-14 11:58:18,442 - INFO - Iteracja 2: condition_best: Manual_transmission_available = {1}, quality_best: 0.711, coverage_best: (p=18, n=1, P=31, N=34)
+2026-04-14 11:58:18,442 - INFO - Regula po iteracji 2: IF Fuel_tank_capacity <= 15.65 AND City_MPG <= 44.00 AND Manual_transmission_available = {1} THEN class = {12.63} [7.33, 17.93], (p=18, n=1, P=31, N=34)
+2026-04-14 11:58:18,457 - INFO - Iteracja 3: condition_best: Highway_MPG >= 27.00, quality_best: 0.692, coverage_best: (p=17, n=1, P=31, N=34)
+2026-04-14 11:58:18,457 - INFO - Regula po iteracji 3: IF Fuel_tank_capacity <= 15.65 AND City_MPG <= 44.00 AND Manual_transmission_available = {1} AND Highway_MPG >= 27.00 THEN class = {12.55} [7.12, 17.98], (p=17, n=1, P=31, N=34)
+2026-04-14 11:58:18,472 - INFO - Iteracja 4: condition_best: Luggage_capacity <= 17.00, quality_best: 0.673, coverage_best: (p=16, n=1, P=31, N=34)
+2026-04-14 11:58:18,472 - INFO - Regula po iteracji 4: IF Fuel_tank_capacity <= 15.65 AND City_MPG <= 44.00 AND Manual_transmission_available = {1} AND Highway_MPG >= 27.00 AND Luggage_capacity <= 17.00 THEN class = {12.46} [6.88, 18.04], (p=16, n=1, P=31, N=34)
+2026-04-14 11:58:18,472 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:18,473 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:18,512 - INFO - Iteracja 0: condition_best: Engine_size >= 2.90, quality_best: 0.628, coverage_best: (p=24, n=2, P=41, N=24)
+2026-04-14 11:58:18,512 - INFO - Regula po iteracji 0: IF Engine_size >= 2.90 THEN class = {25.51} [14.81, 36.20], (p=24, n=2, P=41, N=24)
+2026-04-14 11:58:18,532 - INFO - Iteracja 1: condition_best: Weight <= 3,930.00, quality_best: 0.648, coverage_best: (p=20, n=1, P=41, N=24)
+2026-04-14 11:58:18,532 - INFO - Regula po iteracji 1: IF Engine_size >= 2.90 AND Weight <= 3,930.00 THEN class = {24.67} [14.34, 35.00], (p=20, n=1, P=41, N=24)
+2026-04-14 11:58:18,548 - INFO - Iteracja 2: condition_best: City_MPG <= 22.00, quality_best: 0.642, coverage_best: (p=19, n=1, P=40, N=25)
+2026-04-14 11:58:18,548 - INFO - Regula po iteracji 2: IF Engine_size >= 2.90 AND Weight <= 3,930.00 AND City_MPG <= 22.00 THEN class = {25.11} [14.72, 35.50], (p=19, n=1, P=40, N=25)
+2026-04-14 11:58:18,563 - INFO - Iteracja 3: condition_best: City_MPG <= 20.50, quality_best: 0.626, coverage_best: (p=18, n=1, P=40, N=25)
+2026-04-14 11:58:18,563 - INFO - Regula po iteracji 3: IF Engine_size >= 2.90 AND Weight <= 3,930.00 AND City_MPG <= 22.00 AND City_MPG <= 20.50 THEN class = {25.37} [14.77, 35.96], (p=18, n=1, P=40, N=25)
+2026-04-14 11:58:18,578 - INFO - Iteracja 4: condition_best: City_MPG >= 16.50, quality_best: 0.601, coverage_best: (p=17, n=1, P=41, N=24)
+2026-04-14 11:58:18,578 - INFO - Regula po iteracji 4: IF Engine_size >= 2.90 AND Weight <= 3,930.00 AND City_MPG <= 22.00 AND City_MPG <= 20.50 AND City_MPG >= 16.50 THEN class = {24.85} [14.20, 35.50], (p=17, n=1, P=41, N=24)
+2026-04-14 11:58:18,578 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:18,579 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:18,617 - INFO - Iteracja 0: condition_best: Engine_size >= 2.90, quality_best: 0.628, coverage_best: (p=24, n=2, P=41, N=24)
+2026-04-14 11:58:18,617 - INFO - Regula po iteracji 0: IF Engine_size >= 2.90 THEN class = {25.51} [14.81, 36.20], (p=24, n=2, P=41, N=24)
+2026-04-14 11:58:18,635 - INFO - Iteracja 1: condition_best: Highway_MPG <= 29.00, quality_best: 0.611, coverage_best: (p=23, n=2, P=41, N=24)
+2026-04-14 11:58:18,635 - INFO - Regula po iteracji 1: IF Engine_size >= 2.90 AND Highway_MPG <= 29.00 THEN class = {25.72} [14.87, 36.57], (p=23, n=2, P=41, N=24)
+2026-04-14 11:58:18,653 - INFO - Iteracja 2: condition_best: Engine_size <= 5.35, quality_best: 0.595, coverage_best: (p=22, n=2, P=41, N=24)
+2026-04-14 11:58:18,654 - INFO - Regula po iteracji 2: IF Engine_size >= 2.90 AND Highway_MPG <= 29.00 AND Engine_size <= 5.35 THEN class = {25.80} [14.74, 36.87], (p=22, n=2, P=41, N=24)
+2026-04-14 11:58:18,671 - INFO - Iteracja 3: condition_best: Horsepower <= 289.00, quality_best: 0.578, coverage_best: (p=21, n=2, P=41, N=24)
+2026-04-14 11:58:18,671 - INFO - Regula po iteracji 3: IF Engine_size >= 2.90 AND Highway_MPG <= 29.00 AND Engine_size <= 5.35 AND Horsepower <= 289.00 THEN class = {25.80} [14.50, 37.11], (p=21, n=2, P=41, N=24)
+2026-04-14 11:58:18,689 - INFO - Iteracja 4: condition_best: Horsepower >= 140.50, quality_best: 0.573, coverage_best: (p=20, n=2, P=40, N=25)
+2026-04-14 11:58:18,689 - INFO - Regula po iteracji 4: IF Engine_size >= 2.90 AND Highway_MPG <= 29.00 AND Engine_size <= 5.35 AND Horsepower <= 289.00 AND Horsepower >= 140.50 THEN class = {26.30} [14.99, 37.61], (p=20, n=2, P=40, N=25)
+2026-04-14 11:58:18,689 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:18,689 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:18,727 - INFO - Iteracja 0: condition_best: Weight >= 3,035.00, quality_best: 0.624, coverage_best: (p=31, n=4, P=40, N=25)
+2026-04-14 11:58:18,727 - INFO - Regula po iteracji 0: IF Weight >= 3,035.00 THEN class = {24.79} [14.87, 34.72], (p=31, n=4, P=40, N=25)
+2026-04-14 11:58:18,750 - INFO - Iteracja 1: condition_best: Length <= 213.00, quality_best: 0.652, coverage_best: (p=29, n=3, P=40, N=25)
+2026-04-14 11:58:18,750 - INFO - Regula po iteracji 1: IF Weight >= 3,035.00 AND Length <= 213.00 THEN class = {24.66} [14.53, 34.79], (p=29, n=3, P=40, N=25)
+2026-04-14 11:58:18,772 - INFO - Iteracja 2: condition_best: Engine_revolutions_per_mile <= 2,525.00, quality_best: 0.672, coverage_best: (p=26, n=2, P=40, N=25)
+2026-04-14 11:58:18,772 - INFO - Regula po iteracji 2: IF Weight >= 3,035.00 AND Length <= 213.00 AND Engine_revolutions_per_mile <= 2,525.00 THEN class = {24.94} [14.66, 35.22], (p=26, n=2, P=40, N=25)
+2026-04-14 11:58:18,791 - INFO - Iteracja 3: condition_best: Fuel_tank_capacity <= 19.55, quality_best: 0.672, coverage_best: (p=21, n=1, P=40, N=25)
+2026-04-14 11:58:18,791 - INFO - Regula po iteracji 3: IF Weight >= 3,035.00 AND Length <= 213.00 AND Engine_revolutions_per_mile <= 2,525.00 AND Fuel_tank_capacity <= 19.55 THEN class = {24.79} [14.56, 35.02], (p=21, n=1, P=40, N=25)
+2026-04-14 11:58:18,807 - INFO - Iteracja 4: condition_best: RPM >= 3,950.00, quality_best: 0.666, coverage_best: (p=20, n=1, P=39, N=26)
+2026-04-14 11:58:18,808 - INFO - Regula po iteracji 4: IF Weight >= 3,035.00 AND Length <= 213.00 AND Engine_revolutions_per_mile <= 2,525.00 AND Fuel_tank_capacity <= 19.55 AND RPM >= 3,950.00 THEN class = {25.26} [15.02, 35.50], (p=20, n=1, P=39, N=26)
+2026-04-14 11:58:18,808 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:18,808 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:18,846 - INFO - Iteracja 0: condition_best: Weight >= 3,035.00, quality_best: 0.624, coverage_best: (p=31, n=4, P=40, N=25)
+2026-04-14 11:58:18,846 - INFO - Regula po iteracji 0: IF Weight >= 3,035.00 THEN class = {24.79} [14.87, 34.72], (p=31, n=4, P=40, N=25)
+2026-04-14 11:58:18,868 - INFO - Iteracja 1: condition_best: Length <= 213.00, quality_best: 0.652, coverage_best: (p=29, n=3, P=40, N=25)
+2026-04-14 11:58:18,869 - INFO - Regula po iteracji 1: IF Weight >= 3,035.00 AND Length <= 213.00 THEN class = {24.66} [14.53, 34.79], (p=29, n=3, P=40, N=25)
+2026-04-14 11:58:18,890 - INFO - Iteracja 2: condition_best: City_MPG >= 15.50, quality_best: 0.636, coverage_best: (p=28, n=3, P=40, N=25)
+2026-04-14 11:58:18,890 - INFO - Regula po iteracji 2: IF Weight >= 3,035.00 AND Length <= 213.00 AND City_MPG >= 15.50 THEN class = {24.92} [14.73, 35.10], (p=28, n=3, P=40, N=25)
+2026-04-14 11:58:18,910 - INFO - Iteracja 3: condition_best: RPM >= 3,950.00, quality_best: 0.635, coverage_best: (p=27, n=3, P=39, N=26)
+2026-04-14 11:58:18,910 - INFO - Regula po iteracji 3: IF Weight >= 3,035.00 AND Length <= 213.00 AND City_MPG >= 15.50 AND RPM >= 3,950.00 THEN class = {25.25} [15.07, 35.44], (p=27, n=3, P=39, N=26)
+2026-04-14 11:58:18,931 - INFO - Iteracja 4: condition_best: Engine_revolutions_per_mile >= 1,462.50, quality_best: 0.618, coverage_best: (p=26, n=3, P=39, N=26)
+2026-04-14 11:58:18,931 - INFO - Regula po iteracji 4: IF Weight >= 3,035.00 AND Length <= 213.00 AND City_MPG >= 15.50 AND RPM >= 3,950.00 AND Engine_revolutions_per_mile >= 1,462.50 THEN class = {25.40} [15.08, 35.73], (p=26, n=3, P=39, N=26)
+2026-04-14 11:58:18,931 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:18,931 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:18,969 - INFO - Iteracja 0: condition_best: Horsepower >= 129.00, quality_best: 0.562, coverage_best: (p=33, n=7, P=37, N=28)
+2026-04-14 11:58:18,969 - INFO - Regula po iteracji 0: IF Horsepower >= 129.00 THEN class = {24.96} [15.41, 34.50], (p=33, n=7, P=37, N=28)
+2026-04-14 11:58:18,996 - INFO - Iteracja 1: condition_best: Rear_seat_room <= 34.00, quality_best: 0.674, coverage_best: (p=33, n=4, P=39, N=26)
+2026-04-14 11:58:18,996 - INFO - Regula po iteracji 1: IF Horsepower >= 129.00 AND Rear_seat_room <= 34.00 THEN class = {24.63} [14.88, 34.38], (p=33, n=4, P=39, N=26)
+2026-04-14 11:58:19,021 - INFO - Iteracja 2: condition_best: Length <= 217.50, quality_best: 0.675, coverage_best: (p=32, n=4, P=38, N=27)
+2026-04-14 11:58:19,021 - INFO - Regula po iteracji 2: IF Horsepower >= 129.00 AND Rear_seat_room <= 34.00 AND Length <= 217.50 THEN class = {24.31} [14.62, 34.01], (p=32, n=4, P=38, N=27)
+2026-04-14 11:58:19,046 - INFO - Iteracja 3: condition_best: Highway_MPG >= 21.50, quality_best: 0.699, coverage_best: (p=31, n=3, P=39, N=26)
+2026-04-14 11:58:19,046 - INFO - Regula po iteracji 3: IF Horsepower >= 129.00 AND Rear_seat_room <= 34.00 AND Length <= 217.50 AND Highway_MPG >= 21.50 THEN class = {24.70} [14.86, 34.54], (p=31, n=3, P=39, N=26)
+2026-04-14 11:58:19,070 - INFO - Iteracja 4: condition_best: Horsepower <= 289.00, quality_best: 0.684, coverage_best: (p=30, n=3, P=39, N=26)
+2026-04-14 11:58:19,070 - INFO - Regula po iteracji 4: IF Horsepower >= 129.00 AND Rear_seat_room <= 34.00 AND Length <= 217.50 AND Highway_MPG >= 21.50 AND Horsepower <= 289.00 THEN class = {24.66} [14.68, 34.65], (p=30, n=3, P=39, N=26)
+2026-04-14 11:58:19,070 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:19,070 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:19,108 - INFO - Iteracja 0: condition_best: Engine_size <= 1.25, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,108 - INFO - Regula po iteracji 0: IF Engine_size <= 1.25 THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,110 - INFO - Iteracja 1: condition_best: Type = {Small}, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,110 - INFO - Regula po iteracji 1: IF Engine_size <= 1.25 AND Type = {Small} THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,112 - INFO - Iteracja 2: condition_best: Air_Bags_standard = {0}, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,112 - INFO - Regula po iteracji 2: IF Engine_size <= 1.25 AND Type = {Small} AND Air_Bags_standard = {0} THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,114 - INFO - Iteracja 3: condition_best: Manual_transmission_available = {1}, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,114 - INFO - Regula po iteracji 3: IF Engine_size <= 1.25 AND Type = {Small} AND Air_Bags_standard = {0} AND Manual_transmission_available = {1} THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,116 - INFO - Iteracja 4: condition_best: Domestic = {0}, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,116 - INFO - Regula po iteracji 4: IF Engine_size <= 1.25 AND Type = {Small} AND Air_Bags_standard = {0} AND Manual_transmission_available = {1} AND Domestic = {0} THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:19,116 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:19,123 - INFO - ************************Finished experiment for auto93.arff with algorithm_rer************************
+2026-04-14 11:58:19,123 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:19,123 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:19,123 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:19,124 - INFO - **********Starting experiment for auto93.arff with algorithm_rer_with_exceptions**********
+2026-04-14 11:58:19,131 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:19,189 - INFO - Iteracja 0: condition_best: Horsepower <= 91.00, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,189 - INFO - Regula po iteracji 0: IF Horsepower <= 91.00 THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,189 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:19,264 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:19,264 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:19,264 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:19,264 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:19,271 - INFO - Iteracja 1: condition_best: Type = {Small}, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,271 - INFO - Regula po iteracji 1: IF Horsepower <= 91.00 AND Type = {Small} THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,271 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:19,345 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:19,346 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:19,346 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:19,346 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:19,352 - INFO - Iteracja 2: condition_best: Air_Bags_standard = {0}, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,352 - INFO - Regula po iteracji 2: IF Horsepower <= 91.00 AND Type = {Small} AND Air_Bags_standard = {0} THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,352 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:19,426 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:19,427 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:19,427 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:19,427 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:19,433 - INFO - Iteracja 3: condition_best: Manual_transmission_available = {1}, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,433 - INFO - Regula po iteracji 3: IF Horsepower <= 91.00 AND Type = {Small} AND Air_Bags_standard = {0} AND Manual_transmission_available = {1} THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,433 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:19,507 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:19,507 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:19,507 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:19,507 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:19,513 - INFO - Iteracja 4: condition_best: Domestic = {0}, quality_best: 0.843, coverage_best: (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,513 - INFO - Regula po iteracji 4: IF Horsepower <= 91.00 AND Type = {Small} AND Air_Bags_standard = {0} AND Manual_transmission_available = {1} AND Domestic = {0} THEN class = {8.81} [7.91, 9.72], (p=6, n=1, P=6, N=59)
+2026-04-14 11:58:19,513 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:19,587 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:19,587 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:19,588 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:19,588 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:19,588 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:19,588 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:19,627 - INFO - Iteracja 0: condition_best: Weight <= 2,890.00, quality_best: 0.82, coverage_best: (p=21, n=1, P=27, N=38)
+2026-04-14 11:58:19,627 - INFO - Regula po iteracji 0: IF Weight <= 2,890.00 THEN class = {11.91} [7.65, 16.17], (p=21, n=1, P=27, N=38)
+2026-04-14 11:58:19,628 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:19,701 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:19,702 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:19,702 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:19,702 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:19,720 - INFO - Iteracja 1: condition_best: Manual_transmission_available = {1}, quality_best: 0.799, coverage_best: (p=20, n=1, P=27, N=38)
+2026-04-14 11:58:19,720 - INFO - Regula po iteracji 1: IF Weight <= 2,890.00 AND Manual_transmission_available = {1} THEN class = {11.73} [7.45, 16.01], (p=20, n=1, P=27, N=38)
+2026-04-14 11:58:19,720 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:19,793 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:19,793 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:19,793 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:19,793 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:19,810 - INFO - Iteracja 2: condition_best: City_MPG <= 44.00, quality_best: 0.779, coverage_best: (p=19, n=1, P=27, N=38)
+2026-04-14 11:58:19,810 - INFO - Regula po iteracji 2: IF Weight <= 2,890.00 AND Manual_transmission_available = {1} AND City_MPG <= 44.00 THEN class = {11.90} [7.58, 16.22], (p=19, n=1, P=27, N=38)
+2026-04-14 11:58:19,810 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:19,884 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:19,884 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:19,884 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:19,884 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:19,900 - INFO - Iteracja 3: condition_best: City_MPG <= 40.50, quality_best: 0.758, coverage_best: (p=18, n=1, P=27, N=38)
+2026-04-14 11:58:19,900 - INFO - Regula po iteracji 3: IF Weight <= 2,890.00 AND Manual_transmission_available = {1} AND City_MPG <= 44.00 AND City_MPG <= 40.50 THEN class = {11.89} [7.46, 16.32], (p=18, n=1, P=27, N=38)
+2026-04-14 11:58:19,901 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:19,974 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:19,975 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:19,975 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:19,975 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:19,991 - INFO - Iteracja 4: condition_best: Engine_size <= 2.25, quality_best: 0.737, coverage_best: (p=17, n=1, P=27, N=38)
+2026-04-14 11:58:19,991 - INFO - Regula po iteracji 4: IF Weight <= 2,890.00 AND Manual_transmission_available = {1} AND City_MPG <= 44.00 AND City_MPG <= 40.50 AND Engine_size <= 2.25 THEN class = {11.92} [7.37, 16.47], (p=17, n=1, P=27, N=38)
+2026-04-14 11:58:19,991 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:20,065 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:20,065 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:20,065 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:20,065 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:20,065 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:20,066 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:20,105 - INFO - Iteracja 0: condition_best: Fuel_tank_capacity <= 15.65, quality_best: 0.651, coverage_best: (p=18, n=2, P=30, N=35)
+2026-04-14 11:58:20,105 - INFO - Regula po iteracji 0: IF Fuel_tank_capacity <= 15.65 THEN class = {12.42} [7.17, 17.67], (p=18, n=2, P=30, N=35)
+2026-04-14 11:58:20,105 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:20,178 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:20,178 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:20,179 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:20,179 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:20,196 - INFO - Iteracja 1: condition_best: City_MPG <= 44.00, quality_best: 0.711, coverage_best: (p=18, n=1, P=31, N=34)
+2026-04-14 11:58:20,196 - INFO - Regula po iteracji 1: IF Fuel_tank_capacity <= 15.65 AND City_MPG <= 44.00 THEN class = {12.63} [7.33, 17.93], (p=18, n=1, P=31, N=34)
+2026-04-14 11:58:20,196 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:20,270 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:20,270 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:20,270 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:20,270 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:20,285 - INFO - Iteracja 2: condition_best: Manual_transmission_available = {1}, quality_best: 0.711, coverage_best: (p=18, n=1, P=31, N=34)
+2026-04-14 11:58:20,285 - INFO - Regula po iteracji 2: IF Fuel_tank_capacity <= 15.65 AND City_MPG <= 44.00 AND Manual_transmission_available = {1} THEN class = {12.63} [7.33, 17.93], (p=18, n=1, P=31, N=34)
+2026-04-14 11:58:20,285 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:20,360 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:20,360 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:20,360 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:20,360 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:20,375 - INFO - Iteracja 3: condition_best: Highway_MPG >= 27.00, quality_best: 0.692, coverage_best: (p=17, n=1, P=31, N=34)
+2026-04-14 11:58:20,375 - INFO - Regula po iteracji 3: IF Fuel_tank_capacity <= 15.65 AND City_MPG <= 44.00 AND Manual_transmission_available = {1} AND Highway_MPG >= 27.00 THEN class = {12.55} [7.12, 17.98], (p=17, n=1, P=31, N=34)
+2026-04-14 11:58:20,376 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:20,449 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:20,450 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:20,450 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:20,450 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:20,465 - INFO - Iteracja 4: condition_best: Luggage_capacity <= 17.00, quality_best: 0.673, coverage_best: (p=16, n=1, P=31, N=34)
+2026-04-14 11:58:20,465 - INFO - Regula po iteracji 4: IF Fuel_tank_capacity <= 15.65 AND City_MPG <= 44.00 AND Manual_transmission_available = {1} AND Highway_MPG >= 27.00 AND Luggage_capacity <= 17.00 THEN class = {12.46} [6.88, 18.04], (p=16, n=1, P=31, N=34)
+2026-04-14 11:58:20,465 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:20,538 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:20,538 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:20,538 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:20,538 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:20,538 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:20,539 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:20,577 - INFO - Iteracja 0: condition_best: Engine_size >= 2.90, quality_best: 0.628, coverage_best: (p=24, n=2, P=41, N=24)
+2026-04-14 11:58:20,577 - INFO - Regula po iteracji 0: IF Engine_size >= 2.90 THEN class = {25.51} [14.81, 36.20], (p=24, n=2, P=41, N=24)
+2026-04-14 11:58:20,578 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:20,673 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:20,673 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:20,673 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:20,673 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:20,693 - INFO - Iteracja 1: condition_best: Weight <= 3,930.00, quality_best: 0.648, coverage_best: (p=20, n=1, P=41, N=24)
+2026-04-14 11:58:20,693 - INFO - Regula po iteracji 1: IF Engine_size >= 2.90 AND Weight <= 3,930.00 THEN class = {24.67} [14.34, 35.00], (p=20, n=1, P=41, N=24)
+2026-04-14 11:58:20,693 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:20,774 - INFO - Iteracja 0: condition_best: Domestic = {0}, quality_best: -0.232, coverage_best: (p=27, n=6, P=56, N=9), p_value: 3
+2026-04-14 11:58:20,774 - INFO - Regula po iteracji 0: IF Domestic = {0} THEN class = {20.05} [10.08, 30.02], (p=27, n=6, P=56, N=9)
+2026-04-14 11:58:20,821 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 3
+2026-04-14 11:58:20,821 - INFO - Regula po iteracji 1: IF Domestic = {0} THEN class = {20.62} [8.36, 32.89], (p=27, n=6, P=56, N=9)
+2026-04-14 11:58:20,821 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:20,822 - INFO - ***RR FOUND***
+2026-04-14 11:58:20,822 - INFO - Reference rule: IF Domestic = {0} THEN class = {20.62} [8.36, 32.89]
+2026-04-14 11:58:20,822 - INFO - ***CHECKING EXCEPTION***
+2026-04-14 11:58:20,823 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:20,823 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:20,863 - INFO - Iteracja 0: condition_best: Engine_size >= 2.90, quality_best: 0.628, coverage_best: (p=24, n=2, P=41, N=24)
+2026-04-14 11:58:20,863 - INFO - Regula po iteracji 0: IF Engine_size >= 2.90 THEN class = {25.51} [14.81, 36.20], (p=24, n=2, P=41, N=24)
+2026-04-14 11:58:20,863 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:20,958 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:20,958 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:20,958 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:20,959 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:20,977 - INFO - Iteracja 1: condition_best: Highway_MPG <= 29.00, quality_best: 0.611, coverage_best: (p=23, n=2, P=41, N=24)
+2026-04-14 11:58:20,977 - INFO - Regula po iteracji 1: IF Engine_size >= 2.90 AND Highway_MPG <= 29.00 THEN class = {25.72} [14.87, 36.57], (p=23, n=2, P=41, N=24)
+2026-04-14 11:58:20,977 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:21,072 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:21,072 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:21,072 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:21,072 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:21,090 - INFO - Iteracja 2: condition_best: Horsepower <= 289.00, quality_best: 0.595, coverage_best: (p=22, n=2, P=41, N=24)
+2026-04-14 11:58:21,090 - INFO - Regula po iteracji 2: IF Engine_size >= 2.90 AND Highway_MPG <= 29.00 AND Horsepower <= 289.00 THEN class = {25.72} [14.64, 36.79], (p=22, n=2, P=41, N=24)
+2026-04-14 11:58:21,090 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:21,184 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:21,184 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:21,184 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:21,184 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:21,202 - INFO - Iteracja 3: condition_best: Length >= 176.00, quality_best: 0.578, coverage_best: (p=21, n=2, P=41, N=24)
+2026-04-14 11:58:21,202 - INFO - Regula po iteracji 3: IF Engine_size >= 2.90 AND Highway_MPG <= 29.00 AND Horsepower <= 289.00 AND Length >= 176.00 THEN class = {26.01} [14.79, 37.23], (p=21, n=2, P=41, N=24)
+2026-04-14 11:58:21,202 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:21,293 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:21,293 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:21,293 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:21,293 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:21,310 - INFO - Iteracja 4: condition_best: Length >= 180.00, quality_best: 0.561, coverage_best: (p=20, n=2, P=41, N=24)
+2026-04-14 11:58:21,310 - INFO - Regula po iteracji 4: IF Engine_size >= 2.90 AND Highway_MPG <= 29.00 AND Horsepower <= 289.00 AND Length >= 176.00 AND Length >= 180.00 THEN class = {26.08} [14.61, 37.55], (p=20, n=2, P=41, N=24)
+2026-04-14 11:58:21,311 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:21,403 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:21,404 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:21,404 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:21,404 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:21,404 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:21,404 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:21,443 - INFO - Iteracja 0: condition_best: Weight >= 3,035.00, quality_best: 0.624, coverage_best: (p=31, n=4, P=40, N=25)
+2026-04-14 11:58:21,443 - INFO - Regula po iteracji 0: IF Weight >= 3,035.00 THEN class = {24.79} [14.87, 34.72], (p=31, n=4, P=40, N=25)
+2026-04-14 11:58:21,443 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:21,518 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:21,519 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:21,519 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:21,519 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:21,542 - INFO - Iteracja 1: condition_best: Length <= 213.00, quality_best: 0.652, coverage_best: (p=29, n=3, P=40, N=25)
+2026-04-14 11:58:21,542 - INFO - Regula po iteracji 1: IF Weight >= 3,035.00 AND Length <= 213.00 THEN class = {24.66} [14.53, 34.79], (p=29, n=3, P=40, N=25)
+2026-04-14 11:58:21,542 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:21,618 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:21,618 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:21,618 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:21,618 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:21,640 - INFO - Iteracja 2: condition_best: Engine_revolutions_per_mile <= 2,525.00, quality_best: 0.672, coverage_best: (p=26, n=2, P=40, N=25)
+2026-04-14 11:58:21,640 - INFO - Regula po iteracji 2: IF Weight >= 3,035.00 AND Length <= 213.00 AND Engine_revolutions_per_mile <= 2,525.00 THEN class = {24.94} [14.66, 35.22], (p=26, n=2, P=40, N=25)
+2026-04-14 11:58:21,640 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:21,715 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:21,716 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:21,716 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:21,716 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:21,735 - INFO - Iteracja 3: condition_best: RPM >= 3,900.00, quality_best: 0.669, coverage_best: (p=25, n=2, P=39, N=26)
+2026-04-14 11:58:21,735 - INFO - Regula po iteracji 3: IF Weight >= 3,035.00 AND Length <= 213.00 AND Engine_revolutions_per_mile <= 2,525.00 AND RPM >= 3,900.00 THEN class = {25.31} [15.03, 35.59], (p=25, n=2, P=39, N=26)
+2026-04-14 11:58:21,736 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:21,811 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:21,811 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:21,811 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:21,811 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:21,831 - INFO - Iteracja 4: condition_best: Weight <= 3,795.00, quality_best: 0.697, coverage_best: (p=22, n=1, P=39, N=26)
+2026-04-14 11:58:21,831 - INFO - Regula po iteracji 4: IF Weight >= 3,035.00 AND Length <= 213.00 AND Engine_revolutions_per_mile <= 2,525.00 AND RPM >= 3,900.00 AND Weight <= 3,795.00 THEN class = {24.88} [15.00, 34.75], (p=22, n=1, P=39, N=26)
+2026-04-14 11:58:21,832 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:21,908 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:21,908 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:21,908 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:21,908 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:21,908 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:21,908 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:21,946 - INFO - Iteracja 0: condition_best: Weight >= 3,007.50, quality_best: 0.586, coverage_best: (p=31, n=5, P=39, N=26)
+2026-04-14 11:58:21,946 - INFO - Regula po iteracji 0: IF Weight >= 3,007.50 THEN class = {24.61} [14.76, 34.46], (p=31, n=5, P=39, N=26)
+2026-04-14 11:58:21,947 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:22,022 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:22,022 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:22,022 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:22,022 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:22,046 - INFO - Iteracja 1: condition_best: Length <= 209.00, quality_best: 0.652, coverage_best: (p=29, n=3, P=40, N=25)
+2026-04-14 11:58:22,046 - INFO - Regula po iteracji 1: IF Weight >= 3,007.50 AND Length <= 209.00 THEN class = {24.58} [14.40, 34.75], (p=29, n=3, P=40, N=25)
+2026-04-14 11:58:22,046 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:22,122 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:22,122 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:22,123 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:22,123 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:22,144 - INFO - Iteracja 2: condition_best: City_MPG >= 15.50, quality_best: 0.636, coverage_best: (p=28, n=3, P=40, N=25)
+2026-04-14 11:58:22,144 - INFO - Regula po iteracji 2: IF Weight >= 3,007.50 AND Length <= 209.00 AND City_MPG >= 15.50 THEN class = {24.83} [14.60, 35.06], (p=28, n=3, P=40, N=25)
+2026-04-14 11:58:22,144 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:22,222 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:22,222 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:22,222 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:22,222 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:22,242 - INFO - Iteracja 3: condition_best: RPM >= 3,950.00, quality_best: 0.635, coverage_best: (p=27, n=3, P=39, N=26)
+2026-04-14 11:58:22,242 - INFO - Regula po iteracji 3: IF Weight >= 3,007.50 AND Length <= 209.00 AND City_MPG >= 15.50 AND RPM >= 3,950.00 THEN class = {25.16} [14.93, 35.40], (p=27, n=3, P=39, N=26)
+2026-04-14 11:58:22,243 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:22,321 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:22,321 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:22,321 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:22,321 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:22,341 - INFO - Iteracja 4: condition_best: Length >= 176.00, quality_best: 0.618, coverage_best: (p=26, n=3, P=39, N=26)
+2026-04-14 11:58:22,341 - INFO - Regula po iteracji 4: IF Weight >= 3,007.50 AND Length <= 209.00 AND City_MPG >= 15.50 AND RPM >= 3,950.00 AND Length >= 176.00 THEN class = {25.38} [15.03, 35.72], (p=26, n=3, P=39, N=26)
+2026-04-14 11:58:22,342 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:22,420 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:22,420 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:22,420 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:22,420 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:22,420 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:22,420 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:22,458 - INFO - Iteracja 0: condition_best: Weight >= 2,890.00, quality_best: 0.553, coverage_best: (p=35, n=8, P=37, N=28)
+2026-04-14 11:58:22,458 - INFO - Regula po iteracji 0: IF Weight >= 2,890.00 THEN class = {24.21} [14.74, 33.68], (p=35, n=8, P=37, N=28)
+2026-04-14 11:58:22,458 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:22,531 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:22,531 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:22,531 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:22,531 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:22,558 - INFO - Iteracja 1: condition_best: Luggage_capacity <= 15.50, quality_best: 0.648, coverage_best: (p=27, n=2, P=43, N=22)
+2026-04-14 11:58:22,558 - INFO - Regula po iteracji 1: IF Weight >= 2,890.00 AND Luggage_capacity <= 15.50 THEN class = {23.62} [13.28, 33.96], (p=27, n=2, P=43, N=22)
+2026-04-14 11:58:22,559 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:22,634 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:22,634 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:22,634 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:22,634 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:22,744 - INFO - Iteracja 2: condition_best: Length <= 194.50, quality_best: 0.654, coverage_best: (p=21, n=1, P=42, N=23)
+2026-04-14 11:58:22,745 - INFO - Regula po iteracji 2: IF Weight >= 2,890.00 AND Luggage_capacity <= 15.50 AND Length <= 194.50 THEN class = {23.03} [12.95, 33.10], (p=21, n=1, P=42, N=23)
+2026-04-14 11:58:22,745 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:22,819 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:22,819 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:22,819 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:22,819 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:22,837 - INFO - Iteracja 3: condition_best: City_MPG <= 25.50, quality_best: 0.639, coverage_best: (p=20, n=1, P=42, N=23)
+2026-04-14 11:58:22,838 - INFO - Regula po iteracji 3: IF Weight >= 2,890.00 AND Luggage_capacity <= 15.50 AND Length <= 194.50 AND City_MPG <= 25.50 THEN class = {23.34} [13.13, 33.55], (p=20, n=1, P=42, N=23)
+2026-04-14 11:58:22,838 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:22,912 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:22,912 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:22,912 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:22,912 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:22,930 - INFO - Iteracja 4: condition_best: Horsepower <= 277.50, quality_best: 0.624, coverage_best: (p=19, n=1, P=42, N=23)
+2026-04-14 11:58:22,930 - INFO - Regula po iteracji 4: IF Weight >= 2,890.00 AND Luggage_capacity <= 15.50 AND Length <= 194.50 AND City_MPG <= 25.50 AND Horsepower <= 277.50 THEN class = {23.21} [12.77, 33.66], (p=19, n=1, P=42, N=23)
+2026-04-14 11:58:22,930 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:23,006 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:23,007 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:23,007 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:23,007 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:23,007 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:23,007 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:23,045 - INFO - Iteracja 0: condition_best: Engine_size <= 1.25, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,045 - INFO - Regula po iteracji 0: IF Engine_size <= 1.25 THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,045 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:23,120 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:23,120 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:23,120 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:23,120 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:23,122 - INFO - Iteracja 1: condition_best: Type = {Small}, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,122 - INFO - Regula po iteracji 1: IF Engine_size <= 1.25 AND Type = {Small} THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,122 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:23,197 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:23,197 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:23,197 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:23,197 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:23,199 - INFO - Iteracja 2: condition_best: Air_Bags_standard = {0}, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,199 - INFO - Regula po iteracji 2: IF Engine_size <= 1.25 AND Type = {Small} AND Air_Bags_standard = {0} THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,200 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:23,274 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:23,275 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:23,275 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:23,275 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:23,277 - INFO - Iteracja 3: condition_best: Manual_transmission_available = {1}, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,277 - INFO - Regula po iteracji 3: IF Engine_size <= 1.25 AND Type = {Small} AND Air_Bags_standard = {0} AND Manual_transmission_available = {1} THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,277 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:23,352 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:23,352 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:23,352 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:23,352 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:23,354 - INFO - Iteracja 4: condition_best: Domestic = {0}, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,354 - INFO - Regula po iteracji 4: IF Engine_size <= 1.25 AND Type = {Small} AND Air_Bags_standard = {0} AND Manual_transmission_available = {1} AND Domestic = {0} THEN class = {8.40} [8.40, 8.40], (p=2, n=0, P=2, N=63)
+2026-04-14 11:58:23,354 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:23,429 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:23,429 - INFO - Regula po iteracji 0: IF  THEN class = {20.05} [10.08, 30.02], (p=49, n=16, P=49, N=16)
+2026-04-14 11:58:23,430 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:23,430 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:23,430 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:23,652 - INFO - ************************Finished experiment for auto93.arff with algorithm_rer_with_exceptions************************
+2026-04-14 11:58:23,652 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:23,652 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:23,652 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:23,653 - INFO - **********Starting experiment for auto93.arff with decision_tree**********
+2026-04-14 11:58:23,687 - INFO - ************************Finished experiment for auto93.arff with decision_tree************************
+2026-04-14 11:58:23,687 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:23,687 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:23,687 - INFO - *************************************************************************************************************************

@@ -1,0 +1,24 @@
+
+CR 0: IF Water <= 181.00 THEN class = {41.08} [34.82, 47.35] (p=16, n=4, P=32, N=40)
+RR 0: IF Cement >= 178.55 THEN class = {38.69} [30.96, 46.43] (p=25, n=13, P=45, N=27)
+ER 0: IF Water <= 181.00 AND Cement >= 178.55 THEN class = {47.74} [41.07, 54.40] (p=3, n=3, P=17, N=55)
+
+CR 1: IF Fly ash <= 105.50 THEN class = {29.15} [23.80, 34.51] (p=14, n=4, P=31, N=41)
+RR 1: IF Cement <= 165.15 THEN class = {31.85} [25.26, 38.44] (p=23, n=8, P=43, N=29)
+ER 1: IF Fly ash <= 105.50 AND Cement <= 165.15 THEN class = {18.21} [17.40, 19.03] (p=1, n=2, P=1, N=71)
+
+CR 2: IF SP <= 6.35 AND SLUMP(cm) >= 22.50 AND FLOW(cm) <= 69.50 AND Cement <= 147.50 THEN class = {27.46} [26.31, 28.62] (p=4, n=1, P=8, N=64)
+
+CR 3: IF SP <= 6.35 AND SLUMP(cm) >= 16.12 AND Water <= 213.00 AND Cement >= 140.05 AND Cement <= 320.00 THEN class = {31.82} [26.16, 37.49] (p=8, n=2, P=40, N=32)
+
+CR 4: IF SP <= 6.35 AND Cement <= 345.00 AND Water >= 171.70 AND Cement <= 331.00 AND SP >= 4.55 THEN class = {33.17} [26.01, 40.32] (p=14, n=3, P=48, N=24)
+
+CR 5: IF Fly ash >= 238.40 THEN class = {38.70} [32.85, 44.54] (p=13, n=4, P=36, N=36)
+RR 5: IF Cement >= 231.80 THEN class = {38.62} [30.58, 46.67] (p=22, n=13, P=46, N=26)
+ER 5: IF Fly ash >= 238.40 AND Cement >= 231.80 THEN class = {47.96} [45.46, 50.46] (p=2, n=1, P=4, N=68)
+
+CR 6: IF Water >= 191.50 AND SLUMP(cm) <= 25.25 AND Coarse Aggr. >= 769.00 AND Cement <= 355.00 AND FLOW(cm) <= 72.00 THEN class = {30.02} [24.87, 35.17] (p=23, n=5, P=32, N=40)
+
+CR 7: IF Water <= 192.50 AND Fine Aggr. <= 791.00 THEN class = {38.10} [30.23, 45.98] (p=22, n=4, P=47, N=25)
+RR 7: IF FLOW(cm) >= 56.00 THEN class = {35.99} [28.58, 43.40] (p=18, n=14, P=48, N=24)
+ER 7: IF Water <= 192.50 AND Fine Aggr. <= 791.00 AND FLOW(cm) >= 56.00 THEN class = {46.83} [43.36, 50.29] (p=3, n=1, P=8, N=64)

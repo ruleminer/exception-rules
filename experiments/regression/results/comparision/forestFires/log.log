@@ -1,0 +1,1279 @@
+2026-04-14 12:04:41,536 - INFO - **********Starting experiment for forestFires.arff with algorithm_rulekit**********
+2026-04-14 12:04:42,719 - INFO - ************************Finished experiment for forestFires.arff with algorithm_rulekit************************
+2026-04-14 12:04:42,719 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:42,719 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:42,719 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:42,720 - INFO - **********Starting experiment for forestFires.arff with algorithm_rer**********
+2026-04-14 12:04:42,727 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:42,876 - INFO - Iteracja 0: condition_best: RH >= 89.00, quality_best: 0.514, coverage_best: (p=5, n=0, P=177, N=184)
+2026-04-14 12:04:42,876 - INFO - Regula po iteracji 0: IF RH >= 89.00 THEN class = {0.00} [0.00, 0.00], (p=5, n=0, P=177, N=184)
+2026-04-14 12:04:42,880 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:42,880 - INFO - Regula po iteracji 1: IF RH >= 89.00 THEN class = {0.00} [0.00, 0.00], (p=5, n=0, P=177, N=184)
+2026-04-14 12:04:42,880 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:42,883 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:43,004 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:43,004 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:43,089 - INFO - Iteracja 1: condition_best: X <= 6.50, quality_best: 0.539, coverage_best: (p=157, n=1, P=352, N=9)
+2026-04-14 12:04:43,089 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND X <= 6.50 THEN class = {12.72} [-74.16, 99.61], (p=157, n=1, P=352, N=9)
+2026-04-14 12:04:43,155 - INFO - Iteracja 2: condition_best: FFMC <= 96.05, quality_best: 0.537, coverage_best: (p=156, n=1, P=352, N=9)
+2026-04-14 12:04:43,155 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND X <= 6.50 AND FFMC <= 96.05 THEN class = {12.80} [-74.35, 99.96], (p=156, n=1, P=352, N=9)
+2026-04-14 12:04:43,219 - INFO - Iteracja 3: condition_best: FFMC >= 56.95, quality_best: 0.535, coverage_best: (p=155, n=1, P=352, N=9)
+2026-04-14 12:04:43,219 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND X <= 6.50 AND FFMC <= 96.05 AND FFMC >= 56.95 THEN class = {12.88} [-74.54, 100.31], (p=155, n=1, P=352, N=9)
+2026-04-14 12:04:43,283 - INFO - Iteracja 4: condition_best: DMC <= 290.65, quality_best: 0.533, coverage_best: (p=154, n=1, P=352, N=9)
+2026-04-14 12:04:43,283 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND X <= 6.50 AND FFMC <= 96.05 AND FFMC >= 56.95 AND DMC <= 290.65 THEN class = {12.94} [-74.77, 100.65], (p=154, n=1, P=352, N=9)
+2026-04-14 12:04:43,283 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:43,285 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:43,397 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:43,397 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:43,471 - INFO - Iteracja 1: condition_best: ISI <= 7.75, quality_best: 0.493, coverage_best: (p=78, n=1, P=338, N=23)
+2026-04-14 12:04:43,471 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND ISI <= 7.75 THEN class = {8.66} [-23.08, 40.40], (p=78, n=1, P=338, N=23)
+2026-04-14 12:04:43,507 - INFO - Iteracja 2: condition_best: FFMC <= 92.90, quality_best: 0.484, coverage_best: (p=77, n=1, P=339, N=22)
+2026-04-14 12:04:43,507 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND ISI <= 7.75 AND FFMC <= 92.90 THEN class = {8.77} [-23.16, 40.70], (p=77, n=1, P=339, N=22)
+2026-04-14 12:04:43,540 - INFO - Iteracja 3: condition_best: FFMC >= 56.95, quality_best: 0.482, coverage_best: (p=76, n=1, P=339, N=22)
+2026-04-14 12:04:43,540 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND ISI <= 7.75 AND FFMC <= 92.90 AND FFMC >= 56.95 THEN class = {8.88} [-23.24, 41.00], (p=76, n=1, P=339, N=22)
+2026-04-14 12:04:43,573 - INFO - Iteracja 4: condition_best: DMC <= 290.65, quality_best: 0.479, coverage_best: (p=75, n=1, P=339, N=22)
+2026-04-14 12:04:43,573 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND ISI <= 7.75 AND FFMC <= 92.90 AND FFMC >= 56.95 AND DMC <= 290.65 THEN class = {8.95} [-23.38, 41.27], (p=75, n=1, P=339, N=22)
+2026-04-14 12:04:43,573 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:43,575 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:43,686 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:43,686 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:43,759 - INFO - Iteracja 1: condition_best: Day >= 1.50, quality_best: 0.476, coverage_best: (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:43,759 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND Day >= 1.50 THEN class = {12.81} [-67.95, 93.57], (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:43,827 - INFO - Iteracja 2: condition_best: X <= 7.50, quality_best: 0.553, coverage_best: (p=163, n=1, P=352, N=9)
+2026-04-14 12:04:43,827 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND Day >= 1.50 AND X <= 7.50 THEN class = {12.70} [-72.81, 98.21], (p=163, n=1, P=352, N=9)
+2026-04-14 12:04:43,888 - INFO - Iteracja 3: condition_best: FFMC >= 56.95, quality_best: 0.55, coverage_best: (p=162, n=1, P=352, N=9)
+2026-04-14 12:04:43,888 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND Day >= 1.50 AND X <= 7.50 AND FFMC >= 56.95 THEN class = {12.78} [-72.99, 98.55], (p=162, n=1, P=352, N=9)
+2026-04-14 12:04:43,948 - INFO - Iteracja 4: condition_best: FFMC >= 66.25, quality_best: 0.548, coverage_best: (p=161, n=1, P=352, N=9)
+2026-04-14 12:04:43,948 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND Day >= 1.50 AND X <= 7.50 AND FFMC >= 56.95 AND FFMC >= 66.25 THEN class = {12.86} [-73.17, 98.89], (p=161, n=1, P=352, N=9)
+2026-04-14 12:04:43,948 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:43,950 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:44,060 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:44,060 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:44,133 - INFO - Iteracja 1: condition_best: Day >= 1.50, quality_best: 0.476, coverage_best: (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:44,133 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND Day >= 1.50 THEN class = {12.81} [-67.95, 93.57], (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:44,199 - INFO - Iteracja 2: condition_best: Day <= 6.50, quality_best: 0.482, coverage_best: (p=143, n=1, P=353, N=8)
+2026-04-14 12:04:44,199 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND Day >= 1.50 AND Day <= 6.50 THEN class = {14.14} [-77.05, 105.33], (p=143, n=1, P=353, N=8)
+2026-04-14 12:04:44,255 - INFO - Iteracja 3: condition_best: Y <= 7.50, quality_best: 0.448, coverage_best: (p=142, n=1, P=354, N=7)
+2026-04-14 12:04:44,255 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND Day >= 1.50 AND Day <= 6.50 AND Y <= 7.50 THEN class = {14.22} [-77.29, 105.72], (p=142, n=1, P=354, N=7)
+2026-04-14 12:04:44,308 - INFO - Iteracja 4: condition_best: FFMC >= 66.25, quality_best: 0.445, coverage_best: (p=141, n=1, P=354, N=7)
+2026-04-14 12:04:44,309 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND Day >= 1.50 AND Day <= 6.50 AND Y <= 7.50 AND FFMC >= 66.25 THEN class = {14.32} [-77.50, 106.14], (p=141, n=1, P=354, N=7)
+2026-04-14 12:04:44,309 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:44,310 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:44,419 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:44,419 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:44,491 - INFO - Iteracja 1: condition_best: Day >= 1.50, quality_best: 0.476, coverage_best: (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:44,491 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND Day >= 1.50 THEN class = {12.81} [-67.95, 93.57], (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:44,556 - INFO - Iteracja 2: condition_best: Y <= 7.50, quality_best: 0.474, coverage_best: (p=187, n=2, P=351, N=10)
+2026-04-14 12:04:44,556 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND Day >= 1.50 AND Y <= 7.50 THEN class = {12.86} [-68.10, 93.83], (p=187, n=2, P=351, N=10)
+2026-04-14 12:04:44,622 - INFO - Iteracja 3: condition_best: FFMC >= 56.95, quality_best: 0.471, coverage_best: (p=186, n=2, P=351, N=10)
+2026-04-14 12:04:44,622 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND Day >= 1.50 AND Y <= 7.50 AND FFMC >= 56.95 THEN class = {12.93} [-68.25, 94.11], (p=186, n=2, P=351, N=10)
+2026-04-14 12:04:44,688 - INFO - Iteracja 4: condition_best: FFMC >= 66.25, quality_best: 0.469, coverage_best: (p=185, n=2, P=351, N=10)
+2026-04-14 12:04:44,689 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND Day >= 1.50 AND Y <= 7.50 AND FFMC >= 56.95 AND FFMC >= 66.25 THEN class = {13.00} [-68.39, 94.39], (p=185, n=2, P=351, N=10)
+2026-04-14 12:04:44,689 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:44,690 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:44,800 - INFO - Iteracja 0: condition_best: ISI <= 3.45, quality_best: 0.379, coverage_best: (p=34, n=1, P=328, N=33)
+2026-04-14 12:04:44,800 - INFO - Regula po iteracji 0: IF ISI <= 3.45 THEN class = {7.23} [-10.83, 25.29], (p=34, n=1, P=328, N=33)
+2026-04-14 12:04:44,817 - INFO - Iteracja 1: condition_best: FFMC <= 86.40, quality_best: 0.373, coverage_best: (p=33, n=1, P=328, N=33)
+2026-04-14 12:04:44,818 - INFO - Regula po iteracji 1: IF ISI <= 3.45 AND FFMC <= 86.40 THEN class = {7.41} [-10.88, 25.71], (p=33, n=1, P=328, N=33)
+2026-04-14 12:04:44,834 - INFO - Iteracja 2: condition_best: DC >= 15.40, quality_best: 0.367, coverage_best: (p=32, n=1, P=328, N=33)
+2026-04-14 12:04:44,834 - INFO - Regula po iteracji 2: IF ISI <= 3.45 AND FFMC <= 86.40 AND DC >= 15.40 THEN class = {7.43} [-11.14, 26.00], (p=32, n=1, P=328, N=33)
+2026-04-14 12:04:44,849 - INFO - Iteracja 3: condition_best: Wind <= 8.95, quality_best: 0.354, coverage_best: (p=31, n=1, P=329, N=32)
+2026-04-14 12:04:44,849 - INFO - Regula po iteracji 3: IF ISI <= 3.45 AND FFMC <= 86.40 AND DC >= 15.40 AND Wind <= 8.95 THEN class = {7.52} [-11.33, 26.37], (p=31, n=1, P=329, N=32)
+2026-04-14 12:04:44,865 - INFO - Iteracja 4: condition_best: Y >= 2.50, quality_best: 0.341, coverage_best: (p=30, n=1, P=330, N=31)
+2026-04-14 12:04:44,865 - INFO - Regula po iteracji 4: IF ISI <= 3.45 AND FFMC <= 86.40 AND DC >= 15.40 AND Wind <= 8.95 AND Y >= 2.50 THEN class = {7.76} [-11.34, 26.86], (p=30, n=1, P=330, N=31)
+2026-04-14 12:04:44,865 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:44,866 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:44,975 - INFO - Iteracja 0: condition_best: DC <= 56.05, quality_best: 0.376, coverage_best: (p=27, n=1, P=319, N=42)
+2026-04-14 12:04:44,975 - INFO - Regula po iteracji 0: IF DC <= 56.05 THEN class = {4.43} [-6.87, 15.72], (p=27, n=1, P=319, N=42)
+2026-04-14 12:04:44,991 - INFO - Iteracja 1: condition_best: FFMC >= 72.05, quality_best: 0.369, coverage_best: (p=26, n=1, P=319, N=42)
+2026-04-14 12:04:44,991 - INFO - Regula po iteracji 1: IF DC <= 56.05 AND FFMC >= 72.05 THEN class = {4.59} [-6.88, 16.06], (p=26, n=1, P=319, N=42)
+2026-04-14 12:04:45,006 - INFO - Iteracja 2: condition_best: DMC <= 22.75, quality_best: 0.361, coverage_best: (p=25, n=1, P=319, N=42)
+2026-04-14 12:04:45,006 - INFO - Regula po iteracji 2: IF DC <= 56.05 AND FFMC >= 72.05 AND DMC <= 22.75 THEN class = {4.64} [-7.05, 16.33], (p=25, n=1, P=319, N=42)
+2026-04-14 12:04:45,020 - INFO - Iteracja 3: condition_best: DMC <= 19.75, quality_best: 0.348, coverage_best: (p=24, n=1, P=320, N=41)
+2026-04-14 12:04:45,020 - INFO - Regula po iteracji 3: IF DC <= 56.05 AND FFMC >= 72.05 AND DMC <= 22.75 AND DMC <= 19.75 THEN class = {4.56} [-7.35, 16.47], (p=24, n=1, P=320, N=41)
+2026-04-14 12:04:45,034 - INFO - Iteracja 4: condition_best: DMC >= 3.10, quality_best: 0.339, coverage_best: (p=23, n=1, P=320, N=41)
+2026-04-14 12:04:45,034 - INFO - Regula po iteracji 4: IF DC <= 56.05 AND FFMC >= 72.05 AND DMC <= 22.75 AND DMC <= 19.75 AND DMC >= 3.10 THEN class = {4.75} [-7.37, 16.87], (p=23, n=1, P=320, N=41)
+2026-04-14 12:04:45,034 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:45,035 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:45,144 - INFO - Iteracja 0: condition_best: Wind <= 1.55, quality_best: 0.372, coverage_best: (p=17, n=2, P=237, N=124)
+2026-04-14 12:04:45,144 - INFO - Regula po iteracji 0: IF Wind <= 1.55 THEN class = {1.09} [-1.12, 3.31], (p=17, n=2, P=237, N=124)
+2026-04-14 12:04:45,156 - INFO - Iteracja 1: condition_best: DC >= 667.90, quality_best: 0.525, coverage_best: (p=9, n=0, P=177, N=184)
+2026-04-14 12:04:45,156 - INFO - Regula po iteracji 1: IF Wind <= 1.55 AND DC >= 667.90 THEN class = {0.00} [0.00, 0.00], (p=9, n=0, P=177, N=184)
+2026-04-14 12:04:45,162 - INFO - Iteracja 2: condition_best: X >= 1.50, quality_best: 0.523, coverage_best: (p=8, n=0, P=177, N=184)
+2026-04-14 12:04:45,162 - INFO - Regula po iteracji 2: IF Wind <= 1.55 AND DC >= 667.90 AND X >= 1.50 THEN class = {0.00} [0.00, 0.00], (p=8, n=0, P=177, N=184)
+2026-04-14 12:04:45,167 - INFO - Iteracja 3: condition_best: X >= 2.50, quality_best: 0.52, coverage_best: (p=7, n=0, P=177, N=184)
+2026-04-14 12:04:45,167 - INFO - Regula po iteracji 3: IF Wind <= 1.55 AND DC >= 667.90 AND X >= 1.50 AND X >= 2.50 THEN class = {0.00} [0.00, 0.00], (p=7, n=0, P=177, N=184)
+2026-04-14 12:04:45,171 - INFO - Iteracja 4: condition_best: X >= 3.50, quality_best: 0.517, coverage_best: (p=6, n=0, P=177, N=184)
+2026-04-14 12:04:45,171 - INFO - Regula po iteracji 4: IF Wind <= 1.55 AND DC >= 667.90 AND X >= 1.50 AND X >= 2.50 AND X >= 3.50 THEN class = {0.00} [0.00, 0.00], (p=6, n=0, P=177, N=184)
+2026-04-14 12:04:45,171 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:45,172 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:45,282 - INFO - Iteracja 0: condition_best: Wind <= 1.55, quality_best: 0.372, coverage_best: (p=17, n=2, P=237, N=124)
+2026-04-14 12:04:45,282 - INFO - Regula po iteracji 0: IF Wind <= 1.55 THEN class = {1.09} [-1.12, 3.31], (p=17, n=2, P=237, N=124)
+2026-04-14 12:04:45,292 - INFO - Iteracja 1: condition_best: FFMC >= 83.05, quality_best: 0.457, coverage_best: (p=17, n=1, P=227, N=134)
+2026-04-14 12:04:45,292 - INFO - Regula po iteracji 1: IF Wind <= 1.55 AND FFMC >= 83.05 THEN class = {0.77} [-1.03, 2.58], (p=17, n=1, P=227, N=134)
+2026-04-14 12:04:45,302 - INFO - Iteracja 2: condition_best: Wind >= 0.65, quality_best: 0.453, coverage_best: (p=16, n=1, P=223, N=138)
+2026-04-14 12:04:45,302 - INFO - Regula po iteracji 2: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 THEN class = {0.67} [-1.13, 2.48], (p=16, n=1, P=223, N=138)
+2026-04-14 12:04:45,312 - INFO - Iteracja 3: condition_best: DMC >= 118.85, quality_best: 0.523, coverage_best: (p=8, n=0, P=177, N=184)
+2026-04-14 12:04:45,312 - INFO - Regula po iteracji 3: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 AND DMC >= 118.85 THEN class = {0.00} [0.00, 0.00], (p=8, n=0, P=177, N=184)
+2026-04-14 12:04:45,317 - INFO - Iteracja 4: condition_best: Day >= 2.00, quality_best: 0.52, coverage_best: (p=7, n=0, P=177, N=184)
+2026-04-14 12:04:45,317 - INFO - Regula po iteracji 4: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 AND DMC >= 118.85 AND Day >= 2.00 THEN class = {0.00} [0.00, 0.00], (p=7, n=0, P=177, N=184)
+2026-04-14 12:04:45,317 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:45,318 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:45,427 - INFO - Iteracja 0: condition_best: Wind <= 1.55, quality_best: 0.372, coverage_best: (p=17, n=2, P=237, N=124)
+2026-04-14 12:04:45,427 - INFO - Regula po iteracji 0: IF Wind <= 1.55 THEN class = {1.09} [-1.12, 3.31], (p=17, n=2, P=237, N=124)
+2026-04-14 12:04:45,437 - INFO - Iteracja 1: condition_best: FFMC >= 83.05, quality_best: 0.457, coverage_best: (p=17, n=1, P=227, N=134)
+2026-04-14 12:04:45,437 - INFO - Regula po iteracji 1: IF Wind <= 1.55 AND FFMC >= 83.05 THEN class = {0.77} [-1.03, 2.58], (p=17, n=1, P=227, N=134)
+2026-04-14 12:04:45,447 - INFO - Iteracja 2: condition_best: Wind >= 0.65, quality_best: 0.453, coverage_best: (p=16, n=1, P=223, N=138)
+2026-04-14 12:04:45,447 - INFO - Regula po iteracji 2: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 THEN class = {0.67} [-1.13, 2.48], (p=16, n=1, P=223, N=138)
+2026-04-14 12:04:45,457 - INFO - Iteracja 3: condition_best: Month >= 2.50, quality_best: 0.444, coverage_best: (p=15, n=1, P=226, N=135)
+2026-04-14 12:04:45,457 - INFO - Regula po iteracji 3: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 AND Month >= 2.50 THEN class = {0.72} [-1.14, 2.57], (p=15, n=1, P=226, N=135)
+2026-04-14 12:04:45,466 - INFO - Iteracja 4: condition_best: Day >= 1.50, quality_best: 0.435, coverage_best: (p=14, n=1, P=227, N=134)
+2026-04-14 12:04:45,466 - INFO - Regula po iteracji 4: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 AND Month >= 2.50 AND Day >= 1.50 THEN class = {0.76} [-1.14, 2.67], (p=14, n=1, P=227, N=134)
+2026-04-14 12:04:45,466 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:45,467 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:45,575 - INFO - Iteracja 0: condition_best: Month <= 4.50, quality_best: 0.358, coverage_best: (p=59, n=3, P=317, N=44)
+2026-04-14 12:04:45,576 - INFO - Regula po iteracji 0: IF Month <= 4.50 THEN class = {4.21} [-6.43, 14.85], (p=59, n=3, P=317, N=44)
+2026-04-14 12:04:45,603 - INFO - Iteracja 1: condition_best: DMC <= 51.75, quality_best: 0.433, coverage_best: (p=57, n=2, P=315, N=46)
+2026-04-14 12:04:45,603 - INFO - Regula po iteracji 1: IF Month <= 4.50 AND DMC <= 51.75 THEN class = {3.96} [-6.49, 14.41], (p=57, n=2, P=315, N=46)
+2026-04-14 12:04:45,629 - INFO - Iteracja 2: condition_best: FFMC <= 90.15, quality_best: 0.453, coverage_best: (p=37, n=1, P=311, N=50)
+2026-04-14 12:04:45,629 - INFO - Regula po iteracji 2: IF Month <= 4.50 AND DMC <= 51.75 AND FFMC <= 90.15 THEN class = {3.54} [-5.07, 12.15], (p=37, n=1, P=311, N=50)
+2026-04-14 12:04:45,649 - INFO - Iteracja 3: condition_best: FFMC >= 68.60, quality_best: 0.449, coverage_best: (p=36, n=1, P=311, N=50)
+2026-04-14 12:04:45,649 - INFO - Regula po iteracji 3: IF Month <= 4.50 AND DMC <= 51.75 AND FFMC <= 90.15 AND FFMC >= 68.60 THEN class = {3.63} [-5.07, 12.34], (p=36, n=1, P=311, N=50)
+2026-04-14 12:04:45,667 - INFO - Iteracja 4: condition_best: FFMC >= 72.05, quality_best: 0.445, coverage_best: (p=35, n=1, P=311, N=50)
+2026-04-14 12:04:45,667 - INFO - Regula po iteracji 4: IF Month <= 4.50 AND DMC <= 51.75 AND FFMC <= 90.15 AND FFMC >= 68.60 AND FFMC >= 72.05 THEN class = {3.73} [-5.07, 12.54], (p=35, n=1, P=311, N=50)
+2026-04-14 12:04:45,667 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:45,668 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:45,776 - INFO - Iteracja 0: condition_best: FFMC <= 90.35, quality_best: 0.353, coverage_best: (p=97, n=3, P=337, N=24)
+2026-04-14 12:04:45,776 - INFO - Regula po iteracji 0: IF FFMC <= 90.35 THEN class = {8.53} [-21.80, 38.85], (p=97, n=3, P=337, N=24)
+2026-04-14 12:04:45,818 - INFO - Iteracja 1: condition_best: DC >= 688.70, quality_best: 0.438, coverage_best: (p=20, n=1, P=268, N=93)
+2026-04-14 12:04:45,818 - INFO - Regula po iteracji 1: IF FFMC <= 90.35 AND DC >= 688.70 THEN class = {2.17} [-2.00, 6.34], (p=20, n=1, P=268, N=93)
+2026-04-14 12:04:45,829 - INFO - Iteracja 2: condition_best: Month >= 7.50, quality_best: 0.433, coverage_best: (p=19, n=1, P=267, N=94)
+2026-04-14 12:04:45,829 - INFO - Regula po iteracji 2: IF FFMC <= 90.35 AND DC >= 688.70 AND Month >= 7.50 THEN class = {1.96} [-2.21, 6.13], (p=19, n=1, P=267, N=94)
+2026-04-14 12:04:45,839 - INFO - Iteracja 3: condition_best: Temp <= 23.30, quality_best: 0.427, coverage_best: (p=18, n=1, P=266, N=95)
+2026-04-14 12:04:45,839 - INFO - Regula po iteracji 3: IF FFMC <= 90.35 AND DC >= 688.70 AND Month >= 7.50 AND Temp <= 23.30 THEN class = {1.79} [-2.42, 6.01], (p=18, n=1, P=266, N=95)
+2026-04-14 12:04:45,849 - INFO - Iteracja 4: condition_best: DMC <= 290.65, quality_best: 0.42, coverage_best: (p=17, n=1, P=266, N=95)
+2026-04-14 12:04:45,849 - INFO - Regula po iteracji 4: IF FFMC <= 90.35 AND DC >= 688.70 AND Month >= 7.50 AND Temp <= 23.30 AND DMC <= 290.65 THEN class = {1.67} [-2.62, 5.97], (p=17, n=1, P=266, N=95)
+2026-04-14 12:04:45,849 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:45,850 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:45,958 - INFO - Iteracja 0: condition_best: FFMC <= 90.35, quality_best: 0.353, coverage_best: (p=97, n=3, P=337, N=24)
+2026-04-14 12:04:45,958 - INFO - Regula po iteracji 0: IF FFMC <= 90.35 THEN class = {8.53} [-21.80, 38.85], (p=97, n=3, P=337, N=24)
+2026-04-14 12:04:45,998 - INFO - Iteracja 1: condition_best: FFMC >= 85.05, quality_best: 0.433, coverage_best: (p=65, n=1, P=341, N=20)
+2026-04-14 12:04:45,998 - INFO - Regula po iteracji 1: IF FFMC <= 90.35 AND FFMC >= 85.05 THEN class = {9.02} [-25.62, 43.66], (p=65, n=1, P=341, N=20)
+2026-04-14 12:04:46,026 - INFO - Iteracja 2: condition_best: Wind <= 3.35, quality_best: 0.437, coverage_best: (p=25, n=1, P=290, N=71)
+2026-04-14 12:04:46,026 - INFO - Regula po iteracji 2: IF FFMC <= 90.35 AND FFMC >= 85.05 AND Wind <= 3.35 THEN class = {2.38} [-3.83, 8.58], (p=25, n=1, P=290, N=71)
+2026-04-14 12:04:46,041 - INFO - Iteracja 3: condition_best: RH <= 52.50, quality_best: 0.438, coverage_best: (p=13, n=1, P=213, N=148)
+2026-04-14 12:04:46,041 - INFO - Regula po iteracji 3: IF FFMC <= 90.35 AND FFMC >= 85.05 AND Wind <= 3.35 AND RH <= 52.50 THEN class = {0.68} [-0.62, 1.98], (p=13, n=1, P=213, N=148)
+2026-04-14 12:04:46,049 - INFO - Iteracja 4: condition_best: RH >= 31.00, quality_best: 0.432, coverage_best: (p=12, n=1, P=209, N=152)
+2026-04-14 12:04:46,050 - INFO - Regula po iteracji 4: IF FFMC <= 90.35 AND FFMC >= 85.05 AND Wind <= 3.35 AND RH <= 52.50 AND RH >= 31.00 THEN class = {0.60} [-0.72, 1.91], (p=12, n=1, P=209, N=152)
+2026-04-14 12:04:46,050 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:46,051 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:46,158 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:46,158 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:46,227 - INFO - Iteracja 1: condition_best: X <= 7.50, quality_best: 0.446, coverage_best: (p=174, n=6, P=332, N=29)
+2026-04-14 12:04:46,227 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND X <= 7.50 THEN class = {5.75} [-16.69, 28.20], (p=174, n=6, P=332, N=29)
+2026-04-14 12:04:46,289 - INFO - Iteracja 2: condition_best: DC >= 74.00, quality_best: 0.525, coverage_best: (p=143, n=3, P=333, N=28)
+2026-04-14 12:04:46,289 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 THEN class = {5.55} [-18.40, 29.51], (p=143, n=3, P=333, N=28)
+2026-04-14 12:04:46,338 - INFO - Iteracja 3: condition_best: DC <= 741.90, quality_best: 0.608, coverage_best: (p=120, n=1, P=333, N=28)
+2026-04-14 12:04:46,338 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND DC <= 741.90 THEN class = {5.19} [-20.43, 30.80], (p=120, n=1, P=333, N=28)
+2026-04-14 12:04:46,382 - INFO - Iteracja 4: condition_best: FFMC >= 51.90, quality_best: 0.606, coverage_best: (p=119, n=1, P=333, N=28)
+2026-04-14 12:04:46,382 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND DC <= 741.90 AND FFMC >= 51.90 THEN class = {5.23} [-20.48, 30.95], (p=119, n=1, P=333, N=28)
+2026-04-14 12:04:46,382 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:46,383 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:46,489 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:46,489 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:46,556 - INFO - Iteracja 1: condition_best: X <= 7.50, quality_best: 0.446, coverage_best: (p=174, n=6, P=332, N=29)
+2026-04-14 12:04:46,556 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND X <= 7.50 THEN class = {5.75} [-16.69, 28.20], (p=174, n=6, P=332, N=29)
+2026-04-14 12:04:46,616 - INFO - Iteracja 2: condition_best: DC >= 74.00, quality_best: 0.525, coverage_best: (p=143, n=3, P=333, N=28)
+2026-04-14 12:04:46,616 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 THEN class = {5.55} [-18.40, 29.51], (p=143, n=3, P=333, N=28)
+2026-04-14 12:04:46,664 - INFO - Iteracja 3: condition_best: DC <= 761.05, quality_best: 0.57, coverage_best: (p=135, n=2, P=333, N=28)
+2026-04-14 12:04:46,664 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND DC <= 761.05 THEN class = {5.26} [-19.03, 29.56], (p=135, n=2, P=333, N=28)
+2026-04-14 12:04:46,711 - INFO - Iteracja 4: condition_best: FFMC >= 51.90, quality_best: 0.568, coverage_best: (p=134, n=2, P=333, N=28)
+2026-04-14 12:04:46,711 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND DC <= 761.05 AND FFMC >= 51.90 THEN class = {5.30} [-19.08, 29.68], (p=134, n=2, P=333, N=28)
+2026-04-14 12:04:46,711 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:46,712 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:46,816 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:46,816 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:46,883 - INFO - Iteracja 1: condition_best: X <= 7.50, quality_best: 0.446, coverage_best: (p=174, n=6, P=332, N=29)
+2026-04-14 12:04:46,883 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND X <= 7.50 THEN class = {5.75} [-16.69, 28.20], (p=174, n=6, P=332, N=29)
+2026-04-14 12:04:46,942 - INFO - Iteracja 2: condition_best: DC >= 74.00, quality_best: 0.525, coverage_best: (p=143, n=3, P=333, N=28)
+2026-04-14 12:04:46,942 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 THEN class = {5.55} [-18.40, 29.51], (p=143, n=3, P=333, N=28)
+2026-04-14 12:04:46,990 - INFO - Iteracja 3: condition_best: Temp <= 22.90, quality_best: 0.536, coverage_best: (p=120, n=2, P=333, N=28)
+2026-04-14 12:04:46,990 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND Temp <= 22.90 THEN class = {5.69} [-20.03, 31.41], (p=120, n=2, P=333, N=28)
+2026-04-14 12:04:47,032 - INFO - Iteracja 4: condition_best: FFMC >= 51.90, quality_best: 0.534, coverage_best: (p=119, n=2, P=333, N=28)
+2026-04-14 12:04:47,032 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND Temp <= 22.90 AND FFMC >= 51.90 THEN class = {5.74} [-20.09, 31.56], (p=119, n=2, P=333, N=28)
+2026-04-14 12:04:47,032 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:47,033 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:47,138 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:47,138 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:47,204 - INFO - Iteracja 1: condition_best: Day <= 5.50, quality_best: 0.429, coverage_best: (p=134, n=4, P=334, N=27)
+2026-04-14 12:04:47,204 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND Day <= 5.50 THEN class = {6.55} [-19.43, 32.53], (p=134, n=4, P=334, N=27)
+2026-04-14 12:04:47,253 - INFO - Iteracja 2: condition_best: X <= 8.50, quality_best: 0.488, coverage_best: (p=128, n=3, P=333, N=28)
+2026-04-14 12:04:47,253 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND Day <= 5.50 AND X <= 8.50 THEN class = {6.00} [-19.18, 31.19], (p=128, n=3, P=333, N=28)
+2026-04-14 12:04:47,299 - INFO - Iteracja 3: condition_best: Y >= 3.50, quality_best: 0.544, coverage_best: (p=93, n=1, P=335, N=26)
+2026-04-14 12:04:47,299 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND Day <= 5.50 AND X <= 8.50 AND Y >= 3.50 THEN class = {6.41} [-22.35, 35.16], (p=93, n=1, P=335, N=26)
+2026-04-14 12:04:47,338 - INFO - Iteracja 4: condition_best: FFMC <= 94.55, quality_best: 0.542, coverage_best: (p=92, n=1, P=335, N=26)
+2026-04-14 12:04:47,338 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND Day <= 5.50 AND X <= 8.50 AND Y >= 3.50 AND FFMC <= 94.55 THEN class = {6.47} [-22.43, 35.38], (p=92, n=1, P=335, N=26)
+2026-04-14 12:04:47,339 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:47,339 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:47,443 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:47,443 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:04:47,508 - INFO - Iteracja 1: condition_best: DC >= 271.70, quality_best: 0.376, coverage_best: (p=138, n=5, P=334, N=27)
+2026-04-14 12:04:47,508 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND DC >= 271.70 THEN class = {7.16} [-19.02, 33.33], (p=138, n=5, P=334, N=27)
+2026-04-14 12:04:47,552 - INFO - Iteracja 2: condition_best: FFMC >= 84.50, quality_best: 0.411, coverage_best: (p=128, n=4, P=334, N=27)
+2026-04-14 12:04:47,552 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND DC >= 271.70 AND FFMC >= 84.50 THEN class = {6.66} [-19.15, 32.47], (p=128, n=4, P=334, N=27)
+2026-04-14 12:04:47,592 - INFO - Iteracja 3: condition_best: Month >= 4.00, quality_best: 0.408, coverage_best: (p=127, n=4, P=334, N=27)
+2026-04-14 12:04:47,592 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND DC >= 271.70 AND FFMC >= 84.50 AND Month >= 4.00 THEN class = {6.71} [-19.19, 32.61], (p=127, n=4, P=334, N=27)
+2026-04-14 12:04:47,632 - INFO - Iteracja 4: condition_best: FFMC >= 84.65, quality_best: 0.405, coverage_best: (p=126, n=4, P=334, N=27)
+2026-04-14 12:04:47,632 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND DC >= 271.70 AND FFMC >= 84.50 AND Month >= 4.00 AND FFMC >= 84.65 THEN class = {6.72} [-19.28, 32.72], (p=126, n=4, P=334, N=27)
+2026-04-14 12:04:47,632 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:47,633 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:47,736 - INFO - Iteracja 0: condition_best: Temp <= 17.95, quality_best: 0.275, coverage_best: (p=138, n=9, P=325, N=36)
+2026-04-14 12:04:47,737 - INFO - Regula po iteracji 0: IF Temp <= 17.95 THEN class = {5.75} [-10.58, 22.09], (p=138, n=9, P=325, N=36)
+2026-04-14 12:04:47,792 - INFO - Iteracja 1: condition_best: Wind <= 2.90, quality_best: 0.447, coverage_best: (p=35, n=1, P=310, N=51)
+2026-04-14 12:04:47,792 - INFO - Regula po iteracji 1: IF Temp <= 17.95 AND Wind <= 2.90 THEN class = {2.94} [-5.72, 11.61], (p=35, n=1, P=310, N=51)
+2026-04-14 12:04:47,812 - INFO - Iteracja 2: condition_best: DMC >= 62.15, quality_best: 0.452, coverage_best: (p=19, n=1, P=248, N=113)
+2026-04-14 12:04:47,812 - INFO - Regula po iteracji 2: IF Temp <= 17.95 AND Wind <= 2.90 AND DMC >= 62.15 THEN class = {1.46} [-1.11, 4.02], (p=19, n=1, P=248, N=113)
+2026-04-14 12:04:47,823 - INFO - Iteracja 3: condition_best: Y >= 2.50, quality_best: 0.446, coverage_best: (p=18, n=1, P=248, N=113)
+2026-04-14 12:04:47,823 - INFO - Regula po iteracji 3: IF Temp <= 17.95 AND Wind <= 2.90 AND DMC >= 62.15 AND Y >= 2.50 THEN class = {1.53} [-1.07, 4.14], (p=18, n=1, P=248, N=113)
+2026-04-14 12:04:47,833 - INFO - Iteracja 4: condition_best: X >= 1.50, quality_best: 0.439, coverage_best: (p=17, n=1, P=248, N=113)
+2026-04-14 12:04:47,833 - INFO - Regula po iteracji 4: IF Temp <= 17.95 AND Wind <= 2.90 AND DMC >= 62.15 AND Y >= 2.50 AND X >= 1.50 THEN class = {1.42} [-1.21, 4.06], (p=17, n=1, P=248, N=113)
+2026-04-14 12:04:47,833 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:47,833 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:47,936 - INFO - Iteracja 0: condition_best: Temp >= 22.65, quality_best: 0.272, coverage_best: (p=90, n=1, P=354, N=7)
+2026-04-14 12:04:47,936 - INFO - Regula po iteracji 0: IF Temp >= 22.65 THEN class = {22.18} [-92.42, 136.78], (p=90, n=1, P=354, N=7)
+2026-04-14 12:04:47,970 - INFO - Iteracja 1: condition_best: Y <= 7.50, quality_best: 0.267, coverage_best: (p=89, n=1, P=354, N=7)
+2026-04-14 12:04:47,971 - INFO - Regula po iteracji 1: IF Temp >= 22.65 AND Y <= 7.50 THEN class = {22.39} [-92.83, 137.61], (p=89, n=1, P=354, N=7)
+2026-04-14 12:04:48,003 - INFO - Iteracja 2: condition_best: FFMC <= 96.15, quality_best: 0.263, coverage_best: (p=88, n=1, P=354, N=7)
+2026-04-14 12:04:48,003 - INFO - Regula po iteracji 2: IF Temp >= 22.65 AND Y <= 7.50 AND FFMC <= 96.15 THEN class = {22.64} [-93.19, 138.48], (p=88, n=1, P=354, N=7)
+2026-04-14 12:04:48,035 - INFO - Iteracja 3: condition_best: FFMC >= 80.55, quality_best: 0.258, coverage_best: (p=87, n=1, P=354, N=7)
+2026-04-14 12:04:48,035 - INFO - Regula po iteracji 3: IF Temp >= 22.65 AND Y <= 7.50 AND FFMC <= 96.15 AND FFMC >= 80.55 THEN class = {22.90} [-93.57, 139.37], (p=87, n=1, P=354, N=7)
+2026-04-14 12:04:48,067 - INFO - Iteracja 4: condition_best: DMC <= 249.10, quality_best: 0.253, coverage_best: (p=86, n=1, P=354, N=7)
+2026-04-14 12:04:48,067 - INFO - Regula po iteracji 4: IF Temp >= 22.65 AND Y <= 7.50 AND FFMC <= 96.15 AND FFMC >= 80.55 AND DMC <= 249.10 THEN class = {23.09} [-94.03, 140.22], (p=86, n=1, P=354, N=7)
+2026-04-14 12:04:48,067 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:48,068 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:48,171 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:48,171 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:48,262 - INFO - Iteracja 1: condition_best: Y >= 3.50, quality_best: 0.384, coverage_best: (p=234, n=10, P=334, N=27)
+2026-04-14 12:04:48,262 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND Y >= 3.50 THEN class = {7.58} [-18.63, 33.78], (p=234, n=10, P=334, N=27)
+2026-04-14 12:04:48,343 - INFO - Iteracja 2: condition_best: RH <= 42.50, quality_best: 0.502, coverage_best: (p=106, n=2, P=333, N=28)
+2026-04-14 12:04:48,343 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 THEN class = {6.98} [-17.22, 31.17], (p=106, n=2, P=333, N=28)
+2026-04-14 12:04:48,385 - INFO - Iteracja 3: condition_best: FFMC <= 92.45, quality_best: 0.514, coverage_best: (p=77, n=1, P=333, N=28)
+2026-04-14 12:04:48,385 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 AND FFMC <= 92.45 THEN class = {6.20} [-16.43, 28.83], (p=77, n=1, P=333, N=28)
+2026-04-14 12:04:48,416 - INFO - Iteracja 4: condition_best: X <= 8.50, quality_best: 0.511, coverage_best: (p=76, n=1, P=333, N=28)
+2026-04-14 12:04:48,416 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 AND FFMC <= 92.45 AND X <= 8.50 THEN class = {6.28} [-16.49, 29.04], (p=76, n=1, P=333, N=28)
+2026-04-14 12:04:48,416 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:48,417 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:48,519 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:48,519 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:48,610 - INFO - Iteracja 1: condition_best: Y >= 3.50, quality_best: 0.384, coverage_best: (p=234, n=10, P=334, N=27)
+2026-04-14 12:04:48,610 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND Y >= 3.50 THEN class = {7.58} [-18.63, 33.78], (p=234, n=10, P=334, N=27)
+2026-04-14 12:04:48,690 - INFO - Iteracja 2: condition_best: RH <= 42.50, quality_best: 0.502, coverage_best: (p=106, n=2, P=333, N=28)
+2026-04-14 12:04:48,691 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 THEN class = {6.98} [-17.22, 31.17], (p=106, n=2, P=333, N=28)
+2026-04-14 12:04:48,731 - INFO - Iteracja 3: condition_best: RH >= 28.50, quality_best: 0.509, coverage_best: (p=75, n=1, P=333, N=28)
+2026-04-14 12:04:48,731 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 AND RH >= 28.50 THEN class = {6.18} [-16.56, 28.91], (p=75, n=1, P=333, N=28)
+2026-04-14 12:04:48,762 - INFO - Iteracja 4: condition_best: DMC <= 224.70, quality_best: 0.51, coverage_best: (p=74, n=1, P=332, N=29)
+2026-04-14 12:04:48,762 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 AND RH >= 28.50 AND DMC <= 224.70 THEN class = {5.88} [-16.86, 28.61], (p=74, n=1, P=332, N=29)
+2026-04-14 12:04:48,763 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:48,763 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:48,864 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:48,864 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:48,954 - INFO - Iteracja 1: condition_best: Y >= 3.50, quality_best: 0.384, coverage_best: (p=234, n=10, P=334, N=27)
+2026-04-14 12:04:48,954 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND Y >= 3.50 THEN class = {7.58} [-18.63, 33.78], (p=234, n=10, P=334, N=27)
+2026-04-14 12:04:49,035 - INFO - Iteracja 2: condition_best: RH <= 55.50, quality_best: 0.469, coverage_best: (p=167, n=5, P=333, N=28)
+2026-04-14 12:04:49,035 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 55.50 THEN class = {6.90} [-15.31, 29.12], (p=167, n=5, P=333, N=28)
+2026-04-14 12:04:49,094 - INFO - Iteracja 3: condition_best: DMC <= 185.90, quality_best: 0.511, coverage_best: (p=158, n=4, P=332, N=29)
+2026-04-14 12:04:49,094 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 55.50 AND DMC <= 185.90 THEN class = {6.60} [-15.38, 28.59], (p=158, n=4, P=332, N=29)
+2026-04-14 12:04:49,150 - INFO - Iteracja 4: condition_best: FFMC <= 96.10, quality_best: 0.509, coverage_best: (p=157, n=4, P=332, N=29)
+2026-04-14 12:04:49,150 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 55.50 AND DMC <= 185.90 AND FFMC <= 96.10 THEN class = {6.64} [-15.40, 28.69], (p=157, n=4, P=332, N=29)
+2026-04-14 12:04:49,150 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:49,150 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:49,251 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:49,251 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:49,340 - INFO - Iteracja 1: condition_best: Y >= 3.50, quality_best: 0.384, coverage_best: (p=234, n=10, P=334, N=27)
+2026-04-14 12:04:49,340 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND Y >= 3.50 THEN class = {7.58} [-18.63, 33.78], (p=234, n=10, P=334, N=27)
+2026-04-14 12:04:49,421 - INFO - Iteracja 2: condition_best: Day <= 5.50, quality_best: 0.438, coverage_best: (p=155, n=5, P=333, N=28)
+2026-04-14 12:04:49,421 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND Y >= 3.50 AND Day <= 5.50 THEN class = {6.97} [-17.88, 31.81], (p=155, n=5, P=333, N=28)
+2026-04-14 12:04:49,480 - INFO - Iteracja 3: condition_best: ISI <= 17.35, quality_best: 0.485, coverage_best: (p=151, n=4, P=333, N=28)
+2026-04-14 12:04:49,480 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND Y >= 3.50 AND Day <= 5.50 AND ISI <= 17.35 THEN class = {6.84} [-18.18, 31.87], (p=151, n=4, P=333, N=28)
+2026-04-14 12:04:49,537 - INFO - Iteracja 4: condition_best: X >= 1.50, quality_best: 0.523, coverage_best: (p=142, n=3, P=333, N=28)
+2026-04-14 12:04:49,537 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND Y >= 3.50 AND Day <= 5.50 AND ISI <= 17.35 AND X >= 1.50 THEN class = {6.28} [-18.72, 31.28], (p=142, n=3, P=333, N=28)
+2026-04-14 12:04:49,537 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:49,537 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:49,638 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:49,638 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:04:49,726 - INFO - Iteracja 1: condition_best: DMC >= 14.85, quality_best: 0.309, coverage_best: (p=274, n=12, P=338, N=23)
+2026-04-14 12:04:49,726 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND DMC >= 14.85 THEN class = {9.22} [-22.05, 40.48], (p=274, n=12, P=338, N=23)
+2026-04-14 12:04:49,808 - INFO - Iteracja 2: condition_best: X <= 7.50, quality_best: 0.36, coverage_best: (p=236, n=9, P=338, N=23)
+2026-04-14 12:04:49,808 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND DMC >= 14.85 AND X <= 7.50 THEN class = {8.96} [-22.11, 40.03], (p=236, n=9, P=338, N=23)
+2026-04-14 12:04:49,882 - INFO - Iteracja 3: condition_best: FFMC <= 93.55, quality_best: 0.398, coverage_best: (p=209, n=7, P=338, N=23)
+2026-04-14 12:04:49,882 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND DMC >= 14.85 AND X <= 7.50 AND FFMC <= 93.55 THEN class = {8.59} [-22.25, 39.43], (p=209, n=7, P=338, N=23)
+2026-04-14 12:04:49,947 - INFO - Iteracja 4: condition_best: Temp <= 22.95, quality_best: 0.402, coverage_best: (p=195, n=6, P=339, N=22)
+2026-04-14 12:04:49,948 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND DMC >= 14.85 AND X <= 7.50 AND FFMC <= 93.55 AND Temp <= 22.95 THEN class = {8.81} [-22.93, 40.55], (p=195, n=6, P=339, N=22)
+2026-04-14 12:04:49,948 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:49,948 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:50,047 - INFO - Iteracja 0: condition_best: DMC >= 290.65, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=360)
+2026-04-14 12:04:50,047 - INFO - Regula po iteracji 0: IF DMC >= 290.65 THEN class = {3.95} [3.95, 3.95], (p=1, n=0, P=1, N=360)
+2026-04-14 12:04:50,048 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:50,048 - INFO - Regula po iteracji 1: IF DMC >= 290.65 THEN class = {3.95} [3.95, 3.95], (p=1, n=0, P=1, N=360)
+2026-04-14 12:04:50,048 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:50,060 - INFO - ************************Finished experiment for forestFires.arff with algorithm_rer************************
+2026-04-14 12:04:50,060 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:50,060 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:50,060 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:50,061 - INFO - **********Starting experiment for forestFires.arff with algorithm_rer_with_exceptions**********
+2026-04-14 12:04:50,068 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:50,216 - INFO - Iteracja 0: condition_best: RH >= 89.00, quality_best: 0.514, coverage_best: (p=5, n=0, P=177, N=184)
+2026-04-14 12:04:50,216 - INFO - Regula po iteracji 0: IF RH >= 89.00 THEN class = {0.00} [0.00, 0.00], (p=5, n=0, P=177, N=184)
+2026-04-14 12:04:50,216 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:50,406 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:50,406 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:50,406 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:50,406 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:50,410 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:50,410 - INFO - Regula po iteracji 1: IF RH >= 89.00 THEN class = {0.00} [0.00, 0.00], (p=5, n=0, P=177, N=184)
+2026-04-14 12:04:50,410 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:50,413 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:50,532 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:50,533 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:50,533 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:50,728 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:50,728 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:50,728 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:50,728 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:50,813 - INFO - Iteracja 1: condition_best: X <= 6.50, quality_best: 0.539, coverage_best: (p=157, n=1, P=352, N=9)
+2026-04-14 12:04:50,813 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND X <= 6.50 THEN class = {12.72} [-74.16, 99.61], (p=157, n=1, P=352, N=9)
+2026-04-14 12:04:50,814 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:51,009 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:51,009 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:51,009 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:51,009 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:51,076 - INFO - Iteracja 2: condition_best: FFMC <= 96.05, quality_best: 0.537, coverage_best: (p=156, n=1, P=352, N=9)
+2026-04-14 12:04:51,076 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND X <= 6.50 AND FFMC <= 96.05 THEN class = {12.80} [-74.35, 99.96], (p=156, n=1, P=352, N=9)
+2026-04-14 12:04:51,076 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:51,271 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:51,271 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:51,271 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:51,271 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:51,336 - INFO - Iteracja 3: condition_best: FFMC >= 56.95, quality_best: 0.535, coverage_best: (p=155, n=1, P=352, N=9)
+2026-04-14 12:04:51,336 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND X <= 6.50 AND FFMC <= 96.05 AND FFMC >= 56.95 THEN class = {12.88} [-74.54, 100.31], (p=155, n=1, P=352, N=9)
+2026-04-14 12:04:51,336 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:51,530 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:51,530 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:51,530 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:51,530 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:51,594 - INFO - Iteracja 4: condition_best: DMC <= 290.65, quality_best: 0.533, coverage_best: (p=154, n=1, P=352, N=9)
+2026-04-14 12:04:51,594 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND X <= 6.50 AND FFMC <= 96.05 AND FFMC >= 56.95 AND DMC <= 290.65 THEN class = {12.94} [-74.77, 100.65], (p=154, n=1, P=352, N=9)
+2026-04-14 12:04:51,595 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:51,789 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:51,789 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:51,789 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:51,789 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:51,789 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:51,791 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:51,905 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:51,905 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:51,905 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:52,100 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:52,101 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:52,101 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:52,101 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:52,176 - INFO - Iteracja 1: condition_best: ISI <= 7.75, quality_best: 0.493, coverage_best: (p=78, n=1, P=338, N=23)
+2026-04-14 12:04:52,176 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND ISI <= 7.75 THEN class = {8.66} [-23.08, 40.40], (p=78, n=1, P=338, N=23)
+2026-04-14 12:04:52,176 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:52,368 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:52,368 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:52,369 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:52,369 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:52,404 - INFO - Iteracja 2: condition_best: FFMC <= 92.90, quality_best: 0.484, coverage_best: (p=77, n=1, P=339, N=22)
+2026-04-14 12:04:52,404 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND ISI <= 7.75 AND FFMC <= 92.90 THEN class = {8.77} [-23.16, 40.70], (p=77, n=1, P=339, N=22)
+2026-04-14 12:04:52,405 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:52,596 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:52,596 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:52,596 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:52,596 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:52,630 - INFO - Iteracja 3: condition_best: FFMC >= 56.95, quality_best: 0.482, coverage_best: (p=76, n=1, P=339, N=22)
+2026-04-14 12:04:52,630 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND ISI <= 7.75 AND FFMC <= 92.90 AND FFMC >= 56.95 THEN class = {8.88} [-23.24, 41.00], (p=76, n=1, P=339, N=22)
+2026-04-14 12:04:52,630 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:52,822 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:52,822 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:52,822 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:52,822 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:52,856 - INFO - Iteracja 4: condition_best: DMC <= 290.65, quality_best: 0.479, coverage_best: (p=75, n=1, P=339, N=22)
+2026-04-14 12:04:52,856 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND ISI <= 7.75 AND FFMC <= 92.90 AND FFMC >= 56.95 AND DMC <= 290.65 THEN class = {8.95} [-23.38, 41.27], (p=75, n=1, P=339, N=22)
+2026-04-14 12:04:52,856 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:53,048 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:53,048 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:53,048 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:53,048 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:53,048 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:53,050 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:53,163 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:53,163 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:53,163 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:53,639 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:53,639 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:53,640 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:53,640 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:53,714 - INFO - Iteracja 1: condition_best: Day >= 1.50, quality_best: 0.476, coverage_best: (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:53,714 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND Day >= 1.50 THEN class = {12.81} [-67.95, 93.57], (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:53,714 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:53,911 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:53,911 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:53,911 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:53,911 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:53,980 - INFO - Iteracja 2: condition_best: X <= 7.50, quality_best: 0.553, coverage_best: (p=163, n=1, P=352, N=9)
+2026-04-14 12:04:53,980 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND Day >= 1.50 AND X <= 7.50 THEN class = {12.70} [-72.81, 98.21], (p=163, n=1, P=352, N=9)
+2026-04-14 12:04:53,980 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:54,175 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:54,175 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:54,175 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:54,175 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:54,236 - INFO - Iteracja 3: condition_best: FFMC >= 56.95, quality_best: 0.55, coverage_best: (p=162, n=1, P=352, N=9)
+2026-04-14 12:04:54,236 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND Day >= 1.50 AND X <= 7.50 AND FFMC >= 56.95 THEN class = {12.78} [-72.99, 98.55], (p=162, n=1, P=352, N=9)
+2026-04-14 12:04:54,237 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:54,431 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:54,431 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:54,431 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:54,431 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:54,492 - INFO - Iteracja 4: condition_best: FFMC >= 66.25, quality_best: 0.548, coverage_best: (p=161, n=1, P=352, N=9)
+2026-04-14 12:04:54,492 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND Day >= 1.50 AND X <= 7.50 AND FFMC >= 56.95 AND FFMC >= 66.25 THEN class = {12.86} [-73.17, 98.89], (p=161, n=1, P=352, N=9)
+2026-04-14 12:04:54,493 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:54,687 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:54,687 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:54,687 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:54,687 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:54,687 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:54,689 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:54,799 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:54,799 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:54,800 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:54,996 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:54,996 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:54,996 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:54,996 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:55,070 - INFO - Iteracja 1: condition_best: Day >= 1.50, quality_best: 0.476, coverage_best: (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:55,070 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND Day >= 1.50 THEN class = {12.81} [-67.95, 93.57], (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:55,070 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:55,266 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:55,266 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:55,266 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:55,266 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:55,333 - INFO - Iteracja 2: condition_best: Day <= 6.50, quality_best: 0.482, coverage_best: (p=143, n=1, P=353, N=8)
+2026-04-14 12:04:55,333 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND Day >= 1.50 AND Day <= 6.50 THEN class = {14.14} [-77.05, 105.33], (p=143, n=1, P=353, N=8)
+2026-04-14 12:04:55,333 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:55,528 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:55,528 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:55,528 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:55,528 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:55,584 - INFO - Iteracja 3: condition_best: Y <= 7.50, quality_best: 0.448, coverage_best: (p=142, n=1, P=354, N=7)
+2026-04-14 12:04:55,584 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND Day >= 1.50 AND Day <= 6.50 AND Y <= 7.50 THEN class = {14.22} [-77.29, 105.72], (p=142, n=1, P=354, N=7)
+2026-04-14 12:04:55,585 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:55,778 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:55,779 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:55,779 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:55,779 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:55,833 - INFO - Iteracja 4: condition_best: FFMC >= 66.25, quality_best: 0.445, coverage_best: (p=141, n=1, P=354, N=7)
+2026-04-14 12:04:55,833 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND Day >= 1.50 AND Day <= 6.50 AND Y <= 7.50 AND FFMC >= 66.25 THEN class = {14.32} [-77.50, 106.14], (p=141, n=1, P=354, N=7)
+2026-04-14 12:04:55,834 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:56,028 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:56,028 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:56,028 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:56,028 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:56,028 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:56,029 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:56,141 - INFO - Iteracja 0: condition_best: Wind >= 3.35, quality_best: 0.385, coverage_best: (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:56,141 - INFO - Regula po iteracji 0: IF Wind >= 3.35 THEN class = {13.49} [-65.54, 92.52], (p=207, n=3, P=351, N=10)
+2026-04-14 12:04:56,141 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:56,336 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:56,336 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:56,337 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:56,337 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:56,409 - INFO - Iteracja 1: condition_best: Day >= 1.50, quality_best: 0.476, coverage_best: (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:56,410 - INFO - Regula po iteracji 1: IF Wind >= 3.35 AND Day >= 1.50 THEN class = {12.81} [-67.95, 93.57], (p=188, n=2, P=351, N=10)
+2026-04-14 12:04:56,410 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:56,605 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:56,605 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:56,605 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:56,605 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:56,672 - INFO - Iteracja 2: condition_best: Y <= 7.50, quality_best: 0.474, coverage_best: (p=187, n=2, P=351, N=10)
+2026-04-14 12:04:56,672 - INFO - Regula po iteracji 2: IF Wind >= 3.35 AND Day >= 1.50 AND Y <= 7.50 THEN class = {12.86} [-68.10, 93.83], (p=187, n=2, P=351, N=10)
+2026-04-14 12:04:56,672 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:56,867 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:56,867 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:56,868 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:56,868 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:56,935 - INFO - Iteracja 3: condition_best: FFMC >= 56.95, quality_best: 0.471, coverage_best: (p=186, n=2, P=351, N=10)
+2026-04-14 12:04:56,935 - INFO - Regula po iteracji 3: IF Wind >= 3.35 AND Day >= 1.50 AND Y <= 7.50 AND FFMC >= 56.95 THEN class = {12.93} [-68.25, 94.11], (p=186, n=2, P=351, N=10)
+2026-04-14 12:04:56,935 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:57,130 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:57,130 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:57,131 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:57,131 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:57,197 - INFO - Iteracja 4: condition_best: FFMC >= 66.25, quality_best: 0.469, coverage_best: (p=185, n=2, P=351, N=10)
+2026-04-14 12:04:57,197 - INFO - Regula po iteracji 4: IF Wind >= 3.35 AND Day >= 1.50 AND Y <= 7.50 AND FFMC >= 56.95 AND FFMC >= 66.25 THEN class = {13.00} [-68.39, 94.39], (p=185, n=2, P=351, N=10)
+2026-04-14 12:04:57,198 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:57,393 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:57,393 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:57,393 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:57,393 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:57,393 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:57,395 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:57,506 - INFO - Iteracja 0: condition_best: ISI <= 3.45, quality_best: 0.379, coverage_best: (p=34, n=1, P=328, N=33)
+2026-04-14 12:04:57,507 - INFO - Regula po iteracji 0: IF ISI <= 3.45 THEN class = {7.23} [-10.83, 25.29], (p=34, n=1, P=328, N=33)
+2026-04-14 12:04:57,507 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:57,699 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:57,699 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:57,699 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:57,699 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:57,717 - INFO - Iteracja 1: condition_best: FFMC <= 86.40, quality_best: 0.373, coverage_best: (p=33, n=1, P=328, N=33)
+2026-04-14 12:04:57,717 - INFO - Regula po iteracji 1: IF ISI <= 3.45 AND FFMC <= 86.40 THEN class = {7.41} [-10.88, 25.71], (p=33, n=1, P=328, N=33)
+2026-04-14 12:04:57,717 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:57,911 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:57,911 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:57,912 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:57,912 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:57,928 - INFO - Iteracja 2: condition_best: DC >= 15.40, quality_best: 0.367, coverage_best: (p=32, n=1, P=328, N=33)
+2026-04-14 12:04:57,928 - INFO - Regula po iteracji 2: IF ISI <= 3.45 AND FFMC <= 86.40 AND DC >= 15.40 THEN class = {7.43} [-11.14, 26.00], (p=32, n=1, P=328, N=33)
+2026-04-14 12:04:57,928 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:58,122 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:58,122 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:58,122 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:58,122 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:58,138 - INFO - Iteracja 3: condition_best: Wind <= 8.95, quality_best: 0.354, coverage_best: (p=31, n=1, P=329, N=32)
+2026-04-14 12:04:58,138 - INFO - Regula po iteracji 3: IF ISI <= 3.45 AND FFMC <= 86.40 AND DC >= 15.40 AND Wind <= 8.95 THEN class = {7.52} [-11.33, 26.37], (p=31, n=1, P=329, N=32)
+2026-04-14 12:04:58,138 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:58,332 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:58,332 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:58,332 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:58,332 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:58,347 - INFO - Iteracja 4: condition_best: Y >= 2.50, quality_best: 0.341, coverage_best: (p=30, n=1, P=330, N=31)
+2026-04-14 12:04:58,347 - INFO - Regula po iteracji 4: IF ISI <= 3.45 AND FFMC <= 86.40 AND DC >= 15.40 AND Wind <= 8.95 AND Y >= 2.50 THEN class = {7.76} [-11.34, 26.86], (p=30, n=1, P=330, N=31)
+2026-04-14 12:04:58,348 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:58,541 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:58,541 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:58,542 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:58,542 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:58,542 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:58,543 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:58,653 - INFO - Iteracja 0: condition_best: DC <= 56.05, quality_best: 0.376, coverage_best: (p=27, n=1, P=319, N=42)
+2026-04-14 12:04:58,653 - INFO - Regula po iteracji 0: IF DC <= 56.05 THEN class = {4.43} [-6.87, 15.72], (p=27, n=1, P=319, N=42)
+2026-04-14 12:04:58,653 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:58,867 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:58,867 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:58,868 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:58,868 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:58,884 - INFO - Iteracja 1: condition_best: FFMC >= 72.05, quality_best: 0.369, coverage_best: (p=26, n=1, P=319, N=42)
+2026-04-14 12:04:58,884 - INFO - Regula po iteracji 1: IF DC <= 56.05 AND FFMC >= 72.05 THEN class = {4.59} [-6.88, 16.06], (p=26, n=1, P=319, N=42)
+2026-04-14 12:04:58,884 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:59,098 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:59,098 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:59,098 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:59,098 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:59,113 - INFO - Iteracja 2: condition_best: DMC <= 22.75, quality_best: 0.361, coverage_best: (p=25, n=1, P=319, N=42)
+2026-04-14 12:04:59,113 - INFO - Regula po iteracji 2: IF DC <= 56.05 AND FFMC >= 72.05 AND DMC <= 22.75 THEN class = {4.64} [-7.05, 16.33], (p=25, n=1, P=319, N=42)
+2026-04-14 12:04:59,113 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:59,326 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:59,326 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:59,326 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:59,327 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:59,341 - INFO - Iteracja 3: condition_best: DMC <= 19.75, quality_best: 0.348, coverage_best: (p=24, n=1, P=320, N=41)
+2026-04-14 12:04:59,341 - INFO - Regula po iteracji 3: IF DC <= 56.05 AND FFMC >= 72.05 AND DMC <= 22.75 AND DMC <= 19.75 THEN class = {4.56} [-7.35, 16.47], (p=24, n=1, P=320, N=41)
+2026-04-14 12:04:59,341 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:59,555 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:59,555 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:59,555 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:59,555 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:59,569 - INFO - Iteracja 4: condition_best: DMC >= 3.10, quality_best: 0.339, coverage_best: (p=23, n=1, P=320, N=41)
+2026-04-14 12:04:59,569 - INFO - Regula po iteracji 4: IF DC <= 56.05 AND FFMC >= 72.05 AND DMC <= 22.75 AND DMC <= 19.75 AND DMC >= 3.10 THEN class = {4.75} [-7.37, 16.87], (p=23, n=1, P=320, N=41)
+2026-04-14 12:04:59,569 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:59,783 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:59,784 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:04:59,784 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:59,784 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:59,784 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:59,785 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:59,895 - INFO - Iteracja 0: condition_best: Wind <= 1.55, quality_best: 0.372, coverage_best: (p=17, n=2, P=237, N=124)
+2026-04-14 12:04:59,895 - INFO - Regula po iteracji 0: IF Wind <= 1.55 THEN class = {1.09} [-1.12, 3.31], (p=17, n=2, P=237, N=124)
+2026-04-14 12:04:59,895 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:00,102 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:00,103 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:00,103 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:00,103 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:00,115 - INFO - Iteracja 1: condition_best: DC >= 667.90, quality_best: 0.525, coverage_best: (p=9, n=0, P=177, N=184)
+2026-04-14 12:05:00,115 - INFO - Regula po iteracji 1: IF Wind <= 1.55 AND DC >= 667.90 THEN class = {0.00} [0.00, 0.00], (p=9, n=0, P=177, N=184)
+2026-04-14 12:05:00,115 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:00,306 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:00,306 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:00,306 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:00,306 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:00,312 - INFO - Iteracja 2: condition_best: X >= 1.50, quality_best: 0.523, coverage_best: (p=8, n=0, P=177, N=184)
+2026-04-14 12:05:00,312 - INFO - Regula po iteracji 2: IF Wind <= 1.55 AND DC >= 667.90 AND X >= 1.50 THEN class = {0.00} [0.00, 0.00], (p=8, n=0, P=177, N=184)
+2026-04-14 12:05:00,312 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:00,502 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:00,502 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:00,503 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:00,503 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:00,508 - INFO - Iteracja 3: condition_best: X >= 2.50, quality_best: 0.52, coverage_best: (p=7, n=0, P=177, N=184)
+2026-04-14 12:05:00,508 - INFO - Regula po iteracji 3: IF Wind <= 1.55 AND DC >= 667.90 AND X >= 1.50 AND X >= 2.50 THEN class = {0.00} [0.00, 0.00], (p=7, n=0, P=177, N=184)
+2026-04-14 12:05:00,508 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:00,698 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:00,698 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:00,698 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:00,698 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:00,703 - INFO - Iteracja 4: condition_best: X >= 3.50, quality_best: 0.517, coverage_best: (p=6, n=0, P=177, N=184)
+2026-04-14 12:05:00,703 - INFO - Regula po iteracji 4: IF Wind <= 1.55 AND DC >= 667.90 AND X >= 1.50 AND X >= 2.50 AND X >= 3.50 THEN class = {0.00} [0.00, 0.00], (p=6, n=0, P=177, N=184)
+2026-04-14 12:05:00,703 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:00,893 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:00,893 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:00,893 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:00,893 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:00,893 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:00,895 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:01,003 - INFO - Iteracja 0: condition_best: Wind <= 1.55, quality_best: 0.372, coverage_best: (p=17, n=2, P=237, N=124)
+2026-04-14 12:05:01,004 - INFO - Regula po iteracji 0: IF Wind <= 1.55 THEN class = {1.09} [-1.12, 3.31], (p=17, n=2, P=237, N=124)
+2026-04-14 12:05:01,004 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:01,211 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:01,211 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:01,211 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:01,211 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:01,221 - INFO - Iteracja 1: condition_best: FFMC >= 83.05, quality_best: 0.457, coverage_best: (p=17, n=1, P=227, N=134)
+2026-04-14 12:05:01,221 - INFO - Regula po iteracji 1: IF Wind <= 1.55 AND FFMC >= 83.05 THEN class = {0.77} [-1.03, 2.58], (p=17, n=1, P=227, N=134)
+2026-04-14 12:05:01,222 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:01,412 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:01,412 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:01,412 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:01,412 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:01,422 - INFO - Iteracja 2: condition_best: Wind >= 0.65, quality_best: 0.453, coverage_best: (p=16, n=1, P=223, N=138)
+2026-04-14 12:05:01,422 - INFO - Regula po iteracji 2: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 THEN class = {0.67} [-1.13, 2.48], (p=16, n=1, P=223, N=138)
+2026-04-14 12:05:01,422 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:01,612 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:01,612 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:01,612 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:01,612 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:01,622 - INFO - Iteracja 3: condition_best: DMC >= 118.85, quality_best: 0.523, coverage_best: (p=8, n=0, P=177, N=184)
+2026-04-14 12:05:01,622 - INFO - Regula po iteracji 3: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 AND DMC >= 118.85 THEN class = {0.00} [0.00, 0.00], (p=8, n=0, P=177, N=184)
+2026-04-14 12:05:01,622 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:01,813 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:01,813 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:01,813 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:01,813 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:01,818 - INFO - Iteracja 4: condition_best: Day >= 2.00, quality_best: 0.52, coverage_best: (p=7, n=0, P=177, N=184)
+2026-04-14 12:05:01,818 - INFO - Regula po iteracji 4: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 AND DMC >= 118.85 AND Day >= 2.00 THEN class = {0.00} [0.00, 0.00], (p=7, n=0, P=177, N=184)
+2026-04-14 12:05:01,819 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:02,008 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:02,008 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:02,008 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:02,008 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:02,008 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:02,009 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:02,118 - INFO - Iteracja 0: condition_best: Wind <= 1.55, quality_best: 0.372, coverage_best: (p=17, n=2, P=237, N=124)
+2026-04-14 12:05:02,118 - INFO - Regula po iteracji 0: IF Wind <= 1.55 THEN class = {1.09} [-1.12, 3.31], (p=17, n=2, P=237, N=124)
+2026-04-14 12:05:02,118 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:02,324 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:02,325 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:02,325 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:02,325 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:02,335 - INFO - Iteracja 1: condition_best: FFMC >= 83.05, quality_best: 0.457, coverage_best: (p=17, n=1, P=227, N=134)
+2026-04-14 12:05:02,335 - INFO - Regula po iteracji 1: IF Wind <= 1.55 AND FFMC >= 83.05 THEN class = {0.77} [-1.03, 2.58], (p=17, n=1, P=227, N=134)
+2026-04-14 12:05:02,335 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:02,524 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:02,525 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:02,525 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:02,525 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:02,535 - INFO - Iteracja 2: condition_best: Wind >= 0.65, quality_best: 0.453, coverage_best: (p=16, n=1, P=223, N=138)
+2026-04-14 12:05:02,535 - INFO - Regula po iteracji 2: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 THEN class = {0.67} [-1.13, 2.48], (p=16, n=1, P=223, N=138)
+2026-04-14 12:05:02,535 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:02,725 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:02,725 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:02,725 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:02,725 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:02,734 - INFO - Iteracja 3: condition_best: Month >= 2.50, quality_best: 0.444, coverage_best: (p=15, n=1, P=226, N=135)
+2026-04-14 12:05:02,734 - INFO - Regula po iteracji 3: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 AND Month >= 2.50 THEN class = {0.72} [-1.14, 2.57], (p=15, n=1, P=226, N=135)
+2026-04-14 12:05:02,735 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:02,925 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:02,925 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:02,925 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:02,925 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:02,934 - INFO - Iteracja 4: condition_best: Day >= 1.50, quality_best: 0.435, coverage_best: (p=14, n=1, P=227, N=134)
+2026-04-14 12:05:02,934 - INFO - Regula po iteracji 4: IF Wind <= 1.55 AND FFMC >= 83.05 AND Wind >= 0.65 AND Month >= 2.50 AND Day >= 1.50 THEN class = {0.76} [-1.14, 2.67], (p=14, n=1, P=227, N=134)
+2026-04-14 12:05:02,935 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:03,124 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:03,125 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:03,125 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:03,125 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:03,125 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:03,126 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:03,235 - INFO - Iteracja 0: condition_best: Month <= 4.50, quality_best: 0.358, coverage_best: (p=59, n=3, P=317, N=44)
+2026-04-14 12:05:03,235 - INFO - Regula po iteracji 0: IF Month <= 4.50 THEN class = {4.21} [-6.43, 14.85], (p=59, n=3, P=317, N=44)
+2026-04-14 12:05:03,235 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:03,427 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:03,428 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:03,428 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:03,428 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:03,455 - INFO - Iteracja 1: condition_best: DMC <= 51.75, quality_best: 0.433, coverage_best: (p=57, n=2, P=315, N=46)
+2026-04-14 12:05:03,455 - INFO - Regula po iteracji 1: IF Month <= 4.50 AND DMC <= 51.75 THEN class = {3.96} [-6.49, 14.41], (p=57, n=2, P=315, N=46)
+2026-04-14 12:05:03,456 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:03,648 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:03,648 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:03,648 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:03,649 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:03,676 - INFO - Iteracja 2: condition_best: FFMC <= 90.15, quality_best: 0.453, coverage_best: (p=37, n=1, P=311, N=50)
+2026-04-14 12:05:03,676 - INFO - Regula po iteracji 2: IF Month <= 4.50 AND DMC <= 51.75 AND FFMC <= 90.15 THEN class = {3.54} [-5.07, 12.15], (p=37, n=1, P=311, N=50)
+2026-04-14 12:05:03,676 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:03,869 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:03,869 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:03,869 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:03,869 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:03,888 - INFO - Iteracja 3: condition_best: FFMC >= 68.60, quality_best: 0.449, coverage_best: (p=36, n=1, P=311, N=50)
+2026-04-14 12:05:03,889 - INFO - Regula po iteracji 3: IF Month <= 4.50 AND DMC <= 51.75 AND FFMC <= 90.15 AND FFMC >= 68.60 THEN class = {3.63} [-5.07, 12.34], (p=36, n=1, P=311, N=50)
+2026-04-14 12:05:03,889 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:04,081 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:04,081 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:04,082 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:04,082 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:04,100 - INFO - Iteracja 4: condition_best: FFMC >= 72.05, quality_best: 0.445, coverage_best: (p=35, n=1, P=311, N=50)
+2026-04-14 12:05:04,100 - INFO - Regula po iteracji 4: IF Month <= 4.50 AND DMC <= 51.75 AND FFMC <= 90.15 AND FFMC >= 68.60 AND FFMC >= 72.05 THEN class = {3.73} [-5.07, 12.54], (p=35, n=1, P=311, N=50)
+2026-04-14 12:05:04,100 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:04,292 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:04,292 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:04,292 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:04,292 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:04,292 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:04,293 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:04,402 - INFO - Iteracja 0: condition_best: FFMC <= 90.35, quality_best: 0.353, coverage_best: (p=97, n=3, P=337, N=24)
+2026-04-14 12:05:04,402 - INFO - Regula po iteracji 0: IF FFMC <= 90.35 THEN class = {8.53} [-21.80, 38.85], (p=97, n=3, P=337, N=24)
+2026-04-14 12:05:04,402 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:04,595 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:04,595 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:04,595 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:04,595 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:04,638 - INFO - Iteracja 1: condition_best: DC >= 688.70, quality_best: 0.438, coverage_best: (p=20, n=1, P=268, N=93)
+2026-04-14 12:05:04,638 - INFO - Regula po iteracji 1: IF FFMC <= 90.35 AND DC >= 688.70 THEN class = {2.17} [-2.00, 6.34], (p=20, n=1, P=268, N=93)
+2026-04-14 12:05:04,638 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:04,831 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:04,831 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:04,831 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:04,831 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:04,842 - INFO - Iteracja 2: condition_best: Month >= 7.50, quality_best: 0.433, coverage_best: (p=19, n=1, P=267, N=94)
+2026-04-14 12:05:04,842 - INFO - Regula po iteracji 2: IF FFMC <= 90.35 AND DC >= 688.70 AND Month >= 7.50 THEN class = {1.96} [-2.21, 6.13], (p=19, n=1, P=267, N=94)
+2026-04-14 12:05:04,843 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:05,035 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:05,035 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:05,035 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:05,035 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:05,045 - INFO - Iteracja 3: condition_best: Temp <= 23.30, quality_best: 0.427, coverage_best: (p=18, n=1, P=266, N=95)
+2026-04-14 12:05:05,045 - INFO - Regula po iteracji 3: IF FFMC <= 90.35 AND DC >= 688.70 AND Month >= 7.50 AND Temp <= 23.30 THEN class = {1.79} [-2.42, 6.01], (p=18, n=1, P=266, N=95)
+2026-04-14 12:05:05,046 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:05,238 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:05,238 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:05,238 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:05,238 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:05,248 - INFO - Iteracja 4: condition_best: DMC <= 290.65, quality_best: 0.42, coverage_best: (p=17, n=1, P=266, N=95)
+2026-04-14 12:05:05,248 - INFO - Regula po iteracji 4: IF FFMC <= 90.35 AND DC >= 688.70 AND Month >= 7.50 AND Temp <= 23.30 AND DMC <= 290.65 THEN class = {1.67} [-2.62, 5.97], (p=17, n=1, P=266, N=95)
+2026-04-14 12:05:05,248 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:05,440 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:05,440 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:05,440 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:05,440 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:05,440 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:05,441 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:05,549 - INFO - Iteracja 0: condition_best: FFMC <= 90.35, quality_best: 0.353, coverage_best: (p=97, n=3, P=337, N=24)
+2026-04-14 12:05:05,550 - INFO - Regula po iteracji 0: IF FFMC <= 90.35 THEN class = {8.53} [-21.80, 38.85], (p=97, n=3, P=337, N=24)
+2026-04-14 12:05:05,550 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:05,742 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:05,742 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:05,742 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:05,742 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:05,783 - INFO - Iteracja 1: condition_best: FFMC >= 85.05, quality_best: 0.433, coverage_best: (p=65, n=1, P=341, N=20)
+2026-04-14 12:05:05,783 - INFO - Regula po iteracji 1: IF FFMC <= 90.35 AND FFMC >= 85.05 THEN class = {9.02} [-25.62, 43.66], (p=65, n=1, P=341, N=20)
+2026-04-14 12:05:05,783 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:05,974 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:05,975 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:05,975 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:05,975 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:06,003 - INFO - Iteracja 2: condition_best: Wind <= 3.35, quality_best: 0.437, coverage_best: (p=25, n=1, P=290, N=71)
+2026-04-14 12:05:06,003 - INFO - Regula po iteracji 2: IF FFMC <= 90.35 AND FFMC >= 85.05 AND Wind <= 3.35 THEN class = {2.38} [-3.83, 8.58], (p=25, n=1, P=290, N=71)
+2026-04-14 12:05:06,003 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:06,194 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:06,195 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:06,195 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:06,195 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:06,209 - INFO - Iteracja 3: condition_best: RH <= 52.50, quality_best: 0.438, coverage_best: (p=13, n=1, P=213, N=148)
+2026-04-14 12:05:06,210 - INFO - Regula po iteracji 3: IF FFMC <= 90.35 AND FFMC >= 85.05 AND Wind <= 3.35 AND RH <= 52.50 THEN class = {0.68} [-0.62, 1.98], (p=13, n=1, P=213, N=148)
+2026-04-14 12:05:06,210 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:06,400 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:06,401 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:06,401 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:06,401 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:06,409 - INFO - Iteracja 4: condition_best: RH >= 31.00, quality_best: 0.432, coverage_best: (p=12, n=1, P=209, N=152)
+2026-04-14 12:05:06,409 - INFO - Regula po iteracji 4: IF FFMC <= 90.35 AND FFMC >= 85.05 AND Wind <= 3.35 AND RH <= 52.50 AND RH >= 31.00 THEN class = {0.60} [-0.72, 1.91], (p=12, n=1, P=209, N=152)
+2026-04-14 12:05:06,410 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:06,602 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:06,603 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:06,603 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:06,603 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:06,603 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:06,604 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:06,997 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:06,997 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:06,997 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:07,193 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:07,194 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:07,194 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:07,194 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:07,263 - INFO - Iteracja 1: condition_best: X <= 7.50, quality_best: 0.446, coverage_best: (p=174, n=6, P=332, N=29)
+2026-04-14 12:05:07,263 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND X <= 7.50 THEN class = {5.75} [-16.69, 28.20], (p=174, n=6, P=332, N=29)
+2026-04-14 12:05:07,264 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:07,458 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:07,459 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:07,459 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:07,459 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:07,520 - INFO - Iteracja 2: condition_best: DC >= 74.00, quality_best: 0.525, coverage_best: (p=143, n=3, P=333, N=28)
+2026-04-14 12:05:07,520 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 THEN class = {5.55} [-18.40, 29.51], (p=143, n=3, P=333, N=28)
+2026-04-14 12:05:07,521 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:07,717 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:07,717 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:07,717 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:07,717 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:07,766 - INFO - Iteracja 3: condition_best: DC <= 741.90, quality_best: 0.608, coverage_best: (p=120, n=1, P=333, N=28)
+2026-04-14 12:05:07,766 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND DC <= 741.90 THEN class = {5.19} [-20.43, 30.80], (p=120, n=1, P=333, N=28)
+2026-04-14 12:05:07,767 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:07,961 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:07,961 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:07,961 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:07,961 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:08,006 - INFO - Iteracja 4: condition_best: FFMC >= 51.90, quality_best: 0.606, coverage_best: (p=119, n=1, P=333, N=28)
+2026-04-14 12:05:08,006 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND DC <= 741.90 AND FFMC >= 51.90 THEN class = {5.23} [-20.48, 30.95], (p=119, n=1, P=333, N=28)
+2026-04-14 12:05:08,006 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:08,200 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:08,200 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:08,200 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:08,200 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:08,200 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:08,201 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:08,307 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:08,307 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:08,307 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:08,503 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:08,503 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:08,503 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:08,503 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:08,570 - INFO - Iteracja 1: condition_best: X <= 7.50, quality_best: 0.446, coverage_best: (p=174, n=6, P=332, N=29)
+2026-04-14 12:05:08,570 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND X <= 7.50 THEN class = {5.75} [-16.69, 28.20], (p=174, n=6, P=332, N=29)
+2026-04-14 12:05:08,571 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:08,767 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:08,767 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:08,767 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:08,767 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:08,827 - INFO - Iteracja 2: condition_best: DC >= 74.00, quality_best: 0.525, coverage_best: (p=143, n=3, P=333, N=28)
+2026-04-14 12:05:08,827 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 THEN class = {5.55} [-18.40, 29.51], (p=143, n=3, P=333, N=28)
+2026-04-14 12:05:08,828 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:09,023 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:09,024 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:09,024 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:09,024 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:09,071 - INFO - Iteracja 3: condition_best: DC <= 761.05, quality_best: 0.57, coverage_best: (p=135, n=2, P=333, N=28)
+2026-04-14 12:05:09,071 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND DC <= 761.05 THEN class = {5.26} [-19.03, 29.56], (p=135, n=2, P=333, N=28)
+2026-04-14 12:05:09,072 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:09,267 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:09,267 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:09,267 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:09,267 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:09,314 - INFO - Iteracja 4: condition_best: FFMC >= 51.90, quality_best: 0.568, coverage_best: (p=134, n=2, P=333, N=28)
+2026-04-14 12:05:09,314 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND DC <= 761.05 AND FFMC >= 51.90 THEN class = {5.30} [-19.08, 29.68], (p=134, n=2, P=333, N=28)
+2026-04-14 12:05:09,314 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:09,509 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:09,509 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:09,509 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:09,509 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:09,509 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:09,510 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:09,616 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:09,616 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:09,616 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:09,812 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:09,813 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:09,813 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:09,813 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:09,879 - INFO - Iteracja 1: condition_best: X <= 7.50, quality_best: 0.446, coverage_best: (p=174, n=6, P=332, N=29)
+2026-04-14 12:05:09,879 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND X <= 7.50 THEN class = {5.75} [-16.69, 28.20], (p=174, n=6, P=332, N=29)
+2026-04-14 12:05:09,879 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:10,075 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:10,076 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:10,076 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:10,076 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:10,136 - INFO - Iteracja 2: condition_best: DC >= 74.00, quality_best: 0.525, coverage_best: (p=143, n=3, P=333, N=28)
+2026-04-14 12:05:10,136 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 THEN class = {5.55} [-18.40, 29.51], (p=143, n=3, P=333, N=28)
+2026-04-14 12:05:10,136 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:10,332 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:10,332 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:10,332 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:10,332 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:10,379 - INFO - Iteracja 3: condition_best: Temp <= 22.90, quality_best: 0.536, coverage_best: (p=120, n=2, P=333, N=28)
+2026-04-14 12:05:10,380 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND Temp <= 22.90 THEN class = {5.69} [-20.03, 31.41], (p=120, n=2, P=333, N=28)
+2026-04-14 12:05:10,380 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:10,574 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:10,574 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:10,574 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:10,574 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:10,616 - INFO - Iteracja 4: condition_best: FFMC >= 51.90, quality_best: 0.534, coverage_best: (p=119, n=2, P=333, N=28)
+2026-04-14 12:05:10,616 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND X <= 7.50 AND DC >= 74.00 AND Temp <= 22.90 AND FFMC >= 51.90 THEN class = {5.74} [-20.09, 31.56], (p=119, n=2, P=333, N=28)
+2026-04-14 12:05:10,617 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:10,811 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:10,811 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:10,811 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:10,811 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:10,811 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:10,812 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:10,916 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:10,917 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:10,917 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:11,112 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:11,112 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:11,112 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:11,112 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:11,179 - INFO - Iteracja 1: condition_best: Day <= 5.50, quality_best: 0.429, coverage_best: (p=134, n=4, P=334, N=27)
+2026-04-14 12:05:11,179 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND Day <= 5.50 THEN class = {6.55} [-19.43, 32.53], (p=134, n=4, P=334, N=27)
+2026-04-14 12:05:11,179 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:11,374 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:11,375 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:11,375 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:11,375 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:11,423 - INFO - Iteracja 2: condition_best: X <= 8.50, quality_best: 0.488, coverage_best: (p=128, n=3, P=333, N=28)
+2026-04-14 12:05:11,423 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND Day <= 5.50 AND X <= 8.50 THEN class = {6.00} [-19.18, 31.19], (p=128, n=3, P=333, N=28)
+2026-04-14 12:05:11,424 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:11,619 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:11,619 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:11,619 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:11,619 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:11,665 - INFO - Iteracja 3: condition_best: Y >= 3.50, quality_best: 0.544, coverage_best: (p=93, n=1, P=335, N=26)
+2026-04-14 12:05:11,665 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND Day <= 5.50 AND X <= 8.50 AND Y >= 3.50 THEN class = {6.41} [-22.35, 35.16], (p=93, n=1, P=335, N=26)
+2026-04-14 12:05:11,665 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:11,858 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:11,858 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:11,858 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:11,858 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:11,898 - INFO - Iteracja 4: condition_best: FFMC <= 94.55, quality_best: 0.542, coverage_best: (p=92, n=1, P=335, N=26)
+2026-04-14 12:05:11,898 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND Day <= 5.50 AND X <= 8.50 AND Y >= 3.50 AND FFMC <= 94.55 THEN class = {6.47} [-22.43, 35.38], (p=92, n=1, P=335, N=26)
+2026-04-14 12:05:11,898 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:12,091 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:12,091 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:12,091 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:12,091 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:12,091 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:12,092 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:12,196 - INFO - Iteracja 0: condition_best: DMC <= 118.45, quality_best: 0.315, coverage_best: (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:12,196 - INFO - Regula po iteracji 0: IF DMC <= 118.45 THEN class = {6.58} [-16.27, 29.43], (p=202, n=10, P=333, N=28)
+2026-04-14 12:05:12,196 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:12,392 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:12,392 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:12,392 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:12,392 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:12,458 - INFO - Iteracja 1: condition_best: DC >= 271.70, quality_best: 0.376, coverage_best: (p=138, n=5, P=334, N=27)
+2026-04-14 12:05:12,458 - INFO - Regula po iteracji 1: IF DMC <= 118.45 AND DC >= 271.70 THEN class = {7.16} [-19.02, 33.33], (p=138, n=5, P=334, N=27)
+2026-04-14 12:05:12,458 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:12,654 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:12,654 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:12,654 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:12,654 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:12,698 - INFO - Iteracja 2: condition_best: FFMC >= 84.50, quality_best: 0.411, coverage_best: (p=128, n=4, P=334, N=27)
+2026-04-14 12:05:12,698 - INFO - Regula po iteracji 2: IF DMC <= 118.45 AND DC >= 271.70 AND FFMC >= 84.50 THEN class = {6.66} [-19.15, 32.47], (p=128, n=4, P=334, N=27)
+2026-04-14 12:05:12,698 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:12,894 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:12,894 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:12,894 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:12,895 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:12,935 - INFO - Iteracja 3: condition_best: Month >= 4.00, quality_best: 0.408, coverage_best: (p=127, n=4, P=334, N=27)
+2026-04-14 12:05:12,935 - INFO - Regula po iteracji 3: IF DMC <= 118.45 AND DC >= 271.70 AND FFMC >= 84.50 AND Month >= 4.00 THEN class = {6.71} [-19.19, 32.61], (p=127, n=4, P=334, N=27)
+2026-04-14 12:05:12,935 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:13,129 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:13,129 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:13,130 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:13,130 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:13,169 - INFO - Iteracja 4: condition_best: FFMC >= 84.65, quality_best: 0.405, coverage_best: (p=126, n=4, P=334, N=27)
+2026-04-14 12:05:13,169 - INFO - Regula po iteracji 4: IF DMC <= 118.45 AND DC >= 271.70 AND FFMC >= 84.50 AND Month >= 4.00 AND FFMC >= 84.65 THEN class = {6.72} [-19.28, 32.72], (p=126, n=4, P=334, N=27)
+2026-04-14 12:05:13,169 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:13,364 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:13,364 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:13,364 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:13,364 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:13,364 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:13,365 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:13,469 - INFO - Iteracja 0: condition_best: Temp <= 17.95, quality_best: 0.275, coverage_best: (p=138, n=9, P=325, N=36)
+2026-04-14 12:05:13,469 - INFO - Regula po iteracji 0: IF Temp <= 17.95 THEN class = {5.75} [-10.58, 22.09], (p=138, n=9, P=325, N=36)
+2026-04-14 12:05:13,469 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:13,664 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:13,664 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:13,664 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:13,664 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:13,719 - INFO - Iteracja 1: condition_best: Wind <= 2.90, quality_best: 0.447, coverage_best: (p=35, n=1, P=310, N=51)
+2026-04-14 12:05:13,720 - INFO - Regula po iteracji 1: IF Temp <= 17.95 AND Wind <= 2.90 THEN class = {2.94} [-5.72, 11.61], (p=35, n=1, P=310, N=51)
+2026-04-14 12:05:13,720 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:13,911 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:13,911 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:13,911 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:13,911 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:13,931 - INFO - Iteracja 2: condition_best: DMC >= 62.15, quality_best: 0.452, coverage_best: (p=19, n=1, P=248, N=113)
+2026-04-14 12:05:13,932 - INFO - Regula po iteracji 2: IF Temp <= 17.95 AND Wind <= 2.90 AND DMC >= 62.15 THEN class = {1.46} [-1.11, 4.02], (p=19, n=1, P=248, N=113)
+2026-04-14 12:05:13,932 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:14,123 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:14,123 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:14,123 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:14,123 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:14,133 - INFO - Iteracja 3: condition_best: Y >= 2.50, quality_best: 0.446, coverage_best: (p=18, n=1, P=248, N=113)
+2026-04-14 12:05:14,133 - INFO - Regula po iteracji 3: IF Temp <= 17.95 AND Wind <= 2.90 AND DMC >= 62.15 AND Y >= 2.50 THEN class = {1.53} [-1.07, 4.14], (p=18, n=1, P=248, N=113)
+2026-04-14 12:05:14,134 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:14,324 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:14,324 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:14,324 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:14,324 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:14,334 - INFO - Iteracja 4: condition_best: X >= 1.50, quality_best: 0.439, coverage_best: (p=17, n=1, P=248, N=113)
+2026-04-14 12:05:14,334 - INFO - Regula po iteracji 4: IF Temp <= 17.95 AND Wind <= 2.90 AND DMC >= 62.15 AND Y >= 2.50 AND X >= 1.50 THEN class = {1.42} [-1.21, 4.06], (p=17, n=1, P=248, N=113)
+2026-04-14 12:05:14,334 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:14,525 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:14,525 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:14,525 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:14,525 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:14,525 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:14,526 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:14,630 - INFO - Iteracja 0: condition_best: Temp >= 22.65, quality_best: 0.272, coverage_best: (p=90, n=1, P=354, N=7)
+2026-04-14 12:05:14,630 - INFO - Regula po iteracji 0: IF Temp >= 22.65 THEN class = {22.18} [-92.42, 136.78], (p=90, n=1, P=354, N=7)
+2026-04-14 12:05:14,630 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:14,823 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:14,823 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:14,823 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:14,823 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:14,857 - INFO - Iteracja 1: condition_best: Y <= 7.50, quality_best: 0.267, coverage_best: (p=89, n=1, P=354, N=7)
+2026-04-14 12:05:14,857 - INFO - Regula po iteracji 1: IF Temp >= 22.65 AND Y <= 7.50 THEN class = {22.39} [-92.83, 137.61], (p=89, n=1, P=354, N=7)
+2026-04-14 12:05:14,857 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:15,050 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:15,050 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:15,050 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:15,050 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:15,082 - INFO - Iteracja 2: condition_best: FFMC <= 96.15, quality_best: 0.263, coverage_best: (p=88, n=1, P=354, N=7)
+2026-04-14 12:05:15,082 - INFO - Regula po iteracji 2: IF Temp >= 22.65 AND Y <= 7.50 AND FFMC <= 96.15 THEN class = {22.64} [-93.19, 138.48], (p=88, n=1, P=354, N=7)
+2026-04-14 12:05:15,083 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:15,275 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:15,275 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:15,275 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:15,275 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:15,307 - INFO - Iteracja 3: condition_best: FFMC >= 80.55, quality_best: 0.258, coverage_best: (p=87, n=1, P=354, N=7)
+2026-04-14 12:05:15,308 - INFO - Regula po iteracji 3: IF Temp >= 22.65 AND Y <= 7.50 AND FFMC <= 96.15 AND FFMC >= 80.55 THEN class = {22.90} [-93.57, 139.37], (p=87, n=1, P=354, N=7)
+2026-04-14 12:05:15,308 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:15,500 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:15,501 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:15,501 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:15,501 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:15,533 - INFO - Iteracja 4: condition_best: DMC <= 249.10, quality_best: 0.253, coverage_best: (p=86, n=1, P=354, N=7)
+2026-04-14 12:05:15,533 - INFO - Regula po iteracji 4: IF Temp >= 22.65 AND Y <= 7.50 AND FFMC <= 96.15 AND FFMC >= 80.55 AND DMC <= 249.10 THEN class = {23.09} [-94.03, 140.22], (p=86, n=1, P=354, N=7)
+2026-04-14 12:05:15,533 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:15,726 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:15,726 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:15,726 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:15,726 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:15,726 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:15,727 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:15,829 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:15,829 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:15,830 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:16,025 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:16,025 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:16,025 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:16,025 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:16,116 - INFO - Iteracja 1: condition_best: Y >= 3.50, quality_best: 0.384, coverage_best: (p=234, n=10, P=334, N=27)
+2026-04-14 12:05:16,116 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND Y >= 3.50 THEN class = {7.58} [-18.63, 33.78], (p=234, n=10, P=334, N=27)
+2026-04-14 12:05:16,117 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:16,312 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:16,312 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:16,312 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:16,313 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:16,394 - INFO - Iteracja 2: condition_best: RH <= 42.50, quality_best: 0.502, coverage_best: (p=106, n=2, P=333, N=28)
+2026-04-14 12:05:16,394 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 THEN class = {6.98} [-17.22, 31.17], (p=106, n=2, P=333, N=28)
+2026-04-14 12:05:16,394 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:16,596 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:16,597 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:16,597 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:16,597 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:16,641 - INFO - Iteracja 3: condition_best: FFMC <= 92.45, quality_best: 0.514, coverage_best: (p=77, n=1, P=333, N=28)
+2026-04-14 12:05:16,641 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 AND FFMC <= 92.45 THEN class = {6.20} [-16.43, 28.83], (p=77, n=1, P=333, N=28)
+2026-04-14 12:05:16,641 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:16,835 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:16,835 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:16,835 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:16,835 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:16,866 - INFO - Iteracja 4: condition_best: X <= 8.50, quality_best: 0.511, coverage_best: (p=76, n=1, P=333, N=28)
+2026-04-14 12:05:16,866 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 AND FFMC <= 92.45 AND X <= 8.50 THEN class = {6.28} [-16.49, 29.04], (p=76, n=1, P=333, N=28)
+2026-04-14 12:05:16,866 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:17,058 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:17,058 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:17,058 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:17,058 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:17,058 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:17,059 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:17,161 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:17,161 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:17,161 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:17,358 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:17,358 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:17,358 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:17,358 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:17,450 - INFO - Iteracja 1: condition_best: Y >= 3.50, quality_best: 0.384, coverage_best: (p=234, n=10, P=334, N=27)
+2026-04-14 12:05:17,450 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND Y >= 3.50 THEN class = {7.58} [-18.63, 33.78], (p=234, n=10, P=334, N=27)
+2026-04-14 12:05:17,450 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:17,645 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:17,645 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:17,646 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:17,646 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:17,727 - INFO - Iteracja 2: condition_best: RH <= 42.50, quality_best: 0.502, coverage_best: (p=106, n=2, P=333, N=28)
+2026-04-14 12:05:17,727 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 THEN class = {6.98} [-17.22, 31.17], (p=106, n=2, P=333, N=28)
+2026-04-14 12:05:17,727 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:17,920 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:17,920 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:17,920 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:17,920 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:17,960 - INFO - Iteracja 3: condition_best: RH >= 28.50, quality_best: 0.509, coverage_best: (p=75, n=1, P=333, N=28)
+2026-04-14 12:05:17,960 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 AND RH >= 28.50 THEN class = {6.18} [-16.56, 28.91], (p=75, n=1, P=333, N=28)
+2026-04-14 12:05:17,960 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:18,152 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:18,152 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:18,152 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:18,152 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:18,184 - INFO - Iteracja 4: condition_best: DMC <= 224.70, quality_best: 0.51, coverage_best: (p=74, n=1, P=332, N=29)
+2026-04-14 12:05:18,184 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 42.50 AND RH >= 28.50 AND DMC <= 224.70 THEN class = {5.88} [-16.86, 28.61], (p=74, n=1, P=332, N=29)
+2026-04-14 12:05:18,184 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:18,375 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:18,375 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:18,375 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:18,375 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:18,375 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:18,376 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:18,477 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:18,477 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:18,477 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:18,673 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:18,673 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:18,673 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:18,673 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:18,763 - INFO - Iteracja 1: condition_best: Y >= 3.50, quality_best: 0.384, coverage_best: (p=234, n=10, P=334, N=27)
+2026-04-14 12:05:18,763 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND Y >= 3.50 THEN class = {7.58} [-18.63, 33.78], (p=234, n=10, P=334, N=27)
+2026-04-14 12:05:18,763 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:18,958 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:18,959 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:18,959 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:18,959 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:19,039 - INFO - Iteracja 2: condition_best: RH <= 55.50, quality_best: 0.469, coverage_best: (p=167, n=5, P=333, N=28)
+2026-04-14 12:05:19,039 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 55.50 THEN class = {6.90} [-15.31, 29.12], (p=167, n=5, P=333, N=28)
+2026-04-14 12:05:19,039 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:19,234 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:19,234 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:19,234 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:19,234 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:19,293 - INFO - Iteracja 3: condition_best: DMC <= 185.90, quality_best: 0.511, coverage_best: (p=158, n=4, P=332, N=29)
+2026-04-14 12:05:19,293 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 55.50 AND DMC <= 185.90 THEN class = {6.60} [-15.38, 28.59], (p=158, n=4, P=332, N=29)
+2026-04-14 12:05:19,294 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:19,488 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:19,488 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:19,488 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:19,488 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:19,544 - INFO - Iteracja 4: condition_best: FFMC <= 96.10, quality_best: 0.509, coverage_best: (p=157, n=4, P=332, N=29)
+2026-04-14 12:05:19,544 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND Y >= 3.50 AND RH <= 55.50 AND DMC <= 185.90 AND FFMC <= 96.10 THEN class = {6.64} [-15.40, 28.69], (p=157, n=4, P=332, N=29)
+2026-04-14 12:05:19,545 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:19,740 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:19,740 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:19,740 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:19,740 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:19,740 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:19,741 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:19,841 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:19,841 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:19,841 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:20,037 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:20,037 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:20,037 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:20,037 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:20,127 - INFO - Iteracja 1: condition_best: Y >= 3.50, quality_best: 0.384, coverage_best: (p=234, n=10, P=334, N=27)
+2026-04-14 12:05:20,127 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND Y >= 3.50 THEN class = {7.58} [-18.63, 33.78], (p=234, n=10, P=334, N=27)
+2026-04-14 12:05:20,127 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:20,323 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:20,323 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:20,323 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:20,323 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:20,678 - INFO - Iteracja 2: condition_best: Day <= 5.50, quality_best: 0.438, coverage_best: (p=155, n=5, P=333, N=28)
+2026-04-14 12:05:20,678 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND Y >= 3.50 AND Day <= 5.50 THEN class = {6.97} [-17.88, 31.81], (p=155, n=5, P=333, N=28)
+2026-04-14 12:05:20,678 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:20,873 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:20,873 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:20,873 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:20,873 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:20,932 - INFO - Iteracja 3: condition_best: ISI <= 17.35, quality_best: 0.485, coverage_best: (p=151, n=4, P=333, N=28)
+2026-04-14 12:05:20,932 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND Y >= 3.50 AND Day <= 5.50 AND ISI <= 17.35 THEN class = {6.84} [-18.18, 31.87], (p=151, n=4, P=333, N=28)
+2026-04-14 12:05:20,932 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:21,125 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:21,126 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:21,126 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:21,126 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:21,183 - INFO - Iteracja 4: condition_best: X >= 1.50, quality_best: 0.523, coverage_best: (p=142, n=3, P=333, N=28)
+2026-04-14 12:05:21,183 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND Y >= 3.50 AND Day <= 5.50 AND ISI <= 17.35 AND X >= 1.50 THEN class = {6.28} [-18.72, 31.28], (p=142, n=3, P=333, N=28)
+2026-04-14 12:05:21,183 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:21,377 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:21,377 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:21,378 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:21,378 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:21,378 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:21,378 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:21,478 - INFO - Iteracja 0: condition_best: Temp <= 24.25, quality_best: 0.263, coverage_best: (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:21,478 - INFO - Regula po iteracji 0: IF Temp <= 24.25 THEN class = {9.13} [-21.39, 39.65], (p=292, n=14, P=338, N=23)
+2026-04-14 12:05:21,478 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:21,673 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:21,673 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:21,674 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:21,674 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:21,763 - INFO - Iteracja 1: condition_best: DMC >= 14.85, quality_best: 0.309, coverage_best: (p=274, n=12, P=338, N=23)
+2026-04-14 12:05:21,763 - INFO - Regula po iteracji 1: IF Temp <= 24.25 AND DMC >= 14.85 THEN class = {9.22} [-22.05, 40.48], (p=274, n=12, P=338, N=23)
+2026-04-14 12:05:21,763 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:21,958 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:21,958 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:21,959 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:21,959 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:22,040 - INFO - Iteracja 2: condition_best: X <= 7.50, quality_best: 0.36, coverage_best: (p=236, n=9, P=338, N=23)
+2026-04-14 12:05:22,040 - INFO - Regula po iteracji 2: IF Temp <= 24.25 AND DMC >= 14.85 AND X <= 7.50 THEN class = {8.96} [-22.11, 40.03], (p=236, n=9, P=338, N=23)
+2026-04-14 12:05:22,040 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:22,235 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:22,235 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:22,235 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:22,235 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:22,310 - INFO - Iteracja 3: condition_best: FFMC <= 93.55, quality_best: 0.398, coverage_best: (p=209, n=7, P=338, N=23)
+2026-04-14 12:05:22,310 - INFO - Regula po iteracji 3: IF Temp <= 24.25 AND DMC >= 14.85 AND X <= 7.50 AND FFMC <= 93.55 THEN class = {8.59} [-22.25, 39.43], (p=209, n=7, P=338, N=23)
+2026-04-14 12:05:22,310 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:22,505 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:22,505 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:22,506 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:22,506 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:22,571 - INFO - Iteracja 4: condition_best: Temp <= 22.95, quality_best: 0.402, coverage_best: (p=195, n=6, P=339, N=22)
+2026-04-14 12:05:22,571 - INFO - Regula po iteracji 4: IF Temp <= 24.25 AND DMC >= 14.85 AND X <= 7.50 AND FFMC <= 93.55 AND Temp <= 22.95 THEN class = {8.81} [-22.93, 40.55], (p=195, n=6, P=339, N=22)
+2026-04-14 12:05:22,571 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:22,766 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:22,766 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:22,767 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:22,767 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:22,767 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:22,767 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:05:22,868 - INFO - Iteracja 0: condition_best: DMC >= 290.65, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=360)
+2026-04-14 12:05:22,868 - INFO - Regula po iteracji 0: IF DMC >= 290.65 THEN class = {3.95} [3.95, 3.95], (p=1, n=0, P=1, N=360)
+2026-04-14 12:05:22,868 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:05:23,057 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:05:23,058 - INFO - Regula po iteracji 0: IF  THEN class = {12.77} [-51.40, 76.93], (p=349, n=12, P=349, N=12)
+2026-04-14 12:05:23,058 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:05:23,058 - INFO - ***RR NOT FOUND***
+2026-04-14 12:05:23,058 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:05:23,058 - INFO - Regula po iteracji 1: IF DMC >= 290.65 THEN class = {3.95} [3.95, 3.95], (p=1, n=0, P=1, N=360)
+2026-04-14 12:05:23,058 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:05:23,070 - INFO - ************************Finished experiment for forestFires.arff with algorithm_rer_with_exceptions************************
+2026-04-14 12:05:23,070 - INFO - *************************************************************************************************************************
+2026-04-14 12:05:23,070 - INFO - *************************************************************************************************************************
+2026-04-14 12:05:23,070 - INFO - *************************************************************************************************************************
+2026-04-14 12:05:23,071 - INFO - **********Starting experiment for forestFires.arff with decision_tree**********
+2026-04-14 12:05:23,092 - INFO - ************************Finished experiment for forestFires.arff with decision_tree************************
+2026-04-14 12:05:23,092 - INFO - *************************************************************************************************************************
+2026-04-14 12:05:23,092 - INFO - *************************************************************************************************************************
+2026-04-14 12:05:23,092 - INFO - *************************************************************************************************************************

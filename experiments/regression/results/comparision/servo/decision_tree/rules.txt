@@ -1,0 +1,40 @@
+
+CR 0: pgain <= 3.5 and screw != A and motor != E and motor != D and motor != C
+
+CR 1: pgain <= 3.5 and screw != A and motor != E and motor != D and motor = C
+
+CR 2: pgain <= 3.5 and screw != A and motor != E and motor = D
+
+CR 3: pgain <= 3.5 and screw != A and motor = E and vgain <= 1.5
+
+CR 4: pgain <= 3.5 and screw != A and motor = E and vgain > 1.5
+
+CR 5: pgain <= 3.5 and screw = A and vgain <= 1.5
+
+CR 6: pgain <= 3.5 and screw = A and vgain > 1.5
+
+CR 7: pgain > 3.5 and pgain <= 4.5 and vgain <= 2.5 and screw != A and screw != B
+
+CR 8: pgain > 3.5 and pgain <= 4.5 and vgain <= 2.5 and screw != A and screw = B
+
+CR 9: pgain > 3.5 and pgain <= 4.5 and vgain <= 2.5 and screw = A and vgain <= 1.5
+
+CR 10: pgain > 3.5 and pgain <= 4.5 and vgain <= 2.5 and screw = A and vgain > 1.5
+
+CR 11: pgain > 3.5 and pgain <= 4.5 and vgain > 2.5 and motor != A and motor != B
+
+CR 12: pgain > 3.5 and pgain <= 4.5 and vgain > 2.5 and motor != A and motor = B
+
+CR 13: pgain > 3.5 and pgain <= 4.5 and vgain > 2.5 and motor = A
+
+CR 14: pgain > 3.5 and pgain > 4.5 and screw != A and motor != E and motor != A
+
+CR 15: pgain > 3.5 and pgain > 4.5 and screw != A and motor != E and motor = A
+
+CR 16: pgain > 3.5 and pgain > 4.5 and screw != A and motor = E
+
+CR 17: pgain > 3.5 and pgain > 4.5 and screw = A and motor != A and motor != B
+
+CR 18: pgain > 3.5 and pgain > 4.5 and screw = A and motor != A and motor = B
+
+CR 19: pgain > 3.5 and pgain > 4.5 and screw = A and motor = A

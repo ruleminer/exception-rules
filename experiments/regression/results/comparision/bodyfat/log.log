@@ -1,0 +1,1371 @@
+2026-04-14 11:59:13,300 - INFO - **********Starting experiment for bodyfat.arff with algorithm_rulekit**********
+2026-04-14 11:59:13,998 - INFO - ************************Finished experiment for bodyfat.arff with algorithm_rulekit************************
+2026-04-14 11:59:13,999 - INFO - *************************************************************************************************************************
+2026-04-14 11:59:13,999 - INFO - *************************************************************************************************************************
+2026-04-14 11:59:13,999 - INFO - *************************************************************************************************************************
+2026-04-14 11:59:13,999 - INFO - **********Starting experiment for bodyfat.arff with algorithm_rer**********
+2026-04-14 11:59:14,005 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:14,184 - INFO - Iteracja 0: condition_best: Density <= 1.03, quality_best: 0.867, coverage_best: (p=23, n=3, P=23, N=153)
+2026-04-14 11:59:14,184 - INFO - Regula po iteracji 0: IF Density <= 1.03 THEN class = {33.07} [29.30, 36.84], (p=23, n=3, P=23, N=153)
+2026-04-14 11:59:14,215 - INFO - Iteracja 1: condition_best: Height <= 75.00, quality_best: 0.908, coverage_best: (p=23, n=2, P=23, N=153)
+2026-04-14 11:59:14,215 - INFO - Regula po iteracji 1: IF Density <= 1.03 AND Height <= 75.00 THEN class = {32.87} [29.16, 36.57], (p=23, n=2, P=23, N=153)
+2026-04-14 11:59:14,240 - INFO - Iteracja 2: condition_best: Wrist >= 17.15, quality_best: 0.952, coverage_best: (p=23, n=1, P=23, N=153)
+2026-04-14 11:59:14,240 - INFO - Regula po iteracji 2: IF Density <= 1.03 AND Height <= 75.00 AND Wrist >= 17.15 THEN class = {32.57} [29.10, 36.04], (p=23, n=1, P=23, N=153)
+2026-04-14 11:59:14,265 - INFO - Iteracja 3: condition_best: Density <= 1.03, quality_best: 0.929, coverage_best: (p=22, n=1, P=23, N=153)
+2026-04-14 11:59:14,265 - INFO - Regula po iteracji 3: IF Density <= 1.03 AND Height <= 75.00 AND Wrist >= 17.15 AND Density <= 1.03 THEN class = {32.70} [29.22, 36.18], (p=22, n=1, P=23, N=153)
+2026-04-14 11:59:14,288 - INFO - Iteracja 4: condition_best: Density <= 1.03, quality_best: 0.907, coverage_best: (p=21, n=1, P=23, N=153)
+2026-04-14 11:59:14,288 - INFO - Regula po iteracji 4: IF Density <= 1.03 AND Height <= 75.00 AND Wrist >= 17.15 AND Density <= 1.03 AND Density <= 1.03 THEN class = {32.84} [29.34, 36.34], (p=21, n=1, P=23, N=153)
+2026-04-14 11:59:14,288 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:14,290 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:14,427 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.844, coverage_best: (p=26, n=4, P=26, N=150)
+2026-04-14 11:59:14,427 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {32.49} [28.67, 36.30], (p=26, n=4, P=26, N=150)
+2026-04-14 11:59:14,456 - INFO - Iteracja 1: condition_best: Weight <= 242.75, quality_best: 0.879, coverage_best: (p=25, n=2, P=27, N=149)
+2026-04-14 11:59:14,457 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 242.75 THEN class = {32.21} [28.37, 36.05], (p=25, n=2, P=27, N=149)
+2026-04-14 11:59:14,483 - INFO - Iteracja 2: condition_best: Wrist >= 17.15, quality_best: 0.919, coverage_best: (p=25, n=1, P=27, N=149)
+2026-04-14 11:59:14,483 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 242.75 AND Wrist >= 17.15 THEN class = {31.91} [28.32, 35.49], (p=25, n=1, P=27, N=149)
+2026-04-14 11:59:14,508 - INFO - Iteracja 3: condition_best: Density <= 1.03, quality_best: 0.916, coverage_best: (p=24, n=1, P=26, N=150)
+2026-04-14 11:59:14,508 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 242.75 AND Wrist >= 17.15 AND Density <= 1.03 THEN class = {32.05} [28.46, 35.63], (p=24, n=1, P=26, N=150)
+2026-04-14 11:59:14,532 - INFO - Iteracja 4: condition_best: Weight <= 234.75, quality_best: 0.896, coverage_best: (p=23, n=1, P=26, N=150)
+2026-04-14 11:59:14,532 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 242.75 AND Wrist >= 17.15 AND Density <= 1.03 AND Weight <= 234.75 THEN class = {32.14} [28.51, 35.77], (p=23, n=1, P=26, N=150)
+2026-04-14 11:59:14,532 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:14,533 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:14,668 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.815, coverage_best: (p=27, n=5, P=27, N=149)
+2026-04-14 11:59:14,668 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {32.18} [28.31, 36.06], (p=27, n=5, P=27, N=149)
+2026-04-14 11:59:14,699 - INFO - Iteracja 1: condition_best: Abdomen <= 115.75, quality_best: 0.795, coverage_best: (p=23, n=5, P=23, N=153)
+2026-04-14 11:59:14,699 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Abdomen <= 115.75 THEN class = {31.38} [28.64, 34.12], (p=23, n=5, P=23, N=153)
+2026-04-14 11:59:14,726 - INFO - Iteracja 2: condition_best: Age <= 73.00, quality_best: 0.77, coverage_best: (p=22, n=5, P=23, N=153)
+2026-04-14 11:59:14,726 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Abdomen <= 115.75 AND Age <= 73.00 THEN class = {31.36} [28.57, 34.14], (p=22, n=5, P=23, N=153)
+2026-04-14 11:59:14,753 - INFO - Iteracja 3: condition_best: Hip <= 114.80, quality_best: 0.764, coverage_best: (p=21, n=4, P=24, N=152)
+2026-04-14 11:59:14,753 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Abdomen <= 115.75 AND Age <= 73.00 AND Hip <= 114.80 THEN class = {31.26} [28.39, 34.13], (p=21, n=4, P=24, N=152)
+2026-04-14 11:59:14,778 - INFO - Iteracja 4: condition_best: Age <= 70.50, quality_best: 0.74, coverage_best: (p=20, n=4, P=24, N=152)
+2026-04-14 11:59:14,778 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Abdomen <= 115.75 AND Age <= 73.00 AND Hip <= 114.80 AND Age <= 70.50 THEN class = {31.16} [28.27, 34.05], (p=20, n=4, P=24, N=152)
+2026-04-14 11:59:14,778 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:14,779 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:14,916 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.802, coverage_best: (p=38, n=7, P=38, N=138)
+2026-04-14 11:59:14,916 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {30.60} [26.49, 34.71], (p=38, n=7, P=38, N=138)
+2026-04-14 11:59:14,959 - INFO - Iteracja 1: condition_best: Weight <= 221.88, quality_best: 0.861, coverage_best: (p=34, n=3, P=37, N=139)
+2026-04-14 11:59:14,959 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 221.88 THEN class = {30.12} [26.03, 34.21], (p=34, n=3, P=37, N=139)
+2026-04-14 11:59:14,995 - INFO - Iteracja 2: condition_best: Wrist >= 17.15, quality_best: 0.892, coverage_best: (p=34, n=2, P=37, N=139)
+2026-04-14 11:59:14,995 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 221.88 AND Wrist >= 17.15 THEN class = {29.84} [26.05, 33.63], (p=34, n=2, P=37, N=139)
+2026-04-14 11:59:15,029 - INFO - Iteracja 3: condition_best: Density <= 1.04, quality_best: 0.923, coverage_best: (p=33, n=1, P=36, N=140)
+2026-04-14 11:59:15,029 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 221.88 AND Wrist >= 17.15 AND Density <= 1.04 THEN class = {30.06} [26.28, 33.84], (p=33, n=1, P=36, N=140)
+2026-04-14 11:59:15,061 - INFO - Iteracja 4: condition_best: Density <= 1.04, quality_best: 0.908, coverage_best: (p=32, n=1, P=36, N=140)
+2026-04-14 11:59:15,061 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 221.88 AND Wrist >= 17.15 AND Density <= 1.04 AND Density <= 1.04 THEN class = {30.17} [26.38, 33.96], (p=32, n=1, P=36, N=140)
+2026-04-14 11:59:15,061 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:15,062 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:15,198 - INFO - Iteracja 0: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:15,198 - INFO - Regula po iteracji 0: IF Density >= 1.08 THEN class = {6.77} [3.59, 9.95], (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:15,226 - INFO - Iteracja 1: condition_best: Density <= 1.08, quality_best: 0.87, coverage_best: (p=7, n=1, P=7, N=169)
+2026-04-14 11:59:15,226 - INFO - Regula po iteracji 1: IF Density >= 1.08 AND Density <= 1.08 THEN class = {8.54} [8.27, 8.80], (p=7, n=1, P=7, N=169)
+2026-04-14 11:59:15,235 - INFO - Iteracja 2: condition_best: Weight <= 172.12, quality_best: 0.852, coverage_best: (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:15,235 - INFO - Regula po iteracji 2: IF Density >= 1.08 AND Density <= 1.08 AND Weight <= 172.12 THEN class = {8.57} [8.31, 8.84], (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:15,241 - INFO - Iteracja 3: condition_best: Density <= 1.08, quality_best: 0.795, coverage_best: (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:15,241 - INFO - Regula po iteracji 3: IF Density >= 1.08 AND Density <= 1.08 AND Weight <= 172.12 AND Density <= 1.08 THEN class = {8.70} [8.57, 8.83], (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:15,246 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:59:15,246 - INFO - Regula po iteracji 4: IF Density >= 1.08 AND Density <= 1.08 AND Weight <= 172.12 AND Density <= 1.08 THEN class = {8.70} [8.57, 8.83], (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:15,246 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:15,248 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:15,383 - INFO - Iteracja 0: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:15,383 - INFO - Regula po iteracji 0: IF Density >= 1.08 THEN class = {6.77} [3.59, 9.95], (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:15,408 - INFO - Iteracja 1: condition_best: Wrist <= 18.45, quality_best: 0.774, coverage_best: (p=18, n=2, P=24, N=152)
+2026-04-14 11:59:15,408 - INFO - Regula po iteracji 1: IF Density >= 1.08 AND Wrist <= 18.45 THEN class = {6.24} [3.68, 8.80], (p=18, n=2, P=24, N=152)
+2026-04-14 11:59:15,428 - INFO - Iteracja 2: condition_best: Height >= 64.50, quality_best: 0.764, coverage_best: (p=17, n=2, P=23, N=153)
+2026-04-14 11:59:15,428 - INFO - Regula po iteracji 2: IF Density >= 1.08 AND Wrist <= 18.45 AND Height >= 64.50 THEN class = {6.37} [3.81, 8.93], (p=17, n=2, P=23, N=153)
+2026-04-14 11:59:15,447 - INFO - Iteracja 3: condition_best: Chest >= 84.25, quality_best: 0.759, coverage_best: (p=15, n=2, P=20, N=156)
+2026-04-14 11:59:15,447 - INFO - Regula po iteracji 3: IF Density >= 1.08 AND Wrist <= 18.45 AND Height >= 64.50 AND Chest >= 84.25 THEN class = {6.89} [4.80, 8.97], (p=15, n=2, P=20, N=156)
+2026-04-14 11:59:15,464 - INFO - Iteracja 4: condition_best: Weight <= 187.50, quality_best: 0.796, coverage_best: (p=15, n=1, P=21, N=155)
+2026-04-14 11:59:15,464 - INFO - Regula po iteracji 4: IF Density >= 1.08 AND Wrist <= 18.45 AND Height >= 64.50 AND Chest >= 84.25 AND Weight <= 187.50 THEN class = {7.06} [5.04, 9.09], (p=15, n=1, P=21, N=155)
+2026-04-14 11:59:15,464 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:15,465 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:15,598 - INFO - Iteracja 0: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:15,598 - INFO - Regula po iteracji 0: IF Density >= 1.08 THEN class = {6.77} [3.59, 9.95], (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:15,622 - INFO - Iteracja 1: condition_best: Weight <= 180.38, quality_best: 0.77, coverage_best: (p=19, n=3, P=23, N=153)
+2026-04-14 11:59:15,622 - INFO - Regula po iteracji 1: IF Density >= 1.08 AND Weight <= 180.38 THEN class = {6.40} [3.89, 8.90], (p=19, n=3, P=23, N=153)
+2026-04-14 11:59:15,642 - INFO - Iteracja 2: condition_best: Height >= 66.50, quality_best: 0.797, coverage_best: (p=17, n=2, P=21, N=155)
+2026-04-14 11:59:15,642 - INFO - Regula po iteracji 2: IF Density >= 1.08 AND Weight <= 180.38 AND Height >= 66.50 THEN class = {6.96} [4.84, 9.09], (p=17, n=2, P=21, N=155)
+2026-04-14 11:59:15,661 - INFO - Iteracja 3: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=14, n=2, P=17, N=159)
+2026-04-14 11:59:15,661 - INFO - Regula po iteracji 3: IF Density >= 1.08 AND Weight <= 180.38 AND Height >= 66.50 AND Density >= 1.08 THEN class = {6.62} [4.47, 8.77], (p=14, n=2, P=17, N=159)
+2026-04-14 11:59:15,677 - INFO - Iteracja 4: condition_best: Density >= 1.08, quality_best: 0.752, coverage_best: (p=13, n=2, P=17, N=159)
+2026-04-14 11:59:15,677 - INFO - Regula po iteracji 4: IF Density >= 1.08 AND Weight <= 180.38 AND Height >= 66.50 AND Density >= 1.08 AND Density >= 1.08 THEN class = {6.49} [4.33, 8.64], (p=13, n=2, P=17, N=159)
+2026-04-14 11:59:15,677 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:15,678 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:15,811 - INFO - Iteracja 0: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:15,811 - INFO - Regula po iteracji 0: IF Density >= 1.08 THEN class = {6.77} [3.59, 9.95], (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:15,836 - INFO - Iteracja 1: condition_best: Density >= 1.08, quality_best: 0.765, coverage_best: (p=22, n=3, P=28, N=148)
+2026-04-14 11:59:15,836 - INFO - Regula po iteracji 1: IF Density >= 1.08 AND Density >= 1.08 THEN class = {6.69} [3.47, 9.90], (p=22, n=3, P=28, N=148)
+2026-04-14 11:59:15,860 - INFO - Iteracja 2: condition_best: Age <= 56.50, quality_best: 0.745, coverage_best: (p=21, n=3, P=28, N=148)
+2026-04-14 11:59:15,860 - INFO - Regula po iteracji 2: IF Density >= 1.08 AND Density >= 1.08 AND Age <= 56.50 THEN class = {6.60} [3.35, 9.85], (p=21, n=3, P=28, N=148)
+2026-04-14 11:59:15,883 - INFO - Iteracja 3: condition_best: Biceps >= 26.40, quality_best: 0.764, coverage_best: (p=20, n=2, P=28, N=148)
+2026-04-14 11:59:15,883 - INFO - Regula po iteracji 3: IF Density >= 1.08 AND Density >= 1.08 AND Age <= 56.50 AND Biceps >= 26.40 THEN class = {6.82} [3.68, 9.95], (p=20, n=2, P=28, N=148)
+2026-04-14 11:59:15,905 - INFO - Iteracja 4: condition_best: Density >= 1.08, quality_best: 0.744, coverage_best: (p=19, n=2, P=28, N=148)
+2026-04-14 11:59:15,905 - INFO - Regula po iteracji 4: IF Density >= 1.08 AND Density >= 1.08 AND Age <= 56.50 AND Biceps >= 26.40 AND Density >= 1.08 THEN class = {6.72} [3.54, 9.90], (p=19, n=2, P=28, N=148)
+2026-04-14 11:59:15,905 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:15,906 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:16,038 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.763, coverage_best: (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:16,039 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {29.39} [25.12, 33.66], (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:16,092 - INFO - Iteracja 1: condition_best: Weight <= 223.75, quality_best: 0.815, coverage_best: (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:16,092 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 223.75 THEN class = {28.91} [24.76, 33.05], (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:16,135 - INFO - Iteracja 2: condition_best: Density <= 1.04, quality_best: 0.888, coverage_best: (p=37, n=2, P=41, N=135)
+2026-04-14 11:59:16,135 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 THEN class = {29.89} [25.80, 33.99], (p=37, n=2, P=41, N=135)
+2026-04-14 11:59:16,171 - INFO - Iteracja 3: condition_best: Age <= 73.00, quality_best: 0.875, coverage_best: (p=36, n=2, P=41, N=135)
+2026-04-14 11:59:16,171 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 AND Age <= 73.00 THEN class = {29.84} [25.71, 33.98], (p=36, n=2, P=41, N=135)
+2026-04-14 11:59:16,207 - INFO - Iteracja 4: condition_best: Wrist >= 17.15, quality_best: 0.872, coverage_best: (p=35, n=2, P=40, N=136)
+2026-04-14 11:59:16,207 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 AND Age <= 73.00 AND Wrist >= 17.15 THEN class = {29.56} [25.74, 33.39], (p=35, n=2, P=40, N=136)
+2026-04-14 11:59:16,207 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:16,208 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:16,341 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.763, coverage_best: (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:16,341 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {29.39} [25.12, 33.66], (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:16,392 - INFO - Iteracja 1: condition_best: Weight <= 223.75, quality_best: 0.815, coverage_best: (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:16,392 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 223.75 THEN class = {28.91} [24.76, 33.05], (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:16,435 - INFO - Iteracja 2: condition_best: Density <= 1.04, quality_best: 0.861, coverage_best: (p=42, n=3, P=47, N=129)
+2026-04-14 11:59:16,436 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 THEN class = {29.28} [25.17, 33.40], (p=42, n=3, P=47, N=129)
+2026-04-14 11:59:16,476 - INFO - Iteracja 3: condition_best: Wrist <= 19.95, quality_best: 0.877, coverage_best: (p=41, n=2, P=47, N=129)
+2026-04-14 11:59:16,476 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 AND Wrist <= 19.95 THEN class = {29.12} [24.98, 33.26], (p=41, n=2, P=47, N=129)
+2026-04-14 11:59:16,516 - INFO - Iteracja 4: condition_best: Density <= 1.04, quality_best: 0.865, coverage_best: (p=40, n=2, P=47, N=129)
+2026-04-14 11:59:16,516 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 AND Wrist <= 19.95 AND Density <= 1.04 THEN class = {29.22} [25.07, 33.36], (p=40, n=2, P=47, N=129)
+2026-04-14 11:59:16,516 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:16,517 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:16,648 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.763, coverage_best: (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:16,648 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {29.39} [25.12, 33.66], (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:16,698 - INFO - Iteracja 1: condition_best: Weight <= 223.75, quality_best: 0.815, coverage_best: (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:16,698 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 223.75 THEN class = {28.91} [24.76, 33.05], (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:16,740 - INFO - Iteracja 2: condition_best: Wrist <= 19.30, quality_best: 0.834, coverage_best: (p=42, n=3, P=50, N=126)
+2026-04-14 11:59:16,740 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 223.75 AND Wrist <= 19.30 THEN class = {28.81} [24.59, 33.03], (p=42, n=3, P=50, N=126)
+2026-04-14 11:59:16,780 - INFO - Iteracja 3: condition_best: Age <= 71.00, quality_best: 0.823, coverage_best: (p=41, n=3, P=50, N=126)
+2026-04-14 11:59:16,780 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 223.75 AND Wrist <= 19.30 AND Age <= 71.00 THEN class = {28.85} [24.60, 33.11], (p=41, n=3, P=50, N=126)
+2026-04-14 11:59:16,820 - INFO - Iteracja 4: condition_best: Age <= 69.50, quality_best: 0.812, coverage_best: (p=40, n=3, P=50, N=126)
+2026-04-14 11:59:16,820 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 223.75 AND Wrist <= 19.30 AND Age <= 71.00 AND Age <= 69.50 THEN class = {28.90} [24.60, 33.20], (p=40, n=3, P=50, N=126)
+2026-04-14 11:59:16,820 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:16,821 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:16,952 - INFO - Iteracja 0: condition_best: Density >= 1.07, quality_best: 0.758, coverage_best: (p=30, n=7, P=31, N=145)
+2026-04-14 11:59:16,953 - INFO - Regula po iteracji 0: IF Density >= 1.07 THEN class = {7.74} [4.67, 10.81], (p=30, n=7, P=31, N=145)
+2026-04-14 11:59:16,987 - INFO - Iteracja 1: condition_best: Height >= 65.50, quality_best: 0.795, coverage_best: (p=29, n=5, P=31, N=145)
+2026-04-14 11:59:16,987 - INFO - Regula po iteracji 1: IF Density >= 1.07 AND Height >= 65.50 THEN class = {7.98} [5.15, 10.81], (p=29, n=5, P=31, N=145)
+2026-04-14 11:59:17,019 - INFO - Iteracja 2: condition_best: Height >= 66.50, quality_best: 0.79, coverage_best: (p=28, n=5, P=30, N=146)
+2026-04-14 11:59:17,019 - INFO - Regula po iteracji 2: IF Density >= 1.07 AND Height >= 65.50 AND Height >= 66.50 THEN class = {8.10} [5.32, 10.88], (p=28, n=5, P=30, N=146)
+2026-04-14 11:59:17,049 - INFO - Iteracja 3: condition_best: Density >= 1.07, quality_best: 0.816, coverage_best: (p=27, n=4, P=29, N=147)
+2026-04-14 11:59:17,049 - INFO - Regula po iteracji 3: IF Density >= 1.07 AND Height >= 65.50 AND Height >= 66.50 AND Density >= 1.07 THEN class = {7.93} [5.14, 10.71], (p=27, n=4, P=29, N=147)
+2026-04-14 11:59:17,079 - INFO - Iteracja 4: condition_best: Abdomen >= 73.70, quality_best: 0.822, coverage_best: (p=25, n=4, P=26, N=150)
+2026-04-14 11:59:17,079 - INFO - Regula po iteracji 4: IF Density >= 1.07 AND Height >= 65.50 AND Height >= 66.50 AND Density >= 1.07 AND Abdomen >= 73.70 THEN class = {8.12} [5.69, 10.56], (p=25, n=4, P=26, N=150)
+2026-04-14 11:59:17,079 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:17,080 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:17,332 - INFO - Iteracja 0: condition_best: Density >= 1.07, quality_best: 0.738, coverage_best: (p=31, n=8, P=32, N=144)
+2026-04-14 11:59:17,333 - INFO - Regula po iteracji 0: IF Density >= 1.07 THEN class = {7.91} [4.83, 10.99], (p=31, n=8, P=32, N=144)
+2026-04-14 11:59:17,367 - INFO - Iteracja 1: condition_best: Density <= 1.08, quality_best: 0.79, coverage_best: (p=8, n=2, P=8, N=168)
+2026-04-14 11:59:17,367 - INFO - Regula po iteracji 1: IF Density >= 1.07 AND Density <= 1.08 THEN class = {10.48} [9.98, 10.98], (p=8, n=2, P=8, N=168)
+2026-04-14 11:59:17,378 - INFO - Iteracja 2: condition_best: Hip <= 101.85, quality_best: 0.769, coverage_best: (p=7, n=2, P=7, N=169)
+2026-04-14 11:59:17,378 - INFO - Regula po iteracji 2: IF Density >= 1.07 AND Density <= 1.08 AND Hip <= 101.85 THEN class = {10.53} [10.04, 11.03], (p=7, n=2, P=7, N=169)
+2026-04-14 11:59:17,387 - INFO - Iteracja 3: condition_best: Density >= 1.07, quality_best: 0.741, coverage_best: (p=6, n=2, P=6, N=170)
+2026-04-14 11:59:17,387 - INFO - Regula po iteracji 3: IF Density >= 1.07 AND Density <= 1.08 AND Hip <= 101.85 AND Density >= 1.07 THEN class = {10.43} [10.01, 10.84], (p=6, n=2, P=6, N=170)
+2026-04-14 11:59:17,395 - INFO - Iteracja 4: condition_best: Hip <= 98.25, quality_best: 0.671, coverage_best: (p=5, n=1, P=8, N=168)
+2026-04-14 11:59:17,395 - INFO - Regula po iteracji 4: IF Density >= 1.07 AND Density <= 1.08 AND Hip <= 101.85 AND Density >= 1.07 AND Hip <= 98.25 THEN class = {10.47} [10.00, 10.93], (p=5, n=1, P=8, N=168)
+2026-04-14 11:59:17,395 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:17,396 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:17,527 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.72, coverage_best: (p=54, n=13, P=54, N=122)
+2026-04-14 11:59:17,527 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {28.57} [24.08, 33.06], (p=54, n=13, P=54, N=122)
+2026-04-14 11:59:17,586 - INFO - Iteracja 1: condition_best: Density >= 1.05, quality_best: 0.795, coverage_best: (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:17,586 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.05 THEN class = {22.72} [22.50, 22.94], (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:17,592 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:59:17,592 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.05 THEN class = {22.72} [22.50, 22.94], (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:17,592 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:17,592 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:17,723 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.72, coverage_best: (p=54, n=13, P=54, N=122)
+2026-04-14 11:59:17,723 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {28.57} [24.08, 33.06], (p=54, n=13, P=54, N=122)
+2026-04-14 11:59:17,780 - INFO - Iteracja 1: condition_best: Weight <= 255.00, quality_best: 0.738, coverage_best: (p=54, n=12, P=54, N=122)
+2026-04-14 11:59:17,780 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Weight <= 255.00 THEN class = {28.48} [24.01, 32.95], (p=54, n=12, P=54, N=122)
+2026-04-14 11:59:17,838 - INFO - Iteracja 2: condition_best: Density <= 1.05, quality_best: 0.756, coverage_best: (p=54, n=11, P=54, N=122)
+2026-04-14 11:59:17,838 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Weight <= 255.00 AND Density <= 1.05 THEN class = {28.57} [24.14, 33.01], (p=54, n=11, P=54, N=122)
+2026-04-14 11:59:17,895 - INFO - Iteracja 3: condition_best: Density <= 1.05, quality_best: 0.754, coverage_best: (p=53, n=11, P=53, N=123)
+2026-04-14 11:59:17,895 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Weight <= 255.00 AND Density <= 1.05 AND Density <= 1.05 THEN class = {28.67} [24.26, 33.07], (p=53, n=11, P=53, N=123)
+2026-04-14 11:59:17,951 - INFO - Iteracja 4: condition_best: Thigh <= 72.80, quality_best: 0.794, coverage_best: (p=54, n=9, P=54, N=122)
+2026-04-14 11:59:17,951 - INFO - Regula po iteracji 4: IF Density <= 1.05 AND Weight <= 255.00 AND Density <= 1.05 AND Density <= 1.05 AND Thigh <= 72.80 THEN class = {28.58} [24.19, 32.96], (p=54, n=9, P=54, N=122)
+2026-04-14 11:59:17,951 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:17,952 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:18,082 - INFO - Iteracja 0: condition_best: Density >= 1.07, quality_best: 0.68, coverage_best: (p=33, n=11, P=34, N=142)
+2026-04-14 11:59:18,082 - INFO - Regula po iteracji 0: IF Density >= 1.07 THEN class = {8.37} [5.20, 11.54], (p=33, n=11, P=34, N=142)
+2026-04-14 11:59:18,121 - INFO - Iteracja 1: condition_best: Height >= 66.50, quality_best: 0.708, coverage_best: (p=30, n=9, P=31, N=145)
+2026-04-14 11:59:18,121 - INFO - Regula po iteracji 1: IF Density >= 1.07 AND Height >= 66.50 THEN class = {8.65} [5.78, 11.53], (p=30, n=9, P=31, N=145)
+2026-04-14 11:59:18,156 - INFO - Iteracja 2: condition_best: Thigh <= 62.30, quality_best: 0.714, coverage_best: (p=29, n=8, P=31, N=145)
+2026-04-14 11:59:18,156 - INFO - Regula po iteracji 2: IF Density >= 1.07 AND Height >= 66.50 AND Thigh <= 62.30 THEN class = {8.80} [5.95, 11.65], (p=29, n=8, P=31, N=145)
+2026-04-14 11:59:18,190 - INFO - Iteracja 3: condition_best: Age <= 56.50, quality_best: 0.695, coverage_best: (p=28, n=8, P=31, N=145)
+2026-04-14 11:59:18,190 - INFO - Regula po iteracji 3: IF Density >= 1.07 AND Height >= 66.50 AND Thigh <= 62.30 AND Age <= 56.50 THEN class = {8.80} [5.91, 11.69], (p=28, n=8, P=31, N=145)
+2026-04-14 11:59:18,223 - INFO - Iteracja 4: condition_best: Age <= 54.50, quality_best: 0.688, coverage_best: (p=26, n=6, P=33, N=143)
+2026-04-14 11:59:18,223 - INFO - Regula po iteracji 4: IF Density >= 1.07 AND Height >= 66.50 AND Thigh <= 62.30 AND Age <= 56.50 AND Age <= 54.50 THEN class = {8.85} [5.88, 11.83], (p=26, n=6, P=33, N=143)
+2026-04-14 11:59:18,223 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:18,223 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:18,353 - INFO - Iteracja 0: condition_best: Density >= 1.07, quality_best: 0.657, coverage_best: (p=38, n=14, P=38, N=138)
+2026-04-14 11:59:18,353 - INFO - Regula po iteracji 0: IF Density >= 1.07 THEN class = {9.01} [5.56, 12.45], (p=38, n=14, P=38, N=138)
+2026-04-14 11:59:18,400 - INFO - Iteracja 1: condition_best: Density <= 1.08, quality_best: 0.748, coverage_best: (p=17, n=5, P=17, N=159)
+2026-04-14 11:59:18,400 - INFO - Regula po iteracji 1: IF Density >= 1.07 AND Density <= 1.08 THEN class = {11.59} [9.71, 13.47], (p=17, n=5, P=17, N=159)
+2026-04-14 11:59:18,423 - INFO - Iteracja 2: condition_best: Thigh <= 60.30, quality_best: 0.801, coverage_best: (p=16, n=3, P=17, N=159)
+2026-04-14 11:59:18,423 - INFO - Regula po iteracji 2: IF Density >= 1.07 AND Density <= 1.08 AND Thigh <= 60.30 THEN class = {11.38} [9.62, 13.14], (p=16, n=3, P=17, N=159)
+2026-04-14 11:59:18,442 - INFO - Iteracja 3: condition_best: Density <= 1.08, quality_best: 0.768, coverage_best: (p=15, n=3, P=17, N=159)
+2026-04-14 11:59:18,442 - INFO - Regula po iteracji 3: IF Density >= 1.07 AND Density <= 1.08 AND Thigh <= 60.30 AND Density <= 1.08 THEN class = {11.45} [9.67, 13.23], (p=15, n=3, P=17, N=159)
+2026-04-14 11:59:18,460 - INFO - Iteracja 4: condition_best: Density <= 1.08, quality_best: 0.734, coverage_best: (p=14, n=3, P=17, N=159)
+2026-04-14 11:59:18,460 - INFO - Regula po iteracji 4: IF Density >= 1.07 AND Density <= 1.08 AND Thigh <= 60.30 AND Density <= 1.08 AND Density <= 1.08 THEN class = {11.52} [9.72, 13.33], (p=14, n=3, P=17, N=159)
+2026-04-14 11:59:18,460 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:18,461 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:18,589 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.589, coverage_best: (p=51, n=21, P=51, N=125)
+2026-04-14 11:59:18,589 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {28.13} [23.50, 32.75], (p=51, n=21, P=51, N=125)
+2026-04-14 11:59:18,649 - INFO - Iteracja 1: condition_best: Density >= 1.04, quality_best: 0.911, coverage_best: (p=11, n=1, P=11, N=165)
+2026-04-14 11:59:18,649 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.04 THEN class = {22.67} [22.07, 23.26], (p=11, n=1, P=11, N=165)
+2026-04-14 11:59:18,662 - INFO - Iteracja 2: condition_best: Age >= 31.50, quality_best: 0.862, coverage_best: (p=10, n=1, P=11, N=165)
+2026-04-14 11:59:18,662 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.04 AND Age >= 31.50 THEN class = {22.65} [22.03, 23.26], (p=10, n=1, P=11, N=165)
+2026-04-14 11:59:18,673 - INFO - Iteracja 3: condition_best: Density >= 1.05, quality_best: 0.852, coverage_best: (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:18,673 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Density >= 1.04 AND Age >= 31.50 AND Density >= 1.05 THEN class = {22.29} [22.09, 22.48], (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:18,681 - INFO - Iteracja 4: condition_best: Height <= 72.50, quality_best: 0.758, coverage_best: (p=5, n=1, P=6, N=170)
+2026-04-14 11:59:18,681 - INFO - Regula po iteracji 4: IF Density <= 1.05 AND Density >= 1.04 AND Age >= 31.50 AND Density >= 1.05 AND Height <= 72.50 THEN class = {22.28} [22.07, 22.49], (p=5, n=1, P=6, N=170)
+2026-04-14 11:59:18,681 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:18,681 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:18,810 - INFO - Iteracja 0: condition_best: Density >= 1.06, quality_best: 0.586, coverage_best: (p=37, n=18, P=37, N=139)
+2026-04-14 11:59:18,810 - INFO - Regula po iteracji 0: IF Density >= 1.06 THEN class = {9.32} [5.72, 12.93], (p=37, n=18, P=37, N=139)
+2026-04-14 11:59:18,857 - INFO - Iteracja 1: condition_best: Density <= 1.07, quality_best: 0.813, coverage_best: (p=15, n=1, P=20, N=156)
+2026-04-14 11:59:18,857 - INFO - Regula po iteracji 1: IF Density >= 1.06 AND Density <= 1.07 THEN class = {12.76} [10.58, 14.95], (p=15, n=1, P=20, N=156)
+2026-04-14 11:59:18,875 - INFO - Iteracja 2: condition_best: Density <= 1.07, quality_best: 0.804, coverage_best: (p=14, n=1, P=19, N=157)
+2026-04-14 11:59:18,875 - INFO - Regula po iteracji 2: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 THEN class = {12.85} [10.61, 15.08], (p=14, n=1, P=19, N=157)
+2026-04-14 11:59:18,890 - INFO - Iteracja 3: condition_best: Neck >= 33.10, quality_best: 0.759, coverage_best: (p=13, n=1, P=20, N=156)
+2026-04-14 11:59:18,891 - INFO - Regula po iteracji 3: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Neck >= 33.10 THEN class = {12.79} [10.49, 15.09], (p=13, n=1, P=20, N=156)
+2026-04-14 11:59:18,905 - INFO - Iteracja 4: condition_best: Hip >= 94.90, quality_best: 0.719, coverage_best: (p=7, n=2, P=8, N=168)
+2026-04-14 11:59:18,906 - INFO - Regula po iteracji 4: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Neck >= 33.10 AND Hip >= 94.90 THEN class = {13.90} [12.90, 14.90], (p=7, n=2, P=8, N=168)
+2026-04-14 11:59:18,906 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:18,906 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:19,034 - INFO - Iteracja 0: condition_best: Density >= 1.06, quality_best: 0.55, coverage_best: (p=39, n=21, P=39, N=137)
+2026-04-14 11:59:19,034 - INFO - Regula po iteracji 0: IF Density >= 1.06 THEN class = {9.82} [6.00, 13.65], (p=39, n=21, P=39, N=137)
+2026-04-14 11:59:19,086 - INFO - Iteracja 1: condition_best: Density <= 1.07, quality_best: 0.898, coverage_best: (p=19, n=1, P=21, N=155)
+2026-04-14 11:59:19,086 - INFO - Regula po iteracji 1: IF Density >= 1.06 AND Density <= 1.07 THEN class = {13.46} [11.25, 15.67], (p=19, n=1, P=21, N=155)
+2026-04-14 11:59:19,106 - INFO - Iteracja 2: condition_best: Density <= 1.07, quality_best: 0.873, coverage_best: (p=18, n=1, P=21, N=155)
+2026-04-14 11:59:19,106 - INFO - Regula po iteracji 2: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 THEN class = {13.55} [11.32, 15.78], (p=18, n=1, P=21, N=155)
+2026-04-14 11:59:19,126 - INFO - Iteracja 3: condition_best: Density <= 1.07, quality_best: 0.848, coverage_best: (p=17, n=1, P=21, N=155)
+2026-04-14 11:59:19,126 - INFO - Regula po iteracji 3: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Density <= 1.07 THEN class = {13.64} [11.39, 15.90], (p=17, n=1, P=21, N=155)
+2026-04-14 11:59:19,144 - INFO - Iteracja 4: condition_best: Hip <= 104.95, quality_best: 0.822, coverage_best: (p=16, n=1, P=21, N=155)
+2026-04-14 11:59:19,144 - INFO - Regula po iteracji 4: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Density <= 1.07 AND Hip <= 104.95 THEN class = {13.59} [11.28, 15.89], (p=16, n=1, P=21, N=155)
+2026-04-14 11:59:19,144 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:19,145 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:19,272 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.543, coverage_best: (p=54, n=25, P=54, N=122)
+2026-04-14 11:59:19,272 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {27.51} [22.68, 32.35], (p=54, n=25, P=54, N=122)
+2026-04-14 11:59:19,338 - INFO - Iteracja 1: condition_best: Density >= 1.05, quality_best: 0.706, coverage_best: (p=5, n=2, P=5, N=171)
+2026-04-14 11:59:19,338 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.05 THEN class = {21.20} [20.87, 21.53], (p=5, n=2, P=5, N=171)
+2026-04-14 11:59:19,346 - INFO - Iteracja 2: condition_best: Age <= 42.00, quality_best: 0.661, coverage_best: (p=4, n=1, P=6, N=170)
+2026-04-14 11:59:19,346 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.05 AND Age <= 42.00 THEN class = {21.14} [20.78, 21.50], (p=4, n=1, P=6, N=170)
+2026-04-14 11:59:19,351 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:59:19,351 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Density >= 1.05 AND Age <= 42.00 THEN class = {21.14} [20.78, 21.50], (p=4, n=1, P=6, N=170)
+2026-04-14 11:59:19,351 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:19,351 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:19,479 - INFO - Iteracja 0: condition_best: Abdomen <= 87.25, quality_best: 0.542, coverage_best: (p=40, n=15, P=52, N=124)
+2026-04-14 11:59:19,479 - INFO - Regula po iteracji 0: IF Abdomen <= 87.25 THEN class = {10.67} [5.56, 15.77], (p=40, n=15, P=52, N=124)
+2026-04-14 11:59:19,525 - INFO - Iteracja 1: condition_best: Density <= 1.08, quality_best: 0.592, coverage_best: (p=25, n=5, P=47, N=129)
+2026-04-14 11:59:19,525 - INFO - Regula po iteracji 1: IF Abdomen <= 87.25 AND Density <= 1.08 THEN class = {14.10} [10.05, 18.16], (p=25, n=5, P=47, N=129)
+2026-04-14 11:59:19,553 - INFO - Iteracja 2: condition_best: Ankle <= 22.90, quality_best: 0.602, coverage_best: (p=22, n=4, P=43, N=133)
+2026-04-14 11:59:19,554 - INFO - Regula po iteracji 2: IF Abdomen <= 87.25 AND Density <= 1.08 AND Ankle <= 22.90 THEN class = {13.95} [10.20, 17.70], (p=22, n=4, P=43, N=133)
+2026-04-14 11:59:19,578 - INFO - Iteracja 3: condition_best: Neck >= 33.10, quality_best: 0.587, coverage_best: (p=21, n=4, P=43, N=133)
+2026-04-14 11:59:19,578 - INFO - Regula po iteracji 3: IF Abdomen <= 87.25 AND Density <= 1.08 AND Ankle <= 22.90 AND Neck >= 33.10 THEN class = {13.96} [10.14, 17.79], (p=21, n=4, P=43, N=133)
+2026-04-14 11:59:19,602 - INFO - Iteracja 4: condition_best: Density <= 1.08, quality_best: 0.571, coverage_best: (p=20, n=4, P=43, N=133)
+2026-04-14 11:59:19,602 - INFO - Regula po iteracji 4: IF Abdomen <= 87.25 AND Density <= 1.08 AND Ankle <= 22.90 AND Neck >= 33.10 AND Density <= 1.08 THEN class = {14.15} [10.35, 17.94], (p=20, n=4, P=43, N=133)
+2026-04-14 11:59:19,602 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:19,603 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:19,728 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.526, coverage_best: (p=58, n=27, P=58, N=118)
+2026-04-14 11:59:19,729 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {27.02} [22.02, 32.01], (p=58, n=27, P=58, N=118)
+2026-04-14 11:59:19,798 - INFO - Iteracja 1: condition_best: Density >= 1.05, quality_best: 0.87, coverage_best: (p=7, n=1, P=7, N=169)
+2026-04-14 11:59:19,798 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.05 THEN class = {20.60} [20.38, 20.82], (p=7, n=1, P=7, N=169)
+2026-04-14 11:59:19,806 - INFO - Iteracja 2: condition_best: Density >= 1.05, quality_best: 0.828, coverage_best: (p=5, n=1, P=5, N=171)
+2026-04-14 11:59:19,806 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.05 AND Density >= 1.05 THEN class = {20.50} [20.36, 20.64], (p=5, n=1, P=5, N=171)
+2026-04-14 11:59:19,812 - INFO - Iteracja 3: condition_best: Age <= 53.50, quality_best: 0.715, coverage_best: (p=4, n=1, P=5, N=171)
+2026-04-14 11:59:19,812 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Density >= 1.05 AND Density >= 1.05 AND Age <= 53.50 THEN class = {20.52} [20.37, 20.67], (p=4, n=1, P=5, N=171)
+2026-04-14 11:59:19,817 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:59:19,817 - INFO - Regula po iteracji 4: IF Density <= 1.05 AND Density >= 1.05 AND Density >= 1.05 AND Age <= 53.50 THEN class = {20.52} [20.37, 20.67], (p=4, n=1, P=5, N=171)
+2026-04-14 11:59:19,817 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:19,818 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:19,945 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.49, coverage_best: (p=57, n=30, P=57, N=119)
+2026-04-14 11:59:19,945 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {26.86} [21.82, 31.90], (p=57, n=30, P=57, N=119)
+2026-04-14 11:59:20,015 - INFO - Iteracja 1: condition_best: Density >= 1.05, quality_best: 0.716, coverage_best: (p=11, n=4, P=11, N=165)
+2026-04-14 11:59:20,015 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.05 THEN class = {20.79} [20.32, 21.25], (p=11, n=4, P=11, N=165)
+2026-04-14 11:59:20,031 - INFO - Iteracja 2: condition_best: Age >= 25.50, quality_best: 0.738, coverage_best: (p=11, n=3, P=12, N=164)
+2026-04-14 11:59:20,031 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.05 AND Age >= 25.50 THEN class = {20.78} [20.30, 21.26], (p=11, n=3, P=12, N=164)
+2026-04-14 11:59:20,046 - INFO - Iteracja 3: condition_best: Age >= 28.50, quality_best: 0.69, coverage_best: (p=10, n=3, P=12, N=164)
+2026-04-14 11:59:20,046 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Density >= 1.05 AND Age >= 25.50 AND Age >= 28.50 THEN class = {20.76} [20.27, 21.26], (p=10, n=3, P=12, N=164)
+2026-04-14 11:59:20,060 - INFO - Iteracja 4: condition_best: Age >= 31.00, quality_best: 0.64, coverage_best: (p=9, n=3, P=12, N=164)
+2026-04-14 11:59:20,060 - INFO - Regula po iteracji 4: IF Density <= 1.05 AND Density >= 1.05 AND Age >= 25.50 AND Age >= 28.50 AND Age >= 31.00 THEN class = {20.72} [20.23, 21.22], (p=9, n=3, P=12, N=164)
+2026-04-14 11:59:20,060 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:20,060 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:20,303 - INFO - Iteracja 0: condition_best: Abdomen <= 89.05, quality_best: 0.488, coverage_best: (p=49, n=19, P=65, N=111)
+2026-04-14 11:59:20,303 - INFO - Regula po iteracji 0: IF Abdomen <= 89.05 THEN class = {12.08} [6.20, 17.96], (p=49, n=19, P=65, N=111)
+2026-04-14 11:59:20,358 - INFO - Iteracja 1: condition_best: Density <= 1.09, quality_best: 0.515, coverage_best: (p=47, n=16, P=65, N=111)
+2026-04-14 11:59:20,358 - INFO - Regula po iteracji 1: IF Abdomen <= 89.05 AND Density <= 1.09 THEN class = {12.84} [7.45, 18.24], (p=47, n=16, P=65, N=111)
+2026-04-14 11:59:20,409 - INFO - Iteracja 2: condition_best: Neck <= 38.75, quality_best: 0.534, coverage_best: (p=46, n=15, P=63, N=113)
+2026-04-14 11:59:20,409 - INFO - Regula po iteracji 2: IF Abdomen <= 89.05 AND Density <= 1.09 AND Neck <= 38.75 THEN class = {12.75} [7.45, 18.05], (p=46, n=15, P=63, N=113)
+2026-04-14 11:59:20,459 - INFO - Iteracja 3: condition_best: Density <= 1.09, quality_best: 0.526, coverage_best: (p=44, n=15, P=61, N=115)
+2026-04-14 11:59:20,459 - INFO - Regula po iteracji 3: IF Abdomen <= 89.05 AND Density <= 1.09 AND Neck <= 38.75 AND Density <= 1.09 THEN class = {13.02} [7.85, 18.20], (p=44, n=15, P=61, N=115)
+2026-04-14 11:59:20,509 - INFO - Iteracja 4: condition_best: Chest >= 86.35, quality_best: 0.526, coverage_best: (p=43, n=14, P=62, N=114)
+2026-04-14 11:59:20,509 - INFO - Regula po iteracji 4: IF Abdomen <= 89.05 AND Density <= 1.09 AND Neck <= 38.75 AND Density <= 1.09 AND Chest >= 86.35 THEN class = {13.07} [7.87, 18.27], (p=43, n=14, P=62, N=114)
+2026-04-14 11:59:20,509 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:20,509 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:20,634 - INFO - Iteracja 0: condition_best: Density >= 1.06, quality_best: 0.486, coverage_best: (p=42, n=27, P=42, N=134)
+2026-04-14 11:59:20,634 - INFO - Regula po iteracji 0: IF Density >= 1.06 THEN class = {10.70} [6.47, 14.92], (p=42, n=27, P=42, N=134)
+2026-04-14 11:59:20,692 - INFO - Iteracja 1: condition_best: Density <= 1.07, quality_best: 0.95, coverage_best: (p=22, n=1, P=22, N=154)
+2026-04-14 11:59:20,692 - INFO - Regula po iteracji 1: IF Density >= 1.06 AND Density <= 1.07 THEN class = {15.00} [12.73, 17.27], (p=22, n=1, P=22, N=154)
+2026-04-14 11:59:20,715 - INFO - Iteracja 2: condition_best: Density >= 1.06, quality_best: 0.927, coverage_best: (p=21, n=1, P=22, N=154)
+2026-04-14 11:59:20,715 - INFO - Regula po iteracji 2: IF Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 THEN class = {14.91} [12.62, 17.19], (p=21, n=1, P=22, N=154)
+2026-04-14 11:59:20,737 - INFO - Iteracja 3: condition_best: Density <= 1.07, quality_best: 0.903, coverage_best: (p=20, n=1, P=22, N=154)
+2026-04-14 11:59:20,737 - INFO - Regula po iteracji 3: IF Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 AND Density <= 1.07 THEN class = {15.00} [12.69, 17.30], (p=20, n=1, P=22, N=154)
+2026-04-14 11:59:20,757 - INFO - Iteracja 4: condition_best: Density >= 1.06, quality_best: 0.879, coverage_best: (p=19, n=1, P=22, N=154)
+2026-04-14 11:59:20,757 - INFO - Regula po iteracji 4: IF Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 THEN class = {14.89} [12.58, 17.21], (p=19, n=1, P=22, N=154)
+2026-04-14 11:59:20,757 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:20,758 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:20,881 - INFO - Iteracja 0: condition_best: Density >= 1.05, quality_best: 0.48, coverage_best: (p=58, n=31, P=58, N=118)
+2026-04-14 11:59:20,882 - INFO - Regula po iteracji 0: IF Density >= 1.05 THEN class = {12.45} [7.49, 17.40], (p=58, n=31, P=58, N=118)
+2026-04-14 11:59:20,953 - INFO - Iteracja 1: condition_best: Density <= 1.06, quality_best: 0.769, coverage_best: (p=7, n=2, P=7, N=169)
+2026-04-14 11:59:20,953 - INFO - Regula po iteracji 1: IF Density >= 1.05 AND Density <= 1.06 THEN class = {19.37} [18.90, 19.84], (p=7, n=2, P=7, N=169)
+2026-04-14 11:59:20,962 - INFO - Iteracja 2: condition_best: Density >= 1.05, quality_best: 0.852, coverage_best: (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:20,962 - INFO - Regula po iteracji 2: IF Density >= 1.05 AND Density <= 1.06 AND Density >= 1.05 THEN class = {19.21} [18.81, 19.62], (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:20,969 - INFO - Iteracja 3: condition_best: Density >= 1.05, quality_best: 0.828, coverage_best: (p=5, n=1, P=5, N=171)
+2026-04-14 11:59:20,969 - INFO - Regula po iteracji 3: IF Density >= 1.05 AND Density <= 1.06 AND Density >= 1.05 AND Density >= 1.05 THEN class = {19.15} [18.74, 19.56], (p=5, n=1, P=5, N=171)
+2026-04-14 11:59:20,976 - INFO - Iteracja 4: condition_best: Neck >= 37.85, quality_best: 0.593, coverage_best: (p=3, n=2, P=3, N=173)
+2026-04-14 11:59:20,976 - INFO - Regula po iteracji 4: IF Density >= 1.05 AND Density <= 1.06 AND Density >= 1.05 AND Density >= 1.05 AND Neck >= 37.85 THEN class = {19.08} [18.67, 19.49], (p=3, n=2, P=3, N=173)
+2026-04-14 11:59:20,976 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:20,976 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:21,100 - INFO - Iteracja 0: condition_best: Density >= 1.05, quality_best: 0.48, coverage_best: (p=58, n=31, P=58, N=118)
+2026-04-14 11:59:21,100 - INFO - Regula po iteracji 0: IF Density >= 1.05 THEN class = {12.45} [7.49, 17.40], (p=58, n=31, P=58, N=118)
+2026-04-14 11:59:21,170 - INFO - Iteracja 1: condition_best: Density <= 1.07, quality_best: 0.742, coverage_best: (p=32, n=8, P=33, N=143)
+2026-04-14 11:59:21,170 - INFO - Regula po iteracji 1: IF Density >= 1.05 AND Density <= 1.07 THEN class = {16.85} [14.42, 19.27], (p=32, n=8, P=33, N=143)
+2026-04-14 11:59:21,207 - INFO - Iteracja 2: condition_best: Density >= 1.06, quality_best: 0.932, coverage_best: (p=31, n=1, P=33, N=143)
+2026-04-14 11:59:21,207 - INFO - Regula po iteracji 2: IF Density >= 1.05 AND Density <= 1.07 AND Density >= 1.06 THEN class = {16.18} [13.92, 18.44], (p=31, n=1, P=33, N=143)
+2026-04-14 11:59:21,238 - INFO - Iteracja 3: condition_best: Density >= 1.06, quality_best: 0.917, coverage_best: (p=30, n=1, P=33, N=143)
+2026-04-14 11:59:21,238 - INFO - Regula po iteracji 3: IF Density >= 1.05 AND Density <= 1.07 AND Density >= 1.06 AND Density >= 1.06 THEN class = {16.11} [13.85, 18.38], (p=30, n=1, P=33, N=143)
+2026-04-14 11:59:21,268 - INFO - Iteracja 4: condition_best: Density >= 1.06, quality_best: 0.901, coverage_best: (p=29, n=1, P=33, N=143)
+2026-04-14 11:59:21,268 - INFO - Regula po iteracji 4: IF Density >= 1.05 AND Density <= 1.07 AND Density >= 1.06 AND Density >= 1.06 AND Density >= 1.06 THEN class = {16.04} [13.77, 18.31], (p=29, n=1, P=33, N=143)
+2026-04-14 11:59:21,268 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:21,268 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:21,391 - INFO - Iteracja 0: condition_best: Density <= 1.01, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=174)
+2026-04-14 11:59:21,391 - INFO - Regula po iteracji 0: IF Density <= 1.01 THEN class = {43.80} [40.10, 47.50], (p=2, n=0, P=2, N=174)
+2026-04-14 11:59:21,392 - INFO - Iteracja 1: condition_best: Density <= 1.00, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=175)
+2026-04-14 11:59:21,393 - INFO - Regula po iteracji 1: IF Density <= 1.01 AND Density <= 1.00 THEN class = {47.50} [47.50, 47.50], (p=1, n=0, P=1, N=175)
+2026-04-14 11:59:21,393 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:59:21,393 - INFO - Regula po iteracji 2: IF Density <= 1.01 AND Density <= 1.00 THEN class = {47.50} [47.50, 47.50], (p=1, n=0, P=1, N=175)
+2026-04-14 11:59:21,393 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:21,405 - INFO - ************************Finished experiment for bodyfat.arff with algorithm_rer************************
+2026-04-14 11:59:21,405 - INFO - *************************************************************************************************************************
+2026-04-14 11:59:21,405 - INFO - *************************************************************************************************************************
+2026-04-14 11:59:21,405 - INFO - *************************************************************************************************************************
+2026-04-14 11:59:21,406 - INFO - **********Starting experiment for bodyfat.arff with algorithm_rer_with_exceptions**********
+2026-04-14 11:59:21,411 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:21,590 - INFO - Iteracja 0: condition_best: Density <= 1.03, quality_best: 0.867, coverage_best: (p=23, n=3, P=23, N=153)
+2026-04-14 11:59:21,590 - INFO - Regula po iteracji 0: IF Density <= 1.03 THEN class = {33.07} [29.30, 36.84], (p=23, n=3, P=23, N=153)
+2026-04-14 11:59:21,591 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:21,834 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:21,835 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:21,835 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:21,835 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:21,866 - INFO - Iteracja 1: condition_best: Height <= 75.00, quality_best: 0.908, coverage_best: (p=23, n=2, P=23, N=153)
+2026-04-14 11:59:21,866 - INFO - Regula po iteracji 1: IF Density <= 1.03 AND Height <= 75.00 THEN class = {32.87} [29.16, 36.57], (p=23, n=2, P=23, N=153)
+2026-04-14 11:59:21,866 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:22,107 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:22,107 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:22,107 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:22,107 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:22,132 - INFO - Iteracja 2: condition_best: Wrist >= 17.15, quality_best: 0.952, coverage_best: (p=23, n=1, P=23, N=153)
+2026-04-14 11:59:22,132 - INFO - Regula po iteracji 2: IF Density <= 1.03 AND Height <= 75.00 AND Wrist >= 17.15 THEN class = {32.57} [29.10, 36.04], (p=23, n=1, P=23, N=153)
+2026-04-14 11:59:22,133 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:22,373 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:22,373 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:22,373 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:22,373 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:22,398 - INFO - Iteracja 3: condition_best: Density <= 1.03, quality_best: 0.929, coverage_best: (p=22, n=1, P=23, N=153)
+2026-04-14 11:59:22,398 - INFO - Regula po iteracji 3: IF Density <= 1.03 AND Height <= 75.00 AND Wrist >= 17.15 AND Density <= 1.03 THEN class = {32.70} [29.22, 36.18], (p=22, n=1, P=23, N=153)
+2026-04-14 11:59:22,398 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:22,639 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:22,640 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:22,640 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:22,640 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:22,663 - INFO - Iteracja 4: condition_best: Density <= 1.03, quality_best: 0.907, coverage_best: (p=21, n=1, P=23, N=153)
+2026-04-14 11:59:22,663 - INFO - Regula po iteracji 4: IF Density <= 1.03 AND Height <= 75.00 AND Wrist >= 17.15 AND Density <= 1.03 AND Density <= 1.03 THEN class = {32.84} [29.34, 36.34], (p=21, n=1, P=23, N=153)
+2026-04-14 11:59:22,664 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:22,905 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:22,905 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:22,906 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:22,906 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:22,906 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:22,907 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:23,044 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.844, coverage_best: (p=26, n=4, P=26, N=150)
+2026-04-14 11:59:23,045 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {32.49} [28.67, 36.30], (p=26, n=4, P=26, N=150)
+2026-04-14 11:59:23,045 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:23,403 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:23,403 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:23,403 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:23,403 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:23,433 - INFO - Iteracja 1: condition_best: Weight <= 242.75, quality_best: 0.879, coverage_best: (p=25, n=2, P=27, N=149)
+2026-04-14 11:59:23,433 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 242.75 THEN class = {32.21} [28.37, 36.05], (p=25, n=2, P=27, N=149)
+2026-04-14 11:59:23,433 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:23,675 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:23,675 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:23,675 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:23,675 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:23,701 - INFO - Iteracja 2: condition_best: Wrist >= 17.15, quality_best: 0.919, coverage_best: (p=25, n=1, P=27, N=149)
+2026-04-14 11:59:23,701 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 242.75 AND Wrist >= 17.15 THEN class = {31.91} [28.32, 35.49], (p=25, n=1, P=27, N=149)
+2026-04-14 11:59:23,702 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:23,944 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:23,944 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:23,944 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:23,944 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:23,969 - INFO - Iteracja 3: condition_best: Density <= 1.03, quality_best: 0.916, coverage_best: (p=24, n=1, P=26, N=150)
+2026-04-14 11:59:23,969 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 242.75 AND Wrist >= 17.15 AND Density <= 1.03 THEN class = {32.05} [28.46, 35.63], (p=24, n=1, P=26, N=150)
+2026-04-14 11:59:23,969 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:24,211 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:24,212 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:24,212 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:24,212 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:24,236 - INFO - Iteracja 4: condition_best: Weight <= 234.75, quality_best: 0.896, coverage_best: (p=23, n=1, P=26, N=150)
+2026-04-14 11:59:24,237 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 242.75 AND Wrist >= 17.15 AND Density <= 1.03 AND Weight <= 234.75 THEN class = {32.14} [28.51, 35.77], (p=23, n=1, P=26, N=150)
+2026-04-14 11:59:24,237 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:24,485 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:24,486 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:24,486 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:24,486 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:24,486 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:24,487 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:24,625 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.815, coverage_best: (p=27, n=5, P=27, N=149)
+2026-04-14 11:59:24,625 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {32.18} [28.31, 36.06], (p=27, n=5, P=27, N=149)
+2026-04-14 11:59:24,625 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:24,868 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:24,868 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:24,868 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:24,868 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:24,899 - INFO - Iteracja 1: condition_best: Abdomen <= 115.75, quality_best: 0.795, coverage_best: (p=23, n=5, P=23, N=153)
+2026-04-14 11:59:24,899 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Abdomen <= 115.75 THEN class = {31.38} [28.64, 34.12], (p=23, n=5, P=23, N=153)
+2026-04-14 11:59:24,899 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:25,142 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:25,142 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:25,142 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:25,142 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:25,170 - INFO - Iteracja 2: condition_best: Age <= 73.00, quality_best: 0.77, coverage_best: (p=22, n=5, P=23, N=153)
+2026-04-14 11:59:25,170 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Abdomen <= 115.75 AND Age <= 73.00 THEN class = {31.36} [28.57, 34.14], (p=22, n=5, P=23, N=153)
+2026-04-14 11:59:25,170 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:25,411 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:25,411 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:25,412 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:25,412 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:25,438 - INFO - Iteracja 3: condition_best: Hip <= 114.80, quality_best: 0.764, coverage_best: (p=21, n=4, P=24, N=152)
+2026-04-14 11:59:25,438 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Abdomen <= 115.75 AND Age <= 73.00 AND Hip <= 114.80 THEN class = {31.26} [28.39, 34.13], (p=21, n=4, P=24, N=152)
+2026-04-14 11:59:25,439 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:25,679 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:25,679 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:25,679 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:25,679 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:25,704 - INFO - Iteracja 4: condition_best: Age <= 70.50, quality_best: 0.74, coverage_best: (p=20, n=4, P=24, N=152)
+2026-04-14 11:59:25,705 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Abdomen <= 115.75 AND Age <= 73.00 AND Hip <= 114.80 AND Age <= 70.50 THEN class = {31.16} [28.27, 34.05], (p=20, n=4, P=24, N=152)
+2026-04-14 11:59:25,705 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:25,945 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:25,946 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:25,946 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:25,946 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:25,946 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:25,947 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:26,085 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.802, coverage_best: (p=38, n=7, P=38, N=138)
+2026-04-14 11:59:26,085 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {30.60} [26.49, 34.71], (p=38, n=7, P=38, N=138)
+2026-04-14 11:59:26,085 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:26,327 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:26,327 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:26,327 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:26,327 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:26,371 - INFO - Iteracja 1: condition_best: Weight <= 221.88, quality_best: 0.861, coverage_best: (p=34, n=3, P=37, N=139)
+2026-04-14 11:59:26,371 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 221.88 THEN class = {30.12} [26.03, 34.21], (p=34, n=3, P=37, N=139)
+2026-04-14 11:59:26,371 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:26,616 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:26,616 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:26,616 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:26,617 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:26,652 - INFO - Iteracja 2: condition_best: Wrist >= 17.15, quality_best: 0.892, coverage_best: (p=34, n=2, P=37, N=139)
+2026-04-14 11:59:26,652 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 221.88 AND Wrist >= 17.15 THEN class = {29.84} [26.05, 33.63], (p=34, n=2, P=37, N=139)
+2026-04-14 11:59:26,652 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:26,897 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:26,897 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:26,898 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:26,898 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:26,933 - INFO - Iteracja 3: condition_best: Density <= 1.04, quality_best: 0.923, coverage_best: (p=33, n=1, P=36, N=140)
+2026-04-14 11:59:26,933 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 221.88 AND Wrist >= 17.15 AND Density <= 1.04 THEN class = {30.06} [26.28, 33.84], (p=33, n=1, P=36, N=140)
+2026-04-14 11:59:26,933 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:27,177 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:27,177 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:27,177 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:27,177 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:27,210 - INFO - Iteracja 4: condition_best: Density <= 1.04, quality_best: 0.908, coverage_best: (p=32, n=1, P=36, N=140)
+2026-04-14 11:59:27,210 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 221.88 AND Wrist >= 17.15 AND Density <= 1.04 AND Density <= 1.04 THEN class = {30.17} [26.38, 33.96], (p=32, n=1, P=36, N=140)
+2026-04-14 11:59:27,210 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:27,573 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:27,574 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:27,574 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:27,574 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:27,574 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:27,575 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:27,712 - INFO - Iteracja 0: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:27,712 - INFO - Regula po iteracji 0: IF Density >= 1.08 THEN class = {6.77} [3.59, 9.95], (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:27,712 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:27,952 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:27,952 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:27,952 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:27,952 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:27,981 - INFO - Iteracja 1: condition_best: Density <= 1.08, quality_best: 0.87, coverage_best: (p=7, n=1, P=7, N=169)
+2026-04-14 11:59:27,981 - INFO - Regula po iteracji 1: IF Density >= 1.08 AND Density <= 1.08 THEN class = {8.54} [8.27, 8.80], (p=7, n=1, P=7, N=169)
+2026-04-14 11:59:27,981 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:28,222 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:28,222 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:28,222 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:28,223 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:28,231 - INFO - Iteracja 2: condition_best: Weight <= 172.12, quality_best: 0.852, coverage_best: (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:28,231 - INFO - Regula po iteracji 2: IF Density >= 1.08 AND Density <= 1.08 AND Weight <= 172.12 THEN class = {8.57} [8.31, 8.84], (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:28,231 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:28,472 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:28,472 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:28,472 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:28,472 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:28,479 - INFO - Iteracja 3: condition_best: Density <= 1.08, quality_best: 0.795, coverage_best: (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:28,479 - INFO - Regula po iteracji 3: IF Density >= 1.08 AND Density <= 1.08 AND Weight <= 172.12 AND Density <= 1.08 THEN class = {8.70} [8.57, 8.83], (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:28,479 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:28,721 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:28,721 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:28,721 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:28,721 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:28,726 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:59:28,726 - INFO - Regula po iteracji 4: IF Density >= 1.08 AND Density <= 1.08 AND Weight <= 172.12 AND Density <= 1.08 THEN class = {8.70} [8.57, 8.83], (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:28,726 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:28,727 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:28,863 - INFO - Iteracja 0: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:28,863 - INFO - Regula po iteracji 0: IF Density >= 1.08 THEN class = {6.77} [3.59, 9.95], (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:28,864 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:29,103 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:29,103 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:29,104 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:29,104 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:29,128 - INFO - Iteracja 1: condition_best: Wrist <= 18.45, quality_best: 0.774, coverage_best: (p=18, n=2, P=24, N=152)
+2026-04-14 11:59:29,128 - INFO - Regula po iteracji 1: IF Density >= 1.08 AND Wrist <= 18.45 THEN class = {6.24} [3.68, 8.80], (p=18, n=2, P=24, N=152)
+2026-04-14 11:59:29,129 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:29,369 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:29,369 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:29,369 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:29,369 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:29,390 - INFO - Iteracja 2: condition_best: Height >= 64.50, quality_best: 0.764, coverage_best: (p=17, n=2, P=23, N=153)
+2026-04-14 11:59:29,390 - INFO - Regula po iteracji 2: IF Density >= 1.08 AND Wrist <= 18.45 AND Height >= 64.50 THEN class = {6.37} [3.81, 8.93], (p=17, n=2, P=23, N=153)
+2026-04-14 11:59:29,390 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:29,630 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:29,630 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:29,630 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:29,630 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:29,649 - INFO - Iteracja 3: condition_best: Chest >= 84.25, quality_best: 0.759, coverage_best: (p=15, n=2, P=20, N=156)
+2026-04-14 11:59:29,649 - INFO - Regula po iteracji 3: IF Density >= 1.08 AND Wrist <= 18.45 AND Height >= 64.50 AND Chest >= 84.25 THEN class = {6.89} [4.80, 8.97], (p=15, n=2, P=20, N=156)
+2026-04-14 11:59:29,650 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:29,890 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:29,891 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:29,891 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:29,891 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:29,908 - INFO - Iteracja 4: condition_best: Weight <= 187.50, quality_best: 0.796, coverage_best: (p=15, n=1, P=21, N=155)
+2026-04-14 11:59:29,908 - INFO - Regula po iteracji 4: IF Density >= 1.08 AND Wrist <= 18.45 AND Height >= 64.50 AND Chest >= 84.25 AND Weight <= 187.50 THEN class = {7.06} [5.04, 9.09], (p=15, n=1, P=21, N=155)
+2026-04-14 11:59:29,908 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:30,148 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:30,149 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:30,149 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:30,149 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:30,149 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:30,150 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:30,285 - INFO - Iteracja 0: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:30,285 - INFO - Regula po iteracji 0: IF Density >= 1.08 THEN class = {6.77} [3.59, 9.95], (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:30,285 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:30,524 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:30,524 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:30,525 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:30,525 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:30,549 - INFO - Iteracja 1: condition_best: Weight <= 180.38, quality_best: 0.77, coverage_best: (p=19, n=3, P=23, N=153)
+2026-04-14 11:59:30,549 - INFO - Regula po iteracji 1: IF Density >= 1.08 AND Weight <= 180.38 THEN class = {6.40} [3.89, 8.90], (p=19, n=3, P=23, N=153)
+2026-04-14 11:59:30,549 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:30,790 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:30,790 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:30,791 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:30,791 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:30,811 - INFO - Iteracja 2: condition_best: Height >= 66.50, quality_best: 0.797, coverage_best: (p=17, n=2, P=21, N=155)
+2026-04-14 11:59:30,811 - INFO - Regula po iteracji 2: IF Density >= 1.08 AND Weight <= 180.38 AND Height >= 66.50 THEN class = {6.96} [4.84, 9.09], (p=17, n=2, P=21, N=155)
+2026-04-14 11:59:30,811 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:31,052 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:31,053 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:31,053 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:31,053 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:31,071 - INFO - Iteracja 3: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=14, n=2, P=17, N=159)
+2026-04-14 11:59:31,071 - INFO - Regula po iteracji 3: IF Density >= 1.08 AND Weight <= 180.38 AND Height >= 66.50 AND Density >= 1.08 THEN class = {6.62} [4.47, 8.77], (p=14, n=2, P=17, N=159)
+2026-04-14 11:59:31,071 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:31,429 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:31,430 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:31,430 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:31,430 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:31,447 - INFO - Iteracja 4: condition_best: Density >= 1.08, quality_best: 0.752, coverage_best: (p=13, n=2, P=17, N=159)
+2026-04-14 11:59:31,447 - INFO - Regula po iteracji 4: IF Density >= 1.08 AND Weight <= 180.38 AND Height >= 66.50 AND Density >= 1.08 AND Density >= 1.08 THEN class = {6.49} [4.33, 8.64], (p=13, n=2, P=17, N=159)
+2026-04-14 11:59:31,447 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:31,689 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:31,689 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:31,689 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:31,689 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:31,689 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:31,690 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:31,825 - INFO - Iteracja 0: condition_best: Density >= 1.08, quality_best: 0.786, coverage_best: (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:31,825 - INFO - Regula po iteracji 0: IF Density >= 1.08 THEN class = {6.77} [3.59, 9.95], (p=23, n=3, P=28, N=148)
+2026-04-14 11:59:31,826 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:32,066 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:32,066 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:32,066 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:32,066 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:32,091 - INFO - Iteracja 1: condition_best: Density >= 1.08, quality_best: 0.765, coverage_best: (p=22, n=3, P=28, N=148)
+2026-04-14 11:59:32,091 - INFO - Regula po iteracji 1: IF Density >= 1.08 AND Density >= 1.08 THEN class = {6.69} [3.47, 9.90], (p=22, n=3, P=28, N=148)
+2026-04-14 11:59:32,091 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:32,330 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:32,331 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:32,331 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:32,331 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:32,355 - INFO - Iteracja 2: condition_best: Age <= 56.50, quality_best: 0.745, coverage_best: (p=21, n=3, P=28, N=148)
+2026-04-14 11:59:32,355 - INFO - Regula po iteracji 2: IF Density >= 1.08 AND Density >= 1.08 AND Age <= 56.50 THEN class = {6.60} [3.35, 9.85], (p=21, n=3, P=28, N=148)
+2026-04-14 11:59:32,355 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:32,594 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:32,594 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:32,594 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:32,594 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:32,618 - INFO - Iteracja 3: condition_best: Biceps >= 26.40, quality_best: 0.764, coverage_best: (p=20, n=2, P=28, N=148)
+2026-04-14 11:59:32,618 - INFO - Regula po iteracji 3: IF Density >= 1.08 AND Density >= 1.08 AND Age <= 56.50 AND Biceps >= 26.40 THEN class = {6.82} [3.68, 9.95], (p=20, n=2, P=28, N=148)
+2026-04-14 11:59:32,618 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:32,861 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:32,861 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:32,861 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:32,861 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:32,883 - INFO - Iteracja 4: condition_best: Density >= 1.08, quality_best: 0.744, coverage_best: (p=19, n=2, P=28, N=148)
+2026-04-14 11:59:32,883 - INFO - Regula po iteracji 4: IF Density >= 1.08 AND Density >= 1.08 AND Age <= 56.50 AND Biceps >= 26.40 AND Density >= 1.08 THEN class = {6.72} [3.54, 9.90], (p=19, n=2, P=28, N=148)
+2026-04-14 11:59:32,883 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:33,125 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:33,126 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:33,126 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:33,126 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:33,126 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:33,127 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:33,260 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.763, coverage_best: (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:33,260 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {29.39} [25.12, 33.66], (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:33,260 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:33,501 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:33,501 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:33,501 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:33,501 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:33,555 - INFO - Iteracja 1: condition_best: Weight <= 223.75, quality_best: 0.815, coverage_best: (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:33,555 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 223.75 THEN class = {28.91} [24.76, 33.05], (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:33,555 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:33,801 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:33,801 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:33,802 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:33,802 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:33,845 - INFO - Iteracja 2: condition_best: Density <= 1.04, quality_best: 0.888, coverage_best: (p=37, n=2, P=41, N=135)
+2026-04-14 11:59:33,845 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 THEN class = {29.89} [25.80, 33.99], (p=37, n=2, P=41, N=135)
+2026-04-14 11:59:33,846 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:34,091 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:34,091 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:34,091 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:34,091 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:34,127 - INFO - Iteracja 3: condition_best: Age <= 73.00, quality_best: 0.875, coverage_best: (p=36, n=2, P=41, N=135)
+2026-04-14 11:59:34,127 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 AND Age <= 73.00 THEN class = {29.84} [25.71, 33.98], (p=36, n=2, P=41, N=135)
+2026-04-14 11:59:34,128 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:34,373 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:34,373 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:34,373 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:34,373 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:34,410 - INFO - Iteracja 4: condition_best: Wrist >= 17.15, quality_best: 0.872, coverage_best: (p=35, n=2, P=40, N=136)
+2026-04-14 11:59:34,410 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 AND Age <= 73.00 AND Wrist >= 17.15 THEN class = {29.56} [25.74, 33.39], (p=35, n=2, P=40, N=136)
+2026-04-14 11:59:34,410 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:34,654 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:34,655 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:34,655 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:34,655 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:34,655 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:34,656 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:34,789 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.763, coverage_best: (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:34,790 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {29.39} [25.12, 33.66], (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:34,790 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:35,031 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:35,032 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:35,032 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:35,032 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:35,083 - INFO - Iteracja 1: condition_best: Weight <= 223.75, quality_best: 0.815, coverage_best: (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:35,083 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 223.75 THEN class = {28.91} [24.76, 33.05], (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:35,083 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:35,329 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:35,329 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:35,329 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:35,329 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:35,372 - INFO - Iteracja 2: condition_best: Density <= 1.04, quality_best: 0.861, coverage_best: (p=42, n=3, P=47, N=129)
+2026-04-14 11:59:35,372 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 THEN class = {29.28} [25.17, 33.40], (p=42, n=3, P=47, N=129)
+2026-04-14 11:59:35,373 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:35,618 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:35,618 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:35,618 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:35,618 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:35,659 - INFO - Iteracja 3: condition_best: Wrist <= 19.95, quality_best: 0.877, coverage_best: (p=41, n=2, P=47, N=129)
+2026-04-14 11:59:35,659 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 AND Wrist <= 19.95 THEN class = {29.12} [24.98, 33.26], (p=41, n=2, P=47, N=129)
+2026-04-14 11:59:35,659 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:35,904 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:35,904 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:35,904 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:35,904 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:35,944 - INFO - Iteracja 4: condition_best: Density <= 1.04, quality_best: 0.865, coverage_best: (p=40, n=2, P=47, N=129)
+2026-04-14 11:59:35,945 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 223.75 AND Density <= 1.04 AND Wrist <= 19.95 AND Density <= 1.04 THEN class = {29.22} [25.07, 33.36], (p=40, n=2, P=47, N=129)
+2026-04-14 11:59:35,945 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:36,190 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:36,191 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:36,191 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:36,191 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:36,191 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:36,192 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:36,325 - INFO - Iteracja 0: condition_best: Density <= 1.04, quality_best: 0.763, coverage_best: (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:36,325 - INFO - Regula po iteracji 0: IF Density <= 1.04 THEN class = {29.39} [25.12, 33.66], (p=48, n=10, P=48, N=128)
+2026-04-14 11:59:36,325 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:36,567 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:36,567 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:36,567 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:36,567 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:36,618 - INFO - Iteracja 1: condition_best: Weight <= 223.75, quality_best: 0.815, coverage_best: (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:36,618 - INFO - Regula po iteracji 1: IF Density <= 1.04 AND Weight <= 223.75 THEN class = {28.91} [24.76, 33.05], (p=44, n=5, P=49, N=127)
+2026-04-14 11:59:36,619 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:36,864 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:36,864 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:36,864 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:36,864 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:36,907 - INFO - Iteracja 2: condition_best: Wrist <= 19.30, quality_best: 0.834, coverage_best: (p=42, n=3, P=50, N=126)
+2026-04-14 11:59:36,907 - INFO - Regula po iteracji 2: IF Density <= 1.04 AND Weight <= 223.75 AND Wrist <= 19.30 THEN class = {28.81} [24.59, 33.03], (p=42, n=3, P=50, N=126)
+2026-04-14 11:59:36,907 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:37,154 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:37,154 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:37,154 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:37,154 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:37,195 - INFO - Iteracja 3: condition_best: Age <= 71.00, quality_best: 0.823, coverage_best: (p=41, n=3, P=50, N=126)
+2026-04-14 11:59:37,195 - INFO - Regula po iteracji 3: IF Density <= 1.04 AND Weight <= 223.75 AND Wrist <= 19.30 AND Age <= 71.00 THEN class = {28.85} [24.60, 33.11], (p=41, n=3, P=50, N=126)
+2026-04-14 11:59:37,195 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:37,443 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:37,443 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:37,443 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:37,443 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:37,483 - INFO - Iteracja 4: condition_best: Age <= 69.50, quality_best: 0.812, coverage_best: (p=40, n=3, P=50, N=126)
+2026-04-14 11:59:37,483 - INFO - Regula po iteracji 4: IF Density <= 1.04 AND Weight <= 223.75 AND Wrist <= 19.30 AND Age <= 71.00 AND Age <= 69.50 THEN class = {28.90} [24.60, 33.20], (p=40, n=3, P=50, N=126)
+2026-04-14 11:59:37,484 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:37,730 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:37,730 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:37,730 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:37,730 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:37,730 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:37,731 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:37,971 - INFO - Iteracja 0: condition_best: Density >= 1.07, quality_best: 0.758, coverage_best: (p=30, n=7, P=31, N=145)
+2026-04-14 11:59:37,972 - INFO - Regula po iteracji 0: IF Density >= 1.07 THEN class = {7.74} [4.67, 10.81], (p=30, n=7, P=31, N=145)
+2026-04-14 11:59:37,972 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:38,210 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:38,210 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:38,210 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:38,210 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:38,245 - INFO - Iteracja 1: condition_best: Height >= 65.50, quality_best: 0.795, coverage_best: (p=29, n=5, P=31, N=145)
+2026-04-14 11:59:38,245 - INFO - Regula po iteracji 1: IF Density >= 1.07 AND Height >= 65.50 THEN class = {7.98} [5.15, 10.81], (p=29, n=5, P=31, N=145)
+2026-04-14 11:59:38,246 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:38,484 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:38,484 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:38,484 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:38,484 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:38,516 - INFO - Iteracja 2: condition_best: Height >= 66.50, quality_best: 0.79, coverage_best: (p=28, n=5, P=30, N=146)
+2026-04-14 11:59:38,516 - INFO - Regula po iteracji 2: IF Density >= 1.07 AND Height >= 65.50 AND Height >= 66.50 THEN class = {8.10} [5.32, 10.88], (p=28, n=5, P=30, N=146)
+2026-04-14 11:59:38,516 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:38,752 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:38,752 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:38,752 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:38,752 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:38,783 - INFO - Iteracja 3: condition_best: Density >= 1.07, quality_best: 0.816, coverage_best: (p=27, n=4, P=29, N=147)
+2026-04-14 11:59:38,783 - INFO - Regula po iteracji 3: IF Density >= 1.07 AND Height >= 65.50 AND Height >= 66.50 AND Density >= 1.07 THEN class = {7.93} [5.14, 10.71], (p=27, n=4, P=29, N=147)
+2026-04-14 11:59:38,783 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:39,021 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:39,021 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:39,021 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:39,021 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:39,050 - INFO - Iteracja 4: condition_best: Abdomen >= 73.70, quality_best: 0.822, coverage_best: (p=25, n=4, P=26, N=150)
+2026-04-14 11:59:39,051 - INFO - Regula po iteracji 4: IF Density >= 1.07 AND Height >= 65.50 AND Height >= 66.50 AND Density >= 1.07 AND Abdomen >= 73.70 THEN class = {8.12} [5.69, 10.56], (p=25, n=4, P=26, N=150)
+2026-04-14 11:59:39,051 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:39,289 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:39,289 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:39,289 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:39,289 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:39,289 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:39,290 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:39,422 - INFO - Iteracja 0: condition_best: Density >= 1.07, quality_best: 0.738, coverage_best: (p=31, n=8, P=32, N=144)
+2026-04-14 11:59:39,422 - INFO - Regula po iteracji 0: IF Density >= 1.07 THEN class = {7.91} [4.83, 10.99], (p=31, n=8, P=32, N=144)
+2026-04-14 11:59:39,422 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:39,661 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:39,662 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:39,662 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:39,662 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:39,696 - INFO - Iteracja 1: condition_best: Density <= 1.08, quality_best: 0.79, coverage_best: (p=8, n=2, P=8, N=168)
+2026-04-14 11:59:39,696 - INFO - Regula po iteracji 1: IF Density >= 1.07 AND Density <= 1.08 THEN class = {10.48} [9.98, 10.98], (p=8, n=2, P=8, N=168)
+2026-04-14 11:59:39,696 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:39,935 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:39,935 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:39,935 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:39,935 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:39,946 - INFO - Iteracja 2: condition_best: Hip <= 101.85, quality_best: 0.769, coverage_best: (p=7, n=2, P=7, N=169)
+2026-04-14 11:59:39,946 - INFO - Regula po iteracji 2: IF Density >= 1.07 AND Density <= 1.08 AND Hip <= 101.85 THEN class = {10.53} [10.04, 11.03], (p=7, n=2, P=7, N=169)
+2026-04-14 11:59:39,946 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:40,185 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:40,185 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:40,185 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:40,185 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:40,195 - INFO - Iteracja 3: condition_best: Density >= 1.07, quality_best: 0.741, coverage_best: (p=6, n=2, P=6, N=170)
+2026-04-14 11:59:40,195 - INFO - Regula po iteracji 3: IF Density >= 1.07 AND Density <= 1.08 AND Hip <= 101.85 AND Density >= 1.07 THEN class = {10.43} [10.01, 10.84], (p=6, n=2, P=6, N=170)
+2026-04-14 11:59:40,195 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:40,434 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:40,434 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:40,434 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:40,434 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:40,442 - INFO - Iteracja 4: condition_best: Hip <= 98.25, quality_best: 0.671, coverage_best: (p=5, n=1, P=8, N=168)
+2026-04-14 11:59:40,443 - INFO - Regula po iteracji 4: IF Density >= 1.07 AND Density <= 1.08 AND Hip <= 101.85 AND Density >= 1.07 AND Hip <= 98.25 THEN class = {10.47} [10.00, 10.93], (p=5, n=1, P=8, N=168)
+2026-04-14 11:59:40,443 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:40,687 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:40,688 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:40,688 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:40,688 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:40,688 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:40,689 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:40,821 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.72, coverage_best: (p=54, n=13, P=54, N=122)
+2026-04-14 11:59:40,821 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {28.57} [24.08, 33.06], (p=54, n=13, P=54, N=122)
+2026-04-14 11:59:40,821 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:41,060 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:41,061 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:41,061 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:41,061 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:41,120 - INFO - Iteracja 1: condition_best: Density >= 1.05, quality_best: 0.795, coverage_best: (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:41,120 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.05 THEN class = {22.72} [22.50, 22.94], (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:41,120 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:41,358 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:41,358 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:41,359 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:41,359 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:41,364 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:59:41,364 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.05 THEN class = {22.72} [22.50, 22.94], (p=4, n=1, P=4, N=172)
+2026-04-14 11:59:41,364 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:41,365 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:41,497 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.72, coverage_best: (p=54, n=13, P=54, N=122)
+2026-04-14 11:59:41,497 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {28.57} [24.08, 33.06], (p=54, n=13, P=54, N=122)
+2026-04-14 11:59:41,497 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:41,735 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:41,735 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:41,735 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:41,735 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:41,792 - INFO - Iteracja 1: condition_best: Weight <= 255.00, quality_best: 0.738, coverage_best: (p=54, n=12, P=54, N=122)
+2026-04-14 11:59:41,792 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Weight <= 255.00 THEN class = {28.48} [24.01, 32.95], (p=54, n=12, P=54, N=122)
+2026-04-14 11:59:41,793 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:42,032 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:42,032 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:42,032 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:42,032 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:42,203 - INFO - Iteracja 2: condition_best: Density <= 1.05, quality_best: 0.756, coverage_best: (p=54, n=11, P=54, N=122)
+2026-04-14 11:59:42,204 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Weight <= 255.00 AND Density <= 1.05 THEN class = {28.57} [24.14, 33.01], (p=54, n=11, P=54, N=122)
+2026-04-14 11:59:42,204 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:42,444 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:42,444 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:42,445 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:42,445 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:42,501 - INFO - Iteracja 3: condition_best: Density <= 1.05, quality_best: 0.754, coverage_best: (p=53, n=11, P=53, N=123)
+2026-04-14 11:59:42,501 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Weight <= 255.00 AND Density <= 1.05 AND Density <= 1.05 THEN class = {28.67} [24.26, 33.07], (p=53, n=11, P=53, N=123)
+2026-04-14 11:59:42,502 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:42,742 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:42,742 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:42,742 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:42,742 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:42,799 - INFO - Iteracja 4: condition_best: Thigh <= 72.80, quality_best: 0.794, coverage_best: (p=54, n=9, P=54, N=122)
+2026-04-14 11:59:42,799 - INFO - Regula po iteracji 4: IF Density <= 1.05 AND Weight <= 255.00 AND Density <= 1.05 AND Density <= 1.05 AND Thigh <= 72.80 THEN class = {28.58} [24.19, 32.96], (p=54, n=9, P=54, N=122)
+2026-04-14 11:59:42,799 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:43,038 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:43,038 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:43,038 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:43,038 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:43,038 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:43,039 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:43,168 - INFO - Iteracja 0: condition_best: Density >= 1.07, quality_best: 0.68, coverage_best: (p=33, n=11, P=34, N=142)
+2026-04-14 11:59:43,168 - INFO - Regula po iteracji 0: IF Density >= 1.07 THEN class = {8.37} [5.20, 11.54], (p=33, n=11, P=34, N=142)
+2026-04-14 11:59:43,169 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:43,407 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:43,408 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:43,408 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:43,408 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:43,446 - INFO - Iteracja 1: condition_best: Height >= 66.50, quality_best: 0.708, coverage_best: (p=30, n=9, P=31, N=145)
+2026-04-14 11:59:43,446 - INFO - Regula po iteracji 1: IF Density >= 1.07 AND Height >= 66.50 THEN class = {8.65} [5.78, 11.53], (p=30, n=9, P=31, N=145)
+2026-04-14 11:59:43,447 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:43,686 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:43,686 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:43,686 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:43,686 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:43,721 - INFO - Iteracja 2: condition_best: Thigh <= 62.30, quality_best: 0.714, coverage_best: (p=29, n=8, P=31, N=145)
+2026-04-14 11:59:43,721 - INFO - Regula po iteracji 2: IF Density >= 1.07 AND Height >= 66.50 AND Thigh <= 62.30 THEN class = {8.80} [5.95, 11.65], (p=29, n=8, P=31, N=145)
+2026-04-14 11:59:43,722 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:43,962 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:43,962 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:43,962 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:43,962 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:43,996 - INFO - Iteracja 3: condition_best: Age <= 56.50, quality_best: 0.695, coverage_best: (p=28, n=8, P=31, N=145)
+2026-04-14 11:59:43,996 - INFO - Regula po iteracji 3: IF Density >= 1.07 AND Height >= 66.50 AND Thigh <= 62.30 AND Age <= 56.50 THEN class = {8.80} [5.91, 11.69], (p=28, n=8, P=31, N=145)
+2026-04-14 11:59:43,996 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:44,235 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:44,235 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:44,236 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:44,236 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:44,269 - INFO - Iteracja 4: condition_best: Age <= 54.50, quality_best: 0.688, coverage_best: (p=26, n=6, P=33, N=143)
+2026-04-14 11:59:44,269 - INFO - Regula po iteracji 4: IF Density >= 1.07 AND Height >= 66.50 AND Thigh <= 62.30 AND Age <= 56.50 AND Age <= 54.50 THEN class = {8.85} [5.88, 11.83], (p=26, n=6, P=33, N=143)
+2026-04-14 11:59:44,269 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:44,509 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:44,509 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:44,509 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:44,509 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:44,509 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:44,510 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:44,639 - INFO - Iteracja 0: condition_best: Density >= 1.07, quality_best: 0.657, coverage_best: (p=38, n=14, P=38, N=138)
+2026-04-14 11:59:44,639 - INFO - Regula po iteracji 0: IF Density >= 1.07 THEN class = {9.01} [5.56, 12.45], (p=38, n=14, P=38, N=138)
+2026-04-14 11:59:44,639 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:44,880 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:44,880 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:44,880 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:44,880 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:44,927 - INFO - Iteracja 1: condition_best: Density <= 1.08, quality_best: 0.748, coverage_best: (p=17, n=5, P=17, N=159)
+2026-04-14 11:59:44,927 - INFO - Regula po iteracji 1: IF Density >= 1.07 AND Density <= 1.08 THEN class = {11.59} [9.71, 13.47], (p=17, n=5, P=17, N=159)
+2026-04-14 11:59:44,927 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:45,167 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:45,167 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:45,167 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:45,167 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:45,190 - INFO - Iteracja 2: condition_best: Thigh <= 60.30, quality_best: 0.801, coverage_best: (p=16, n=3, P=17, N=159)
+2026-04-14 11:59:45,191 - INFO - Regula po iteracji 2: IF Density >= 1.07 AND Density <= 1.08 AND Thigh <= 60.30 THEN class = {11.38} [9.62, 13.14], (p=16, n=3, P=17, N=159)
+2026-04-14 11:59:45,191 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:45,432 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:45,432 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:45,432 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:45,432 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:45,451 - INFO - Iteracja 3: condition_best: Density <= 1.08, quality_best: 0.768, coverage_best: (p=15, n=3, P=17, N=159)
+2026-04-14 11:59:45,451 - INFO - Regula po iteracji 3: IF Density >= 1.07 AND Density <= 1.08 AND Thigh <= 60.30 AND Density <= 1.08 THEN class = {11.45} [9.67, 13.23], (p=15, n=3, P=17, N=159)
+2026-04-14 11:59:45,451 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:45,691 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:45,691 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:45,692 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:45,692 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:45,710 - INFO - Iteracja 4: condition_best: Density <= 1.08, quality_best: 0.734, coverage_best: (p=14, n=3, P=17, N=159)
+2026-04-14 11:59:45,710 - INFO - Regula po iteracji 4: IF Density >= 1.07 AND Density <= 1.08 AND Thigh <= 60.30 AND Density <= 1.08 AND Density <= 1.08 THEN class = {11.52} [9.72, 13.33], (p=14, n=3, P=17, N=159)
+2026-04-14 11:59:45,711 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:46,068 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:46,069 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:46,069 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:46,069 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:46,069 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:46,070 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:46,199 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.589, coverage_best: (p=51, n=21, P=51, N=125)
+2026-04-14 11:59:46,199 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {28.13} [23.50, 32.75], (p=51, n=21, P=51, N=125)
+2026-04-14 11:59:46,200 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:46,442 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:46,442 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:46,442 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:46,442 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:46,503 - INFO - Iteracja 1: condition_best: Density >= 1.04, quality_best: 0.911, coverage_best: (p=11, n=1, P=11, N=165)
+2026-04-14 11:59:46,504 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.04 THEN class = {22.67} [22.07, 23.26], (p=11, n=1, P=11, N=165)
+2026-04-14 11:59:46,504 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:46,744 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:46,744 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:46,744 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:46,744 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:46,757 - INFO - Iteracja 2: condition_best: Age >= 31.50, quality_best: 0.862, coverage_best: (p=10, n=1, P=11, N=165)
+2026-04-14 11:59:46,757 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.04 AND Age >= 31.50 THEN class = {22.65} [22.03, 23.26], (p=10, n=1, P=11, N=165)
+2026-04-14 11:59:46,757 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:46,997 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:46,998 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:46,998 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:46,998 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:47,009 - INFO - Iteracja 3: condition_best: Density >= 1.05, quality_best: 0.852, coverage_best: (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:47,009 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Density >= 1.04 AND Age >= 31.50 AND Density >= 1.05 THEN class = {22.29} [22.09, 22.48], (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:47,009 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:47,251 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:47,251 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:47,251 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:47,251 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:47,259 - INFO - Iteracja 4: condition_best: Height <= 72.50, quality_best: 0.758, coverage_best: (p=5, n=1, P=6, N=170)
+2026-04-14 11:59:47,259 - INFO - Regula po iteracji 4: IF Density <= 1.05 AND Density >= 1.04 AND Age >= 31.50 AND Density >= 1.05 AND Height <= 72.50 THEN class = {22.28} [22.07, 22.49], (p=5, n=1, P=6, N=170)
+2026-04-14 11:59:47,259 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:47,499 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:47,499 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:47,499 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:47,499 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:47,499 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:47,500 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:47,629 - INFO - Iteracja 0: condition_best: Density >= 1.06, quality_best: 0.586, coverage_best: (p=37, n=18, P=37, N=139)
+2026-04-14 11:59:47,629 - INFO - Regula po iteracji 0: IF Density >= 1.06 THEN class = {9.32} [5.72, 12.93], (p=37, n=18, P=37, N=139)
+2026-04-14 11:59:47,629 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:47,869 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:47,869 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:47,869 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:47,869 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:47,917 - INFO - Iteracja 1: condition_best: Density <= 1.07, quality_best: 0.813, coverage_best: (p=15, n=1, P=20, N=156)
+2026-04-14 11:59:47,917 - INFO - Regula po iteracji 1: IF Density >= 1.06 AND Density <= 1.07 THEN class = {12.76} [10.58, 14.95], (p=15, n=1, P=20, N=156)
+2026-04-14 11:59:47,917 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:48,157 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:48,157 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:48,157 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:48,157 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:48,174 - INFO - Iteracja 2: condition_best: Density <= 1.07, quality_best: 0.804, coverage_best: (p=14, n=1, P=19, N=157)
+2026-04-14 11:59:48,174 - INFO - Regula po iteracji 2: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 THEN class = {12.85} [10.61, 15.08], (p=14, n=1, P=19, N=157)
+2026-04-14 11:59:48,175 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:48,415 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:48,415 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:48,415 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:48,415 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:48,431 - INFO - Iteracja 3: condition_best: Neck >= 33.10, quality_best: 0.759, coverage_best: (p=13, n=1, P=20, N=156)
+2026-04-14 11:59:48,431 - INFO - Regula po iteracji 3: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Neck >= 33.10 THEN class = {12.79} [10.49, 15.09], (p=13, n=1, P=20, N=156)
+2026-04-14 11:59:48,431 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:48,670 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:48,670 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:48,670 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:48,670 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:48,685 - INFO - Iteracja 4: condition_best: Hip >= 94.90, quality_best: 0.719, coverage_best: (p=7, n=2, P=8, N=168)
+2026-04-14 11:59:48,685 - INFO - Regula po iteracji 4: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Neck >= 33.10 AND Hip >= 94.90 THEN class = {13.90} [12.90, 14.90], (p=7, n=2, P=8, N=168)
+2026-04-14 11:59:48,685 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:48,924 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:48,925 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:48,925 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:48,925 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:48,925 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:48,925 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:49,053 - INFO - Iteracja 0: condition_best: Density >= 1.06, quality_best: 0.55, coverage_best: (p=39, n=21, P=39, N=137)
+2026-04-14 11:59:49,053 - INFO - Regula po iteracji 0: IF Density >= 1.06 THEN class = {9.82} [6.00, 13.65], (p=39, n=21, P=39, N=137)
+2026-04-14 11:59:49,053 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:49,294 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:49,294 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:49,294 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:49,294 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:49,346 - INFO - Iteracja 1: condition_best: Density <= 1.07, quality_best: 0.898, coverage_best: (p=19, n=1, P=21, N=155)
+2026-04-14 11:59:49,346 - INFO - Regula po iteracji 1: IF Density >= 1.06 AND Density <= 1.07 THEN class = {13.46} [11.25, 15.67], (p=19, n=1, P=21, N=155)
+2026-04-14 11:59:49,346 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:49,585 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:49,585 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:49,585 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:49,585 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:49,606 - INFO - Iteracja 2: condition_best: Density <= 1.07, quality_best: 0.873, coverage_best: (p=18, n=1, P=21, N=155)
+2026-04-14 11:59:49,606 - INFO - Regula po iteracji 2: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 THEN class = {13.55} [11.32, 15.78], (p=18, n=1, P=21, N=155)
+2026-04-14 11:59:49,606 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:49,961 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:49,961 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:49,961 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:49,961 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:49,981 - INFO - Iteracja 3: condition_best: Density <= 1.07, quality_best: 0.848, coverage_best: (p=17, n=1, P=21, N=155)
+2026-04-14 11:59:49,981 - INFO - Regula po iteracji 3: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Density <= 1.07 THEN class = {13.64} [11.39, 15.90], (p=17, n=1, P=21, N=155)
+2026-04-14 11:59:49,981 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:50,221 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:50,221 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:50,221 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:50,221 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:50,240 - INFO - Iteracja 4: condition_best: Hip <= 104.95, quality_best: 0.822, coverage_best: (p=16, n=1, P=21, N=155)
+2026-04-14 11:59:50,240 - INFO - Regula po iteracji 4: IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Density <= 1.07 AND Hip <= 104.95 THEN class = {13.59} [11.28, 15.89], (p=16, n=1, P=21, N=155)
+2026-04-14 11:59:50,240 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:50,480 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:50,480 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:50,480 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:50,480 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:50,480 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:50,480 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:50,608 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.543, coverage_best: (p=54, n=25, P=54, N=122)
+2026-04-14 11:59:50,608 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {27.51} [22.68, 32.35], (p=54, n=25, P=54, N=122)
+2026-04-14 11:59:50,608 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:50,849 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:50,849 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:50,849 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:50,849 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:50,915 - INFO - Iteracja 1: condition_best: Density >= 1.05, quality_best: 0.706, coverage_best: (p=5, n=2, P=5, N=171)
+2026-04-14 11:59:50,915 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.05 THEN class = {21.20} [20.87, 21.53], (p=5, n=2, P=5, N=171)
+2026-04-14 11:59:50,915 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:51,154 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:51,155 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:51,155 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:51,155 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:51,163 - INFO - Iteracja 2: condition_best: Age <= 42.00, quality_best: 0.661, coverage_best: (p=4, n=1, P=6, N=170)
+2026-04-14 11:59:51,163 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.05 AND Age <= 42.00 THEN class = {21.14} [20.78, 21.50], (p=4, n=1, P=6, N=170)
+2026-04-14 11:59:51,163 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:51,402 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:51,403 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:51,403 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:51,403 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:51,408 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:59:51,408 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Density >= 1.05 AND Age <= 42.00 THEN class = {21.14} [20.78, 21.50], (p=4, n=1, P=6, N=170)
+2026-04-14 11:59:51,408 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:51,408 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:51,535 - INFO - Iteracja 0: condition_best: Abdomen <= 87.25, quality_best: 0.542, coverage_best: (p=40, n=15, P=52, N=124)
+2026-04-14 11:59:51,536 - INFO - Regula po iteracji 0: IF Abdomen <= 87.25 THEN class = {10.67} [5.56, 15.77], (p=40, n=15, P=52, N=124)
+2026-04-14 11:59:51,536 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:51,778 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:51,778 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:51,778 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:51,778 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:51,825 - INFO - Iteracja 1: condition_best: Density <= 1.08, quality_best: 0.592, coverage_best: (p=25, n=5, P=47, N=129)
+2026-04-14 11:59:51,825 - INFO - Regula po iteracji 1: IF Abdomen <= 87.25 AND Density <= 1.08 THEN class = {14.10} [10.05, 18.16], (p=25, n=5, P=47, N=129)
+2026-04-14 11:59:51,825 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:52,068 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:52,068 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:52,068 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:52,068 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:52,098 - INFO - Iteracja 2: condition_best: Ankle <= 22.90, quality_best: 0.602, coverage_best: (p=22, n=4, P=43, N=133)
+2026-04-14 11:59:52,098 - INFO - Regula po iteracji 2: IF Abdomen <= 87.25 AND Density <= 1.08 AND Ankle <= 22.90 THEN class = {13.95} [10.20, 17.70], (p=22, n=4, P=43, N=133)
+2026-04-14 11:59:52,098 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:52,340 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:52,340 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:52,340 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:52,340 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:52,365 - INFO - Iteracja 3: condition_best: Neck >= 33.10, quality_best: 0.587, coverage_best: (p=21, n=4, P=43, N=133)
+2026-04-14 11:59:52,365 - INFO - Regula po iteracji 3: IF Abdomen <= 87.25 AND Density <= 1.08 AND Ankle <= 22.90 AND Neck >= 33.10 THEN class = {13.96} [10.14, 17.79], (p=21, n=4, P=43, N=133)
+2026-04-14 11:59:52,366 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:52,606 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:52,606 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:52,606 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:52,606 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:52,631 - INFO - Iteracja 4: condition_best: Density <= 1.08, quality_best: 0.571, coverage_best: (p=20, n=4, P=43, N=133)
+2026-04-14 11:59:52,631 - INFO - Regula po iteracji 4: IF Abdomen <= 87.25 AND Density <= 1.08 AND Ankle <= 22.90 AND Neck >= 33.10 AND Density <= 1.08 THEN class = {14.15} [10.35, 17.94], (p=20, n=4, P=43, N=133)
+2026-04-14 11:59:52,631 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:52,872 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:52,872 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:52,872 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:52,872 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:52,872 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:52,873 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:52,999 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.526, coverage_best: (p=58, n=27, P=58, N=118)
+2026-04-14 11:59:52,999 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {27.02} [22.02, 32.01], (p=58, n=27, P=58, N=118)
+2026-04-14 11:59:52,999 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:53,240 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:53,240 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:53,240 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:53,240 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:53,310 - INFO - Iteracja 1: condition_best: Density >= 1.05, quality_best: 0.87, coverage_best: (p=7, n=1, P=7, N=169)
+2026-04-14 11:59:53,310 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.05 THEN class = {20.60} [20.38, 20.82], (p=7, n=1, P=7, N=169)
+2026-04-14 11:59:53,310 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:53,550 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:53,550 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:53,550 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:53,550 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:53,559 - INFO - Iteracja 2: condition_best: Density >= 1.05, quality_best: 0.828, coverage_best: (p=5, n=1, P=5, N=171)
+2026-04-14 11:59:53,559 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.05 AND Density >= 1.05 THEN class = {20.50} [20.36, 20.64], (p=5, n=1, P=5, N=171)
+2026-04-14 11:59:53,559 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:53,798 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:53,798 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:53,798 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:53,798 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:53,804 - INFO - Iteracja 3: condition_best: Age <= 53.50, quality_best: 0.715, coverage_best: (p=4, n=1, P=5, N=171)
+2026-04-14 11:59:53,804 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Density >= 1.05 AND Density >= 1.05 AND Age <= 53.50 THEN class = {20.52} [20.37, 20.67], (p=4, n=1, P=5, N=171)
+2026-04-14 11:59:53,805 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:54,163 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:54,163 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:54,163 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:54,163 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:54,168 - INFO - Iteracja 4: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:59:54,169 - INFO - Regula po iteracji 4: IF Density <= 1.05 AND Density >= 1.05 AND Density >= 1.05 AND Age <= 53.50 THEN class = {20.52} [20.37, 20.67], (p=4, n=1, P=5, N=171)
+2026-04-14 11:59:54,169 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:54,169 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:54,296 - INFO - Iteracja 0: condition_best: Density <= 1.05, quality_best: 0.49, coverage_best: (p=57, n=30, P=57, N=119)
+2026-04-14 11:59:54,296 - INFO - Regula po iteracji 0: IF Density <= 1.05 THEN class = {26.86} [21.82, 31.90], (p=57, n=30, P=57, N=119)
+2026-04-14 11:59:54,297 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:54,538 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:54,538 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:54,538 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:54,538 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:54,608 - INFO - Iteracja 1: condition_best: Density >= 1.05, quality_best: 0.716, coverage_best: (p=11, n=4, P=11, N=165)
+2026-04-14 11:59:54,608 - INFO - Regula po iteracji 1: IF Density <= 1.05 AND Density >= 1.05 THEN class = {20.79} [20.32, 21.25], (p=11, n=4, P=11, N=165)
+2026-04-14 11:59:54,609 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:54,848 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:54,848 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:54,848 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:54,848 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:54,865 - INFO - Iteracja 2: condition_best: Age >= 25.50, quality_best: 0.738, coverage_best: (p=11, n=3, P=12, N=164)
+2026-04-14 11:59:54,865 - INFO - Regula po iteracji 2: IF Density <= 1.05 AND Density >= 1.05 AND Age >= 25.50 THEN class = {20.78} [20.30, 21.26], (p=11, n=3, P=12, N=164)
+2026-04-14 11:59:54,865 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:55,105 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:55,105 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:55,105 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:55,105 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:55,119 - INFO - Iteracja 3: condition_best: Age >= 28.50, quality_best: 0.69, coverage_best: (p=10, n=3, P=12, N=164)
+2026-04-14 11:59:55,120 - INFO - Regula po iteracji 3: IF Density <= 1.05 AND Density >= 1.05 AND Age >= 25.50 AND Age >= 28.50 THEN class = {20.76} [20.27, 21.26], (p=10, n=3, P=12, N=164)
+2026-04-14 11:59:55,120 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:55,360 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:55,360 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:55,360 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:55,360 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:55,374 - INFO - Iteracja 4: condition_best: Age >= 31.00, quality_best: 0.64, coverage_best: (p=9, n=3, P=12, N=164)
+2026-04-14 11:59:55,374 - INFO - Regula po iteracji 4: IF Density <= 1.05 AND Density >= 1.05 AND Age >= 25.50 AND Age >= 28.50 AND Age >= 31.00 THEN class = {20.72} [20.23, 21.22], (p=9, n=3, P=12, N=164)
+2026-04-14 11:59:55,374 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:55,613 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:55,613 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:55,613 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:55,613 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:55,613 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:55,613 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:55,739 - INFO - Iteracja 0: condition_best: Abdomen <= 89.05, quality_best: 0.488, coverage_best: (p=49, n=19, P=65, N=111)
+2026-04-14 11:59:55,739 - INFO - Regula po iteracji 0: IF Abdomen <= 89.05 THEN class = {12.08} [6.20, 17.96], (p=49, n=19, P=65, N=111)
+2026-04-14 11:59:55,739 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:55,981 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:55,981 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:55,981 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:55,981 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:56,035 - INFO - Iteracja 1: condition_best: Density <= 1.09, quality_best: 0.515, coverage_best: (p=47, n=16, P=65, N=111)
+2026-04-14 11:59:56,035 - INFO - Regula po iteracji 1: IF Abdomen <= 89.05 AND Density <= 1.09 THEN class = {12.84} [7.45, 18.24], (p=47, n=16, P=65, N=111)
+2026-04-14 11:59:56,036 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:56,278 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:56,278 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:56,278 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:56,278 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:56,330 - INFO - Iteracja 2: condition_best: Neck <= 38.75, quality_best: 0.534, coverage_best: (p=46, n=15, P=63, N=113)
+2026-04-14 11:59:56,330 - INFO - Regula po iteracji 2: IF Abdomen <= 89.05 AND Density <= 1.09 AND Neck <= 38.75 THEN class = {12.75} [7.45, 18.05], (p=46, n=15, P=63, N=113)
+2026-04-14 11:59:56,330 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:56,573 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:56,573 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:56,573 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:56,573 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:56,624 - INFO - Iteracja 3: condition_best: Density <= 1.09, quality_best: 0.526, coverage_best: (p=44, n=15, P=61, N=115)
+2026-04-14 11:59:56,624 - INFO - Regula po iteracji 3: IF Abdomen <= 89.05 AND Density <= 1.09 AND Neck <= 38.75 AND Density <= 1.09 THEN class = {13.02} [7.85, 18.20], (p=44, n=15, P=61, N=115)
+2026-04-14 11:59:56,624 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:56,867 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:56,868 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:56,868 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:56,868 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:56,918 - INFO - Iteracja 4: condition_best: Chest >= 86.35, quality_best: 0.526, coverage_best: (p=43, n=14, P=62, N=114)
+2026-04-14 11:59:56,918 - INFO - Regula po iteracji 4: IF Abdomen <= 89.05 AND Density <= 1.09 AND Neck <= 38.75 AND Density <= 1.09 AND Chest >= 86.35 THEN class = {13.07} [7.87, 18.27], (p=43, n=14, P=62, N=114)
+2026-04-14 11:59:56,918 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:57,160 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:57,160 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:57,160 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:57,160 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:57,160 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:57,161 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:57,286 - INFO - Iteracja 0: condition_best: Density >= 1.06, quality_best: 0.486, coverage_best: (p=42, n=27, P=42, N=134)
+2026-04-14 11:59:57,286 - INFO - Regula po iteracji 0: IF Density >= 1.06 THEN class = {10.70} [6.47, 14.92], (p=42, n=27, P=42, N=134)
+2026-04-14 11:59:57,287 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:57,528 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:57,528 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:57,528 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:57,528 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:57,701 - INFO - Iteracja 1: condition_best: Density <= 1.07, quality_best: 0.95, coverage_best: (p=22, n=1, P=22, N=154)
+2026-04-14 11:59:57,701 - INFO - Regula po iteracji 1: IF Density >= 1.06 AND Density <= 1.07 THEN class = {15.00} [12.73, 17.27], (p=22, n=1, P=22, N=154)
+2026-04-14 11:59:57,702 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:57,942 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:57,942 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:57,942 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:57,943 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:57,966 - INFO - Iteracja 2: condition_best: Density >= 1.06, quality_best: 0.927, coverage_best: (p=21, n=1, P=22, N=154)
+2026-04-14 11:59:57,966 - INFO - Regula po iteracji 2: IF Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 THEN class = {14.91} [12.62, 17.19], (p=21, n=1, P=22, N=154)
+2026-04-14 11:59:57,967 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:58,206 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:58,206 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:58,206 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:58,206 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:58,227 - INFO - Iteracja 3: condition_best: Density <= 1.07, quality_best: 0.903, coverage_best: (p=20, n=1, P=22, N=154)
+2026-04-14 11:59:58,227 - INFO - Regula po iteracji 3: IF Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 AND Density <= 1.07 THEN class = {15.00} [12.69, 17.30], (p=20, n=1, P=22, N=154)
+2026-04-14 11:59:58,227 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:58,466 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:58,466 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:58,466 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:58,466 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:58,487 - INFO - Iteracja 4: condition_best: Density >= 1.06, quality_best: 0.879, coverage_best: (p=19, n=1, P=22, N=154)
+2026-04-14 11:59:58,487 - INFO - Regula po iteracji 4: IF Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 THEN class = {14.89} [12.58, 17.21], (p=19, n=1, P=22, N=154)
+2026-04-14 11:59:58,487 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:58,726 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:58,726 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:58,726 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:58,727 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:58,727 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:59:58,727 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:59:58,852 - INFO - Iteracja 0: condition_best: Density >= 1.05, quality_best: 0.48, coverage_best: (p=58, n=31, P=58, N=118)
+2026-04-14 11:59:58,852 - INFO - Regula po iteracji 0: IF Density >= 1.05 THEN class = {12.45} [7.49, 17.40], (p=58, n=31, P=58, N=118)
+2026-04-14 11:59:58,852 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:59,093 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:59,093 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:59,093 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:59,093 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:59,165 - INFO - Iteracja 1: condition_best: Density <= 1.06, quality_best: 0.769, coverage_best: (p=7, n=2, P=7, N=169)
+2026-04-14 11:59:59,165 - INFO - Regula po iteracji 1: IF Density >= 1.05 AND Density <= 1.06 THEN class = {19.37} [18.90, 19.84], (p=7, n=2, P=7, N=169)
+2026-04-14 11:59:59,165 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:59,404 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:59,404 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:59,404 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:59,404 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:59,413 - INFO - Iteracja 2: condition_best: Density >= 1.05, quality_best: 0.852, coverage_best: (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:59,414 - INFO - Regula po iteracji 2: IF Density >= 1.05 AND Density <= 1.06 AND Density >= 1.05 THEN class = {19.21} [18.81, 19.62], (p=6, n=1, P=6, N=170)
+2026-04-14 11:59:59,414 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:59,654 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:59,654 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:59,654 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:59,654 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:59,661 - INFO - Iteracja 3: condition_best: Density >= 1.05, quality_best: 0.828, coverage_best: (p=5, n=1, P=5, N=171)
+2026-04-14 11:59:59,661 - INFO - Regula po iteracji 3: IF Density >= 1.05 AND Density <= 1.06 AND Density >= 1.05 AND Density >= 1.05 THEN class = {19.15} [18.74, 19.56], (p=5, n=1, P=5, N=171)
+2026-04-14 11:59:59,662 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:59:59,900 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:59:59,900 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 11:59:59,900 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:59:59,900 - INFO - ***RR NOT FOUND***
+2026-04-14 11:59:59,907 - INFO - Iteracja 4: condition_best: Neck >= 37.85, quality_best: 0.593, coverage_best: (p=3, n=2, P=3, N=173)
+2026-04-14 11:59:59,907 - INFO - Regula po iteracji 4: IF Density >= 1.05 AND Density <= 1.06 AND Density >= 1.05 AND Density >= 1.05 AND Neck >= 37.85 THEN class = {19.08} [18.67, 19.49], (p=3, n=2, P=3, N=173)
+2026-04-14 11:59:59,907 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:00:00,145 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:00:00,145 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 12:00:00,145 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:00:00,145 - INFO - ***RR NOT FOUND***
+2026-04-14 12:00:00,145 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:00:00,146 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:00:00,269 - INFO - Iteracja 0: condition_best: Density >= 1.05, quality_best: 0.48, coverage_best: (p=58, n=31, P=58, N=118)
+2026-04-14 12:00:00,269 - INFO - Regula po iteracji 0: IF Density >= 1.05 THEN class = {12.45} [7.49, 17.40], (p=58, n=31, P=58, N=118)
+2026-04-14 12:00:00,270 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:00:00,511 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:00:00,511 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 12:00:00,511 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:00:00,511 - INFO - ***RR NOT FOUND***
+2026-04-14 12:00:00,581 - INFO - Iteracja 1: condition_best: Density <= 1.07, quality_best: 0.742, coverage_best: (p=32, n=8, P=33, N=143)
+2026-04-14 12:00:00,581 - INFO - Regula po iteracji 1: IF Density >= 1.05 AND Density <= 1.07 THEN class = {16.85} [14.42, 19.27], (p=32, n=8, P=33, N=143)
+2026-04-14 12:00:00,581 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:00:00,820 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:00:00,820 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 12:00:00,820 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:00:00,820 - INFO - ***RR NOT FOUND***
+2026-04-14 12:00:00,858 - INFO - Iteracja 2: condition_best: Density >= 1.06, quality_best: 0.932, coverage_best: (p=31, n=1, P=33, N=143)
+2026-04-14 12:00:00,858 - INFO - Regula po iteracji 2: IF Density >= 1.05 AND Density <= 1.07 AND Density >= 1.06 THEN class = {16.18} [13.92, 18.44], (p=31, n=1, P=33, N=143)
+2026-04-14 12:00:00,858 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:00:01,215 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:00:01,215 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 12:00:01,215 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:00:01,215 - INFO - ***RR NOT FOUND***
+2026-04-14 12:00:01,246 - INFO - Iteracja 3: condition_best: Density >= 1.06, quality_best: 0.917, coverage_best: (p=30, n=1, P=33, N=143)
+2026-04-14 12:00:01,246 - INFO - Regula po iteracji 3: IF Density >= 1.05 AND Density <= 1.07 AND Density >= 1.06 AND Density >= 1.06 THEN class = {16.11} [13.85, 18.38], (p=30, n=1, P=33, N=143)
+2026-04-14 12:00:01,247 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:00:01,486 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:00:01,486 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 12:00:01,486 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:00:01,486 - INFO - ***RR NOT FOUND***
+2026-04-14 12:00:01,516 - INFO - Iteracja 4: condition_best: Density >= 1.06, quality_best: 0.901, coverage_best: (p=29, n=1, P=33, N=143)
+2026-04-14 12:00:01,516 - INFO - Regula po iteracji 4: IF Density >= 1.05 AND Density <= 1.07 AND Density >= 1.06 AND Density >= 1.06 AND Density >= 1.06 THEN class = {16.04} [13.77, 18.31], (p=29, n=1, P=33, N=143)
+2026-04-14 12:00:01,517 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:00:01,757 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:00:01,757 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 12:00:01,757 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:00:01,757 - INFO - ***RR NOT FOUND***
+2026-04-14 12:00:01,758 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:00:01,758 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:00:01,881 - INFO - Iteracja 0: condition_best: Density <= 1.01, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=174)
+2026-04-14 12:00:01,882 - INFO - Regula po iteracji 0: IF Density <= 1.01 THEN class = {43.80} [40.10, 47.50], (p=2, n=0, P=2, N=174)
+2026-04-14 12:00:01,882 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:00:02,123 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:00:02,123 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 12:00:02,123 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:00:02,123 - INFO - ***RR NOT FOUND***
+2026-04-14 12:00:02,125 - INFO - Iteracja 1: condition_best: Density <= 1.00, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=175)
+2026-04-14 12:00:02,125 - INFO - Regula po iteracji 1: IF Density <= 1.01 AND Density <= 1.00 THEN class = {47.50} [47.50, 47.50], (p=1, n=0, P=1, N=175)
+2026-04-14 12:00:02,125 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:00:02,367 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:00:02,367 - INFO - Regula po iteracji 0: IF  THEN class = {19.57} [10.80, 28.34], (p=111, n=65, P=111, N=65)
+2026-04-14 12:00:02,367 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:00:02,367 - INFO - ***RR NOT FOUND***
+2026-04-14 12:00:02,367 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:00:02,368 - INFO - Regula po iteracji 2: IF Density <= 1.01 AND Density <= 1.00 THEN class = {47.50} [47.50, 47.50], (p=1, n=0, P=1, N=175)
+2026-04-14 12:00:02,368 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:00:02,380 - INFO - ************************Finished experiment for bodyfat.arff with algorithm_rer_with_exceptions************************
+2026-04-14 12:00:02,380 - INFO - *************************************************************************************************************************
+2026-04-14 12:00:02,380 - INFO - *************************************************************************************************************************
+2026-04-14 12:00:02,380 - INFO - *************************************************************************************************************************
+2026-04-14 12:00:02,380 - INFO - **********Starting experiment for bodyfat.arff with decision_tree**********
+2026-04-14 12:00:02,399 - INFO - ************************Finished experiment for bodyfat.arff with decision_tree************************
+2026-04-14 12:00:02,400 - INFO - *************************************************************************************************************************
+2026-04-14 12:00:02,400 - INFO - *************************************************************************************************************************
+2026-04-14 12:00:02,400 - INFO - *************************************************************************************************************************

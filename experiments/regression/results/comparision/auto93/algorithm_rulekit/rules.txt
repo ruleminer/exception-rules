@@ -1,0 +1,16 @@
+
+CR 0: IF Horsepower < 91.00 THEN class = {8.81} [7.91, 9.72] (p=6, n=1, P=6, N=59)
+
+CR 1: IF Weight < 2,890.00 THEN class = {11.91} [7.65, 16.17] (p=21, n=1, P=27, N=38)
+
+CR 2: IF Engine_size >= 2.90 AND Weight < 3,930.00 THEN class = {24.67} [14.34, 35.00] (p=20, n=1, P=41, N=24)
+
+CR 3: IF Engine_size >= 2.90 THEN class = {25.51} [14.81, 36.20] (p=24, n=2, P=41, N=24)
+
+CR 4: IF Weight >= 3,035.00 AND Engine_revolutions_per_mile < 2,525.00 AND RPM >= 3,900.00 AND Weight < 3,795.00 THEN class = {24.88} [15.00, 34.75] (p=22, n=1, P=39, N=26)
+
+CR 5: IF Weight >= 3,007.50 AND Length < 209.00 THEN class = {24.58} [14.40, 34.75] (p=29, n=3, P=40, N=25)
+
+CR 6: IF Horsepower >= 129.00 AND Number_of_cylinders < 7.00 AND RPM >= 4,700.00 THEN class = {24.74} [15.59, 33.90] (p=27, n=2, P=36, N=29)
+
+CR 7: IF Weight >= 2,890.00 AND Luggage_capacity < 15.50 AND Horsepower < 164.50 THEN class = {18.72} [14.70, 22.75] (p=16, n=2, P=26, N=39)

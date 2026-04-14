@@ -1,0 +1,941 @@
+2026-04-14 12:03:30,308 - INFO - **********Starting experiment for dee.arff with algorithm**********
+2026-04-14 12:03:30,312 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:30,972 - INFO - Iteracja 0: condition_best: Gas <= 26,938.05, quality_best: 0.614, coverage_best: (p=107, n=22, P=148, N=217)
+2026-04-14 12:03:30,972 - INFO - Regula po iteracji 0: IF Gas <= 26,938.05 THEN class = {2.08} [1.62, 2.55], (p=107, n=22, P=148, N=217)
+2026-04-14 12:03:30,972 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:31,443 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:31,443 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:31,443 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:31,443 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:31,531 - INFO - Iteracja 1: condition_best: Nuclear >= 137,885.50, quality_best: 0.615, coverage_best: (p=105, n=21, P=148, N=217)
+2026-04-14 12:03:31,531 - INFO - Regula po iteracji 1: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 THEN class = {2.08} [1.61, 2.55], (p=105, n=21, P=148, N=217)
+2026-04-14 12:03:31,532 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:32,004 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:32,004 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:32,004 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:32,005 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:32,082 - INFO - Iteracja 2: condition_best: Nuclear <= 183,177.50, quality_best: 0.616, coverage_best: (p=101, n=20, P=145, N=220)
+2026-04-14 12:03:32,082 - INFO - Regula po iteracji 2: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 AND Nuclear <= 183,177.50 THEN class = {2.07} [1.61, 2.54], (p=101, n=20, P=145, N=220)
+2026-04-14 12:03:32,083 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:32,552 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:32,552 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:32,552 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:32,552 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:32,627 - INFO - Iteracja 3: condition_best: Hydroelectric >= 38,510.45, quality_best: 0.631, coverage_best: (p=101, n=19, P=143, N=222)
+2026-04-14 12:03:32,627 - INFO - Regula po iteracji 3: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 AND Nuclear <= 183,177.50 AND Hydroelectric >= 38,510.45 THEN class = {2.07} [1.60, 2.53], (p=101, n=19, P=143, N=222)
+2026-04-14 12:03:32,627 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:33,096 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:33,096 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:33,096 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:33,096 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:33,170 - INFO - Iteracja 4: condition_best: Hydroelectric <= 188,364.50, quality_best: 0.642, coverage_best: (p=99, n=17, P=143, N=222)
+2026-04-14 12:03:33,171 - INFO - Regula po iteracji 4: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 AND Nuclear <= 183,177.50 AND Hydroelectric >= 38,510.45 AND Hydroelectric <= 188,364.50 THEN class = {2.07} [1.62, 2.52], (p=99, n=17, P=143, N=222)
+2026-04-14 12:03:33,171 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:33,640 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:33,640 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:33,640 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:33,640 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:33,641 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:03:33,643 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:33,923 - INFO - Iteracja 0: condition_best: Gas <= 26,938.05, quality_best: 0.614, coverage_best: (p=107, n=22, P=148, N=217)
+2026-04-14 12:03:33,923 - INFO - Regula po iteracji 0: IF Gas <= 26,938.05 THEN class = {2.08} [1.62, 2.55], (p=107, n=22, P=148, N=217)
+2026-04-14 12:03:33,923 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:34,395 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:34,395 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:34,395 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:34,395 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:34,468 - INFO - Iteracja 1: condition_best: Nuclear >= 137,885.50, quality_best: 0.615, coverage_best: (p=105, n=21, P=148, N=217)
+2026-04-14 12:03:34,468 - INFO - Regula po iteracji 1: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 THEN class = {2.08} [1.61, 2.55], (p=105, n=21, P=148, N=217)
+2026-04-14 12:03:34,468 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:34,939 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:34,939 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:34,939 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:34,939 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:35,010 - INFO - Iteracja 2: condition_best: Nuclear <= 183,177.50, quality_best: 0.616, coverage_best: (p=101, n=20, P=145, N=220)
+2026-04-14 12:03:35,010 - INFO - Regula po iteracji 2: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 AND Nuclear <= 183,177.50 THEN class = {2.07} [1.61, 2.54], (p=101, n=20, P=145, N=220)
+2026-04-14 12:03:35,010 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:35,481 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:35,481 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:35,481 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:35,481 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:35,550 - INFO - Iteracja 3: condition_best: Nuclear <= 182,569.00, quality_best: 0.611, coverage_best: (p=100, n=20, P=145, N=220)
+2026-04-14 12:03:35,550 - INFO - Regula po iteracji 3: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 AND Nuclear <= 183,177.50 AND Nuclear <= 182,569.00 THEN class = {2.07} [1.61, 2.54], (p=100, n=20, P=145, N=220)
+2026-04-14 12:03:35,550 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:36,026 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:36,026 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:36,026 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:36,026 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:36,094 - INFO - Iteracja 4: condition_best: Special <= 15,932.50, quality_best: 0.611, coverage_best: (p=99, n=19, P=147, N=218)
+2026-04-14 12:03:36,094 - INFO - Regula po iteracji 4: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 AND Nuclear <= 183,177.50 AND Nuclear <= 182,569.00 AND Special <= 15,932.50 THEN class = {2.07} [1.60, 2.54], (p=99, n=19, P=147, N=218)
+2026-04-14 12:03:36,095 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:36,569 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:36,569 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:36,570 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:36,570 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:36,570 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:03:36,572 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:36,854 - INFO - Iteracja 0: condition_best: Gas <= 26,938.05, quality_best: 0.614, coverage_best: (p=107, n=22, P=148, N=217)
+2026-04-14 12:03:36,855 - INFO - Regula po iteracji 0: IF Gas <= 26,938.05 THEN class = {2.08} [1.62, 2.55], (p=107, n=22, P=148, N=217)
+2026-04-14 12:03:36,855 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:37,612 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:37,612 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:37,612 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:37,612 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:37,685 - INFO - Iteracja 1: condition_best: Nuclear >= 137,885.50, quality_best: 0.615, coverage_best: (p=105, n=21, P=148, N=217)
+2026-04-14 12:03:37,686 - INFO - Regula po iteracji 1: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 THEN class = {2.08} [1.61, 2.55], (p=105, n=21, P=148, N=217)
+2026-04-14 12:03:37,686 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:38,156 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:38,156 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:38,156 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:38,156 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:38,227 - INFO - Iteracja 2: condition_best: Fuel <= 56,600.05, quality_best: 0.611, coverage_best: (p=104, n=21, P=148, N=217)
+2026-04-14 12:03:38,227 - INFO - Regula po iteracji 2: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 AND Fuel <= 56,600.05 THEN class = {2.08} [1.61, 2.55], (p=104, n=21, P=148, N=217)
+2026-04-14 12:03:38,228 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:38,697 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:38,697 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:38,697 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:38,697 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:38,769 - INFO - Iteracja 3: condition_best: Nuclear >= 138,609.00, quality_best: 0.606, coverage_best: (p=103, n=21, P=148, N=217)
+2026-04-14 12:03:38,769 - INFO - Regula po iteracji 3: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 AND Fuel <= 56,600.05 AND Nuclear >= 138,609.00 THEN class = {2.08} [1.61, 2.55], (p=103, n=21, P=148, N=217)
+2026-04-14 12:03:38,770 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:39,238 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:39,238 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:39,238 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:39,238 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:39,309 - INFO - Iteracja 4: condition_best: Hydroelectric >= 48,108.55, quality_best: 0.612, coverage_best: (p=102, n=20, P=148, N=217)
+2026-04-14 12:03:39,310 - INFO - Regula po iteracji 4: IF Gas <= 26,938.05 AND Nuclear >= 137,885.50 AND Fuel <= 56,600.05 AND Nuclear >= 138,609.00 AND Hydroelectric >= 48,108.55 THEN class = {2.08} [1.61, 2.55], (p=102, n=20, P=148, N=217)
+2026-04-14 12:03:39,310 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:39,779 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:39,779 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:39,779 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:39,780 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:39,780 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:03:39,781 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:40,065 - INFO - Iteracja 0: condition_best: Coal <= 185,230.00, quality_best: 0.609, coverage_best: (p=129, n=30, P=157, N=208)
+2026-04-14 12:03:40,065 - INFO - Regula po iteracji 0: IF Coal <= 185,230.00 THEN class = {2.17} [1.67, 2.66], (p=129, n=30, P=157, N=208)
+2026-04-14 12:03:40,066 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:40,540 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:40,540 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:40,540 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:40,540 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:40,640 - INFO - Iteracja 1: condition_best: Nuclear <= 185,193.50, quality_best: 0.629, coverage_best: (p=129, n=28, P=156, N=209)
+2026-04-14 12:03:40,640 - INFO - Regula po iteracji 1: IF Coal <= 185,230.00 AND Nuclear <= 185,193.50 THEN class = {2.16} [1.67, 2.66], (p=129, n=28, P=156, N=209)
+2026-04-14 12:03:40,640 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:41,114 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:41,115 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:41,115 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:41,115 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:41,210 - INFO - Iteracja 2: condition_best: Coal >= 112,594.50, quality_best: 0.636, coverage_best: (p=117, n=24, P=149, N=216)
+2026-04-14 12:03:41,211 - INFO - Regula po iteracji 2: IF Coal <= 185,230.00 AND Nuclear <= 185,193.50 AND Coal >= 112,594.50 THEN class = {2.23} [1.77, 2.69], (p=117, n=24, P=149, N=216)
+2026-04-14 12:03:41,211 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:41,684 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:41,684 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:41,684 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:41,684 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:41,771 - INFO - Iteracja 3: condition_best: Nuclear >= 142,055.50, quality_best: 0.641, coverage_best: (p=107, n=21, P=142, N=223)
+2026-04-14 12:03:41,771 - INFO - Regula po iteracji 3: IF Coal <= 185,230.00 AND Nuclear <= 185,193.50 AND Coal >= 112,594.50 AND Nuclear >= 142,055.50 THEN class = {2.19} [1.78, 2.60], (p=107, n=21, P=142, N=223)
+2026-04-14 12:03:41,772 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:42,244 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:42,244 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:42,244 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:42,244 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:42,323 - INFO - Iteracja 4: condition_best: Hydroelectric <= 197,550.50, quality_best: 0.637, coverage_best: (p=106, n=21, P=142, N=223)
+2026-04-14 12:03:42,323 - INFO - Regula po iteracji 4: IF Coal <= 185,230.00 AND Nuclear <= 185,193.50 AND Coal >= 112,594.50 AND Nuclear >= 142,055.50 AND Hydroelectric <= 197,550.50 THEN class = {2.19} [1.78, 2.61], (p=106, n=21, P=142, N=223)
+2026-04-14 12:03:42,323 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:42,796 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:42,796 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:42,796 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:42,796 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:42,796 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:03:42,798 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:43,067 - INFO - Iteracja 0: condition_best: Coal <= 185,230.00, quality_best: 0.609, coverage_best: (p=129, n=30, P=157, N=208)
+2026-04-14 12:03:43,067 - INFO - Regula po iteracji 0: IF Coal <= 185,230.00 THEN class = {2.17} [1.67, 2.66], (p=129, n=30, P=157, N=208)
+2026-04-14 12:03:43,067 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:43,540 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:43,540 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:43,540 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:43,540 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:43,632 - INFO - Iteracja 1: condition_best: Nuclear <= 185,193.50, quality_best: 0.629, coverage_best: (p=129, n=28, P=156, N=209)
+2026-04-14 12:03:43,632 - INFO - Regula po iteracji 1: IF Coal <= 185,230.00 AND Nuclear <= 185,193.50 THEN class = {2.16} [1.67, 2.66], (p=129, n=28, P=156, N=209)
+2026-04-14 12:03:43,632 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:44,394 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:44,395 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:44,395 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:44,395 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:44,487 - INFO - Iteracja 2: condition_best: Coal >= 112,594.50, quality_best: 0.636, coverage_best: (p=117, n=24, P=149, N=216)
+2026-04-14 12:03:44,487 - INFO - Regula po iteracji 2: IF Coal <= 185,230.00 AND Nuclear <= 185,193.50 AND Coal >= 112,594.50 THEN class = {2.23} [1.77, 2.69], (p=117, n=24, P=149, N=216)
+2026-04-14 12:03:44,488 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:44,960 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:44,960 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:44,960 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:44,960 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:45,043 - INFO - Iteracja 3: condition_best: Fuel <= 20,424.80, quality_best: 0.636, coverage_best: (p=108, n=22, P=142, N=223)
+2026-04-14 12:03:45,043 - INFO - Regula po iteracji 3: IF Coal <= 185,230.00 AND Nuclear <= 185,193.50 AND Coal >= 112,594.50 AND Fuel <= 20,424.80 THEN class = {2.20} [1.78, 2.62], (p=108, n=22, P=142, N=223)
+2026-04-14 12:03:45,043 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:45,515 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:45,515 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:45,515 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:45,515 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:45,591 - INFO - Iteracja 4: condition_best: Hydroelectric >= 41,207.10, quality_best: 0.637, coverage_best: (p=106, n=21, P=142, N=223)
+2026-04-14 12:03:45,591 - INFO - Regula po iteracji 4: IF Coal <= 185,230.00 AND Nuclear <= 185,193.50 AND Coal >= 112,594.50 AND Fuel <= 20,424.80 AND Hydroelectric >= 41,207.10 THEN class = {2.19} [1.78, 2.61], (p=106, n=21, P=142, N=223)
+2026-04-14 12:03:45,592 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:46,061 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:46,061 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:46,061 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:46,061 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:46,061 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:03:46,063 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:46,335 - INFO - Iteracja 0: condition_best: Gas <= 29,154.75, quality_best: 0.59, coverage_best: (p=115, n=28, P=150, N=215)
+2026-04-14 12:03:46,335 - INFO - Regula po iteracji 0: IF Gas <= 29,154.75 THEN class = {2.12} [1.64, 2.59], (p=115, n=28, P=150, N=215)
+2026-04-14 12:03:46,335 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:46,806 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:46,806 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:46,806 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:46,806 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:46,889 - INFO - Iteracja 1: condition_best: Hydroelectric <= 184,316.00, quality_best: 0.616, coverage_best: (p=111, n=23, P=150, N=215)
+2026-04-14 12:03:46,889 - INFO - Regula po iteracji 1: IF Gas <= 29,154.75 AND Hydroelectric <= 184,316.00 THEN class = {2.13} [1.67, 2.59], (p=111, n=23, P=150, N=215)
+2026-04-14 12:03:46,890 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:47,366 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:47,366 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:47,366 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:47,366 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:47,444 - INFO - Iteracja 2: condition_best: Nuclear >= 138,568.50, quality_best: 0.613, coverage_best: (p=108, n=22, P=150, N=215)
+2026-04-14 12:03:47,444 - INFO - Regula po iteracji 2: IF Gas <= 29,154.75 AND Hydroelectric <= 184,316.00 AND Nuclear >= 138,568.50 THEN class = {2.13} [1.67, 2.59], (p=108, n=22, P=150, N=215)
+2026-04-14 12:03:47,445 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:47,921 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:47,921 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:47,922 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:47,922 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:47,997 - INFO - Iteracja 3: condition_best: Gas >= 815.90, quality_best: 0.612, coverage_best: (p=103, n=21, P=146, N=219)
+2026-04-14 12:03:47,997 - INFO - Regula po iteracji 3: IF Gas <= 29,154.75 AND Hydroelectric <= 184,316.00 AND Nuclear >= 138,568.50 AND Gas >= 815.90 THEN class = {2.16} [1.71, 2.60], (p=103, n=21, P=146, N=219)
+2026-04-14 12:03:47,997 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:48,469 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:48,469 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:48,469 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:48,469 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:48,542 - INFO - Iteracja 4: condition_best: Nuclear <= 185,359.00, quality_best: 0.624, coverage_best: (p=103, n=20, P=145, N=220)
+2026-04-14 12:03:48,542 - INFO - Regula po iteracji 4: IF Gas <= 29,154.75 AND Hydroelectric <= 184,316.00 AND Nuclear >= 138,568.50 AND Gas >= 815.90 AND Nuclear <= 185,359.00 THEN class = {2.15} [1.71, 2.59], (p=103, n=20, P=145, N=220)
+2026-04-14 12:03:48,542 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:49,015 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:49,015 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:49,015 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:49,015 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:49,015 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:03:49,017 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:49,290 - INFO - Iteracja 0: condition_best: Coal <= 186,111.50, quality_best: 0.582, coverage_best: (p=129, n=33, P=158, N=207)
+2026-04-14 12:03:49,290 - INFO - Regula po iteracji 0: IF Coal <= 186,111.50 THEN class = {2.19} [1.67, 2.70], (p=129, n=33, P=158, N=207)
+2026-04-14 12:03:49,290 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:49,765 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:49,765 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:49,765 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:49,765 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:49,859 - INFO - Iteracja 1: condition_best: Nuclear <= 183,517.00, quality_best: 0.594, coverage_best: (p=128, n=31, P=158, N=207)
+2026-04-14 12:03:49,859 - INFO - Regula po iteracji 1: IF Coal <= 186,111.50 AND Nuclear <= 183,517.00 THEN class = {2.18} [1.67, 2.70], (p=128, n=31, P=158, N=207)
+2026-04-14 12:03:49,860 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:50,626 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:50,627 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:50,627 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:50,627 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:50,721 - INFO - Iteracja 2: condition_best: Gas >= 1,774.02, quality_best: 0.599, coverage_best: (p=118, n=27, P=154, N=211)
+2026-04-14 12:03:50,721 - INFO - Regula po iteracji 2: IF Coal <= 186,111.50 AND Nuclear <= 183,517.00 AND Gas >= 1,774.02 THEN class = {2.25} [1.76, 2.73], (p=118, n=27, P=154, N=211)
+2026-04-14 12:03:50,721 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:51,193 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:51,193 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:51,193 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:51,193 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:51,280 - INFO - Iteracja 3: condition_best: Coal >= 82,897.80, quality_best: 0.607, coverage_best: (p=118, n=26, P=154, N=211)
+2026-04-14 12:03:51,280 - INFO - Regula po iteracji 3: IF Coal <= 186,111.50 AND Nuclear <= 183,517.00 AND Gas >= 1,774.02 AND Coal >= 82,897.80 THEN class = {2.25} [1.76, 2.73], (p=118, n=26, P=154, N=211)
+2026-04-14 12:03:51,281 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:51,755 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:51,756 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:51,756 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:51,756 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:51,842 - INFO - Iteracja 4: condition_best: Special >= 7,563.50, quality_best: 0.611, coverage_best: (p=116, n=25, P=153, N=212)
+2026-04-14 12:03:51,842 - INFO - Regula po iteracji 4: IF Coal <= 186,111.50 AND Nuclear <= 183,517.00 AND Gas >= 1,774.02 AND Coal >= 82,897.80 AND Special >= 7,563.50 THEN class = {2.26} [1.77, 2.74], (p=116, n=25, P=153, N=212)
+2026-04-14 12:03:51,842 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:52,318 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:52,318 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:52,318 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:52,318 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:52,318 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:03:52,320 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:52,588 - INFO - Iteracja 0: condition_best: Gas <= 35,708.15, quality_best: 0.582, coverage_best: (p=140, n=34, P=169, N=196)
+2026-04-14 12:03:52,588 - INFO - Regula po iteracji 0: IF Gas <= 35,708.15 THEN class = {2.24} [1.67, 2.81], (p=140, n=34, P=169, N=196)
+2026-04-14 12:03:52,589 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:53,064 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:53,064 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:53,064 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:53,064 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:53,169 - INFO - Iteracja 1: condition_best: Coal <= 195,090.00, quality_best: 0.613, coverage_best: (p=127, n=29, P=156, N=209)
+2026-04-14 12:03:53,169 - INFO - Regula po iteracji 1: IF Gas <= 35,708.15 AND Coal <= 195,090.00 THEN class = {2.15} [1.65, 2.66], (p=127, n=29, P=156, N=209)
+2026-04-14 12:03:53,170 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:53,643 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:53,643 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:53,643 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:53,643 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:53,734 - INFO - Iteracja 2: condition_best: Coal >= 112,594.50, quality_best: 0.638, coverage_best: (p=116, n=23, P=150, N=215)
+2026-04-14 12:03:53,734 - INFO - Regula po iteracji 2: IF Gas <= 35,708.15 AND Coal <= 195,090.00 AND Coal >= 112,594.50 THEN class = {2.23} [1.76, 2.69], (p=116, n=23, P=150, N=215)
+2026-04-14 12:03:53,734 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:54,210 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:54,210 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:54,210 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:54,211 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:54,291 - INFO - Iteracja 3: condition_best: Fuel <= 28,183.80, quality_best: 0.659, coverage_best: (p=116, n=21, P=149, N=216)
+2026-04-14 12:03:54,291 - INFO - Regula po iteracji 3: IF Gas <= 35,708.15 AND Coal <= 195,090.00 AND Coal >= 112,594.50 AND Fuel <= 28,183.80 THEN class = {2.21} [1.76, 2.66], (p=116, n=21, P=149, N=216)
+2026-04-14 12:03:54,291 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:54,766 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:54,766 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:54,766 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:54,766 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:54,846 - INFO - Iteracja 4: condition_best: Nuclear <= 183,517.00, quality_best: 0.667, coverage_best: (p=115, n=20, P=148, N=217)
+2026-04-14 12:03:54,846 - INFO - Regula po iteracji 4: IF Gas <= 35,708.15 AND Coal <= 195,090.00 AND Coal >= 112,594.50 AND Fuel <= 28,183.80 AND Nuclear <= 183,517.00 THEN class = {2.21} [1.76, 2.65], (p=115, n=20, P=148, N=217)
+2026-04-14 12:03:54,847 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:55,323 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:55,323 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:55,323 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:55,323 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:55,323 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:03:55,324 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:55,592 - INFO - Iteracja 0: condition_best: Gas <= 35,708.15, quality_best: 0.582, coverage_best: (p=140, n=34, P=169, N=196)
+2026-04-14 12:03:55,592 - INFO - Regula po iteracji 0: IF Gas <= 35,708.15 THEN class = {2.24} [1.67, 2.81], (p=140, n=34, P=169, N=196)
+2026-04-14 12:03:55,592 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:56,066 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:56,067 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:56,067 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:56,067 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:56,169 - INFO - Iteracja 1: condition_best: Nuclear <= 183,517.00, quality_best: 0.594, coverage_best: (p=139, n=32, P=169, N=196)
+2026-04-14 12:03:56,169 - INFO - Regula po iteracji 1: IF Gas <= 35,708.15 AND Nuclear <= 183,517.00 THEN class = {2.24} [1.67, 2.81], (p=139, n=32, P=169, N=196)
+2026-04-14 12:03:56,169 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:56,941 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:56,941 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:56,941 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:56,941 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:57,044 - INFO - Iteracja 2: condition_best: Fuel <= 16,505.15, quality_best: 0.604, coverage_best: (p=120, n=27, P=155, N=210)
+2026-04-14 12:03:57,044 - INFO - Regula po iteracji 2: IF Gas <= 35,708.15 AND Nuclear <= 183,517.00 AND Fuel <= 16,505.15 THEN class = {2.16} [1.66, 2.65], (p=120, n=27, P=155, N=210)
+2026-04-14 12:03:57,044 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:57,519 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:57,519 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:57,519 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:57,519 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:57,605 - INFO - Iteracja 3: condition_best: Gas <= 32,449.75, quality_best: 0.635, coverage_best: (p=116, n=23, P=151, N=214)
+2026-04-14 12:03:57,605 - INFO - Regula po iteracji 3: IF Gas <= 35,708.15 AND Nuclear <= 183,517.00 AND Fuel <= 16,505.15 AND Gas <= 32,449.75 THEN class = {2.12} [1.65, 2.60], (p=116, n=23, P=151, N=214)
+2026-04-14 12:03:57,605 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:58,078 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:58,078 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:58,078 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:58,078 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:58,158 - INFO - Iteracja 4: condition_best: Hydroelectric <= 184,316.00, quality_best: 0.65, coverage_best: (p=113, n=20, P=151, N=214)
+2026-04-14 12:03:58,158 - INFO - Regula po iteracji 4: IF Gas <= 35,708.15 AND Nuclear <= 183,517.00 AND Fuel <= 16,505.15 AND Gas <= 32,449.75 AND Hydroelectric <= 184,316.00 THEN class = {2.14} [1.67, 2.62], (p=113, n=20, P=151, N=214)
+2026-04-14 12:03:58,159 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:58,632 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:58,632 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:58,632 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:58,632 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:58,632 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:03:58,634 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:03:58,900 - INFO - Iteracja 0: condition_best: Fuel >= 24,370.55, quality_best: 0.571, coverage_best: (p=83, n=26, P=112, N=253)
+2026-04-14 12:03:58,900 - INFO - Regula po iteracji 0: IF Fuel >= 24,370.55 THEN class = {4.05} [3.45, 4.65], (p=83, n=26, P=112, N=253)
+2026-04-14 12:03:58,900 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:59,371 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:59,372 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:59,372 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:59,372 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:59,447 - INFO - Iteracja 1: condition_best: Fuel <= 67,103.75, quality_best: 0.589, coverage_best: (p=83, n=24, P=112, N=253)
+2026-04-14 12:03:59,447 - INFO - Regula po iteracji 1: IF Fuel >= 24,370.55 AND Fuel <= 67,103.75 THEN class = {4.04} [3.44, 4.63], (p=83, n=24, P=112, N=253)
+2026-04-14 12:03:59,447 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:03:59,924 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:03:59,924 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:03:59,925 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:03:59,925 - INFO - ***RR NOT FOUND***
+2026-04-14 12:03:59,991 - INFO - Iteracja 2: condition_best: Gas >= 10,102.55, quality_best: 0.599, coverage_best: (p=82, n=23, P=110, N=255)
+2026-04-14 12:03:59,991 - INFO - Regula po iteracji 2: IF Fuel >= 24,370.55 AND Fuel <= 67,103.75 AND Gas >= 10,102.55 THEN class = {4.05} [3.47, 4.63], (p=82, n=23, P=110, N=255)
+2026-04-14 12:03:59,991 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:00,463 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:00,463 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:00,463 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:00,463 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:00,528 - INFO - Iteracja 3: condition_best: Hydroelectric <= 169,572.50, quality_best: 0.598, coverage_best: (p=76, n=23, P=100, N=265)
+2026-04-14 12:04:00,529 - INFO - Regula po iteracji 3: IF Fuel >= 24,370.55 AND Fuel <= 67,103.75 AND Gas >= 10,102.55 AND Hydroelectric <= 169,572.50 THEN class = {4.11} [3.59, 4.63], (p=76, n=23, P=100, N=265)
+2026-04-14 12:04:00,529 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:00,995 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:00,996 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:00,996 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:00,996 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:01,056 - INFO - Iteracja 4: condition_best: Fuel <= 59,480.55, quality_best: 0.596, coverage_best: (p=71, n=19, P=103, N=262)
+2026-04-14 12:04:01,056 - INFO - Regula po iteracji 4: IF Fuel >= 24,370.55 AND Fuel <= 67,103.75 AND Gas >= 10,102.55 AND Hydroelectric <= 169,572.50 AND Fuel <= 59,480.55 THEN class = {4.09} [3.56, 4.62], (p=71, n=19, P=103, N=262)
+2026-04-14 12:04:01,057 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:01,523 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:01,523 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:01,523 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:01,523 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:01,524 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:01,525 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:01,779 - INFO - Iteracja 0: condition_best: Fuel >= 24,370.55, quality_best: 0.571, coverage_best: (p=83, n=26, P=112, N=253)
+2026-04-14 12:04:01,779 - INFO - Regula po iteracji 0: IF Fuel >= 24,370.55 THEN class = {4.05} [3.45, 4.65], (p=83, n=26, P=112, N=253)
+2026-04-14 12:04:01,779 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:02,246 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:02,246 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:02,247 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:02,247 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:02,308 - INFO - Iteracja 1: condition_best: Fuel <= 67,103.75, quality_best: 0.589, coverage_best: (p=83, n=24, P=112, N=253)
+2026-04-14 12:04:02,309 - INFO - Regula po iteracji 1: IF Fuel >= 24,370.55 AND Fuel <= 67,103.75 THEN class = {4.04} [3.44, 4.63], (p=83, n=24, P=112, N=253)
+2026-04-14 12:04:02,309 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:02,777 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:02,777 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:02,777 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:02,777 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:02,838 - INFO - Iteracja 2: condition_best: Gas >= 10,102.55, quality_best: 0.599, coverage_best: (p=82, n=23, P=110, N=255)
+2026-04-14 12:04:02,838 - INFO - Regula po iteracji 2: IF Fuel >= 24,370.55 AND Fuel <= 67,103.75 AND Gas >= 10,102.55 THEN class = {4.05} [3.47, 4.63], (p=82, n=23, P=110, N=255)
+2026-04-14 12:04:02,839 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:03,302 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:03,302 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:03,303 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:03,303 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:03,363 - INFO - Iteracja 3: condition_best: Hydroelectric <= 169,572.50, quality_best: 0.598, coverage_best: (p=76, n=23, P=100, N=265)
+2026-04-14 12:04:03,363 - INFO - Regula po iteracji 3: IF Fuel >= 24,370.55 AND Fuel <= 67,103.75 AND Gas >= 10,102.55 AND Hydroelectric <= 169,572.50 THEN class = {4.11} [3.59, 4.63], (p=76, n=23, P=100, N=265)
+2026-04-14 12:04:03,363 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:04,123 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:04,123 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:04,123 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:04,123 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:04,180 - INFO - Iteracja 4: condition_best: Nuclear >= 115,183.00, quality_best: 0.596, coverage_best: (p=75, n=23, P=99, N=266)
+2026-04-14 12:04:04,180 - INFO - Regula po iteracji 4: IF Fuel >= 24,370.55 AND Fuel <= 67,103.75 AND Gas >= 10,102.55 AND Hydroelectric <= 169,572.50 AND Nuclear >= 115,183.00 THEN class = {4.10} [3.59, 4.62], (p=75, n=23, P=99, N=266)
+2026-04-14 12:04:04,180 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:04,644 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:04,644 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:04,644 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:04,644 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:04,644 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:04,645 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:04,899 - INFO - Iteracja 0: condition_best: Fuel >= 22,060.60, quality_best: 0.568, coverage_best: (p=92, n=27, P=125, N=240)
+2026-04-14 12:04:04,899 - INFO - Regula po iteracji 0: IF Fuel >= 22,060.60 THEN class = {3.95} [3.27, 4.64], (p=92, n=27, P=125, N=240)
+2026-04-14 12:04:04,900 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:05,368 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:05,368 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:05,368 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:05,368 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:05,437 - INFO - Iteracja 1: condition_best: Hydroelectric <= 167,927.50, quality_best: 0.584, coverage_best: (p=82, n=25, P=109, N=256)
+2026-04-14 12:04:05,437 - INFO - Regula po iteracji 1: IF Fuel >= 22,060.60 AND Hydroelectric <= 167,927.50 THEN class = {4.07} [3.49, 4.65], (p=82, n=25, P=109, N=256)
+2026-04-14 12:04:05,437 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:05,903 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:05,903 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:05,904 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:05,904 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:05,964 - INFO - Iteracja 2: condition_best: Fuel <= 67,103.75, quality_best: 0.599, coverage_best: (p=82, n=23, P=110, N=255)
+2026-04-14 12:04:05,965 - INFO - Regula po iteracji 2: IF Fuel >= 22,060.60 AND Hydroelectric <= 167,927.50 AND Fuel <= 67,103.75 THEN class = {4.06} [3.48, 4.64], (p=82, n=23, P=110, N=255)
+2026-04-14 12:04:05,965 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:06,431 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:06,431 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:06,431 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:06,431 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:06,491 - INFO - Iteracja 3: condition_best: Nuclear >= 116,007.00, quality_best: 0.597, coverage_best: (p=80, n=22, P=110, N=255)
+2026-04-14 12:04:06,491 - INFO - Regula po iteracji 3: IF Fuel >= 22,060.60 AND Hydroelectric <= 167,927.50 AND Fuel <= 67,103.75 AND Nuclear >= 116,007.00 THEN class = {4.05} [3.47, 4.63], (p=80, n=22, P=110, N=255)
+2026-04-14 12:04:06,491 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:06,957 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:06,957 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:06,957 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:06,957 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:07,016 - INFO - Iteracja 4: condition_best: Fuel <= 63,967.35, quality_best: 0.595, coverage_best: (p=78, n=21, P=110, N=255)
+2026-04-14 12:04:07,016 - INFO - Regula po iteracji 4: IF Fuel >= 22,060.60 AND Hydroelectric <= 167,927.50 AND Fuel <= 67,103.75 AND Nuclear >= 116,007.00 AND Fuel <= 63,967.35 THEN class = {4.03} [3.45, 4.61], (p=78, n=21, P=110, N=255)
+2026-04-14 12:04:07,016 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:07,483 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:07,483 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:07,483 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:07,483 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:07,483 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:07,484 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:07,740 - INFO - Iteracja 0: condition_best: Gas <= 37,356.65, quality_best: 0.565, coverage_best: (p=141, n=37, P=168, N=197)
+2026-04-14 12:04:07,741 - INFO - Regula po iteracji 0: IF Gas <= 37,356.65 THEN class = {2.25} [1.68, 2.82], (p=141, n=37, P=168, N=197)
+2026-04-14 12:04:07,741 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:08,215 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:08,215 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:08,215 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:08,215 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:08,320 - INFO - Iteracja 1: condition_best: Coal <= 195,816.50, quality_best: 0.59, coverage_best: (p=129, n=32, P=158, N=207)
+2026-04-14 12:04:08,320 - INFO - Regula po iteracji 1: IF Gas <= 37,356.65 AND Coal <= 195,816.50 THEN class = {2.17} [1.67, 2.68], (p=129, n=32, P=158, N=207)
+2026-04-14 12:04:08,321 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:08,794 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:08,794 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:08,794 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:08,794 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:08,887 - INFO - Iteracja 2: condition_best: Coal >= 112,594.50, quality_best: 0.613, coverage_best: (p=118, n=26, P=152, N=213)
+2026-04-14 12:04:08,888 - INFO - Regula po iteracji 2: IF Gas <= 37,356.65 AND Coal <= 195,816.50 AND Coal >= 112,594.50 THEN class = {2.25} [1.77, 2.72], (p=118, n=26, P=152, N=213)
+2026-04-14 12:04:08,888 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:09,358 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:09,358 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:09,358 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:09,358 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:09,442 - INFO - Iteracja 3: condition_best: Fuel <= 20,424.80, quality_best: 0.634, coverage_best: (p=110, n=21, P=149, N=216)
+2026-04-14 12:04:09,442 - INFO - Regula po iteracji 3: IF Gas <= 37,356.65 AND Coal <= 195,816.50 AND Coal >= 112,594.50 AND Fuel <= 20,424.80 THEN class = {2.22} [1.77, 2.66], (p=110, n=21, P=149, N=216)
+2026-04-14 12:04:09,442 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:09,913 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:09,913 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:09,913 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:09,913 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:09,990 - INFO - Iteracja 4: condition_best: Special >= 7,462.00, quality_best: 0.647, coverage_best: (p=108, n=19, P=148, N=217)
+2026-04-14 12:04:09,990 - INFO - Regula po iteracji 4: IF Gas <= 37,356.65 AND Coal <= 195,816.50 AND Coal >= 112,594.50 AND Fuel <= 20,424.80 AND Special >= 7,462.00 THEN class = {2.22} [1.78, 2.66], (p=108, n=19, P=148, N=217)
+2026-04-14 12:04:09,990 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:10,459 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:10,459 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:10,459 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:10,459 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:10,459 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:10,460 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:10,993 - INFO - Iteracja 0: condition_best: Gas <= 38,580.20, quality_best: 0.558, coverage_best: (p=145, n=40, P=168, N=197)
+2026-04-14 12:04:10,993 - INFO - Regula po iteracji 0: IF Gas <= 38,580.20 THEN class = {2.26} [1.69, 2.83], (p=145, n=40, P=168, N=197)
+2026-04-14 12:04:10,993 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:11,467 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:11,467 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:11,467 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:11,467 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:11,577 - INFO - Iteracja 1: condition_best: Special >= 8,435.50, quality_best: 0.592, coverage_best: (p=131, n=32, P=160, N=205)
+2026-04-14 12:04:11,577 - INFO - Regula po iteracji 1: IF Gas <= 38,580.20 AND Special >= 8,435.50 THEN class = {2.29} [1.78, 2.81], (p=131, n=32, P=160, N=205)
+2026-04-14 12:04:11,577 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:12,051 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:12,051 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:12,051 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:12,051 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:12,147 - INFO - Iteracja 2: condition_best: Nuclear >= 139,107.50, quality_best: 0.604, coverage_best: (p=123, n=27, P=159, N=206)
+2026-04-14 12:04:12,147 - INFO - Regula po iteracji 2: IF Gas <= 38,580.20 AND Special >= 8,435.50 AND Nuclear >= 139,107.50 THEN class = {2.28} [1.77, 2.79], (p=123, n=27, P=159, N=206)
+2026-04-14 12:04:12,147 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:12,621 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:12,622 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:12,622 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:12,622 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:12,710 - INFO - Iteracja 3: condition_best: Gas >= 340.82, quality_best: 0.609, coverage_best: (p=122, n=26, P=159, N=206)
+2026-04-14 12:04:12,710 - INFO - Regula po iteracji 3: IF Gas <= 38,580.20 AND Special >= 8,435.50 AND Nuclear >= 139,107.50 AND Gas >= 340.82 THEN class = {2.29} [1.78, 2.79], (p=122, n=26, P=159, N=206)
+2026-04-14 12:04:12,710 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:13,187 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:13,187 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:13,187 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:13,187 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:13,276 - INFO - Iteracja 4: condition_best: Nuclear >= 140,718.00, quality_best: 0.605, coverage_best: (p=119, n=25, P=159, N=206)
+2026-04-14 12:04:13,276 - INFO - Regula po iteracji 4: IF Gas <= 38,580.20 AND Special >= 8,435.50 AND Nuclear >= 139,107.50 AND Gas >= 340.82 AND Nuclear >= 140,718.00 THEN class = {2.29} [1.78, 2.79], (p=119, n=25, P=159, N=206)
+2026-04-14 12:04:13,276 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:13,752 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:13,752 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:13,752 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:13,752 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:13,752 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:13,753 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:14,005 - INFO - Iteracja 0: condition_best: Fuel >= 21,173.05, quality_best: 0.547, coverage_best: (p=94, n=30, P=127, N=238)
+2026-04-14 12:04:14,005 - INFO - Regula po iteracji 0: IF Fuel >= 21,173.05 THEN class = {3.93} [3.24, 4.61], (p=94, n=30, P=127, N=238)
+2026-04-14 12:04:14,005 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:14,475 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:14,476 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:14,476 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:14,476 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:14,547 - INFO - Iteracja 1: condition_best: Hydroelectric <= 170,479.50, quality_best: 0.593, coverage_best: (p=89, n=25, P=118, N=247)
+2026-04-14 12:04:14,548 - INFO - Regula po iteracji 1: IF Fuel >= 21,173.05 AND Hydroelectric <= 170,479.50 THEN class = {4.01} [3.37, 4.64], (p=89, n=25, P=118, N=247)
+2026-04-14 12:04:14,548 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,015 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,015 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:15,015 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,015 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,081 - INFO - Iteracja 2: condition_best: Fuel <= 67,566.10, quality_best: 0.602, coverage_best: (p=89, n=24, P=118, N=247)
+2026-04-14 12:04:15,081 - INFO - Regula po iteracji 2: IF Fuel >= 21,173.05 AND Hydroelectric <= 170,479.50 AND Fuel <= 67,566.10 THEN class = {4.00} [3.36, 4.63], (p=89, n=24, P=118, N=247)
+2026-04-14 12:04:15,081 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:15,550 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:15,550 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:15,550 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:15,550 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:15,615 - INFO - Iteracja 3: condition_best: Nuclear >= 115,183.00, quality_best: 0.6, coverage_best: (p=88, n=24, P=117, N=248)
+2026-04-14 12:04:15,615 - INFO - Regula po iteracji 3: IF Fuel >= 21,173.05 AND Hydroelectric <= 170,479.50 AND Fuel <= 67,566.10 AND Nuclear >= 115,183.00 THEN class = {3.99} [3.36, 4.62], (p=88, n=24, P=117, N=248)
+2026-04-14 12:04:15,615 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,080 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,080 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:16,080 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,080 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,146 - INFO - Iteracja 4: condition_best: Coal <= 222,924.50, quality_best: 0.599, coverage_best: (p=85, n=23, P=115, N=250)
+2026-04-14 12:04:16,146 - INFO - Regula po iteracji 4: IF Fuel >= 21,173.05 AND Hydroelectric <= 170,479.50 AND Fuel <= 67,566.10 AND Nuclear >= 115,183.00 AND Coal <= 222,924.50 THEN class = {3.97} [3.34, 4.60], (p=85, n=23, P=115, N=250)
+2026-04-14 12:04:16,146 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:16,613 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:16,613 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:16,613 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:16,613 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:16,613 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:16,614 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:16,863 - INFO - Iteracja 0: condition_best: Gas >= 58,553.60, quality_best: 0.538, coverage_best: (p=69, n=24, P=102, N=263)
+2026-04-14 12:04:16,863 - INFO - Regula po iteracji 0: IF Gas >= 58,553.60 THEN class = {4.08} [3.56, 4.61], (p=69, n=24, P=102, N=263)
+2026-04-14 12:04:16,863 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:17,621 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:17,621 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:17,621 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:17,621 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:17,678 - INFO - Iteracja 1: condition_best: Coal >= 190,836.00, quality_best: 0.551, coverage_best: (p=66, n=22, P=98, N=267)
+2026-04-14 12:04:17,678 - INFO - Regula po iteracji 1: IF Gas >= 58,553.60 AND Coal >= 190,836.00 THEN class = {4.10} [3.58, 4.61], (p=66, n=22, P=98, N=267)
+2026-04-14 12:04:17,678 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,148 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,148 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:18,148 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,148 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,198 - INFO - Iteracja 2: condition_best: Fuel <= 62,756.25, quality_best: 0.561, coverage_best: (p=63, n=19, P=98, N=267)
+2026-04-14 12:04:18,198 - INFO - Regula po iteracji 2: IF Gas >= 58,553.60 AND Coal >= 190,836.00 AND Fuel <= 62,756.25 THEN class = {4.06} [3.55, 4.56], (p=63, n=19, P=98, N=267)
+2026-04-14 12:04:18,198 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:18,662 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:18,662 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:18,662 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:18,662 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:18,709 - INFO - Iteracja 3: condition_best: Nuclear <= 168,562.00, quality_best: 0.581, coverage_best: (p=53, n=13, P=92, N=273)
+2026-04-14 12:04:18,709 - INFO - Regula po iteracji 3: IF Gas >= 58,553.60 AND Coal >= 190,836.00 AND Fuel <= 62,756.25 AND Nuclear <= 168,562.00 THEN class = {4.05} [3.58, 4.53], (p=53, n=13, P=92, N=273)
+2026-04-14 12:04:18,709 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,173 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,173 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:19,173 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,174 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,212 - INFO - Iteracja 4: condition_best: Hydroelectric <= 75,764.80, quality_best: 0.605, coverage_best: (p=45, n=8, P=88, N=277)
+2026-04-14 12:04:19,212 - INFO - Regula po iteracji 4: IF Gas >= 58,553.60 AND Coal >= 190,836.00 AND Fuel <= 62,756.25 AND Nuclear <= 168,562.00 AND Hydroelectric <= 75,764.80 THEN class = {4.03} [3.59, 4.46], (p=45, n=8, P=88, N=277)
+2026-04-14 12:04:19,212 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:19,678 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:19,678 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:19,678 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:19,678 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:19,678 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:19,679 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:19,926 - INFO - Iteracja 0: condition_best: Gas >= 58,553.60, quality_best: 0.538, coverage_best: (p=69, n=24, P=102, N=263)
+2026-04-14 12:04:19,926 - INFO - Regula po iteracji 0: IF Gas >= 58,553.60 THEN class = {4.08} [3.56, 4.61], (p=69, n=24, P=102, N=263)
+2026-04-14 12:04:19,926 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,392 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,393 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:20,393 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,393 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,444 - INFO - Iteracja 1: condition_best: Coal >= 190,836.00, quality_best: 0.551, coverage_best: (p=66, n=22, P=98, N=267)
+2026-04-14 12:04:20,444 - INFO - Regula po iteracji 1: IF Gas >= 58,553.60 AND Coal >= 190,836.00 THEN class = {4.10} [3.58, 4.61], (p=66, n=22, P=98, N=267)
+2026-04-14 12:04:20,444 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:20,912 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:20,912 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:20,912 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:20,912 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:20,961 - INFO - Iteracja 2: condition_best: Hydroelectric >= 42,874.50, quality_best: 0.544, coverage_best: (p=64, n=21, P=99, N=266)
+2026-04-14 12:04:20,961 - INFO - Regula po iteracji 2: IF Gas >= 58,553.60 AND Coal >= 190,836.00 AND Hydroelectric >= 42,874.50 THEN class = {4.11} [3.59, 4.62], (p=64, n=21, P=99, N=266)
+2026-04-14 12:04:20,961 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,427 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,427 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:21,428 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,428 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,476 - INFO - Iteracja 3: condition_best: Nuclear >= 115,746.00, quality_best: 0.551, coverage_best: (p=63, n=20, P=98, N=267)
+2026-04-14 12:04:21,476 - INFO - Regula po iteracji 3: IF Gas >= 58,553.60 AND Coal >= 190,836.00 AND Hydroelectric >= 42,874.50 AND Nuclear >= 115,746.00 THEN class = {4.10} [3.59, 4.61], (p=63, n=20, P=98, N=267)
+2026-04-14 12:04:21,476 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:21,940 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:21,941 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:21,941 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:21,941 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:21,988 - INFO - Iteracja 4: condition_best: Special >= 10,735.00, quality_best: 0.545, coverage_best: (p=61, n=19, P=99, N=266)
+2026-04-14 12:04:21,988 - INFO - Regula po iteracji 4: IF Gas >= 58,553.60 AND Coal >= 190,836.00 AND Hydroelectric >= 42,874.50 AND Nuclear >= 115,746.00 AND Special >= 10,735.00 THEN class = {4.11} [3.59, 4.62], (p=61, n=19, P=99, N=266)
+2026-04-14 12:04:21,988 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:22,454 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:22,454 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:22,454 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:22,454 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:22,454 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:22,455 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:22,701 - INFO - Iteracja 0: condition_best: Coal <= 191,366.00, quality_best: 0.53, coverage_best: (p=143, n=40, P=174, N=191)
+2026-04-14 12:04:22,701 - INFO - Regula po iteracji 0: IF Coal <= 191,366.00 THEN class = {2.27} [1.68, 2.87], (p=143, n=40, P=174, N=191)
+2026-04-14 12:04:22,701 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:23,172 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:23,172 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:23,172 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:23,172 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:23,282 - INFO - Iteracja 1: condition_best: Coal >= 112,594.50, quality_best: 0.556, coverage_best: (p=133, n=33, P=171, N=194)
+2026-04-14 12:04:23,282 - INFO - Regula po iteracji 1: IF Coal <= 191,366.00 AND Coal >= 112,594.50 THEN class = {2.35} [1.78, 2.91], (p=133, n=33, P=171, N=194)
+2026-04-14 12:04:23,282 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:23,756 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:23,756 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:23,756 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:23,756 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:23,852 - INFO - Iteracja 2: condition_best: Nuclear >= 142,214.00, quality_best: 0.592, coverage_best: (p=120, n=27, P=159, N=206)
+2026-04-14 12:04:23,852 - INFO - Regula po iteracji 2: IF Coal <= 191,366.00 AND Coal >= 112,594.50 AND Nuclear >= 142,214.00 THEN class = {2.29} [1.78, 2.80], (p=120, n=27, P=159, N=206)
+2026-04-14 12:04:23,853 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:24,324 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:24,324 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:24,324 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:24,324 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:24,685 - INFO - Iteracja 3: condition_best: Nuclear <= 185,359.00, quality_best: 0.601, coverage_best: (p=120, n=26, P=159, N=206)
+2026-04-14 12:04:24,685 - INFO - Regula po iteracji 3: IF Coal <= 191,366.00 AND Coal >= 112,594.50 AND Nuclear >= 142,214.00 AND Nuclear <= 185,359.00 THEN class = {2.28} [1.77, 2.79], (p=120, n=26, P=159, N=206)
+2026-04-14 12:04:24,685 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:25,159 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:25,159 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:25,159 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:25,159 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:25,246 - INFO - Iteracja 4: condition_best: Special <= 15,732.50, quality_best: 0.601, coverage_best: (p=118, n=25, P=159, N=206)
+2026-04-14 12:04:25,246 - INFO - Regula po iteracji 4: IF Coal <= 191,366.00 AND Coal >= 112,594.50 AND Nuclear >= 142,214.00 AND Nuclear <= 185,359.00 AND Special <= 15,732.50 THEN class = {2.29} [1.78, 2.80], (p=118, n=25, P=159, N=206)
+2026-04-14 12:04:25,246 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:25,719 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:25,719 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:25,720 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:25,720 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:25,720 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:25,720 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:25,966 - INFO - Iteracja 0: condition_best: Gas <= 39,563.90, quality_best: 0.527, coverage_best: (p=146, n=43, P=172, N=193)
+2026-04-14 12:04:25,966 - INFO - Regula po iteracji 0: IF Gas <= 39,563.90 THEN class = {2.28} [1.69, 2.87], (p=146, n=43, P=172, N=193)
+2026-04-14 12:04:25,967 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:26,437 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:26,437 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:26,438 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:26,438 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:26,550 - INFO - Iteracja 1: condition_best: Fuel <= 28,183.80, quality_best: 0.58, coverage_best: (p=145, n=38, P=166, N=199)
+2026-04-14 12:04:26,550 - INFO - Regula po iteracji 1: IF Gas <= 39,563.90 AND Fuel <= 28,183.80 THEN class = {2.25} [1.69, 2.81], (p=145, n=38, P=166, N=199)
+2026-04-14 12:04:26,551 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:27,021 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:27,021 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:27,021 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:27,021 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:27,130 - INFO - Iteracja 2: condition_best: Coal >= 93,829.10, quality_best: 0.601, coverage_best: (p=140, n=34, P=163, N=202)
+2026-04-14 12:04:27,130 - INFO - Regula po iteracji 2: IF Gas <= 39,563.90 AND Fuel <= 28,183.80 AND Coal >= 93,829.10 THEN class = {2.29} [1.76, 2.82], (p=140, n=34, P=163, N=202)
+2026-04-14 12:04:27,130 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:27,603 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:27,603 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:27,604 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:27,604 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:27,706 - INFO - Iteracja 3: condition_best: Nuclear <= 185,359.00, quality_best: 0.616, coverage_best: (p=140, n=33, P=161, N=204)
+2026-04-14 12:04:27,706 - INFO - Regula po iteracji 3: IF Gas <= 39,563.90 AND Fuel <= 28,183.80 AND Coal >= 93,829.10 AND Nuclear <= 185,359.00 THEN class = {2.29} [1.76, 2.82], (p=140, n=33, P=161, N=204)
+2026-04-14 12:04:27,707 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:28,180 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:28,180 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:28,180 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:28,180 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:28,284 - INFO - Iteracja 4: condition_best: Gas >= 815.90, quality_best: 0.629, coverage_best: (p=138, n=30, P=162, N=203)
+2026-04-14 12:04:28,284 - INFO - Regula po iteracji 4: IF Gas <= 39,563.90 AND Fuel <= 28,183.80 AND Coal >= 93,829.10 AND Nuclear <= 185,359.00 AND Gas >= 815.90 THEN class = {2.31} [1.78, 2.83], (p=138, n=30, P=162, N=203)
+2026-04-14 12:04:28,285 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:28,759 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:28,759 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:28,759 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:28,759 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:28,759 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:28,760 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:29,008 - INFO - Iteracja 0: condition_best: Gas <= 44,244.05, quality_best: 0.462, coverage_best: (p=153, n=56, P=173, N=192)
+2026-04-14 12:04:29,008 - INFO - Regula po iteracji 0: IF Gas <= 44,244.05 THEN class = {2.34} [1.74, 2.93], (p=153, n=56, P=173, N=192)
+2026-04-14 12:04:29,008 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:29,481 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:29,481 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:29,481 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:29,481 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:29,607 - INFO - Iteracja 1: condition_best: Coal <= 198,553.50, quality_best: 0.52, coverage_best: (p=144, n=48, P=162, N=203)
+2026-04-14 12:04:29,607 - INFO - Regula po iteracji 1: IF Gas <= 44,244.05 AND Coal <= 198,553.50 THEN class = {2.26} [1.73, 2.79], (p=144, n=48, P=162, N=203)
+2026-04-14 12:04:29,608 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:30,079 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:30,079 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:30,079 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:30,079 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:30,193 - INFO - Iteracja 2: condition_best: Coal >= 88,466.95, quality_best: 0.546, coverage_best: (p=141, n=44, P=159, N=206)
+2026-04-14 12:04:30,193 - INFO - Regula po iteracji 2: IF Gas <= 44,244.05 AND Coal <= 198,553.50 AND Coal >= 88,466.95 THEN class = {2.29} [1.78, 2.80], (p=141, n=44, P=159, N=206)
+2026-04-14 12:04:30,193 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:30,666 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:30,667 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:30,667 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:30,667 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:30,776 - INFO - Iteracja 3: condition_best: Nuclear <= 185,359.00, quality_best: 0.553, coverage_best: (p=141, n=43, P=159, N=206)
+2026-04-14 12:04:30,776 - INFO - Regula po iteracji 3: IF Gas <= 44,244.05 AND Coal <= 198,553.50 AND Coal >= 88,466.95 AND Nuclear <= 185,359.00 THEN class = {2.29} [1.78, 2.80], (p=141, n=43, P=159, N=206)
+2026-04-14 12:04:30,777 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:31,549 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:31,549 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:31,549 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:31,549 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:31,662 - INFO - Iteracja 4: condition_best: Fuel <= 30,429.80, quality_best: 0.56, coverage_best: (p=141, n=42, P=159, N=206)
+2026-04-14 12:04:31,663 - INFO - Regula po iteracji 4: IF Gas <= 44,244.05 AND Coal <= 198,553.50 AND Coal >= 88,466.95 AND Nuclear <= 185,359.00 AND Fuel <= 30,429.80 THEN class = {2.28} [1.78, 2.79], (p=141, n=42, P=159, N=206)
+2026-04-14 12:04:31,663 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:32,137 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:32,138 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:32,138 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:32,138 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:32,138 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:32,138 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:32,383 - INFO - Iteracja 0: condition_best: Coal >= 211,458.50, quality_best: 0.457, coverage_best: (p=42, n=16, P=93, N=272)
+2026-04-14 12:04:32,384 - INFO - Regula po iteracji 0: IF Coal >= 211,458.50 THEN class = {4.00} [3.52, 4.48], (p=42, n=16, P=93, N=272)
+2026-04-14 12:04:32,384 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:32,848 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:32,848 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:32,848 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:32,848 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:32,883 - INFO - Iteracja 1: condition_best: Coal <= 222,208.00, quality_best: 0.514, coverage_best: (p=38, n=10, P=90, N=275)
+2026-04-14 12:04:32,883 - INFO - Regula po iteracji 1: IF Coal >= 211,458.50 AND Coal <= 222,208.00 THEN class = {3.97} [3.52, 4.42], (p=38, n=10, P=90, N=275)
+2026-04-14 12:04:32,884 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:33,349 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:33,349 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:33,350 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:33,350 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:33,376 - INFO - Iteracja 2: condition_best: Fuel <= 58,316.85, quality_best: 0.541, coverage_best: (p=37, n=8, P=89, N=276)
+2026-04-14 12:04:33,376 - INFO - Regula po iteracji 2: IF Coal >= 211,458.50 AND Coal <= 222,208.00 AND Fuel <= 58,316.85 THEN class = {3.93} [3.49, 4.38], (p=37, n=8, P=89, N=276)
+2026-04-14 12:04:33,377 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:33,840 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:33,840 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:33,840 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:33,840 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:33,865 - INFO - Iteracja 3: condition_best: Nuclear >= 115,323.00, quality_best: 0.569, coverage_best: (p=37, n=7, P=85, N=280)
+2026-04-14 12:04:33,865 - INFO - Regula po iteracji 3: IF Coal >= 211,458.50 AND Coal <= 222,208.00 AND Fuel <= 58,316.85 AND Nuclear >= 115,323.00 THEN class = {3.91} [3.49, 4.33], (p=37, n=7, P=85, N=280)
+2026-04-14 12:04:33,865 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:34,331 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:34,331 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:34,331 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:34,331 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:34,355 - INFO - Iteracja 4: condition_best: Special <= 14,578.50, quality_best: 0.577, coverage_best: (p=36, n=6, P=86, N=279)
+2026-04-14 12:04:34,355 - INFO - Regula po iteracji 4: IF Coal >= 211,458.50 AND Coal <= 222,208.00 AND Fuel <= 58,316.85 AND Nuclear >= 115,323.00 AND Special <= 14,578.50 THEN class = {3.92} [3.50, 4.34], (p=36, n=6, P=86, N=279)
+2026-04-14 12:04:34,355 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:34,821 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:34,821 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:34,821 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:34,821 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:34,821 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,821 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:35,065 - INFO - Iteracja 0: condition_best: Fuel <= 16,454.10, quality_best: 0.451, coverage_best: (p=145, n=53, P=173, N=192)
+2026-04-14 12:04:35,065 - INFO - Regula po iteracji 0: IF Fuel <= 16,454.10 THEN class = {2.35} [1.76, 2.95], (p=145, n=53, P=173, N=192)
+2026-04-14 12:04:35,066 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,540 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,541 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:35,541 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,541 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,661 - INFO - Iteracja 1: condition_best: Coal <= 200,853.00, quality_best: 0.508, coverage_best: (p=134, n=43, P=164, N=201)
+2026-04-14 12:04:35,661 - INFO - Regula po iteracji 1: IF Fuel <= 16,454.10 AND Coal <= 200,853.00 THEN class = {2.26} [1.72, 2.81], (p=134, n=43, P=164, N=201)
+2026-04-14 12:04:35,661 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,135 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,135 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:36,135 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,135 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,238 - INFO - Iteracja 2: condition_best: Coal >= 88,466.95, quality_best: 0.52, coverage_best: (p=130, n=40, P=162, N=203)
+2026-04-14 12:04:36,238 - INFO - Regula po iteracji 2: IF Fuel <= 16,454.10 AND Coal <= 200,853.00 AND Coal >= 88,466.95 THEN class = {2.30} [1.78, 2.82], (p=130, n=40, P=162, N=203)
+2026-04-14 12:04:36,239 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,711 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,711 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:36,712 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,712 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,812 - INFO - Iteracja 3: condition_best: Hydroelectric >= 40,103.10, quality_best: 0.536, coverage_best: (p=123, n=35, P=160, N=205)
+2026-04-14 12:04:36,812 - INFO - Regula po iteracji 3: IF Fuel <= 16,454.10 AND Coal <= 200,853.00 AND Coal >= 88,466.95 AND Hydroelectric >= 40,103.10 THEN class = {2.27} [1.75, 2.80], (p=123, n=35, P=160, N=205)
+2026-04-14 12:04:36,812 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,282 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,283 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:37,283 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,283 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,376 - INFO - Iteracja 4: condition_best: Gas >= 2,276.82, quality_best: 0.551, coverage_best: (p=115, n=29, P=160, N=205)
+2026-04-14 12:04:37,376 - INFO - Regula po iteracji 4: IF Fuel <= 16,454.10 AND Coal <= 200,853.00 AND Coal >= 88,466.95 AND Hydroelectric >= 40,103.10 AND Gas >= 2,276.82 THEN class = {2.32} [1.81, 2.84], (p=115, n=29, P=160, N=205)
+2026-04-14 12:04:37,376 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,142 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,143 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:38,143 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,143 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,143 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:38,143 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:38,389 - INFO - Iteracja 0: condition_best: Fuel <= 16,454.10, quality_best: 0.451, coverage_best: (p=145, n=53, P=173, N=192)
+2026-04-14 12:04:38,389 - INFO - Regula po iteracji 0: IF Fuel <= 16,454.10 THEN class = {2.35} [1.76, 2.95], (p=145, n=53, P=173, N=192)
+2026-04-14 12:04:38,389 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,862 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,863 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:38,863 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,863 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,981 - INFO - Iteracja 1: condition_best: Gas >= 31,471.90, quality_best: 0.49, coverage_best: (p=46, n=15, P=97, N=268)
+2026-04-14 12:04:38,982 - INFO - Regula po iteracji 1: IF Fuel <= 16,454.10 AND Gas >= 31,471.90 THEN class = {2.88} [2.42, 3.35], (p=46, n=15, P=97, N=268)
+2026-04-14 12:04:38,982 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,449 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,449 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:39,449 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,449 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,487 - INFO - Iteracja 2: condition_best: Nuclear >= 145,925.50, quality_best: 0.523, coverage_best: (p=32, n=7, P=87, N=278)
+2026-04-14 12:04:39,487 - INFO - Regula po iteracji 2: IF Fuel <= 16,454.10 AND Gas >= 31,471.90 AND Nuclear >= 145,925.50 THEN class = {2.78} [2.39, 3.18], (p=32, n=7, P=87, N=278)
+2026-04-14 12:04:39,488 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,952 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,952 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:39,952 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,952 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,975 - INFO - Iteracja 3: condition_best: Nuclear <= 176,766.00, quality_best: 0.546, coverage_best: (p=30, n=5, P=87, N=278)
+2026-04-14 12:04:39,975 - INFO - Regula po iteracji 3: IF Fuel <= 16,454.10 AND Gas >= 31,471.90 AND Nuclear >= 145,925.50 AND Nuclear <= 176,766.00 THEN class = {2.78} [2.39, 3.17], (p=30, n=5, P=87, N=278)
+2026-04-14 12:04:39,975 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,440 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,440 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:40,440 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,440 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,460 - INFO - Iteracja 4: condition_best: Special <= 14,118.50, quality_best: 0.552, coverage_best: (p=27, n=4, P=83, N=282)
+2026-04-14 12:04:40,460 - INFO - Regula po iteracji 4: IF Fuel <= 16,454.10 AND Gas >= 31,471.90 AND Nuclear >= 145,925.50 AND Nuclear <= 176,766.00 AND Special <= 14,118.50 THEN class = {2.80} [2.42, 3.19], (p=27, n=4, P=83, N=282)
+2026-04-14 12:04:40,460 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,923 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,923 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:40,923 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,923 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,923 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:40,924 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:41,166 - INFO - Iteracja 0: condition_best: Fuel <= 16,454.10, quality_best: 0.451, coverage_best: (p=145, n=53, P=173, N=192)
+2026-04-14 12:04:41,166 - INFO - Regula po iteracji 0: IF Fuel <= 16,454.10 THEN class = {2.35} [1.76, 2.95], (p=145, n=53, P=173, N=192)
+2026-04-14 12:04:41,166 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:41,642 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:41,642 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:41,642 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:41,642 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:41,759 - INFO - Iteracja 1: condition_best: Gas >= 31,471.90, quality_best: 0.49, coverage_best: (p=46, n=15, P=97, N=268)
+2026-04-14 12:04:41,759 - INFO - Regula po iteracji 1: IF Fuel <= 16,454.10 AND Gas >= 31,471.90 THEN class = {2.88} [2.42, 3.35], (p=46, n=15, P=97, N=268)
+2026-04-14 12:04:41,759 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:42,226 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:42,226 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:42,226 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:42,226 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:42,260 - INFO - Iteracja 2: condition_best: Gas <= 67,026.25, quality_best: 0.513, coverage_best: (p=46, n=14, P=93, N=272)
+2026-04-14 12:04:42,260 - INFO - Regula po iteracji 2: IF Fuel <= 16,454.10 AND Gas >= 31,471.90 AND Gas <= 67,026.25 THEN class = {2.86} [2.42, 3.30], (p=46, n=14, P=93, N=272)
+2026-04-14 12:04:42,260 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:42,730 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:42,730 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:42,730 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:42,730 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:42,763 - INFO - Iteracja 3: condition_best: Nuclear <= 179,720.00, quality_best: 0.526, coverage_best: (p=46, n=13, P=93, N=272)
+2026-04-14 12:04:42,763 - INFO - Regula po iteracji 3: IF Fuel <= 16,454.10 AND Gas >= 31,471.90 AND Gas <= 67,026.25 AND Nuclear <= 179,720.00 THEN class = {2.85} [2.41, 3.29], (p=46, n=13, P=93, N=272)
+2026-04-14 12:04:42,764 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:43,230 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:43,230 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:43,230 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:43,230 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:43,263 - INFO - Iteracja 4: condition_best: Coal >= 160,122.00, quality_best: 0.543, coverage_best: (p=46, n=12, P=92, N=273)
+2026-04-14 12:04:43,263 - INFO - Regula po iteracji 4: IF Fuel <= 16,454.10 AND Gas >= 31,471.90 AND Gas <= 67,026.25 AND Nuclear <= 179,720.00 AND Coal >= 160,122.00 THEN class = {2.86} [2.42, 3.30], (p=46, n=12, P=92, N=273)
+2026-04-14 12:04:43,263 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:43,732 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:43,733 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:43,733 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:43,733 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:43,733 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:43,733 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:43,977 - INFO - Iteracja 0: condition_best: Gas >= 44,244.05, quality_best: 0.437, coverage_best: (p=102, n=54, P=123, N=242)
+2026-04-14 12:04:43,977 - INFO - Regula po iteracji 0: IF Gas >= 44,244.05 THEN class = {3.82} [3.16, 4.48], (p=102, n=54, P=123, N=242)
+2026-04-14 12:04:43,978 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:44,449 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:44,449 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:44,449 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:44,449 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:44,544 - INFO - Iteracja 1: condition_best: Hydroelectric <= 80,126.70, quality_best: 0.537, coverage_best: (p=80, n=30, P=107, N=258)
+2026-04-14 12:04:44,544 - INFO - Regula po iteracji 1: IF Gas >= 44,244.05 AND Hydroelectric <= 80,126.70 THEN class = {3.98} [3.41, 4.56], (p=80, n=30, P=107, N=258)
+2026-04-14 12:04:44,544 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:45,301 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:45,301 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:45,301 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:45,302 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:45,366 - INFO - Iteracja 2: condition_best: Fuel >= 14,931.85, quality_best: 0.557, coverage_best: (p=73, n=28, P=94, N=271)
+2026-04-14 12:04:45,366 - INFO - Regula po iteracji 2: IF Gas >= 44,244.05 AND Hydroelectric <= 80,126.70 AND Fuel >= 14,931.85 THEN class = {4.08} [3.59, 4.56], (p=73, n=28, P=94, N=271)
+2026-04-14 12:04:45,367 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:45,833 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:45,833 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:45,833 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:45,833 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:45,890 - INFO - Iteracja 3: condition_best: Fuel <= 37,739.70, quality_best: 0.58, coverage_best: (p=43, n=8, P=92, N=273)
+2026-04-14 12:04:45,890 - INFO - Regula po iteracji 3: IF Gas >= 44,244.05 AND Hydroelectric <= 80,126.70 AND Fuel >= 14,931.85 AND Fuel <= 37,739.70 THEN class = {3.80} [3.37, 4.23], (p=43, n=8, P=92, N=273)
+2026-04-14 12:04:45,891 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:46,356 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:46,356 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:46,356 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:46,356 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:46,387 - INFO - Iteracja 4: condition_best: Coal <= 232,033.50, quality_best: 0.575, coverage_best: (p=42, n=8, P=91, N=274)
+2026-04-14 12:04:46,387 - INFO - Regula po iteracji 4: IF Gas >= 44,244.05 AND Hydroelectric <= 80,126.70 AND Fuel >= 14,931.85 AND Fuel <= 37,739.70 AND Coal <= 232,033.50 THEN class = {3.79} [3.36, 4.22], (p=42, n=8, P=91, N=274)
+2026-04-14 12:04:46,387 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:46,851 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:46,851 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:46,851 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:46,851 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:46,851 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:46,852 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:47,095 - INFO - Iteracja 0: condition_best: Hydroelectric <= 29,069.50, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=364)
+2026-04-14 12:04:47,095 - INFO - Regula po iteracji 0: IF Hydroelectric <= 29,069.50 THEN class = {2.18} [2.18, 2.18], (p=1, n=0, P=1, N=364)
+2026-04-14 12:04:47,095 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:47,558 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:47,558 - INFO - Regula po iteracji 0: IF  THEN class = {2.97} [2.01, 3.94], (p=219, n=146, P=219, N=146)
+2026-04-14 12:04:47,558 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:47,558 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:47,558 - INFO - Iteracja 1: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:47,559 - INFO - Regula po iteracji 1: IF Hydroelectric <= 29,069.50 THEN class = {2.18} [2.18, 2.18], (p=1, n=0, P=1, N=364)
+2026-04-14 12:04:47,559 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:47,565 - INFO - ************************Finished experiment for dee.arff with algorithm************************
+2026-04-14 12:04:47,565 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:47,565 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:47,565 - INFO - *************************************************************************************************************************

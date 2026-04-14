@@ -1,0 +1,28 @@
+
+CR 0: IF time >= 136.50 AND time >= 145.00 AND time <= 549.00 AND time >= 157.50 AND time <= 523.50 THEN class = {0.66} [0.49, 0.83] (p=12, n=1, P=24, N=52)
+
+CR 1: IF time >= 136.50 AND time >= 145.00 AND time <= 549.00 AND age >= 13.50 AND age <= 64.50 THEN class = {0.72} [0.14, 1.30] (p=16, n=1, P=46, N=30)
+
+CR 2: IF time >= 124.50 AND age <= 59.00 AND age <= 57.50 AND age <= 56.00 AND age <= 54.50 THEN class = {0.69} [0.33, 1.06] (p=10, n=7, P=32, N=44)
+
+CR 3: IF time >= 87.00 AND sex = {2} AND time <= 523.50 AND time <= 479.00 AND age <= 64.50 THEN class = {0.99} [0.40, 1.59] (p=20, n=2, P=56, N=20)
+
+CR 4: IF age <= 45.50 AND age >= 42.50 AND time <= 77.00 AND time <= 43.00 THEN class = {0.80} [0.55, 1.05] (p=4, n=1, P=18, N=58)
+
+CR 5: IF age <= 45.50 AND age >= 38.50 AND time <= 89.00 AND time >= 6.00 AND time >= 9.50 THEN class = {0.81} [0.56, 1.07] (p=6, n=2, P=18, N=58)
+
+CR 6: IF age <= 45.50 AND age >= 25.00 THEN class = {0.96} [0.48, 1.44] (p=24, n=4, P=44, N=32)
+RR 6: IF age <= 29.00 THEN class = {1.43} [0.77, 2.10] (p=6, n=6, P=38, N=38)
+ER 6: IF age <= 45.50 AND age >= 25.00 AND age <= 29.00 THEN class = {2.30} [2.30, 2.30] (p=2, n=0, P=2, N=74)
+
+CR 7: IF age <= 45.50 AND time <= 305.00 AND time <= 116.50 AND time <= 102.00 AND time <= 83.00 THEN class = {1.12} [0.56, 1.68] (p=17, n=5, P=42, N=34)
+
+CR 8: IF age >= 57.50 AND age <= 62.50 AND time <= 120.00 THEN class = {1.26} [1.04, 1.48] (p=4, n=1, P=18, N=58)
+
+CR 9: IF time >= 36.00 AND time <= 131.00 AND time >= 38.50 AND time >= 39.50 AND time <= 124.50 THEN class = {1.18} [0.64, 1.72] (p=11, n=4, P=42, N=34)
+
+CR 10: IF time <= 14.00 AND age >= 46.50 AND age <= 61.00 AND age <= 56.50 AND time >= 3.50 THEN class = {2.26} [1.60, 2.92] (p=2, n=3, P=16, N=60)
+
+CR 11: IF time <= 74.00 AND time >= 26.50 AND time <= 56.00 AND age >= 21.00 AND age >= 33.50 THEN class = {1.29} [0.64, 1.95] (p=10, n=2, P=46, N=30)
+
+CR 12: IF time <= 74.00 AND age >= 31.00 AND time >= 7.50 AND time <= 64.50 AND time <= 60.50 THEN class = {1.32} [0.69, 1.94] (p=24, n=5, P=46, N=30)

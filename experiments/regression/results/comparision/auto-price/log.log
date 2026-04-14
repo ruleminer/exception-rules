@@ -1,0 +1,464 @@
+2026-04-14 11:58:11,087 - INFO - **********Starting experiment for auto-price.arff with algorithm_rulekit**********
+2026-04-14 11:58:11,237 - INFO - ************************Finished experiment for auto-price.arff with algorithm_rulekit************************
+2026-04-14 11:58:11,237 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:11,237 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:11,238 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:11,238 - INFO - **********Starting experiment for auto-price.arff with algorithm_rer**********
+2026-04-14 11:58:11,245 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:11,321 - INFO - Iteracja 0: condition_best: wheel-base <= 97.85, quality_best: 0.81, coverage_best: (p=63, n=2, P=78, N=33)
+2026-04-14 11:58:11,321 - INFO - Regula po iteracji 0: IF wheel-base <= 97.85 THEN class = {8,199.52} [4,356.01, 12,043.04], (p=63, n=2, P=78, N=33)
+2026-04-14 11:58:11,352 - INFO - Iteracja 1: condition_best: normalized-losses <= 181.00, quality_best: 0.869, coverage_best: (p=63, n=1, P=76, N=35)
+2026-04-14 11:58:11,352 - INFO - Regula po iteracji 1: IF wheel-base <= 97.85 AND normalized-losses <= 181.00 THEN class = {8,058.91} [4,355.10, 11,762.71], (p=63, n=1, P=76, N=35)
+2026-04-14 11:58:11,380 - INFO - Iteracja 2: condition_best: normalized-losses >= 75.50, quality_best: 0.862, coverage_best: (p=62, n=1, P=76, N=35)
+2026-04-14 11:58:11,380 - INFO - Regula po iteracji 2: IF wheel-base <= 97.85 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 THEN class = {8,083.84} [4,356.09, 11,811.59], (p=62, n=1, P=76, N=35)
+2026-04-14 11:58:11,408 - INFO - Iteracja 3: condition_best: peak-rpm <= 6,300.00, quality_best: 0.855, coverage_best: (p=61, n=1, P=76, N=35)
+2026-04-14 11:58:11,408 - INFO - Regula po iteracji 3: IF wheel-base <= 97.85 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 AND peak-rpm <= 6,300.00 THEN class = {8,064.26} [4,309.78, 11,818.73], (p=61, n=1, P=76, N=35)
+2026-04-14 11:58:11,436 - INFO - Iteracja 4: condition_best: normalized-losses >= 77.50, quality_best: 0.842, coverage_best: (p=60, n=1, P=77, N=34)
+2026-04-14 11:58:11,436 - INFO - Regula po iteracji 4: IF wheel-base <= 97.85 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 AND peak-rpm <= 6,300.00 AND normalized-losses >= 77.50 THEN class = {8,083.05} [4,300.82, 11,865.28], (p=60, n=1, P=77, N=34)
+2026-04-14 11:58:11,436 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:11,437 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:11,486 - INFO - Iteracja 0: condition_best: wheel-base <= 98.95, quality_best: 0.809, coverage_best: (p=70, n=3, P=79, N=32)
+2026-04-14 11:58:11,486 - INFO - Regula po iteracji 0: IF wheel-base <= 98.95 THEN class = {8,509.66} [4,671.17, 12,348.15], (p=70, n=3, P=79, N=32)
+2026-04-14 11:58:11,516 - INFO - Iteracja 1: condition_best: normalized-losses <= 181.00, quality_best: 0.86, coverage_best: (p=70, n=2, P=78, N=33)
+2026-04-14 11:58:11,516 - INFO - Regula po iteracji 1: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 THEN class = {8,388.97} [4,664.00, 12,113.94], (p=70, n=2, P=78, N=33)
+2026-04-14 11:58:11,544 - INFO - Iteracja 2: condition_best: stroke <= 3.49, quality_best: 0.883, coverage_best: (p=65, n=1, P=76, N=35)
+2026-04-14 11:58:11,544 - INFO - Regula po iteracji 2: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND stroke <= 3.49 THEN class = {8,121.36} [4,453.25, 11,789.47], (p=65, n=1, P=76, N=35)
+2026-04-14 11:58:11,572 - INFO - Iteracja 3: condition_best: normalized-losses >= 75.50, quality_best: 0.876, coverage_best: (p=64, n=1, P=76, N=35)
+2026-04-14 11:58:11,572 - INFO - Regula po iteracji 3: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND stroke <= 3.49 AND normalized-losses >= 75.50 THEN class = {8,146.49} [4,455.92, 11,837.07], (p=64, n=1, P=76, N=35)
+2026-04-14 11:58:11,599 - INFO - Iteracja 4: condition_best: peak-rpm <= 6,300.00, quality_best: 0.869, coverage_best: (p=63, n=1, P=76, N=35)
+2026-04-14 11:58:11,599 - INFO - Regula po iteracji 4: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND stroke <= 3.49 AND normalized-losses >= 75.50 AND peak-rpm <= 6,300.00 THEN class = {8,128.50} [4,412.03, 11,844.97], (p=63, n=1, P=76, N=35)
+2026-04-14 11:58:11,599 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:11,599 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:11,649 - INFO - Iteracja 0: condition_best: wheel-base <= 98.95, quality_best: 0.809, coverage_best: (p=70, n=3, P=79, N=32)
+2026-04-14 11:58:11,649 - INFO - Regula po iteracji 0: IF wheel-base <= 98.95 THEN class = {8,509.66} [4,671.17, 12,348.15], (p=70, n=3, P=79, N=32)
+2026-04-14 11:58:11,678 - INFO - Iteracja 1: condition_best: normalized-losses <= 181.00, quality_best: 0.86, coverage_best: (p=70, n=2, P=78, N=33)
+2026-04-14 11:58:11,678 - INFO - Regula po iteracji 1: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 THEN class = {8,388.97} [4,664.00, 12,113.94], (p=70, n=2, P=78, N=33)
+2026-04-14 11:58:11,706 - INFO - Iteracja 2: condition_best: normalized-losses >= 75.50, quality_best: 0.853, coverage_best: (p=69, n=2, P=78, N=33)
+2026-04-14 11:58:11,706 - INFO - Regula po iteracji 2: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 THEN class = {8,415.75} [4,671.52, 12,159.97], (p=69, n=2, P=78, N=33)
+2026-04-14 11:58:11,734 - INFO - Iteracja 3: condition_best: normalized-losses >= 77.50, quality_best: 0.838, coverage_best: (p=68, n=2, P=79, N=32)
+2026-04-14 11:58:11,734 - INFO - Regula po iteracji 3: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 AND normalized-losses >= 77.50 THEN class = {8,437.14} [4,670.58, 12,203.70], (p=68, n=2, P=79, N=32)
+2026-04-14 11:58:11,763 - INFO - Iteracja 4: condition_best: normalized-losses >= 79.50, quality_best: 0.831, coverage_best: (p=67, n=2, P=79, N=32)
+2026-04-14 11:58:11,763 - INFO - Regula po iteracji 4: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 AND normalized-losses >= 77.50 AND normalized-losses >= 79.50 THEN class = {8,453.70} [4,662.47, 12,244.92], (p=67, n=2, P=79, N=32)
+2026-04-14 11:58:11,763 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:11,764 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:11,812 - INFO - Iteracja 0: condition_best: wheel-base <= 99.25, quality_best: 0.781, coverage_best: (p=72, n=4, P=79, N=32)
+2026-04-14 11:58:11,812 - INFO - Regula po iteracji 0: IF wheel-base <= 99.25 THEN class = {8,687.70} [4,814.08, 12,561.32], (p=72, n=4, P=79, N=32)
+2026-04-14 11:58:11,843 - INFO - Iteracja 1: condition_best: stroke <= 3.49, quality_best: 0.787, coverage_best: (p=67, n=3, P=79, N=32)
+2026-04-14 11:58:11,843 - INFO - Regula po iteracji 1: IF wheel-base <= 99.25 AND stroke <= 3.49 THEN class = {8,460.99} [4,605.52, 12,316.45], (p=67, n=3, P=79, N=32)
+2026-04-14 11:58:11,872 - INFO - Iteracja 2: condition_best: wheel-base >= 87.50, quality_best: 0.779, coverage_best: (p=66, n=3, P=79, N=32)
+2026-04-14 11:58:11,872 - INFO - Regula po iteracji 2: IF wheel-base <= 99.25 AND stroke <= 3.49 AND wheel-base >= 87.50 THEN class = {8,484.26} [4,605.84, 12,362.68], (p=66, n=3, P=79, N=32)
+2026-04-14 11:58:11,901 - INFO - Iteracja 3: condition_best: wheel-base >= 89.85, quality_best: 0.772, coverage_best: (p=65, n=3, P=79, N=32)
+2026-04-14 11:58:11,901 - INFO - Regula po iteracji 3: IF wheel-base <= 99.25 AND stroke <= 3.49 AND wheel-base >= 87.50 AND wheel-base >= 89.85 THEN class = {8,533.28} [4,647.72, 12,418.83], (p=65, n=3, P=79, N=32)
+2026-04-14 11:58:11,930 - INFO - Iteracja 4: condition_best: width >= 63.50, quality_best: 0.764, coverage_best: (p=64, n=3, P=79, N=32)
+2026-04-14 11:58:11,930 - INFO - Regula po iteracji 4: IF wheel-base <= 99.25 AND stroke <= 3.49 AND wheel-base >= 87.50 AND wheel-base >= 89.85 AND width >= 63.50 THEN class = {8,584.25} [4,692.44, 12,476.06], (p=64, n=3, P=79, N=32)
+2026-04-14 11:58:11,930 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:11,931 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:11,979 - INFO - Iteracja 0: condition_best: width >= 69.25, quality_best: 0.654, coverage_best: (p=4, n=2, P=4, N=107)
+2026-04-14 11:58:11,979 - INFO - Regula po iteracji 0: IF width >= 69.25 THEN class = {29,418.17} [25,507.03, 33,329.30], (p=4, n=2, P=4, N=107)
+2026-04-14 11:58:11,985 - INFO - Iteracja 1: condition_best: wheel-base >= 101.20, quality_best: 0.389, coverage_best: (p=2, n=3, P=2, N=109)
+2026-04-14 11:58:11,985 - INFO - Regula po iteracji 1: IF width >= 69.25 AND wheel-base >= 101.20 THEN class = {28,290.60} [25,015.25, 31,565.95], (p=2, n=3, P=2, N=109)
+2026-04-14 11:58:11,989 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:58:11,989 - INFO - Regula po iteracji 2: IF width >= 69.25 AND wheel-base >= 101.20 THEN class = {28,290.60} [25,015.25, 31,565.95], (p=2, n=3, P=2, N=109)
+2026-04-14 11:58:11,989 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:11,990 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:12,038 - INFO - Iteracja 0: condition_best: width <= 65.30, quality_best: 0.643, coverage_best: (p=49, n=4, P=74, N=37)
+2026-04-14 11:58:12,038 - INFO - Regula po iteracji 0: IF width <= 65.30 THEN class = {8,104.98} [4,755.11, 11,454.85], (p=49, n=4, P=74, N=37)
+2026-04-14 11:58:12,062 - INFO - Iteracja 1: condition_best: curb-weight <= 2,737.50, quality_best: 0.701, coverage_best: (p=48, n=3, P=71, N=40)
+2026-04-14 11:58:12,062 - INFO - Regula po iteracji 1: IF width <= 65.30 AND curb-weight <= 2,737.50 THEN class = {7,836.88} [4,961.60, 10,712.16], (p=48, n=3, P=71, N=40)
+2026-04-14 11:58:12,084 - INFO - Iteracja 2: condition_best: wheel-base >= 87.50, quality_best: 0.693, coverage_best: (p=47, n=3, P=71, N=40)
+2026-04-14 11:58:12,084 - INFO - Regula po iteracji 2: IF width <= 65.30 AND curb-weight <= 2,737.50 AND wheel-base >= 87.50 THEN class = {7,856.52} [4,956.02, 10,757.02], (p=47, n=3, P=71, N=40)
+2026-04-14 11:58:12,106 - INFO - Iteracja 3: condition_best: wheel-base >= 90.70, quality_best: 0.684, coverage_best: (p=46, n=3, P=71, N=40)
+2026-04-14 11:58:12,106 - INFO - Regula po iteracji 3: IF width <= 65.30 AND curb-weight <= 2,737.50 AND wheel-base >= 87.50 AND wheel-base >= 90.70 THEN class = {7,911.73} [5,007.92, 10,815.55], (p=46, n=3, P=71, N=40)
+2026-04-14 11:58:12,127 - INFO - Iteracja 4: condition_best: wheel-base >= 93.05, quality_best: 0.675, coverage_best: (p=45, n=3, P=71, N=40)
+2026-04-14 11:58:12,128 - INFO - Regula po iteracji 4: IF width <= 65.30 AND curb-weight <= 2,737.50 AND wheel-base >= 87.50 AND wheel-base >= 90.70 AND wheel-base >= 93.05 THEN class = {7,916.38} [4,982.64, 10,850.11], (p=45, n=3, P=71, N=40)
+2026-04-14 11:58:12,128 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:12,128 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:12,176 - INFO - Iteracja 0: condition_best: city-mpg >= 25.50, quality_best: 0.642, coverage_best: (p=54, n=7, P=67, N=44)
+2026-04-14 11:58:12,176 - INFO - Regula po iteracji 0: IF city-mpg >= 25.50 THEN class = {8,002.13} [5,340.68, 10,663.58], (p=54, n=7, P=67, N=44)
+2026-04-14 11:58:12,203 - INFO - Iteracja 1: condition_best: bore <= 3.32, quality_best: 0.706, coverage_best: (p=46, n=3, P=68, N=43)
+2026-04-14 11:58:12,203 - INFO - Regula po iteracji 1: IF city-mpg >= 25.50 AND bore <= 3.32 THEN class = {7,699.63} [5,147.87, 10,251.39], (p=46, n=3, P=68, N=43)
+2026-04-14 11:58:12,224 - INFO - Iteracja 2: condition_best: wheel-base >= 87.50, quality_best: 0.697, coverage_best: (p=45, n=3, P=68, N=43)
+2026-04-14 11:58:12,224 - INFO - Regula po iteracji 2: IF city-mpg >= 25.50 AND bore <= 3.32 AND wheel-base >= 87.50 THEN class = {7,717.23} [5,141.97, 10,292.49], (p=45, n=3, P=68, N=43)
+2026-04-14 11:58:12,244 - INFO - Iteracja 3: condition_best: highway-mpg <= 46.50, quality_best: 0.686, coverage_best: (p=43, n=3, P=67, N=44)
+2026-04-14 11:58:12,244 - INFO - Regula po iteracji 3: IF city-mpg >= 25.50 AND bore <= 3.32 AND wheel-base >= 87.50 AND highway-mpg <= 46.50 THEN class = {7,772.57} [5,169.86, 10,375.27], (p=43, n=3, P=67, N=44)
+2026-04-14 11:58:12,262 - INFO - Iteracja 4: condition_best: height >= 50.70, quality_best: 0.677, coverage_best: (p=42, n=3, P=67, N=44)
+2026-04-14 11:58:12,262 - INFO - Regula po iteracji 4: IF city-mpg >= 25.50 AND bore <= 3.32 AND wheel-base >= 87.50 AND highway-mpg <= 46.50 AND height >= 50.70 THEN class = {7,806.87} [5,185.71, 10,428.03], (p=42, n=3, P=67, N=44)
+2026-04-14 11:58:12,262 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:12,263 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:12,310 - INFO - Iteracja 0: condition_best: curb-weight >= 2,739.50, quality_best: 0.637, coverage_best: (p=22, n=6, P=28, N=83)
+2026-04-14 11:58:12,310 - INFO - Regula po iteracji 0: IF curb-weight >= 2,739.50 THEN class = {19,274.00} [12,905.10, 25,642.90], (p=22, n=6, P=28, N=83)
+2026-04-14 11:58:12,332 - INFO - Iteracja 1: condition_best: length <= 189.85, quality_best: 0.692, coverage_best: (p=20, n=4, P=26, N=85)
+2026-04-14 11:58:12,332 - INFO - Regula po iteracji 1: IF curb-weight >= 2,739.50 AND length <= 189.85 THEN class = {17,766.46} [12,364.59, 23,168.33], (p=20, n=4, P=26, N=85)
+2026-04-14 11:58:12,349 - INFO - Iteracja 2: condition_best: normalized-losses >= 94.00, quality_best: 0.713, coverage_best: (p=17, n=2, P=26, N=85)
+2026-04-14 11:58:12,349 - INFO - Regula po iteracji 2: IF curb-weight >= 2,739.50 AND length <= 189.85 AND normalized-losses >= 94.00 THEN class = {17,967.68} [12,911.38, 23,023.99], (p=17, n=2, P=26, N=85)
+2026-04-14 11:58:12,362 - INFO - Iteracja 3: condition_best: normalized-losses >= 99.00, quality_best: 0.692, coverage_best: (p=14, n=1, P=27, N=84)
+2026-04-14 11:58:12,362 - INFO - Regula po iteracji 3: IF curb-weight >= 2,739.50 AND length <= 189.85 AND normalized-losses >= 94.00 AND normalized-losses >= 99.00 THEN class = {17,197.40} [11,897.94, 22,496.86], (p=14, n=1, P=27, N=84)
+2026-04-14 11:58:12,374 - INFO - Iteracja 4: condition_best: normalized-losses <= 191.00, quality_best: 0.654, coverage_best: (p=13, n=1, P=29, N=82)
+2026-04-14 11:58:12,374 - INFO - Regula po iteracji 4: IF curb-weight >= 2,739.50 AND length <= 189.85 AND normalized-losses >= 94.00 AND normalized-losses >= 99.00 AND normalized-losses <= 191.00 THEN class = {17,197.29} [11,711.82, 22,682.75], (p=13, n=1, P=29, N=82)
+2026-04-14 11:58:12,374 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:12,374 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:12,421 - INFO - Iteracja 0: condition_best: curb-weight >= 2,739.50, quality_best: 0.637, coverage_best: (p=22, n=6, P=28, N=83)
+2026-04-14 11:58:12,421 - INFO - Regula po iteracji 0: IF curb-weight >= 2,739.50 THEN class = {19,274.00} [12,905.10, 25,642.90], (p=22, n=6, P=28, N=83)
+2026-04-14 11:58:12,440 - INFO - Iteracja 1: condition_best: length <= 189.85, quality_best: 0.692, coverage_best: (p=20, n=4, P=26, N=85)
+2026-04-14 11:58:12,440 - INFO - Regula po iteracji 1: IF curb-weight >= 2,739.50 AND length <= 189.85 THEN class = {17,766.46} [12,364.59, 23,168.33], (p=20, n=4, P=26, N=85)
+2026-04-14 11:58:12,456 - INFO - Iteracja 2: condition_best: wheel-base >= 96.15, quality_best: 0.711, coverage_best: (p=19, n=3, P=26, N=85)
+2026-04-14 11:58:12,456 - INFO - Regula po iteracji 2: IF curb-weight >= 2,739.50 AND length <= 189.85 AND wheel-base >= 96.15 THEN class = {18,200.82} [12,913.35, 23,488.28], (p=19, n=3, P=26, N=85)
+2026-04-14 11:58:12,471 - INFO - Iteracja 3: condition_best: stroke <= 3.58, quality_best: 0.758, coverage_best: (p=19, n=2, P=26, N=85)
+2026-04-14 11:58:12,471 - INFO - Regula po iteracji 3: IF curb-weight >= 2,739.50 AND length <= 189.85 AND wheel-base >= 96.15 AND stroke <= 3.58 THEN class = {17,725.81} [12,793.81, 22,657.81], (p=19, n=2, P=26, N=85)
+2026-04-14 11:58:12,485 - INFO - Iteracja 4: condition_best: length >= 176.40, quality_best: 0.736, coverage_best: (p=18, n=2, P=26, N=85)
+2026-04-14 11:58:12,485 - INFO - Regula po iteracji 4: IF curb-weight >= 2,739.50 AND length <= 189.85 AND wheel-base >= 96.15 AND stroke <= 3.58 AND length >= 176.40 THEN class = {17,728.65} [12,674.87, 22,782.43], (p=18, n=2, P=26, N=85)
+2026-04-14 11:58:12,485 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:12,486 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:12,532 - INFO - Iteracja 0: condition_best: wheel-base >= 111.50, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=109)
+2026-04-14 11:58:12,532 - INFO - Regula po iteracji 0: IF wheel-base >= 111.50 THEN class = {31,925.00} [31,600.00, 32,250.00], (p=2, n=0, P=2, N=109)
+2026-04-14 11:58:12,534 - INFO - Iteracja 1: condition_best: symboling = {-1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=110)
+2026-04-14 11:58:12,534 - INFO - Regula po iteracji 1: IF wheel-base >= 111.50 AND symboling = {-1} THEN class = {31,600.00} [31,600.00, 31,600.00], (p=1, n=0, P=1, N=110)
+2026-04-14 11:58:12,534 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:58:12,534 - INFO - Regula po iteracji 2: IF wheel-base >= 111.50 AND symboling = {-1} THEN class = {31,600.00} [31,600.00, 31,600.00], (p=1, n=0, P=1, N=110)
+2026-04-14 11:58:12,535 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:12,542 - INFO - ************************Finished experiment for auto-price.arff with algorithm_rer************************
+2026-04-14 11:58:12,542 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:12,542 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:12,542 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:12,542 - INFO - **********Starting experiment for auto-price.arff with algorithm_rer_with_exceptions**********
+2026-04-14 11:58:12,548 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:12,621 - INFO - Iteracja 0: condition_best: wheel-base <= 97.85, quality_best: 0.81, coverage_best: (p=63, n=2, P=78, N=33)
+2026-04-14 11:58:12,621 - INFO - Regula po iteracji 0: IF wheel-base <= 97.85 THEN class = {8,199.52} [4,356.01, 12,043.04], (p=63, n=2, P=78, N=33)
+2026-04-14 11:58:12,622 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:12,712 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:12,713 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:12,713 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:12,713 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:12,744 - INFO - Iteracja 1: condition_best: normalized-losses <= 181.00, quality_best: 0.869, coverage_best: (p=63, n=1, P=76, N=35)
+2026-04-14 11:58:12,744 - INFO - Regula po iteracji 1: IF wheel-base <= 97.85 AND normalized-losses <= 181.00 THEN class = {8,058.91} [4,355.10, 11,762.71], (p=63, n=1, P=76, N=35)
+2026-04-14 11:58:12,744 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:12,835 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:12,835 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:12,835 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:12,835 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:12,863 - INFO - Iteracja 2: condition_best: normalized-losses >= 75.50, quality_best: 0.862, coverage_best: (p=62, n=1, P=76, N=35)
+2026-04-14 11:58:12,863 - INFO - Regula po iteracji 2: IF wheel-base <= 97.85 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 THEN class = {8,083.84} [4,356.09, 11,811.59], (p=62, n=1, P=76, N=35)
+2026-04-14 11:58:12,863 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:12,954 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:12,954 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:12,954 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:12,954 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:12,982 - INFO - Iteracja 3: condition_best: peak-rpm <= 6,300.00, quality_best: 0.855, coverage_best: (p=61, n=1, P=76, N=35)
+2026-04-14 11:58:12,982 - INFO - Regula po iteracji 3: IF wheel-base <= 97.85 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 AND peak-rpm <= 6,300.00 THEN class = {8,064.26} [4,309.78, 11,818.73], (p=61, n=1, P=76, N=35)
+2026-04-14 11:58:12,982 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:13,073 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:13,073 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:13,073 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:13,073 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:13,101 - INFO - Iteracja 4: condition_best: normalized-losses >= 77.50, quality_best: 0.842, coverage_best: (p=60, n=1, P=77, N=34)
+2026-04-14 11:58:13,101 - INFO - Regula po iteracji 4: IF wheel-base <= 97.85 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 AND peak-rpm <= 6,300.00 AND normalized-losses >= 77.50 THEN class = {8,083.05} [4,300.82, 11,865.28], (p=60, n=1, P=77, N=34)
+2026-04-14 11:58:13,101 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:13,192 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:13,192 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:13,192 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:13,192 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:13,192 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:13,193 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:13,241 - INFO - Iteracja 0: condition_best: wheel-base <= 98.95, quality_best: 0.809, coverage_best: (p=70, n=3, P=79, N=32)
+2026-04-14 11:58:13,241 - INFO - Regula po iteracji 0: IF wheel-base <= 98.95 THEN class = {8,509.66} [4,671.17, 12,348.15], (p=70, n=3, P=79, N=32)
+2026-04-14 11:58:13,241 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:13,332 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:13,332 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:13,332 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:13,332 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:13,362 - INFO - Iteracja 1: condition_best: normalized-losses <= 181.00, quality_best: 0.86, coverage_best: (p=70, n=2, P=78, N=33)
+2026-04-14 11:58:13,362 - INFO - Regula po iteracji 1: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 THEN class = {8,388.97} [4,664.00, 12,113.94], (p=70, n=2, P=78, N=33)
+2026-04-14 11:58:13,363 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:13,453 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:13,453 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:13,453 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:13,454 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:13,482 - INFO - Iteracja 2: condition_best: stroke <= 3.49, quality_best: 0.883, coverage_best: (p=65, n=1, P=76, N=35)
+2026-04-14 11:58:13,482 - INFO - Regula po iteracji 2: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND stroke <= 3.49 THEN class = {8,121.36} [4,453.25, 11,789.47], (p=65, n=1, P=76, N=35)
+2026-04-14 11:58:13,483 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:13,574 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:13,574 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:13,574 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:13,574 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:13,601 - INFO - Iteracja 3: condition_best: normalized-losses >= 75.50, quality_best: 0.876, coverage_best: (p=64, n=1, P=76, N=35)
+2026-04-14 11:58:13,601 - INFO - Regula po iteracji 3: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND stroke <= 3.49 AND normalized-losses >= 75.50 THEN class = {8,146.49} [4,455.92, 11,837.07], (p=64, n=1, P=76, N=35)
+2026-04-14 11:58:13,601 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:13,692 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:13,692 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:13,692 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:13,692 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:13,719 - INFO - Iteracja 4: condition_best: peak-rpm <= 6,300.00, quality_best: 0.869, coverage_best: (p=63, n=1, P=76, N=35)
+2026-04-14 11:58:13,719 - INFO - Regula po iteracji 4: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND stroke <= 3.49 AND normalized-losses >= 75.50 AND peak-rpm <= 6,300.00 THEN class = {8,128.50} [4,412.03, 11,844.97], (p=63, n=1, P=76, N=35)
+2026-04-14 11:58:13,720 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:13,810 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:13,810 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:13,811 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:13,811 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:13,811 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:13,811 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:13,860 - INFO - Iteracja 0: condition_best: wheel-base <= 98.95, quality_best: 0.809, coverage_best: (p=70, n=3, P=79, N=32)
+2026-04-14 11:58:13,860 - INFO - Regula po iteracji 0: IF wheel-base <= 98.95 THEN class = {8,509.66} [4,671.17, 12,348.15], (p=70, n=3, P=79, N=32)
+2026-04-14 11:58:13,860 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:13,951 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:13,951 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:13,951 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:13,951 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:13,980 - INFO - Iteracja 1: condition_best: normalized-losses <= 181.00, quality_best: 0.86, coverage_best: (p=70, n=2, P=78, N=33)
+2026-04-14 11:58:13,980 - INFO - Regula po iteracji 1: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 THEN class = {8,388.97} [4,664.00, 12,113.94], (p=70, n=2, P=78, N=33)
+2026-04-14 11:58:13,980 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:14,071 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:14,071 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:14,071 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:14,071 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:14,099 - INFO - Iteracja 2: condition_best: normalized-losses >= 75.50, quality_best: 0.853, coverage_best: (p=69, n=2, P=78, N=33)
+2026-04-14 11:58:14,099 - INFO - Regula po iteracji 2: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 THEN class = {8,415.75} [4,671.52, 12,159.97], (p=69, n=2, P=78, N=33)
+2026-04-14 11:58:14,099 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:14,190 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:14,190 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:14,190 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:14,190 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:14,218 - INFO - Iteracja 3: condition_best: normalized-losses >= 77.50, quality_best: 0.838, coverage_best: (p=68, n=2, P=79, N=32)
+2026-04-14 11:58:14,219 - INFO - Regula po iteracji 3: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 AND normalized-losses >= 77.50 THEN class = {8,437.14} [4,670.58, 12,203.70], (p=68, n=2, P=79, N=32)
+2026-04-14 11:58:14,219 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:14,310 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:14,310 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:14,310 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:14,310 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:14,339 - INFO - Iteracja 4: condition_best: normalized-losses >= 79.50, quality_best: 0.831, coverage_best: (p=67, n=2, P=79, N=32)
+2026-04-14 11:58:14,339 - INFO - Regula po iteracji 4: IF wheel-base <= 98.95 AND normalized-losses <= 181.00 AND normalized-losses >= 75.50 AND normalized-losses >= 77.50 AND normalized-losses >= 79.50 THEN class = {8,453.70} [4,662.47, 12,244.92], (p=67, n=2, P=79, N=32)
+2026-04-14 11:58:14,339 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:14,430 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:14,430 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:14,430 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:14,430 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:14,430 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:14,431 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:14,479 - INFO - Iteracja 0: condition_best: wheel-base <= 99.25, quality_best: 0.781, coverage_best: (p=72, n=4, P=79, N=32)
+2026-04-14 11:58:14,479 - INFO - Regula po iteracji 0: IF wheel-base <= 99.25 THEN class = {8,687.70} [4,814.08, 12,561.32], (p=72, n=4, P=79, N=32)
+2026-04-14 11:58:14,479 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:14,570 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:14,570 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:14,570 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:14,570 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:14,602 - INFO - Iteracja 1: condition_best: stroke <= 3.49, quality_best: 0.787, coverage_best: (p=67, n=3, P=79, N=32)
+2026-04-14 11:58:14,602 - INFO - Regula po iteracji 1: IF wheel-base <= 99.25 AND stroke <= 3.49 THEN class = {8,460.99} [4,605.52, 12,316.45], (p=67, n=3, P=79, N=32)
+2026-04-14 11:58:14,603 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:14,693 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:14,693 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:14,693 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:14,693 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:14,722 - INFO - Iteracja 2: condition_best: wheel-base >= 87.50, quality_best: 0.779, coverage_best: (p=66, n=3, P=79, N=32)
+2026-04-14 11:58:14,722 - INFO - Regula po iteracji 2: IF wheel-base <= 99.25 AND stroke <= 3.49 AND wheel-base >= 87.50 THEN class = {8,484.26} [4,605.84, 12,362.68], (p=66, n=3, P=79, N=32)
+2026-04-14 11:58:14,722 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:14,813 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:14,813 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:14,813 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:14,813 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:14,842 - INFO - Iteracja 3: condition_best: wheel-base >= 89.85, quality_best: 0.772, coverage_best: (p=65, n=3, P=79, N=32)
+2026-04-14 11:58:14,842 - INFO - Regula po iteracji 3: IF wheel-base <= 99.25 AND stroke <= 3.49 AND wheel-base >= 87.50 AND wheel-base >= 89.85 THEN class = {8,533.28} [4,647.72, 12,418.83], (p=65, n=3, P=79, N=32)
+2026-04-14 11:58:14,842 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:14,933 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:14,933 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:14,933 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:14,933 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:14,962 - INFO - Iteracja 4: condition_best: width >= 63.50, quality_best: 0.764, coverage_best: (p=64, n=3, P=79, N=32)
+2026-04-14 11:58:14,962 - INFO - Regula po iteracji 4: IF wheel-base <= 99.25 AND stroke <= 3.49 AND wheel-base >= 87.50 AND wheel-base >= 89.85 AND width >= 63.50 THEN class = {8,584.25} [4,692.44, 12,476.06], (p=64, n=3, P=79, N=32)
+2026-04-14 11:58:14,962 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:15,053 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:15,053 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:15,053 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:15,053 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:15,053 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:15,054 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:15,102 - INFO - Iteracja 0: condition_best: width >= 69.25, quality_best: 0.654, coverage_best: (p=4, n=2, P=4, N=107)
+2026-04-14 11:58:15,102 - INFO - Regula po iteracji 0: IF width >= 69.25 THEN class = {29,418.17} [25,507.03, 33,329.30], (p=4, n=2, P=4, N=107)
+2026-04-14 11:58:15,102 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:15,193 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:15,193 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:15,193 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:15,193 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:15,199 - INFO - Iteracja 1: condition_best: wheel-base >= 101.20, quality_best: 0.389, coverage_best: (p=2, n=3, P=2, N=109)
+2026-04-14 11:58:15,199 - INFO - Regula po iteracji 1: IF width >= 69.25 AND wheel-base >= 101.20 THEN class = {28,290.60} [25,015.25, 31,565.95], (p=2, n=3, P=2, N=109)
+2026-04-14 11:58:15,199 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:15,290 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:15,290 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:15,290 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:15,290 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:15,294 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:58:15,295 - INFO - Regula po iteracji 2: IF width >= 69.25 AND wheel-base >= 101.20 THEN class = {28,290.60} [25,015.25, 31,565.95], (p=2, n=3, P=2, N=109)
+2026-04-14 11:58:15,295 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:15,295 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:15,343 - INFO - Iteracja 0: condition_best: width <= 65.30, quality_best: 0.643, coverage_best: (p=49, n=4, P=74, N=37)
+2026-04-14 11:58:15,343 - INFO - Regula po iteracji 0: IF width <= 65.30 THEN class = {8,104.98} [4,755.11, 11,454.85], (p=49, n=4, P=74, N=37)
+2026-04-14 11:58:15,343 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:15,434 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:15,434 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:15,434 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:15,434 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:15,458 - INFO - Iteracja 1: condition_best: curb-weight <= 2,737.50, quality_best: 0.701, coverage_best: (p=48, n=3, P=71, N=40)
+2026-04-14 11:58:15,458 - INFO - Regula po iteracji 1: IF width <= 65.30 AND curb-weight <= 2,737.50 THEN class = {7,836.88} [4,961.60, 10,712.16], (p=48, n=3, P=71, N=40)
+2026-04-14 11:58:15,458 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:15,549 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:15,549 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:15,549 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:15,549 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:15,571 - INFO - Iteracja 2: condition_best: wheel-base >= 87.50, quality_best: 0.693, coverage_best: (p=47, n=3, P=71, N=40)
+2026-04-14 11:58:15,571 - INFO - Regula po iteracji 2: IF width <= 65.30 AND curb-weight <= 2,737.50 AND wheel-base >= 87.50 THEN class = {7,856.52} [4,956.02, 10,757.02], (p=47, n=3, P=71, N=40)
+2026-04-14 11:58:15,571 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:15,663 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:15,663 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:15,663 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:15,663 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:15,685 - INFO - Iteracja 3: condition_best: wheel-base >= 90.70, quality_best: 0.684, coverage_best: (p=46, n=3, P=71, N=40)
+2026-04-14 11:58:15,685 - INFO - Regula po iteracji 3: IF width <= 65.30 AND curb-weight <= 2,737.50 AND wheel-base >= 87.50 AND wheel-base >= 90.70 THEN class = {7,911.73} [5,007.92, 10,815.55], (p=46, n=3, P=71, N=40)
+2026-04-14 11:58:15,685 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:15,777 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:15,777 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:15,777 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:15,777 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:15,799 - INFO - Iteracja 4: condition_best: wheel-base >= 93.05, quality_best: 0.675, coverage_best: (p=45, n=3, P=71, N=40)
+2026-04-14 11:58:15,799 - INFO - Regula po iteracji 4: IF width <= 65.30 AND curb-weight <= 2,737.50 AND wheel-base >= 87.50 AND wheel-base >= 90.70 AND wheel-base >= 93.05 THEN class = {7,916.38} [4,982.64, 10,850.11], (p=45, n=3, P=71, N=40)
+2026-04-14 11:58:15,799 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:15,891 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:15,891 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:15,891 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:15,891 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:15,891 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:15,891 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:15,939 - INFO - Iteracja 0: condition_best: city-mpg >= 25.50, quality_best: 0.642, coverage_best: (p=54, n=7, P=67, N=44)
+2026-04-14 11:58:15,939 - INFO - Regula po iteracji 0: IF city-mpg >= 25.50 THEN class = {8,002.13} [5,340.68, 10,663.58], (p=54, n=7, P=67, N=44)
+2026-04-14 11:58:15,940 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:16,124 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:16,124 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:16,125 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:16,125 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:16,151 - INFO - Iteracja 1: condition_best: bore <= 3.32, quality_best: 0.706, coverage_best: (p=46, n=3, P=68, N=43)
+2026-04-14 11:58:16,151 - INFO - Regula po iteracji 1: IF city-mpg >= 25.50 AND bore <= 3.32 THEN class = {7,699.63} [5,147.87, 10,251.39], (p=46, n=3, P=68, N=43)
+2026-04-14 11:58:16,152 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:16,242 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:16,242 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:16,242 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:16,243 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:16,263 - INFO - Iteracja 2: condition_best: wheel-base >= 87.50, quality_best: 0.697, coverage_best: (p=45, n=3, P=68, N=43)
+2026-04-14 11:58:16,264 - INFO - Regula po iteracji 2: IF city-mpg >= 25.50 AND bore <= 3.32 AND wheel-base >= 87.50 THEN class = {7,717.23} [5,141.97, 10,292.49], (p=45, n=3, P=68, N=43)
+2026-04-14 11:58:16,264 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:16,355 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:16,355 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:16,355 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:16,355 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:16,375 - INFO - Iteracja 3: condition_best: highway-mpg <= 46.50, quality_best: 0.686, coverage_best: (p=43, n=3, P=67, N=44)
+2026-04-14 11:58:16,375 - INFO - Regula po iteracji 3: IF city-mpg >= 25.50 AND bore <= 3.32 AND wheel-base >= 87.50 AND highway-mpg <= 46.50 THEN class = {7,772.57} [5,169.86, 10,375.27], (p=43, n=3, P=67, N=44)
+2026-04-14 11:58:16,375 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:16,466 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:16,466 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:16,467 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:16,467 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:16,485 - INFO - Iteracja 4: condition_best: height >= 50.70, quality_best: 0.677, coverage_best: (p=42, n=3, P=67, N=44)
+2026-04-14 11:58:16,485 - INFO - Regula po iteracji 4: IF city-mpg >= 25.50 AND bore <= 3.32 AND wheel-base >= 87.50 AND highway-mpg <= 46.50 AND height >= 50.70 THEN class = {7,806.87} [5,185.71, 10,428.03], (p=42, n=3, P=67, N=44)
+2026-04-14 11:58:16,486 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:16,577 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:16,577 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:16,577 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:16,577 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:16,577 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:16,578 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:16,625 - INFO - Iteracja 0: condition_best: curb-weight >= 2,739.50, quality_best: 0.637, coverage_best: (p=22, n=6, P=28, N=83)
+2026-04-14 11:58:16,625 - INFO - Regula po iteracji 0: IF curb-weight >= 2,739.50 THEN class = {19,274.00} [12,905.10, 25,642.90], (p=22, n=6, P=28, N=83)
+2026-04-14 11:58:16,626 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:16,719 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:16,719 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:16,719 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:16,719 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:16,740 - INFO - Iteracja 1: condition_best: length <= 189.85, quality_best: 0.692, coverage_best: (p=20, n=4, P=26, N=85)
+2026-04-14 11:58:16,740 - INFO - Regula po iteracji 1: IF curb-weight >= 2,739.50 AND length <= 189.85 THEN class = {17,766.46} [12,364.59, 23,168.33], (p=20, n=4, P=26, N=85)
+2026-04-14 11:58:16,741 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:16,832 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:16,832 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:16,832 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:16,832 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:16,849 - INFO - Iteracja 2: condition_best: normalized-losses >= 94.00, quality_best: 0.713, coverage_best: (p=17, n=2, P=26, N=85)
+2026-04-14 11:58:16,849 - INFO - Regula po iteracji 2: IF curb-weight >= 2,739.50 AND length <= 189.85 AND normalized-losses >= 94.00 THEN class = {17,967.68} [12,911.38, 23,023.99], (p=17, n=2, P=26, N=85)
+2026-04-14 11:58:16,849 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:16,940 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:16,940 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:16,940 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:16,941 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:16,954 - INFO - Iteracja 3: condition_best: normalized-losses >= 99.00, quality_best: 0.692, coverage_best: (p=14, n=1, P=27, N=84)
+2026-04-14 11:58:16,954 - INFO - Regula po iteracji 3: IF curb-weight >= 2,739.50 AND length <= 189.85 AND normalized-losses >= 94.00 AND normalized-losses >= 99.00 THEN class = {17,197.40} [11,897.94, 22,496.86], (p=14, n=1, P=27, N=84)
+2026-04-14 11:58:16,954 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:17,048 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:17,049 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:17,049 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:17,049 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:17,060 - INFO - Iteracja 4: condition_best: normalized-losses <= 191.00, quality_best: 0.654, coverage_best: (p=13, n=1, P=29, N=82)
+2026-04-14 11:58:17,060 - INFO - Regula po iteracji 4: IF curb-weight >= 2,739.50 AND length <= 189.85 AND normalized-losses >= 94.00 AND normalized-losses >= 99.00 AND normalized-losses <= 191.00 THEN class = {17,197.29} [11,711.82, 22,682.75], (p=13, n=1, P=29, N=82)
+2026-04-14 11:58:17,061 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:17,155 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:17,155 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:17,155 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:17,155 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:17,155 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:17,156 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:17,203 - INFO - Iteracja 0: condition_best: curb-weight >= 2,739.50, quality_best: 0.637, coverage_best: (p=22, n=6, P=28, N=83)
+2026-04-14 11:58:17,203 - INFO - Regula po iteracji 0: IF curb-weight >= 2,739.50 THEN class = {19,274.00} [12,905.10, 25,642.90], (p=22, n=6, P=28, N=83)
+2026-04-14 11:58:17,203 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:17,295 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:17,296 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:17,296 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:17,296 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:17,315 - INFO - Iteracja 1: condition_best: length <= 189.85, quality_best: 0.692, coverage_best: (p=20, n=4, P=26, N=85)
+2026-04-14 11:58:17,315 - INFO - Regula po iteracji 1: IF curb-weight >= 2,739.50 AND length <= 189.85 THEN class = {17,766.46} [12,364.59, 23,168.33], (p=20, n=4, P=26, N=85)
+2026-04-14 11:58:17,315 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:17,406 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:17,406 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:17,406 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:17,406 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:17,423 - INFO - Iteracja 2: condition_best: wheel-base >= 96.15, quality_best: 0.711, coverage_best: (p=19, n=3, P=26, N=85)
+2026-04-14 11:58:17,423 - INFO - Regula po iteracji 2: IF curb-weight >= 2,739.50 AND length <= 189.85 AND wheel-base >= 96.15 THEN class = {18,200.82} [12,913.35, 23,488.28], (p=19, n=3, P=26, N=85)
+2026-04-14 11:58:17,423 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:17,516 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:17,516 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:17,516 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:17,517 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:17,532 - INFO - Iteracja 3: condition_best: stroke <= 3.58, quality_best: 0.758, coverage_best: (p=19, n=2, P=26, N=85)
+2026-04-14 11:58:17,532 - INFO - Regula po iteracji 3: IF curb-weight >= 2,739.50 AND length <= 189.85 AND wheel-base >= 96.15 AND stroke <= 3.58 THEN class = {17,725.81} [12,793.81, 22,657.81], (p=19, n=2, P=26, N=85)
+2026-04-14 11:58:17,532 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:17,625 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:17,626 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:17,626 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:17,626 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:17,640 - INFO - Iteracja 4: condition_best: length >= 176.40, quality_best: 0.736, coverage_best: (p=18, n=2, P=26, N=85)
+2026-04-14 11:58:17,640 - INFO - Regula po iteracji 4: IF curb-weight >= 2,739.50 AND length <= 189.85 AND wheel-base >= 96.15 AND stroke <= 3.58 AND length >= 176.40 THEN class = {17,728.65} [12,674.87, 22,782.43], (p=18, n=2, P=26, N=85)
+2026-04-14 11:58:17,640 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:17,734 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:17,734 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:17,734 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:17,734 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:17,734 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:17,734 - INFO - *******GROWING CR RULE*******
+2026-04-14 11:58:17,782 - INFO - Iteracja 0: condition_best: wheel-base >= 111.50, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=109)
+2026-04-14 11:58:17,782 - INFO - Regula po iteracji 0: IF wheel-base >= 111.50 THEN class = {31,925.00} [31,600.00, 32,250.00], (p=2, n=0, P=2, N=109)
+2026-04-14 11:58:17,782 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:17,874 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:17,874 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:17,874 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:17,874 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:17,876 - INFO - Iteracja 1: condition_best: symboling = {-1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=110)
+2026-04-14 11:58:17,876 - INFO - Regula po iteracji 1: IF wheel-base >= 111.50 AND symboling = {-1} THEN class = {31,600.00} [31,600.00, 31,600.00], (p=1, n=0, P=1, N=110)
+2026-04-14 11:58:17,876 - INFO - *****GROWING RR RULE*****
+2026-04-14 11:58:17,968 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 11:58:17,969 - INFO - Regula po iteracji 0: IF  THEN class = {11,410.04} [5,292.66, 17,527.41], (p=93, n=18, P=93, N=18)
+2026-04-14 11:58:17,969 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 11:58:17,969 - INFO - ***RR NOT FOUND***
+2026-04-14 11:58:17,969 - INFO - Iteracja 2: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 11:58:17,969 - INFO - Regula po iteracji 2: IF wheel-base >= 111.50 AND symboling = {-1} THEN class = {31,600.00} [31,600.00, 31,600.00], (p=1, n=0, P=1, N=110)
+2026-04-14 11:58:17,969 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 11:58:17,977 - INFO - ************************Finished experiment for auto-price.arff with algorithm_rer_with_exceptions************************
+2026-04-14 11:58:17,977 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:17,977 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:17,977 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:17,978 - INFO - **********Starting experiment for auto-price.arff with decision_tree**********
+2026-04-14 11:58:17,999 - INFO - ************************Finished experiment for auto-price.arff with decision_tree************************
+2026-04-14 11:58:17,999 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:17,999 - INFO - *************************************************************************************************************************
+2026-04-14 11:58:17,999 - INFO - *************************************************************************************************************************

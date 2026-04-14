@@ -1,0 +1,34 @@
+
+CR 0: IF karnofsky <= 45.00 AND status = {1} AND karnofsky >= 15.00 AND months <= 72.50 AND months <= 47.00 THEN class = {37.79} [-29.95, 105.54] (p=32, n=2, P=87, N=50)
+
+CR 1: IF celltype = {2} AND months <= 14.50 AND months <= 13.00 AND karnofsky <= 82.50 AND months <= 11.50 THEN class = {64.11} [-22.16, 150.38] (p=34, n=2, P=103, N=34)
+
+CR 2: IF celltype = {2} AND age <= 62.50 AND months >= 1.50 AND karnofsky >= 25.00 AND age >= 35.50 THEN class = {68.62} [-12.04, 149.28] (p=20, n=1, P=103, N=34)
+
+CR 3: IF karnofsky >= 87.50 AND status = {1} AND treatment = {2} THEN class = {464.80} [181.29, 748.31] (p=4, n=1, P=25, N=112)
+
+CR 4: IF age >= 68.50 AND months <= 8.50 AND karnofsky >= 15.00 AND therapy = {0} AND karnofsky >= 25.00 THEN class = {71.91} [11.00, 132.82] (p=9, n=2, P=83, N=54)
+
+CR 5: IF age >= 67.50 AND months >= 2.50 AND status = {1} AND karnofsky <= 75.00 AND months >= 3.50 THEN class = {82.50} [-15.27, 180.27] (p=13, n=1, P=110, N=27)
+
+CR 6: IF karnofsky <= 55.00 AND treatment = {2} AND months >= 2.50 AND karnofsky >= 15.00 AND months <= 61.50 THEN class = {34.52} [-14.57, 83.62] (p=20, n=1, P=72, N=65)
+
+CR 7: IF karnofsky <= 55.00 AND months >= 1.50 AND status = {1} AND age <= 67.50 AND months <= 72.50 THEN class = {41.16} [-24.47, 106.80] (p=33, n=4, P=87, N=50)
+
+CR 8: IF celltype = {4} AND treatment = {1} AND karnofsky >= 45.00 AND status = {1} AND age >= 37.50 THEN class = {216.92} [101.73, 332.10] (p=11, n=1, P=41, N=96)
+
+CR 9: IF celltype = {4} AND karnofsky >= 65.00 AND age >= 39.50 AND age <= 67.50 AND age >= 43.00 THEN class = {241.08} [117.54, 364.63] (p=9, n=3, P=34, N=103)
+
+CR 10: IF celltype = {4} AND karnofsky >= 45.00 AND status = {1} AND karnofsky <= 85.00 AND months >= 1.50 THEN class = {196.60} [74.37, 318.83] (p=14, n=6, P=57, N=80)
+
+CR 11: IF karnofsky <= 65.00 AND age >= 52.50 AND age <= 67.50 AND months <= 72.50 AND months <= 47.00 THEN class = {75.16} [-33.91, 184.23] (p=35, n=3, P=111, N=26)
+
+CR 12: IF age >= 58.50 AND karnofsky >= 55.00 AND karnofsky <= 77.50 THEN class = {105.46} [21.27, 189.65] (p=31, n=4, P=81, N=56)
+RR 12: IF months >= 13.50 THEN class = {112.90} [17.49, 208.32] (p=12, n=9, P=92, N=45)
+ER 12: IF age >= 58.50 AND karnofsky >= 55.00 AND karnofsky <= 77.50 AND months >= 13.50 THEN class = {208.75} [154.60, 262.90] (p=2, n=2, P=16, N=121)
+
+CR 13: IF karnofsky <= 77.50 AND months <= 17.50 AND karnofsky >= 15.00 AND months <= 16.50 AND months <= 15.50 THEN class = {103.34} [-46.53, 253.21] (p=81, n=8, P=120, N=17)
+
+CR 14: IF karnofsky <= 87.50 AND karnofsky >= 77.50 AND status = {1} AND age >= 45.50 AND months >= 4.50 THEN class = {160.67} [90.63, 230.70] (p=8, n=1, P=40, N=97)
+
+CR 15: IF karnofsky <= 87.50 AND karnofsky >= 77.50 AND age <= 67.00 AND months <= 4.50 AND karnofsky <= 82.50 THEN class = {122.44} [26.89, 218.00] (p=8, n=1, P=77, N=60)

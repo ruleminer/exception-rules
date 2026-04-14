@@ -1,0 +1,22 @@
+
+CR 0: N <= 49000 and ALG != Name_Cascade and skewness <= 0.4267 and fract1 <= 0.16125
+
+CR 1: N <= 49000 and ALG != Name_Cascade and skewness <= 0.4267 and fract1 > 0.16125
+
+CR 2: N <= 49000 and ALG != Name_Cascade and skewness > 0.4267 and k <= 8.5 and ALG != Name_Default
+
+CR 3: N <= 49000 and ALG != Name_Cascade and skewness > 0.4267 and k <= 8.5 and ALG = Name_Default
+
+CR 4: N <= 49000 and ALG != Name_Cascade and skewness > 0.4267 and k > 8.5 and ALG != Name_Castle
+
+CR 5: N <= 49000 and ALG != Name_Cascade and skewness > 0.4267 and k > 8.5 and ALG = Name_Castle
+
+CR 6: N <= 49000 and ALG = Name_Cascade and Hc <= 0.93575
+
+CR 7: N <= 49000 and ALG = Name_Cascade and Hc > 0.93575 and Sdratio <= 1.7234 and NSRatio <= 12.2808
+
+CR 8: N <= 49000 and ALG = Name_Cascade and Hc > 0.93575 and Sdratio <= 1.7234 and NSRatio > 12.2808
+
+CR 9: N <= 49000 and ALG = Name_Cascade and Hc > 0.93575 and Sdratio > 1.7234
+
+CR 10: N > 49000

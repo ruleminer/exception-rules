@@ -1,0 +1,48 @@
+
+CR 0: inv-nodes <= 0.5 and breast-quad != central and breast-quad != right-lower and breast-quad != left-lower and age <= 40.5
+
+CR 1: inv-nodes <= 0.5 and breast-quad != central and breast-quad != right-lower and breast-quad != left-lower and age > 40.5
+
+CR 2: inv-nodes <= 0.5 and breast-quad != central and breast-quad != right-lower and breast-quad = left-lower and deg-malig <= 1.5
+
+CR 3: inv-nodes <= 0.5 and breast-quad != central and breast-quad != right-lower and breast-quad = left-lower and deg-malig > 1.5
+
+CR 4: inv-nodes <= 0.5 and breast-quad != central and breast-quad = right-lower and age <= 42
+
+CR 5: inv-nodes <= 0.5 and breast-quad != central and breast-quad = right-lower and age > 42 and age <= 44.5
+
+CR 6: inv-nodes <= 0.5 and breast-quad != central and breast-quad = right-lower and age > 42 and age > 44.5
+
+CR 7: inv-nodes <= 0.5 and breast-quad = central and menopause != premenopausal
+
+CR 8: inv-nodes <= 0.5 and breast-quad = central and menopause = premenopausal
+
+CR 9: inv-nodes > 0.5 and irradiation != no and breast != left and age <= 44.5 and recurrence != n
+
+CR 10: inv-nodes > 0.5 and irradiation != no and breast != left and age <= 44.5 and recurrence = n
+
+CR 11: inv-nodes > 0.5 and irradiation != no and breast != left and age > 44.5 and inv-nodes <= 3.5
+
+CR 12: inv-nodes > 0.5 and irradiation != no and breast != left and age > 44.5 and inv-nodes > 3.5
+
+CR 13: inv-nodes > 0.5 and irradiation != no and breast = left and age <= 46 and inv-nodes <= 1.5
+
+CR 14: inv-nodes > 0.5 and irradiation != no and breast = left and age <= 46 and inv-nodes > 1.5
+
+CR 15: inv-nodes > 0.5 and irradiation != no and breast = left and age > 46 and age <= 61
+
+CR 16: inv-nodes > 0.5 and irradiation != no and breast = left and age > 46 and age > 61
+
+CR 17: inv-nodes > 0.5 and irradiation = no and inv-nodes <= 5.5 and breast-quad != left-upper and age <= 64
+
+CR 18: inv-nodes > 0.5 and irradiation = no and inv-nodes <= 5.5 and breast-quad != left-upper and age > 64
+
+CR 19: inv-nodes > 0.5 and irradiation = no and inv-nodes <= 5.5 and breast-quad = left-upper and recurrence != r
+
+CR 20: inv-nodes > 0.5 and irradiation = no and inv-nodes <= 5.5 and breast-quad = left-upper and recurrence = r
+
+CR 21: inv-nodes > 0.5 and irradiation = no and inv-nodes > 5.5 and inv-nodes <= 15.5 and recurrence != n
+
+CR 22: inv-nodes > 0.5 and irradiation = no and inv-nodes > 5.5 and inv-nodes <= 15.5 and recurrence = n
+
+CR 23: inv-nodes > 0.5 and irradiation = no and inv-nodes > 5.5 and inv-nodes > 15.5

@@ -1,0 +1,40 @@
+
+CR 0: IF Coal < 184,561.50 AND Nuclear < 183,409.00 AND Hydroelectric >= 44,323.00 THEN class = {2.11} [1.61, 2.60] (p=91, n=14, P=109, N=146)
+
+CR 1: IF Gas >= 340.82 AND Coal < 183,944.50 THEN class = {2.13} [1.65, 2.61] (p=88, n=16, P=105, N=150)
+
+CR 2: IF Gas < 28,074.15 AND Nuclear < 175,712.00 AND Coal >= 93,829.10 AND Hydroelectric >= 38,510.45 THEN class = {2.12} [1.70, 2.53] (p=68, n=8, P=95, N=160)
+
+CR 3: IF Gas < 29,868.40 AND Nuclear < 175,712.00 AND Coal >= 93,829.10 AND Fuel < 50,310.10 AND Gas >= 1,774.02 THEN class = {2.18} [1.76, 2.59] (p=66, n=8, P=99, N=156)
+
+CR 4: IF Coal < 187,132.50 AND Nuclear < 177,181.00 AND Coal >= 93,829.10 AND Gas >= 340.82 THEN class = {2.22} [1.71, 2.73] (p=81, n=13, P=105, N=150)
+
+CR 5: IF Gas < 34,359.90 AND Special >= 8,424.50 AND Coal >= 93,829.10 AND Hydroelectric >= 47,225.80 AND Fuel < 18,063.40 THEN class = {2.17} [1.71, 2.63] (p=77, n=10, P=103, N=152)
+
+CR 6: IF Coal < 191,366.00 AND Gas < 53,069.65 AND Nuclear < 177,181.00 AND Fuel < 18,186.05 AND Coal >= 88,466.95 THEN class = {2.17} [1.71, 2.63] (p=81, n=13, P=103, N=152)
+
+CR 7: IF Coal < 191,613.00 AND Nuclear < 185,097.50 AND Hydroelectric >= 41,207.10 AND Hydroelectric < 195,063.00 THEN class = {2.25} [1.61, 2.89] (p=99, n=21, P=120, N=135)
+
+CR 8: IF Gas < 35,579.50 AND Nuclear >= 134,517.50 AND Nuclear < 183,409.00 AND Fuel < 50,310.10 THEN class = {2.20} [1.61, 2.80] (p=96, n=20, P=116, N=139)
+
+CR 9: IF Fuel >= 60,620.60 THEN class = {4.64} [4.43, 4.85] (p=5, n=1, P=15, N=240)
+
+CR 10: IF Fuel >= 24,159.65 AND Fuel < 63,967.35 AND Coal >= 188,059.50 AND Hydroelectric >= 43,869.50 AND Nuclear < 169,458.00 THEN class = {4.14} [3.64, 4.64] (p=46, n=12, P=68, N=187)
+
+CR 11: IF Fuel >= 24,159.65 AND Fuel < 63,967.35 AND Coal >= 188,059.50 AND Nuclear < 174,992.00 AND Hydroelectric >= 42,387.95 THEN class = {4.16} [3.66, 4.65] (p=49, n=14, P=67, N=188)
+
+CR 12: IF Gas < 38,580.20 AND Special >= 8,424.50 AND Hydroelectric >= 37,712.00 AND Fuel < 26,902.95 AND Coal >= 93,829.10 THEN class = {2.26} [1.72, 2.80] (p=90, n=19, P=109, N=146)
+
+CR 13: IF Fuel >= 21,745.30 AND Coal >= 193,317.50 AND Nuclear < 175,112.50 AND Fuel < 61,537.40 THEN class = {4.09} [3.58, 4.61] (p=48, n=14, P=70, N=185)
+
+CR 14: IF Gas >= 58,061.60 AND Coal >= 201,511.50 AND Nuclear < 171,668.00 AND Hydroelectric >= 42,387.95 AND Fuel < 63,622.30 THEN class = {4.19} [3.76, 4.61] (p=38, n=8, P=61, N=194)
+
+CR 15: IF Gas < 42,191.60 AND Special >= 8,561.50 AND Fuel < 26,902.95 AND Coal >= 93,829.10 THEN class = {2.35} [1.78, 2.92] (p=96, n=26, P=114, N=141)
+
+CR 16: IF Fuel >= 18,997.00 AND Coal >= 193,392.50 AND Fuel < 61,537.40 AND Special >= 8,423.00 THEN class = {4.03} [3.46, 4.61] (p=54, n=15, P=77, N=178)
+
+CR 17: IF Fuel >= 13,843.75 AND Coal >= 193,392.50 AND Fuel < 61,537.40 AND Nuclear < 169,079.50 THEN class = {3.99} [3.47, 4.50] (p=56, n=17, P=72, N=183)
+
+CR 18: IF Fuel >= 13,843.75 AND Fuel < 61,537.40 AND Coal >= 192,005.00 AND Special < 15,404.50 THEN class = {3.90} [3.32, 4.47] (p=68, n=26, P=77, N=178)
+
+CR 19: IF Coal >= 185,157.50 AND Fuel < 56,854.15 AND Gas < 81,211.50 AND Hydroelectric >= 30,385.10 THEN class = {3.60} [2.89, 4.31] (p=94, n=36, P=102, N=153)

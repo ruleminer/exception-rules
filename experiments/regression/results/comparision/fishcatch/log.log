@@ -1,0 +1,839 @@
+2026-04-14 12:04:33,331 - INFO - **********Starting experiment for fishcatch.arff with algorithm_rulekit**********
+2026-04-14 12:04:33,414 - INFO - ************************Finished experiment for fishcatch.arff with algorithm_rulekit************************
+2026-04-14 12:04:33,414 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:33,414 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:33,414 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:33,414 - INFO - **********Starting experiment for fishcatch.arff with algorithm_rer**********
+2026-04-14 12:04:33,420 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:33,474 - INFO - Iteracja 0: condition_best: Length3 <= 15.60, quality_best: 0.9, coverage_best: (p=10, n=1, P=10, N=100)
+2026-04-14 12:04:33,474 - INFO - Regula po iteracji 0: IF Length3 <= 15.60 THEN class = {11.64} [4.22, 19.05], (p=10, n=1, P=10, N=100)
+2026-04-14 12:04:33,478 - INFO - Iteracja 1: condition_best: Length1 <= 12.85, quality_best: 0.891, coverage_best: (p=9, n=1, P=9, N=101)
+2026-04-14 12:04:33,478 - INFO - Regula po iteracji 1: IF Length3 <= 15.60 AND Length1 <= 12.85 THEN class = {10.90} [3.52, 18.28], (p=9, n=1, P=9, N=101)
+2026-04-14 12:04:33,482 - INFO - Iteracja 2: condition_best: Height >= 15.25, quality_best: 0.83, coverage_best: (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:33,482 - INFO - Regula po iteracji 2: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Height >= 15.25 THEN class = {11.33} [3.67, 18.99], (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:33,486 - INFO - Iteracja 3: condition_best: Length1 >= 8.40, quality_best: 0.733, coverage_best: (p=7, n=1, P=10, N=100)
+2026-04-14 12:04:33,486 - INFO - Regula po iteracji 3: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Height >= 15.25 AND Length1 >= 8.40 THEN class = {12.12} [4.36, 19.89], (p=7, n=1, P=10, N=100)
+2026-04-14 12:04:33,490 - INFO - Iteracja 4: condition_best: Height <= 16.95, quality_best: 0.711, coverage_best: (p=4, n=1, P=5, N=105)
+2026-04-14 12:04:33,490 - INFO - Regula po iteracji 4: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Height >= 15.25 AND Length1 >= 8.40 AND Height <= 16.95 THEN class = {9.80} [7.57, 12.03], (p=4, n=1, P=5, N=105)
+2026-04-14 12:04:33,490 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:33,491 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:33,527 - INFO - Iteracja 0: condition_best: Length3 <= 15.60, quality_best: 0.9, coverage_best: (p=10, n=1, P=10, N=100)
+2026-04-14 12:04:33,527 - INFO - Regula po iteracji 0: IF Length3 <= 15.60 THEN class = {11.64} [4.22, 19.05], (p=10, n=1, P=10, N=100)
+2026-04-14 12:04:33,531 - INFO - Iteracja 1: condition_best: Length1 <= 12.85, quality_best: 0.891, coverage_best: (p=9, n=1, P=9, N=101)
+2026-04-14 12:04:33,531 - INFO - Regula po iteracji 1: IF Length3 <= 15.60 AND Length1 <= 12.85 THEN class = {10.90} [3.52, 18.28], (p=9, n=1, P=9, N=101)
+2026-04-14 12:04:33,535 - INFO - Iteracja 2: condition_best: Width >= 8.90, quality_best: 0.83, coverage_best: (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:33,535 - INFO - Regula po iteracji 2: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Width >= 8.90 THEN class = {11.11} [3.36, 18.86], (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:33,538 - INFO - Iteracja 3: condition_best: Width >= 9.40, quality_best: 0.733, coverage_best: (p=7, n=1, P=10, N=100)
+2026-04-14 12:04:33,539 - INFO - Regula po iteracji 3: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Width >= 8.90 AND Width >= 9.40 THEN class = {11.00} [2.78, 19.22], (p=7, n=1, P=10, N=100)
+2026-04-14 12:04:33,542 - INFO - Iteracja 4: condition_best: Width >= 9.75, quality_best: 0.674, coverage_best: (p=6, n=1, P=10, N=100)
+2026-04-14 12:04:33,542 - INFO - Regula po iteracji 4: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Width >= 8.90 AND Width >= 9.40 AND Width >= 9.75 THEN class = {11.71} [3.17, 20.26], (p=6, n=1, P=10, N=100)
+2026-04-14 12:04:33,542 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:33,543 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:33,579 - INFO - Iteracja 0: condition_best: Length1 <= 16.40, quality_best: 0.815, coverage_best: (p=16, n=3, P=16, N=94)
+2026-04-14 12:04:33,579 - INFO - Regula po iteracji 0: IF Length1 <= 16.40 THEN class = {33.37} [4.02, 62.72], (p=16, n=3, P=16, N=94)
+2026-04-14 12:04:33,587 - INFO - Iteracja 1: condition_best: Height <= 32.30, quality_best: 0.857, coverage_best: (p=14, n=2, P=14, N=96)
+2026-04-14 12:04:33,587 - INFO - Regula po iteracji 1: IF Length1 <= 16.40 AND Height <= 32.30 THEN class = {26.81} [0.25, 53.38], (p=14, n=2, P=14, N=96)
+2026-04-14 12:04:33,593 - INFO - Iteracja 2: condition_best: Length1 <= 15.95, quality_best: 0.849, coverage_best: (p=13, n=2, P=13, N=97)
+2026-04-14 12:04:33,593 - INFO - Regula po iteracji 2: IF Length1 <= 16.40 AND Height <= 32.30 AND Length1 <= 15.95 THEN class = {21.93} [2.65, 41.22], (p=13, n=2, P=13, N=97)
+2026-04-14 12:04:33,599 - INFO - Iteracja 3: condition_best: Length1 >= 8.40, quality_best: 0.806, coverage_best: (p=12, n=2, P=13, N=97)
+2026-04-14 12:04:33,599 - INFO - Regula po iteracji 3: IF Length1 <= 16.40 AND Height <= 32.30 AND Length1 <= 15.95 AND Length1 >= 8.40 THEN class = {23.14} [3.74, 42.55], (p=12, n=2, P=13, N=97)
+2026-04-14 12:04:33,605 - INFO - Iteracja 4: condition_best: Length1 >= 10.25, quality_best: 0.802, coverage_best: (p=9, n=2, P=9, N=101)
+2026-04-14 12:04:33,605 - INFO - Regula po iteracji 4: IF Length1 <= 16.40 AND Height <= 32.30 AND Length1 <= 15.95 AND Length1 >= 8.40 AND Length1 >= 10.25 THEN class = {27.64} [8.02, 47.26], (p=9, n=2, P=9, N=101)
+2026-04-14 12:04:33,605 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:33,606 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:33,642 - INFO - Iteracja 0: condition_best: Length1 <= 16.65, quality_best: 0.711, coverage_best: (p=15, n=5, P=15, N=95)
+2026-04-14 12:04:33,642 - INFO - Regula po iteracji 0: IF Length1 <= 16.65 THEN class = {35.15} [5.51, 64.79], (p=15, n=5, P=15, N=95)
+2026-04-14 12:04:33,650 - INFO - Iteracja 1: condition_best: Height >= 21.40, quality_best: 0.664, coverage_best: (p=8, n=3, P=9, N=101)
+2026-04-14 12:04:33,650 - INFO - Regula po iteracji 1: IF Length1 <= 16.65 AND Height >= 21.40 THEN class = {55.64} [30.08, 81.20], (p=8, n=3, P=9, N=101)
+2026-04-14 12:04:33,655 - INFO - Iteracja 2: condition_best: Length1 >= 10.00, quality_best: 0.634, coverage_best: (p=7, n=3, P=8, N=102)
+2026-04-14 12:04:33,655 - INFO - Regula po iteracji 2: IF Length1 <= 16.65 AND Height >= 21.40 AND Length1 >= 10.00 THEN class = {60.70} [39.80, 81.60], (p=7, n=3, P=8, N=102)
+2026-04-14 12:04:33,659 - INFO - Iteracja 3: condition_best: Length1 >= 12.70, quality_best: 0.486, coverage_best: (p=5, n=4, P=6, N=104)
+2026-04-14 12:04:33,659 - INFO - Regula po iteracji 3: IF Length1 <= 16.65 AND Height >= 21.40 AND Length1 >= 10.00 AND Length1 >= 12.70 THEN class = {63.89} [44.31, 83.47], (p=5, n=4, P=6, N=104)
+2026-04-14 12:04:33,663 - INFO - Iteracja 4: condition_best: Length1 >= 13.20, quality_best: 0.484, coverage_best: (p=5, n=3, P=8, N=102)
+2026-04-14 12:04:33,663 - INFO - Regula po iteracji 4: IF Length1 <= 16.65 AND Height >= 21.40 AND Length1 >= 10.00 AND Length1 >= 12.70 AND Length1 >= 13.20 THEN class = {66.88} [48.14, 85.61], (p=5, n=3, P=8, N=102)
+2026-04-14 12:04:33,663 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:33,664 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:33,699 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:33,699 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:33,715 - INFO - Iteracja 1: condition_best: Height >= 15.85, quality_best: 0.711, coverage_best: (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:33,715 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Height >= 15.85 THEN class = {796.81} [552.94, 1,040.68], (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:33,726 - INFO - Iteracja 2: condition_best: Length1 >= 31.70, quality_best: 0.799, coverage_best: (p=20, n=3, P=22, N=88)
+2026-04-14 12:04:33,727 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 THEN class = {865.70} [620.98, 1,110.41], (p=20, n=3, P=22, N=88)
+2026-04-14 12:04:33,736 - INFO - Iteracja 3: condition_best: Width >= 10.25, quality_best: 0.792, coverage_best: (p=19, n=3, P=21, N=89)
+2026-04-14 12:04:33,736 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 AND Width >= 10.25 THEN class = {884.32} [650.59, 1,118.05], (p=19, n=3, P=21, N=89)
+2026-04-14 12:04:33,744 - INFO - Iteracja 4: condition_best: Length3 >= 42.55, quality_best: 0.83, coverage_best: (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:33,744 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 AND Width >= 10.25 AND Length3 >= 42.55 THEN class = {1,080.56} [872.46, 1,288.65], (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:33,744 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:33,745 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:33,781 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:33,781 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:33,794 - INFO - Iteracja 1: condition_best: Height >= 15.85, quality_best: 0.711, coverage_best: (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:33,794 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Height >= 15.85 THEN class = {796.81} [552.94, 1,040.68], (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:33,805 - INFO - Iteracja 2: condition_best: Length1 >= 31.70, quality_best: 0.799, coverage_best: (p=20, n=3, P=22, N=88)
+2026-04-14 12:04:33,805 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 THEN class = {865.70} [620.98, 1,110.41], (p=20, n=3, P=22, N=88)
+2026-04-14 12:04:33,814 - INFO - Iteracja 3: condition_best: Width >= 10.25, quality_best: 0.792, coverage_best: (p=19, n=3, P=21, N=89)
+2026-04-14 12:04:33,814 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 AND Width >= 10.25 THEN class = {884.32} [650.59, 1,118.05], (p=19, n=3, P=21, N=89)
+2026-04-14 12:04:33,822 - INFO - Iteracja 4: condition_best: Length3 >= 37.80, quality_best: 0.821, coverage_best: (p=19, n=2, P=22, N=88)
+2026-04-14 12:04:33,822 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 AND Width >= 10.25 AND Length3 >= 37.80 THEN class = {886.43} [647.40, 1,125.46], (p=19, n=2, P=22, N=88)
+2026-04-14 12:04:33,822 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:33,823 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:33,858 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:33,858 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:33,871 - INFO - Iteracja 1: condition_best: Height >= 15.85, quality_best: 0.711, coverage_best: (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:33,872 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Height >= 15.85 THEN class = {796.81} [552.94, 1,040.68], (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:33,882 - INFO - Iteracja 2: condition_best: Length1 >= 29.05, quality_best: 0.779, coverage_best: (p=24, n=5, P=24, N=86)
+2026-04-14 12:04:33,882 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 29.05 THEN class = {818.14} [580.42, 1,055.86], (p=24, n=5, P=24, N=86)
+2026-04-14 12:04:33,893 - INFO - Iteracja 3: condition_best: Length1 <= 37.20, quality_best: 0.823, coverage_best: (p=17, n=3, P=17, N=93)
+2026-04-14 12:04:33,893 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 29.05 AND Length1 <= 37.20 THEN class = {727.25} [591.97, 862.53], (p=17, n=3, P=17, N=93)
+2026-04-14 12:04:33,901 - INFO - Iteracja 4: condition_best: Length1 >= 29.90, quality_best: 0.807, coverage_best: (p=15, n=3, P=15, N=95)
+2026-04-14 12:04:33,901 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 29.05 AND Length1 <= 37.20 AND Length1 >= 29.90 THEN class = {741.39} [605.98, 876.80], (p=15, n=3, P=15, N=95)
+2026-04-14 12:04:33,901 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:33,901 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:33,937 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:33,937 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:33,950 - INFO - Iteracja 1: condition_best: Height >= 15.85, quality_best: 0.711, coverage_best: (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:33,950 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Height >= 15.85 THEN class = {796.81} [552.94, 1,040.68], (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:33,961 - INFO - Iteracja 2: condition_best: Height <= 43.00, quality_best: 0.687, coverage_best: (p=23, n=7, P=24, N=86)
+2026-04-14 12:04:33,961 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Height >= 15.85 AND Height <= 43.00 THEN class = {790.03} [545.02, 1,035.05], (p=23, n=7, P=24, N=86)
+2026-04-14 12:04:33,972 - INFO - Iteracja 3: condition_best: Width <= 19.35, quality_best: 0.646, coverage_best: (p=22, n=7, P=25, N=85)
+2026-04-14 12:04:33,972 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Height >= 15.85 AND Height <= 43.00 AND Width <= 19.35 THEN class = {788.31} [539.28, 1,037.34], (p=22, n=7, P=25, N=85)
+2026-04-14 12:04:33,983 - INFO - Iteracja 4: condition_best: Width <= 17.70, quality_best: 0.622, coverage_best: (p=21, n=7, P=25, N=85)
+2026-04-14 12:04:33,983 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Height >= 15.85 AND Height <= 43.00 AND Width <= 19.35 AND Width <= 17.70 THEN class = {787.18} [533.82, 1,040.54], (p=21, n=7, P=25, N=85)
+2026-04-14 12:04:33,983 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:33,984 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,019 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:34,019 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:34,032 - INFO - Iteracja 1: condition_best: Width >= 9.55, quality_best: 0.71, coverage_best: (p=30, n=7, P=32, N=78)
+2026-04-14 12:04:34,032 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Width >= 9.55 THEN class = {792.03} [469.46, 1,114.60], (p=30, n=7, P=32, N=78)
+2026-04-14 12:04:34,045 - INFO - Iteracja 2: condition_best: Length1 >= 28.55, quality_best: 0.706, coverage_best: (p=29, n=7, P=31, N=79)
+2026-04-14 12:04:34,045 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Width >= 9.55 AND Length1 >= 28.55 THEN class = {800.83} [478.23, 1,123.43], (p=29, n=7, P=31, N=79)
+2026-04-14 12:04:34,058 - INFO - Iteracja 3: condition_best: Width >= 9.70, quality_best: 0.696, coverage_best: (p=27, n=7, P=29, N=81)
+2026-04-14 12:04:34,058 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Width >= 9.55 AND Length1 >= 28.55 AND Width >= 9.70 THEN class = {755.29} [485.43, 1,025.16], (p=27, n=7, P=29, N=81)
+2026-04-14 12:04:34,070 - INFO - Iteracja 4: condition_best: Length1 >= 29.05, quality_best: 0.675, coverage_best: (p=26, n=7, P=29, N=81)
+2026-04-14 12:04:34,070 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Width >= 9.55 AND Length1 >= 28.55 AND Width >= 9.70 AND Length1 >= 29.05 THEN class = {763.03} [492.85, 1,033.22], (p=26, n=7, P=29, N=81)
+2026-04-14 12:04:34,071 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,071 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,106 - INFO - Iteracja 0: condition_best: Length1 >= 26.40, quality_best: 0.679, coverage_best: (p=37, n=10, P=37, N=73)
+2026-04-14 12:04:34,106 - INFO - Regula po iteracji 0: IF Length1 >= 26.40 THEN class = {711.30} [382.96, 1,039.64], (p=37, n=10, P=37, N=73)
+2026-04-14 12:04:34,123 - INFO - Iteracja 1: condition_best: Width <= 15.35, quality_best: 0.676, coverage_best: (p=30, n=4, P=44, N=66)
+2026-04-14 12:04:34,123 - INFO - Regula po iteracji 1: IF Length1 >= 26.40 AND Width <= 15.35 THEN class = {656.21} [299.58, 1,012.83], (p=30, n=4, P=44, N=66)
+2026-04-14 12:04:34,135 - INFO - Iteracja 2: condition_best: Height <= 41.30, quality_best: 0.654, coverage_best: (p=29, n=4, P=45, N=65)
+2026-04-14 12:04:34,135 - INFO - Regula po iteracji 2: IF Length1 >= 26.40 AND Width <= 15.35 AND Height <= 41.30 THEN class = {657.91} [296.06, 1,019.76], (p=29, n=4, P=45, N=65)
+2026-04-14 12:04:34,146 - INFO - Iteracja 3: condition_best: Length1 <= 29.75, quality_best: 0.646, coverage_best: (p=8, n=2, P=12, N=98)
+2026-04-14 12:04:34,146 - INFO - Regula po iteracji 3: IF Length1 >= 26.40 AND Width <= 15.35 AND Height <= 41.30 AND Length1 <= 29.75 THEN class = {450.50} [377.96, 523.04], (p=8, n=2, P=12, N=98)
+2026-04-14 12:04:34,150 - INFO - Iteracja 4: condition_best: Height <= 40.05, quality_best: 0.639, coverage_best: (p=6, n=2, P=8, N=102)
+2026-04-14 12:04:34,150 - INFO - Regula po iteracji 4: IF Length1 >= 26.40 AND Width <= 15.35 AND Height <= 41.30 AND Length1 <= 29.75 AND Height <= 40.05 THEN class = {425.62} [372.16, 479.09], (p=6, n=2, P=8, N=102)
+2026-04-14 12:04:34,150 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,151 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,185 - INFO - Iteracja 0: condition_best: Length1 >= 26.40, quality_best: 0.679, coverage_best: (p=37, n=10, P=37, N=73)
+2026-04-14 12:04:34,185 - INFO - Regula po iteracji 0: IF Length1 >= 26.40 THEN class = {711.30} [382.96, 1,039.64], (p=37, n=10, P=37, N=73)
+2026-04-14 12:04:34,201 - INFO - Iteracja 1: condition_best: Length1 >= 26.65, quality_best: 0.663, coverage_best: (p=36, n=10, P=37, N=73)
+2026-04-14 12:04:34,201 - INFO - Regula po iteracji 1: IF Length1 >= 26.40 AND Length1 >= 26.65 THEN class = {717.41} [388.18, 1,046.64], (p=36, n=10, P=37, N=73)
+2026-04-14 12:04:34,218 - INFO - Iteracja 2: condition_best: Height <= 43.00, quality_best: 0.647, coverage_best: (p=35, n=10, P=37, N=73)
+2026-04-14 12:04:34,218 - INFO - Regula po iteracji 2: IF Length1 >= 26.40 AND Length1 >= 26.65 AND Height <= 43.00 THEN class = {711.13} [381.00, 1,041.26], (p=35, n=10, P=37, N=73)
+2026-04-14 12:04:34,233 - INFO - Iteracja 3: condition_best: Height <= 41.30, quality_best: 0.631, coverage_best: (p=34, n=10, P=37, N=73)
+2026-04-14 12:04:34,234 - INFO - Regula po iteracji 3: IF Length1 >= 26.40 AND Length1 >= 26.65 AND Height <= 43.00 AND Height <= 41.30 THEN class = {713.66} [380.23, 1,047.09], (p=34, n=10, P=37, N=73)
+2026-04-14 12:04:34,250 - INFO - Iteracja 4: condition_best: Height >= 14.75, quality_best: 0.614, coverage_best: (p=33, n=10, P=37, N=73)
+2026-04-14 12:04:34,250 - INFO - Regula po iteracji 4: IF Length1 >= 26.40 AND Length1 >= 26.65 AND Height <= 43.00 AND Height <= 41.30 AND Height >= 14.75 THEN class = {718.63} [382.96, 1,054.30], (p=33, n=10, P=37, N=73)
+2026-04-14 12:04:34,250 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,250 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,285 - INFO - Iteracja 0: condition_best: Length3 >= 29.65, quality_best: 0.589, coverage_best: (p=38, n=14, P=38, N=72)
+2026-04-14 12:04:34,285 - INFO - Regula po iteracji 0: IF Length3 >= 29.65 THEN class = {671.88} [336.88, 1,006.89], (p=38, n=14, P=38, N=72)
+2026-04-14 12:04:34,303 - INFO - Iteracja 1: condition_best: Width <= 16.10, quality_best: 0.588, coverage_best: (p=34, n=9, P=43, N=67)
+2026-04-14 12:04:34,303 - INFO - Regula po iteracji 1: IF Length3 >= 29.65 AND Width <= 16.10 THEN class = {638.09} [287.24, 988.95], (p=34, n=9, P=43, N=67)
+2026-04-14 12:04:34,318 - INFO - Iteracja 2: condition_best: Height <= 43.00, quality_best: 0.615, coverage_best: (p=34, n=8, P=43, N=67)
+2026-04-14 12:04:34,318 - INFO - Regula po iteracji 2: IF Length3 >= 29.65 AND Width <= 16.10 AND Height <= 43.00 THEN class = {629.48} [279.00, 979.96], (p=34, n=8, P=43, N=67)
+2026-04-14 12:04:34,333 - INFO - Iteracja 3: condition_best: Height <= 41.30, quality_best: 0.601, coverage_best: (p=33, n=8, P=43, N=67)
+2026-04-14 12:04:34,333 - INFO - Regula po iteracji 3: IF Length3 >= 29.65 AND Width <= 16.10 AND Height <= 43.00 AND Height <= 41.30 THEN class = {630.20} [275.50, 984.89], (p=33, n=8, P=43, N=67)
+2026-04-14 12:04:34,348 - INFO - Iteracja 4: condition_best: Width <= 15.75, quality_best: 0.6, coverage_best: (p=33, n=7, P=46, N=64)
+2026-04-14 12:04:34,348 - INFO - Regula po iteracji 4: IF Length3 >= 29.65 AND Width <= 16.10 AND Height <= 43.00 AND Height <= 41.30 AND Width <= 15.75 THEN class = {628.45} [269.52, 987.38], (p=33, n=7, P=46, N=64)
+2026-04-14 12:04:34,348 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,349 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,383 - INFO - Iteracja 0: condition_best: Length1 >= 22.50, quality_best: 0.556, coverage_best: (p=45, n=16, P=45, N=65)
+2026-04-14 12:04:34,383 - INFO - Regula po iteracji 0: IF Length1 >= 22.50 THEN class = {610.05} [266.50, 953.60], (p=45, n=16, P=45, N=65)
+2026-04-14 12:04:34,403 - INFO - Iteracja 1: condition_best: Length3 <= 34.25, quality_best: 0.657, coverage_best: (p=13, n=4, P=16, N=94)
+2026-04-14 12:04:34,403 - INFO - Regula po iteracji 1: IF Length1 >= 22.50 AND Length3 <= 34.25 THEN class = {298.35} [214.06, 382.65], (p=13, n=4, P=16, N=94)
+2026-04-14 12:04:34,410 - INFO - Iteracja 2: condition_best: Length3 >= 27.50, quality_best: 0.651, coverage_best: (p=12, n=3, P=17, N=93)
+2026-04-14 12:04:34,410 - INFO - Regula po iteracji 2: IF Length1 >= 22.50 AND Length3 <= 34.25 AND Length3 >= 27.50 THEN class = {313.00} [234.13, 391.87], (p=12, n=3, P=17, N=93)
+2026-04-14 12:04:34,415 - INFO - Iteracja 3: condition_best: Width >= 13.35, quality_best: 0.652, coverage_best: (p=11, n=3, P=15, N=95)
+2026-04-14 12:04:34,415 - INFO - Regula po iteracji 3: IF Length1 >= 22.50 AND Length3 <= 34.25 AND Length3 >= 27.50 AND Width >= 13.35 THEN class = {309.43} [228.97, 389.89], (p=11, n=3, P=15, N=95)
+2026-04-14 12:04:34,420 - INFO - Iteracja 4: condition_best: Length1 <= 28.15, quality_best: 0.735, coverage_best: (p=11, n=2, P=14, N=96)
+2026-04-14 12:04:34,420 - INFO - Regula po iteracji 4: IF Length1 >= 22.50 AND Length3 <= 34.25 AND Length3 >= 27.50 AND Width >= 13.35 AND Length1 <= 28.15 THEN class = {291.69} [241.02, 342.36], (p=11, n=2, P=14, N=96)
+2026-04-14 12:04:34,421 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,421 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,455 - INFO - Iteracja 0: condition_best: Length1 <= 18.50, quality_best: 0.55, coverage_best: (p=16, n=10, P=16, N=94)
+2026-04-14 12:04:34,455 - INFO - Regula po iteracji 0: IF Length1 <= 18.50 THEN class = {50.31} [10.36, 90.25], (p=16, n=10, P=16, N=94)
+2026-04-14 12:04:34,465 - INFO - Iteracja 1: condition_best: Width <= 14.95, quality_best: 0.737, coverage_best: (p=17, n=3, P=21, N=89)
+2026-04-14 12:04:34,466 - INFO - Regula po iteracji 1: IF Length1 <= 18.50 AND Width <= 14.95 THEN class = {48.20} [6.00, 90.40], (p=17, n=3, P=21, N=89)
+2026-04-14 12:04:34,474 - INFO - Iteracja 2: condition_best: Height <= 40.60, quality_best: 0.754, coverage_best: (p=17, n=2, P=23, N=87)
+2026-04-14 12:04:34,474 - INFO - Regula po iteracji 2: IF Length1 <= 18.50 AND Width <= 14.95 AND Height <= 40.60 THEN class = {47.84} [4.58, 91.10], (p=17, n=2, P=23, N=87)
+2026-04-14 12:04:34,481 - INFO - Iteracja 3: condition_best: Length1 >= 9.65, quality_best: 0.76, coverage_best: (p=16, n=2, P=21, N=89)
+2026-04-14 12:04:34,481 - INFO - Regula po iteracji 3: IF Length1 <= 18.50 AND Width <= 14.95 AND Height <= 40.60 AND Length1 >= 9.65 THEN class = {50.17} [6.89, 93.44], (p=16, n=2, P=21, N=89)
+2026-04-14 12:04:34,488 - INFO - Iteracja 4: condition_best: Length1 >= 10.05, quality_best: 0.556, coverage_best: (p=12, n=5, P=17, N=93)
+2026-04-14 12:04:34,489 - INFO - Regula po iteracji 4: IF Length1 <= 18.50 AND Width <= 14.95 AND Height <= 40.60 AND Length1 >= 9.65 AND Length1 >= 10.05 THEN class = {52.71} [9.50, 95.92], (p=12, n=5, P=17, N=93)
+2026-04-14 12:04:34,489 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,489 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,523 - INFO - Iteracja 0: condition_best: Length1 <= 23.95, quality_best: 0.526, coverage_best: (p=37, n=17, P=37, N=73)
+2026-04-14 12:04:34,523 - INFO - Regula po iteracji 0: IF Length1 <= 23.95 THEN class = {106.43} [35.21, 177.64], (p=37, n=17, P=37, N=73)
+2026-04-14 12:04:34,542 - INFO - Iteracja 1: condition_best: Length1 >= 18.30, quality_best: 0.83, coverage_best: (p=26, n=3, P=28, N=82)
+2026-04-14 12:04:34,542 - INFO - Regula po iteracji 1: IF Length1 <= 23.95 AND Length1 >= 18.30 THEN class = {158.24} [107.54, 208.94], (p=26, n=3, P=28, N=82)
+2026-04-14 12:04:34,550 - INFO - Iteracja 2: condition_best: Width >= 13.50, quality_best: 0.872, coverage_best: (p=26, n=2, P=28, N=82)
+2026-04-14 12:04:34,550 - INFO - Regula po iteracji 2: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 THEN class = {155.25} [106.23, 204.27], (p=26, n=2, P=28, N=82)
+2026-04-14 12:04:34,559 - INFO - Iteracja 3: condition_best: Length1 >= 18.50, quality_best: 0.852, coverage_best: (p=25, n=2, P=28, N=82)
+2026-04-14 12:04:34,559 - INFO - Regula po iteracji 3: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 AND Length1 >= 18.50 THEN class = {155.44} [105.54, 205.35], (p=25, n=2, P=28, N=82)
+2026-04-14 12:04:34,567 - INFO - Iteracja 4: condition_best: Length3 <= 24.10, quality_best: 0.878, coverage_best: (p=12, n=1, P=13, N=97)
+2026-04-14 12:04:34,567 - INFO - Regula po iteracji 4: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 AND Length1 >= 18.50 AND Length3 <= 24.10 THEN class = {125.00} [109.68, 140.32], (p=12, n=1, P=13, N=97)
+2026-04-14 12:04:34,567 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,567 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,601 - INFO - Iteracja 0: condition_best: Length1 <= 23.95, quality_best: 0.526, coverage_best: (p=37, n=17, P=37, N=73)
+2026-04-14 12:04:34,601 - INFO - Regula po iteracji 0: IF Length1 <= 23.95 THEN class = {106.43} [35.21, 177.64], (p=37, n=17, P=37, N=73)
+2026-04-14 12:04:34,618 - INFO - Iteracja 1: condition_best: Length1 >= 18.30, quality_best: 0.83, coverage_best: (p=26, n=3, P=28, N=82)
+2026-04-14 12:04:34,618 - INFO - Regula po iteracji 1: IF Length1 <= 23.95 AND Length1 >= 18.30 THEN class = {158.24} [107.54, 208.94], (p=26, n=3, P=28, N=82)
+2026-04-14 12:04:34,626 - INFO - Iteracja 2: condition_best: Width >= 13.50, quality_best: 0.872, coverage_best: (p=26, n=2, P=28, N=82)
+2026-04-14 12:04:34,626 - INFO - Regula po iteracji 2: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 THEN class = {155.25} [106.23, 204.27], (p=26, n=2, P=28, N=82)
+2026-04-14 12:04:34,634 - INFO - Iteracja 3: condition_best: Length1 >= 18.50, quality_best: 0.852, coverage_best: (p=25, n=2, P=28, N=82)
+2026-04-14 12:04:34,634 - INFO - Regula po iteracji 3: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 AND Length1 >= 18.50 THEN class = {155.44} [105.54, 205.35], (p=25, n=2, P=28, N=82)
+2026-04-14 12:04:34,642 - INFO - Iteracja 4: condition_best: Length1 >= 18.80, quality_best: 0.833, coverage_best: (p=24, n=2, P=28, N=82)
+2026-04-14 12:04:34,642 - INFO - Regula po iteracji 4: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 AND Length1 >= 18.50 AND Length1 >= 18.80 THEN class = {156.81} [106.45, 207.17], (p=24, n=2, P=28, N=82)
+2026-04-14 12:04:34,642 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,642 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,676 - INFO - Iteracja 0: condition_best: Length1 <= 9.65, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=108)
+2026-04-14 12:04:34,676 - INFO - Regula po iteracji 0: IF Length1 <= 9.65 THEN class = {5.50} [5.00, 6.00], (p=2, n=0, P=2, N=108)
+2026-04-14 12:04:34,677 - INFO - Iteracja 1: condition_best: Species = {5}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:34,677 - INFO - Regula po iteracji 1: IF Length1 <= 9.65 AND Species = {5} THEN class = {6.00} [6.00, 6.00], (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:34,677 - INFO - Iteracja 2: condition_best: Sex = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:34,677 - INFO - Regula po iteracji 2: IF Length1 <= 9.65 AND Species = {5} AND Sex = {1} THEN class = {6.00} [6.00, 6.00], (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:34,678 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:34,678 - INFO - Regula po iteracji 3: IF Length1 <= 9.65 AND Species = {5} AND Sex = {1} THEN class = {6.00} [6.00, 6.00], (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:34,678 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:34,687 - INFO - ************************Finished experiment for fishcatch.arff with algorithm_rer************************
+2026-04-14 12:04:34,687 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:34,688 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:34,688 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:34,688 - INFO - **********Starting experiment for fishcatch.arff with algorithm_rer_with_exceptions**********
+2026-04-14 12:04:34,693 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:34,746 - INFO - Iteracja 0: condition_best: Length3 <= 15.60, quality_best: 0.9, coverage_best: (p=10, n=1, P=10, N=100)
+2026-04-14 12:04:34,747 - INFO - Regula po iteracji 0: IF Length3 <= 15.60 THEN class = {11.64} [4.22, 19.05], (p=10, n=1, P=10, N=100)
+2026-04-14 12:04:34,747 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:34,813 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:34,813 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:34,813 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:34,813 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:34,818 - INFO - Iteracja 1: condition_best: Length1 <= 12.85, quality_best: 0.891, coverage_best: (p=9, n=1, P=9, N=101)
+2026-04-14 12:04:34,818 - INFO - Regula po iteracji 1: IF Length3 <= 15.60 AND Length1 <= 12.85 THEN class = {10.90} [3.52, 18.28], (p=9, n=1, P=9, N=101)
+2026-04-14 12:04:34,818 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:34,884 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:34,884 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:34,884 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:34,884 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:34,888 - INFO - Iteracja 2: condition_best: Height >= 15.25, quality_best: 0.83, coverage_best: (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:34,888 - INFO - Regula po iteracji 2: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Height >= 15.25 THEN class = {11.33} [3.67, 18.99], (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:34,889 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:34,955 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:34,955 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:34,955 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:34,955 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:34,959 - INFO - Iteracja 3: condition_best: Length1 >= 8.40, quality_best: 0.733, coverage_best: (p=7, n=1, P=10, N=100)
+2026-04-14 12:04:34,959 - INFO - Regula po iteracji 3: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Height >= 15.25 AND Length1 >= 8.40 THEN class = {12.12} [4.36, 19.89], (p=7, n=1, P=10, N=100)
+2026-04-14 12:04:34,959 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,025 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,025 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,025 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,026 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,029 - INFO - Iteracja 4: condition_best: Height <= 16.95, quality_best: 0.711, coverage_best: (p=4, n=1, P=5, N=105)
+2026-04-14 12:04:35,029 - INFO - Regula po iteracji 4: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Height >= 15.25 AND Length1 >= 8.40 AND Height <= 16.95 THEN class = {9.80} [7.57, 12.03], (p=4, n=1, P=5, N=105)
+2026-04-14 12:04:35,029 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,096 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,119 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,120 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,120 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,120 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:35,121 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:35,157 - INFO - Iteracja 0: condition_best: Length3 <= 15.60, quality_best: 0.9, coverage_best: (p=10, n=1, P=10, N=100)
+2026-04-14 12:04:35,157 - INFO - Regula po iteracji 0: IF Length3 <= 15.60 THEN class = {11.64} [4.22, 19.05], (p=10, n=1, P=10, N=100)
+2026-04-14 12:04:35,157 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,224 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,224 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,224 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,224 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,228 - INFO - Iteracja 1: condition_best: Length1 <= 12.85, quality_best: 0.891, coverage_best: (p=9, n=1, P=9, N=101)
+2026-04-14 12:04:35,228 - INFO - Regula po iteracji 1: IF Length3 <= 15.60 AND Length1 <= 12.85 THEN class = {10.90} [3.52, 18.28], (p=9, n=1, P=9, N=101)
+2026-04-14 12:04:35,228 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,294 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,294 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,295 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,295 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,298 - INFO - Iteracja 2: condition_best: Width >= 8.90, quality_best: 0.83, coverage_best: (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:35,299 - INFO - Regula po iteracji 2: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Width >= 8.90 THEN class = {11.11} [3.36, 18.86], (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:35,299 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,365 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,365 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,365 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,365 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,369 - INFO - Iteracja 3: condition_best: Width >= 9.40, quality_best: 0.733, coverage_best: (p=7, n=1, P=10, N=100)
+2026-04-14 12:04:35,369 - INFO - Regula po iteracji 3: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Width >= 8.90 AND Width >= 9.40 THEN class = {11.00} [2.78, 19.22], (p=7, n=1, P=10, N=100)
+2026-04-14 12:04:35,370 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,435 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,436 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,436 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,436 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,439 - INFO - Iteracja 4: condition_best: Width >= 9.75, quality_best: 0.674, coverage_best: (p=6, n=1, P=10, N=100)
+2026-04-14 12:04:35,439 - INFO - Regula po iteracji 4: IF Length3 <= 15.60 AND Length1 <= 12.85 AND Width >= 8.90 AND Width >= 9.40 AND Width >= 9.75 THEN class = {11.71} [3.17, 20.26], (p=6, n=1, P=10, N=100)
+2026-04-14 12:04:35,440 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,506 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,506 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,506 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,506 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,506 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:35,507 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:35,543 - INFO - Iteracja 0: condition_best: Length1 <= 16.40, quality_best: 0.815, coverage_best: (p=16, n=3, P=16, N=94)
+2026-04-14 12:04:35,543 - INFO - Regula po iteracji 0: IF Length1 <= 16.40 THEN class = {33.37} [4.02, 62.72], (p=16, n=3, P=16, N=94)
+2026-04-14 12:04:35,543 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,609 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,610 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,610 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,610 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,618 - INFO - Iteracja 1: condition_best: Height <= 32.30, quality_best: 0.857, coverage_best: (p=14, n=2, P=14, N=96)
+2026-04-14 12:04:35,618 - INFO - Regula po iteracji 1: IF Length1 <= 16.40 AND Height <= 32.30 THEN class = {26.81} [0.25, 53.38], (p=14, n=2, P=14, N=96)
+2026-04-14 12:04:35,618 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,684 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,684 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,684 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,684 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,691 - INFO - Iteracja 2: condition_best: Length1 <= 15.95, quality_best: 0.849, coverage_best: (p=13, n=2, P=13, N=97)
+2026-04-14 12:04:35,691 - INFO - Regula po iteracji 2: IF Length1 <= 16.40 AND Height <= 32.30 AND Length1 <= 15.95 THEN class = {21.93} [2.65, 41.22], (p=13, n=2, P=13, N=97)
+2026-04-14 12:04:35,691 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,757 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,757 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,757 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,757 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,763 - INFO - Iteracja 3: condition_best: Length1 >= 8.40, quality_best: 0.806, coverage_best: (p=12, n=2, P=13, N=97)
+2026-04-14 12:04:35,763 - INFO - Regula po iteracji 3: IF Length1 <= 16.40 AND Height <= 32.30 AND Length1 <= 15.95 AND Length1 >= 8.40 THEN class = {23.14} [3.74, 42.55], (p=12, n=2, P=13, N=97)
+2026-04-14 12:04:35,764 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,830 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,830 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,830 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,830 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,836 - INFO - Iteracja 4: condition_best: Length1 >= 10.25, quality_best: 0.802, coverage_best: (p=9, n=2, P=9, N=101)
+2026-04-14 12:04:35,836 - INFO - Regula po iteracji 4: IF Length1 <= 16.40 AND Height <= 32.30 AND Length1 <= 15.95 AND Length1 >= 8.40 AND Length1 >= 10.25 THEN class = {27.64} [8.02, 47.26], (p=9, n=2, P=9, N=101)
+2026-04-14 12:04:35,836 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:35,902 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:35,902 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:35,902 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:35,902 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:35,902 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:35,903 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:35,939 - INFO - Iteracja 0: condition_best: Length1 <= 16.65, quality_best: 0.711, coverage_best: (p=15, n=5, P=15, N=95)
+2026-04-14 12:04:35,939 - INFO - Regula po iteracji 0: IF Length1 <= 16.65 THEN class = {35.15} [5.51, 64.79], (p=15, n=5, P=15, N=95)
+2026-04-14 12:04:35,940 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,005 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,005 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,005 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,005 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,013 - INFO - Iteracja 1: condition_best: Height >= 21.40, quality_best: 0.664, coverage_best: (p=8, n=3, P=9, N=101)
+2026-04-14 12:04:36,013 - INFO - Regula po iteracji 1: IF Length1 <= 16.65 AND Height >= 21.40 THEN class = {55.64} [30.08, 81.20], (p=8, n=3, P=9, N=101)
+2026-04-14 12:04:36,014 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,079 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,080 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,080 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,080 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,084 - INFO - Iteracja 2: condition_best: Length1 >= 10.00, quality_best: 0.634, coverage_best: (p=7, n=3, P=8, N=102)
+2026-04-14 12:04:36,084 - INFO - Regula po iteracji 2: IF Length1 <= 16.65 AND Height >= 21.40 AND Length1 >= 10.00 THEN class = {60.70} [39.80, 81.60], (p=7, n=3, P=8, N=102)
+2026-04-14 12:04:36,085 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,151 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,151 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,151 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,151 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,155 - INFO - Iteracja 3: condition_best: Length1 >= 12.70, quality_best: 0.486, coverage_best: (p=5, n=4, P=6, N=104)
+2026-04-14 12:04:36,155 - INFO - Regula po iteracji 3: IF Length1 <= 16.65 AND Height >= 21.40 AND Length1 >= 10.00 AND Length1 >= 12.70 THEN class = {63.89} [44.31, 83.47], (p=5, n=4, P=6, N=104)
+2026-04-14 12:04:36,156 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,221 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,222 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,222 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,222 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,226 - INFO - Iteracja 4: condition_best: Length1 >= 13.20, quality_best: 0.484, coverage_best: (p=5, n=3, P=8, N=102)
+2026-04-14 12:04:36,226 - INFO - Regula po iteracji 4: IF Length1 <= 16.65 AND Height >= 21.40 AND Length1 >= 10.00 AND Length1 >= 12.70 AND Length1 >= 13.20 THEN class = {66.88} [48.14, 85.61], (p=5, n=3, P=8, N=102)
+2026-04-14 12:04:36,226 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,292 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,292 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,292 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,292 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,292 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:36,293 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:36,329 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:36,329 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:36,329 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,395 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,395 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,395 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,395 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,410 - INFO - Iteracja 1: condition_best: Height >= 15.85, quality_best: 0.711, coverage_best: (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:36,410 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Height >= 15.85 THEN class = {796.81} [552.94, 1,040.68], (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:36,410 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,478 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,478 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,478 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,478 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,490 - INFO - Iteracja 2: condition_best: Length1 >= 31.70, quality_best: 0.799, coverage_best: (p=20, n=3, P=22, N=88)
+2026-04-14 12:04:36,490 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 THEN class = {865.70} [620.98, 1,110.41], (p=20, n=3, P=22, N=88)
+2026-04-14 12:04:36,491 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,558 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,558 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,558 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,558 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,567 - INFO - Iteracja 3: condition_best: Width >= 10.25, quality_best: 0.792, coverage_best: (p=19, n=3, P=21, N=89)
+2026-04-14 12:04:36,568 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 AND Width >= 10.25 THEN class = {884.32} [650.59, 1,118.05], (p=19, n=3, P=21, N=89)
+2026-04-14 12:04:36,568 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,636 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,636 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,636 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,636 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,644 - INFO - Iteracja 4: condition_best: Length3 >= 42.55, quality_best: 0.83, coverage_best: (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:36,644 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 AND Width >= 10.25 AND Length3 >= 42.55 THEN class = {1,080.56} [872.46, 1,288.65], (p=8, n=1, P=9, N=101)
+2026-04-14 12:04:36,645 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,710 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,710 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,711 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,711 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,711 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:36,712 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:36,747 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:36,747 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:36,748 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,813 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,813 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,813 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,813 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,827 - INFO - Iteracja 1: condition_best: Height >= 15.85, quality_best: 0.711, coverage_best: (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:36,827 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Height >= 15.85 THEN class = {796.81} [552.94, 1,040.68], (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:36,827 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,894 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,894 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,895 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,895 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,906 - INFO - Iteracja 2: condition_best: Length1 >= 31.70, quality_best: 0.799, coverage_best: (p=20, n=3, P=22, N=88)
+2026-04-14 12:04:36,906 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 THEN class = {865.70} [620.98, 1,110.41], (p=20, n=3, P=22, N=88)
+2026-04-14 12:04:36,906 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:36,973 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:36,973 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:36,973 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:36,973 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:36,982 - INFO - Iteracja 3: condition_best: Width >= 10.25, quality_best: 0.792, coverage_best: (p=19, n=3, P=21, N=89)
+2026-04-14 12:04:36,982 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 AND Width >= 10.25 THEN class = {884.32} [650.59, 1,118.05], (p=19, n=3, P=21, N=89)
+2026-04-14 12:04:36,982 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,050 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,050 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,050 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,050 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,058 - INFO - Iteracja 4: condition_best: Length3 >= 37.80, quality_best: 0.821, coverage_best: (p=19, n=2, P=22, N=88)
+2026-04-14 12:04:37,058 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 31.70 AND Width >= 10.25 AND Length3 >= 37.80 THEN class = {886.43} [647.40, 1,125.46], (p=19, n=2, P=22, N=88)
+2026-04-14 12:04:37,059 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,126 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,126 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,126 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,126 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,126 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:37,127 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:37,163 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:37,163 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:37,163 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,228 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,228 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,228 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,228 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,242 - INFO - Iteracja 1: condition_best: Height >= 15.85, quality_best: 0.711, coverage_best: (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:37,242 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Height >= 15.85 THEN class = {796.81} [552.94, 1,040.68], (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:37,242 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,309 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,309 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,309 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,309 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,320 - INFO - Iteracja 2: condition_best: Length1 >= 29.05, quality_best: 0.779, coverage_best: (p=24, n=5, P=24, N=86)
+2026-04-14 12:04:37,320 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 29.05 THEN class = {818.14} [580.42, 1,055.86], (p=24, n=5, P=24, N=86)
+2026-04-14 12:04:37,321 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,388 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,388 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,388 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,388 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,399 - INFO - Iteracja 3: condition_best: Length1 <= 37.20, quality_best: 0.823, coverage_best: (p=17, n=3, P=17, N=93)
+2026-04-14 12:04:37,399 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 29.05 AND Length1 <= 37.20 THEN class = {727.25} [591.97, 862.53], (p=17, n=3, P=17, N=93)
+2026-04-14 12:04:37,399 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,465 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,465 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,465 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,465 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,473 - INFO - Iteracja 4: condition_best: Length1 >= 29.90, quality_best: 0.807, coverage_best: (p=15, n=3, P=15, N=95)
+2026-04-14 12:04:37,473 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Height >= 15.85 AND Length1 >= 29.05 AND Length1 <= 37.20 AND Length1 >= 29.90 THEN class = {741.39} [605.98, 876.80], (p=15, n=3, P=15, N=95)
+2026-04-14 12:04:37,473 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,539 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,539 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,539 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,539 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,539 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:37,540 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:37,575 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:37,575 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:37,575 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,640 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,640 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,641 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,641 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,654 - INFO - Iteracja 1: condition_best: Height >= 15.85, quality_best: 0.711, coverage_best: (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:37,654 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Height >= 15.85 THEN class = {796.81} [552.94, 1,040.68], (p=24, n=7, P=24, N=86)
+2026-04-14 12:04:37,654 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,721 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,722 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,722 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,722 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,733 - INFO - Iteracja 2: condition_best: Height <= 43.00, quality_best: 0.687, coverage_best: (p=23, n=7, P=24, N=86)
+2026-04-14 12:04:37,733 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Height >= 15.85 AND Height <= 43.00 THEN class = {790.03} [545.02, 1,035.05], (p=23, n=7, P=24, N=86)
+2026-04-14 12:04:37,733 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,800 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,800 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,800 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,800 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,811 - INFO - Iteracja 3: condition_best: Width <= 19.35, quality_best: 0.646, coverage_best: (p=22, n=7, P=25, N=85)
+2026-04-14 12:04:37,812 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Height >= 15.85 AND Height <= 43.00 AND Width <= 19.35 THEN class = {788.31} [539.28, 1,037.34], (p=22, n=7, P=25, N=85)
+2026-04-14 12:04:37,812 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,879 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,879 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,879 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,879 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,890 - INFO - Iteracja 4: condition_best: Width <= 17.70, quality_best: 0.622, coverage_best: (p=21, n=7, P=25, N=85)
+2026-04-14 12:04:37,890 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Height >= 15.85 AND Height <= 43.00 AND Width <= 19.35 AND Width <= 17.70 THEN class = {787.18} [533.82, 1,040.54], (p=21, n=7, P=25, N=85)
+2026-04-14 12:04:37,891 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:37,958 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:37,958 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:37,958 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:37,958 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:37,958 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:37,959 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:37,994 - INFO - Iteracja 0: condition_best: Length3 >= 35.65, quality_best: 0.681, coverage_best: (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:37,994 - INFO - Regula po iteracji 0: IF Length3 >= 35.65 THEN class = {783.18} [460.38, 1,105.99], (p=30, n=8, P=32, N=78)
+2026-04-14 12:04:37,995 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,060 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,060 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,060 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,060 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,074 - INFO - Iteracja 1: condition_best: Width >= 9.55, quality_best: 0.71, coverage_best: (p=30, n=7, P=32, N=78)
+2026-04-14 12:04:38,074 - INFO - Regula po iteracji 1: IF Length3 >= 35.65 AND Width >= 9.55 THEN class = {792.03} [469.46, 1,114.60], (p=30, n=7, P=32, N=78)
+2026-04-14 12:04:38,074 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,143 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,143 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,144 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,144 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,157 - INFO - Iteracja 2: condition_best: Length1 >= 28.55, quality_best: 0.706, coverage_best: (p=29, n=7, P=31, N=79)
+2026-04-14 12:04:38,157 - INFO - Regula po iteracji 2: IF Length3 >= 35.65 AND Width >= 9.55 AND Length1 >= 28.55 THEN class = {800.83} [478.23, 1,123.43], (p=29, n=7, P=31, N=79)
+2026-04-14 12:04:38,157 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,227 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,227 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,227 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,227 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,240 - INFO - Iteracja 3: condition_best: Width >= 9.70, quality_best: 0.696, coverage_best: (p=27, n=7, P=29, N=81)
+2026-04-14 12:04:38,240 - INFO - Regula po iteracji 3: IF Length3 >= 35.65 AND Width >= 9.55 AND Length1 >= 28.55 AND Width >= 9.70 THEN class = {755.29} [485.43, 1,025.16], (p=27, n=7, P=29, N=81)
+2026-04-14 12:04:38,241 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,306 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,306 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,306 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,306 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,318 - INFO - Iteracja 4: condition_best: Length1 >= 29.05, quality_best: 0.675, coverage_best: (p=26, n=7, P=29, N=81)
+2026-04-14 12:04:38,318 - INFO - Regula po iteracji 4: IF Length3 >= 35.65 AND Width >= 9.55 AND Length1 >= 28.55 AND Width >= 9.70 AND Length1 >= 29.05 THEN class = {763.03} [492.85, 1,033.22], (p=26, n=7, P=29, N=81)
+2026-04-14 12:04:38,319 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,384 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,384 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,384 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,384 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,384 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:38,385 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:38,420 - INFO - Iteracja 0: condition_best: Length1 >= 26.40, quality_best: 0.679, coverage_best: (p=37, n=10, P=37, N=73)
+2026-04-14 12:04:38,420 - INFO - Regula po iteracji 0: IF Length1 >= 26.40 THEN class = {711.30} [382.96, 1,039.64], (p=37, n=10, P=37, N=73)
+2026-04-14 12:04:38,420 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,485 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,485 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,486 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,486 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,502 - INFO - Iteracja 1: condition_best: Width <= 15.35, quality_best: 0.676, coverage_best: (p=30, n=4, P=44, N=66)
+2026-04-14 12:04:38,502 - INFO - Regula po iteracji 1: IF Length1 >= 26.40 AND Width <= 15.35 THEN class = {656.21} [299.58, 1,012.83], (p=30, n=4, P=44, N=66)
+2026-04-14 12:04:38,502 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,568 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,568 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,568 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,568 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,580 - INFO - Iteracja 2: condition_best: Height <= 41.30, quality_best: 0.654, coverage_best: (p=29, n=4, P=45, N=65)
+2026-04-14 12:04:38,580 - INFO - Regula po iteracji 2: IF Length1 >= 26.40 AND Width <= 15.35 AND Height <= 41.30 THEN class = {657.91} [296.06, 1,019.76], (p=29, n=4, P=45, N=65)
+2026-04-14 12:04:38,580 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,646 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,646 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,646 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,646 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,658 - INFO - Iteracja 3: condition_best: Length1 <= 29.75, quality_best: 0.646, coverage_best: (p=8, n=2, P=12, N=98)
+2026-04-14 12:04:38,658 - INFO - Regula po iteracji 3: IF Length1 >= 26.40 AND Width <= 15.35 AND Height <= 41.30 AND Length1 <= 29.75 THEN class = {450.50} [377.96, 523.04], (p=8, n=2, P=12, N=98)
+2026-04-14 12:04:38,658 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,724 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,724 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,724 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,724 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,728 - INFO - Iteracja 4: condition_best: Height <= 40.05, quality_best: 0.639, coverage_best: (p=6, n=2, P=8, N=102)
+2026-04-14 12:04:38,728 - INFO - Regula po iteracji 4: IF Length1 >= 26.40 AND Width <= 15.35 AND Height <= 41.30 AND Length1 <= 29.75 AND Height <= 40.05 THEN class = {425.62} [372.16, 479.09], (p=6, n=2, P=8, N=102)
+2026-04-14 12:04:38,728 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,794 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,794 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,794 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,795 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,795 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:38,795 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:38,830 - INFO - Iteracja 0: condition_best: Length1 >= 26.40, quality_best: 0.679, coverage_best: (p=37, n=10, P=37, N=73)
+2026-04-14 12:04:38,830 - INFO - Regula po iteracji 0: IF Length1 >= 26.40 THEN class = {711.30} [382.96, 1,039.64], (p=37, n=10, P=37, N=73)
+2026-04-14 12:04:38,830 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,896 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,896 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,896 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,896 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,912 - INFO - Iteracja 1: condition_best: Length1 >= 26.65, quality_best: 0.663, coverage_best: (p=36, n=10, P=37, N=73)
+2026-04-14 12:04:38,912 - INFO - Regula po iteracji 1: IF Length1 >= 26.40 AND Length1 >= 26.65 THEN class = {717.41} [388.18, 1,046.64], (p=36, n=10, P=37, N=73)
+2026-04-14 12:04:38,913 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:38,978 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:38,978 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:38,978 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:38,978 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:38,994 - INFO - Iteracja 2: condition_best: Height <= 43.00, quality_best: 0.647, coverage_best: (p=35, n=10, P=37, N=73)
+2026-04-14 12:04:38,995 - INFO - Regula po iteracji 2: IF Length1 >= 26.40 AND Length1 >= 26.65 AND Height <= 43.00 THEN class = {711.13} [381.00, 1,041.26], (p=35, n=10, P=37, N=73)
+2026-04-14 12:04:38,995 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,060 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,060 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,060 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,060 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,076 - INFO - Iteracja 3: condition_best: Height <= 41.30, quality_best: 0.631, coverage_best: (p=34, n=10, P=37, N=73)
+2026-04-14 12:04:39,076 - INFO - Regula po iteracji 3: IF Length1 >= 26.40 AND Length1 >= 26.65 AND Height <= 43.00 AND Height <= 41.30 THEN class = {713.66} [380.23, 1,047.09], (p=34, n=10, P=37, N=73)
+2026-04-14 12:04:39,077 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,142 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,142 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,142 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,142 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,158 - INFO - Iteracja 4: condition_best: Height >= 14.75, quality_best: 0.614, coverage_best: (p=33, n=10, P=37, N=73)
+2026-04-14 12:04:39,158 - INFO - Regula po iteracji 4: IF Length1 >= 26.40 AND Length1 >= 26.65 AND Height <= 43.00 AND Height <= 41.30 AND Height >= 14.75 THEN class = {718.63} [382.96, 1,054.30], (p=33, n=10, P=37, N=73)
+2026-04-14 12:04:39,159 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,224 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,224 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,224 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,224 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,224 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:39,225 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:39,259 - INFO - Iteracja 0: condition_best: Length3 >= 29.65, quality_best: 0.589, coverage_best: (p=38, n=14, P=38, N=72)
+2026-04-14 12:04:39,259 - INFO - Regula po iteracji 0: IF Length3 >= 29.65 THEN class = {671.88} [336.88, 1,006.89], (p=38, n=14, P=38, N=72)
+2026-04-14 12:04:39,260 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,325 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,325 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,325 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,325 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,343 - INFO - Iteracja 1: condition_best: Width <= 16.10, quality_best: 0.588, coverage_best: (p=34, n=9, P=43, N=67)
+2026-04-14 12:04:39,343 - INFO - Regula po iteracji 1: IF Length3 >= 29.65 AND Width <= 16.10 THEN class = {638.09} [287.24, 988.95], (p=34, n=9, P=43, N=67)
+2026-04-14 12:04:39,343 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,408 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,409 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,409 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,409 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,424 - INFO - Iteracja 2: condition_best: Height <= 43.00, quality_best: 0.615, coverage_best: (p=34, n=8, P=43, N=67)
+2026-04-14 12:04:39,424 - INFO - Regula po iteracji 2: IF Length3 >= 29.65 AND Width <= 16.10 AND Height <= 43.00 THEN class = {629.48} [279.00, 979.96], (p=34, n=8, P=43, N=67)
+2026-04-14 12:04:39,424 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,490 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,490 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,490 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,490 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,505 - INFO - Iteracja 3: condition_best: Height <= 41.30, quality_best: 0.601, coverage_best: (p=33, n=8, P=43, N=67)
+2026-04-14 12:04:39,505 - INFO - Regula po iteracji 3: IF Length3 >= 29.65 AND Width <= 16.10 AND Height <= 43.00 AND Height <= 41.30 THEN class = {630.20} [275.50, 984.89], (p=33, n=8, P=43, N=67)
+2026-04-14 12:04:39,506 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,572 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,572 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,572 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,572 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,587 - INFO - Iteracja 4: condition_best: Width <= 15.75, quality_best: 0.6, coverage_best: (p=33, n=7, P=46, N=64)
+2026-04-14 12:04:39,587 - INFO - Regula po iteracji 4: IF Length3 >= 29.65 AND Width <= 16.10 AND Height <= 43.00 AND Height <= 41.30 AND Width <= 15.75 THEN class = {628.45} [269.52, 987.38], (p=33, n=7, P=46, N=64)
+2026-04-14 12:04:39,587 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,653 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,653 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,653 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,653 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,653 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:39,654 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:39,689 - INFO - Iteracja 0: condition_best: Length1 >= 22.50, quality_best: 0.556, coverage_best: (p=45, n=16, P=45, N=65)
+2026-04-14 12:04:39,689 - INFO - Regula po iteracji 0: IF Length1 >= 22.50 THEN class = {610.05} [266.50, 953.60], (p=45, n=16, P=45, N=65)
+2026-04-14 12:04:39,689 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,754 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,754 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,755 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,755 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,775 - INFO - Iteracja 1: condition_best: Length3 <= 34.25, quality_best: 0.657, coverage_best: (p=13, n=4, P=16, N=94)
+2026-04-14 12:04:39,775 - INFO - Regula po iteracji 1: IF Length1 >= 22.50 AND Length3 <= 34.25 THEN class = {298.35} [214.06, 382.65], (p=13, n=4, P=16, N=94)
+2026-04-14 12:04:39,775 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,841 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,841 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,841 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,841 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,848 - INFO - Iteracja 2: condition_best: Length3 >= 27.50, quality_best: 0.651, coverage_best: (p=12, n=3, P=17, N=93)
+2026-04-14 12:04:39,848 - INFO - Regula po iteracji 2: IF Length1 >= 22.50 AND Length3 <= 34.25 AND Length3 >= 27.50 THEN class = {313.00} [234.13, 391.87], (p=12, n=3, P=17, N=93)
+2026-04-14 12:04:39,848 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,914 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,914 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,914 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,914 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,919 - INFO - Iteracja 3: condition_best: Width >= 13.35, quality_best: 0.652, coverage_best: (p=11, n=3, P=15, N=95)
+2026-04-14 12:04:39,920 - INFO - Regula po iteracji 3: IF Length1 >= 22.50 AND Length3 <= 34.25 AND Length3 >= 27.50 AND Width >= 13.35 THEN class = {309.43} [228.97, 389.89], (p=11, n=3, P=15, N=95)
+2026-04-14 12:04:39,920 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:39,985 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:39,986 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:39,986 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:39,986 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:39,991 - INFO - Iteracja 4: condition_best: Length1 <= 28.15, quality_best: 0.735, coverage_best: (p=11, n=2, P=14, N=96)
+2026-04-14 12:04:39,991 - INFO - Regula po iteracji 4: IF Length1 >= 22.50 AND Length3 <= 34.25 AND Length3 >= 27.50 AND Width >= 13.35 AND Length1 <= 28.15 THEN class = {291.69} [241.02, 342.36], (p=11, n=2, P=14, N=96)
+2026-04-14 12:04:39,991 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,057 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,057 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,057 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,057 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,057 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:40,058 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:40,092 - INFO - Iteracja 0: condition_best: Length1 <= 18.50, quality_best: 0.55, coverage_best: (p=16, n=10, P=16, N=94)
+2026-04-14 12:04:40,092 - INFO - Regula po iteracji 0: IF Length1 <= 18.50 THEN class = {50.31} [10.36, 90.25], (p=16, n=10, P=16, N=94)
+2026-04-14 12:04:40,092 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,158 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,158 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,158 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,158 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,168 - INFO - Iteracja 1: condition_best: Width <= 14.95, quality_best: 0.737, coverage_best: (p=17, n=3, P=21, N=89)
+2026-04-14 12:04:40,168 - INFO - Regula po iteracji 1: IF Length1 <= 18.50 AND Width <= 14.95 THEN class = {48.20} [6.00, 90.40], (p=17, n=3, P=21, N=89)
+2026-04-14 12:04:40,169 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,234 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,234 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,234 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,234 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,243 - INFO - Iteracja 2: condition_best: Height <= 40.60, quality_best: 0.754, coverage_best: (p=17, n=2, P=23, N=87)
+2026-04-14 12:04:40,243 - INFO - Regula po iteracji 2: IF Length1 <= 18.50 AND Width <= 14.95 AND Height <= 40.60 THEN class = {47.84} [4.58, 91.10], (p=17, n=2, P=23, N=87)
+2026-04-14 12:04:40,243 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,309 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,309 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,309 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,309 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,316 - INFO - Iteracja 3: condition_best: Length1 >= 9.65, quality_best: 0.76, coverage_best: (p=16, n=2, P=21, N=89)
+2026-04-14 12:04:40,317 - INFO - Regula po iteracji 3: IF Length1 <= 18.50 AND Width <= 14.95 AND Height <= 40.60 AND Length1 >= 9.65 THEN class = {50.17} [6.89, 93.44], (p=16, n=2, P=21, N=89)
+2026-04-14 12:04:40,317 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,382 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,383 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,383 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,383 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,390 - INFO - Iteracja 4: condition_best: Length1 >= 10.05, quality_best: 0.556, coverage_best: (p=12, n=5, P=17, N=93)
+2026-04-14 12:04:40,390 - INFO - Regula po iteracji 4: IF Length1 <= 18.50 AND Width <= 14.95 AND Height <= 40.60 AND Length1 >= 9.65 AND Length1 >= 10.05 THEN class = {52.71} [9.50, 95.92], (p=12, n=5, P=17, N=93)
+2026-04-14 12:04:40,390 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,456 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,456 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,456 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,456 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,456 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:40,457 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:40,491 - INFO - Iteracja 0: condition_best: Length1 <= 23.95, quality_best: 0.526, coverage_best: (p=37, n=17, P=37, N=73)
+2026-04-14 12:04:40,491 - INFO - Regula po iteracji 0: IF Length1 <= 23.95 THEN class = {106.43} [35.21, 177.64], (p=37, n=17, P=37, N=73)
+2026-04-14 12:04:40,491 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,557 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,557 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,557 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,557 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,575 - INFO - Iteracja 1: condition_best: Length1 >= 18.30, quality_best: 0.83, coverage_best: (p=26, n=3, P=28, N=82)
+2026-04-14 12:04:40,575 - INFO - Regula po iteracji 1: IF Length1 <= 23.95 AND Length1 >= 18.30 THEN class = {158.24} [107.54, 208.94], (p=26, n=3, P=28, N=82)
+2026-04-14 12:04:40,576 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,641 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,641 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,642 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,642 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,650 - INFO - Iteracja 2: condition_best: Width >= 13.50, quality_best: 0.872, coverage_best: (p=26, n=2, P=28, N=82)
+2026-04-14 12:04:40,650 - INFO - Regula po iteracji 2: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 THEN class = {155.25} [106.23, 204.27], (p=26, n=2, P=28, N=82)
+2026-04-14 12:04:40,651 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,716 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,717 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,717 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,717 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,725 - INFO - Iteracja 3: condition_best: Length1 >= 18.50, quality_best: 0.852, coverage_best: (p=25, n=2, P=28, N=82)
+2026-04-14 12:04:40,725 - INFO - Regula po iteracji 3: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 AND Length1 >= 18.50 THEN class = {155.44} [105.54, 205.35], (p=25, n=2, P=28, N=82)
+2026-04-14 12:04:40,725 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,791 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,791 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,791 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,791 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,799 - INFO - Iteracja 4: condition_best: Length3 <= 24.10, quality_best: 0.878, coverage_best: (p=12, n=1, P=13, N=97)
+2026-04-14 12:04:40,799 - INFO - Regula po iteracji 4: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 AND Length1 >= 18.50 AND Length3 <= 24.10 THEN class = {125.00} [109.68, 140.32], (p=12, n=1, P=13, N=97)
+2026-04-14 12:04:40,800 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,865 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,865 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,866 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,866 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,866 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:40,866 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:40,900 - INFO - Iteracja 0: condition_best: Length1 <= 23.95, quality_best: 0.526, coverage_best: (p=37, n=17, P=37, N=73)
+2026-04-14 12:04:40,900 - INFO - Regula po iteracji 0: IF Length1 <= 23.95 THEN class = {106.43} [35.21, 177.64], (p=37, n=17, P=37, N=73)
+2026-04-14 12:04:40,900 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:40,965 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:40,966 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:40,966 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:40,966 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:40,983 - INFO - Iteracja 1: condition_best: Length1 >= 18.30, quality_best: 0.83, coverage_best: (p=26, n=3, P=28, N=82)
+2026-04-14 12:04:40,983 - INFO - Regula po iteracji 1: IF Length1 <= 23.95 AND Length1 >= 18.30 THEN class = {158.24} [107.54, 208.94], (p=26, n=3, P=28, N=82)
+2026-04-14 12:04:40,983 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:41,049 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:41,049 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:41,049 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:41,049 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:41,058 - INFO - Iteracja 2: condition_best: Width >= 13.50, quality_best: 0.872, coverage_best: (p=26, n=2, P=28, N=82)
+2026-04-14 12:04:41,058 - INFO - Regula po iteracji 2: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 THEN class = {155.25} [106.23, 204.27], (p=26, n=2, P=28, N=82)
+2026-04-14 12:04:41,058 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:41,124 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:41,124 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:41,124 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:41,124 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:41,132 - INFO - Iteracja 3: condition_best: Length1 >= 18.50, quality_best: 0.852, coverage_best: (p=25, n=2, P=28, N=82)
+2026-04-14 12:04:41,132 - INFO - Regula po iteracji 3: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 AND Length1 >= 18.50 THEN class = {155.44} [105.54, 205.35], (p=25, n=2, P=28, N=82)
+2026-04-14 12:04:41,132 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:41,198 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:41,198 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:41,198 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:41,198 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:41,206 - INFO - Iteracja 4: condition_best: Length1 >= 18.80, quality_best: 0.833, coverage_best: (p=24, n=2, P=28, N=82)
+2026-04-14 12:04:41,206 - INFO - Regula po iteracji 4: IF Length1 <= 23.95 AND Length1 >= 18.30 AND Width >= 13.50 AND Length1 >= 18.50 AND Length1 >= 18.80 THEN class = {156.81} [106.45, 207.17], (p=24, n=2, P=28, N=82)
+2026-04-14 12:04:41,206 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:41,272 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:41,272 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:41,272 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:41,272 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:41,272 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:41,273 - INFO - *******GROWING CR RULE*******
+2026-04-14 12:04:41,306 - INFO - Iteracja 0: condition_best: Length1 <= 9.65, quality_best: 1.0, coverage_best: (p=2, n=0, P=2, N=108)
+2026-04-14 12:04:41,306 - INFO - Regula po iteracji 0: IF Length1 <= 9.65 THEN class = {5.50} [5.00, 6.00], (p=2, n=0, P=2, N=108)
+2026-04-14 12:04:41,306 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:41,371 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:41,372 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:41,372 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:41,372 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:41,373 - INFO - Iteracja 1: condition_best: Species = {5}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:41,373 - INFO - Regula po iteracji 1: IF Length1 <= 9.65 AND Species = {5} THEN class = {6.00} [6.00, 6.00], (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:41,373 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:41,439 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:41,439 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:41,439 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:41,439 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:41,439 - INFO - Iteracja 2: condition_best: Sex = {1}, quality_best: 1.0, coverage_best: (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:41,440 - INFO - Regula po iteracji 2: IF Length1 <= 9.65 AND Species = {5} AND Sex = {1} THEN class = {6.00} [6.00, 6.00], (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:41,440 - INFO - *****GROWING RR RULE*****
+2026-04-14 12:04:41,505 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 12:04:41,505 - INFO - Regula po iteracji 0: IF  THEN class = {379.37} [14.59, 744.15], (p=84, n=26, P=84, N=26)
+2026-04-14 12:04:41,505 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 12:04:41,505 - INFO - ***RR NOT FOUND***
+2026-04-14 12:04:41,506 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 12:04:41,506 - INFO - Regula po iteracji 3: IF Length1 <= 9.65 AND Species = {5} AND Sex = {1} THEN class = {6.00} [6.00, 6.00], (p=1, n=0, P=1, N=109)
+2026-04-14 12:04:41,506 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 12:04:41,516 - INFO - ************************Finished experiment for fishcatch.arff with algorithm_rer_with_exceptions************************
+2026-04-14 12:04:41,516 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:41,516 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:41,516 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:41,517 - INFO - **********Starting experiment for fishcatch.arff with decision_tree**********
+2026-04-14 12:04:41,535 - INFO - ************************Finished experiment for fishcatch.arff with decision_tree************************
+2026-04-14 12:04:41,535 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:41,535 - INFO - *************************************************************************************************************************
+2026-04-14 12:04:41,535 - INFO - *************************************************************************************************************************

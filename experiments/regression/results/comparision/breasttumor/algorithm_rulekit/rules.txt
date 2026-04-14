@@ -1,0 +1,68 @@
+
+CR 0: IF inv-nodes = {5} AND menopause = {>=40} THEN class = {28.20} [26.37, 30.03] (p=4, n=1, P=47, N=153)
+
+CR 1: IF recurrence = {r} AND age >= 61.50 AND age < 67.50 THEN class = {21.40} [19.44, 23.36] (p=4, n=1, P=37, N=163)
+
+CR 2: IF recurrence = {r} AND age < 36.50 AND age >= 31.50 AND node-caps = {no} THEN class = {31.00} [29.00, 33.00] (p=4, n=1, P=45, N=155)
+
+CR 3: IF recurrence = {r} AND age < 36.50 THEN class = {25.00} [14.75, 35.25] (p=9, n=1, P=151, N=49)
+
+CR 4: IF recurrence = {r} AND node-caps = {no} AND menopause = {>=40} THEN class = {27.20} [19.88, 34.52] (p=9, n=1, P=115, N=85)
+
+CR 5: IF recurrence = {r} AND node-caps = {no} AND deg-malig = {3} AND age >= 33.50 AND age < 62.50 THEN class = {28.67} [25.54, 31.79] (p=8, n=1, P=47, N=153)
+
+CR 6: IF recurrence = {r} AND node-caps = {no} AND age >= 31.50 AND age < 44.50 THEN class = {30.00} [22.88, 37.12] (p=10, n=2, P=92, N=108)
+
+CR 7: IF recurrence = {r} AND node-caps = {no} AND age < 59.50 AND age >= 46.50 THEN class = {29.55} [23.72, 35.37] (p=9, n=2, P=92, N=108)
+
+CR 8: IF recurrence = {r} AND age < 46.50 AND age >= 35.50 THEN class = {26.00} [17.93, 34.07] (p=13, n=2, P=118, N=82)
+
+CR 9: IF recurrence = {r} AND age < 51.50 THEN class = {27.06} [17.55, 36.56] (p=27, n=7, P=132, N=68)
+
+CR 10: IF recurrence = {r} THEN class = {27.63} [18.69, 36.58] (p=40, n=12, P=129, N=71)
+
+CR 11: IF breast = {left} AND age >= 65.50 THEN class = {14.00} [6.70, 21.30] (p=6, n=2, P=76, N=124)
+
+CR 12: IF age >= 64.00 AND node-caps = {no} AND age < 65.50 THEN class = {20.83} [14.77, 26.90] (p=5, n=1, P=89, N=111)
+
+CR 13: IF age < 44.50 AND breast-quad = {right-lower} THEN class = {17.86} [9.05, 26.66] (p=6, n=1, P=107, N=93)
+
+CR 14: IF age < 44.50 AND age >= 38.50 AND breast-quad = {left-lower} AND node-caps = {no} THEN class = {26.69} [18.91, 34.47] (p=12, n=1, P=115, N=85)
+
+CR 15: IF age >= 38.50 AND age < 43.50 THEN class = {24.52} [15.62, 33.42] (p=21, n=4, P=118, N=82)
+
+CR 16: IF age >= 33.50 AND deg-malig = {2} AND age < 42.00 THEN class = {25.31} [19.87, 30.75] (p=15, n=1, P=114, N=86)
+
+CR 17: IF age >= 32.50 AND menopause = {premenopausal} AND age < 41.50 THEN class = {25.10} [17.92, 32.28] (p=24, n=6, P=118, N=82)
+
+CR 18: IF age < 53.50 AND inv-nodes = {1} AND age >= 38.50 AND breast = {left} THEN class = {30.50} [24.75, 36.25] (p=9, n=1, P=92, N=108)
+
+CR 19: IF breast = {left} AND deg-malig = {2} AND age < 51.50 THEN class = {27.19} [19.64, 34.75] (p=23, n=3, P=115, N=85)
+
+CR 20: IF breast = {left} AND age >= 38.50 AND age < 49.50 THEN class = {27.03} [18.93, 35.13] (p=27, n=5, P=129, N=71)
+
+CR 21: IF age < 53.50 AND breast = {left} AND age >= 38.50 AND recurrence = {n} THEN class = {27.03} [18.71, 35.35] (p=30, n=6, P=129, N=71)
+
+CR 22: IF breast-quad = {left-upper} AND age >= 34.00 AND node-caps = {no} AND age < 49.00 THEN class = {26.00} [18.97, 33.03] (p=19, n=4, P=115, N=85)
+
+CR 23: IF breast-quad = {left-upper} AND age >= 34.00 AND node-caps = {no} AND age < 52.50 THEN class = {26.03} [18.05, 34.01] (p=25, n=9, P=115, N=85)
+
+CR 24: IF age < 51.50 THEN class = {25.16} [15.17, 35.15] (p=82, n=31, P=132, N=68)
+
+CR 25: IF menopause = {premenopausal} AND age >= 38.50 THEN class = {25.86} [16.08, 35.64] (p=66, n=24, P=132, N=68)
+
+CR 26: IF deg-malig = {3} AND age >= 54.50 AND age < 64.00 AND menopause = {>=40} THEN class = {29.80} [24.38, 35.22] (p=8, n=2, P=92, N=108)
+
+CR 27: IF age >= 60.50 AND age < 64.00 AND inv-nodes = {0} THEN class = {20.00} [14.87, 25.13] (p=5, n=1, P=89, N=111)
+
+CR 28: IF age >= 60.50 AND age < 67.50 AND menopause = {>=40} THEN class = {22.92} [14.10, 31.74] (p=22, n=4, P=136, N=64)
+
+CR 29: IF age < 54.50 AND breast = {left} AND node-caps = {no} AND irradiation = {no} THEN class = {25.65} [16.29, 35.01] (p=36, n=13, P=132, N=68)
+
+CR 30: IF age >= 54.50 AND age < 55.50 THEN class = {16.88} [8.61, 25.14] (p=7, n=1, P=107, N=93)
+
+CR 31: IF age < 65.50 AND age >= 54.50 AND menopause = {>=40} AND irradiation = {no} AND node-caps = {no} THEN class = {22.59} [12.36, 32.82] (p=21, n=6, P=137, N=63)
+
+CR 32: IF age < 65.50 AND irradiation = {no} AND age >= 32.50 THEN class = {23.99} [14.33, 33.65] (p=100, n=37, P=137, N=63)
+
+CR 33: IF age >= 65.50 AND breast-quad = {right-upper} THEN class = {25.00} [10.00, 40.00] (p=2, n=0, P=184, N=16)

@@ -1,0 +1,629 @@
+2026-04-14 13:04:18,133 - INFO - **********Starting experiment for veteran.arff with algorithm_rulekit**********
+2026-04-14 13:04:18,212 - INFO - ************************Finished experiment for veteran.arff with algorithm_rulekit************************
+2026-04-14 13:04:18,212 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:18,212 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:18,212 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:18,213 - INFO - **********Starting experiment for veteran.arff with algorithm_rer**********
+2026-04-14 13:04:18,219 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,229 - INFO - Iteracja 0: condition_best: karnofsky <= 45.00, quality_best: 0.575, coverage_best: (p=27, n=2, P=62, N=33)
+2026-04-14 13:04:18,230 - INFO - Regula po iteracji 0: IF karnofsky <= 45.00 THEN class = {40.24} [-31.44, 111.92], (p=27, n=2, P=62, N=33)
+2026-04-14 13:04:18,234 - INFO - Iteracja 1: condition_best: status = {1}, quality_best: 0.655, coverage_best: (p=27, n=1, P=60, N=35)
+2026-04-14 13:04:18,234 - INFO - Regula po iteracji 1: IF karnofsky <= 45.00 AND status = {1} THEN class = {37.29} [-33.91, 108.48], (p=27, n=1, P=60, N=35)
+2026-04-14 13:04:18,238 - INFO - Iteracja 2: condition_best: age <= 70.00, quality_best: 0.639, coverage_best: (p=26, n=1, P=61, N=34)
+2026-04-14 13:04:18,238 - INFO - Regula po iteracji 2: IF karnofsky <= 45.00 AND status = {1} AND age <= 70.00 THEN class = {37.89} [-34.54, 110.32], (p=26, n=1, P=61, N=34)
+2026-04-14 13:04:18,241 - INFO - Iteracja 3: condition_best: age >= 36.00, quality_best: 0.619, coverage_best: (p=25, n=1, P=63, N=32)
+2026-04-14 13:04:18,242 - INFO - Regula po iteracji 3: IF karnofsky <= 45.00 AND status = {1} AND age <= 70.00 AND age >= 36.00 THEN class = {39.19} [-34.30, 112.69], (p=25, n=1, P=63, N=32)
+2026-04-14 13:04:18,245 - INFO - Iteracja 4: condition_best: age >= 38.00, quality_best: 0.608, coverage_best: (p=24, n=1, P=63, N=32)
+2026-04-14 13:04:18,245 - INFO - Regula po iteracji 4: IF karnofsky <= 45.00 AND status = {1} AND age <= 70.00 AND age >= 36.00 AND age >= 38.00 THEN class = {38.80} [-36.13, 113.73], (p=24, n=1, P=63, N=32)
+2026-04-14 13:04:18,245 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,246 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,253 - INFO - Iteracja 0: condition_best: celltype = {2}, quality_best: 0.467, coverage_best: (p=29, n=3, P=69, N=26)
+2026-04-14 13:04:18,253 - INFO - Regula po iteracji 0: IF celltype = {2} THEN class = {62.81} [-19.93, 145.55], (p=29, n=3, P=69, N=26)
+2026-04-14 13:04:18,258 - INFO - Iteracja 1: condition_best: months <= 13.00, quality_best: 0.587, coverage_best: (p=24, n=1, P=67, N=28)
+2026-04-14 13:04:18,258 - INFO - Regula po iteracji 1: IF celltype = {2} AND months <= 13.00 THEN class = {52.60} [-23.42, 128.62], (p=24, n=1, P=67, N=28)
+2026-04-14 13:04:18,262 - INFO - Iteracja 2: condition_best: months <= 11.50, quality_best: 0.577, coverage_best: (p=23, n=1, P=67, N=28)
+2026-04-14 13:04:18,262 - INFO - Regula po iteracji 2: IF celltype = {2} AND months <= 13.00 AND months <= 11.50 THEN class = {52.46} [-25.12, 130.04], (p=23, n=1, P=67, N=28)
+2026-04-14 13:04:18,265 - INFO - Iteracja 3: condition_best: karnofsky <= 77.50, quality_best: 0.561, coverage_best: (p=22, n=1, P=68, N=27)
+2026-04-14 13:04:18,265 - INFO - Regula po iteracji 3: IF celltype = {2} AND months <= 13.00 AND months <= 11.50 AND karnofsky <= 77.50 THEN class = {54.39} [-24.29, 133.07], (p=22, n=1, P=68, N=27)
+2026-04-14 13:04:18,268 - INFO - Iteracja 4: condition_best: karnofsky <= 72.50, quality_best: 0.55, coverage_best: (p=21, n=1, P=68, N=27)
+2026-04-14 13:04:18,268 - INFO - Regula po iteracji 4: IF celltype = {2} AND months <= 13.00 AND months <= 11.50 AND karnofsky <= 77.50 AND karnofsky <= 72.50 THEN class = {55.45} [-24.83, 135.74], (p=21, n=1, P=68, N=27)
+2026-04-14 13:04:18,268 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,269 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,276 - INFO - Iteracja 0: condition_best: celltype = {2}, quality_best: 0.467, coverage_best: (p=29, n=3, P=69, N=26)
+2026-04-14 13:04:18,276 - INFO - Regula po iteracji 0: IF celltype = {2} THEN class = {62.81} [-19.93, 145.55], (p=29, n=3, P=69, N=26)
+2026-04-14 13:04:18,280 - INFO - Iteracja 1: condition_best: months <= 24.00, quality_best: 0.537, coverage_best: (p=27, n=2, P=67, N=28)
+2026-04-14 13:04:18,280 - INFO - Regula po iteracji 1: IF celltype = {2} AND months <= 24.00 THEN class = {55.14} [-19.12, 129.40], (p=27, n=2, P=67, N=28)
+2026-04-14 13:04:18,284 - INFO - Iteracja 2: condition_best: months <= 22.50, quality_best: 0.526, coverage_best: (p=26, n=2, P=67, N=28)
+2026-04-14 13:04:18,284 - INFO - Regula po iteracji 2: IF celltype = {2} AND months <= 24.00 AND months <= 22.50 THEN class = {56.75} [-18.32, 131.82], (p=26, n=2, P=67, N=28)
+2026-04-14 13:04:18,288 - INFO - Iteracja 3: condition_best: karnofsky >= 35.00, quality_best: 0.515, coverage_best: (p=19, n=1, P=70, N=25)
+2026-04-14 13:04:18,288 - INFO - Regula po iteracji 3: IF celltype = {2} AND months <= 24.00 AND months <= 22.50 AND karnofsky >= 35.00 THEN class = {70.75} [-13.61, 155.11], (p=19, n=1, P=70, N=25)
+2026-04-14 13:04:18,292 - INFO - Iteracja 4: condition_best: age <= 71.00, quality_best: 0.503, coverage_best: (p=18, n=1, P=70, N=25)
+2026-04-14 13:04:18,292 - INFO - Regula po iteracji 4: IF celltype = {2} AND months <= 24.00 AND months <= 22.50 AND karnofsky >= 35.00 AND age <= 71.00 THEN class = {74.11} [-11.14, 159.35], (p=18, n=1, P=70, N=25)
+2026-04-14 13:04:18,292 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,293 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,299 - INFO - Iteracja 0: condition_best: karnofsky <= 55.00, quality_best: 0.371, coverage_best: (p=32, n=5, P=69, N=26)
+2026-04-14 13:04:18,299 - INFO - Regula po iteracji 0: IF karnofsky <= 55.00 THEN class = {59.03} [-32.46, 150.51], (p=32, n=5, P=69, N=26)
+2026-04-14 13:04:18,304 - INFO - Iteracja 1: condition_best: months <= 15.50, quality_best: 0.478, coverage_best: (p=29, n=3, P=68, N=27)
+2026-04-14 13:04:18,304 - INFO - Regula po iteracji 1: IF karnofsky <= 55.00 AND months <= 15.50 THEN class = {51.75} [-31.59, 135.09], (p=29, n=3, P=68, N=27)
+2026-04-14 13:04:18,309 - INFO - Iteracja 2: condition_best: age <= 67.50, quality_best: 0.62, coverage_best: (p=23, n=2, P=48, N=47)
+2026-04-14 13:04:18,309 - INFO - Regula po iteracji 2: IF karnofsky <= 55.00 AND months <= 15.50 AND age <= 67.50 THEN class = {35.28} [-12.43, 82.99], (p=23, n=2, P=48, N=47)
+2026-04-14 13:04:18,312 - INFO - Iteracja 3: condition_best: months <= 14.00, quality_best: 0.6, coverage_best: (p=22, n=2, P=49, N=46)
+2026-04-14 13:04:18,312 - INFO - Regula po iteracji 3: IF karnofsky <= 55.00 AND months <= 15.50 AND age <= 67.50 AND months <= 14.00 THEN class = {36.00} [-12.56, 84.56], (p=22, n=2, P=49, N=46)
+2026-04-14 13:04:18,316 - INFO - Iteracja 4: condition_best: age <= 66.50, quality_best: 0.586, coverage_best: (p=21, n=2, P=49, N=46)
+2026-04-14 13:04:18,316 - INFO - Regula po iteracji 4: IF karnofsky <= 55.00 AND months <= 15.50 AND age <= 67.50 AND months <= 14.00 AND age <= 66.50 THEN class = {36.30} [-13.28, 85.89], (p=21, n=2, P=49, N=46)
+2026-04-14 13:04:18,316 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,317 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,324 - INFO - Iteracja 0: condition_best: age <= 39.50, quality_best: 0.296, coverage_best: (p=7, n=2, P=51, N=44)
+2026-04-14 13:04:18,324 - INFO - Regula po iteracji 0: IF age <= 39.50 THEN class = {82.89} [18.59, 147.19], (p=7, n=2, P=51, N=44)
+2026-04-14 13:04:18,326 - INFO - Iteracja 1: condition_best: karnofsky >= 50.00, quality_best: 0.301, coverage_best: (p=4, n=2, P=28, N=67)
+2026-04-14 13:04:18,326 - INFO - Regula po iteracji 1: IF age <= 39.50 AND karnofsky >= 50.00 THEN class = {112.33} [53.80, 170.86], (p=4, n=2, P=28, N=67)
+2026-04-14 13:04:18,327 - INFO - Iteracja 2: condition_best: status = {1}, quality_best: 0.205, coverage_best: (p=3, n=2, P=34, N=61)
+2026-04-14 13:04:18,327 - INFO - Regula po iteracji 2: IF age <= 39.50 AND karnofsky >= 50.00 AND status = {1} THEN class = {114.20} [50.25, 178.15], (p=3, n=2, P=34, N=61)
+2026-04-14 13:04:18,329 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 13:04:18,329 - INFO - Regula po iteracji 3: IF age <= 39.50 AND karnofsky >= 50.00 AND status = {1} THEN class = {114.20} [50.25, 178.15], (p=3, n=2, P=34, N=61)
+2026-04-14 13:04:18,329 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,329 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,336 - INFO - Iteracja 0: condition_best: karnofsky >= 77.50, quality_best: 0.295, coverage_best: (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:18,336 - INFO - Regula po iteracji 0: IF karnofsky >= 77.50 THEN class = {162.74} [48.61, 276.87], (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:18,340 - INFO - Iteracja 1: condition_best: age <= 63.00, quality_best: 0.391, coverage_best: (p=12, n=5, P=31, N=64)
+2026-04-14 13:04:18,340 - INFO - Regula po iteracji 1: IF karnofsky >= 77.50 AND age <= 63.00 THEN class = {137.35} [65.30, 209.40], (p=12, n=5, P=31, N=64)
+2026-04-14 13:04:18,342 - INFO - Iteracja 2: condition_best: age >= 46.50, quality_best: 0.471, coverage_best: (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:18,342 - INFO - Regula po iteracji 2: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 THEN class = {143.27} [76.70, 209.85], (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:18,344 - INFO - Iteracja 3: condition_best: status = {1}, quality_best: 0.452, coverage_best: (p=6, n=2, P=19, N=76)
+2026-04-14 13:04:18,344 - INFO - Regula po iteracji 3: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 AND status = {1} THEN class = {160.25} [101.30, 219.20], (p=6, n=2, P=19, N=76)
+2026-04-14 13:04:18,346 - INFO - Iteracja 4: condition_best: therapy = {0}, quality_best: 0.516, coverage_best: (p=5, n=1, P=17, N=78)
+2026-04-14 13:04:18,346 - INFO - Regula po iteracji 4: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 AND status = {1} AND therapy = {0} THEN class = {166.17} [108.27, 224.06], (p=5, n=1, P=17, N=78)
+2026-04-14 13:04:18,346 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,347 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,354 - INFO - Iteracja 0: condition_best: karnofsky >= 77.50, quality_best: 0.295, coverage_best: (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:18,354 - INFO - Regula po iteracji 0: IF karnofsky >= 77.50 THEN class = {162.74} [48.61, 276.87], (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:18,357 - INFO - Iteracja 1: condition_best: age <= 63.00, quality_best: 0.391, coverage_best: (p=12, n=5, P=31, N=64)
+2026-04-14 13:04:18,357 - INFO - Regula po iteracji 1: IF karnofsky >= 77.50 AND age <= 63.00 THEN class = {137.35} [65.30, 209.40], (p=12, n=5, P=31, N=64)
+2026-04-14 13:04:18,359 - INFO - Iteracja 2: condition_best: age >= 46.50, quality_best: 0.471, coverage_best: (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:18,360 - INFO - Regula po iteracji 2: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 THEN class = {143.27} [76.70, 209.85], (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:18,362 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 13:04:18,362 - INFO - Regula po iteracji 3: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 THEN class = {143.27} [76.70, 209.85], (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:18,362 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,362 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,369 - INFO - Iteracja 0: condition_best: karnofsky >= 77.50, quality_best: 0.295, coverage_best: (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:18,369 - INFO - Regula po iteracji 0: IF karnofsky >= 77.50 THEN class = {162.74} [48.61, 276.87], (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:18,372 - INFO - Iteracja 1: condition_best: status = {1}, quality_best: 0.383, coverage_best: (p=15, n=5, P=41, N=54)
+2026-04-14 13:04:18,372 - INFO - Regula po iteracji 1: IF karnofsky >= 77.50 AND status = {1} THEN class = {172.45} [55.70, 289.20], (p=15, n=5, P=41, N=54)
+2026-04-14 13:04:18,375 - INFO - Iteracja 2: condition_best: months >= 3.50, quality_best: 0.428, coverage_best: (p=11, n=3, P=36, N=59)
+2026-04-14 13:04:18,375 - INFO - Regula po iteracji 2: IF karnofsky >= 77.50 AND status = {1} AND months >= 3.50 THEN class = {168.36} [74.58, 262.13], (p=11, n=3, P=36, N=59)
+2026-04-14 13:04:18,377 - INFO - Iteracja 3: condition_best: months <= 28.50, quality_best: 0.401, coverage_best: (p=10, n=3, P=36, N=59)
+2026-04-14 13:04:18,378 - INFO - Regula po iteracji 3: IF karnofsky >= 77.50 AND status = {1} AND months >= 3.50 AND months <= 28.50 THEN class = {172.85} [76.99, 268.70], (p=10, n=3, P=36, N=59)
+2026-04-14 13:04:18,380 - INFO - Iteracja 4: condition_best: age >= 37.50, quality_best: 0.386, coverage_best: (p=9, n=3, P=34, N=61)
+2026-04-14 13:04:18,380 - INFO - Regula po iteracji 4: IF karnofsky >= 77.50 AND status = {1} AND months >= 3.50 AND months <= 28.50 AND age >= 37.50 THEN class = {179.33} [82.35, 276.32], (p=9, n=3, P=34, N=61)
+2026-04-14 13:04:18,380 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,380 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,387 - INFO - Iteracja 0: condition_best: age <= 63.50, quality_best: 0.277, coverage_best: (p=59, n=5, P=84, N=11)
+2026-04-14 13:04:18,387 - INFO - Regula po iteracji 0: IF age <= 63.50 THEN class = {121.62} [-39.88, 283.13], (p=59, n=5, P=84, N=11)
+2026-04-14 13:04:18,393 - INFO - Iteracja 1: condition_best: age >= 52.50, quality_best: 0.361, coverage_best: (p=30, n=3, P=77, N=18)
+2026-04-14 13:04:18,393 - INFO - Regula po iteracji 1: IF age <= 63.50 AND age >= 52.50 THEN class = {104.88} [-11.23, 220.99], (p=30, n=3, P=77, N=18)
+2026-04-14 13:04:18,396 - INFO - Iteracja 2: condition_best: months <= 11.00, quality_best: 0.565, coverage_best: (p=27, n=1, P=75, N=20)
+2026-04-14 13:04:18,396 - INFO - Regula po iteracji 2: IF age <= 63.50 AND age >= 52.50 AND months <= 11.00 THEN class = {90.21} [-19.39, 199.82], (p=27, n=1, P=75, N=20)
+2026-04-14 13:04:18,399 - INFO - Iteracja 3: condition_best: status = {1}, quality_best: 0.545, coverage_best: (p=25, n=1, P=75, N=20)
+2026-04-14 13:04:18,399 - INFO - Regula po iteracji 3: IF age <= 63.50 AND age >= 52.50 AND months <= 11.00 AND status = {1} THEN class = {85.42} [-26.60, 197.44], (p=25, n=1, P=75, N=20)
+2026-04-14 13:04:18,402 - INFO - Iteracja 4: condition_best: karnofsky <= 85.00, quality_best: 0.535, coverage_best: (p=24, n=1, P=75, N=20)
+2026-04-14 13:04:18,402 - INFO - Regula po iteracji 4: IF age <= 63.50 AND age >= 52.50 AND months <= 11.00 AND status = {1} AND karnofsky <= 85.00 THEN class = {81.40} [-30.98, 193.78], (p=24, n=1, P=75, N=20)
+2026-04-14 13:04:18,402 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,402 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,412 - INFO - Iteracja 0: condition_best: age <= 63.50, quality_best: 0.277, coverage_best: (p=59, n=5, P=84, N=11)
+2026-04-14 13:04:18,412 - INFO - Regula po iteracji 0: IF age <= 63.50 THEN class = {121.62} [-39.88, 283.13], (p=59, n=5, P=84, N=11)
+2026-04-14 13:04:18,417 - INFO - Iteracja 1: condition_best: months <= 12.50, quality_best: 0.356, coverage_best: (p=49, n=3, P=85, N=10)
+2026-04-14 13:04:18,417 - INFO - Regula po iteracji 1: IF age <= 63.50 AND months <= 12.50 THEN class = {120.85} [-50.24, 291.94], (p=49, n=3, P=85, N=10)
+2026-04-14 13:04:18,422 - INFO - Iteracja 2: condition_best: karnofsky >= 25.00, quality_best: 0.345, coverage_best: (p=48, n=3, P=85, N=10)
+2026-04-14 13:04:18,422 - INFO - Regula po iteracji 2: IF age <= 63.50 AND months <= 12.50 AND karnofsky >= 25.00 THEN class = {123.02} [-49.03, 295.07], (p=48, n=3, P=85, N=10)
+2026-04-14 13:04:18,426 - INFO - Iteracja 3: condition_best: months >= 1.50, quality_best: 0.334, coverage_best: (p=47, n=3, P=85, N=10)
+2026-04-14 13:04:18,426 - INFO - Regula po iteracji 3: IF age <= 63.50 AND months <= 12.50 AND karnofsky >= 25.00 AND months >= 1.50 THEN class = {123.58} [-50.13, 297.29], (p=47, n=3, P=85, N=10)
+2026-04-14 13:04:18,431 - INFO - Iteracja 4: condition_best: age >= 34.50, quality_best: 0.322, coverage_best: (p=46, n=3, P=85, N=10)
+2026-04-14 13:04:18,431 - INFO - Regula po iteracji 4: IF age <= 63.50 AND months <= 12.50 AND karnofsky >= 25.00 AND months >= 1.50 AND age >= 34.50 THEN class = {124.16} [-51.26, 299.59], (p=46, n=3, P=85, N=10)
+2026-04-14 13:04:18,431 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,431 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,438 - INFO - Iteracja 0: condition_best: karnofsky <= 65.00, quality_best: 0.251, coverage_best: (p=47, n=8, P=75, N=20)
+2026-04-14 13:04:18,438 - INFO - Regula po iteracji 0: IF karnofsky <= 65.00 THEN class = {82.71} [-30.73, 196.15], (p=47, n=8, P=75, N=20)
+2026-04-14 13:04:18,444 - INFO - Iteracja 1: condition_best: age <= 67.50, quality_best: 0.304, coverage_best: (p=41, n=6, P=75, N=20)
+2026-04-14 13:04:18,444 - INFO - Regula po iteracji 1: IF karnofsky <= 65.00 AND age <= 67.50 THEN class = {79.38} [-30.36, 189.12], (p=41, n=6, P=75, N=20)
+2026-04-14 13:04:18,448 - INFO - Iteracja 2: condition_best: status = {1}, quality_best: 0.371, coverage_best: (p=39, n=5, P=74, N=21)
+2026-04-14 13:04:18,449 - INFO - Regula po iteracji 2: IF karnofsky <= 65.00 AND age <= 67.50 AND status = {1} THEN class = {74.55} [-36.21, 185.30], (p=39, n=5, P=74, N=21)
+2026-04-14 13:04:18,453 - INFO - Iteracja 3: condition_best: age >= 38.50, quality_best: 0.407, coverage_best: (p=36, n=4, P=74, N=21)
+2026-04-14 13:04:18,453 - INFO - Regula po iteracji 3: IF karnofsky <= 65.00 AND age <= 67.50 AND status = {1} AND age >= 38.50 THEN class = {72.47} [-40.42, 185.37], (p=36, n=4, P=74, N=21)
+2026-04-14 13:04:18,458 - INFO - Iteracja 4: condition_best: months >= 1.50, quality_best: 0.376, coverage_best: (p=35, n=4, P=75, N=20)
+2026-04-14 13:04:18,458 - INFO - Regula po iteracji 4: IF karnofsky <= 65.00 AND age <= 67.50 AND status = {1} AND age >= 38.50 AND months >= 1.50 THEN class = {73.03} [-41.25, 187.30], (p=35, n=4, P=75, N=20)
+2026-04-14 13:04:18,458 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,458 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,465 - INFO - Iteracja 0: condition_best: age >= 66.50, quality_best: 0.125, coverage_best: (p=15, n=3, P=75, N=20)
+2026-04-14 13:04:18,465 - INFO - Regula po iteracji 0: IF age >= 66.50 THEN class = {91.28} [-10.89, 193.44], (p=15, n=3, P=75, N=20)
+2026-04-14 13:04:18,468 - INFO - Iteracja 1: condition_best: months >= 1.50, quality_best: 0.258, coverage_best: (p=14, n=2, P=74, N=21)
+2026-04-14 13:04:18,468 - INFO - Regula po iteracji 1: IF age >= 66.50 AND months >= 1.50 THEN class = {84.38} [-16.49, 185.24], (p=14, n=2, P=74, N=21)
+2026-04-14 13:04:18,471 - INFO - Iteracja 2: condition_best: karnofsky >= 30.00, quality_best: 0.215, coverage_best: (p=13, n=2, P=75, N=20)
+2026-04-14 13:04:18,471 - INFO - Regula po iteracji 2: IF age >= 66.50 AND months >= 1.50 AND karnofsky >= 30.00 THEN class = {88.60} [-14.19, 191.39], (p=13, n=2, P=75, N=20)
+2026-04-14 13:04:18,473 - INFO - Iteracja 3: condition_best: age <= 71.00, quality_best: 0.186, coverage_best: (p=12, n=2, P=75, N=20)
+2026-04-14 13:04:18,474 - INFO - Regula po iteracji 3: IF age >= 66.50 AND months >= 1.50 AND karnofsky >= 30.00 AND age <= 71.00 THEN class = {94.43} [-9.55, 198.40], (p=12, n=2, P=75, N=20)
+2026-04-14 13:04:18,476 - INFO - Iteracja 4: condition_best: karnofsky >= 50.00, quality_best: 0.183, coverage_best: (p=5, n=3, P=42, N=53)
+2026-04-14 13:04:18,476 - INFO - Regula po iteracji 4: IF age >= 66.50 AND months >= 1.50 AND karnofsky >= 30.00 AND age <= 71.00 AND karnofsky >= 50.00 THEN class = {97.38} [27.97, 166.78], (p=5, n=3, P=42, N=53)
+2026-04-14 13:04:18,476 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,476 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,483 - INFO - Iteracja 0: condition_best: age <= 34.50, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,483 - INFO - Regula po iteracji 0: IF age <= 34.50 THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,483 - INFO - Iteracja 1: condition_best: treatment = {1}, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,484 - INFO - Regula po iteracji 1: IF age <= 34.50 AND treatment = {1} THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,484 - INFO - Iteracja 2: condition_best: celltype = {3}, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,484 - INFO - Regula po iteracji 2: IF age <= 34.50 AND treatment = {1} AND celltype = {3} THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,485 - INFO - Iteracja 3: condition_best: status = {1}, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,485 - INFO - Regula po iteracji 3: IF age <= 34.50 AND treatment = {1} AND celltype = {3} AND status = {1} THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,485 - INFO - Iteracja 4: condition_best: therapy = {0}, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,485 - INFO - Regula po iteracji 4: IF age <= 34.50 AND treatment = {1} AND celltype = {3} AND status = {1} AND therapy = {0} THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:18,485 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,494 - INFO - ************************Finished experiment for veteran.arff with algorithm_rer************************
+2026-04-14 13:04:18,494 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:18,494 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:18,494 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:18,495 - INFO - **********Starting experiment for veteran.arff with algorithm_rer_with_exceptions**********
+2026-04-14 13:04:18,501 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,511 - INFO - Iteracja 0: condition_best: karnofsky <= 45.00, quality_best: 0.575, coverage_best: (p=27, n=2, P=62, N=33)
+2026-04-14 13:04:18,511 - INFO - Regula po iteracji 0: IF karnofsky <= 45.00 THEN class = {40.24} [-31.44, 111.92], (p=27, n=2, P=62, N=33)
+2026-04-14 13:04:18,511 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,524 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,524 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,524 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,524 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,528 - INFO - Iteracja 1: condition_best: status = {1}, quality_best: 0.655, coverage_best: (p=27, n=1, P=60, N=35)
+2026-04-14 13:04:18,528 - INFO - Regula po iteracji 1: IF karnofsky <= 45.00 AND status = {1} THEN class = {37.29} [-33.91, 108.48], (p=27, n=1, P=60, N=35)
+2026-04-14 13:04:18,528 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,541 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,541 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,541 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,541 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,545 - INFO - Iteracja 2: condition_best: age <= 70.00, quality_best: 0.639, coverage_best: (p=26, n=1, P=61, N=34)
+2026-04-14 13:04:18,545 - INFO - Regula po iteracji 2: IF karnofsky <= 45.00 AND status = {1} AND age <= 70.00 THEN class = {37.89} [-34.54, 110.32], (p=26, n=1, P=61, N=34)
+2026-04-14 13:04:18,545 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,558 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,558 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,558 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,558 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,562 - INFO - Iteracja 3: condition_best: age >= 36.00, quality_best: 0.619, coverage_best: (p=25, n=1, P=63, N=32)
+2026-04-14 13:04:18,562 - INFO - Regula po iteracji 3: IF karnofsky <= 45.00 AND status = {1} AND age <= 70.00 AND age >= 36.00 THEN class = {39.19} [-34.30, 112.69], (p=25, n=1, P=63, N=32)
+2026-04-14 13:04:18,562 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,575 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,575 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,575 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,575 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,579 - INFO - Iteracja 4: condition_best: age >= 38.00, quality_best: 0.608, coverage_best: (p=24, n=1, P=63, N=32)
+2026-04-14 13:04:18,579 - INFO - Regula po iteracji 4: IF karnofsky <= 45.00 AND status = {1} AND age <= 70.00 AND age >= 36.00 AND age >= 38.00 THEN class = {38.80} [-36.13, 113.73], (p=24, n=1, P=63, N=32)
+2026-04-14 13:04:18,579 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,592 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,592 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,592 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,592 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,592 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,593 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,600 - INFO - Iteracja 0: condition_best: celltype = {2}, quality_best: 0.467, coverage_best: (p=29, n=3, P=69, N=26)
+2026-04-14 13:04:18,600 - INFO - Regula po iteracji 0: IF celltype = {2} THEN class = {62.81} [-19.93, 145.55], (p=29, n=3, P=69, N=26)
+2026-04-14 13:04:18,600 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,613 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,613 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,613 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,613 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,618 - INFO - Iteracja 1: condition_best: months <= 13.00, quality_best: 0.587, coverage_best: (p=24, n=1, P=67, N=28)
+2026-04-14 13:04:18,618 - INFO - Regula po iteracji 1: IF celltype = {2} AND months <= 13.00 THEN class = {52.60} [-23.42, 128.62], (p=24, n=1, P=67, N=28)
+2026-04-14 13:04:18,618 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,630 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,631 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,631 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,631 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,634 - INFO - Iteracja 2: condition_best: months <= 11.50, quality_best: 0.577, coverage_best: (p=23, n=1, P=67, N=28)
+2026-04-14 13:04:18,634 - INFO - Regula po iteracji 2: IF celltype = {2} AND months <= 13.00 AND months <= 11.50 THEN class = {52.46} [-25.12, 130.04], (p=23, n=1, P=67, N=28)
+2026-04-14 13:04:18,634 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,647 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,647 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,647 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,647 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,651 - INFO - Iteracja 3: condition_best: karnofsky <= 77.50, quality_best: 0.561, coverage_best: (p=22, n=1, P=68, N=27)
+2026-04-14 13:04:18,651 - INFO - Regula po iteracji 3: IF celltype = {2} AND months <= 13.00 AND months <= 11.50 AND karnofsky <= 77.50 THEN class = {54.39} [-24.29, 133.07], (p=22, n=1, P=68, N=27)
+2026-04-14 13:04:18,651 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,663 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,664 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,664 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,664 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,667 - INFO - Iteracja 4: condition_best: karnofsky <= 72.50, quality_best: 0.55, coverage_best: (p=21, n=1, P=68, N=27)
+2026-04-14 13:04:18,667 - INFO - Regula po iteracji 4: IF celltype = {2} AND months <= 13.00 AND months <= 11.50 AND karnofsky <= 77.50 AND karnofsky <= 72.50 THEN class = {55.45} [-24.83, 135.74], (p=21, n=1, P=68, N=27)
+2026-04-14 13:04:18,667 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,680 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,680 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,680 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,680 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,680 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,681 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,688 - INFO - Iteracja 0: condition_best: celltype = {2}, quality_best: 0.467, coverage_best: (p=29, n=3, P=69, N=26)
+2026-04-14 13:04:18,688 - INFO - Regula po iteracji 0: IF celltype = {2} THEN class = {62.81} [-19.93, 145.55], (p=29, n=3, P=69, N=26)
+2026-04-14 13:04:18,688 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,701 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,701 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,701 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,701 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,705 - INFO - Iteracja 1: condition_best: months <= 24.00, quality_best: 0.537, coverage_best: (p=27, n=2, P=67, N=28)
+2026-04-14 13:04:18,705 - INFO - Regula po iteracji 1: IF celltype = {2} AND months <= 24.00 THEN class = {55.14} [-19.12, 129.40], (p=27, n=2, P=67, N=28)
+2026-04-14 13:04:18,706 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,718 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,718 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,718 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,718 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,722 - INFO - Iteracja 2: condition_best: months <= 22.50, quality_best: 0.526, coverage_best: (p=26, n=2, P=67, N=28)
+2026-04-14 13:04:18,722 - INFO - Regula po iteracji 2: IF celltype = {2} AND months <= 24.00 AND months <= 22.50 THEN class = {56.75} [-18.32, 131.82], (p=26, n=2, P=67, N=28)
+2026-04-14 13:04:18,723 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,735 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,735 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,735 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,735 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,739 - INFO - Iteracja 3: condition_best: karnofsky >= 35.00, quality_best: 0.515, coverage_best: (p=19, n=1, P=70, N=25)
+2026-04-14 13:04:18,739 - INFO - Regula po iteracji 3: IF celltype = {2} AND months <= 24.00 AND months <= 22.50 AND karnofsky >= 35.00 THEN class = {70.75} [-13.61, 155.11], (p=19, n=1, P=70, N=25)
+2026-04-14 13:04:18,740 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,752 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,752 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,753 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,753 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,756 - INFO - Iteracja 4: condition_best: age <= 71.00, quality_best: 0.503, coverage_best: (p=18, n=1, P=70, N=25)
+2026-04-14 13:04:18,756 - INFO - Regula po iteracji 4: IF celltype = {2} AND months <= 24.00 AND months <= 22.50 AND karnofsky >= 35.00 AND age <= 71.00 THEN class = {74.11} [-11.14, 159.35], (p=18, n=1, P=70, N=25)
+2026-04-14 13:04:18,756 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,769 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,769 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,769 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,769 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,769 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,770 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,777 - INFO - Iteracja 0: condition_best: karnofsky <= 55.00, quality_best: 0.371, coverage_best: (p=32, n=5, P=69, N=26)
+2026-04-14 13:04:18,777 - INFO - Regula po iteracji 0: IF karnofsky <= 55.00 THEN class = {59.03} [-32.46, 150.51], (p=32, n=5, P=69, N=26)
+2026-04-14 13:04:18,777 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,789 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,789 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,790 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,790 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,794 - INFO - Iteracja 1: condition_best: months <= 15.50, quality_best: 0.478, coverage_best: (p=29, n=3, P=68, N=27)
+2026-04-14 13:04:18,795 - INFO - Regula po iteracji 1: IF karnofsky <= 55.00 AND months <= 15.50 THEN class = {51.75} [-31.59, 135.09], (p=29, n=3, P=68, N=27)
+2026-04-14 13:04:18,795 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,809 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,809 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,809 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,809 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,814 - INFO - Iteracja 2: condition_best: age <= 67.50, quality_best: 0.62, coverage_best: (p=23, n=2, P=48, N=47)
+2026-04-14 13:04:18,814 - INFO - Regula po iteracji 2: IF karnofsky <= 55.00 AND months <= 15.50 AND age <= 67.50 THEN class = {35.28} [-12.43, 82.99], (p=23, n=2, P=48, N=47)
+2026-04-14 13:04:18,814 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,827 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,827 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,827 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,827 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,831 - INFO - Iteracja 3: condition_best: months <= 14.00, quality_best: 0.6, coverage_best: (p=22, n=2, P=49, N=46)
+2026-04-14 13:04:18,831 - INFO - Regula po iteracji 3: IF karnofsky <= 55.00 AND months <= 15.50 AND age <= 67.50 AND months <= 14.00 THEN class = {36.00} [-12.56, 84.56], (p=22, n=2, P=49, N=46)
+2026-04-14 13:04:18,831 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,843 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,844 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,844 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,844 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,847 - INFO - Iteracja 4: condition_best: age <= 66.50, quality_best: 0.586, coverage_best: (p=21, n=2, P=49, N=46)
+2026-04-14 13:04:18,847 - INFO - Regula po iteracji 4: IF karnofsky <= 55.00 AND months <= 15.50 AND age <= 67.50 AND months <= 14.00 AND age <= 66.50 THEN class = {36.30} [-13.28, 85.89], (p=21, n=2, P=49, N=46)
+2026-04-14 13:04:18,848 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,860 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,860 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,861 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,861 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,861 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,861 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,868 - INFO - Iteracja 0: condition_best: age <= 39.50, quality_best: 0.296, coverage_best: (p=7, n=2, P=51, N=44)
+2026-04-14 13:04:18,868 - INFO - Regula po iteracji 0: IF age <= 39.50 THEN class = {82.89} [18.59, 147.19], (p=7, n=2, P=51, N=44)
+2026-04-14 13:04:18,868 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,881 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,881 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,881 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,881 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,883 - INFO - Iteracja 1: condition_best: karnofsky >= 50.00, quality_best: 0.301, coverage_best: (p=4, n=2, P=28, N=67)
+2026-04-14 13:04:18,883 - INFO - Regula po iteracji 1: IF age <= 39.50 AND karnofsky >= 50.00 THEN class = {112.33} [53.80, 170.86], (p=4, n=2, P=28, N=67)
+2026-04-14 13:04:18,884 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,896 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,896 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,897 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,897 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,898 - INFO - Iteracja 2: condition_best: status = {1}, quality_best: 0.205, coverage_best: (p=3, n=2, P=34, N=61)
+2026-04-14 13:04:18,898 - INFO - Regula po iteracji 2: IF age <= 39.50 AND karnofsky >= 50.00 AND status = {1} THEN class = {114.20} [50.25, 178.15], (p=3, n=2, P=34, N=61)
+2026-04-14 13:04:18,899 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,911 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,912 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,912 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,912 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,913 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 13:04:18,913 - INFO - Regula po iteracji 3: IF age <= 39.50 AND karnofsky >= 50.00 AND status = {1} THEN class = {114.20} [50.25, 178.15], (p=3, n=2, P=34, N=61)
+2026-04-14 13:04:18,913 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,914 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:18,921 - INFO - Iteracja 0: condition_best: karnofsky >= 77.50, quality_best: 0.295, coverage_best: (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:18,921 - INFO - Regula po iteracji 0: IF karnofsky >= 77.50 THEN class = {162.74} [48.61, 276.87], (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:18,921 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,933 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,933 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,934 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,934 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,937 - INFO - Iteracja 1: condition_best: age <= 63.00, quality_best: 0.391, coverage_best: (p=12, n=5, P=31, N=64)
+2026-04-14 13:04:18,937 - INFO - Regula po iteracji 1: IF karnofsky >= 77.50 AND age <= 63.00 THEN class = {137.35} [65.30, 209.40], (p=12, n=5, P=31, N=64)
+2026-04-14 13:04:18,937 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,950 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,950 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,950 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,950 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,953 - INFO - Iteracja 2: condition_best: age >= 46.50, quality_best: 0.471, coverage_best: (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:18,953 - INFO - Regula po iteracji 2: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 THEN class = {143.27} [76.70, 209.85], (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:18,953 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,966 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,966 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,966 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,966 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,968 - INFO - Iteracja 3: condition_best: status = {1}, quality_best: 0.452, coverage_best: (p=6, n=2, P=19, N=76)
+2026-04-14 13:04:18,968 - INFO - Regula po iteracji 3: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 AND status = {1} THEN class = {160.25} [101.30, 219.20], (p=6, n=2, P=19, N=76)
+2026-04-14 13:04:18,968 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,981 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,981 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,981 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,981 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,983 - INFO - Iteracja 4: condition_best: therapy = {0}, quality_best: 0.516, coverage_best: (p=5, n=1, P=17, N=78)
+2026-04-14 13:04:18,983 - INFO - Regula po iteracji 4: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 AND status = {1} AND therapy = {0} THEN class = {166.17} [108.27, 224.06], (p=5, n=1, P=17, N=78)
+2026-04-14 13:04:18,983 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:18,996 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:18,996 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:18,996 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:18,996 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:18,996 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:18,997 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:19,004 - INFO - Iteracja 0: condition_best: karnofsky >= 77.50, quality_best: 0.295, coverage_best: (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:19,004 - INFO - Regula po iteracji 0: IF karnofsky >= 77.50 THEN class = {162.74} [48.61, 276.87], (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:19,004 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,016 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,016 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,017 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,017 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,020 - INFO - Iteracja 1: condition_best: age <= 63.00, quality_best: 0.391, coverage_best: (p=12, n=5, P=31, N=64)
+2026-04-14 13:04:19,020 - INFO - Regula po iteracji 1: IF karnofsky >= 77.50 AND age <= 63.00 THEN class = {137.35} [65.30, 209.40], (p=12, n=5, P=31, N=64)
+2026-04-14 13:04:19,020 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,033 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,033 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,033 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,033 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,035 - INFO - Iteracja 2: condition_best: age >= 46.50, quality_best: 0.471, coverage_best: (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:19,035 - INFO - Regula po iteracji 2: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 THEN class = {143.27} [76.70, 209.85], (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:19,036 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,048 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,048 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,049 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,049 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,051 - INFO - Iteracja 3: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0)
+2026-04-14 13:04:19,051 - INFO - Regula po iteracji 3: IF karnofsky >= 77.50 AND age <= 63.00 AND age >= 46.50 THEN class = {143.27} [76.70, 209.85], (p=9, n=2, P=31, N=64)
+2026-04-14 13:04:19,051 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:19,051 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:19,058 - INFO - Iteracja 0: condition_best: karnofsky >= 77.50, quality_best: 0.295, coverage_best: (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:19,058 - INFO - Regula po iteracji 0: IF karnofsky >= 77.50 THEN class = {162.74} [48.61, 276.87], (p=16, n=7, P=44, N=51)
+2026-04-14 13:04:19,058 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,071 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,071 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,071 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,071 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,074 - INFO - Iteracja 1: condition_best: status = {1}, quality_best: 0.383, coverage_best: (p=15, n=5, P=41, N=54)
+2026-04-14 13:04:19,074 - INFO - Regula po iteracji 1: IF karnofsky >= 77.50 AND status = {1} THEN class = {172.45} [55.70, 289.20], (p=15, n=5, P=41, N=54)
+2026-04-14 13:04:19,074 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,087 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,087 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,087 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,087 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,090 - INFO - Iteracja 2: condition_best: months >= 3.50, quality_best: 0.428, coverage_best: (p=11, n=3, P=36, N=59)
+2026-04-14 13:04:19,090 - INFO - Regula po iteracji 2: IF karnofsky >= 77.50 AND status = {1} AND months >= 3.50 THEN class = {168.36} [74.58, 262.13], (p=11, n=3, P=36, N=59)
+2026-04-14 13:04:19,090 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,103 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,103 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,103 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,103 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,106 - INFO - Iteracja 3: condition_best: months <= 28.50, quality_best: 0.401, coverage_best: (p=10, n=3, P=36, N=59)
+2026-04-14 13:04:19,106 - INFO - Regula po iteracji 3: IF karnofsky >= 77.50 AND status = {1} AND months >= 3.50 AND months <= 28.50 THEN class = {172.85} [76.99, 268.70], (p=10, n=3, P=36, N=59)
+2026-04-14 13:04:19,106 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,122 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,122 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,122 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,122 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,125 - INFO - Iteracja 4: condition_best: age >= 37.50, quality_best: 0.386, coverage_best: (p=9, n=3, P=34, N=61)
+2026-04-14 13:04:19,125 - INFO - Regula po iteracji 4: IF karnofsky >= 77.50 AND status = {1} AND months >= 3.50 AND months <= 28.50 AND age >= 37.50 THEN class = {179.33} [82.35, 276.32], (p=9, n=3, P=34, N=61)
+2026-04-14 13:04:19,125 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,138 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,138 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,138 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,138 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,138 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:19,139 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:19,145 - INFO - Iteracja 0: condition_best: age <= 63.50, quality_best: 0.277, coverage_best: (p=59, n=5, P=84, N=11)
+2026-04-14 13:04:19,145 - INFO - Regula po iteracji 0: IF age <= 63.50 THEN class = {121.62} [-39.88, 283.13], (p=59, n=5, P=84, N=11)
+2026-04-14 13:04:19,146 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,158 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,158 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,158 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,158 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,164 - INFO - Iteracja 1: condition_best: age >= 52.50, quality_best: 0.361, coverage_best: (p=30, n=3, P=77, N=18)
+2026-04-14 13:04:19,164 - INFO - Regula po iteracji 1: IF age <= 63.50 AND age >= 52.50 THEN class = {104.88} [-11.23, 220.99], (p=30, n=3, P=77, N=18)
+2026-04-14 13:04:19,164 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,177 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,177 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,177 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,177 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,180 - INFO - Iteracja 2: condition_best: months <= 11.00, quality_best: 0.565, coverage_best: (p=27, n=1, P=75, N=20)
+2026-04-14 13:04:19,180 - INFO - Regula po iteracji 2: IF age <= 63.50 AND age >= 52.50 AND months <= 11.00 THEN class = {90.21} [-19.39, 199.82], (p=27, n=1, P=75, N=20)
+2026-04-14 13:04:19,181 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,194 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,194 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,194 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,194 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,197 - INFO - Iteracja 3: condition_best: status = {1}, quality_best: 0.545, coverage_best: (p=25, n=1, P=75, N=20)
+2026-04-14 13:04:19,197 - INFO - Regula po iteracji 3: IF age <= 63.50 AND age >= 52.50 AND months <= 11.00 AND status = {1} THEN class = {85.42} [-26.60, 197.44], (p=25, n=1, P=75, N=20)
+2026-04-14 13:04:19,197 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,210 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,210 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,210 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,210 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,213 - INFO - Iteracja 4: condition_best: karnofsky <= 85.00, quality_best: 0.535, coverage_best: (p=24, n=1, P=75, N=20)
+2026-04-14 13:04:19,213 - INFO - Regula po iteracji 4: IF age <= 63.50 AND age >= 52.50 AND months <= 11.00 AND status = {1} AND karnofsky <= 85.00 THEN class = {81.40} [-30.98, 193.78], (p=24, n=1, P=75, N=20)
+2026-04-14 13:04:19,213 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,226 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,226 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,226 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,226 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,226 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:19,227 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:19,233 - INFO - Iteracja 0: condition_best: age <= 63.50, quality_best: 0.277, coverage_best: (p=59, n=5, P=84, N=11)
+2026-04-14 13:04:19,233 - INFO - Regula po iteracji 0: IF age <= 63.50 THEN class = {121.62} [-39.88, 283.13], (p=59, n=5, P=84, N=11)
+2026-04-14 13:04:19,234 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,246 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,246 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,246 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,246 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,252 - INFO - Iteracja 1: condition_best: months <= 12.50, quality_best: 0.356, coverage_best: (p=49, n=3, P=85, N=10)
+2026-04-14 13:04:19,252 - INFO - Regula po iteracji 1: IF age <= 63.50 AND months <= 12.50 THEN class = {120.85} [-50.24, 291.94], (p=49, n=3, P=85, N=10)
+2026-04-14 13:04:19,252 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,265 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,265 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,265 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,265 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,269 - INFO - Iteracja 2: condition_best: karnofsky >= 25.00, quality_best: 0.345, coverage_best: (p=48, n=3, P=85, N=10)
+2026-04-14 13:04:19,269 - INFO - Regula po iteracji 2: IF age <= 63.50 AND months <= 12.50 AND karnofsky >= 25.00 THEN class = {123.02} [-49.03, 295.07], (p=48, n=3, P=85, N=10)
+2026-04-14 13:04:19,270 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,282 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,282 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,282 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,283 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,287 - INFO - Iteracja 3: condition_best: months >= 1.50, quality_best: 0.334, coverage_best: (p=47, n=3, P=85, N=10)
+2026-04-14 13:04:19,287 - INFO - Regula po iteracji 3: IF age <= 63.50 AND months <= 12.50 AND karnofsky >= 25.00 AND months >= 1.50 THEN class = {123.58} [-50.13, 297.29], (p=47, n=3, P=85, N=10)
+2026-04-14 13:04:19,287 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,300 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,300 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,300 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,300 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,305 - INFO - Iteracja 4: condition_best: age >= 34.50, quality_best: 0.322, coverage_best: (p=46, n=3, P=85, N=10)
+2026-04-14 13:04:19,305 - INFO - Regula po iteracji 4: IF age <= 63.50 AND months <= 12.50 AND karnofsky >= 25.00 AND months >= 1.50 AND age >= 34.50 THEN class = {124.16} [-51.26, 299.59], (p=46, n=3, P=85, N=10)
+2026-04-14 13:04:19,305 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,318 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,318 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,318 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,318 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,318 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:19,318 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:19,325 - INFO - Iteracja 0: condition_best: karnofsky <= 65.00, quality_best: 0.251, coverage_best: (p=47, n=8, P=75, N=20)
+2026-04-14 13:04:19,325 - INFO - Regula po iteracji 0: IF karnofsky <= 65.00 THEN class = {82.71} [-30.73, 196.15], (p=47, n=8, P=75, N=20)
+2026-04-14 13:04:19,325 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,338 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,338 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,338 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,338 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,343 - INFO - Iteracja 1: condition_best: age <= 67.50, quality_best: 0.304, coverage_best: (p=41, n=6, P=75, N=20)
+2026-04-14 13:04:19,344 - INFO - Regula po iteracji 1: IF karnofsky <= 65.00 AND age <= 67.50 THEN class = {79.38} [-30.36, 189.12], (p=41, n=6, P=75, N=20)
+2026-04-14 13:04:19,344 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,356 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,356 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,357 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,357 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,361 - INFO - Iteracja 2: condition_best: status = {1}, quality_best: 0.371, coverage_best: (p=39, n=5, P=74, N=21)
+2026-04-14 13:04:19,362 - INFO - Regula po iteracji 2: IF karnofsky <= 65.00 AND age <= 67.50 AND status = {1} THEN class = {74.55} [-36.21, 185.30], (p=39, n=5, P=74, N=21)
+2026-04-14 13:04:19,362 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,374 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,375 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,375 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,375 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,379 - INFO - Iteracja 3: condition_best: age >= 38.50, quality_best: 0.407, coverage_best: (p=36, n=4, P=74, N=21)
+2026-04-14 13:04:19,380 - INFO - Regula po iteracji 3: IF karnofsky <= 65.00 AND age <= 67.50 AND status = {1} AND age >= 38.50 THEN class = {72.47} [-40.42, 185.37], (p=36, n=4, P=74, N=21)
+2026-04-14 13:04:19,380 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,392 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,393 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,393 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,393 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,397 - INFO - Iteracja 4: condition_best: months >= 1.50, quality_best: 0.376, coverage_best: (p=35, n=4, P=75, N=20)
+2026-04-14 13:04:19,397 - INFO - Regula po iteracji 4: IF karnofsky <= 65.00 AND age <= 67.50 AND status = {1} AND age >= 38.50 AND months >= 1.50 THEN class = {73.03} [-41.25, 187.30], (p=35, n=4, P=75, N=20)
+2026-04-14 13:04:19,398 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,410 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,410 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,411 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,411 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,411 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:19,411 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:19,418 - INFO - Iteracja 0: condition_best: age >= 66.50, quality_best: 0.125, coverage_best: (p=15, n=3, P=75, N=20)
+2026-04-14 13:04:19,418 - INFO - Regula po iteracji 0: IF age >= 66.50 THEN class = {91.28} [-10.89, 193.44], (p=15, n=3, P=75, N=20)
+2026-04-14 13:04:19,418 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,430 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,431 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,431 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,431 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,434 - INFO - Iteracja 1: condition_best: months >= 1.50, quality_best: 0.258, coverage_best: (p=14, n=2, P=74, N=21)
+2026-04-14 13:04:19,434 - INFO - Regula po iteracji 1: IF age >= 66.50 AND months >= 1.50 THEN class = {84.38} [-16.49, 185.24], (p=14, n=2, P=74, N=21)
+2026-04-14 13:04:19,434 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,447 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,447 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,447 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,447 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,450 - INFO - Iteracja 2: condition_best: karnofsky >= 30.00, quality_best: 0.215, coverage_best: (p=13, n=2, P=75, N=20)
+2026-04-14 13:04:19,450 - INFO - Regula po iteracji 2: IF age >= 66.50 AND months >= 1.50 AND karnofsky >= 30.00 THEN class = {88.60} [-14.19, 191.39], (p=13, n=2, P=75, N=20)
+2026-04-14 13:04:19,450 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,462 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,463 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,463 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,463 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,465 - INFO - Iteracja 3: condition_best: age <= 71.00, quality_best: 0.186, coverage_best: (p=12, n=2, P=75, N=20)
+2026-04-14 13:04:19,465 - INFO - Regula po iteracji 3: IF age >= 66.50 AND months >= 1.50 AND karnofsky >= 30.00 AND age <= 71.00 THEN class = {94.43} [-9.55, 198.40], (p=12, n=2, P=75, N=20)
+2026-04-14 13:04:19,466 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,478 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,478 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,478 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,479 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,481 - INFO - Iteracja 4: condition_best: karnofsky >= 50.00, quality_best: 0.183, coverage_best: (p=5, n=3, P=42, N=53)
+2026-04-14 13:04:19,481 - INFO - Regula po iteracji 4: IF age >= 66.50 AND months >= 1.50 AND karnofsky >= 30.00 AND age <= 71.00 AND karnofsky >= 50.00 THEN class = {97.38} [27.97, 166.78], (p=5, n=3, P=42, N=53)
+2026-04-14 13:04:19,481 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,494 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,494 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,494 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,494 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,494 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:19,495 - INFO - *******GROWING CR RULE*******
+2026-04-14 13:04:19,501 - INFO - Iteracja 0: condition_best: age <= 34.50, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,501 - INFO - Regula po iteracji 0: IF age <= 34.50 THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,501 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,514 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,514 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,514 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,514 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,515 - INFO - Iteracja 1: condition_best: treatment = {1}, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,515 - INFO - Regula po iteracji 1: IF age <= 34.50 AND treatment = {1} THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,515 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,528 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,528 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,528 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,528 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,529 - INFO - Iteracja 2: condition_best: celltype = {3}, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,529 - INFO - Regula po iteracji 2: IF age <= 34.50 AND treatment = {1} AND celltype = {3} THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,529 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,542 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,542 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,542 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,542 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,542 - INFO - Iteracja 3: condition_best: status = {1}, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,542 - INFO - Regula po iteracji 3: IF age <= 34.50 AND treatment = {1} AND celltype = {3} AND status = {1} THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,543 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,555 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,556 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,556 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,556 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,556 - INFO - Iteracja 4: condition_best: therapy = {0}, quality_best: 0.75, coverage_best: (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,556 - INFO - Regula po iteracji 4: IF age <= 34.50 AND treatment = {1} AND celltype = {3} AND status = {1} AND therapy = {0} THEN class = {95.00} [95.00, 95.00], (p=1, n=0, P=2, N=93)
+2026-04-14 13:04:19,557 - INFO - *****GROWING RR RULE*****
+2026-04-14 13:04:19,569 - INFO - Iteracja 0: condition_best: None, quality_best: -inf, coverage_best: (p=0, n=0, P=0, N=0), p_value: 0
+2026-04-14 13:04:19,569 - INFO - Regula po iteracji 0: IF  THEN class = {124.16} [-30.37, 278.69], (p=83, n=12, P=83, N=12)
+2026-04-14 13:04:19,570 - INFO - *****STOP GROWING RR RULE*****
+2026-04-14 13:04:19,570 - INFO - ***RR NOT FOUND***
+2026-04-14 13:04:19,570 - INFO - *******STOP GROWING CR RULE*******
+2026-04-14 13:04:19,578 - INFO - ************************Finished experiment for veteran.arff with algorithm_rer_with_exceptions************************
+2026-04-14 13:04:19,578 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:19,578 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:19,578 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:19,578 - INFO - **********Starting experiment for veteran.arff with decision_tree**********
+2026-04-14 13:04:19,599 - INFO - ************************Finished experiment for veteran.arff with decision_tree************************
+2026-04-14 13:04:19,599 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:19,599 - INFO - *************************************************************************************************************************
+2026-04-14 13:04:19,599 - INFO - *************************************************************************************************************************

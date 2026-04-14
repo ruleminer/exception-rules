@@ -1,0 +1,18 @@
+
+CR 0: IF Horsepower <= 91.00 AND Type = {Small} AND Air_Bags_standard = {0} AND Manual_transmission_available = {1} AND Domestic = {0} THEN class = {8.81} [7.91, 9.72] (p=6, n=1, P=6, N=59)
+
+CR 1: IF Weight <= 2,890.00 AND Manual_transmission_available = {1} AND City_MPG <= 44.00 AND City_MPG <= 40.50 AND Engine_size <= 2.25 THEN class = {11.92} [7.37, 16.47] (p=17, n=1, P=27, N=38)
+
+CR 2: IF Fuel_tank_capacity <= 15.65 AND City_MPG <= 44.00 AND Manual_transmission_available = {1} AND Highway_MPG >= 27.00 AND Luggage_capacity <= 17.00 THEN class = {12.46} [6.88, 18.04] (p=16, n=1, P=31, N=34)
+
+CR 3: IF Engine_size >= 2.90 AND Weight <= 3,930.00 THEN class = {24.67} [14.34, 35.00] (p=20, n=1, P=41, N=24)
+RR 3: IF Domestic = {0} THEN class = {20.62} [8.36, 32.89] (p=27, n=6, P=56, N=9)
+ER 3: IF Engine_size >= 2.90 AND Weight <= 3,930.00 AND Domestic = {0} THEN class = {41.27} [26.48, 56.05] (p=2, n=1, P=13, N=52)
+
+CR 4: IF Engine_size >= 2.90 AND Highway_MPG <= 29.00 AND Horsepower <= 289.00 AND Length >= 176.00 AND Length >= 180.00 THEN class = {26.08} [14.61, 37.55] (p=20, n=2, P=41, N=24)
+
+CR 5: IF Weight >= 3,035.00 AND Length <= 213.00 AND Engine_revolutions_per_mile <= 2,525.00 AND RPM >= 3,900.00 AND Weight <= 3,795.00 THEN class = {24.88} [15.00, 34.75] (p=22, n=1, P=39, N=26)
+
+CR 6: IF Weight >= 3,007.50 AND Length <= 209.00 AND City_MPG >= 15.50 AND RPM >= 3,950.00 AND Length >= 176.00 THEN class = {25.38} [15.03, 35.72] (p=26, n=3, P=39, N=26)
+
+CR 7: IF Weight >= 2,890.00 AND Luggage_capacity <= 15.50 AND Length <= 194.50 AND City_MPG <= 25.50 AND Horsepower <= 277.50 THEN class = {23.21} [12.77, 33.66] (p=19, n=1, P=42, N=23)

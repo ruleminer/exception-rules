@@ -1,0 +1,150 @@
+
+CR 0: IF Coarse Aggregate <= 812.50 AND Cement >= 328.25 THEN class = {44.22} [38.01, 50.42] (p=4, n=1, P=162, N=559)
+
+CR 1: IF Coarse Aggregate >= 1,129.65 AND Age <= 73.50 THEN class = {46.41} [37.12, 55.70] (p=4, n=1, P=235, N=486)
+
+CR 2: IF Age >= 95.50 THEN class = {45.73} [36.34, 55.12] (p=60, n=21, P=240, N=481)
+RR 2: IF Coarse Aggregate >= 1,107.80 THEN class = {40.64} [21.32, 59.96] (p=21, n=16, P=509, N=212)
+ER 2: IF Age >= 95.50 AND Coarse Aggregate >= 1,107.80 THEN class = {63.56} [55.13, 71.99] (p=2, n=2, P=83, N=638)
+
+CR 3: IF Fine Aggregate <= 599.50 AND Age >= 17.50 AND Cement <= 403.75 AND Age <= 317.50 AND Age <= 135.00 THEN class = {35.59} [31.94, 39.23] (p=3, n=2, P=129, N=592)
+
+CR 4: IF Blast Furnace Slag >= 310.70 THEN class = {32.84} [25.20, 40.48] (p=4, n=1, P=247, N=474)
+
+CR 5: IF Age >= 90.50 THEN class = {50.00} [37.13, 62.88] (p=72, n=27, P=277, N=444)
+RR 5: IF Superplasticizer >= 9.89 THEN class = {45.20} [27.46, 62.93] (p=129, n=68, P=424, N=297)
+ER 5: IF Age >= 90.50 AND Superplasticizer >= 9.89 THEN class = {64.02} [53.65, 74.40] (p=15, n=9, P=103, N=618)
+
+CR 6: IF Cement >= 535.65 AND Age >= 5.00 AND Age <= 180.00 THEN class = {66.29} [57.28, 75.31] (p=3, n=2, P=68, N=653)
+
+CR 7: IF Age <= 5.00 THEN class = {18.56} [8.88, 28.25] (p=62, n=28, P=235, N=486)
+RR 7: IF Cement <= 127.30 THEN class = {17.49} [7.36, 27.63] (p=9, n=5, P=236, N=485)
+ER 7: IF Age <= 5.00 AND Cement <= 127.30 THEN class = {2.83} [2.33, 3.32] (p=0, n=2, P=0, N=721)
+
+CR 8: IF Coarse Aggregate <= 838.20 AND Fly Ash >= 132.30 AND Blast Furnace Slag >= 85.00 AND Water <= 203.10 THEN class = {31.40} [29.79, 33.00] (p=4, n=1, P=47, N=674)
+
+CR 9: IF Coarse Aggregate <= 838.20 AND Blast Furnace Slag >= 169.80 AND Cement >= 143.85 AND Cement >= 144.95 AND Coarse Aggregate >= 821.00 THEN class = {39.06} [27.86, 50.27] (p=6, n=1, P=325, N=396)
+
+CR 10: IF Coarse Aggregate <= 838.20 AND Superplasticizer >= 8.23 AND Water >= 175.20 AND Cement >= 151.85 AND Blast Furnace Slag <= 210.50 THEN class = {39.22} [30.08, 48.37] (p=10, n=1, P=277, N=444)
+
+CR 11: IF Coarse Aggregate <= 838.20 AND Superplasticizer <= 6.50 AND Age >= 5.00 AND Blast Furnace Slag <= 230.25 AND Blast Furnace Slag <= 173.00 THEN class = {41.62} [32.29, 50.94] (p=3, n=2, P=267, N=454)
+
+CR 12: IF Age >= 73.00 THEN class = {47.22} [34.26, 60.17] (p=98, n=42, P=299, N=422)
+RR 12: IF Superplasticizer >= 8.91 THEN class = {43.87} [26.08, 61.66] (p=160, n=86, P=438, N=283)
+ER 12: IF Age >= 73.00 AND Superplasticizer >= 8.91 THEN class = {61.71} [50.35, 73.07] (p=19, n=11, P=130, N=591)
+
+CR 13: IF Cement >= 518.00 AND Age >= 21.00 AND Fine Aggregate <= 894.85 AND Cement <= 535.65 AND Age <= 225.00 THEN class = {57.69} [54.72, 60.65] (p=7, n=2, P=46, N=675)
+
+CR 14: IF Cement >= 518.00 AND Cement <= 535.65 AND Age <= 225.00 AND Age >= 5.00 AND Age <= 73.00 THEN class = {54.77} [46.51, 63.03] (p=9, n=2, P=124, N=597)
+
+CR 15: IF Age <= 10.50 THEN class = {21.94} [9.18, 34.69] (p=123, n=50, P=339, N=382)
+RR 15: IF Cement <= 127.30 THEN class = {17.49} [7.36, 27.63] (p=9, n=5, P=236, N=485)
+ER 15: IF Age <= 10.50 AND Cement <= 127.30 THEN class = {6.92} [3.83, 10.00] (p=2, n=4, P=27, N=694)
+
+CR 16: IF Superplasticizer >= 15.95 AND Fine Aggregate >= 865.80 AND Cement <= 478.15 AND Age >= 5.00 AND Age >= 17.50 THEN class = {63.05} [60.93, 65.18] (p=3, n=6, P=15, N=706)
+
+CR 17: IF Superplasticizer >= 15.95 AND Cement >= 382.45 AND Age >= 17.50 AND Fly Ash <= 79.00 AND Age <= 73.50 THEN class = {64.24} [58.28, 70.21] (p=9, n=2, P=53, N=668)
+
+CR 18: IF Superplasticizer >= 15.95 AND Cement <= 156.90 THEN class = {19.72} [11.29, 28.16] (p=4, n=1, P=216, N=505)
+
+CR 19: IF Age >= 42.00 AND Coarse Aggregate <= 883.45 AND Superplasticizer <= 30.20 AND Coarse Aggregate >= 832.00 AND Cement <= 511.15 THEN class = {62.97} [56.05, 69.88] (p=11, n=4, P=69, N=652)
+
+CR 20: IF Age >= 42.00 AND Superplasticizer >= 11.61 AND Cement >= 250.45 AND Blast Furnace Slag <= 170.10 AND Age <= 95.50 THEN class = {59.42} [53.37, 65.47] (p=17, n=3, P=76, N=645)
+
+CR 21: IF Age >= 42.00 AND Water <= 158.22 AND Cement >= 214.32 AND Age <= 95.50 AND Fine Aggregate >= 768.19 THEN class = {61.14} [53.13, 69.16] (p=18, n=6, P=93, N=628)
+
+CR 22: IF Age >= 42.00 AND Superplasticizer >= 7.78 AND Blast Furnace Slag >= 140.55 AND Blast Furnace Slag <= 272.50 AND Cement <= 414.45 THEN class = {71.55} [63.29, 79.82] (p=16, n=4, P=51, N=670)
+
+CR 23: IF Age >= 42.00 AND Superplasticizer >= 7.78 AND Cement <= 186.19 AND Cement <= 177.93 AND Age <= 78.00 THEN class = {49.41} [44.01, 54.81] (p=4, n=1, P=102, N=619)
+
+CR 24: IF Age >= 42.00 AND Superplasticizer >= 7.78 AND Cement >= 214.32 AND Age <= 95.50 AND Water >= 158.00 THEN class = {66.98} [54.45, 79.50] (p=20, n=4, P=107, N=614)
+
+CR 25: IF Age >= 42.00 AND Superplasticizer >= 7.78 AND Water <= 179.55 AND Water >= 146.77 AND Water >= 149.40 THEN class = {57.34} [46.07, 68.60] (p=48, n=19, P=156, N=565)
+
+CR 26: IF Age >= 42.00 AND Water <= 179.47 AND Coarse Aggregate <= 1,078.85 AND Superplasticizer >= 4.31 AND Water >= 149.40 THEN class = {56.05} [44.00, 68.11] (p=52, n=19, P=179, N=542)
+
+CR 27: IF Age >= 42.00 AND Water <= 189.14 AND Cement <= 535.65 AND Superplasticizer <= 30.20 AND Water >= 124.17 THEN class = {55.41} [42.46, 68.37] (p=76, n=33, P=200, N=521)
+
+CR 28: IF Age >= 42.00 AND Coarse Aggregate >= 926.75 THEN class = {47.53} [34.49, 60.57] (p=129, n=49, P=302, N=419)
+RR 28: IF Superplasticizer >= 10.87 THEN class = {45.52} [27.22, 63.82] (p=103, n=60, P=428, N=293)
+ER 28: IF Age >= 42.00 AND Coarse Aggregate >= 926.75 AND Superplasticizer >= 10.87 THEN class = {63.95} [50.66, 77.24] (p=15, n=15, P=132, N=589)
+
+CR 29: IF Age <= 21.00 THEN class = {23.06} [10.89, 35.24] (p=146, n=68, P=327, N=394)
+RR 29: IF Cement <= 158.60 THEN class = {23.03} [12.98, 33.09] (p=59, n=35, P=272, N=449)
+ER 29: IF Age <= 21.00 AND Cement <= 158.60 THEN class = {7.53} [4.93, 10.12] (p=7, n=5, P=26, N=695)
+
+CR 30: IF Cement <= 153.05 AND Blast Furnace Slag <= 58.50 AND Fly Ash >= 151.30 AND Cement >= 139.30 AND Cement >= 143.80 THEN class = {14.36} [12.68, 16.04] (p=7, n=1, P=45, N=676)
+
+CR 31: IF Cement <= 153.05 AND Blast Furnace Slag <= 157.30 THEN class = {19.07} [11.53, 26.60] (p=25, n=7, P=191, N=530)
+RR 31: IF Age <= 10.50 THEN class = {21.94} [9.18, 34.69] (p=123, n=50, P=339, N=382)
+ER 31: IF Cement <= 153.05 AND Blast Furnace Slag <= 157.30 AND Age <= 10.50 THEN class = {6.94} [5.39, 8.50] (p=2, n=1, P=12, N=709)
+
+CR 32: IF Cement <= 153.05 AND Blast Furnace Slag >= 209.70 AND Water >= 173.90 AND Age <= 59.00 AND Water >= 174.90 THEN class = {28.76} [21.95, 35.56] (p=8, n=1, P=215, N=506)
+
+CR 33: IF Cement <= 153.05 AND Blast Furnace Slag <= 172.80 THEN class = {20.94} [11.82, 30.06] (p=34, n=10, P=239, N=482)
+RR 33: IF Age <= 10.50 THEN class = {21.94} [9.18, 34.69] (p=123, n=50, P=339, N=382)
+ER 33: IF Cement <= 153.05 AND Blast Furnace Slag <= 172.80 AND Age <= 10.50 THEN class = {6.18} [3.89, 8.47] (p=4, n=1, P=13, N=708)
+
+CR 34: IF Cement <= 153.05 AND Coarse Aggregate >= 975.40 THEN class = {20.81} [11.89, 29.73] (p=17, n=5, P=235, N=486)
+RR 34: IF Age <= 10.50 THEN class = {21.94} [9.18, 34.69] (p=123, n=50, P=339, N=382)
+ER 34: IF Cement <= 153.05 AND Coarse Aggregate >= 975.40 AND Age <= 10.50 THEN class = {7.79} [7.51, 8.06] (p=2, n=0, P=6, N=715)
+
+CR 35: IF Cement <= 153.05 AND Blast Furnace Slag <= 206.75 THEN class = {21.55} [12.07, 31.04] (p=42, n=18, P=246, N=475)
+RR 35: IF Age <= 21.00 THEN class = {23.06} [10.89, 35.24] (p=146, n=68, P=327, N=394)
+ER 35: IF Cement <= 153.05 AND Blast Furnace Slag <= 206.75 AND Age <= 21.00 THEN class = {6.91} [4.24, 9.58] (p=5, n=4, P=20, N=701)
+
+CR 36: IF Fly Ash >= 174.49 AND Age >= 21.00 AND Cement >= 143.80 AND Superplasticizer <= 17.00 AND Fine Aggregate <= 876.50 THEN class = {20.96} [8.53, 33.39] (p=12, n=2, P=317, N=404)
+
+CR 37: IF Cement >= 424.50 AND Water <= 163.50 AND Age >= 17.50 AND Superplasticizer >= 8.88 AND Age <= 73.50 THEN class = {58.92} [52.88, 64.97] (p=13, n=4, P=75, N=646)
+
+CR 38: IF Cement >= 424.50 AND Fine Aggregate >= 712.10 AND Age >= 5.00 AND Coarse Aggregate >= 819.70 AND Coarse Aggregate <= 1,075.00 THEN class = {59.20} [48.56, 69.85] (p=26, n=8, P=138, N=583)
+
+CR 39: IF Cement >= 424.50 AND Age >= 5.00 AND Blast Furnace Slag <= 118.00 AND Coarse Aggregate >= 830.20 AND Blast Furnace Slag <= 111.75 THEN class = {53.57} [41.73, 65.42] (p=49, n=18, P=195, N=526)
+
+CR 40: IF Cement >= 387.80 AND Age >= 5.00 AND Superplasticizer >= 3.96 AND Coarse Aggregate <= 998.50 AND Coarse Aggregate >= 811.50 THEN class = {59.81} [49.99, 69.62] (p=36, n=14, P=124, N=597)
+
+CR 41: IF Cement <= 159.90 AND Coarse Aggregate <= 881.30 THEN class = {25.97} [18.25, 33.68] (p=18, n=5, P=222, N=499)
+RR 41: IF Blast Furnace Slag <= 0.01 THEN class = {32.20} [17.41, 46.98] (p=217, n=110, P=439, N=282)
+ER 41: IF Cement <= 159.90 AND Coarse Aggregate <= 881.30 AND Blast Furnace Slag <= 0.01 THEN class = {11.38} [8.97, 13.80] (p=3, n=1, P=48, N=673)
+
+CR 42: IF Cement <= 159.90 AND Blast Furnace Slag >= 173.50 AND Coarse Aggregate <= 1,043.80 AND Water <= 202.25 AND Blast Furnace Slag >= 183.95 THEN class = {30.71} [23.97, 37.45] (p=16, n=3, P=221, N=500)
+
+CR 43: IF Cement <= 159.90 AND Blast Furnace Slag <= 186.85 THEN class = {20.98} [11.88, 30.08] (p=49, n=21, P=239, N=482)
+RR 43: IF Age <= 10.50 THEN class = {21.94} [9.18, 34.69] (p=123, n=50, P=339, N=382)
+ER 43: IF Cement <= 159.90 AND Blast Furnace Slag <= 186.85 AND Age <= 10.50 THEN class = {6.83} [4.01, 9.65] (p=4, n=4, P=20, N=701)
+
+CR 44: IF Water >= 224.50 THEN class = {42.17} [34.19, 50.16] (p=25, n=15, P=219, N=502)
+RR 44: IF Coarse Aggregate <= 870.05 THEN class = {44.62} [29.24, 59.99] (p=58, n=36, P=386, N=335)
+ER 44: IF Water >= 224.50 AND Coarse Aggregate <= 870.05 THEN class = {29.21} [25.31, 33.10] (p=2, n=2, P=118, N=603)
+
+CR 45: IF Cement <= 167.65 AND Blast Furnace Slag >= 241.25 AND Age <= 59.00 AND Age >= 17.50 AND Cement >= 157.70 THEN class = {37.74} [35.72, 39.75] (p=4, n=1, P=78, N=643)
+
+CR 46: IF Cement <= 167.65 AND Blast Furnace Slag <= 187.50 AND Age >= 10.50 AND Coarse Aggregate <= 1,066.30 AND Water <= 232.50 THEN class = {26.14} [15.18, 37.10] (p=58, n=18, P=308, N=413)
+
+CR 47: IF Cement >= 386.00 AND Age >= 5.00 AND Water <= 190.50 AND Coarse Aggregate >= 811.50 AND Age <= 225.00 THEN class = {58.01} [46.58, 69.45] (p=54, n=23, P=152, N=569)
+
+CR 48: IF Age >= 21.00 AND Water <= 158.05 AND Superplasticizer >= 11.50 AND Blast Furnace Slag <= 111.75 AND Cement <= 478.15 THEN class = {54.95} [43.96, 65.95] (p=26, n=2, P=167, N=554)
+
+CR 49: IF Age >= 21.00 AND Water <= 158.05 AND Fine Aggregate <= 894.85 AND Superplasticizer >= 4.93 AND Fine Aggregate >= 778.23 THEN class = {57.14} [44.78, 69.50] (p=33, n=7, P=168, N=553)
+
+CR 50: IF Age >= 21.00 AND Water <= 163.30 AND Cement >= 190.51 AND Fine Aggregate <= 891.36 THEN class = {57.28} [46.61, 67.95] (p=52, n=21, P=147, N=574)
+RR 50: IF Superplasticizer >= 19.90 THEN class = {55.26} [40.90, 69.61] (p=12, n=6, P=229, N=492)
+ER 50: IF Age >= 21.00 AND Water <= 163.30 AND Cement >= 190.51 AND Fine Aggregate <= 891.36 AND Superplasticizer >= 19.90 THEN class = {74.55} [67.95, 81.15] (p=2, n=2, P=31, N=690)
+
+CR 51: IF Age >= 21.00 AND Water <= 164.95 AND Superplasticizer >= 9.89 AND Water >= 162.80 AND Age <= 73.50 THEN class = {66.09} [49.72, 82.46] (p=7, n=2, P=154, N=567)
+
+CR 52: IF Age >= 21.00 AND Cement >= 364.30 AND Water <= 189.60 AND Blast Furnace Slag <= 183.00 AND Coarse Aggregate >= 811.50 THEN class = {58.41} [46.56, 70.26] (p=50, n=20, P=153, N=568)
+
+CR 53: IF Age >= 21.00 AND Water >= 175.55 AND Blast Furnace Slag >= 205.00 AND Age <= 42.00 AND Coarse Aggregate <= 1,017.20 THEN class = {35.67} [26.76, 44.57] (p=24, n=1, P=293, N=428)
+
+CR 54: IF Age >= 21.00 AND Water >= 175.55 AND Fine Aggregate >= 672.15 THEN class = {33.83} [22.43, 45.22] (p=199, n=59, P=373, N=348)
+RR 54: IF Fly Ash >= 165.00 THEN class = {27.34} [12.53, 42.15] (p=27, n=10, P=437, N=284)
+ER 54: IF Age >= 21.00 AND Water >= 175.55 AND Fine Aggregate >= 672.15 AND Fly Ash >= 165.00 THEN class = {11.96} [9.03, 14.89] (p=2, n=4, P=57, N=664)
+
+CR 55: IF Age >= 21.00 AND Fine Aggregate <= 674.90 AND Cement >= 165.50 AND Fine Aggregate >= 613.10 AND Cement >= 175.50 THEN class = {49.11} [38.87, 59.34] (p=30, n=5, P=226, N=495)
+
+CR 56: IF Age >= 21.00 AND Cement >= 306.15 AND Water <= 178.25 AND Cement >= 311.45 AND Age <= 180.50 THEN class = {61.45} [50.64, 72.26] (p=63, n=27, P=124, N=597)
+
+CR 57: IF Age >= 21.00 AND Cement >= 164.80 AND Superplasticizer >= 7.78 AND Water <= 180.55 AND Superplasticizer >= 8.04 THEN class = {55.81} [43.72, 67.91] (p=94, n=42, P=182, N=539)
+
+CR 58: IF Age >= 21.00 AND Cement >= 164.80 AND Water <= 175.98 AND Cement >= 192.68 AND Coarse Aggregate >= 823.50 THEN class = {56.59} [44.27, 68.92] (p=96, n=45, P=177, N=544)
