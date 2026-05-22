@@ -1,0 +1,18 @@
+
+CR 0: family != TN and hardness <= 75 and surface-quality != ? and strength <= 550 and carbon <= 6 => class: 3, samples: 416, class_counts: {'1': 0, '2': 0, '3': 1, '5': 0, 'U': 0}
+
+CR 1: family != TN and hardness <= 75 and surface-quality != ? and strength <= 550 and carbon > 6 => class: 3, samples: 5, class_counts: {'1': 0, '2': 0, '3': 0, '5': 0, 'U': 0}
+
+CR 2: family != TN and hardness <= 75 and surface-quality != ? and strength > 550 => class: 2, samples: 8, class_counts: {'1': 0, '2': 1, '3': 0, '5': 0, 'U': 0}
+
+CR 3: family != TN and hardness <= 75 and surface-quality = ? and carbon <= 4.5 and formability != ? => class: 2, samples: 52, class_counts: {'1': 0, '2': 0, '3': 0, '5': 0, 'U': 0}
+
+CR 4: family != TN and hardness <= 75 and surface-quality = ? and carbon <= 4.5 and formability = ? => class: 1, samples: 16, class_counts: {'1': 0, '2': 0, '3': 0, '5': 0, 'U': 0}
+
+CR 5: family != TN and hardness <= 75 and surface-quality = ? and carbon > 4.5 => class: 3, samples: 53, class_counts: {'1': 0, '2': 0, '3': 1, '5': 0, 'U': 0}
+
+CR 6: family != TN and hardness > 75 and width <= 325 => class: 3, samples: 3, class_counts: {'1': 0, '2': 0, '3': 0, '5': 0, 'U': 0}
+
+CR 7: family != TN and hardness > 75 and width > 325 => class: U, samples: 27, class_counts: {'1': 0, '2': 0, '3': 0, '5': 0, 'U': 1}
+
+CR 8: family = TN => class: 5, samples: 48, class_counts: {'1': 0, '2': 0, '3': 0, '5': 1, 'U': 0}

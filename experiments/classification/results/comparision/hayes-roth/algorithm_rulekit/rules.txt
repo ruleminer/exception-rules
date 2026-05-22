@@ -1,0 +1,26 @@
+
+CR 0: IF age = {1} AND education_level = {1} AND marital_status = {2} THEN class = 1 (p=7, n=0, P=32, N=60)
+
+CR 1: IF age = {1} AND marital_status = {1} AND education_level = {2} THEN class = 1 (p=6, n=0, P=32, N=60)
+
+CR 2: IF education_level = {1} AND marital_status = {1} AND age = {2} THEN class = 1 (p=7, n=0, P=32, N=60)
+
+CR 3: IF education_level = {1} AND marital_status = {3} THEN class = 1 (p=5, n=3, P=32, N=60)
+
+CR 4: IF education_level = {2} AND age = {2} AND marital_status = {1} THEN class = 2 (p=7, n=0, P=41, N=51)
+
+CR 5: IF education_level = {2} AND marital_status = {2} AND age = {1} THEN class = 2 (p=7, n=0, P=41, N=51)
+
+CR 6: IF education_level = {2} AND age = {3} THEN class = 2 (p=7, n=2, P=41, N=51)
+
+CR 7: IF marital_status = {2} AND age = {2} AND education_level = {1} THEN class = 2 (p=9, n=0, P=41, N=51)
+
+CR 8: IF marital_status = {2} THEN class = 2 (p=24, n=15, P=41, N=51)
+
+CR 9: IF age = {2} THEN class = 2 (p=21, n=15, P=41, N=51)
+
+CR 10: IF age = {4} THEN class = 3 (p=9, n=0, P=19, N=73)
+
+CR 11: IF education_level = {4} THEN class = 3 (p=7, n=0, P=19, N=73)
+
+CR 12: IF marital_status = {4} THEN class = 3 (p=7, n=0, P=19, N=73)

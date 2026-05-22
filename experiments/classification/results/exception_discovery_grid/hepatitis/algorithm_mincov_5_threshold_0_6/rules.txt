@@ -1,0 +1,24 @@
+
+CR 0: IF ALBUMIN >= 4.00 THEN class = LIVE (p=72, n=3, P=123, N=32)
+
+CR 1: IF FATIGUE = {no} THEN class = LIVE (p=52, n=2, P=123, N=32)
+
+CR 2: IF ALBUMIN >= 3.75 THEN class = LIVE (p=86, n=6, P=123, N=32)
+
+CR 3: IF SEX = {male} THEN class = LIVE (p=16, n=0, P=123, N=32)
+
+CR 4: IF PROTIME >= 50.50 THEN class = LIVE (p=56, n=3, P=123, N=32)
+
+CR 5: IF BILIRUBIN <= 1.00 THEN class = LIVE (p=83, n=7, P=123, N=32)
+
+CR 6: IF HISTOLOGY = {no} THEN class = LIVE (p=78, n=7, P=123, N=32)
+
+CR 7: IF ALBUMIN <= 2.65 THEN class = DIE (p=7, n=0, P=32, N=123)
+
+CR 8: IF BILIRUBIN >= 3.70 THEN class = DIE (p=8, n=2, P=32, N=123)
+
+CR 9: IF PROTIME <= 38.50 THEN class = DIE (p=9, n=5, P=32, N=123)
+
+CR 10: IF BILIRUBIN >= 1.65 AND AGE >= 33.00 THEN class = DIE (p=16, n=8, P=32, N=123)
+
+CR 11: IF SPIDERS = {yes} AND AGE >= 34.50 AND SEX = {female} AND FATIGUE = {yes} AND ANTIVIRALS = {no} THEN class = DIE (p=18, n=9, P=32, N=123)

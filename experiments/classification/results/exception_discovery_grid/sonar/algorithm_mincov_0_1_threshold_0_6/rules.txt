@@ -1,0 +1,30 @@
+
+CR 0: IF attribute_11 <= 0.11 THEN class = Rock (p=35, n=4, P=97, N=111)
+
+CR 1: IF attribute_11 <= 0.17 THEN class = Rock (p=60, n=14, P=97, N=111)
+
+CR 2: IF attribute_12 <= 0.17 THEN class = Rock (p=55, n=13, P=97, N=111)
+
+CR 3: IF attribute_49 <= 0.02 THEN class = Rock (p=35, n=9, P=97, N=111)
+
+CR 4: IF attribute_52 <= 0.01 THEN class = Rock (p=37, n=12, P=97, N=111)
+
+CR 5: IF attribute_51 <= 0.02 AND attribute_27 <= 0.91 THEN class = Rock (p=56, n=25, P=97, N=111)
+
+CR 6: IF attribute_44 >= 0.43 THEN class = Mine (p=22, n=1, P=111, N=97)
+RR 6: IF attribute_28 <= 0.46 THEN class = Mine (p=25, n=15, P=111, N=97)
+ER 6: IF attribute_44 >= 0.43 AND attribute_28 <= 0.46 THEN class = Rock (p=1, n=0, P=97, N=111)
+
+CR 7: IF attribute_54 >= 0.02 THEN class = Mine (p=20, n=1, P=111, N=97)
+
+CR 8: IF attribute_28 >= 0.99 THEN class = Mine (p=16, n=1, P=111, N=97)
+RR 8: IF attribute_2 >= 0.06 THEN class = Mine (p=29, n=9, P=111, N=97)
+ER 8: IF attribute_28 >= 0.99 AND attribute_2 >= 0.06 THEN class = Rock (p=1, n=0, P=97, N=111)
+
+CR 9: IF attribute_28 >= 0.92 THEN class = Mine (p=34, n=6, P=111, N=97)
+
+CR 10: IF attribute_11 >= 0.34 THEN class = Mine (p=29, n=5, P=111, N=97)
+
+CR 11: IF attribute_49 >= 0.06 THEN class = Mine (p=53, n=13, P=111, N=97)
+
+CR 12: IF attribute_11 >= 0.22 AND attribute_16 <= 0.67 THEN class = Mine (p=74, n=11, P=111, N=97)

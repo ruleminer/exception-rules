@@ -1,0 +1,8 @@
+
+CR 0: wage-increase-first-year <= 2.65 and education-allowance != no => class: bad, samples: 3, class_counts: {'bad': 0, 'good': 0}
+
+CR 1: wage-increase-first-year <= 2.65 and education-allowance = no => class: bad, samples: 8, class_counts: {'bad': 1, 'good': 0}
+
+CR 2: wage-increase-first-year > 2.65 and contribution-to-health-plan != none => class: good, samples: 24, class_counts: {'bad': 0, 'good': 1}
+
+CR 3: wage-increase-first-year > 2.65 and contribution-to-health-plan = none => class: bad, samples: 4, class_counts: {'bad': 1, 'good': 0}

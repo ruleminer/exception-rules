@@ -1,0 +1,208 @@
+
+CR 0: IF credit_amount >= 14,248.50 AND checking_status = {0<=X<200} THEN class = bad (p=6, n=0, P=209, N=491)
+
+CR 1: IF credit_amount >= 10,918.00 AND duration < 33.00 THEN class = bad (p=7, n=0, P=209, N=491)
+
+CR 2: IF credit_amount >= 10,918.00 AND credit_amount < 12,714.50 AND age < 47.50 THEN class = bad (p=11, n=3, P=209, N=491)
+
+CR 3: IF credit_history = {no credits/all paid} AND housing = {rent} THEN class = bad (p=9, n=0, P=209, N=491)
+
+CR 4: IF credit_history = {no credits/all paid} AND age >= 40.50 AND savings_status = {<100} THEN class = bad (p=6, n=0, P=209, N=491)
+
+CR 5: IF credit_history = {no credits/all paid} AND installment_commitment >= 2.50 AND other_payment_plans = {none} AND duration >= 7.50 THEN class = bad (p=12, n=1, P=209, N=491)
+
+CR 6: IF credit_amount >= 7,973.00 AND credit_amount < 8,346.50 AND other_payment_plans = {none} THEN class = bad (p=6, n=0, P=209, N=491)
+
+CR 7: IF credit_amount >= 7,973.00 AND savings_status = {<100} AND age < 30.00 AND duration < 54.00 THEN class = bad (p=13, n=0, P=209, N=491)
+
+CR 8: IF credit_amount >= 7,973.00 AND duration < 57.00 AND credit_amount < 15,764.50 AND age < 52.00 THEN class = bad (p=30, n=19, P=209, N=491)
+
+CR 9: IF duration >= 43.50 AND housing = {rent} THEN class = bad (p=7, n=0, P=209, N=491)
+
+CR 10: IF checking_status = {<0} AND duration >= 47.50 THEN class = bad (p=10, n=0, P=209, N=491)
+
+CR 11: IF duration >= 43.50 AND savings_status = {<100} AND checking_status = {0<=X<200} THEN class = bad (p=10, n=0, P=209, N=491)
+
+CR 12: IF credit_history = {all paid} AND purpose = {new car} AND duration < 36.00 THEN class = bad (p=7, n=0, P=209, N=491)
+
+CR 13: IF credit_history = {all paid} AND checking_status = {<0} AND own_telephone = {none} AND credit_amount >= 766.00 THEN class = bad (p=9, n=0, P=209, N=491)
+
+CR 14: IF checking_status = {<0} AND purpose = {education} AND credit_amount < 8,268.00 THEN class = bad (p=7, n=0, P=209, N=491)
+
+CR 15: IF checking_status = {<0} AND duration >= 33.00 AND job = {skilled} AND other_parties = {none} AND age < 44.00 THEN class = bad (p=15, n=0, P=209, N=491)
+
+CR 16: IF checking_status = {<0} AND credit_amount >= 3,949.00 AND installment_commitment >= 1.50 AND credit_amount < 10,460.00 AND existing_credits < 2.50 THEN class = bad (p=22, n=6, P=209, N=491)
+
+CR 17: IF checking_status = {<0} AND duration >= 16.50 AND credit_amount < 1,381.50 AND credit_history = {existing paid} THEN class = bad (p=12, n=0, P=209, N=491)
+
+CR 18: IF checking_status = {<0} AND duration >= 16.50 AND credit_amount < 1,909.00 AND residence_since >= 1.50 AND credit_amount >= 1,090.00 THEN class = bad (p=19, n=3, P=209, N=491)
+
+CR 19: IF checking_status = {<0} AND duration >= 16.50 AND credit_amount < 2,478.00 AND age < 35.50 AND credit_amount >= 1,987.50 THEN class = bad (p=6, n=0, P=209, N=491)
+
+CR 20: IF checking_status = {<0} AND installment_commitment >= 2.50 AND purpose = {new car} AND age < 28.50 AND residence_since < 2.50 THEN class = bad (p=5, n=0, P=209, N=491)
+
+CR 21: IF checking_status = {<0} AND installment_commitment >= 2.50 AND purpose = {new car} AND own_telephone = {none} AND credit_amount >= 631.50 THEN class = bad (p=25, n=3, P=209, N=491)
+
+CR 22: IF checking_status = {<0} AND installment_commitment >= 2.50 AND age < 42.50 AND residence_since >= 1.50 AND credit_amount < 10,460.00 THEN class = bad (p=52, n=22, P=209, N=491)
+
+CR 23: IF checking_status = {<0} AND other_parties = {none} AND credit_amount >= 653.00 AND foreign_worker = {yes} AND age < 65.50 THEN class = bad (p=80, n=62, P=209, N=491)
+
+CR 24: IF duration >= 33.00 AND age < 26.50 AND credit_amount >= 4,061.50 AND credit_amount < 8,358.00 AND residence_since >= 1.50 THEN class = bad (p=12, n=0, P=209, N=491)
+
+CR 25: IF purpose = {education} AND installment_commitment >= 2.50 AND age < 43.50 AND credit_amount >= 420.00 AND residence_since >= 1.50 THEN class = bad (p=10, n=2, P=209, N=491)
+
+CR 26: IF duration >= 29.00 AND checking_status = {0<=X<200} AND residence_since >= 1.50 AND credit_amount < 6,996.00 AND num_dependents < 1.50 THEN class = bad (p=16, n=7, P=209, N=491)
+
+CR 27: IF age < 25.50 AND checking_status = {0<=X<200} AND duration >= 21.00 AND credit_amount >= 2,003.00 AND credit_amount < 5,338.00 THEN class = bad (p=10, n=3, P=209, N=491)
+
+CR 28: IF age < 25.50 AND checking_status = {0<=X<200} AND savings_status = {<100} AND credit_amount >= 1,051.50 AND credit_amount < 1,818.50 THEN class = bad (p=5, n=1, P=209, N=491)
+
+CR 29: IF age < 25.50 AND savings_status = {<100} AND residence_since >= 1.50 AND credit_amount >= 1,157.00 AND installment_commitment >= 1.50 THEN class = bad (p=30, n=13, P=209, N=491)
+
+CR 30: IF property_magnitude = {no known property} AND num_dependents >= 1.50 AND duration >= 7.50 AND credit_amount < 6,492.50 AND residence_since >= 2.50 THEN class = bad (p=13, n=4, P=209, N=491)
+
+CR 31: IF credit_amount >= 3,913.50 AND credit_history = {existing paid} AND duration < 54.00 AND age < 58.50 AND credit_amount < 15,764.50 THEN class = bad (p=40, n=31, P=209, N=491)
+
+CR 32: IF age < 26.50 AND foreign_worker = {yes} AND residence_since < 3.50 AND duration >= 7.50 AND credit_amount >= 649.50 THEN class = bad (p=45, n=50, P=209, N=491)
+
+CR 33: IF age < 29.50 AND residence_since >= 1.50 AND installment_commitment >= 2.50 AND foreign_worker = {yes} AND other_parties = {none} THEN class = bad (p=54, n=59, P=209, N=491)
+
+CR 34: IF purpose = {new car} AND age < 33.50 AND installment_commitment >= 1.50 AND foreign_worker = {yes} AND residence_since >= 1.50 THEN class = bad (p=34, n=17, P=209, N=491)
+
+CR 35: IF duration >= 23.00 AND duration < 57.00 AND residence_since >= 1.50 AND age < 39.50 THEN class = bad (p=76, n=107, P=209, N=491)
+
+CR 36: IF checking_status = {0<=X<200} AND savings_status = {<100} AND credit_amount >= 1,181.50 AND credit_amount < 1,960.00 AND other_parties = {none} THEN class = bad (p=14, n=7, P=209, N=491)
+
+CR 37: IF duration >= 13.50 AND credit_amount >= 912.00 AND duration < 57.00 AND age < 71.00 THEN class = bad (p=153, n=288, P=209, N=491)
+
+CR 38: IF age < 42.50 AND installment_commitment >= 3.50 AND residence_since >= 1.50 AND credit_amount < 2,295.50 AND credit_amount >= 634.00 THEN class = bad (p=55, n=80, P=209, N=491)
+
+CR 39: IF credit_amount < 438.00 THEN class = good (p=9, n=0, P=491, N=209)
+
+CR 40: IF checking_status = {no checking} AND credit_amount < 718.00 THEN class = good (p=11, n=0, P=491, N=209)
+
+CR 41: IF checking_status = {no checking} AND foreign_worker = {no} THEN class = good (p=8, n=0, P=491, N=209)
+
+CR 42: IF checking_status = {no checking} AND purpose = {radio/tv} AND credit_amount < 3,608.00 AND age >= 23.00 AND credit_amount >= 800.50 THEN class = good (p=68, n=0, P=491, N=209)
+
+CR 43: IF checking_status = {no checking} AND purpose = {radio/tv} AND age >= 23.00 AND savings_status = {<100} THEN class = good (p=44, n=0, P=491, N=209)
+
+CR 44: IF checking_status = {no checking} AND purpose = {radio/tv} AND age >= 23.00 AND installment_commitment >= 1.50 THEN class = good (p=81, n=2, P=491, N=209)
+
+CR 45: IF checking_status = {no checking} AND duration >= 54.00 THEN class = good (p=5, n=0, P=491, N=209)
+
+CR 46: IF checking_status = {no checking} AND other_payment_plans = {none} AND credit_history = {critical/other existing credit} AND credit_amount < 6,984.50 THEN class = good (p=91, n=0, P=491, N=209)
+
+CR 47: IF checking_status = {no checking} AND other_payment_plans = {none} AND age >= 32.50 AND credit_amount < 4,558.50 AND housing = {own} THEN class = good (p=90, n=0, P=491, N=209)
+
+CR 48: IF checking_status = {no checking} AND other_payment_plans = {none} AND age >= 32.50 AND credit_amount < 4,558.50 AND num_dependents < 1.50 THEN class = good (p=90, n=0, P=491, N=209)
+
+CR 49: IF checking_status = {no checking} AND other_payment_plans = {none} AND age >= 32.50 AND age < 53.50 AND residence_since >= 1.50 THEN class = good (p=103, n=1, P=491, N=209)
+
+CR 50: IF checking_status = {no checking} AND other_payment_plans = {none} AND age >= 30.50 AND age < 53.50 AND installment_commitment >= 1.50 THEN class = good (p=114, n=2, P=491, N=209)
+
+CR 51: IF checking_status = {no checking} AND other_payment_plans = {none} AND age >= 29.50 AND credit_amount < 11,867.00 AND age < 66.50 THEN class = good (p=147, n=6, P=491, N=209)
+
+CR 52: IF checking_status = {no checking} AND other_payment_plans = {none} AND age >= 23.50 AND credit_amount < 4,560.50 AND other_parties = {none} THEN class = good (p=156, n=5, P=491, N=209)
+
+CR 53: IF checking_status = {no checking} AND other_payment_plans = {none} AND credit_amount < 4,560.50 AND age >= 19.50 THEN class = good (p=171, n=10, P=491, N=209)
+
+CR 54: IF checking_status = {no checking} AND credit_amount < 4,560.50 AND age >= 23.50 AND num_dependents < 1.50 AND duration < 45.00 THEN class = good (p=162, n=9, P=491, N=209)
+
+CR 55: IF checking_status = {no checking} AND purpose = {used car} AND age < 50.50 THEN class = good (p=35, n=0, P=491, N=209)
+
+CR 56: IF checking_status = {no checking} AND credit_amount < 5,892.50 AND age >= 23.50 THEN class = good (p=205, n=18, P=491, N=209)
+
+CR 57: IF credit_amount < 634.00 AND credit_amount >= 451.00 THEN class = good (p=8, n=0, P=491, N=209)
+
+CR 58: IF duration < 7.50 AND purpose = {radio/tv} THEN class = good (p=24, n=0, P=491, N=209)
+
+CR 59: IF duration < 7.50 AND existing_credits >= 1.50 THEN class = good (p=20, n=0, P=491, N=209)
+
+CR 60: IF credit_history = {critical/other existing credit} AND residence_since < 1.50 THEN class = good (p=18, n=0, P=491, N=209)
+
+CR 61: IF credit_history = {critical/other existing credit} AND age >= 61.50 THEN class = good (p=16, n=0, P=491, N=209)
+
+CR 62: IF credit_history = {critical/other existing credit} AND age >= 46.50 AND duration < 22.50 THEN class = good (p=30, n=0, P=491, N=209)
+
+CR 63: IF credit_history = {critical/other existing credit} AND age >= 44.50 AND credit_amount < 6,066.00 AND age < 59.50 THEN class = good (p=37, n=0, P=491, N=209)
+
+CR 64: IF credit_history = {critical/other existing credit} AND installment_commitment < 1.50 AND age < 42.00 THEN class = good (p=16, n=0, P=491, N=209)
+
+CR 65: IF credit_history = {critical/other existing credit} AND age >= 34.50 AND existing_credits >= 2.50 THEN class = good (p=16, n=0, P=491, N=209)
+
+CR 66: IF credit_history = {critical/other existing credit} AND age >= 34.50 AND credit_amount < 6,142.50 AND credit_amount >= 1,352.50 AND duration >= 13.50 THEN class = good (p=48, n=0, P=491, N=209)
+
+CR 67: IF credit_history = {critical/other existing credit} AND age >= 34.50 AND credit_amount < 6,142.50 AND credit_amount >= 1,352.50 AND installment_commitment >= 1.50 THEN class = good (p=65, n=1, P=491, N=209)
+
+CR 68: IF credit_history = {critical/other existing credit} AND age >= 33.50 AND credit_amount < 7,991.00 AND credit_amount >= 1,273.00 AND duration >= 9.50 THEN class = good (p=80, n=3, P=491, N=209)
+
+CR 69: IF credit_history = {critical/other existing credit} AND duration < 17.00 AND age < 27.50 THEN class = good (p=15, n=0, P=491, N=209)
+
+CR 70: IF credit_history = {critical/other existing credit} AND credit_amount < 4,145.50 AND other_payment_plans = {none} AND credit_amount >= 1,273.00 AND job = {skilled} THEN class = good (p=72, n=2, P=491, N=209)
+
+CR 71: IF credit_history = {critical/other existing credit} AND credit_amount < 6,322.50 AND credit_amount >= 1,273.00 AND duration < 46.50 AND age >= 23.50 THEN class = good (p=124, n=12, P=491, N=209)
+
+CR 72: IF foreign_worker = {no} AND credit_amount < 2,183.50 THEN class = good (p=19, n=0, P=491, N=209)
+
+CR 73: IF savings_status = {>=1000} AND existing_credits < 1.50 THEN class = good (p=17, n=0, P=491, N=209)
+
+CR 74: IF savings_status = {500<=X<1000} AND purpose = {radio/tv} AND duration < 25.50 THEN class = good (p=13, n=0, P=491, N=209)
+
+CR 75: IF duration < 11.50 AND property_magnitude = {real estate} AND age >= 25.50 AND own_telephone = {none} THEN class = good (p=39, n=0, P=491, N=209)
+
+CR 76: IF duration < 11.50 AND age >= 25.50 AND credit_history = {existing paid} AND installment_commitment >= 1.50 AND credit_amount >= 681.50 THEN class = good (p=32, n=2, P=491, N=209)
+
+CR 77: IF purpose = {used car} AND credit_amount < 3,382.00 THEN class = good (p=24, n=0, P=491, N=209)
+
+CR 78: IF purpose = {used car} AND housing = {own} AND credit_amount < 8,097.50 AND residence_since >= 1.50 THEN class = good (p=32, n=0, P=491, N=209)
+
+CR 79: IF property_magnitude = {real estate} AND employment = {>=7} AND age >= 31.50 THEN class = good (p=35, n=0, P=491, N=209)
+
+CR 80: IF property_magnitude = {real estate} AND age >= 38.50 AND duration < 20.50 AND credit_amount < 3,254.00 THEN class = good (p=45, n=1, P=491, N=209)
+
+CR 81: IF property_magnitude = {real estate} AND age >= 30.50 AND installment_commitment < 3.50 AND duration < 47.50 AND existing_credits < 2.50 THEN class = good (p=54, n=2, P=491, N=209)
+
+CR 82: IF property_magnitude = {real estate} AND duration < 14.00 AND residence_since >= 1.50 AND other_payment_plans = {none} AND existing_credits < 2.50 THEN class = good (p=67, n=6, P=491, N=209)
+
+CR 83: IF property_magnitude = {real estate} AND personal_status = {male single} AND age < 24.50 THEN class = good (p=7, n=0, P=491, N=209)
+
+CR 84: IF property_magnitude = {real estate} AND purpose = {radio/tv} AND age >= 23.50 AND own_telephone = {none} AND other_payment_plans = {none} THEN class = good (p=43, n=3, P=491, N=209)
+
+CR 85: IF purpose = {radio/tv} AND age >= 34.50 AND credit_amount < 5,523.00 AND age < 64.50 THEN class = good (p=71, n=6, P=491, N=209)
+
+CR 86: IF purpose = {radio/tv} AND duration < 16.50 AND age >= 22.50 AND own_telephone = {none} AND housing = {own} THEN class = good (p=55, n=2, P=491, N=209)
+
+CR 87: IF purpose = {radio/tv} AND credit_amount < 2,431.50 AND other_payment_plans = {none} THEN class = good (p=95, n=13, P=491, N=209)
+
+CR 88: IF purpose = {radio/tv} AND duration < 33.00 AND age >= 24.50 AND housing = {own} AND own_telephone = {none} THEN class = good (p=80, n=8, P=491, N=209)
+
+CR 89: IF age >= 54.50 AND credit_amount < 14,037.00 AND num_dependents < 1.50 AND duration < 45.00 AND age < 67.50 THEN class = good (p=36, n=3, P=491, N=209)
+
+CR 90: IF duration < 17.00 AND age >= 37.50 AND credit_amount < 3,254.00 AND credit_amount >= 1,279.00 AND credit_history = {existing paid} THEN class = good (p=23, n=0, P=491, N=209)
+
+CR 91: IF duration < 17.00 AND age >= 29.50 AND credit_amount < 3,289.50 THEN class = good (p=139, n=20, P=491, N=209)
+
+CR 92: IF duration < 17.00 AND age >= 25.50 AND credit_amount < 3,949.00 AND credit_amount >= 1,280.50 THEN class = good (p=122, n=17, P=491, N=209)
+
+CR 93: IF duration < 17.00 AND credit_amount < 3,949.00 AND other_payment_plans = {none} AND age >= 21.50 THEN class = good (p=194, n=44, P=491, N=209)
+
+CR 94: IF age >= 34.50 AND credit_amount < 3,909.50 AND installment_commitment < 3.50 AND credit_amount >= 1,387.00 AND duration < 42.00 THEN class = good (p=56, n=2, P=491, N=209)
+
+CR 95: IF age >= 34.50 AND duration < 25.50 AND credit_amount >= 1,383.50 AND residence_since >= 2.50 AND age < 52.50 THEN class = good (p=77, n=7, P=491, N=209)
+
+CR 96: IF age >= 34.50 AND credit_amount < 12,296.50 AND num_dependents < 1.50 AND residence_since >= 1.50 AND existing_credits < 3.50 THEN class = good (p=180, n=41, P=491, N=209)
+
+CR 97: IF savings_status = {no known savings} AND credit_amount >= 1,978.00 AND own_telephone = {none} AND age < 37.50 THEN class = good (p=24, n=0, P=491, N=209)
+
+CR 98: IF duration < 23.00 AND installment_commitment < 3.50 AND age >= 26.50 AND credit_amount < 6,409.50 AND housing = {own} THEN class = good (p=103, n=12, P=491, N=209)
+
+CR 99: IF duration < 23.00 AND installment_commitment < 3.50 AND credit_amount >= 1,536.00 AND credit_amount < 8,724.50 AND other_payment_plans = {none} THEN class = good (p=103, n=16, P=491, N=209)
+
+CR 100: IF age >= 29.50 AND housing = {own} AND job = {skilled} AND other_payment_plans = {none} AND credit_amount >= 1,387.00 THEN class = good (p=100, n=13, P=491, N=209)
+
+CR 101: IF age >= 29.50 AND duration < 47.50 AND credit_amount >= 1,383.50 AND age < 67.50 AND existing_credits < 3.50 THEN class = good (p=235, n=55, P=491, N=209)
+
+CR 102: IF duration < 26.50 AND credit_amount < 8,559.50 AND credit_amount >= 954.50 AND age >= 20.50 AND age < 67.50 THEN class = good (p=339, n=103, P=491, N=209)
+
+CR 103: IF credit_amount < 7,681.50 AND other_payment_plans = {none} AND age >= 21.50 AND credit_amount >= 1,387.00 THEN class = good (p=278, n=83, P=491, N=209)

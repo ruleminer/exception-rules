@@ -1,0 +1,46 @@
+
+CR 0: bi_rads_assessment <= 4.5 and shape <= 3.5 and age <= 67.5 and margin <= 3.5 and density <= 1.5 => class: 0, samples: 4, class_counts: {'0': 0, '1': 0}
+
+CR 1: bi_rads_assessment <= 4.5 and shape <= 3.5 and age <= 67.5 and margin <= 3.5 and density > 1.5 => class: 0, samples: 256, class_counts: {'0': 0, '1': 0}
+
+CR 2: bi_rads_assessment <= 4.5 and shape <= 3.5 and age <= 67.5 and margin > 3.5 and age <= 60.5 => class: 0, samples: 26, class_counts: {'0': 0, '1': 0}
+
+CR 3: bi_rads_assessment <= 4.5 and shape <= 3.5 and age <= 67.5 and margin > 3.5 and age > 60.5 => class: 1, samples: 11, class_counts: {'0': 0, '1': 0}
+
+CR 4: bi_rads_assessment <= 4.5 and shape <= 3.5 and age > 67.5 and margin <= 3.5 and age <= 75 => class: 0, samples: 22, class_counts: {'0': 0, '1': 0}
+
+CR 5: bi_rads_assessment <= 4.5 and shape <= 3.5 and age > 67.5 and margin <= 3.5 and age > 75 => class: 0, samples: 9, class_counts: {'0': 1, '1': 0}
+
+CR 6: bi_rads_assessment <= 4.5 and shape <= 3.5 and age > 67.5 and margin > 3.5 => class: 1, samples: 3, class_counts: {'0': 0, '1': 1}
+
+CR 7: bi_rads_assessment <= 4.5 and shape > 3.5 and age <= 69.5 and margin <= 4.5 and age <= 61 => class: 0, samples: 42, class_counts: {'0': 0, '1': 0}
+
+CR 8: bi_rads_assessment <= 4.5 and shape > 3.5 and age <= 69.5 and margin <= 4.5 and age > 61 => class: 1, samples: 18, class_counts: {'0': 0, '1': 0}
+
+CR 9: bi_rads_assessment <= 4.5 and shape > 3.5 and age <= 69.5 and margin > 4.5 and age <= 58 => class: 1, samples: 10, class_counts: {'0': 0, '1': 0}
+
+CR 10: bi_rads_assessment <= 4.5 and shape > 3.5 and age <= 69.5 and margin > 4.5 and age > 58 => class: 1, samples: 11, class_counts: {'0': 0, '1': 0}
+
+CR 11: bi_rads_assessment <= 4.5 and shape > 3.5 and age > 69.5 and age <= 71.5 => class: 1, samples: 6, class_counts: {'0': 0, '1': 1}
+
+CR 12: bi_rads_assessment <= 4.5 and shape > 3.5 and age > 69.5 and age > 71.5 and age <= 76.5 => class: 0, samples: 4, class_counts: {'0': 0, '1': 0}
+
+CR 13: bi_rads_assessment <= 4.5 and shape > 3.5 and age > 69.5 and age > 71.5 and age > 76.5 => class: 1, samples: 5, class_counts: {'0': 0, '1': 1}
+
+CR 14: bi_rads_assessment > 4.5 and density <= 3.5 and age <= 65.5 and shape <= 2.5 and age <= 56.5 => class: 1, samples: 10, class_counts: {'0': 0, '1': 0}
+
+CR 15: bi_rads_assessment > 4.5 and density <= 3.5 and age <= 65.5 and shape <= 2.5 and age > 56.5 => class: 1, samples: 11, class_counts: {'0': 0, '1': 0}
+
+CR 16: bi_rads_assessment > 4.5 and density <= 3.5 and age <= 65.5 and shape > 2.5 and age <= 49.5 => class: 1, samples: 30, class_counts: {'0': 0, '1': 0}
+
+CR 17: bi_rads_assessment > 4.5 and density <= 3.5 and age <= 65.5 and shape > 2.5 and age > 49.5 => class: 1, samples: 78, class_counts: {'0': 0, '1': 0}
+
+CR 18: bi_rads_assessment > 4.5 and density <= 3.5 and age > 65.5 and density <= 2.5 => class: 1, samples: 3, class_counts: {'0': 0, '1': 0}
+
+CR 19: bi_rads_assessment > 4.5 and density <= 3.5 and age > 65.5 and density > 2.5 and age <= 83.5 => class: 1, samples: 93, class_counts: {'0': 0, '1': 0}
+
+CR 20: bi_rads_assessment > 4.5 and density <= 3.5 and age > 65.5 and density > 2.5 and age > 83.5 => class: 1, samples: 13, class_counts: {'0': 0, '1': 0}
+
+CR 21: bi_rads_assessment > 4.5 and density > 3.5 and age <= 61.5 => class: 1, samples: 4, class_counts: {'0': 0, '1': 0}
+
+CR 22: bi_rads_assessment > 4.5 and density > 3.5 and age > 61.5 => class: 0, samples: 3, class_counts: {'0': 0, '1': 0}

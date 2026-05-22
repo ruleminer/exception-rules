@@ -1,0 +1,24 @@
+
+CR 0: IF thal = {normal} AND ca <= 0.00 AND age <= 58.00 THEN class = <50 (p=82, n=4, P=165, N=138)
+
+CR 1: IF thal = {normal} AND ca <= 0.00 AND oldpeak <= 1.70 AND thalach >= 83.50 AND chol <= 327.50 THEN class = <50 (p=91, n=5, P=165, N=138)
+
+CR 2: IF thal = {normal} AND age <= 57.00 THEN class = <50 (p=93, n=13, P=165, N=138)
+
+CR 3: IF thal = {normal} AND thalach >= 111.50 AND oldpeak <= 2.60 AND age <= 76.50 AND trestbps <= 160.00 THEN class = <50 (p=126, n=22, P=165, N=138)
+
+CR 4: IF ca <= 0.00 AND exang = {no} AND oldpeak <= 2.50 AND trestbps <= 151.00 AND thalach >= 83.50 THEN class = <50 (p=102, n=11, P=165, N=138)
+
+CR 5: IF oldpeak <= 2.35 AND thalach >= 105.00 AND trestbps <= 173.00 AND chol <= 303.50 THEN class = <50 (p=141, n=74, P=165, N=138)
+
+CR 6: IF oldpeak >= 2.60 THEN class = >50_1 (p=34, n=4, P=138, N=165)
+
+CR 7: IF oldpeak >= 2.00 THEN class = >50_1 (p=50, n=9, P=138, N=165)
+
+CR 8: IF thal = {reversable_defect} AND cp = {asympt} THEN class = >50_1 (p=71, n=7, P=138, N=165)
+
+CR 9: IF ca >= 0.50 AND cp = {asympt} THEN class = >50_1 (p=72, n=5, P=138, N=165)
+
+CR 10: IF ca >= 0.50 AND age <= 66.00 THEN class = >50_1 (p=83, n=23, P=138, N=165)
+
+CR 11: IF thalach <= 156.00 THEN class = >50_1 (p=104, n=65, P=138, N=165)

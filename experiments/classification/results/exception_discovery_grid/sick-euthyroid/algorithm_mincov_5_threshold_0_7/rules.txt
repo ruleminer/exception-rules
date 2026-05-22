@@ -1,0 +1,40 @@
+
+CR 0: IF T3 >= 1.20 THEN class = negative (p=2670, n=22, P=3541, N=231)
+
+CR 1: IF referral_source = {other} THEN class = negative (p=2168, n=33, P=3541, N=231)
+
+CR 2: IF T3 >= 1.10 THEN class = negative (p=2685, n=55, P=3541, N=231)
+
+CR 3: IF T3_measured = {f} THEN class = negative (p=766, n=3, P=3541, N=231)
+
+CR 4: IF T4U >= 1.05 THEN class = negative (p=1091, n=15, P=3541, N=231)
+
+CR 5: IF T4U >= 0.97 THEN class = negative (p=1749, n=35, P=3541, N=231)
+
+CR 6: IF age <= 53.00 THEN class = negative (p=1791, n=48, P=3541, N=231)
+
+CR 7: IF T4U >= 0.84 THEN class = negative (p=2720, n=110, P=3541, N=231)
+
+CR 8: IF age <= 69.00 THEN class = negative (p=2860, n=122, P=3541, N=231)
+
+CR 9: IF age <= 71.00 THEN class = negative (p=2999, n=136, P=3541, N=231)
+
+CR 10: IF T3 <= 1.10 AND TT4 >= 53.50 AND FTI <= 155.50 AND referral_source = {SVI} AND FTI >= 61.00 THEN class = sick (p=153, n=0, P=231, N=3541)
+
+CR 11: IF T3 <= 1.10 AND TT4 >= 53.50 AND FTI <= 155.50 AND FTI >= 61.50 AND age >= 43.00 THEN class = sick (p=173, n=10, P=231, N=3541)
+
+CR 12: IF T3 <= 1.10 AND TT4 >= 53.50 AND referral_source = {SVI} AND TT4 <= 135.50 AND TSH >= 0.03 THEN class = sick (p=158, n=5, P=231, N=3541)
+
+CR 13: IF T3 <= 1.10 AND TT4 >= 53.50 AND TT4 <= 141.50 AND TSH <= 160.50 AND age >= 15.00 THEN class = sick (p=194, n=28, P=231, N=3541)
+
+CR 14: IF T3 <= 1.10 AND TSH <= 19.00 AND FTI <= 155.50 AND referral_source = {SVI} AND T4U >= 0.53 THEN class = sick (p=160, n=6, P=231, N=3541)
+
+CR 15: IF T3 <= 1.50 AND referral_source = {SVI} AND TSH <= 11.00 AND age >= 15.50 AND age <= 86.50 THEN class = sick (p=168, n=208, P=231, N=3541)
+
+CR 16: IF T3 <= 1.80 AND T4U <= 0.91 AND TSH <= 14.60 AND on_thyroxine = {f} AND thyroid_surgery = {f} THEN class = sick (p=151, n=367, P=231, N=3541)
+
+CR 17: IF referral_source = {SVI} AND FTI >= 176.00 AND TT4 <= 194.50 AND TT4 >= 149.50 AND TSH <= 0.92 THEN class = sick (p=7, n=1, P=231, N=3541)
+
+CR 18: IF T3 <= 2.10 AND FTI >= 164.00 AND TT4 >= 156.00 AND on_thyroxine = {f} AND TSH <= 0.54 THEN class = sick (p=11, n=2, P=231, N=3541)
+
+CR 19: IF age >= 52.00 AND T4U <= 1.12 AND on_thyroxine = {f} AND TSH <= 23.00 AND query_hyperthyroid = {f} THEN class = sick (p=163, n=1092, P=231, N=3541)

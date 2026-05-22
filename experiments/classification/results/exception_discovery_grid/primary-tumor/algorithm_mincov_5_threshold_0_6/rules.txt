@@ -1,0 +1,102 @@
+
+CR 0: IF histologic-type = {anaplastic} THEN class = lung (p=6, n=2, P=84, N=255)
+
+CR 1: IF mediastinum = {yes} AND degree-of-diffe = {poorly} AND abdominal = {no} THEN class = lung (p=25, n=3, P=84, N=255)
+
+CR 2: IF mediastinum = {yes} AND degree-of-diffe = {poorly} AND lung = {no} AND pleura = {no} THEN class = lung (p=24, n=2, P=84, N=255)
+
+CR 3: IF mediastinum = {yes} AND degree-of-diffe = {poorly} AND axillar = {no} THEN class = lung (p=38, n=9, P=84, N=255)
+
+CR 4: IF mediastinum = {yes} AND lung = {no} AND sex = {male} THEN class = lung (p=29, n=5, P=84, N=255)
+
+CR 5: IF mediastinum = {yes} AND abdominal = {no} THEN class = lung (p=34, n=13, P=84, N=255)
+
+CR 6: IF degree-of-diffe = {poorly} AND sex = {male} THEN class = lung (p=37, n=19, P=84, N=255)
+
+CR 7: IF histologic-type = {epidermoid} AND neck = {no} THEN class = lung (p=17, n=4, P=84, N=255)
+
+CR 8: IF supraclavicular = {yes} AND axillar = {no} AND abdominal = {no} AND pleura = {no} THEN class = lung (p=15, n=16, P=84, N=255)
+
+CR 9: IF bone = {yes} AND axillar = {no} AND lung = {no} AND neck = {no} AND abdominal = {no} THEN class = lung (p=20, n=23, P=84, N=255)
+
+CR 10: IF peritoneum = {no} AND abdominal = {no} AND lung = {no} THEN class = lung (p=49, n=91, P=84, N=255)
+
+CR 11: IF axillar = {yes} AND sex = {female} AND abdominal = {no} AND brain = {no} THEN class = breast (p=17, n=0, P=24, N=315)
+
+CR 12: IF sex = {female} AND age = {30-59} AND lung = {no} AND histologic-type = {adeno} AND brain = {no} THEN class = breast (p=18, n=51, P=24, N=315)
+
+CR 13: IF peritoneum = {yes} AND sex = {female} AND lung = {no} AND age = {30-59} AND axillar = {no} THEN class = ovary (p=21, n=13, P=29, N=310)
+
+CR 14: IF sex = {female} AND bone = {no} AND mediastinum = {no} AND liver = {no} AND supraclavicular = {no} THEN class = ovary (p=23, n=37, P=29, N=310)
+
+CR 15: IF liver = {yes} AND histologic-type = {adeno} AND age = {>=60} AND bone = {no} AND skin = {no} THEN class = colon (p=5, n=28, P=14, N=325)
+
+CR 16: IF abdominal = {yes} AND histologic-type = {adeno} AND bone = {no} AND axillar = {no} AND brain = {no} THEN class = colon (p=9, n=58, P=14, N=325)
+
+CR 17: IF sex = {male} AND histologic-type = {adeno} AND bone = {yes} AND lung = {no} AND liver = {no} THEN class = prostate (p=6, n=11, P=10, N=329)
+
+CR 18: IF neck = {yes} AND supraclavicular = {no} AND mediastinum = {no} AND bone = {no} THEN class = head and neck (p=17, n=2, P=20, N=319)
+
+CR 19: IF bone = {yes} AND lung = {yes} AND abdominal = {no} AND sex = {female} AND pleura = {no} THEN class = thyroid (p=5, n=2, P=14, N=325)
+
+CR 20: IF bone = {yes} AND mediastinum = {no} AND supraclavicular = {no} AND liver = {no} AND pleura = {no} THEN class = thyroid (p=9, n=35, P=14, N=325)
+
+CR 21: IF liver = {yes} AND histologic-type = {adeno} AND degree-of-diffe = {poorly} AND mediastinum = {no} AND lung = {no} THEN class = pancreas (p=6, n=4, P=28, N=311)
+
+CR 22: IF liver = {yes} AND histologic-type = {adeno} AND supraclavicular = {no} AND lung = {no} AND age = {30-59} THEN class = pancreas (p=10, n=15, P=28, N=311)
+
+CR 23: IF liver = {yes} AND histologic-type = {adeno} AND supraclavicular = {no} AND skin = {no} AND axillar = {no} THEN class = pancreas (p=20, n=44, P=28, N=311)
+
+CR 24: IF peritoneum = {yes} AND supraclavicular = {no} AND mediastinum = {no} AND skin = {no} AND brain = {no} THEN class = pancreas (p=13, n=52, P=28, N=311)
+
+CR 25: IF liver = {no} AND histologic-type = {adeno} AND supraclavicular = {no} AND bone = {no} AND axillar = {no} THEN class = liver (p=5, n=62, P=7, N=332)
+
+CR 26: IF lung = {yes} AND bone = {yes} AND sex = {male} AND histologic-type = {adeno} AND brain = {no} THEN class = kidney (p=5, n=0, P=24, N=315)
+
+CR 27: IF lung = {yes} AND liver = {no} AND supraclavicular = {no} AND histologic-type = {adeno} AND peritoneum = {no} THEN class = kidney (p=9, n=14, P=24, N=315)
+
+CR 28: IF bone = {yes} AND sex = {male} AND histologic-type = {adeno} AND liver = {no} AND neck = {no} THEN class = kidney (p=11, n=11, P=24, N=315)
+
+CR 29: IF liver = {no} AND neck = {no} AND peritoneum = {no} AND axillar = {no} AND abdominal = {no} THEN class = kidney (p=17, n=72, P=24, N=315)
+
+CR 30: IF histologic-type = {epidermoid} AND peritoneum = {yes} AND neck = {yes} THEN class = salivary glands (p=1, n=0, P=2, N=337)
+
+CR 31: IF histologic-type = {epidermoid} AND supraclavicular = {yes} AND bone = {yes} AND skin = {no} AND neck = {yes} THEN class = salivary glands (p=2, n=0, P=2, N=337)
+
+CR 32: IF bone = {no} AND mediastinum = {no} AND peritoneum = {no} AND abdominal = {no} AND supraclavicular = {no} THEN class = rectum (p=5, n=58, P=6, N=333)
+
+CR 33: IF age = {>=60} AND liver = {yes} AND sex = {female} AND histologic-type = {adeno} AND bone = {no} THEN class = gallbladder (p=10, n=12, P=16, N=323)
+
+CR 34: IF sex = {female} AND bone = {no} AND supraclavicular = {no} AND axillar = {no} AND brain = {no} THEN class = gallbladder (p=15, n=86, P=16, N=323)
+
+CR 35: IF age = {<30} AND histologic-type = {adeno} AND skin = {no} AND lung = {no} AND mediastinum = {no} THEN class = stomach (p=5, n=3, P=39, N=300)
+
+CR 36: IF degree-of-diffe = {well} AND histologic-type = {adeno} AND skin = {no} AND bone = {no} AND peritoneum = {no} THEN class = stomach (p=5, n=6, P=39, N=300)
+
+CR 37: IF degree-of-diffe = {well} AND histologic-type = {adeno} AND skin = {no} AND bone = {no} AND brain = {no} THEN class = stomach (p=11, n=18, P=39, N=300)
+
+CR 38: IF peritoneum = {yes} AND liver = {no} AND mediastinum = {no} AND skin = {no} AND brain = {no} THEN class = stomach (p=12, n=35, P=39, N=300)
+
+CR 39: IF histologic-type = {adeno} AND sex = {male} AND liver = {yes} AND pleura = {no} AND skin = {no} THEN class = stomach (p=8, n=14, P=39, N=300)
+
+CR 40: IF histologic-type = {adeno} AND mediastinum = {no} AND lung = {no} AND skin = {no} AND pleura = {no} THEN class = stomach (p=22, n=86, P=39, N=300)
+
+CR 41: IF mediastinum = {no} AND bone = {no} AND neck = {no} AND skin = {no} AND pleura = {no} THEN class = stomach (p=24, n=91, P=39, N=300)
+
+CR 42: IF degree-of-diffe = {poorly} AND age = {30-59} AND abdominal = {no} AND pleura = {no} AND peritoneum = {no} THEN class = esophagus (p=5, n=22, P=9, N=330)
+
+CR 43: IF abdominal = {yes} AND sex = {female} AND histologic-type = {adeno} AND supraclavicular = {no} AND brain = {no} THEN class = corpus uteri (p=5, n=43, P=6, N=333)
+
+CR 44: IF degree-of-diffe = {fairly} AND lung = {yes} AND pleura = {yes} THEN class = testis (p=1, n=0, P=1, N=338)
+
+CR 45: IF degree-of-diffe = {fairly} AND abdominal = {yes} AND bone = {yes} AND pleura = {no} THEN class = cervix uteri (p=1, n=0, P=2, N=337)
+
+CR 46: IF abdominal = {yes} AND age = {30-59} AND peritoneum = {no} AND sex = {female} AND pleura = {no} THEN class = cervix uteri (p=2, n=8, P=2, N=337)
+
+CR 47: IF lung = {yes} AND age = {>=60} AND abdominal = {no} AND bone = {no} AND sex = {female} THEN class = duoden and sm.int (p=1, n=4, P=1, N=338)
+
+CR 48: IF peritoneum = {yes} AND neck = {yes} AND age = {>=60} THEN class = bladder (p=1, n=0, P=2, N=337)
+
+CR 49: IF peritoneum = {yes} AND sex = {male} AND liver = {no} AND bone = {no} AND lung = {no} THEN class = bladder (p=2, n=8, P=2, N=337)
+
+CR 50: IF histologic-type = {epidermoid} AND peritoneum = {yes} AND lung = {yes} THEN class = vagina (p=1, n=0, P=1, N=338)

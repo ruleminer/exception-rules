@@ -1,0 +1,12 @@
+
+CR 0: milk != true and feathers != false => class: bird, samples: 17, class_counts: {'amphibian': 0, 'bird': 1, 'fish': 0, 'insect': 0, 'invertebrate': 0, 'mammal': 0, 'reptile': 0}
+
+CR 1: milk != true and feathers = false and fins != true and backbone != false => class: reptile, samples: 6, class_counts: {'amphibian': 0, 'bird': 0, 'fish': 0, 'insect': 0, 'invertebrate': 0, 'mammal': 0, 'reptile': 0}
+
+CR 2: milk != true and feathers = false and fins != true and backbone = false and predator != false => class: invertebrate, samples: 5, class_counts: {'amphibian': 0, 'bird': 0, 'fish': 0, 'insect': 0, 'invertebrate': 1, 'mammal': 0, 'reptile': 0}
+
+CR 3: milk != true and feathers = false and fins != true and backbone = false and predator = false => class: insect, samples: 5, class_counts: {'amphibian': 0, 'bird': 0, 'fish': 0, 'insect': 0, 'invertebrate': 0, 'mammal': 0, 'reptile': 0}
+
+CR 4: milk != true and feathers = false and fins = true => class: fish, samples: 11, class_counts: {'amphibian': 0, 'bird': 0, 'fish': 1, 'insect': 0, 'invertebrate': 0, 'mammal': 0, 'reptile': 0}
+
+CR 5: milk = true => class: mammal, samples: 26, class_counts: {'amphibian': 0, 'bird': 0, 'fish': 0, 'insect': 0, 'invertebrate': 0, 'mammal': 1, 'reptile': 0}

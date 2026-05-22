@@ -1,0 +1,44 @@
+
+CR 0: IF surgery = {no} AND outcome = {lived} AND rectal_temperature < 38.75 AND pulse >= 41.00 THEN class = no (p=46, n=0, P=96, N=161)
+
+CR 1: IF surgery = {no} AND outcome = {lived} AND rectal_temperature < 38.75 AND packed_cell_volume >= 32.50 AND total_protein >= 5.75 THEN class = no (p=49, n=0, P=96, N=161)
+
+CR 2: IF surgery = {no} AND outcome = {lived} AND Age = {adult} AND total_protein < 78.00 AND packed_cell_volume >= 32.50 THEN class = no (p=60, n=4, P=96, N=161)
+
+CR 3: IF surgery = {no} AND rectal_temperature < 38.75 AND rectal_temperature >= 37.95 THEN class = no (p=43, n=2, P=96, N=161)
+
+CR 4: IF surgery = {no} AND pulse < 113.00 AND total_protein < 78.00 THEN class = no (p=66, n=21, P=96, N=161)
+
+CR 5: IF pain = {alert no pain} AND rectal_temperature >= 37.65 THEN class = no (p=27, n=2, P=96, N=161)
+
+CR 6: IF pulse < 58.00 AND mucous_membranes = {normal pink} AND respiratory_rate < 34.00 AND rectal_temperature >= 37.10 AND rectal_temperature < 38.75 THEN class = no (p=28, n=4, P=96, N=161)
+
+CR 7: IF total_protein >= 59.00 AND total_protein < 64.50 THEN class = no (p=14, n=0, P=96, N=161)
+
+CR 8: IF respiratory_rate < 71.00 AND pulse < 122.00 AND respiratory_rate >= 13.50 AND pulse >= 35.00 THEN class = no (p=70, n=94, P=96, N=161)
+
+CR 9: IF Age = {adult} THEN class = no (p=92, n=152, P=96, N=161)
+
+CR 10: IF surgery = {yes} AND total_protein < 59.00 AND total_protein >= 5.95 AND Age = {adult} THEN class = yes (p=77, n=2, P=161, N=96)
+
+CR 11: IF surgery = {yes} AND total_protein < 59.00 AND pulse >= 53.00 THEN class = yes (p=60, n=1, P=161, N=96)
+
+CR 12: IF surgery = {yes} AND total_protein < 80.50 AND packed_cell_volume >= 31.50 AND pulse >= 58.00 THEN class = yes (p=76, n=4, P=161, N=96)
+
+CR 13: IF surgery = {yes} AND pulse >= 58.00 AND pulse < 77.00 THEN class = yes (p=38, n=0, P=161, N=96)
+
+CR 14: IF surgery = {yes} AND pulse >= 48.50 AND rectal_temperature < 38.85 AND rectal_temperature >= 37.15 THEN class = yes (p=61, n=3, P=161, N=96)
+
+CR 15: IF surgery = {yes} AND outcome = {died} THEN class = yes (p=43, n=1, P=161, N=96)
+
+CR 16: IF surgery = {yes} AND packed_cell_volume >= 37.50 AND packed_cell_volume < 73.00 THEN class = yes (p=95, n=10, P=161, N=96)
+
+CR 17: IF outcome = {died} AND packed_cell_volume < 71.50 AND Age = {adult} AND pulse >= 43.00 THEN class = yes (p=37, n=0, P=161, N=96)
+
+CR 18: IF peristalsis = {absent} AND total_protein < 78.00 AND packed_cell_volume >= 35.50 AND respiratory_rate < 38.00 AND total_protein >= 5.40 THEN class = yes (p=26, n=0, P=161, N=96)
+
+CR 19: IF abdominal_distension = {moderate} AND total_protein < 8.65 AND Age = {adult} THEN class = yes (p=35, n=3, P=161, N=96)
+
+CR 20: IF pulse >= 58.00 THEN class = yes (p=109, n=31, P=161, N=96)
+
+CR 21: IF peristalsis = {hypomotile} AND packed_cell_volume >= 32.50 AND Age = {adult} THEN class = yes (p=56, n=29, P=161, N=96)

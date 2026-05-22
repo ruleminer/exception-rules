@@ -1,0 +1,64 @@
+
+CR 0: IF gammagt <= 7.50 THEN class = 1 (p=9, n=0, P=145, N=200)
+
+CR 1: IF gammagt <= 9.00 THEN class = 1 (p=14, n=5, P=145, N=200)
+
+CR 2: IF gammagt <= 10.00 THEN class = 1 (p=19, n=8, P=145, N=200)
+
+CR 3: IF gammagt <= 12.00 THEN class = 1 (p=32, n=17, P=145, N=200)
+
+CR 4: IF drinks >= 11.00 THEN class = 1 (p=6, n=3, P=145, N=200)
+
+CR 5: IF sgot <= 14.00 THEN class = 1 (p=15, n=9, P=145, N=200)
+
+CR 6: IF gammagt <= 20.50 AND sgpt >= 25.00 THEN class = 1 (p=37, n=6, P=145, N=200)
+
+CR 7: IF gammagt <= 20.50 AND sgpt >= 19.50 THEN class = 1 (p=60, n=20, P=145, N=200)
+
+CR 8: IF gammagt <= 20.50 AND alkphos >= 76.50 THEN class = 1 (p=27, n=8, P=145, N=200)
+
+CR 9: IF gammagt <= 21.00 AND sgpt >= 12.50 AND alkphos >= 46.50 THEN class = 1 (p=72, n=45, P=145, N=200)
+
+CR 10: IF sgot <= 19.00 AND sgpt >= 21.50 THEN class = 1 (p=34, n=10, P=145, N=200)
+
+CR 11: IF gammagt <= 24.00 AND sgpt >= 18.50 THEN class = 1 (p=69, n=40, P=145, N=200)
+
+CR 12: IF gammagt <= 28.00 AND sgpt >= 25.00 THEN class = 1 (p=51, n=20, P=145, N=200)
+
+CR 13: IF gammagt <= 35.00 AND sgpt >= 30.50 THEN class = 1 (p=33, n=10, P=145, N=200)
+
+CR 14: IF gammagt <= 35.00 AND sgpt >= 18.00 AND mcv >= 87.50 THEN class = 1 (p=75, n=45, P=145, N=200)
+
+CR 15: IF alkphos >= 93.50 AND sgot <= 26.50 THEN class = 1 (p=15, n=9, P=145, N=200)
+
+CR 16: IF drinks >= 5.50 AND sgpt >= 61.50 THEN class = 1 (p=8, n=3, P=145, N=200)
+
+CR 17: IF drinks >= 5.50 AND sgpt >= 36.50 THEN class = 1 (p=23, n=11, P=145, N=200)
+
+CR 18: IF alkphos >= 65.50 AND sgot <= 46.00 AND sgpt >= 27.00 AND alkphos <= 84.50 THEN class = 1 (p=32, n=17, P=145, N=200)
+
+CR 19: IF sgpt <= 9.50 THEN class = 2 (p=5, n=0, P=200, N=145)
+
+CR 20: IF sgot >= 60.50 THEN class = 2 (p=5, n=0, P=200, N=145)
+
+CR 21: IF sgot >= 44.00 THEN class = 2 (p=15, n=2, P=200, N=145)
+
+CR 22: IF sgpt <= 15.00 THEN class = 2 (p=32, n=9, P=200, N=145)
+
+CR 23: IF sgpt <= 19.00 THEN class = 2 (p=64, n=23, P=200, N=145)
+
+CR 24: IF gammagt >= 37.00 THEN class = 2 (p=81, n=31, P=200, N=145)
+
+CR 25: IF alkphos <= 59.00 THEN class = 2 (p=77, n=30, P=200, N=145)
+
+CR 26: IF gammagt >= 35.00 THEN class = 2 (p=86, n=36, P=200, N=145)
+
+CR 27: IF mcv <= 85.00 THEN class = 2 (p=33, n=12, P=200, N=145)
+
+CR 28: IF mcv <= 87.00 THEN class = 2 (p=64, n=26, P=200, N=145)
+
+CR 29: IF gammagt >= 21.50 THEN class = 2 (p=134, n=63, P=200, N=145)
+
+CR 30: IF sgot >= 22.00 THEN class = 2 (p=124, n=70, P=200, N=145)
+RR 30: IF sgpt <= 10.00 THEN class = 2 (p=7, n=2, P=200, N=145)
+ER 30: IF sgot >= 22.00 AND sgpt <= 10.00 THEN class = 1 (p=2, n=1, P=145, N=200)

@@ -1,0 +1,34 @@
+
+CR 0: IF cp = {2} AND oldpeak < 1.75 AND age < 55.50 AND age >= 36.00 THEN class = 0 (p=57, n=0, P=127, N=78)
+
+CR 1: IF cp = {2} AND oldpeak < 1.75 AND age < 55.50 AND trestbps >= 111.50 THEN class = 0 (p=57, n=0, P=127, N=78)
+
+CR 2: IF cp = {2} AND oldpeak < 1.75 THEN class = 0 (p=70, n=2, P=127, N=78)
+
+CR 3: IF oldpeak < 0.90 AND exang = {0} AND age < 62.50 AND thalach >= 95.00 AND trestbps >= 111.00 THEN class = 0 (p=92, n=11, P=127, N=78)
+
+CR 4: IF oldpeak < 0.90 AND exang = {0} AND age < 62.50 AND thalach >= 95.00 THEN class = 0 (p=104, n=15, P=127, N=78)
+
+CR 5: IF exang = {0} AND age < 62.50 AND oldpeak < 2.50 AND thalach >= 95.00 THEN class = 0 (p=115, n=25, P=127, N=78)
+
+CR 6: IF sex = {0} AND oldpeak < 1.25 AND thalach < 139.00 AND cp = {4} THEN class = 0 (p=6, n=0, P=127, N=78)
+
+CR 7: IF thalach >= 124.50 AND oldpeak < 2.25 AND trestbps >= 111.00 AND trestbps < 155.00 AND age < 57.00 THEN class = 0 (p=83, n=27, P=127, N=78)
+
+CR 8: IF slope = {2} AND sex = {1} AND thalach < 156.50 AND fbs = {0} THEN class = 1 (p=38, n=0, P=78, N=127)
+
+CR 9: IF slope = {2} AND sex = {1} THEN class = 1 (p=44, n=2, P=78, N=127)
+
+CR 10: IF slope = {2} AND cp = {4} AND oldpeak >= 0.90 AND age < 60.50 THEN class = 1 (p=41, n=3, P=78, N=127)
+
+CR 11: IF exang = {1} AND sex = {1} AND cp = {4} THEN class = 1 (p=39, n=2, P=78, N=127)
+
+CR 12: IF cp = {4} AND sex = {1} AND thalach < 155.50 AND chol >= 187.50 AND trestbps >= 116.00 THEN class = 1 (p=42, n=5, P=78, N=127)
+
+CR 13: IF cp = {4} AND sex = {1} AND chol >= 101.00 AND chol < 356.50 AND fbs = {0} THEN class = 1 (p=45, n=9, P=78, N=127)
+
+CR 14: IF thalach < 141.00 AND trestbps >= 122.50 AND age >= 47.50 AND chol >= 209.00 AND trestbps < 170.00 THEN class = 1 (p=31, n=10, P=78, N=127)
+
+CR 15: IF chol >= 221.50 AND thalach < 171.00 AND age >= 30.50 AND age < 56.50 AND trestbps < 185.00 THEN class = 1 (p=48, n=54, P=78, N=127)
+
+CR 16: IF trestbps >= 132.50 AND cp = {1} AND sex = {1} THEN class = 1 (p=3, n=0, P=78, N=127)

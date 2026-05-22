@@ -1,0 +1,50 @@
+
+CR 0: checking != status_no checking and duration <= 33 and purpose != new car and credit_amount <= 10975.5 and credit != history_no credits/all paid => class: good, samples: 223, class_counts: {'bad': 0, 'good': 0}
+
+CR 1: checking != status_no checking and duration <= 33 and purpose != new car and credit_amount <= 10975.5 and credit = history_no credits/all paid => class: bad, samples: 17, class_counts: {'bad': 0, 'good': 0}
+
+CR 2: checking != status_no checking and duration <= 33 and purpose != new car and credit_amount > 10975.5 => class: bad, samples: 5, class_counts: {'bad': 1, 'good': 0}
+
+CR 3: checking != status_no checking and duration <= 33 and purpose = new car and credit != history_critical/other existing credit and duration <= 22.5 => class: bad, samples: 48, class_counts: {'bad': 0, 'good': 0}
+
+CR 4: checking != status_no checking and duration <= 33 and purpose = new car and credit != history_critical/other existing credit and duration > 22.5 => class: bad, samples: 16, class_counts: {'bad': 0, 'good': 0}
+
+CR 5: checking != status_no checking and duration <= 33 and purpose = new car and credit = history_critical/other existing credit and age <= 35.5 => class: bad, samples: 9, class_counts: {'bad': 0, 'good': 0}
+
+CR 6: checking != status_no checking and duration <= 33 and purpose = new car and credit = history_critical/other existing credit and age > 35.5 => class: good, samples: 25, class_counts: {'bad': 0, 'good': 0}
+
+CR 7: checking != status_no checking and duration > 33 and employment != unemployed and residence_since <= 3.5 and savings != status_<100 => class: good, samples: 14, class_counts: {'bad': 0, 'good': 0}
+
+CR 8: checking != status_no checking and duration > 33 and employment != unemployed and residence_since <= 3.5 and savings = status_<100 => class: bad, samples: 31, class_counts: {'bad': 0, 'good': 0}
+
+CR 9: checking != status_no checking and duration > 33 and employment != unemployed and residence_since > 3.5 and credit != history_critical/other existing credit => class: bad, samples: 25, class_counts: {'bad': 0, 'good': 0}
+
+CR 10: checking != status_no checking and duration > 33 and employment != unemployed and residence_since > 3.5 and credit = history_critical/other existing credit => class: good, samples: 5, class_counts: {'bad': 0, 'good': 0}
+
+CR 11: checking != status_no checking and duration > 33 and employment = unemployed => class: good, samples: 7, class_counts: {'bad': 0, 'good': 1}
+
+CR 12: checking = status_no checking and other != payment_plans_none and purpose != radio/tv and residence_since <= 2.5 and age <= 32.5 => class: good, samples: 11, class_counts: {'bad': 0, 'good': 0}
+
+CR 13: checking = status_no checking and other != payment_plans_none and purpose != radio/tv and residence_since <= 2.5 and age > 32.5 => class: bad, samples: 7, class_counts: {'bad': 0, 'good': 0}
+
+CR 14: checking = status_no checking and other != payment_plans_none and purpose != radio/tv and residence_since > 2.5 and age <= 43 => class: good, samples: 8, class_counts: {'bad': 0, 'good': 0}
+
+CR 15: checking = status_no checking and other != payment_plans_none and purpose != radio/tv and residence_since > 2.5 and age > 43 => class: good, samples: 6, class_counts: {'bad': 0, 'good': 1}
+
+CR 16: checking = status_no checking and other != payment_plans_none and purpose = radio/tv and credit_amount <= 1071.5 => class: good, samples: 3, class_counts: {'bad': 0, 'good': 0}
+
+CR 17: checking = status_no checking and other != payment_plans_none and purpose = radio/tv and credit_amount > 1071.5 => class: good, samples: 11, class_counts: {'bad': 0, 'good': 1}
+
+CR 18: checking = status_no checking and other = payment_plans_none and age <= 23.5 and savings != status_<100 => class: good, samples: 6, class_counts: {'bad': 0, 'good': 1}
+
+CR 19: checking = status_no checking and other = payment_plans_none and age <= 23.5 and savings = status_<100 and credit_amount <= 2063 => class: bad, samples: 4, class_counts: {'bad': 1, 'good': 0}
+
+CR 20: checking = status_no checking and other = payment_plans_none and age <= 23.5 and savings = status_<100 and credit_amount > 2063 => class: good, samples: 5, class_counts: {'bad': 0, 'good': 0}
+
+CR 21: checking = status_no checking and other = payment_plans_none and age > 23.5 and credit_amount <= 7897 and credit != history_critical/other existing credit => class: good, samples: 114, class_counts: {'bad': 0, 'good': 0}
+
+CR 22: checking = status_no checking and other = payment_plans_none and age > 23.5 and credit_amount <= 7897 and credit = history_critical/other existing credit => class: good, samples: 90, class_counts: {'bad': 0, 'good': 1}
+
+CR 23: checking = status_no checking and other = payment_plans_none and age > 23.5 and credit_amount > 7897 and age <= 33.5 => class: bad, samples: 5, class_counts: {'bad': 0, 'good': 0}
+
+CR 24: checking = status_no checking and other = payment_plans_none and age > 23.5 and credit_amount > 7897 and age > 33.5 => class: good, samples: 5, class_counts: {'bad': 0, 'good': 1}

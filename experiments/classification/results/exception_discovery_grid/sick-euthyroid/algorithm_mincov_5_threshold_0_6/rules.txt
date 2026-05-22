@@ -1,0 +1,38 @@
+
+CR 0: IF T3 >= 1.20 THEN class = negative (p=2670, n=22, P=3541, N=231)
+
+CR 1: IF referral_source = {other} THEN class = negative (p=2168, n=33, P=3541, N=231)
+
+CR 2: IF T3 >= 1.10 THEN class = negative (p=2685, n=55, P=3541, N=231)
+
+CR 3: IF T3_measured = {f} THEN class = negative (p=766, n=3, P=3541, N=231)
+
+CR 4: IF T4U >= 1.05 THEN class = negative (p=1091, n=15, P=3541, N=231)
+
+CR 5: IF T4U >= 0.97 THEN class = negative (p=1749, n=35, P=3541, N=231)
+
+CR 6: IF age <= 53.00 THEN class = negative (p=1791, n=48, P=3541, N=231)
+
+CR 7: IF T4U >= 0.84 THEN class = negative (p=2720, n=110, P=3541, N=231)
+
+CR 8: IF age <= 69.00 THEN class = negative (p=2860, n=122, P=3541, N=231)
+
+CR 9: IF age <= 71.00 THEN class = negative (p=2999, n=136, P=3541, N=231)
+
+CR 10: IF T3 <= 1.10 AND TT4 >= 53.50 AND FTI <= 155.50 THEN class = sick (p=186, n=23, P=231, N=3541)
+
+CR 11: IF T3 <= 1.10 AND TT4 >= 53.50 AND referral_source = {SVI} THEN class = sick (p=163, n=12, P=231, N=3541)
+
+CR 12: IF T3 <= 1.10 AND TSH <= 19.00 AND FTI <= 155.50 THEN class = sick (p=187, n=29, P=231, N=3541)
+
+CR 13: IF T3 <= 1.50 AND TSH <= 14.60 AND age >= 32.50 AND on_thyroxine = {f} AND T4U <= 1.05 THEN class = sick (p=169, n=289, P=231, N=3541)
+
+CR 14: IF T3 <= 1.80 AND T4U <= 0.99 AND on_thyroxine = {f} AND TSH <= 14.60 AND age >= 22.00 THEN class = sick (p=170, n=540, P=231, N=3541)
+
+CR 15: IF referral_source = {SVI} AND FTI >= 176.00 AND TT4 <= 194.50 THEN class = sick (p=8, n=5, P=231, N=3541)
+
+CR 16: IF TT4 <= 62.00 AND TSH <= 6.40 AND FTI <= 53.00 THEN class = sick (p=10, n=1, P=231, N=3541)
+
+CR 17: IF T4U <= 1.00 AND T3 <= 2.60 AND TT4 >= 156.00 AND TSH <= 0.33 THEN class = sick (p=14, n=9, P=231, N=3541)
+RR 17: IF T3 <= 1.10 THEN class = sick (p=206, n=105, P=231, N=3541)
+ER 17: IF T4U <= 1.00 AND T3 <= 2.60 AND TT4 >= 156.00 AND TSH <= 0.33 AND T3 <= 1.10 THEN class = negative (p=1, n=0, P=3541, N=231)

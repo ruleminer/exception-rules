@@ -1,0 +1,14 @@
+
+CR 0: age <= 3.5 and education_level <= 3.5 and marital_status <= 3.5 and education_level <= 1.5 and age <= 1.5 => class: 1, samples: 8, class_counts: {'1': 1, '2': 0, '3': 0}
+
+CR 1: age <= 3.5 and education_level <= 3.5 and marital_status <= 3.5 and education_level <= 1.5 and age > 1.5 => class: 1, samples: 24, class_counts: {'1': 0, '2': 0, '3': 0}
+
+CR 2: age <= 3.5 and education_level <= 3.5 and marital_status <= 3.5 and education_level > 1.5 and marital_status <= 1.5 => class: 2, samples: 21, class_counts: {'1': 0, '2': 0, '3': 0}
+
+CR 3: age <= 3.5 and education_level <= 3.5 and marital_status <= 3.5 and education_level > 1.5 and marital_status > 1.5 => class: 2, samples: 20, class_counts: {'1': 0, '2': 0, '3': 0}
+
+CR 4: age <= 3.5 and education_level <= 3.5 and marital_status > 3.5 => class: 3, samples: 4, class_counts: {'1': 0, '2': 0, '3': 1}
+
+CR 5: age <= 3.5 and education_level > 3.5 => class: 3, samples: 6, class_counts: {'1': 0, '2': 0, '3': 1}
+
+CR 6: age > 3.5 => class: 3, samples: 9, class_counts: {'1': 0, '2': 0, '3': 1}

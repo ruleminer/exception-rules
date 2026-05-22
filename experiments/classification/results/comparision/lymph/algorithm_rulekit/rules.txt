@@ -1,0 +1,30 @@
+
+CR 0: IF lym_nodes_dimin >= 1.50 THEN class = fibrosis (p=4, n=0, P=4, N=99)
+
+CR 1: IF changes_in_node = {lac_central} AND no_of_nodes_in >= 1.50 THEN class = malign_lymph (p=14, n=0, P=41, N=62)
+
+CR 2: IF lym_nodes_enlar >= 3.50 AND special_forms = {vesicles} THEN class = malign_lymph (p=13, n=0, P=41, N=62)
+
+CR 3: IF no_of_nodes_in >= 3.50 AND lym_nodes_enlar >= 2.50 AND dislocation_of = {yes} AND bl_of_lymph_c = {no} THEN class = malign_lymph (p=12, n=0, P=41, N=62)
+
+CR 4: IF special_forms = {vesicles} AND lym_nodes_enlar >= 2.50 AND dislocation_of = {yes} AND early_uptake_in = {yes} AND bl_of_lymph_c = {no} THEN class = malign_lymph (p=22, n=0, P=41, N=62)
+
+CR 5: IF special_forms = {vesicles} AND block_of_affere = {no} AND by_pass = {no} THEN class = malign_lymph (p=19, n=1, P=41, N=62)
+
+CR 6: IF dislocation_of = {yes} AND changes_in_lym = {oval} AND bl_of_lymph_s = {no} THEN class = malign_lymph (p=18, n=11, P=41, N=62)
+
+CR 7: IF block_of_affere = {no} AND no_of_nodes_in >= 1.50 AND lym_nodes_enlar >= 1.50 AND exclusion_of_no = {yes} AND changes_in_lym = {oval} THEN class = malign_lymph (p=13, n=0, P=41, N=62)
+
+CR 8: IF changes_in_node = {lac_margin} AND block_of_affere = {yes} AND no_of_nodes_in < 3.50 AND lym_nodes_enlar < 3.50 THEN class = metastases (p=32, n=0, P=56, N=47)
+
+CR 9: IF changes_in_node = {lac_margin} AND no_of_nodes_in < 2.50 THEN class = metastases (p=32, n=3, P=56, N=47)
+
+CR 10: IF no_of_nodes_in < 1.50 AND block_of_affere = {yes} THEN class = metastases (p=24, n=0, P=56, N=47)
+
+CR 11: IF no_of_nodes_in < 1.50 THEN class = metastases (p=33, n=6, P=56, N=47)
+
+CR 12: IF block_of_affere = {yes} AND regeneration_of = {no} AND lym_nodes_enlar >= 1.50 THEN class = metastases (p=42, n=11, P=56, N=47)
+
+CR 13: IF changes_in_lym = {round} AND lym_nodes_enlar < 3.50 AND extravasates = {no} THEN class = metastases (p=10, n=1, P=56, N=47)
+
+CR 14: IF lymphatics = {normal} THEN class = normal (p=2, n=0, P=2, N=101)

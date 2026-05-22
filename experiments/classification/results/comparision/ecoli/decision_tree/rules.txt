@@ -1,0 +1,36 @@
+
+CR 0: alm1 <= 0.575 and mcg <= 0.58 and gvh <= 0.575 and mcg <= 0.545 and aac <= 0.525 => class: cp, samples: 66, class_counts: {'cp': 1, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 1: alm1 <= 0.575 and mcg <= 0.58 and gvh <= 0.575 and mcg <= 0.545 and aac > 0.525 => class: cp, samples: 24, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 2: alm1 <= 0.575 and mcg <= 0.58 and gvh <= 0.575 and mcg > 0.545 => class: cp, samples: 5, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 3: alm1 <= 0.575 and mcg <= 0.58 and gvh > 0.575 => class: cp, samples: 3, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 4: alm1 <= 0.575 and mcg > 0.58 and aac <= 0.645 and lip <= 0.74 and alm1 <= 0.375 => class: cp, samples: 9, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 5: alm1 <= 0.575 and mcg > 0.58 and aac <= 0.645 and lip <= 0.74 and alm1 > 0.375 => class: pp, samples: 30, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 6: alm1 <= 0.575 and mcg > 0.58 and aac <= 0.645 and lip > 0.74 => class: omL, samples: 3, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 7: alm1 <= 0.575 and mcg > 0.58 and aac > 0.645 => class: om, samples: 9, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 1, 'omL': 0, 'pp': 0}
+
+CR 8: alm1 > 0.575 and mcg <= 0.615 and gvh <= 0.595 and gvh <= 0.365 => class: im, samples: 3, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 9: alm1 > 0.575 and mcg <= 0.615 and gvh <= 0.595 and gvh > 0.365 => class: im, samples: 35, class_counts: {'cp': 0, 'im': 1, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 10: alm1 > 0.575 and mcg <= 0.615 and gvh > 0.595 and aac <= 0.55 => class: im, samples: 4, class_counts: {'cp': 0, 'im': 1, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 11: alm1 > 0.575 and mcg <= 0.615 and gvh > 0.595 and aac > 0.55 => class: imU, samples: 4, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 12: alm1 > 0.575 and mcg > 0.615 and mcg <= 0.745 and alm2 <= 0.48 => class: omL, samples: 3, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 13: alm1 > 0.575 and mcg > 0.615 and mcg <= 0.745 and alm2 > 0.48 and mcg <= 0.67 => class: imU, samples: 10, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 14: alm1 > 0.575 and mcg > 0.615 and mcg <= 0.745 and alm2 > 0.48 and mcg > 0.67 => class: im, samples: 11, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 15: alm1 > 0.575 and mcg > 0.615 and mcg > 0.745 and alm1 <= 0.725 and mcg <= 0.82 => class: imU, samples: 4, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 1, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 16: alm1 > 0.575 and mcg > 0.615 and mcg > 0.745 and alm1 <= 0.725 and mcg > 0.82 => class: im, samples: 3, class_counts: {'cp': 0, 'im': 1, 'imL': 0, 'imS': 0, 'imU': 0, 'om': 0, 'omL': 0, 'pp': 0}
+
+CR 17: alm1 > 0.575 and mcg > 0.615 and mcg > 0.745 and alm1 > 0.725 => class: imU, samples: 9, class_counts: {'cp': 0, 'im': 0, 'imL': 0, 'imS': 0, 'imU': 1, 'om': 0, 'omL': 0, 'pp': 0}

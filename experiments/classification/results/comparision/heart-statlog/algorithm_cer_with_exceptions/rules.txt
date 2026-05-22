@@ -1,0 +1,30 @@
+
+CR 0: IF maximum_heart_rate_achieved >= 183.00 THEN class = absent (p=6, n=0, P=101, N=88)
+
+CR 1: IF chest <= 3.00 AND slope <= 1.00 THEN class = absent (p=50, n=3, P=101, N=88)
+
+CR 2: IF chest <= 3.00 AND sex <= 0.50 THEN class = absent (p=31, n=0, P=101, N=88)
+
+CR 3: IF chest <= 3.00 AND oldpeak <= 1.35 THEN class = absent (p=58, n=6, P=101, N=88)
+
+CR 4: IF chest <= 3.00 AND maximum_heart_rate_achieved >= 142.00 THEN class = absent (p=66, n=13, P=101, N=88)
+
+CR 5: IF slope <= 1.00 AND thal <= 3.00 THEN class = absent (p=57, n=5, P=101, N=88)
+
+CR 6: IF slope <= 1.00 AND number_of_major_vessels <= 0.00 THEN class = absent (p=54, n=7, P=101, N=88)
+
+CR 7: IF oldpeak <= 0.80 AND resting_blood_pressure <= 149.00 THEN class = absent (p=66, n=13, P=101, N=88)
+
+CR 8: IF oldpeak >= 2.45 THEN class = present (p=25, n=2, P=88, N=101)
+
+CR 9: IF oldpeak >= 1.70 THEN class = present (p=45, n=9, P=88, N=101)
+
+CR 10: IF maximum_heart_rate_achieved <= 135.50 THEN class = present (p=41, n=10, P=88, N=101)
+
+CR 11: IF thal >= 7.00 AND oldpeak >= 0.70 THEN class = present (p=49, n=5, P=88, N=101)
+
+CR 12: IF thal >= 7.00 AND chest >= 3.50 THEN class = present (p=49, n=6, P=88, N=101)
+
+CR 13: IF chest >= 3.50 AND maximum_heart_rate_achieved <= 177.50 AND resting_blood_pressure >= 109.00 AND serum_cholestoral <= 353.50 THEN class = present (p=66, n=20, P=88, N=101)
+
+CR 14: IF sex >= 0.50 AND serum_cholestoral >= 243.00 AND maximum_heart_rate_achieved <= 176.00 AND age >= 47.00 AND slope <= 2.00 THEN class = present (p=39, n=11, P=88, N=101)

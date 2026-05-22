@@ -1,0 +1,20 @@
+
+CR 0: ASCITES != no and BILIRUBIN <= 1.4 and SGOT <= 72.5 => class: DIE, samples: 3, class_counts: {'DIE': 0, 'LIVE': 0}
+
+CR 1: ASCITES != no and BILIRUBIN <= 1.4 and SGOT > 72.5 => class: LIVE, samples: 3, class_counts: {'DIE': 0, 'LIVE': 1}
+
+CR 2: ASCITES != no and BILIRUBIN > 1.4 => class: DIE, samples: 10, class_counts: {'DIE': 1, 'LIVE': 0}
+
+CR 3: ASCITES = no and SPIDERS != yes and ALK_PHOSPHATE <= 185 => class: LIVE, samples: 64, class_counts: {'DIE': 0, 'LIVE': 1}
+
+CR 4: ASCITES = no and SPIDERS != yes and ALK_PHOSPHATE > 185 => class: LIVE, samples: 3, class_counts: {'DIE': 0, 'LIVE': 0}
+
+CR 5: ASCITES = no and SPIDERS = yes and ALK_PHOSPHATE <= 130 and BILIRUBIN <= 1.2 and LIVER != FIRM_no => class: LIVE, samples: 5, class_counts: {'DIE': 0, 'LIVE': 1}
+
+CR 6: ASCITES = no and SPIDERS = yes and ALK_PHOSPHATE <= 130 and BILIRUBIN <= 1.2 and LIVER = FIRM_no => class: DIE, samples: 5, class_counts: {'DIE': 0, 'LIVE': 0}
+
+CR 7: ASCITES = no and SPIDERS = yes and ALK_PHOSPHATE <= 130 and BILIRUBIN > 1.2 and LIVER != BIG_no => class: DIE, samples: 5, class_counts: {'DIE': 1, 'LIVE': 0}
+
+CR 8: ASCITES = no and SPIDERS = yes and ALK_PHOSPHATE <= 130 and BILIRUBIN > 1.2 and LIVER = BIG_no => class: DIE, samples: 3, class_counts: {'DIE': 0, 'LIVE': 0}
+
+CR 9: ASCITES = no and SPIDERS = yes and ALK_PHOSPHATE > 130 => class: LIVE, samples: 7, class_counts: {'DIE': 0, 'LIVE': 1}

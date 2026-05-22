@@ -1,0 +1,42 @@
+
+CR 0: plas <= 154.5 and age <= 28.5 and plas <= 127.5 and mass <= 45.25 and mass <= 31.4 => class: tested_negative, samples: 111, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 1: plas <= 154.5 and age <= 28.5 and plas <= 127.5 and mass <= 45.25 and mass > 31.4 => class: tested_negative, samples: 77, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 2: plas <= 154.5 and age <= 28.5 and plas <= 127.5 and mass > 45.25 => class: tested_negative, samples: 4, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 3: plas <= 154.5 and age <= 28.5 and plas > 127.5 and pres <= 56 => class: tested_positive, samples: 5, class_counts: {'tested_negative': 0, 'tested_positive': 1}
+
+CR 4: plas <= 154.5 and age <= 28.5 and plas > 127.5 and pres > 56 and mass <= 30.3 => class: tested_negative, samples: 15, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 5: plas <= 154.5 and age <= 28.5 and plas > 127.5 and pres > 56 and mass > 30.3 => class: tested_negative, samples: 26, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 6: plas <= 154.5 and age > 28.5 and mass <= 26.95 and pedi <= 0.3045 and pedi <= 0.2725 => class: tested_negative, samples: 16, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 7: plas <= 154.5 and age > 28.5 and mass <= 26.95 and pedi <= 0.3045 and pedi > 0.2725 => class: tested_negative, samples: 4, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 8: plas <= 154.5 and age > 28.5 and mass <= 26.95 and pedi > 0.3045 => class: tested_negative, samples: 23, class_counts: {'tested_negative': 1, 'tested_positive': 0}
+
+CR 9: plas <= 154.5 and age > 28.5 and mass > 26.95 and plas <= 94.5 and plas <= 61 => class: tested_positive, samples: 3, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 10: plas <= 154.5 and age > 28.5 and mass > 26.95 and plas <= 94.5 and plas > 61 => class: tested_negative, samples: 23, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 11: plas <= 154.5 and age > 28.5 and mass > 26.95 and plas > 94.5 and pedi <= 0.528 => class: tested_negative, samples: 99, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 12: plas <= 154.5 and age > 28.5 and mass > 26.95 and plas > 94.5 and pedi > 0.528 => class: tested_positive, samples: 48, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 13: plas > 154.5 and mass <= 28.7 and mass <= 25.35 => class: tested_positive, samples: 4, class_counts: {'tested_negative': 0, 'tested_positive': 1}
+
+CR 14: plas > 154.5 and mass <= 28.7 and mass > 25.35 and age <= 52.5 => class: tested_positive, samples: 5, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 15: plas > 154.5 and mass <= 28.7 and mass > 25.35 and age > 52.5 => class: tested_negative, samples: 3, class_counts: {'tested_negative': 1, 'tested_positive': 0}
+
+CR 16: plas > 154.5 and mass > 28.7 and pedi <= 1.4275 and pedi <= 0.3045 and age <= 30.5 => class: tested_positive, samples: 9, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 17: plas > 154.5 and mass > 28.7 and pedi <= 1.4275 and pedi <= 0.3045 and age > 30.5 => class: tested_positive, samples: 11, class_counts: {'tested_negative': 0, 'tested_positive': 1}
+
+CR 18: plas > 154.5 and mass > 28.7 and pedi <= 1.4275 and pedi > 0.3045 and plas <= 165.5 => class: tested_positive, samples: 11, class_counts: {'tested_negative': 0, 'tested_positive': 0}
+
+CR 19: plas > 154.5 and mass > 28.7 and pedi <= 1.4275 and pedi > 0.3045 and plas > 165.5 => class: tested_positive, samples: 35, class_counts: {'tested_negative': 0, 'tested_positive': 1}
+
+CR 20: plas > 154.5 and mass > 28.7 and pedi > 1.4275 => class: tested_positive, samples: 5, class_counts: {'tested_negative': 0, 'tested_positive': 0}

@@ -1,0 +1,40 @@
+
+CR 0: IF ca >= 2.00 AND age >= 44.00 AND chol <= 301.50 THEN class = >50_1 (p=27, n=0, P=92, N=120)
+
+CR 1: IF ca >= 2.00 AND age >= 44.00 THEN class = >50_1 (p=33, n=1, P=92, N=120)
+
+CR 2: IF exang = {yes} AND ca >= 0.50 AND trestbps >= 97.00 THEN class = >50_1 (p=34, n=0, P=92, N=120)
+
+CR 3: IF exang = {yes} AND thalach <= 136.50 AND slope = {flat} THEN class = >50_1 (p=27, n=0, P=92, N=120)
+
+CR 4: IF exang = {yes} AND cp = {asympt} AND thalach <= 147.00 THEN class = >50_1 (p=40, n=1, P=92, N=120)
+
+CR 5: IF exang = {yes} AND oldpeak >= 0.50 AND trestbps >= 110.00 AND chol >= 199.50 THEN class = >50_1 (p=37, n=2, P=92, N=120)
+
+CR 6: IF ca >= 0.50 AND cp = {asympt} AND chol <= 301.50 THEN class = >50_1 (p=42, n=0, P=92, N=120)
+
+CR 7: IF ca >= 0.50 AND sex = {male} AND age >= 43.50 AND trestbps >= 97.00 AND chol >= 128.50 THEN class = >50_1 (p=52, n=4, P=92, N=120)
+
+CR 8: IF thal = {reversable_defect} AND slope = {flat} AND thalach <= 172.00 AND ca >= 0.00 THEN class = >50_1 (p=39, n=3, P=92, N=120)
+
+CR 9: IF sex = {male} AND chol >= 222.50 AND thalach <= 181.00 AND trestbps >= 97.00 AND trestbps <= 170.00 THEN class = >50_1 (p=52, n=31, P=92, N=120)
+
+CR 10: IF thal = {normal} AND ca <= 0.00 AND chol <= 326.00 AND exang = {no} AND oldpeak <= 3.55 THEN class = <50 (p=63, n=1, P=120, N=92)
+
+CR 11: IF thal = {normal} AND ca <= 0.00 AND chol <= 326.00 AND oldpeak <= 3.55 AND trestbps <= 165.00 THEN class = <50 (p=72, n=3, P=120, N=92)
+
+CR 12: IF thal = {normal} AND exang = {no} AND chol <= 318.50 AND sex = {female} THEN class = <50 (p=43, n=0, P=120, N=92)
+
+CR 13: IF thal = {normal} AND exang = {no} AND chol <= 318.50 AND oldpeak <= 3.55 AND trestbps <= 153.00 THEN class = <50 (p=76, n=6, P=120, N=92)
+
+CR 14: IF thal = {normal} AND exang = {no} AND ca <= 1.00 AND oldpeak <= 3.55 THEN class = <50 (p=79, n=8, P=120, N=92)
+
+CR 15: IF cp = {non_anginal} AND age <= 55.00 AND oldpeak <= 3.55 AND trestbps >= 109.00 THEN class = <50 (p=31, n=0, P=120, N=92)
+
+CR 16: IF slope = {up} AND ca <= 0.00 AND chol <= 297.00 AND trestbps <= 151.00 AND trestbps >= 109.00 THEN class = <50 (p=48, n=0, P=120, N=92)
+
+CR 17: IF slope = {up} AND ca <= 1.00 AND exang = {no} AND chol <= 324.00 AND trestbps <= 182.00 THEN class = <50 (p=63, n=7, P=120, N=92)
+
+CR 18: IF ca <= 0.00 AND exang = {no} AND chol <= 319.50 AND trestbps <= 150.00 AND oldpeak <= 2.45 THEN class = <50 (p=73, n=4, P=120, N=92)
+
+CR 19: IF thalach >= 144.50 AND ca <= 1.00 AND age <= 66.50 AND trestbps <= 186.00 AND chol <= 327.50 THEN class = <50 (p=86, n=22, P=120, N=92)

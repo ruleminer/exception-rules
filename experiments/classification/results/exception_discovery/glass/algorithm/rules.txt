@@ -1,0 +1,48 @@
+
+CR 0: IF Al <= 1.41 AND Mg >= 3.41 AND Mg <= 3.51 THEN class = build wind float (p=16, n=0, P=70, N=144)
+
+CR 1: IF Al <= 1.41 AND Mg >= 3.41 AND Si >= 72.92 AND Al >= 1.10 THEN class = build wind float (p=24, n=0, P=70, N=144)
+
+CR 2: IF Mg >= 3.41 AND Ca >= 9.67 THEN class = build wind float (p=9, n=0, P=70, N=144)
+
+CR 3: IF Al <= 1.41 AND Mg >= 3.41 AND Mg <= 3.75 AND RI >= 1.52 AND Fe <= 0.15 THEN class = build wind float (p=38, n=3, P=70, N=144)
+
+CR 4: IF Al <= 1.41 AND Mg >= 3.41 AND RI >= 1.52 AND Fe <= 0.11 AND Ca >= 8.16 THEN class = build wind float (p=42, n=9, P=70, N=144)
+
+CR 5: IF Al <= 1.41 AND Mg >= 2.79 AND RI >= 1.52 AND Mg <= 3.62 AND RI <= 1.52 THEN class = build wind float (p=40, n=3, P=70, N=144)
+
+CR 6: IF Mg >= 3.42 AND Ca >= 8.05 AND Mg <= 3.87 AND K <= 0.67 AND Al <= 1.73 THEN class = build wind float (p=57, n=27, P=70, N=144)
+
+CR 7: IF Al <= 0.96 AND Ca <= 9.67 AND Al >= 0.52 AND Na >= 13.57 AND Na <= 14.34 THEN class = vehic wind float (p=5, n=0, P=17, N=197)
+
+CR 8: IF Si <= 72.71 AND Al <= 1.40 AND RI <= 1.52 THEN class = vehic wind float (p=5, n=0, P=17, N=197)
+
+CR 9: IF Si <= 72.78 AND RI <= 1.52 AND Ca >= 8.32 AND Na <= 13.89 AND Na >= 13.08 THEN class = vehic wind float (p=9, n=4, P=17, N=197)
+
+CR 10: IF K <= 0.00 AND Ba <= 0.00 AND RI <= 1.52 AND Na >= 13.75 THEN class = tableware (p=9, n=0, P=9, N=205)
+
+CR 11: IF Ca >= 12.87 THEN class = build wind non-float (p=7, n=0, P=76, N=138)
+
+CR 12: IF Ca <= 8.23 AND Mg >= 3.46 THEN class = build wind non-float (p=33, n=7, P=76, N=138)
+
+CR 13: IF Ca <= 8.27 AND Ca >= 7.02 AND Al >= 1.42 THEN class = build wind non-float (p=33, n=4, P=76, N=138)
+
+CR 14: IF Mg >= 3.87 AND RI <= 1.52 THEN class = build wind non-float (p=7, n=0, P=76, N=138)
+
+CR 15: IF K >= 0.61 AND K <= 0.74 AND RI >= 1.52 THEN class = build wind non-float (p=27, n=6, P=76, N=138)
+
+CR 16: IF Fe >= 0.11 AND Mg <= 3.31 AND Si <= 73.33 THEN class = build wind non-float (p=8, n=1, P=76, N=138)
+
+CR 17: IF Fe >= 0.11 AND RI <= 1.52 AND K <= 0.59 AND Na >= 12.54 AND Al >= 0.79 THEN class = build wind non-float (p=16, n=3, P=76, N=138)
+
+CR 18: IF Ca >= 10.37 AND Al <= 1.38 AND Na <= 14.50 THEN class = build wind non-float (p=10, n=0, P=76, N=138)
+
+CR 19: IF K >= 0.33 AND Na >= 12.89 AND Si >= 72.16 AND Ca <= 8.82 AND Si <= 72.97 THEN class = build wind non-float (p=33, n=16, P=76, N=138)
+
+CR 20: IF Ba >= 0.34 AND Si >= 72.16 THEN class = headlamps (p=24, n=0, P=29, N=185)
+
+CR 21: IF Mg <= 3.34 AND Ca <= 9.77 AND Fe <= 0.09 AND RI >= 1.51 AND Al <= 3.19 THEN class = headlamps (p=28, n=12, P=29, N=185)
+
+CR 22: IF Ca >= 11.25 AND RI <= 1.52 THEN class = containers (p=6, n=0, P=13, N=201)
+
+CR 23: IF K >= 0.74 AND Na <= 14.13 AND Na >= 12.40 AND RI >= 1.51 THEN class = containers (p=5, n=0, P=13, N=201)

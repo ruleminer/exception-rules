@@ -1,0 +1,20 @@
+
+CR 0: safety != low and persons != 2 and maint != vhigh and buying != low and lug != boot_small => class: acc, samples: 207, class_counts: {'acc': 0, 'good': 0, 'unacc': 0, 'vgood': 0}
+
+CR 1: safety != low and persons != 2 and maint != vhigh and buying != low and lug = boot_small => class: unacc, samples: 104, class_counts: {'acc': 0, 'good': 0, 'unacc': 0, 'vgood': 0}
+
+CR 2: safety != low and persons != 2 and maint != vhigh and buying = low and maint != high => class: good, samples: 63, class_counts: {'acc': 0, 'good': 0, 'unacc': 0, 'vgood': 0}
+
+CR 3: safety != low and persons != 2 and maint != vhigh and buying = low and maint = high => class: acc, samples: 33, class_counts: {'acc': 0, 'good': 0, 'unacc': 0, 'vgood': 0}
+
+CR 4: safety != low and persons != 2 and maint = vhigh and buying != low and buying != med => class: unacc, samples: 69, class_counts: {'acc': 0, 'good': 0, 'unacc': 1, 'vgood': 0}
+
+CR 5: safety != low and persons != 2 and maint = vhigh and buying != low and buying = med => class: acc, samples: 31, class_counts: {'acc': 0, 'good': 0, 'unacc': 0, 'vgood': 0}
+
+CR 6: safety != low and persons != 2 and maint = vhigh and buying = low and lug != boot_small => class: acc, samples: 21, class_counts: {'acc': 0, 'good': 0, 'unacc': 0, 'vgood': 0}
+
+CR 7: safety != low and persons != 2 and maint = vhigh and buying = low and lug = boot_small => class: unacc, samples: 14, class_counts: {'acc': 0, 'good': 0, 'unacc': 0, 'vgood': 0}
+
+CR 8: safety != low and persons = 2 => class: unacc, samples: 260, class_counts: {'acc': 0, 'good': 0, 'unacc': 1, 'vgood': 0}
+
+CR 9: safety = low => class: unacc, samples: 407, class_counts: {'acc': 0, 'good': 0, 'unacc': 1, 'vgood': 0}

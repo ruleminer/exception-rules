@@ -1,0 +1,46 @@
+
+CR 0: IF region-centroid-row >= 159.00 AND rawblue-mean >= 32.28 THEN class = path (p=328, n=0, P=330, N=1980)
+
+CR 1: IF saturation-mean >= 0.68 AND hue-mean <= -2.10 THEN class = foliage (p=204, n=9, P=330, N=1980)
+
+CR 2: IF saturation-mean >= 0.68 AND hue-mean <= -2.02 AND region-centroid-row <= 144.00 AND region-centroid-row >= 67.00 AND region-centroid-col <= 241.50 THEN class = foliage (p=237, n=39, P=330, N=1980)
+
+CR 3: IF saturation-mean >= 0.58 AND hue-mean <= -2.04 AND region-centroid-row >= 66.00 AND hedge-mean >= 0.25 AND region-centroid-row <= 144.00 THEN class = foliage (p=255, n=48, P=330, N=1980)
+
+CR 4: IF hue-mean <= -2.22 AND intensity-mean <= 82.98 THEN class = foliage (p=203, n=44, P=330, N=1980)
+
+CR 5: IF intensity-mean >= 82.98 THEN class = sky (p=330, n=0, P=330, N=1980)
+
+CR 6: IF hue-mean >= 0.64 THEN class = grass (p=327, n=0, P=330, N=1980)
+
+CR 7: IF exred-mean >= 0.11 THEN class = brickface (p=187, n=6, P=330, N=1980)
+
+CR 8: IF exred-mean >= -1.50 AND exgreen-mean <= -5.61 AND intensity-mean <= 30.89 THEN class = brickface (p=225, n=0, P=330, N=1980)
+
+CR 9: IF exgreen-mean <= -5.61 AND rawgreen-mean <= 19.22 AND hue-mean >= -1.72 THEN class = brickface (p=275, n=4, P=330, N=1980)
+
+CR 10: IF hue-mean >= -1.85 AND exgreen-mean <= -5.11 AND saturation-mean >= 0.29 AND vedge-mean <= 2.81 AND exred-mean >= -10.56 THEN class = brickface (p=316, n=4, P=330, N=1980)
+
+CR 11: IF vedge-mean >= 4.78 AND hedge-sd <= 1.75 AND intensity-mean >= 25.24 THEN class = cement (p=37, n=0, P=330, N=1980)
+
+CR 12: IF rawred-mean >= 24.83 AND exred-mean >= -8.22 AND region-centroid-row <= 170.50 AND rawgreen-mean >= 22.83 THEN class = cement (p=35, n=0, P=330, N=1980)
+
+CR 13: IF rawred-mean >= 24.83 AND hue-mean >= -2.16 AND region-centroid-row <= 159.50 AND intensity-mean <= 89.28 AND rawgreen-mean >= 22.83 THEN class = cement (p=275, n=0, P=330, N=1980)
+
+CR 14: IF rawblue-mean >= 28.50 AND rawgreen-mean <= 64.56 AND region-centroid-row <= 160.00 AND hue-mean <= -1.88 AND hue-mean >= -2.24 THEN class = cement (p=288, n=55, P=330, N=1980)
+
+CR 15: IF saturation-mean <= 0.07 THEN class = window (p=42, n=6, P=330, N=1980)
+
+CR 16: IF hedge-mean <= 0.22 THEN class = window (p=98, n=28, P=330, N=1980)
+
+CR 17: IF hedge-mean <= 0.39 AND region-centroid-col >= 36.50 AND saturation-mean <= 0.99 AND exred-mean <= 1.56 AND intensity-mean <= 32.61 THEN class = window (p=119, n=8, P=330, N=1980)
+
+CR 18: IF hedge-mean <= 0.50 AND exred-mean <= 1.06 AND saturation-mean <= 0.98 AND rawblue-mean <= 39.39 AND region-centroid-col >= 42.00 THEN class = window (p=150, n=12, P=330, N=1980)
+
+CR 19: IF rawgreen-mean <= 1.33 AND region-centroid-row >= 129.50 THEN class = window (p=118, n=48, P=330, N=1980)
+
+CR 20: IF hedge-mean <= 0.72 AND exred-mean <= 0.72 AND intensity-mean <= 31.67 AND saturation-mean <= 0.95 AND region-centroid-col >= 33.50 THEN class = window (p=187, n=32, P=330, N=1980)
+
+CR 21: IF rawgreen-mean <= 12.44 AND region-centroid-col >= 151.50 THEN class = window (p=176, n=112, P=330, N=1980)
+
+CR 22: IF rawgreen-mean <= 16.89 AND hue-mean <= -1.80 AND saturation-mean <= 0.86 AND hue-mean >= -2.37 THEN class = window (p=197, n=111, P=330, N=1980)

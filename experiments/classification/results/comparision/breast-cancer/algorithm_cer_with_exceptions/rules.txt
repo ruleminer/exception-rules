@@ -1,0 +1,44 @@
+
+CR 0: IF tumor-size = {10-14} THEN class = no-recurrence-events (p=16, n=0, P=139, N=61)
+
+CR 1: IF deg-malig = {1} THEN class = no-recurrence-events (p=42, n=8, P=139, N=61)
+
+CR 2: IF inv-nodes = {0-2} AND breast-quad = {right_low} THEN class = no-recurrence-events (p=11, n=1, P=139, N=61)
+
+CR 3: IF inv-nodes = {0-2} AND age = {50-59} THEN class = no-recurrence-events (p=37, n=7, P=139, N=61)
+
+CR 4: IF inv-nodes = {0-2} AND menopause = {ge40} THEN class = no-recurrence-events (p=52, n=11, P=139, N=61)
+
+CR 5: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} THEN class = no-recurrence-events (p=99, n=24, P=139, N=61)
+
+CR 6: IF inv-nodes = {0-2} AND node-caps = {no} THEN class = no-recurrence-events (p=110, n=31, P=139, N=61)
+
+CR 7: IF node-caps = {no} AND irradiat = {no} THEN class = no-recurrence-events (p=104, n=29, P=139, N=61)
+
+CR 8: IF age = {50-59} AND menopause = {ge40} THEN class = no-recurrence-events (p=33, n=7, P=139, N=61)
+
+CR 9: IF breast = {right} AND deg-malig = {2} AND menopause = {premeno} THEN class = no-recurrence-events (p=25, n=6, P=139, N=61)
+
+CR 10: IF breast = {right} THEN class = no-recurrence-events (p=72, n=24, P=139, N=61)
+
+CR 11: IF node-caps = {yes} AND age = {60-69} THEN class = recurrence-events (p=5, n=1, P=61, N=139)
+
+CR 12: IF node-caps = {yes} AND deg-malig = {3} AND breast = {left} AND irradiat = {yes} THEN class = recurrence-events (p=7, n=0, P=61, N=139)
+
+CR 13: IF node-caps = {yes} AND deg-malig = {3} THEN class = recurrence-events (p=14, n=6, P=61, N=139)
+
+CR 14: IF inv-nodes = {3-5} AND tumor-size = {30-34} AND node-caps = {no} THEN class = recurrence-events (p=5, n=0, P=61, N=139)
+
+CR 15: IF inv-nodes = {3-5} THEN class = recurrence-events (p=16, n=13, P=61, N=139)
+
+CR 16: IF deg-malig = {3} AND age = {60-69} THEN class = recurrence-events (p=8, n=3, P=61, N=139)
+
+CR 17: IF deg-malig = {3} AND breast = {left} THEN class = recurrence-events (p=19, n=15, P=61, N=139)
+
+CR 18: IF irradiat = {yes} THEN class = recurrence-events (p=22, n=29, P=61, N=139)
+
+CR 19: IF tumor-size = {25-29} AND menopause = {premeno} AND irradiat = {no} AND node-caps = {no} THEN class = recurrence-events (p=7, n=6, P=61, N=139)
+
+CR 20: IF breast = {left} AND menopause = {premeno} THEN class = recurrence-events (p=22, n=33, P=61, N=139)
+
+CR 21: IF deg-malig = {2} THEN class = recurrence-events (p=24, n=67, P=61, N=139)

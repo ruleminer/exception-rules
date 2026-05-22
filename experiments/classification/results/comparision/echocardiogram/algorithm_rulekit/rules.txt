@@ -1,0 +1,12 @@
+
+CR 0: IF epss < 19.15 AND survival >= 15.50 THEN class = 0 (p=45, n=0, P=60, N=31)
+
+CR 1: IF survival >= 8.25 AND epss < 19.15 THEN class = 0 (p=50, n=1, P=60, N=31)
+
+CR 2: IF lvdd < 5.74 AND survival >= 15.50 AND pericardial-effusion = {0} THEN class = 0 (p=44, n=0, P=60, N=31)
+
+CR 3: IF survival >= 8.25 AND age-at-heart-attack < 80.50 THEN class = 0 (p=58, n=3, P=60, N=31)
+
+CR 4: IF survival < 8.25 THEN class = 1 (p=27, n=0, P=31, N=60)
+
+CR 5: IF survival < 28.50 AND age-at-heart-attack >= 59.50 AND fractional-shortening < 0.25 AND wall-motion-score < 21.75 THEN class = 1 (p=15, n=8, P=31, N=60)

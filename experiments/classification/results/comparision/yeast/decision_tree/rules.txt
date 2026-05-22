@@ -1,0 +1,54 @@
+
+CR 0: alm <= 0.435 and mcg <= 0.655 and mit <= 0.395 and mcg <= 0.555 and alm <= 0.395 => class: ME3, samples: 82, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 1: alm <= 0.435 and mcg <= 0.655 and mit <= 0.395 and mcg <= 0.555 and alm > 0.395 => class: ME3, samples: 25, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 2: alm <= 0.435 and mcg <= 0.655 and mit <= 0.395 and mcg > 0.555 and gvh <= 0.5 => class: CYT, samples: 4, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 3: alm <= 0.435 and mcg <= 0.655 and mit <= 0.395 and mcg > 0.555 and gvh > 0.5 => class: ME3, samples: 16, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 4: alm <= 0.435 and mcg <= 0.655 and mit > 0.395 and nuc <= 0.29 => class: MIT, samples: 5, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 5: alm <= 0.435 and mcg <= 0.655 and mit > 0.395 and nuc > 0.29 => class: CYT, samples: 3, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 6: alm <= 0.435 and mcg > 0.655 and gvh <= 0.625 and gvh <= 0.575 and mit <= 0.35 => class: ME2, samples: 10, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 7: alm <= 0.435 and mcg > 0.655 and gvh <= 0.625 and gvh <= 0.575 and mit > 0.35 => class: ME2, samples: 3, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 8: alm <= 0.435 and mcg > 0.655 and gvh <= 0.625 and gvh > 0.575 and mcg <= 0.76 => class: MIT, samples: 7, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 9: alm <= 0.435 and mcg > 0.655 and gvh <= 0.625 and gvh > 0.575 and mcg > 0.76 => class: ME2, samples: 3, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 1, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 10: alm <= 0.435 and mcg > 0.655 and gvh > 0.625 and nuc <= 0.235 and mcg <= 0.8 => class: ME1, samples: 19, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 11: alm <= 0.435 and mcg > 0.655 and gvh > 0.625 and nuc <= 0.235 and mcg > 0.8 => class: ME2, samples: 9, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 12: alm <= 0.435 and mcg > 0.655 and gvh > 0.625 and nuc > 0.235 => class: ME1, samples: 11, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 1, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 13: alm > 0.435 and mit <= 0.415 and nuc <= 0.315 and mcg <= 0.735 and gvh <= 0.325 => class: NUC, samples: 41, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 14: alm > 0.435 and mit <= 0.415 and nuc <= 0.315 and mcg <= 0.735 and gvh > 0.325 => class: CYT, samples: 485, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 15: alm > 0.435 and mit <= 0.415 and nuc <= 0.315 and mcg > 0.735 and vac <= 0.52 => class: EXC, samples: 22, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 16: alm > 0.435 and mit <= 0.415 and nuc <= 0.315 and mcg > 0.735 and vac > 0.52 => class: ME1, samples: 11, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 17: alm > 0.435 and mit <= 0.415 and nuc > 0.315 and mcg <= 0.695 and vac <= 0.505 => class: NUC, samples: 66, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 18: alm > 0.435 and mit <= 0.415 and nuc > 0.315 and mcg <= 0.695 and vac > 0.505 => class: NUC, samples: 88, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 19: alm > 0.435 and mit <= 0.415 and nuc > 0.315 and mcg > 0.695 => class: CYT, samples: 5, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 20: alm > 0.435 and mit > 0.415 and mcg <= 0.415 and alm <= 0.605 and alm <= 0.525 => class: CYT, samples: 6, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 21: alm > 0.435 and mit > 0.415 and mcg <= 0.415 and alm <= 0.605 and alm > 0.525 => class: CYT, samples: 9, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 22: alm > 0.435 and mit > 0.415 and mcg <= 0.415 and alm > 0.605 => class: CYT, samples: 5, class_counts: {'CYT': 1, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 23: alm > 0.435 and mit > 0.415 and mcg > 0.415 and vac <= 0.41 and gvh <= 0.545 => class: CYT, samples: 3, class_counts: {'CYT': 1, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 24: alm > 0.435 and mit > 0.415 and mcg > 0.415 and vac <= 0.41 and gvh > 0.545 => class: EXC, samples: 5, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 25: alm > 0.435 and mit > 0.415 and mcg > 0.415 and vac > 0.41 and gvh <= 0.485 => class: MIT, samples: 31, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}
+
+CR 26: alm > 0.435 and mit > 0.415 and mcg > 0.415 and vac > 0.41 and gvh > 0.485 => class: MIT, samples: 64, class_counts: {'CYT': 0, 'ERL': 0, 'EXC': 0, 'ME1': 0, 'ME2': 0, 'ME3': 0, 'MIT': 0, 'NUC': 0, 'POX': 0, 'VAC': 0}

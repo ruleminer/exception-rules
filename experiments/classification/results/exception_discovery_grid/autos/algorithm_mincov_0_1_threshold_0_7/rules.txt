@@ -1,0 +1,70 @@
+
+CR 0: IF height <= 50.35 THEN class = 3 (p=16, n=2, P=27, N=178)
+
+CR 1: IF engine-location = {rear} THEN class = 3 (p=3, n=0, P=27, N=178)
+
+CR 2: IF body-style = {convertible} THEN class = 3 (p=5, n=1, P=27, N=178)
+
+CR 3: IF normalized-losses >= 193.00 THEN class = 3 (p=5, n=1, P=27, N=178)
+
+CR 4: IF make = {saab} AND num-of-doors = {two} THEN class = 3 (p=3, n=0, P=27, N=178)
+
+CR 5: IF curb-weight <= 1,996.50 THEN class = 1 (p=24, n=7, P=54, N=151)
+
+CR 6: IF curb-weight <= 2,045.00 AND normalized-losses <= 157.50 AND bore >= 2.95 AND normalized-losses >= 84.00 THEN class = 1 (p=25, n=0, P=54, N=151)
+
+CR 7: IF width <= 64.20 AND normalized-losses >= 86.00 AND wheel-base >= 90.70 AND wheel-base <= 94.50 AND normalized-losses <= 212.00 THEN class = 1 (p=35, n=0, P=54, N=151)
+
+CR 8: IF bore <= 3.17 AND peak-rpm <= 5,500.00 AND compression-ratio <= 9.46 THEN class = 1 (p=33, n=11, P=54, N=151)
+
+CR 9: IF bore <= 3.35 AND compression-ratio <= 22.20 AND stroke <= 3.47 AND height <= 56.00 AND highway-mpg >= 24.50 THEN class = 1 (p=46, n=32, P=54, N=151)
+
+CR 10: IF height <= 54.85 AND stroke <= 3.39 AND stroke >= 2.96 AND wheel-base <= 102.80 AND peak-rpm >= 4,775.00 THEN class = 1 (p=41, n=17, P=54, N=151)
+
+CR 11: IF wheel-base <= 88.50 THEN class = 2 (p=3, n=0, P=32, N=173)
+
+CR 12: IF make = {volkswagen} AND normalized-losses <= 189.00 THEN class = 2 (p=7, n=0, P=32, N=173)
+
+CR 13: IF body-style = {hardtop} AND num-of-cylinders = {four} THEN class = 2 (p=4, n=0, P=32, N=173)
+
+CR 14: IF make = {saab} AND num-of-doors = {four} THEN class = 2 (p=3, n=0, P=32, N=173)
+
+CR 15: IF make = {audi} AND length <= 177.75 THEN class = 2 (p=3, n=0, P=32, N=173)
+
+CR 16: IF price <= 6,209.00 AND curb-weight >= 1,909.00 AND wheel-base <= 93.70 THEN class = 2 (p=3, n=1, P=32, N=173)
+
+CR 17: IF length <= 158.30 AND engine-size >= 91.00 AND fuel-system = {2bbl} THEN class = 2 (p=6, n=0, P=32, N=173)
+
+CR 18: IF stroke >= 3.40 AND make = {toyota} AND num-of-doors = {two} THEN class = 2 (p=6, n=0, P=32, N=173)
+
+CR 19: IF num-of-doors = {two} AND city-mpg >= 22.50 AND bore >= 3.41 THEN class = 2 (p=12, n=0, P=32, N=173)
+
+CR 20: IF make = {peugot} THEN class = 0 (p=11, n=0, P=67, N=138)
+
+CR 21: IF drive-wheels = {4wd} THEN class = 0 (p=7, n=2, P=67, N=138)
+
+CR 22: IF make = {bmw} THEN class = 0 (p=6, n=2, P=67, N=138)
+
+CR 23: IF curb-weight >= 3,223.50 AND wheel-base >= 99.40 THEN class = 0 (p=15, n=5, P=67, N=138)
+
+CR 24: IF num-of-doors = {four} AND stroke <= 3.03 THEN class = 0 (p=20, n=2, P=67, N=138)
+
+CR 25: IF num-of-doors = {four} AND peak-rpm <= 4,800.00 AND wheel-base <= 101.80 THEN class = 0 (p=23, n=3, P=67, N=138)
+
+CR 26: IF num-of-doors = {four} AND compression-ratio <= 9.00 AND engine-size <= 120.50 THEN class = 0 (p=28, n=7, P=67, N=138)
+
+CR 27: IF num-of-doors = {four} AND compression-ratio <= 9.20 AND wheel-base <= 101.80 THEN class = 0 (p=34, n=11, P=67, N=138)
+
+CR 28: IF height >= 51.80 AND horsepower <= 101.00 AND wheel-base >= 94.00 AND curb-weight >= 1,899.00 AND horsepower >= 55.50 THEN class = 0 (p=47, n=29, P=67, N=138)
+
+CR 29: IF normalized-losses <= 74.00 THEN class = -1 (p=9, n=1, P=22, N=183)
+
+CR 30: IF make = {volvo} THEN class = -1 (p=8, n=3, P=22, N=183)
+
+CR 31: IF wheel-base >= 114.90 AND wheel-base <= 118.25 THEN class = -1 (p=2, n=0, P=22, N=183)
+
+CR 32: IF wheel-base >= 102.20 AND normalized-losses <= 99.00 AND num-of-doors = {four} THEN class = -1 (p=18, n=0, P=22, N=183)
+
+CR 33: IF wheel-base >= 102.20 AND width <= 66.70 THEN class = -1 (p=9, n=2, P=22, N=183)
+
+CR 34: IF make = {volvo} AND normalized-losses >= 99.00 THEN class = -2 (p=3, n=0, P=3, N=202)

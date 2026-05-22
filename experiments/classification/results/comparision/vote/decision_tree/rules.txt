@@ -1,0 +1,32 @@
+
+CR 0: physician-fee-freeze != n and synfuels-corporation-cutback != y and duty-free-exports != n and education-spending != n => class: republican, samples: 5, class_counts: {'democrat': 0, 'republican': 1}
+
+CR 1: physician-fee-freeze != n and synfuels-corporation-cutback != y and duty-free-exports != n and education-spending = n => class: democrat, samples: 4, class_counts: {'democrat': 0, 'republican': 0}
+
+CR 2: physician-fee-freeze != n and synfuels-corporation-cutback != y and duty-free-exports = n and adoption-of-the-budget-resolution != y => class: republican, samples: 93, class_counts: {'democrat': 0, 'republican': 1}
+
+CR 3: physician-fee-freeze != n and synfuels-corporation-cutback != y and duty-free-exports = n and adoption-of-the-budget-resolution = y and anti-satellite-test-ban != n => class: republican, samples: 3, class_counts: {'democrat': 0, 'republican': 1}
+
+CR 4: physician-fee-freeze != n and synfuels-corporation-cutback != y and duty-free-exports = n and adoption-of-the-budget-resolution = y and anti-satellite-test-ban = n => class: republican, samples: 4, class_counts: {'democrat': 0, 'republican': 0}
+
+CR 5: physician-fee-freeze != n and synfuels-corporation-cutback = y and immigration != n and adoption-of-the-budget-resolution != n => class: republican, samples: 3, class_counts: {'democrat': 0, 'republican': 0}
+
+CR 6: physician-fee-freeze != n and synfuels-corporation-cutback = y and immigration != n and adoption-of-the-budget-resolution = n => class: republican, samples: 4, class_counts: {'democrat': 0, 'republican': 1}
+
+CR 7: physician-fee-freeze != n and synfuels-corporation-cutback = y and immigration = n and adoption-of-the-budget-resolution != n => class: democrat, samples: 3, class_counts: {'democrat': 1, 'republican': 0}
+
+CR 8: physician-fee-freeze != n and synfuels-corporation-cutback = y and immigration = n and adoption-of-the-budget-resolution = n and education-spending != n => class: republican, samples: 5, class_counts: {'democrat': 0, 'republican': 0}
+
+CR 9: physician-fee-freeze != n and synfuels-corporation-cutback = y and immigration = n and adoption-of-the-budget-resolution = n and education-spending = n => class: democrat, samples: 5, class_counts: {'democrat': 0, 'republican': 0}
+
+CR 10: physician-fee-freeze = n and crime != y => class: democrat, samples: 108, class_counts: {'democrat': 1, 'republican': 0}
+
+CR 11: physician-fee-freeze = n and crime = y and synfuels-corporation-cutback != n => class: democrat, samples: 38, class_counts: {'democrat': 1, 'republican': 0}
+
+CR 12: physician-fee-freeze = n and crime = y and synfuels-corporation-cutback = n and mx-missile != n and adoption-of-the-budget-resolution != n => class: democrat, samples: 14, class_counts: {'democrat': 1, 'republican': 0}
+
+CR 13: physician-fee-freeze = n and crime = y and synfuels-corporation-cutback = n and mx-missile != n and adoption-of-the-budget-resolution = n => class: democrat, samples: 4, class_counts: {'democrat': 0, 'republican': 0}
+
+CR 14: physician-fee-freeze = n and crime = y and synfuels-corporation-cutback = n and mx-missile = n and handicapped-infants != n => class: democrat, samples: 4, class_counts: {'democrat': 1, 'republican': 0}
+
+CR 15: physician-fee-freeze = n and crime = y and synfuels-corporation-cutback = n and mx-missile = n and handicapped-infants = n => class: democrat, samples: 7, class_counts: {'democrat': 0, 'republican': 0}

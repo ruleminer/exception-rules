@@ -1,0 +1,28 @@
+
+CR 0: IF plas >= 166.00 AND mass >= 29.10 THEN class = tested_positive (p=63, n=7, P=268, N=500)
+
+CR 1: IF plas >= 158.00 AND age <= 59.50 AND insu <= 629.50 AND mass >= 23.10 AND pedi <= 1.43 THEN class = tested_positive (p=83, n=12, P=268, N=500)
+
+CR 2: IF plas >= 145.00 AND mass >= 29.30 AND insu <= 544.00 AND pedi <= 1.43 AND pedi >= 0.13 THEN class = tested_positive (p=102, n=28, P=268, N=500)
+
+CR 3: IF plas >= 133.50 AND mass >= 29.95 AND insu <= 544.00 AND skin <= 49.00 THEN class = tested_positive (p=125, n=40, P=268, N=500)
+
+CR 4: IF plas >= 128.00 AND mass >= 26.75 AND age <= 58.00 AND insu <= 544.00 AND age >= 22.00 THEN class = tested_positive (p=149, n=67, P=268, N=500)
+
+CR 5: IF plas >= 120.50 AND age >= 22.00 AND age <= 60.00 AND pedi >= 0.12 AND pedi <= 1.42 THEN class = tested_positive (p=181, n=117, P=268, N=500)
+
+CR 6: IF plas >= 112.00 AND age <= 61.00 AND pedi >= 0.13 AND pedi <= 1.42 AND skin <= 49.50 THEN class = tested_positive (p=208, n=180, P=268, N=500)
+
+CR 7: IF age >= 30.50 AND mass >= 28.10 AND pedi >= 0.13 AND pedi <= 1.40 AND age <= 59.50 THEN class = tested_positive (p=147, n=91, P=268, N=500)
+
+CR 8: IF plas <= 99.50 THEN class = tested_negative (p=181, n=16, P=500, N=268)
+
+CR 9: IF plas <= 106.00 THEN class = tested_negative (p=245, n=33, P=500, N=268)
+
+CR 10: IF mass <= 26.40 THEN class = tested_negative (p=155, n=15, P=500, N=268)
+
+CR 11: IF plas <= 117.00 AND preg <= 6.00 AND mass <= 45.40 AND pedi <= 1.18 AND plas >= 22.00 THEN class = tested_negative (p=278, n=31, P=500, N=268)
+
+CR 12: IF plas <= 128.00 AND pedi <= 0.90 AND mass <= 45.40 AND preg <= 12.00 AND plas >= 22.00 THEN class = tested_negative (p=362, n=71, P=500, N=268)
+
+CR 13: IF plas <= 147.00 AND mass <= 42.90 AND preg <= 12.00 AND insu <= 480.00 AND plas >= 22.00 THEN class = tested_negative (p=438, n=130, P=500, N=268)

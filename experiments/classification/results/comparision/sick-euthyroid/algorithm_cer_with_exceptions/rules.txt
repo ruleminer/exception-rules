@@ -1,0 +1,34 @@
+
+CR 0: IF T3 >= 1.15 THEN class = negative (p=1866, n=17, P=2470, N=170)
+
+CR 1: IF referral_source = {other} THEN class = negative (p=1525, n=25, P=2470, N=170)
+
+CR 2: IF T4U >= 1.14 THEN class = negative (p=397, n=1, P=2470, N=170)
+
+CR 3: IF T3_measured = {f} THEN class = negative (p=530, n=3, P=2470, N=170)
+
+CR 4: IF T4U >= 0.96 THEN class = negative (p=1269, n=30, P=2470, N=170)
+
+CR 5: IF age <= 48.00 THEN class = negative (p=1067, n=28, P=2470, N=170)
+
+CR 6: IF T4U >= 0.84 THEN class = negative (p=1900, n=82, P=2470, N=170)
+
+CR 7: IF age <= 71.00 THEN class = negative (p=2097, n=106, P=2470, N=170)
+
+CR 8: IF T3 <= 1.10 AND TT4 >= 53.50 AND FTI <= 155.00 AND age >= 44.00 AND TT4 <= 145.50 THEN class = sick (p=123, n=5, P=170, N=2470)
+
+CR 9: IF T3 <= 1.10 AND TT4 >= 53.50 AND FTI <= 155.00 AND referral_source = {SVI} AND FTI >= 60.50 THEN class = sick (p=110, n=0, P=170, N=2470)
+
+CR 10: IF T3 <= 1.10 AND TT4 >= 53.50 AND referral_source = {SVI} AND TT4 <= 135.50 THEN class = sick (p=117, n=3, P=170, N=2470)
+
+CR 11: IF T3 <= 1.10 AND TT4 >= 53.50 AND TT4 <= 149.50 AND TSH >= 0.03 AND age >= 15.00 THEN class = sick (p=141, n=20, P=170, N=2470)
+
+CR 12: IF T3 <= 1.10 AND TSH <= 19.00 AND FTI <= 155.00 AND age >= 44.00 AND TT4 <= 145.50 THEN class = sick (p=123, n=7, P=170, N=2470)
+
+CR 13: IF T3 <= 1.50 AND referral_source = {SVI} AND TSH <= 11.00 AND goitre = {f} AND age >= 15.50 THEN class = sick (p=126, n=147, P=170, N=2470)
+
+CR 14: IF referral_source = {SVI} AND T4U <= 1.13 AND age >= 44.00 AND TSH <= 19.00 AND age <= 85.00 THEN class = sick (p=112, n=391, P=170, N=2470)
+
+CR 15: IF T3 <= 1.90 AND T4U <= 1.00 AND TT4 >= 156.00 AND TSH <= 0.54 AND TT4 <= 183.50 THEN class = sick (p=6, n=1, P=170, N=2470)
+
+CR 16: IF T4U <= 1.02 AND age >= 41.00 AND on_thyroxine = {f} AND TSH <= 19.00 AND query_hyperthyroid = {f} THEN class = sick (p=117, n=711, P=170, N=2470)

@@ -1,0 +1,46 @@
+
+CR 0: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO <= 8.5 and SCALED_VARIANCE_MINOR <= 309.5 and MAX.LENGTH_RECTANGULARITY <= 138.5 and PR.AXIS_RECTANGULARITY <= 17.5 => class: van, samples: 34, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 1: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO <= 8.5 and SCALED_VARIANCE_MINOR <= 309.5 and MAX.LENGTH_RECTANGULARITY <= 138.5 and PR.AXIS_RECTANGULARITY > 17.5 => class: opel, samples: 50, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 2: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO <= 8.5 and SCALED_VARIANCE_MINOR <= 309.5 and MAX.LENGTH_RECTANGULARITY > 138.5 and SCATTER_RATIO <= 140.5 => class: van, samples: 26, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 1}
+
+CR 3: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO <= 8.5 and SCALED_VARIANCE_MINOR <= 309.5 and MAX.LENGTH_RECTANGULARITY > 138.5 and SCATTER_RATIO > 140.5 => class: van, samples: 9, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 4: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO <= 8.5 and SCALED_VARIANCE_MINOR > 309.5 and DISTANCE_CIRCULARITY <= 76.5 and SKEWNESS_ABOUT_MINOR <= 10.5 => class: bus, samples: 89, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 5: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO <= 8.5 and SCALED_VARIANCE_MINOR > 309.5 and DISTANCE_CIRCULARITY <= 76.5 and SKEWNESS_ABOUT_MINOR > 10.5 => class: opel, samples: 15, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 6: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO <= 8.5 and SCALED_VARIANCE_MINOR > 309.5 and DISTANCE_CIRCULARITY > 76.5 and COMPACTNESS <= 90.5 => class: opel, samples: 19, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 7: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO <= 8.5 and SCALED_VARIANCE_MINOR > 309.5 and DISTANCE_CIRCULARITY > 76.5 and COMPACTNESS > 90.5 => class: saab, samples: 8, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 8: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO > 8.5 and HOLLOWS_RATIO <= 189.5 => class: bus, samples: 4, class_counts: {'bus': 1, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 9: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO > 8.5 and HOLLOWS_RATIO > 189.5 and SKEWNESS_ABOUT_MAJOR <= 63.5 => class: saab, samples: 3, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 10: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO > 8.5 and HOLLOWS_RATIO > 189.5 and SKEWNESS_ABOUT_MAJOR > 63.5 and COMPACTNESS <= 85.5 => class: van, samples: 6, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 11: SCALED_VARIANCE_MINOR <= 387.5 and MAX.LENGTH_ASPECT_RATIO > 8.5 and HOLLOWS_RATIO > 189.5 and SKEWNESS_ABOUT_MAJOR > 63.5 and COMPACTNESS > 85.5 => class: van, samples: 71, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 1}
+
+CR 12: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO <= 7.5 and COMPACTNESS <= 89.5 => class: opel, samples: 5, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 13: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO <= 7.5 and COMPACTNESS > 89.5 and SKEWNESS_ABOUT_MAJOR <= 67 => class: opel, samples: 5, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 14: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO <= 7.5 and COMPACTNESS > 89.5 and SKEWNESS_ABOUT_MAJOR > 67 and RADIUS_RATIO <= 171.5 => class: bus, samples: 7, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 15: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO <= 7.5 and COMPACTNESS > 89.5 and SKEWNESS_ABOUT_MAJOR > 67 and RADIUS_RATIO > 171.5 => class: bus, samples: 42, class_counts: {'bus': 1, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 16: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO > 7.5 and HOLLOWS_RATIO <= 196.5 and SCALED_RADIUS_OF_GYRATION <= 219.5 and COMPACTNESS <= 90 => class: opel, samples: 5, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 17: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO > 7.5 and HOLLOWS_RATIO <= 196.5 and SCALED_RADIUS_OF_GYRATION <= 219.5 and COMPACTNESS > 90 => class: opel, samples: 24, class_counts: {'bus': 0, 'opel': 1, 'saab': 0, 'van': 0}
+
+CR 18: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO > 7.5 and HOLLOWS_RATIO <= 196.5 and SCALED_RADIUS_OF_GYRATION > 219.5 and SCALED_RADIUS_OF_GYRATION <= 221.5 => class: saab, samples: 3, class_counts: {'bus': 0, 'opel': 0, 'saab': 1, 'van': 0}
+
+CR 19: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO > 7.5 and HOLLOWS_RATIO <= 196.5 and SCALED_RADIUS_OF_GYRATION > 219.5 and SCALED_RADIUS_OF_GYRATION > 221.5 => class: opel, samples: 15, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 20: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO > 7.5 and HOLLOWS_RATIO > 196.5 and SCALED_VARIANCE_MINOR <= 721.5 and RADIUS_RATIO <= 181.5 => class: opel, samples: 14, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 21: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO > 7.5 and HOLLOWS_RATIO > 196.5 and SCALED_VARIANCE_MINOR <= 721.5 and RADIUS_RATIO > 181.5 => class: saab, samples: 125, class_counts: {'bus': 0, 'opel': 0, 'saab': 0, 'van': 0}
+
+CR 22: SCALED_VARIANCE_MINOR > 387.5 and MAX.LENGTH_ASPECT_RATIO > 7.5 and HOLLOWS_RATIO > 196.5 and SCALED_VARIANCE_MINOR > 721.5 => class: opel, samples: 13, class_counts: {'bus': 0, 'opel': 1, 'saab': 0, 'van': 0}

@@ -1,0 +1,22 @@
+
+CR 0: IF surgery = {yes} THEN class = yes (p=130, n=21, P=161, N=96)
+
+CR 1: IF outcome = {died} THEN class = yes (p=56, n=6, P=161, N=96)
+
+CR 2: IF peristalsis = {absent} THEN class = yes (p=53, n=8, P=161, N=96)
+
+CR 3: IF abdominal_distension = {moderate} THEN class = yes (p=52, n=8, P=161, N=96)
+
+CR 4: IF pulse >= 54.50 THEN class = yes (p=111, n=36, P=161, N=96)
+
+CR 5: IF surgery = {no} AND outcome = {lived} THEN class = no (p=67, n=7, P=96, N=161)
+
+CR 6: IF surgery = {no} AND rectal_temperature <= 38.80 THEN class = no (p=62, n=12, P=96, N=161)
+
+CR 7: IF pain = {alert no pain} AND rectal_temperature >= 37.65 THEN class = no (p=27, n=2, P=96, N=161)
+
+CR 8: IF pulse <= 56.00 AND mucous_membranes = {normal pink} AND respiratory_rate <= 34.00 THEN class = no (p=31, n=7, P=96, N=161)
+
+CR 9: IF total_protein >= 59.00 AND total_protein <= 64.50 THEN class = no (p=14, n=0, P=96, N=161)
+
+CR 10: IF respiratory_rate <= 71.00 AND pulse <= 120.00 AND respiratory_rate >= 14.00 AND pulse >= 36.00 THEN class = no (p=70, n=94, P=96, N=161)

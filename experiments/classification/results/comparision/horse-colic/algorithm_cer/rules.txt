@@ -1,0 +1,42 @@
+
+CR 0: IF surgery = {yes} AND total_protein <= 59.00 AND total_protein >= 5.95 AND Age = {adult} THEN class = yes (p=77, n=2, P=161, N=96)
+
+CR 1: IF surgery = {yes} AND total_protein <= 59.00 AND pulse >= 51.00 THEN class = yes (p=63, n=2, P=161, N=96)
+
+CR 2: IF surgery = {yes} AND total_protein <= 80.50 AND packed_cell_volume >= 31.50 AND pulse >= 58.00 THEN class = yes (p=76, n=4, P=161, N=96)
+
+CR 3: IF surgery = {yes} AND pulse >= 58.00 AND pulse <= 83.00 THEN class = yes (p=47, n=1, P=161, N=96)
+
+CR 4: IF surgery = {yes} AND pulse >= 48.50 THEN class = yes (p=96, n=10, P=161, N=96)
+
+CR 5: IF surgery = {yes} AND outcome = {died} THEN class = yes (p=43, n=1, P=161, N=96)
+
+CR 6: IF surgery = {yes} AND packed_cell_volume <= 75.00 AND total_protein <= 75.00 AND total_protein >= 5.95 AND Age = {adult} THEN class = yes (p=99, n=11, P=161, N=96)
+
+CR 7: IF outcome = {died} AND packed_cell_volume <= 71.50 AND Age = {adult} THEN class = yes (p=45, n=1, P=161, N=96)
+
+CR 8: IF peristalsis = {absent} AND total_protein <= 55.50 AND outcome = {euthanized} THEN class = yes (p=6, n=0, P=161, N=96)
+
+CR 9: IF abdominal_distension = {moderate} AND packed_cell_volume >= 31.50 AND Age = {adult} THEN class = yes (p=44, n=5, P=161, N=96)
+
+CR 10: IF pulse >= 58.00 THEN class = yes (p=109, n=31, P=161, N=96)
+
+CR 11: IF packed_cell_volume >= 39.00 AND packed_cell_volume <= 72.00 THEN class = yes (p=114, n=49, P=161, N=96)
+
+CR 12: IF surgery = {no} AND outcome = {lived} AND rectal_temperature <= 38.75 AND total_protein >= 5.75 THEN class = no (p=50, n=1, P=96, N=161)
+
+CR 13: IF surgery = {no} AND outcome = {lived} AND Age = {adult} AND total_protein <= 78.00 AND total_protein >= 5.75 THEN class = no (p=60, n=4, P=96, N=161)
+
+CR 14: IF surgery = {no} AND outcome = {lived} AND Age = {adult} THEN class = no (p=65, n=6, P=96, N=161)
+
+CR 15: IF surgery = {no} AND rectal_temperature <= 38.80 AND rectal_temperature >= 37.65 THEN class = no (p=51, n=5, P=96, N=161)
+
+CR 16: IF pain = {alert no pain} AND rectal_temperature >= 37.65 THEN class = no (p=27, n=2, P=96, N=161)
+
+CR 17: IF pulse <= 56.00 AND mucous_membranes = {normal pink} AND respiratory_rate <= 34.00 AND rectal_temperature >= 37.10 AND rectal_temperature <= 38.75 THEN class = no (p=28, n=4, P=96, N=161)
+
+CR 18: IF packed_cell_volume <= 43.00 AND respiratory_rate <= 46.00 AND packed_cell_volume >= 30.50 AND pulse >= 38.00 AND total_protein <= 68.00 THEN class = no (p=48, n=25, P=96, N=161)
+
+CR 19: IF respiratory_rate <= 35.00 AND rectal_temperature <= 39.60 AND packed_cell_volume >= 32.50 AND pulse <= 120.00 AND total_protein >= 5.80 THEN class = no (p=57, n=50, P=96, N=161)
+
+CR 20: IF Age = {adult} THEN class = no (p=92, n=152, P=96, N=161)

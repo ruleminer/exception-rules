@@ -1,0 +1,40 @@
+
+CR 0: thal != normal and cp != asympt and chol <= 207.5 => class: <50, samples: 7, class_counts: {'<50': 1, '>50_1': 0}
+
+CR 1: thal != normal and cp != asympt and chol > 207.5 and slope != flat and thalach <= 166.5 => class: <50, samples: 6, class_counts: {'<50': 1, '>50_1': 0}
+
+CR 2: thal != normal and cp != asympt and chol > 207.5 and slope != flat and thalach > 166.5 => class: >50_1, samples: 5, class_counts: {'<50': 0, '>50_1': 0}
+
+CR 3: thal != normal and cp != asympt and chol > 207.5 and slope = flat and ca <= 0.5 => class: >50_1, samples: 9, class_counts: {'<50': 0, '>50_1': 0}
+
+CR 4: thal != normal and cp != asympt and chol > 207.5 and slope = flat and ca > 0.5 => class: >50_1, samples: 6, class_counts: {'<50': 0, '>50_1': 1}
+
+CR 5: thal != normal and cp = asympt and oldpeak <= 0.45 and chol <= 230 and thalach <= 161.5 => class: <50, samples: 4, class_counts: {'<50': 1, '>50_1': 0}
+
+CR 6: thal != normal and cp = asympt and oldpeak <= 0.45 and chol <= 230 and thalach > 161.5 => class: >50_1, samples: 3, class_counts: {'<50': 0, '>50_1': 0}
+
+CR 7: thal != normal and cp = asympt and oldpeak <= 0.45 and chol > 230 => class: >50_1, samples: 7, class_counts: {'<50': 0, '>50_1': 1}
+
+CR 8: thal != normal and cp = asympt and oldpeak > 0.45 and slope != up => class: >50_1, samples: 41, class_counts: {'<50': 0, '>50_1': 1}
+
+CR 9: thal != normal and cp = asympt and oldpeak > 0.45 and slope = up => class: >50_1, samples: 5, class_counts: {'<50': 0, '>50_1': 0}
+
+CR 10: thal = normal and ca <= 0.5 and chol <= 326 and exang != no and cp != asympt => class: <50, samples: 6, class_counts: {'<50': 1, '>50_1': 0}
+
+CR 11: thal = normal and ca <= 0.5 and chol <= 326 and exang != no and cp = asympt => class: <50, samples: 8, class_counts: {'<50': 0, '>50_1': 0}
+
+CR 12: thal = normal and ca <= 0.5 and chol <= 326 and exang = no and oldpeak <= 2.3 => class: <50, samples: 66, class_counts: {'<50': 0, '>50_1': 0}
+
+CR 13: thal = normal and ca <= 0.5 and chol <= 326 and exang = no and oldpeak > 2.3 => class: <50, samples: 3, class_counts: {'<50': 0, '>50_1': 0}
+
+CR 14: thal = normal and ca <= 0.5 and chol > 326 and chol <= 337.5 => class: >50_1, samples: 3, class_counts: {'<50': 0, '>50_1': 1}
+
+CR 15: thal = normal and ca <= 0.5 and chol > 326 and chol > 337.5 => class: <50, samples: 3, class_counts: {'<50': 1, '>50_1': 0}
+
+CR 16: thal = normal and ca > 0.5 and cp != non_anginal and sex != male => class: <50, samples: 4, class_counts: {'<50': 0, '>50_1': 0}
+
+CR 17: thal = normal and ca > 0.5 and cp != non_anginal and sex = male and cp != asympt => class: <50, samples: 6, class_counts: {'<50': 0, '>50_1': 0}
+
+CR 18: thal = normal and ca > 0.5 and cp != non_anginal and sex = male and cp = asympt => class: >50_1, samples: 11, class_counts: {'<50': 0, '>50_1': 1}
+
+CR 19: thal = normal and ca > 0.5 and cp = non_anginal => class: <50, samples: 9, class_counts: {'<50': 1, '>50_1': 0}

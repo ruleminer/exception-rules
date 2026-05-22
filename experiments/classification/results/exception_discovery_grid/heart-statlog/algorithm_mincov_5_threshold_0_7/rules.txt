@@ -1,0 +1,26 @@
+
+CR 0: IF oldpeak >= 2.45 THEN class = present (p=30, n=4, P=120, N=150)
+
+CR 1: IF thal >= 7.00 AND chest >= 4.00 THEN class = present (p=63, n=7, P=120, N=150)
+
+CR 2: IF thal >= 7.00 AND oldpeak >= 0.80 THEN class = present (p=63, n=9, P=120, N=150)
+
+CR 3: IF thal >= 7.00 AND resting_blood_pressure >= 121.50 THEN class = present (p=60, n=12, P=120, N=150)
+
+CR 4: IF oldpeak >= 2.00 THEN class = present (p=43, n=9, P=120, N=150)
+
+CR 5: IF thal >= 4.50 THEN class = present (p=87, n=31, P=120, N=150)
+
+CR 6: IF number_of_major_vessels >= 1.50 THEN class = present (p=42, n=10, P=120, N=150)
+
+CR 7: IF number_of_major_vessels >= 0.50 THEN class = present (p=80, n=30, P=120, N=150)
+
+CR 8: IF chest >= 3.50 THEN class = present (p=91, n=38, P=120, N=150)
+
+CR 9: IF chest <= 3.00 THEN class = absent (p=112, n=29, P=150, N=120)
+
+CR 10: IF thal <= 3.00 AND number_of_major_vessels <= 0.00 THEN class = absent (p=95, n=12, P=150, N=120)
+
+CR 11: IF thal <= 6.00 AND exercise_induced_angina <= 0.00 THEN class = absent (p=108, n=22, P=150, N=120)
+
+CR 12: IF number_of_major_vessels <= 0.00 THEN class = absent (p=120, n=40, P=150, N=120)

@@ -1,0 +1,24 @@
+
+CR 0: sex != male and pclass != 3rd and pclass != 1st and age != adult => class: yes, samples: 9, class_counts: {'no': 0, 'yes': 1}
+
+CR 1: sex != male and pclass != 3rd and pclass != 1st and age = adult and pclass != 2nd => class: yes, samples: 15, class_counts: {'no': 0, 'yes': 0}
+
+CR 2: sex != male and pclass != 3rd and pclass != 1st and age = adult and pclass = 2nd => class: yes, samples: 61, class_counts: {'no': 0, 'yes': 0}
+
+CR 3: sex != male and pclass != 3rd and pclass = 1st => class: yes, samples: 92, class_counts: {'no': 0, 'yes': 0}
+
+CR 4: sex != male and pclass = 3rd and age != child => class: no, samples: 115, class_counts: {'no': 0, 'yes': 0}
+
+CR 5: sex != male and pclass = 3rd and age = child => class: no, samples: 24, class_counts: {'no': 0, 'yes': 0}
+
+CR 6: sex = male and age != adult and pclass != 3rd => class: yes, samples: 11, class_counts: {'no': 0, 'yes': 1}
+
+CR 7: sex = male and age != adult and pclass = 3rd => class: no, samples: 38, class_counts: {'no': 0, 'yes': 0}
+
+CR 8: sex = male and age = adult and pclass != 1st and pclass != crew and pclass != 3rd => class: no, samples: 109, class_counts: {'no': 0, 'yes': 0}
+
+CR 9: sex = male and age = adult and pclass != 1st and pclass != crew and pclass = 3rd => class: no, samples: 335, class_counts: {'no': 0, 'yes': 0}
+
+CR 10: sex = male and age = adult and pclass != 1st and pclass = crew => class: no, samples: 600, class_counts: {'no': 0, 'yes': 0}
+
+CR 11: sex = male and age = adult and pclass = 1st => class: no, samples: 131, class_counts: {'no': 0, 'yes': 0}

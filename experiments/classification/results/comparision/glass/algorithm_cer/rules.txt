@@ -1,0 +1,36 @@
+
+CR 0: IF RI >= 1.52 AND Na <= 13.91 THEN class = build wind non-float (p=5, n=0, P=49, N=100)
+
+CR 1: IF Mg >= 3.83 AND RI <= 1.52 THEN class = build wind non-float (p=6, n=0, P=49, N=100)
+
+CR 2: IF Ca <= 8.25 AND RI >= 1.52 AND K >= 0.65 THEN class = build wind non-float (p=12, n=0, P=49, N=100)
+
+CR 3: IF Ca <= 8.25 AND RI >= 1.52 AND Mg <= 3.59 AND Na <= 13.47 THEN class = build wind non-float (p=17, n=0, P=49, N=100)
+
+CR 4: IF K >= 0.62 AND K <= 1.39 AND Fe <= 0.23 AND Mg >= 1.36 THEN class = build wind non-float (p=18, n=3, P=49, N=100)
+
+CR 5: IF Ca <= 8.52 AND Mg >= 3.62 AND Si <= 73.07 THEN class = build wind non-float (p=12, n=2, P=49, N=100)
+
+CR 6: IF K >= 0.33 AND RI >= 1.52 AND K <= 0.58 AND Na <= 13.91 AND Mg >= 0.51 THEN class = build wind non-float (p=10, n=1, P=49, N=100)
+
+CR 7: IF Mg <= 3.33 AND Al <= 1.25 AND RI >= 1.52 AND Na <= 14.50 THEN class = build wind non-float (p=9, n=1, P=49, N=100)
+
+CR 8: IF Ba >= 0.34 AND Mg <= 2.25 THEN class = headlamps (p=16, n=0, P=19, N=130)
+
+CR 9: IF Al <= 1.43 AND Mg >= 3.34 AND Si >= 73.07 THEN class = build wind float (p=11, n=0, P=52, N=97)
+
+CR 10: IF Al <= 1.43 AND Mg >= 3.34 AND Mg <= 3.74 AND RI >= 1.52 AND Al >= 1.12 THEN class = build wind float (p=32, n=2, P=52, N=97)
+
+CR 11: IF Al <= 1.43 AND Mg >= 3.34 AND Mg <= 3.74 AND RI >= 1.52 AND Ba <= 0.00 THEN class = build wind float (p=37, n=4, P=52, N=97)
+
+CR 12: IF Mg >= 3.34 AND RI >= 1.52 THEN class = build wind float (p=8, n=0, P=52, N=97)
+
+CR 13: IF Mg >= 3.34 AND K <= 0.66 AND Mg <= 3.74 AND Al <= 1.69 AND Ba <= 0.00 THEN class = build wind float (p=42, n=16, P=52, N=97)
+
+CR 14: IF Al <= 1.11 AND RI <= 1.52 AND Na >= 13.62 AND Mg >= 1.77 THEN class = vehic wind float (p=5, n=0, P=13, N=136)
+
+CR 15: IF Si <= 72.71 AND RI <= 1.52 AND Ca >= 8.30 THEN class = vehic wind float (p=5, n=0, P=13, N=136)
+
+CR 16: IF Ca >= 10.07 AND Al >= 1.38 AND Al <= 1.87 THEN class = containers (p=5, n=0, P=8, N=141)
+
+CR 17: IF K <= 0.00 AND Ba <= 0.00 AND RI <= 1.52 AND Na >= 13.86 THEN class = tableware (p=8, n=0, P=8, N=141)

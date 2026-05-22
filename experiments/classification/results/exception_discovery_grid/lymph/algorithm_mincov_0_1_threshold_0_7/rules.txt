@@ -1,0 +1,18 @@
+
+CR 0: IF changes_in_node = {lac_central} THEN class = malign_lymph (p=23, n=2, P=61, N=87)
+
+CR 1: IF no_of_nodes_in >= 4.50 THEN class = malign_lymph (p=22, n=4, P=61, N=87)
+
+CR 2: IF no_of_nodes_in >= 3.00 AND by_pass = {no} THEN class = malign_lymph (p=28, n=3, P=61, N=87)
+
+CR 3: IF block_of_affere = {no} AND early_uptake_in = {yes} THEN class = malign_lymph (p=38, n=8, P=61, N=87)
+
+CR 4: IF no_of_nodes_in >= 2.00 AND exclusion_of_no = {yes} AND lym_nodes_dimin <= 1.00 THEN class = malign_lymph (p=49, n=32, P=61, N=87)
+
+CR 5: IF lym_nodes_dimin >= 2.00 AND by_pass = {yes} THEN class = fibrosis (p=4, n=0, P=4, N=144)
+
+CR 6: IF changes_in_node = {lac_margin} THEN class = metastases (p=63, n=12, P=81, N=67)
+
+CR 7: IF no_of_nodes_in <= 1.00 THEN class = metastases (p=46, n=11, P=81, N=67)
+
+CR 8: IF lymphatics = {normal} THEN class = normal (p=2, n=0, P=2, N=146)

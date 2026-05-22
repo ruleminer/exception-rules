@@ -1,0 +1,30 @@
+
+CR 0: IF deg-malig = {3} AND inv-nodes = {6-8} THEN class = recurrence-events (p=9, n=1, P=85, N=201)
+
+CR 1: IF deg-malig = {3} AND node-caps = {yes} AND breast = {left} THEN class = recurrence-events (p=16, n=2, P=85, N=201)
+
+CR 2: IF deg-malig = {3} AND menopause = {premeno} AND irradiat = {no} THEN class = recurrence-events (p=14, n=7, P=85, N=201)
+
+CR 3: IF deg-malig = {3} AND tumor-size = {30-34} THEN class = recurrence-events (p=16, n=10, P=85, N=201)
+
+CR 4: IF deg-malig = {3} THEN class = recurrence-events (p=45, n=40, P=85, N=201)
+
+CR 5: IF node-caps = {yes} THEN class = recurrence-events (p=31, n=25, P=85, N=201)
+
+CR 6: IF breast = {left} AND menopause = {premeno} THEN class = recurrence-events (p=27, n=48, P=85, N=201)
+
+CR 7: IF menopause = {premeno} THEN class = recurrence-events (p=48, n=102, P=85, N=201)
+
+CR 8: IF menopause = {ge40} THEN class = recurrence-events (p=35, n=94, P=85, N=201)
+
+CR 9: IF tumor-size = {10-14} THEN class = no-recurrence-events (p=27, n=1, P=201, N=85)
+
+CR 10: IF deg-malig = {1} AND menopause = {ge40} THEN class = no-recurrence-events (p=31, n=3, P=201, N=85)
+
+CR 11: IF deg-malig = {1} AND node-caps = {no} THEN class = no-recurrence-events (p=57, n=9, P=201, N=85)
+
+CR 12: IF inv-nodes = {0-2} AND menopause = {ge40} AND breast = {left} THEN class = no-recurrence-events (p=45, n=5, P=201, N=85)
+
+CR 13: IF inv-nodes = {0-2} AND irradiat = {no} AND node-caps = {no} THEN class = no-recurrence-events (p=145, n=32, P=201, N=85)
+
+CR 14: IF deg-malig = {2} THEN class = no-recurrence-events (p=102, n=28, P=201, N=85)

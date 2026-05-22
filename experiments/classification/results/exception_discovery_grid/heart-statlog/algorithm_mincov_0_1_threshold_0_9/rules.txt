@@ -1,0 +1,26 @@
+
+CR 0: IF oldpeak >= 2.45 AND number_of_major_vessels >= 0.50 THEN class = present (p=19, n=0, P=120, N=150)
+
+CR 1: IF oldpeak >= 2.35 AND chest >= 3.00 AND maximum_heart_rate_achieved <= 165.50 AND resting_blood_pressure >= 107.00 THEN class = present (p=29, n=0, P=120, N=150)
+
+CR 2: IF thal >= 7.00 AND chest >= 4.00 AND oldpeak >= 0.50 AND maximum_heart_rate_achieved <= 160.50 THEN class = present (p=48, n=0, P=120, N=150)
+
+CR 3: IF thal >= 7.00 AND chest >= 4.00 AND resting_blood_pressure >= 109.00 AND age <= 63.50 THEN class = present (p=56, n=4, P=120, N=150)
+
+CR 4: IF thal >= 7.00 AND slope >= 1.50 AND maximum_heart_rate_achieved <= 174.00 AND resting_blood_pressure >= 107.50 AND serum_cholestoral <= 486.50 THEN class = present (p=59, n=6, P=120, N=150)
+
+CR 5: IF thal >= 4.50 AND resting_blood_pressure >= 97.00 AND serum_cholestoral <= 486.50 AND serum_cholestoral >= 145.00 THEN class = present (p=87, n=28, P=120, N=150)
+
+CR 6: IF number_of_major_vessels >= 0.50 AND chest >= 4.00 AND resting_blood_pressure >= 108.00 THEN class = present (p=61, n=4, P=120, N=150)
+
+CR 7: IF maximum_heart_rate_achieved <= 169.00 AND age >= 46.50 AND age <= 67.00 AND serum_cholestoral <= 353.50 AND resting_blood_pressure >= 97.00 THEN class = present (p=90, n=67, P=120, N=150)
+
+CR 8: IF chest <= 3.00 AND thal <= 3.00 AND oldpeak <= 1.80 AND serum_cholestoral <= 318.50 AND maximum_heart_rate_achieved >= 128.00 THEN class = absent (p=75, n=3, P=150, N=120)
+
+CR 9: IF chest <= 3.00 AND thal <= 3.00 AND oldpeak <= 2.60 AND number_of_major_vessels <= 1.00 THEN class = absent (p=84, n=5, P=150, N=120)
+
+CR 10: IF chest <= 3.00 AND number_of_major_vessels <= 0.00 AND oldpeak <= 2.80 AND resting_blood_pressure <= 160.00 AND maximum_heart_rate_achieved >= 131.50 THEN class = absent (p=79, n=5, P=150, N=120)
+
+CR 11: IF thal <= 3.00 AND number_of_major_vessels <= 0.00 AND age <= 54.50 AND oldpeak <= 3.55 THEN class = absent (p=65, n=1, P=150, N=120)
+
+CR 12: IF number_of_major_vessels <= 0.00 AND oldpeak <= 1.60 AND resting_blood_pressure <= 173.00 AND maximum_heart_rate_achieved >= 111.00 AND age >= 40.50 THEN class = absent (p=100, n=17, P=150, N=120)

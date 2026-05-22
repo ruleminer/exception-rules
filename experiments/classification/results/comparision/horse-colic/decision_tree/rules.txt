@@ -1,0 +1,44 @@
+
+CR 0: surgery != no and outcome != euthanized and pain != alert no pain and pulse <= 43 and packed_cell_volume <= 42 => class: yes, samples: 5, class_counts: {'no': 0, 'yes': 1}
+
+CR 1: surgery != no and outcome != euthanized and pain != alert no pain and pulse <= 43 and packed_cell_volume > 42 => class: no, samples: 4, class_counts: {'no': 0, 'yes': 0}
+
+CR 2: surgery != no and outcome != euthanized and pain != alert no pain and pulse > 43 and nasogastric_reflux_PH <= 3.25 => class: yes, samples: 5, class_counts: {'no': 0, 'yes': 0}
+
+CR 3: surgery != no and outcome != euthanized and pain != alert no pain and pulse > 43 and nasogastric_reflux_PH > 3.25 => class: yes, samples: 103, class_counts: {'no': 0, 'yes': 0}
+
+CR 4: surgery != no and outcome != euthanized and pain = alert no pain and pulse <= 46 and packed_cell_volume <= 38.5 => class: yes, samples: 3, class_counts: {'no': 0, 'yes': 0}
+
+CR 5: surgery != no and outcome != euthanized and pain = alert no pain and pulse <= 46 and packed_cell_volume > 38.5 => class: yes, samples: 4, class_counts: {'no': 0, 'yes': 1}
+
+CR 6: surgery != no and outcome != euthanized and pain = alert no pain and pulse > 46 => class: no, samples: 4, class_counts: {'no': 1, 'yes': 0}
+
+CR 7: surgery != no and outcome = euthanized and rectal != examination_normal and abdomcentesis_total_protein <= 1.5 => class: no, samples: 3, class_counts: {'no': 1, 'yes': 0}
+
+CR 8: surgery != no and outcome = euthanized and rectal != examination_normal and abdomcentesis_total_protein > 1.5 and respiratory_rate <= 31 => class: yes, samples: 12, class_counts: {'no': 0, 'yes': 0}
+
+CR 9: surgery != no and outcome = euthanized and rectal != examination_normal and abdomcentesis_total_protein > 1.5 and respiratory_rate > 31 => class: no, samples: 5, class_counts: {'no': 0, 'yes': 0}
+
+CR 10: surgery != no and outcome = euthanized and rectal = examination_normal => class: yes, samples: 4, class_counts: {'no': 0, 'yes': 1}
+
+CR 11: surgery = no and outcome != lived and mucous != membranes_bright red and mucous != membranes_dark cyanotic and nasogastric_reflux_PH <= 6.75 => class: yes, samples: 16, class_counts: {'no': 0, 'yes': 1}
+
+CR 12: surgery = no and outcome != lived and mucous != membranes_bright red and mucous != membranes_dark cyanotic and nasogastric_reflux_PH > 6.75 => class: yes, samples: 3, class_counts: {'no': 0, 'yes': 0}
+
+CR 13: surgery = no and outcome != lived and mucous != membranes_bright red and mucous = membranes_dark cyanotic => class: no, samples: 4, class_counts: {'no': 0, 'yes': 0}
+
+CR 14: surgery = no and outcome != lived and mucous = membranes_bright red and rectal_temperature <= 38.75 => class: no, samples: 5, class_counts: {'no': 1, 'yes': 0}
+
+CR 15: surgery = no and outcome != lived and mucous = membranes_bright red and rectal_temperature > 38.75 => class: yes, samples: 3, class_counts: {'no': 0, 'yes': 1}
+
+CR 16: surgery = no and outcome = lived and respiratory_rate <= 31 and total_protein <= 5.75 => class: no, samples: 3, class_counts: {'no': 0, 'yes': 0}
+
+CR 17: surgery = no and outcome = lived and respiratory_rate <= 31 and total_protein > 5.75 => class: no, samples: 50, class_counts: {'no': 1, 'yes': 0}
+
+CR 18: surgery = no and outcome = lived and respiratory_rate > 31 and total_protein <= 7.65 and total_protein <= 6.65 => class: no, samples: 3, class_counts: {'no': 0, 'yes': 0}
+
+CR 19: surgery = no and outcome = lived and respiratory_rate > 31 and total_protein <= 7.65 and total_protein > 6.65 => class: no, samples: 8, class_counts: {'no': 1, 'yes': 0}
+
+CR 20: surgery = no and outcome = lived and respiratory_rate > 31 and total_protein > 7.65 and pulse <= 70 => class: no, samples: 4, class_counts: {'no': 0, 'yes': 0}
+
+CR 21: surgery = no and outcome = lived and respiratory_rate > 31 and total_protein > 7.65 and pulse > 70 => class: yes, samples: 6, class_counts: {'no': 0, 'yes': 0}

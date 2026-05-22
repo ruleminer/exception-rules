@@ -1,0 +1,24 @@
+
+CR 0: IF ca >= 2.00 THEN class = >50_1 (p=33, n=2, P=92, N=120)
+
+CR 1: IF exang = {yes} AND ca >= 0.50 THEN class = >50_1 (p=34, n=1, P=92, N=120)
+
+CR 2: IF exang = {yes} AND thalach <= 136.50 THEN class = >50_1 (p=32, n=1, P=92, N=120)
+
+CR 3: IF exang = {yes} AND cp = {asympt} THEN class = >50_1 (p=50, n=6, P=92, N=120)
+
+CR 4: IF ca >= 0.50 AND cp = {asympt} THEN class = >50_1 (p=48, n=2, P=92, N=120)
+
+CR 5: IF ca >= 0.50 AND sex = {male} THEN class = >50_1 (p=52, n=8, P=92, N=120)
+
+CR 6: IF thal = {reversable_defect} AND slope = {flat} THEN class = >50_1 (p=41, n=5, P=92, N=120)
+
+CR 7: IF sex = {male} AND chol >= 222.50 AND thalach <= 181.00 AND trestbps >= 97.00 AND trestbps <= 170.00 THEN class = >50_1 (p=52, n=31, P=92, N=120)
+
+CR 8: IF thal = {normal} THEN class = <50 (p=94, n=23, P=120, N=92)
+
+CR 9: IF cp = {non_anginal} THEN class = <50 (p=50, n=11, P=120, N=92)
+
+CR 10: IF slope = {up} AND ca <= 0.00 THEN class = <50 (p=62, n=5, P=120, N=92)
+
+CR 11: IF ca <= 0.00 AND exang = {no} THEN class = <50 (p=85, n=11, P=120, N=92)

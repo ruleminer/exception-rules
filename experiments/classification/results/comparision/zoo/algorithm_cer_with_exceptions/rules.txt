@@ -1,0 +1,20 @@
+
+CR 0: IF venomous = {true} AND aquatic = {false} THEN class = reptile (p=1, n=0, P=4, N=66)
+
+CR 1: IF legs <= 0.00 AND aquatic = {false} AND toothed = {true} THEN class = reptile (p=2, n=0, P=4, N=66)
+
+CR 2: IF hair = {false} AND aquatic = {false} AND toothed = {true} THEN class = reptile (p=3, n=0, P=4, N=66)
+
+CR 3: IF hair = {false} AND aquatic = {false} AND feathers = {false} AND backbone = {true} THEN class = reptile (p=4, n=0, P=4, N=66)
+
+CR 4: IF milk = {true} THEN class = mammal (p=26, n=0, P=26, N=44)
+
+CR 5: IF feathers = {true} THEN class = bird (p=17, n=0, P=17, N=53)
+
+CR 6: IF backbone = {false} AND predator = {true} THEN class = invertebrate (p=5, n=0, P=7, N=63)
+
+CR 7: IF fins = {true} AND eggs = {true} THEN class = fish (p=11, n=0, P=11, N=59)
+
+CR 8: IF aquatic = {true} AND legs >= 3.00 AND toothed = {true} AND hair = {false} THEN class = amphibian (p=2, n=0, P=2, N=68)
+
+CR 9: IF legs >= 5.50 AND aquatic = {false} THEN class = insect (p=3, n=0, P=3, N=67)

@@ -1,0 +1,22 @@
+
+CR 0: IF ALBUMIN < 2.65 THEN class = DIE (p=5, n=0, P=23, N=85)
+
+CR 1: IF ASCITES = {yes} AND BILIRUBIN >= 1.40 THEN class = DIE (p=10, n=0, P=23, N=85)
+
+CR 2: IF SPIDERS = {yes} AND LIVER_FIRM = {no} AND AGE >= 40.00 THEN class = DIE (p=10, n=0, P=23, N=85)
+
+CR 3: IF SPIDERS = {yes} AND ALK_PHOSPHATE < 124.00 AND AGE >= 35.50 AND AGE < 60.00 AND FATIGUE = {yes} THEN class = DIE (p=10, n=1, P=23, N=85)
+
+CR 4: IF AGE >= 33.50 AND AGE < 59.50 AND ALK_PHOSPHATE >= 85.50 AND STEROID = {no} AND SGOT < 203.50 THEN class = DIE (p=8, n=5, P=23, N=85)
+
+CR 5: IF ALBUMIN >= 4.25 THEN class = LIVE (p=23, n=0, P=85, N=23)
+
+CR 6: IF SPIDERS = {no} AND ASCITES = {no} AND BILIRUBIN >= 0.45 THEN class = LIVE (p=61, n=0, P=85, N=23)
+
+CR 7: IF BILIRUBIN < 1.15 AND BILIRUBIN >= 0.55 THEN class = LIVE (p=54, n=1, P=85, N=23)
+
+CR 8: IF HISTOLOGY = {no} AND ALBUMIN >= 2.65 AND BILIRUBIN >= 0.65 THEN class = LIVE (p=44, n=0, P=85, N=23)
+
+CR 9: IF ASCITES = {no} AND SPLEEN_PALPABLE = {no} AND SGOT >= 28.50 AND AGE < 55.00 THEN class = LIVE (p=48, n=3, P=85, N=23)
+
+CR 10: IF SGOT >= 28.50 THEN class = LIVE (p=69, n=16, P=85, N=23)

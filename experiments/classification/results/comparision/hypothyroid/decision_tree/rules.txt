@@ -1,0 +1,22 @@
+
+CR 0: TSH <= 6.05 and TT4 <= 27 => class: negative, samples: 3, class_counts: {'compensated_hypothyroid': 0, 'negative': 0, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}
+
+CR 1: TSH <= 6.05 and TT4 > 27 and FTI <= 54.5 and T4U <= 0.92 => class: negative, samples: 3, class_counts: {'compensated_hypothyroid': 0, 'negative': 0, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}
+
+CR 2: TSH <= 6.05 and TT4 > 27 and FTI <= 54.5 and T4U > 0.92 => class: negative, samples: 7, class_counts: {'compensated_hypothyroid': 0, 'negative': 1, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}
+
+CR 3: TSH <= 6.05 and TT4 > 27 and FTI > 54.5 => class: negative, samples: 2365, class_counts: {'compensated_hypothyroid': 0, 'negative': 1, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}
+
+CR 4: TSH > 6.05 and FTI <= 64.5 and thyroid != surgery_t and T3 <= 2.35 => class: primary_hypothyroid, samples: 58, class_counts: {'compensated_hypothyroid': 0, 'negative': 0, 'primary_hypothyroid': 1, 'secondary_hypothyroid': 0}
+
+CR 5: TSH > 6.05 and FTI <= 64.5 and thyroid != surgery_t and T3 > 2.35 => class: negative, samples: 3, class_counts: {'compensated_hypothyroid': 0, 'negative': 0, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}
+
+CR 6: TSH > 6.05 and FTI <= 64.5 and thyroid = surgery_t => class: negative, samples: 4, class_counts: {'compensated_hypothyroid': 0, 'negative': 0, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}
+
+CR 7: TSH > 6.05 and FTI > 64.5 and on != thyroxine_t and TT4 <= 150.5 and thyroid != surgery_f => class: negative, samples: 4, class_counts: {'compensated_hypothyroid': 0, 'negative': 1, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}
+
+CR 8: TSH > 6.05 and FTI > 64.5 and on != thyroxine_t and TT4 <= 150.5 and thyroid = surgery_f => class: compensated_hypothyroid, samples: 150, class_counts: {'compensated_hypothyroid': 0, 'negative': 0, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}
+
+CR 9: TSH > 6.05 and FTI > 64.5 and on != thyroxine_t and TT4 > 150.5 => class: negative, samples: 7, class_counts: {'compensated_hypothyroid': 0, 'negative': 1, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}
+
+CR 10: TSH > 6.05 and FTI > 64.5 and on = thyroxine_t => class: negative, samples: 36, class_counts: {'compensated_hypothyroid': 0, 'negative': 1, 'primary_hypothyroid': 0, 'secondary_hypothyroid': 0}

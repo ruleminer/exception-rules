@@ -1,0 +1,118 @@
+
+CR 0: IF persons = {2} THEN class = unacc (p=576, n=0, P=1210, N=518)
+
+CR 1: IF safety = {low} THEN class = unacc (p=576, n=0, P=1210, N=518)
+
+CR 2: IF buying = {vhigh} THEN class = unacc (p=360, n=72, P=1210, N=518)
+
+CR 3: IF maint = {vhigh} THEN class = unacc (p=360, n=72, P=1210, N=518)
+
+CR 4: IF lug_boot = {small} THEN class = unacc (p=450, n=126, P=1210, N=518)
+
+CR 5: IF doors = {2} THEN class = unacc (p=326, n=106, P=1210, N=518)
+
+CR 6: IF safety = {high} AND persons = {4} AND buying = {high} AND maint = {high} THEN class = acc (p=12, n=0, P=384, N=1344)
+
+CR 7: IF safety = {high} AND persons = {4} AND buying = {high} AND maint = {low} THEN class = acc (p=12, n=0, P=384, N=1344)
+
+CR 8: IF safety = {high} AND persons = {4} AND buying = {high} AND maint = {med} THEN class = acc (p=12, n=0, P=384, N=1344)
+
+CR 9: IF safety = {high} AND persons = {4} AND lug_boot = {small} AND buying = {med} THEN class = acc (p=12, n=4, P=384, N=1344)
+
+CR 10: IF safety = {high} AND persons = {4} AND lug_boot = {small} THEN class = acc (p=40, n=24, P=384, N=1344)
+
+CR 11: IF safety = {high} AND persons = {4} AND buying = {med} AND maint = {high} THEN class = acc (p=12, n=0, P=384, N=1344)
+
+CR 12: IF safety = {high} AND persons = {4} AND buying = {med} AND maint = {vhigh} THEN class = acc (p=12, n=0, P=384, N=1344)
+
+CR 13: IF safety = {high} AND persons = {4} AND maint = {med} AND buying = {vhigh} THEN class = acc (p=12, n=0, P=384, N=1344)
+
+CR 14: IF safety = {high} AND persons = {4} THEN class = acc (p=108, n=84, P=384, N=1344)
+
+CR 15: IF safety = {high} AND persons = {more} AND buying = {high} AND maint = {high} THEN class = acc (p=11, n=1, P=384, N=1344)
+
+CR 16: IF safety = {high} AND persons = {more} AND buying = {high} AND maint = {low} THEN class = acc (p=11, n=1, P=384, N=1344)
+
+CR 17: IF safety = {high} AND persons = {more} AND buying = {high} AND maint = {med} THEN class = acc (p=11, n=1, P=384, N=1344)
+
+CR 18: IF safety = {high} AND persons = {more} AND buying = {med} AND maint = {high} THEN class = acc (p=11, n=1, P=384, N=1344)
+
+CR 19: IF safety = {high} AND persons = {more} AND buying = {med} AND maint = {vhigh} THEN class = acc (p=11, n=1, P=384, N=1344)
+
+CR 20: IF safety = {high} AND persons = {more} AND maint = {med} AND buying = {vhigh} THEN class = acc (p=11, n=1, P=384, N=1344)
+
+CR 21: IF safety = {high} AND persons = {more} THEN class = acc (p=96, n=96, P=384, N=1344)
+
+CR 22: IF persons = {4} AND safety = {med} AND lug_boot = {big} AND buying = {high} THEN class = acc (p=12, n=4, P=384, N=1344)
+
+CR 23: IF persons = {4} AND safety = {med} AND lug_boot = {big} AND buying = {med} THEN class = acc (p=12, n=4, P=384, N=1344)
+
+CR 24: IF persons = {4} AND safety = {med} AND lug_boot = {big} THEN class = acc (p=40, n=24, P=384, N=1344)
+
+CR 25: IF persons = {4} AND safety = {med} AND buying = {low} AND maint = {high} THEN class = acc (p=12, n=0, P=384, N=1344)
+
+CR 26: IF persons = {4} AND safety = {med} AND buying = {low} AND lug_boot = {small} THEN class = acc (p=12, n=4, P=384, N=1344)
+
+CR 27: IF persons = {4} AND safety = {med} AND buying = {low} THEN class = acc (p=30, n=18, P=384, N=1344)
+
+CR 28: IF persons = {4} AND safety = {med} AND buying = {med} AND maint = {med} THEN class = acc (p=12, n=0, P=384, N=1344)
+
+CR 29: IF persons = {4} AND safety = {med} AND buying = {med} THEN class = acc (p=30, n=18, P=384, N=1344)
+
+CR 30: IF persons = {4} AND safety = {med} AND doors = {4} AND lug_boot = {med} THEN class = acc (p=10, n=6, P=384, N=1344)
+
+CR 31: IF persons = {4} AND safety = {med} AND doors = {5more} AND lug_boot = {med} THEN class = acc (p=10, n=6, P=384, N=1344)
+
+CR 32: IF persons = {more} AND safety = {med} AND lug_boot = {big} AND buying = {high} THEN class = acc (p=12, n=4, P=384, N=1344)
+
+CR 33: IF persons = {more} AND safety = {med} AND lug_boot = {big} AND buying = {med} THEN class = acc (p=12, n=4, P=384, N=1344)
+
+CR 34: IF persons = {more} AND safety = {med} AND lug_boot = {big} THEN class = acc (p=40, n=24, P=384, N=1344)
+
+CR 35: IF persons = {more} AND safety = {med} AND buying = {med} AND maint = {med} THEN class = acc (p=11, n=1, P=384, N=1344)
+
+CR 36: IF persons = {more} AND safety = {med} AND buying = {med} AND lug_boot = {med} THEN class = acc (p=11, n=5, P=384, N=1344)
+
+CR 37: IF persons = {more} AND safety = {med} AND maint = {med} AND lug_boot = {med} THEN class = acc (p=11, n=5, P=384, N=1344)
+
+CR 38: IF persons = {more} AND safety = {med} AND lug_boot = {med} AND maint = {high} THEN class = acc (p=10, n=6, P=384, N=1344)
+
+CR 39: IF persons = {more} AND safety = {med} AND lug_boot = {med} THEN class = acc (p=35, n=29, P=384, N=1344)
+
+CR 40: IF persons = {more} AND safety = {med} AND buying = {low} AND lug_boot = {small} THEN class = acc (p=9, n=7, P=384, N=1344)
+
+CR 41: IF safety = {high} AND buying = {low} AND lug_boot = {big} AND persons = {4} THEN class = vgood (p=12, n=4, P=65, N=1663)
+
+CR 42: IF safety = {high} AND buying = {low} AND lug_boot = {big} AND persons = {more} THEN class = vgood (p=12, n=4, P=65, N=1663)
+
+CR 43: IF safety = {high} AND buying = {low} AND persons = {more} AND lug_boot = {med} THEN class = vgood (p=9, n=7, P=65, N=1663)
+
+CR 44: IF safety = {high} AND buying = {low} AND persons = {4} THEN class = vgood (p=18, n=30, P=65, N=1663)
+
+CR 45: IF safety = {high} AND lug_boot = {big} AND buying = {med} AND maint = {low} THEN class = vgood (p=8, n=4, P=65, N=1663)
+
+CR 46: IF safety = {high} AND lug_boot = {big} AND buying = {med} AND maint = {med} THEN class = vgood (p=8, n=4, P=65, N=1663)
+
+CR 47: IF safety = {high} AND persons = {more} AND buying = {med} AND lug_boot = {med} THEN class = vgood (p=6, n=10, P=65, N=1663)
+
+CR 48: IF buying = {low} AND maint = {low} AND safety = {med} AND lug_boot = {big} THEN class = good (p=8, n=4, P=69, N=1659)
+
+CR 49: IF buying = {low} AND maint = {low} AND safety = {med} AND lug_boot = {med} THEN class = good (p=5, n=7, P=69, N=1659)
+
+CR 50: IF buying = {low} AND maint = {low} AND persons = {4} AND safety = {high} THEN class = good (p=6, n=6, P=69, N=1659)
+
+CR 51: IF buying = {low} AND maint = {med} AND safety = {med} AND lug_boot = {big} THEN class = good (p=8, n=4, P=69, N=1659)
+
+CR 52: IF buying = {low} AND maint = {med} AND safety = {med} AND lug_boot = {med} THEN class = good (p=5, n=7, P=69, N=1659)
+
+CR 53: IF buying = {low} AND maint = {med} AND persons = {4} AND safety = {high} THEN class = good (p=6, n=6, P=69, N=1659)
+
+CR 54: IF buying = {low} AND persons = {more} AND safety = {high} AND lug_boot = {small} THEN class = good (p=6, n=10, P=69, N=1659)
+
+CR 55: IF maint = {low} AND buying = {med} AND safety = {med} AND lug_boot = {big} THEN class = good (p=8, n=4, P=69, N=1659)
+
+CR 56: IF maint = {low} AND buying = {med} AND safety = {med} AND lug_boot = {med} THEN class = good (p=5, n=7, P=69, N=1659)
+
+CR 57: IF maint = {low} AND buying = {med} AND persons = {4} AND safety = {high} THEN class = good (p=6, n=6, P=69, N=1659)
+
+CR 58: IF maint = {low} AND persons = {more} THEN class = good (p=22, n=122, P=69, N=1659)

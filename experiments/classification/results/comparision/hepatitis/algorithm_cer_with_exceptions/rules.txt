@@ -1,0 +1,14 @@
+
+CR 0: IF ASCITES = {yes} AND BILIRUBIN >= 1.40 THEN class = DIE (p=10, n=0, P=23, N=85)
+
+CR 1: IF SPIDERS = {yes} AND LIVER_FIRM = {no} AND AGE >= 40.00 THEN class = DIE (p=10, n=0, P=23, N=85)
+
+CR 2: IF SPIDERS = {yes} AND ALK_PHOSPHATE <= 124.00 AND SEX = {female} AND AGE <= 60.00 AND FATIGUE = {yes} THEN class = DIE (p=10, n=1, P=23, N=85)
+
+CR 3: IF SPIDERS = {no} THEN class = LIVE (p=64, n=4, P=85, N=23)
+
+CR 4: IF BILIRUBIN <= 1.15 THEN class = LIVE (p=56, n=3, P=85, N=23)
+
+CR 5: IF ALBUMIN >= 3.85 THEN class = LIVE (p=54, n=3, P=85, N=23)
+
+CR 6: IF ASCITES = {no} AND SPLEEN_PALPABLE = {no} THEN class = LIVE (p=68, n=6, P=85, N=23)

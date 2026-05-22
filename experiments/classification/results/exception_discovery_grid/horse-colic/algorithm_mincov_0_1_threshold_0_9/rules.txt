@@ -1,0 +1,20 @@
+
+CR 0: IF surgery = {no} AND outcome = {lived} AND total_protein <= 78.50 AND packed_cell_volume >= 32.50 AND total_protein >= 5.75 THEN class = no (p=82, n=6, P=136, N=232)
+
+CR 1: IF surgery = {no} AND outcome = {lived} THEN class = no (p=97, n=13, P=136, N=232)
+
+CR 2: IF surgery = {no} AND rectal_temperature <= 39.80 AND pulse <= 140.00 THEN class = no (p=101, n=25, P=136, N=232)
+
+CR 3: IF pulse <= 56.00 AND rectal_temperature <= 38.70 AND total_protein <= 76.50 AND pulse >= 35.00 AND rectal_temperature >= 36.75 THEN class = no (p=74, n=34, P=136, N=232)
+
+CR 4: IF surgery = {yes} THEN class = no (p=26, n=188, P=136, N=232)
+
+CR 5: IF surgery = {yes} AND total_protein <= 59.00 AND packed_cell_volume >= 31.25 AND total_protein >= 5.95 AND pulse <= 116.00 THEN class = yes (p=92, n=1, P=232, N=136)
+
+CR 6: IF surgery = {yes} AND total_protein <= 59.00 AND packed_cell_volume >= 31.25 THEN class = yes (p=124, n=8, P=232, N=136)
+
+CR 7: IF surgery = {yes} AND pulse >= 48.50 AND pulse <= 116.00 THEN class = yes (p=119, n=8, P=232, N=136)
+
+CR 8: IF surgery = {yes} THEN class = yes (p=188, n=26, P=232, N=136)
+
+CR 9: IF pulse >= 64.00 AND packed_cell_volume >= 42.50 AND packed_cell_volume <= 74.00 THEN class = yes (p=96, n=18, P=232, N=136)

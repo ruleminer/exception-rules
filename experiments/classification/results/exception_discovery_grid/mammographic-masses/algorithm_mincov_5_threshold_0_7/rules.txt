@@ -1,0 +1,60 @@
+
+CR 0: IF bi_rads_assessment >= 4.50 AND density <= 3.00 AND bi_rads_assessment <= 5.00 THEN class = 1 (p=291, n=33, P=445, N=516)
+
+CR 1: IF bi_rads_assessment >= 4.50 AND density <= 3.00 THEN class = 1 (p=299, n=36, P=445, N=516)
+
+CR 2: IF bi_rads_assessment >= 4.50 THEN class = 1 (p=314, n=43, P=445, N=516)
+
+CR 3: IF shape = {4} THEN class = 1 (p=315, n=85, P=445, N=516)
+
+CR 4: IF age >= 70.00 AND density >= 2.50 THEN class = 1 (p=117, n=21, P=445, N=516)
+
+CR 5: IF age >= 66.50 AND density >= 2.50 AND density <= 3.00 AND bi_rads_assessment >= 4.00 THEN class = 1 (p=155, n=35, P=445, N=516)
+
+CR 6: IF age >= 65.50 THEN class = 1 (p=190, n=62, P=445, N=516)
+
+CR 7: IF age >= 63.50 THEN class = 1 (p=218, n=86, P=445, N=516)
+
+CR 8: IF margin = {4} AND age >= 57.50 THEN class = 1 (p=132, n=31, P=445, N=516)
+
+CR 9: IF age >= 58.00 THEN class = 1 (p=293, n=157, P=445, N=516)
+
+CR 10: IF age >= 55.00 AND density >= 3.00 AND bi_rads_assessment >= 4.00 AND density <= 3.00 THEN class = 1 (p=290, n=154, P=445, N=516)
+
+CR 11: IF age >= 50.00 AND density >= 2.50 AND bi_rads_assessment >= 3.50 AND density <= 3.00 THEN class = 1 (p=327, n=205, P=445, N=516)
+
+CR 12: IF age >= 44.50 AND bi_rads_assessment >= 3.00 THEN class = 1 (p=390, n=326, P=445, N=516)
+
+CR 13: IF age >= 41.50 AND bi_rads_assessment >= 4.00 THEN class = 1 (p=404, n=341, P=445, N=516)
+
+CR 14: IF margin = {1} THEN class = 0 (p=316, n=41, P=516, N=445)
+
+CR 15: IF bi_rads_assessment <= 4.00 AND age <= 61.00 THEN class = 0 (p=378, n=63, P=516, N=445)
+
+CR 16: IF bi_rads_assessment <= 4.00 AND age <= 63.00 THEN class = 0 (p=399, n=72, P=516, N=445)
+
+CR 17: IF bi_rads_assessment <= 4.00 AND age <= 64.00 THEN class = 0 (p=413, n=79, P=516, N=445)
+
+CR 18: IF bi_rads_assessment <= 4.00 AND age <= 66.00 THEN class = 0 (p=431, n=86, P=516, N=445)
+
+CR 19: IF bi_rads_assessment <= 4.00 AND age <= 67.00 THEN class = 0 (p=439, n=91, P=516, N=445)
+
+CR 20: IF bi_rads_assessment <= 4.00 AND age <= 70.00 AND bi_rads_assessment >= 1.00 THEN class = 0 (p=449, n=103, P=516, N=445)
+
+CR 21: IF bi_rads_assessment <= 4.00 AND age <= 73.00 AND bi_rads_assessment >= 1.00 THEN class = 0 (p=459, n=115, P=516, N=445)
+
+CR 22: IF bi_rads_assessment <= 4.00 AND age <= 77.00 AND bi_rads_assessment >= 1.00 THEN class = 0 (p=467, n=121, P=516, N=445)
+
+CR 23: IF shape = {2} THEN class = 0 (p=176, n=35, P=516, N=445)
+
+CR 24: IF age <= 42.00 THEN class = 0 (p=154, n=31, P=516, N=445)
+
+CR 25: IF age <= 49.00 THEN class = 0 (p=248, n=71, P=516, N=445)
+
+CR 26: IF age <= 54.00 THEN class = 0 (p=312, n=113, P=516, N=445)
+
+CR 27: IF age <= 59.00 AND bi_rads_assessment <= 5.00 THEN class = 0 (p=385, n=174, P=516, N=445)
+
+CR 28: IF age <= 65.00 AND bi_rads_assessment <= 5.00 THEN class = 0 (p=451, n=245, P=516, N=445)
+
+CR 29: IF age <= 76.00 AND bi_rads_assessment >= 2.00 AND bi_rads_assessment <= 6.00 THEN class = 0 (p=505, n=383, P=516, N=445)

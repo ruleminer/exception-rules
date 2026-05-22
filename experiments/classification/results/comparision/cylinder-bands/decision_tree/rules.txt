@@ -1,0 +1,36 @@
+
+CR 0: press_speed <= 2125 and press <= 814 and viscosity <= 62.5 and ink_temperature <= 13.165 => class: band, samples: 5, class_counts: {'band': 0, 'noband': 0}
+
+CR 1: press_speed <= 2125 and press <= 814 and viscosity <= 62.5 and ink_temperature > 13.165 and humifity <= 93.5 => class: noband, samples: 63, class_counts: {'band': 0, 'noband': 0}
+
+CR 2: press_speed <= 2125 and press <= 814 and viscosity <= 62.5 and ink_temperature > 13.165 and humifity > 93.5 => class: band, samples: 4, class_counts: {'band': 0, 'noband': 0}
+
+CR 3: press_speed <= 2125 and press <= 814 and viscosity > 62.5 => class: band, samples: 6, class_counts: {'band': 1, 'noband': 0}
+
+CR 4: press_speed <= 2125 and press > 814 and ink_pct <= 55.85 and anode_space_ratio <= 101.56 and humifity <= 78.5 => class: band, samples: 19, class_counts: {'band': 0, 'noband': 0}
+
+CR 5: press_speed <= 2125 and press > 814 and ink_pct <= 55.85 and anode_space_ratio <= 101.56 and humifity > 78.5 => class: noband, samples: 17, class_counts: {'band': 0, 'noband': 0}
+
+CR 6: press_speed <= 2125 and press > 814 and ink_pct <= 55.85 and anode_space_ratio > 101.56 and anode_space_ratio <= 114.29 => class: noband, samples: 61, class_counts: {'band': 0, 'noband': 0}
+
+CR 7: press_speed <= 2125 and press > 814 and ink_pct <= 55.85 and anode_space_ratio > 101.56 and anode_space_ratio > 114.29 => class: band, samples: 3, class_counts: {'band': 1, 'noband': 0}
+
+CR 8: press_speed <= 2125 and press > 814 and ink_pct > 55.85 and roller_durometer <= 33.5 and roughness <= 0.59375 => class: band, samples: 7, class_counts: {'band': 1, 'noband': 0}
+
+CR 9: press_speed <= 2125 and press > 814 and ink_pct > 55.85 and roller_durometer <= 33.5 and roughness > 0.59375 => class: noband, samples: 45, class_counts: {'band': 0, 'noband': 0}
+
+CR 10: press_speed <= 2125 and press > 814 and ink_pct > 55.85 and roller_durometer > 33.5 and proof_cut <= 43.75 => class: band, samples: 27, class_counts: {'band': 0, 'noband': 0}
+
+CR 11: press_speed <= 2125 and press > 814 and ink_pct > 55.85 and roller_durometer > 33.5 and proof_cut > 43.75 => class: band, samples: 53, class_counts: {'band': 0, 'noband': 0}
+
+CR 12: press_speed > 2125 and blade_pressure <= 32.5 and press <= 822.5 and humifity <= 79.5 and solvent_pct <= 40.6 => class: band, samples: 5, class_counts: {'band': 0, 'noband': 0}
+
+CR 13: press_speed > 2125 and blade_pressure <= 32.5 and press <= 822.5 and humifity <= 79.5 and solvent_pct > 40.6 => class: noband, samples: 4, class_counts: {'band': 0, 'noband': 1}
+
+CR 14: press_speed > 2125 and blade_pressure <= 32.5 and press <= 822.5 and humifity > 79.5 => class: noband, samples: 11, class_counts: {'band': 0, 'noband': 1}
+
+CR 15: press_speed > 2125 and blade_pressure <= 32.5 and press > 822.5 => class: noband, samples: 39, class_counts: {'band': 0, 'noband': 1}
+
+CR 16: press_speed > 2125 and blade_pressure > 32.5 and type != on_cylinder_yes => class: band, samples: 4, class_counts: {'band': 1, 'noband': 0}
+
+CR 17: press_speed > 2125 and blade_pressure > 32.5 and type = on_cylinder_yes => class: noband, samples: 5, class_counts: {'band': 0, 'noband': 0}

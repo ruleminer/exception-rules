@@ -1,0 +1,36 @@
+
+CR 0: inv-nodes != 0-2 and breast-quad != left_up and deg-malig <= 2.5 and age != 50-59 and breast != right => class: recurrence-events, samples: 6, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 1}
+
+CR 1: inv-nodes != 0-2 and breast-quad != left_up and deg-malig <= 2.5 and age != 50-59 and breast = right => class: no-recurrence-events, samples: 7, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 2: inv-nodes != 0-2 and breast-quad != left_up and deg-malig <= 2.5 and age = 50-59 => class: no-recurrence-events, samples: 4, class_counts: {'no-recurrence-events': 1, 'recurrence-events': 0}
+
+CR 3: inv-nodes != 0-2 and breast-quad != left_up and deg-malig > 2.5 and node-caps != no and age != 60-69 => class: recurrence-events, samples: 9, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 1}
+
+CR 4: inv-nodes != 0-2 and breast-quad != left_up and deg-malig > 2.5 and node-caps != no and age = 60-69 => class: recurrence-events, samples: 4, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 5: inv-nodes != 0-2 and breast-quad != left_up and deg-malig > 2.5 and node-caps = no and irradiat != no => class: no-recurrence-events, samples: 3, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 6: inv-nodes != 0-2 and breast-quad != left_up and deg-malig > 2.5 and node-caps = no and irradiat = no => class: recurrence-events, samples: 3, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 7: inv-nodes != 0-2 and breast-quad = left_up and tumor-size != 30-34 => class: no-recurrence-events, samples: 9, class_counts: {'no-recurrence-events': 1, 'recurrence-events': 0}
+
+CR 8: inv-nodes != 0-2 and breast-quad = left_up and tumor-size = 30-34 and inv-nodes != 3-5 => class: no-recurrence-events, samples: 3, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 9: inv-nodes != 0-2 and breast-quad = left_up and tumor-size = 30-34 and inv-nodes = 3-5 => class: recurrence-events, samples: 3, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 1}
+
+CR 10: inv-nodes = 0-2 and tumor-size != 10-14 and menopause != premeno and irradiat != yes and tumor-size != 20-24 => class: no-recurrence-events, samples: 45, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 11: inv-nodes = 0-2 and tumor-size != 10-14 and menopause != premeno and irradiat != yes and tumor-size = 20-24 => class: no-recurrence-events, samples: 11, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 12: inv-nodes = 0-2 and tumor-size != 10-14 and menopause != premeno and irradiat = yes and breast-quad != left_up => class: recurrence-events, samples: 3, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 1}
+
+CR 13: inv-nodes = 0-2 and tumor-size != 10-14 and menopause != premeno and irradiat = yes and breast-quad = left_up => class: no-recurrence-events, samples: 3, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 14: inv-nodes = 0-2 and tumor-size != 10-14 and menopause = premeno and breast-quad != right_low and tumor-size != 25-29 => class: no-recurrence-events, samples: 46, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 15: inv-nodes = 0-2 and tumor-size != 10-14 and menopause = premeno and breast-quad != right_low and tumor-size = 25-29 => class: no-recurrence-events, samples: 17, class_counts: {'no-recurrence-events': 0, 'recurrence-events': 0}
+
+CR 16: inv-nodes = 0-2 and tumor-size != 10-14 and menopause = premeno and breast-quad = right_low => class: no-recurrence-events, samples: 8, class_counts: {'no-recurrence-events': 1, 'recurrence-events': 0}
+
+CR 17: inv-nodes = 0-2 and tumor-size = 10-14 => class: no-recurrence-events, samples: 16, class_counts: {'no-recurrence-events': 1, 'recurrence-events': 0}

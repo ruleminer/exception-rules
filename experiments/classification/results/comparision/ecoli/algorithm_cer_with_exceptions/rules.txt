@@ -1,0 +1,42 @@
+
+CR 0: IF alm1 <= 0.35 THEN class = cp (p=73, n=5, P=97, N=138)
+
+CR 1: IF alm1 <= 0.38 AND gvh <= 0.56 THEN class = cp (p=81, n=2, P=97, N=138)
+
+CR 2: IF alm1 <= 0.42 AND gvh <= 0.56 THEN class = cp (p=86, n=2, P=97, N=138)
+
+CR 3: IF alm1 <= 0.48 AND mcg <= 0.58 AND gvh <= 0.62 THEN class = cp (p=89, n=2, P=97, N=138)
+
+CR 4: IF gvh >= 0.77 AND aac <= 0.55 THEN class = pp (p=14, n=0, P=37, N=198)
+
+CR 5: IF gvh >= 0.70 AND aac <= 0.62 AND alm1 >= 0.35 AND alm1 <= 0.64 AND gvh <= 0.88 THEN class = pp (p=17, n=0, P=37, N=198)
+
+CR 6: IF gvh >= 0.64 AND aac <= 0.64 AND mcg >= 0.62 AND mcg <= 0.73 AND alm1 >= 0.35 THEN class = pp (p=22, n=0, P=37, N=198)
+
+CR 7: IF gvh >= 0.58 AND alm1 <= 0.57 AND aac <= 0.68 AND alm1 >= 0.35 AND gvh <= 0.88 THEN class = pp (p=28, n=0, P=37, N=198)
+
+CR 8: IF mcg >= 0.62 AND aac <= 0.50 AND alm2 <= 0.57 AND lip <= 0.48 THEN class = pp (p=27, n=2, P=37, N=198)
+
+CR 9: IF alm1 >= 0.60 AND mcg <= 0.61 AND gvh >= 0.32 AND lip <= 0.48 THEN class = im (p=41, n=1, P=57, N=178)
+
+CR 10: IF mcg <= 0.74 AND gvh >= 0.32 AND lip <= 0.48 AND alm1 >= 0.61 THEN class = im (p=52, n=8, P=57, N=178)
+
+CR 11: IF alm2 >= 0.79 AND alm1 <= 0.76 AND mcg <= 0.66 AND mcg >= 0.55 THEN class = imS (p=1, n=0, P=1, N=234)
+
+CR 12: IF mcg >= 0.79 AND alm1 >= 0.72 THEN class = imU (p=8, n=0, P=24, N=211)
+
+CR 13: IF mcg >= 0.74 AND alm1 >= 0.56 AND mcg <= 0.89 THEN class = imU (p=13, n=2, P=24, N=211)
+
+CR 14: IF alm2 >= 0.74 AND mcg >= 0.61 AND gvh >= 0.41 AND alm1 <= 0.88 AND mcg <= 0.89 THEN class = imU (p=13, n=3, P=24, N=211)
+
+CR 15: IF alm2 >= 0.60 AND mcg >= 0.49 AND alm1 <= 0.79 AND aac <= 0.69 AND gvh <= 0.61 THEN class = imU (p=19, n=14, P=24, N=211)
+
+CR 16: IF aac >= 0.73 AND mcg >= 0.34 THEN class = om (p=8, n=0, P=13, N=222)
+
+CR 17: IF alm2 <= 0.33 AND aac >= 0.51 AND mcg >= 0.56 AND lip <= 0.48 THEN class = om (p=10, n=2, P=13, N=222)
+
+CR 18: IF lip >= 0.74 AND alm2 <= 0.44 AND chg <= 0.75 THEN class = omL (p=4, n=0, P=4, N=231)
+
+CR 19: IF chg >= 0.75 THEN class = imL (p=1, n=0, P=2, N=233)
+
+CR 20: IF lip >= 0.74 AND gvh <= 0.43 THEN class = imL (p=1, n=0, P=2, N=233)

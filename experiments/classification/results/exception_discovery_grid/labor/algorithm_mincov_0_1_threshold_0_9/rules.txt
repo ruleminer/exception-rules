@@ -1,0 +1,18 @@
+
+CR 0: IF wage-increase-first-year >= 4.15 THEN class = good (p=22, n=1, P=37, N=20)
+
+CR 1: IF wage-increase-third-year >= 3.25 THEN class = good (p=10, n=0, P=37, N=20)
+
+CR 2: IF wage-increase-second-year >= 3.25 AND shift-differential >= 3.50 THEN class = good (p=13, n=0, P=37, N=20)
+
+CR 3: IF shift-differential >= 5.00 THEN class = good (p=11, n=1, P=37, N=20)
+
+CR 4: IF duration <= 3.00 THEN class = good (p=36, n=20, P=37, N=20)
+
+CR 5: IF pension = {none} THEN class = bad (p=11, n=0, P=20, N=37)
+
+CR 6: IF longterm-disability-assistance = {no} THEN class = bad (p=8, n=0, P=20, N=37)
+
+CR 7: IF contribution-to-health-plan = {none} THEN class = bad (p=8, n=0, P=20, N=37)
+
+CR 8: IF wage-increase-first-year <= 2.65 AND working-hours >= 35.00 THEN class = bad (p=13, n=1, P=20, N=37)

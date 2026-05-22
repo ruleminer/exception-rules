@@ -1,0 +1,8 @@
+
+CR 0: IF Cell_Size_Uniformity <= 1.00 THEN class = benign (p=380, n=4, P=458, N=241)
+
+CR 1: IF Cell_Shape_Uniformity <= 2.00 AND Clump_Thickness <= 5.00 THEN class = benign (p=393, n=2, P=458, N=241)
+
+CR 2: IF Cell_Size_Uniformity >= 3.50 AND Bare_Nuclei <= 10.00 AND Bland_Chromatin >= 3.00 THEN class = malignant (p=197, n=9, P=241, N=458)
+
+CR 3: IF Bare_Nuclei >= 5.50 THEN class = malignant (p=168, n=6, P=241, N=458)

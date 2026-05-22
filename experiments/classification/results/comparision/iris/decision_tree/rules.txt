@@ -1,0 +1,14 @@
+
+CR 0: petallength <= 2.45 => class: Iris-setosa, samples: 31, class_counts: {'Iris-setosa': 1, 'Iris-versicolor': 0, 'Iris-virginica': 0}
+
+CR 1: petallength > 2.45 and petallength <= 4.75 and sepallength <= 5.05 => class: Iris-versicolor, samples: 4, class_counts: {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 0}
+
+CR 2: petallength > 2.45 and petallength <= 4.75 and sepallength > 5.05 => class: Iris-versicolor, samples: 29, class_counts: {'Iris-setosa': 0, 'Iris-versicolor': 1, 'Iris-virginica': 0}
+
+CR 3: petallength > 2.45 and petallength > 4.75 and petalwidth <= 1.75 and petallength <= 5.05 => class: Iris-versicolor, samples: 4, class_counts: {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 0}
+
+CR 4: petallength > 2.45 and petallength > 4.75 and petalwidth <= 1.75 and petallength > 5.05 => class: Iris-virginica, samples: 4, class_counts: {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 0}
+
+CR 5: petallength > 2.45 and petallength > 4.75 and petalwidth > 1.75 and petallength <= 4.85 => class: Iris-virginica, samples: 3, class_counts: {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 0}
+
+CR 6: petallength > 2.45 and petallength > 4.75 and petalwidth > 1.75 and petallength > 4.85 => class: Iris-virginica, samples: 30, class_counts: {'Iris-setosa': 0, 'Iris-versicolor': 0, 'Iris-virginica': 1}

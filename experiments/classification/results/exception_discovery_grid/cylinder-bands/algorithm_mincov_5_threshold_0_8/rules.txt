@@ -1,0 +1,122 @@
+
+CR 0: IF paper_type = {super} THEN class = band (p=23, n=0, P=228, N=312)
+
+CR 1: IF caliper = {0.300} THEN class = band (p=14, n=0, P=228, N=312)
+
+CR 2: IF press_speed <= 1,225.00 THEN class = band (p=9, n=0, P=228, N=312)
+
+CR 3: IF wax <= 0.60 THEN class = band (p=9, n=0, P=228, N=312)
+
+CR 4: IF caliper = {0.200} THEN class = band (p=8, n=0, P=228, N=312)
+
+CR 5: IF ink_pct >= 64.00 THEN class = band (p=11, n=1, P=228, N=312)
+
+CR 6: IF ink_type = {cover} THEN class = band (p=16, n=2, P=228, N=312)
+
+CR 7: IF press_speed <= 1,335.00 AND blade_pressure >= 21.00 THEN class = band (p=16, n=0, P=228, N=312)
+
+CR 8: IF solvent_pct <= 32.35 AND varnish_pct <= 18.85 THEN class = band (p=9, n=0, P=228, N=312)
+
+CR 9: IF paper_mill_location = {southus} AND viscosity >= 39.50 THEN class = band (p=6, n=0, P=228, N=312)
+
+CR 10: IF hardener <= 0.40 AND roughness <= 0.94 THEN class = band (p=13, n=2, P=228, N=312)
+
+CR 11: IF ink_temperature >= 16.90 AND anode_space_ratio <= 98.48 THEN class = band (p=7, n=0, P=228, N=312)
+
+CR 12: IF ink_temperature >= 16.90 AND plating_tank = {1911} THEN class = band (p=13, n=1, P=228, N=312)
+
+CR 13: IF ink_temperature >= 16.90 AND press_speed <= 1,870.00 THEN class = band (p=23, n=5, P=228, N=312)
+
+CR 14: IF press = {815} AND press_speed <= 1,625.00 THEN class = band (p=26, n=2, P=228, N=312)
+
+CR 15: IF press = {815} AND current_density = {40} AND wax <= 2.65 THEN class = band (p=43, n=4, P=228, N=312)
+
+CR 16: IF press = {815} AND unit_number <= 2.00 AND press_speed <= 2,000.00 AND varnish_pct <= 10.55 THEN class = band (p=31, n=6, P=228, N=312)
+
+CR 17: IF viscosity >= 65.00 AND grain_screened = {yes} THEN class = band (p=13, n=0, P=228, N=312)
+
+CR 18: IF viscosity >= 64.00 AND press_speed <= 1,900.00 AND humifity >= 77.00 THEN class = band (p=20, n=4, P=228, N=312)
+
+CR 19: IF press = {821} AND blade_pressure >= 26.50 THEN class = band (p=24, n=0, P=228, N=312)
+
+CR 20: IF press = {821} AND hardener >= 1.00 THEN class = band (p=22, n=5, P=228, N=312)
+
+CR 21: IF press = {821} AND unit_number >= 4.50 AND humifity >= 71.50 THEN class = band (p=31, n=5, P=228, N=312)
+
+CR 22: IF ink_temperature >= 16.35 AND anode_space_ratio >= 103.22 AND cylinder_size = {tabloid} THEN class = band (p=21, n=5, P=228, N=312)
+
+CR 23: IF press_type = {woodhoe70} AND hardener >= 1.40 THEN class = band (p=16, n=3, P=228, N=312)
+
+CR 24: IF press_type = {woodhoe70} AND humifity <= 75.00 THEN class = band (p=26, n=6, P=228, N=312)
+
+CR 25: IF press_type = {woodhoe70} AND humifity <= 78.00 AND press_speed <= 2,450.00 AND proof_cut <= 55.00 AND current_density = {40} THEN class = band (p=32, n=8, P=228, N=312)
+
+CR 26: IF press_type = {woodhoe70} AND press_speed <= 2,100.00 AND blade_pressure <= 32.00 AND humifity <= 87.50 AND ink_temperature >= 14.15 THEN class = band (p=54, n=19, P=228, N=312)
+
+CR 27: IF press_speed <= 2,035.00 AND viscosity >= 57.00 AND ink_type = {uncoated} AND proof_cut <= 56.00 THEN class = band (p=24, n=2, P=228, N=312)
+
+CR 28: IF press_speed <= 2,035.00 AND blade_pressure <= 40.00 AND current_density = {40} AND humifity >= 70.00 AND roughness >= 0.59 THEN class = band (p=116, n=52, P=228, N=312)
+
+CR 29: IF press_speed <= 2,035.00 AND humifity >= 81.50 AND press_speed <= 1,650.00 AND cylinder_size = {catalog} THEN class = band (p=31, n=7, P=228, N=312)
+
+CR 30: IF press_speed <= 2,035.00 AND blade_pressure >= 21.00 AND wax <= 2.60 AND unit_number <= 7.00 AND ink_type = {uncoated} THEN class = band (p=49, n=12, P=228, N=312)
+
+CR 31: IF press_speed <= 2,100.00 AND blade_pressure <= 40.00 AND current_density = {40} AND blade_pressure >= 21.00 AND humifity >= 69.00 THEN class = band (p=140, n=68, P=228, N=312)
+
+CR 32: IF humifity >= 69.50 AND press_speed <= 2,400.00 AND anode_space_ratio >= 96.84 AND anode_space_ratio <= 113.79 AND unit_number <= 9.00 THEN class = band (p=191, n=207, P=228, N=312)
+
+CR 33: IF current_density = {45} THEN class = noband (p=6, n=0, P=312, N=228)
+
+CR 34: IF roughness >= 1.19 THEN class = noband (p=5, n=0, P=312, N=228)
+
+CR 35: IF ESA_Voltage >= 5.00 THEN class = noband (p=43, n=5, P=312, N=228)
+
+CR 36: IF press_speed >= 2,250.00 THEN class = noband (p=59, n=8, P=312, N=228)
+
+CR 37: IF press_speed >= 2,184.50 THEN class = noband (p=77, n=12, P=312, N=228)
+
+CR 38: IF roller_durometer <= 28.00 THEN class = noband (p=10, n=1, P=312, N=228)
+
+CR 39: IF humifity <= 69.50 THEN class = noband (p=34, n=5, P=312, N=228)
+
+CR 40: IF current_density = {35} THEN class = noband (p=53, n=11, P=312, N=228)
+
+CR 41: IF proof_cut <= 32.50 THEN class = noband (p=40, n=8, P=312, N=228)
+
+CR 42: IF ESA_Voltage >= 3.50 THEN class = noband (p=63, n=15, P=312, N=228)
+
+CR 43: IF press_speed >= 2,035.00 AND proof_cut >= 42.50 THEN class = noband (p=46, n=4, P=312, N=228)
+
+CR 44: IF press_type = {motter70} THEN class = noband (p=39, n=9, P=312, N=228)
+
+CR 45: IF roller_durometer <= 33.00 AND current_density = {33} THEN class = noband (p=9, n=0, P=312, N=228)
+
+CR 46: IF roller_durometer <= 33.00 AND ink_pct <= 52.60 THEN class = noband (p=40, n=3, P=312, N=228)
+RR 46: IF humifity <= 64.00 THEN class = noband (p=11, n=2, P=312, N=228)
+ER 46: IF roller_durometer <= 33.00 AND ink_pct <= 52.60 AND humifity <= 64.00 THEN class = band (p=1, n=0, P=228, N=312)
+
+CR 47: IF roller_durometer <= 33.00 AND proof_cut >= 48.75 THEN class = noband (p=40, n=4, P=312, N=228)
+
+CR 48: IF roller_durometer <= 33.00 AND press_type = {motter94} THEN class = noband (p=99, n=16, P=312, N=228)
+
+CR 49: IF varnish_pct >= 18.95 AND press_speed >= 1,825.00 THEN class = noband (p=10, n=1, P=312, N=228)
+
+CR 50: IF ESA_Voltage >= 3.00 AND press_speed >= 1,666.50 THEN class = noband (p=66, n=14, P=312, N=228)
+
+CR 51: IF proof_cut >= 55.25 AND press_type = {albert70} THEN class = noband (p=14, n=1, P=312, N=228)
+
+CR 52: IF proof_cut >= 55.25 AND anode_space_ratio >= 103.26 THEN class = noband (p=22, n=2, P=312, N=228)
+
+CR 53: IF paper_mill_location = {canadian} AND ink_pct <= 58.80 THEN class = noband (p=93, n=20, P=312, N=228)
+
+CR 54: IF grain_screened = {no} AND ink_pct <= 56.80 THEN class = noband (p=91, n=18, P=312, N=228)
+
+CR 55: IF grain_screened = {no} AND solvent_pct >= 35.95 AND type_on_cylinder = {yes} THEN class = noband (p=147, n=32, P=312, N=228)
+
+CR 56: IF varnish_pct >= 1.05 AND varnish_pct <= 5.90 AND humifity <= 74.00 THEN class = noband (p=22, n=2, P=312, N=228)
+
+CR 57: IF varnish_pct >= 1.05 AND proof_cut <= 45.00 AND ESA_Voltage <= 0.00 THEN class = noband (p=68, n=13, P=312, N=228)
+
+CR 58: IF varnish_pct >= 1.05 AND solvent_pct >= 35.85 AND ink_temperature <= 16.30 AND ESA_Voltage <= 0.00 THEN class = noband (p=86, n=19, P=312, N=228)
+
+CR 59: IF solvent_pct >= 35.25 AND hardener <= 0.90 AND hardener >= 0.45 THEN class = noband (p=116, n=27, P=312, N=228)

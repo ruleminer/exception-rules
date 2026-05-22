@@ -1,0 +1,36 @@
+
+CR 0: num-of-doors != two and wheel-base <= 94 => class: 1, samples: 6, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 1, '2': 0, '3': 0}
+
+CR 1: num-of-doors != two and wheel-base > 94 and wheel-base <= 101.8 and height <= 55.6 and normalized-losses <= 118.5 => class: 0, samples: 23, class_counts: {'-1': 0, '-2': 0, '0': 1, '1': 0, '2': 0, '3': 0}
+
+CR 2: num-of-doors != two and wheel-base > 94 and wheel-base <= 101.8 and height <= 55.6 and normalized-losses > 118.5 => class: 1, samples: 8, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 3: num-of-doors != two and wheel-base > 94 and wheel-base <= 101.8 and height > 55.6 and body-style != wagon => class: 2, samples: 8, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 1, '3': 0}
+
+CR 4: num-of-doors != two and wheel-base > 94 and wheel-base <= 101.8 and height > 55.6 and body-style = wagon => class: 0, samples: 3, class_counts: {'-1': 0, '-2': 0, '0': 1, '1': 0, '2': 0, '3': 0}
+
+CR 5: num-of-doors != two and wheel-base > 94 and wheel-base > 101.8 and normalized-losses <= 112.5 and normalized-losses <= 99 => class: -1, samples: 12, class_counts: {'-1': 1, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 6: num-of-doors != two and wheel-base > 94 and wheel-base > 101.8 and normalized-losses <= 112.5 and normalized-losses > 99 => class: -2, samples: 3, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 7: num-of-doors != two and wheel-base > 94 and wheel-base > 101.8 and normalized-losses > 112.5 and bore <= 3.385 => class: 1, samples: 5, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 8: num-of-doors != two and wheel-base > 94 and wheel-base > 101.8 and normalized-losses > 112.5 and bore > 3.385 => class: 0, samples: 13, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 9: num-of-doors = two and price <= 11572 and bore <= 3.41 and make != mitsubishi and stroke <= 3.395 => class: 1, samples: 20, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 1, '2': 0, '3': 0}
+
+CR 10: num-of-doors = two and price <= 11572 and bore <= 3.41 and make != mitsubishi and stroke > 3.395 => class: 1, samples: 7, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 11: num-of-doors = two and price <= 11572 and bore <= 3.41 and make = mitsubishi => class: 2, samples: 4, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 12: num-of-doors = two and price <= 11572 and bore > 3.41 and engine-type != ohc => class: 2, samples: 3, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 13: num-of-doors = two and price <= 11572 and bore > 3.41 and engine-type = ohc => class: 2, samples: 5, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 1, '3': 0}
+
+CR 14: num-of-doors = two and price > 11572 and wheel-base <= 99.15 and stroke <= 3.435 => class: 3, samples: 12, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 1}
+
+CR 15: num-of-doors = two and price > 11572 and wheel-base <= 99.15 and stroke > 3.435 => class: 3, samples: 4, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 16: num-of-doors = two and price > 11572 and wheel-base > 99.15 and body-style != sedan => class: 1, samples: 4, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}
+
+CR 17: num-of-doors = two and price > 11572 and wheel-base > 99.15 and body-style = sedan => class: 0, samples: 3, class_counts: {'-1': 0, '-2': 0, '0': 0, '1': 0, '2': 0, '3': 0}

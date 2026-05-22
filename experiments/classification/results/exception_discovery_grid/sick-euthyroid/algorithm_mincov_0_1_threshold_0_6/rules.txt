@@ -1,0 +1,12 @@
+
+CR 0: IF T3 >= 1.20 THEN class = negative (p=2670, n=22, P=3541, N=231)
+
+CR 1: IF referral_source = {other} THEN class = negative (p=2168, n=33, P=3541, N=231)
+
+CR 2: IF T3 <= 1.10 AND TT4 >= 53.50 AND FTI <= 155.50 AND referral_source = {SVI} THEN class = sick (p=153, n=2, P=231, N=3541)
+
+CR 3: IF T3 <= 1.10 AND TT4 >= 53.50 AND FTI <= 155.50 AND FTI >= 61.50 AND age >= 43.00 THEN class = sick (p=173, n=10, P=231, N=3541)
+
+CR 4: IF T3 <= 1.10 AND TT4 >= 32.00 AND TT4 <= 148.00 AND TSH <= 127.50 AND age >= 17.50 THEN class = sick (p=202, n=51, P=231, N=3541)
+
+CR 5: IF T4U <= 1.07 AND on_thyroxine = {f} AND TSH <= 27.00 AND psych = {f} AND age >= 19.00 THEN class = sick (p=190, n=1668, P=231, N=3541)

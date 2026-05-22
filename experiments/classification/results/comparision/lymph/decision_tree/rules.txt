@@ -1,0 +1,28 @@
+
+CR 0: changes != in_node_lac_margin and no_of_nodes_in <= 1.5 and special != forms_chalices and changes != in_node_lacunar => class: metastases, samples: 4, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 0, 'normal': 0}
+
+CR 1: changes != in_node_lac_margin and no_of_nodes_in <= 1.5 and special != forms_chalices and changes = in_node_lacunar => class: metastases, samples: 8, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 1, 'normal': 0}
+
+CR 2: changes != in_node_lac_margin and no_of_nodes_in <= 1.5 and special = forms_chalices => class: malign_lymph, samples: 3, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 0, 'normal': 0}
+
+CR 3: changes != in_node_lac_margin and no_of_nodes_in > 1.5 and lym_nodes_dimin <= 1.5 and special != forms_chalices and changes != in_node_no => class: malign_lymph, samples: 28, class_counts: {'fibrosis': 0, 'malign_lymph': 1, 'metastases': 0, 'normal': 0}
+
+CR 4: changes != in_node_lac_margin and no_of_nodes_in > 1.5 and lym_nodes_dimin <= 1.5 and special != forms_chalices and changes = in_node_no => class: malign_lymph, samples: 3, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 0, 'normal': 0}
+
+CR 5: changes != in_node_lac_margin and no_of_nodes_in > 1.5 and lym_nodes_dimin <= 1.5 and special = forms_chalices => class: metastases, samples: 3, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 1, 'normal': 0}
+
+CR 6: changes != in_node_lac_margin and no_of_nodes_in > 1.5 and lym_nodes_dimin > 1.5 => class: fibrosis, samples: 4, class_counts: {'fibrosis': 1, 'malign_lymph': 0, 'metastases': 0, 'normal': 0}
+
+CR 7: changes = in_node_lac_margin and block != of_affere_no and no_of_nodes_in <= 3.5 and no_of_nodes_in <= 2.5 => class: metastases, samples: 27, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 1, 'normal': 0}
+
+CR 8: changes = in_node_lac_margin and block != of_affere_no and no_of_nodes_in <= 3.5 and no_of_nodes_in > 2.5 and defect != in_node_lac_margin => class: metastases, samples: 4, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 1, 'normal': 0}
+
+CR 9: changes = in_node_lac_margin and block != of_affere_no and no_of_nodes_in <= 3.5 and no_of_nodes_in > 2.5 and defect = in_node_lac_margin => class: metastases, samples: 3, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 0, 'normal': 0}
+
+CR 10: changes = in_node_lac_margin and block != of_affere_no and no_of_nodes_in > 3.5 => class: metastases, samples: 5, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 0, 'normal': 0}
+
+CR 11: changes = in_node_lac_margin and block = of_affere_no and early != uptake_in_yes => class: metastases, samples: 4, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 1, 'normal': 0}
+
+CR 12: changes = in_node_lac_margin and block = of_affere_no and early = uptake_in_yes and dislocation != of_no => class: malign_lymph, samples: 4, class_counts: {'fibrosis': 0, 'malign_lymph': 1, 'metastases': 0, 'normal': 0}
+
+CR 13: changes = in_node_lac_margin and block = of_affere_no and early = uptake_in_yes and dislocation = of_no => class: metastases, samples: 3, class_counts: {'fibrosis': 0, 'malign_lymph': 0, 'metastases': 0, 'normal': 0}

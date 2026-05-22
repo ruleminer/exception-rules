@@ -1,0 +1,36 @@
+
+CR 0: exang <= 0.5 and cp <= 3.5 and oldpeak <= 1.75 and cp <= 1.5 and sex <= 0.5 => class: 0, samples: 4, class_counts: {'0': 1, '1': 0}
+
+CR 1: exang <= 0.5 and cp <= 3.5 and oldpeak <= 1.75 and cp <= 1.5 and sex > 0.5 => class: 1, samples: 4, class_counts: {'0': 0, '1': 0}
+
+CR 2: exang <= 0.5 and cp <= 3.5 and oldpeak <= 1.75 and cp > 1.5 and age <= 55.5 => class: 0, samples: 85, class_counts: {'0': 0, '1': 0}
+
+CR 3: exang <= 0.5 and cp <= 3.5 and oldpeak <= 1.75 and cp > 1.5 and age > 55.5 => class: 0, samples: 12, class_counts: {'0': 0, '1': 0}
+
+CR 4: exang <= 0.5 and cp <= 3.5 and oldpeak > 1.75 => class: 1, samples: 5, class_counts: {'0': 0, '1': 0}
+
+CR 5: exang <= 0.5 and cp > 3.5 and oldpeak <= 1.25 and thalach <= 111 => class: 0, samples: 4, class_counts: {'0': 1, '1': 0}
+
+CR 6: exang <= 0.5 and cp > 3.5 and oldpeak <= 1.25 and thalach > 111 and thalach <= 128.5 => class: 1, samples: 3, class_counts: {'0': 0, '1': 1}
+
+CR 7: exang <= 0.5 and cp > 3.5 and oldpeak <= 1.25 and thalach > 111 and thalach > 128.5 => class: 0, samples: 20, class_counts: {'0': 0, '1': 0}
+
+CR 8: exang <= 0.5 and cp > 3.5 and oldpeak > 1.25 and chol <= 219 => class: 1, samples: 3, class_counts: {'0': 0, '1': 0}
+
+CR 9: exang <= 0.5 and cp > 3.5 and oldpeak > 1.25 and chol > 219 => class: 1, samples: 4, class_counts: {'0': 0, '1': 1}
+
+CR 10: exang > 0.5 and sex <= 0.5 and chol <= 236.5 => class: 0, samples: 4, class_counts: {'0': 0, '1': 0}
+
+CR 11: exang > 0.5 and sex <= 0.5 and chol > 236.5 and thalach <= 128 => class: 0, samples: 4, class_counts: {'0': 0, '1': 0}
+
+CR 12: exang > 0.5 and sex <= 0.5 and chol > 236.5 and thalach > 128 => class: 1, samples: 4, class_counts: {'0': 0, '1': 1}
+
+CR 13: exang > 0.5 and sex > 0.5 and cp <= 3.5 and oldpeak <= 1.25 => class: 0, samples: 4, class_counts: {'0': 0, '1': 0}
+
+CR 14: exang > 0.5 and sex > 0.5 and cp <= 3.5 and oldpeak > 1.25 => class: 1, samples: 4, class_counts: {'0': 0, '1': 1}
+
+CR 15: exang > 0.5 and sex > 0.5 and cp > 3.5 and oldpeak <= 0.5 and thalach <= 122 => class: 1, samples: 5, class_counts: {'0': 0, '1': 1}
+
+CR 16: exang > 0.5 and sex > 0.5 and cp > 3.5 and oldpeak <= 0.5 and thalach > 122 => class: 0, samples: 3, class_counts: {'0': 0, '1': 0}
+
+CR 17: exang > 0.5 and sex > 0.5 and cp > 3.5 and oldpeak > 0.5 => class: 1, samples: 33, class_counts: {'0': 0, '1': 1}

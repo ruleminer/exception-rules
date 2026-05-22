@@ -94,6 +94,15 @@ class MyRuleClassifier():
         self.columns_names = X.columns
         self.labels = y.unique()
 
+        if self.mincov < 1:
+            unique, counts = np.unique(y, return_counts=True)
+            distribution = dict(zip(unique, counts))
+
+            self.mincov_for_classes = {label: max(1, int(self.mincov * count)) for label, count in distribution.items()}
+
+
+    
+
         self._prepare_additional_informations()
         rules = []
 
@@ -106,10 +115,10 @@ class MyRuleClassifier():
 
             while carry_on:
                 rule = self._rule_factory(self.columns_names, self.label_name, label)
-                carry_on = self._grow(rule, self.X_numpy, self.y_numpy, uncovered_positives, label)
+                carry_on, exception_found = self._grow(rule, self.X_numpy, self.y_numpy, uncovered_positives, label)
 
                 if (carry_on):
-                    if(self.prune):
+                    if(self.prune and not exception_found):
                         self._prune(rule)
 
                     previously_uncovered = len(uncovered_positives)
@@ -240,6 +249,7 @@ class MyRuleClassifier():
     def _grow(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int], label: str) -> AbstractRule:
         carry_on = True
         rule_qualities = []
+        exception_found = False
         if self.if_logging:
             self.logger.info("*******GROWING CR RULE*******")
         i = 0
@@ -256,10 +266,11 @@ class MyRuleClassifier():
                 if coverage_best.n == 0:
                     carry_on = False
                 elif (precision(coverage_best) > self.treshold) and self.find_exceptions:
-                    carry_on = not self._search_exceptions(rule, X, y, label)
+                    carry_on, exception_found = self._search_exceptions(rule, X, y, label)
                        
             else:
                 carry_on = False
+                exception_found = False
                 if self.if_logging:
                     self.logger.info(f"Iteracja {i}: condition_best: None, quality_best: {round(quality_best,3)}, coverage_best: {str(coverage_best)}, precision: {round(precision(coverage_best),3)}")
                     self.logger.info(f"Regula po iteracji {i}: {rule}, {rule.calculate_coverage(X,y)}")
@@ -275,9 +286,9 @@ class MyRuleClassifier():
         if len(rule.premise.subconditions) > 0:
             maks_quality_index = np.argmax(rule_qualities)
             rule.premise.subconditions = rule.premise.subconditions[:maks_quality_index+1]
-            return True
+            return True, exception_found
         else:
-            return False
+            return False, exception_found
 
     def _prune(self, rule: AbstractRule):
         
@@ -367,45 +378,46 @@ class MyRuleClassifier():
         return condition_best, quality_best, coverage_best   
     
     def _check_candidate(self, new_covered_examples: int, y: str) -> bool:
-        return  len(new_covered_examples) >= self.mincov or (self.decision_attribute_distribution[y] <= self.mincov and len(new_covered_examples) > 0)
+
+        if self.mincov < 1:
+            mincov = self.mincov_for_classes[y]
+        else:
+            mincov = self.mincov
+        return  len(new_covered_examples) >= mincov or (self.decision_attribute_distribution[y] <= mincov and len(new_covered_examples) > 0)
     
 
     def _search_exceptions(self, rule, X, y, label):
-        rule_covered_positives = np.where(rule.positive_covered_mask(X, y) == 1)[0]
-        rule_covered_negatives = np.where(rule.negative_covered_mask(X, y) == 1)[0]
-        counter = Counter(y[rule_covered_negatives])
+
+        found_exception = False
+        cr_covered_positives = np.where(rule.positive_covered_mask(X, y) == 1)[0]
+        cr_covered_negatives = np.where(rule.negative_covered_mask(X, y) == 1)[0]
+        counter = Counter(y[cr_covered_negatives])
         most_common_label, count = counter.most_common(1)[0]
 
-        y_tmp = y.copy()
-        y_tmp[rule_covered_positives] = "not_" + label
-
-        uncovered_positives = set(np.where(y_tmp == label)[0])
+        all_positives = set(np.where(y == label)[0])
+        cr_uncovered_positives = all_positives.difference(set(cr_covered_positives))
 
         reference_rule = self._rule_factory(self.columns_names, self.label_name, label)
-        found_reference_rule = self._grow_reference_rule(reference_rule, X, y_tmp, uncovered_positives, rule_covered_negatives)
+        found_exception = self._grow_reference_rule(reference_rule, X, y, cr_uncovered_positives, cr_covered_negatives, rule)
 
-        
 
-        if found_reference_rule:
+        if found_exception:
             if self.if_logging:
                 self.logger.info("***RR FOUND***")
                 self.logger.info(f"Reference rule: {reference_rule}")
-            found_exception = self._check_exception_candidate(X, y, rule, reference_rule, most_common_label)
-            if found_exception:
-                return True
-            else:
-                
-                
-                return False
+
+            self._update_exception_candidate(X, y, rule, reference_rule, )
+            
+            return False, found_exception
         else:
             if self.if_logging:
                 self.logger.info("***RR NOT FOUND***")
-            return False
+            return True, found_exception
         
     def domain_precision(self,c: Coverage) -> float:  # pylint: disable=missing-function-docstring
         return precision(c) - c.P / (c.P + c.N)
     
-    def _grow_reference_rule(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int], negatives_to_cover: list[int]) -> AbstractRule:
+    def _grow_reference_rule(self, rr_rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int], negatives_to_cover: list[int], cr_rule: AbstractRule) -> AbstractRule:
         carry_on = True
         rule_qualities = []
         rule_covered_negatives = []
@@ -415,18 +427,18 @@ class MyRuleClassifier():
             self.logger.info("*****GROWING RR RULE*****")
 
         i = 0
-
+        found_exception_before = False
         while(carry_on):
-            condition_best, quality_best, coverage_best, number_of_covered_negatives_best, best_score = self._induce_reference_rule(rule, X, y, uncovered_positives, negatives_to_cover, best_score)
+            found_exception,condition_best, quality_best, coverage_best, number_of_covered_negatives_best, best_score = self._induce_reference_rule(rr_rule, X, y, uncovered_positives, negatives_to_cover, best_score, cr_rule, found_exception_before)
             
             if condition_best is not None:
-                rule.premise.subconditions.append(condition_best) # add the best condition to the rule
+                rr_rule.premise.subconditions.append(condition_best) # add the best condition to the rule
                 rule_qualities.append(quality_best)
                 rule_covered_negatives.append(number_of_covered_negatives_best)
                 scores.append(best_score)
 
                 
-                if (precision(coverage_best) > self.treshold):
+                if found_exception:
                     carry_on = False
 
                 if coverage_best.n == 0:
@@ -434,7 +446,7 @@ class MyRuleClassifier():
             else:
                 carry_on = False
 
-            if (self.max_growing is not None) and (len(rule.premise.subconditions) >= self.max_growing):
+            if (self.max_growing is not None) and (len(rr_rule.premise.subconditions) >= self.max_growing):
                 carry_on = False
 
             if self.if_logging:
@@ -442,7 +454,7 @@ class MyRuleClassifier():
                     self.logger.info(f"Iteracja {i}: condition_best: {condition_best.to_string(self.columns_names)}, quality_best: {round(quality_best, 3)}, coverage_best: {str(coverage_best)}, number_of_covered_negatives_best: {number_of_covered_negatives_best}, best_score: {round(best_score,3)}, precision: {round(precision(coverage_best),3)}")
                 else:
                     self.logger.info(f"Iteracja {i}: condition_best: None quality_best: {round(quality_best, 3)}, coverage_best: {str(coverage_best)}, number_of_covered_negatives_best: {number_of_covered_negatives_best}, best_score: {round(best_score,3)}, precision: {round(precision(coverage_best),3)}")
-                self.logger.info(f"Regula po iteracji {i}: {rule}, {rule.calculate_coverage(X,y)}")
+                self.logger.info(f"Regula po iteracji {i}: {rr_rule}, {rr_rule.calculate_coverage(X,y)}")
 
             i +=1
 
@@ -452,33 +464,29 @@ class MyRuleClassifier():
         if self.if_logging:
             self.logger.info("*****STOP GROWING RR RULE*****")
         
-        if len(rule.premise.subconditions) > 0:
-            maks_quality_index = np.argmax(rule_qualities)
-            rule.premise.subconditions = rule.premise.subconditions[:maks_quality_index+1]
-            return True
-        else:
-            return False
+        return found_exception
         
-    def _induce_reference_rule(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int], negatives_to_cover: list[int], best_score) -> AbstractCondition:
+    def _induce_reference_rule(self, rr_rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int], negatives_to_cover: list[int], best_score, cr_rule: AbstractRule, found_exception_before: bool) -> tuple[bool, AbstractCondition, float, Coverage, int, float]:
             
             quality_best = float("-inf")
             coverage_best = Coverage(0,0,0,0)
             condition_best = None
             number_of_covered_negatives_best = 0
+
             
-            rule_covered_mask: np.ndarray = rule.premise.covered_mask(X)
+            rule_covered_mask: np.ndarray = rr_rule.premise.covered_mask(X)
             examples_covered_by_rule = X[rule_covered_mask]
             y_for_examples_covered_by_rule = y[rule_covered_mask]
 
-            positive_mask: np.ndarray = rule.conclusion.positives_mask(y)
-            negative_mask: np.ndarray = rule.conclusion.negatives_mask(y)
+            positive_mask: np.ndarray = rr_rule.conclusion.positives_mask(y)
+            negative_mask: np.ndarray = rr_rule.conclusion.negatives_mask(y)
 
             scores = []
             negative_numbers = []
             positives_numbers = []
 
             possible_conditions = self._get_possible_conditions(examples_covered_by_rule, y_for_examples_covered_by_rule)
-            possible_conditions_filtered = list(filter(lambda i: i not in rule.premise.subconditions, possible_conditions))
+            possible_conditions_filtered = list(filter(lambda i: i not in rr_rule.premise.subconditions, possible_conditions))
             if len(possible_conditions_filtered) != 0:
                 for condition in possible_conditions_filtered:
                     condition_str = condition.__hash__()
@@ -498,28 +506,26 @@ class MyRuleClassifier():
                             rule_with_condition_covered_mask, positive_mask
                         )
                     
-                    covered_positives = np.where(rule_with_condition_positive_covered_mask == 1)[0]
+                    rr_covered_positives = np.where(rule_with_condition_positive_covered_mask == 1)[0]
 
-                    covered_positives = set(covered_positives)
+                    rr_covered_positives = set(rr_covered_positives)
                     new_covered_positives: set[int] = uncovered_positives.intersection(
-                        covered_positives)
+                        rr_covered_positives)
 
-                    rule_with_condition = copy.deepcopy(rule)
-                    rule_with_condition.premise.subconditions.append(condition)
                     
                     quality, coverage = self._calculate_quality_using_covered_positives(
-                            rule=rule,
+                            rule=rr_rule,
                             rule_covered_count=rule_with_condition_covered_count,
-                            covered_positives=covered_positives,
+                            covered_positives=rr_covered_positives,
                             y=y
                         )
 
                     rule_with_condition_negative_covered_mask = np.logical_and(
                             rule_with_condition_covered_mask, negative_mask
                         )
-                    covered_negatives = np.where(rule_with_condition_negative_covered_mask == 1)[0]
+                    rr_covered_negatives = np.where(rule_with_condition_negative_covered_mask == 1)[0]
 
-                    negatives_to_cover_covered = [i for i in negatives_to_cover if i in covered_negatives]
+                    negatives_to_cover_covered = [i for i in negatives_to_cover if i in rr_covered_negatives]
 
                     number_of_covered_negatives = len(negatives_to_cover_covered)
                     number_of_negatives_to_cover = len(negatives_to_cover)
@@ -540,43 +546,83 @@ class MyRuleClassifier():
                     
                     score = quality_score + negatives_score + positives_score
 
+                    
                     scores.append(score)
                     negative_numbers.append(number_of_covered_negatives)
                     positives_numbers.append(len(new_covered_positives))
-                    if score > best_score and precision(coverage) > self.treshold:
-                        if self._check_candidate(new_covered_positives, rule.conclusion.value):
+                    rr_rule_with_condition = copy.deepcopy(rr_rule)
+                    rr_rule_with_condition.premise.subconditions.append(condition)
+                    exception_candidate = self._check_exception_candidate(X, y, cr_rule,rr_rule_with_condition)
+                    if (score > best_score and precision(coverage) > self.treshold and not found_exception_before) or (exception_candidate and not found_exception_before and precision(coverage) > self.treshold) or (exception_candidate and found_exception_before and score > best_score and precision(coverage) > self.treshold):
+                        if self._check_candidate(new_covered_positives, rr_rule.conclusion.value):
                             condition_best = condition
                             quality_best = quality
                             coverage_best = coverage
                             number_of_covered_negatives_best = number_of_covered_negatives
                             best_score = score
+                            found_exception_before = exception_candidate
                             
 
-            return condition_best, quality_best, coverage_best, number_of_covered_negatives_best, best_score              
+            return found_exception_before, condition_best, quality_best, coverage_best, number_of_covered_negatives_best, best_score              
     
     
-    def _check_exception_candidate(self, X, y, comonsense_rule, reference_rule, exception_conclusion) -> bool:
+    def _update_exception_candidate(self, X, y, comonsense_rule, reference_rule):
+
+        cr_covered_negatives = np.where(comonsense_rule.negative_covered_mask(X, y) == 1)[0]
+        rr_covered_negatives = np.where(reference_rule.negative_covered_mask(X, y) == 1)[0]
+
+        covered_negatives = set(cr_covered_negatives).intersection(set(rr_covered_negatives))
+        covered_negatives = list(covered_negatives)
+        counter = Counter(y[covered_negatives])
+
+        if len(covered_negatives) == 0:
+            return False
+
+        most_common_label, count = counter.most_common(1)[0]
+        
+        exception_rule = self._rule_factory(self.columns_names, self.label_name, most_common_label)
+        exception_rule.premise.subconditions.extend(comonsense_rule.premise.subconditions)
+        exception_rule.premise.subconditions.extend(reference_rule.premise.subconditions)
+
+        exception_coverage = exception_rule.calculate_coverage(X, y)
+         
+        comonsense_rule.reference_rule = reference_rule   
+        comonsense_rule.exception_rule = exception_rule
+        comonsense_rule.exception_rules.append(exception_rule)
+        comonsense_rule.reference_rules.append(reference_rule)
+        triple_ruleset = ClassificationRuleSet(rules = [comonsense_rule,exception_rule,reference_rule])
+        triple_ruleset.update(self.X_pandas,self.y_pandas, self.measure_function)
+
+        return True
+                                    
+    def _check_exception_candidate(self, X, y, cr_rule, rr_rule) -> bool:
             
             if self.if_logging:
                 self.logger.info("***CHECKING EXCEPTION***")
             
-            exception_rule = self._rule_factory(self.columns_names, self.label_name, exception_conclusion)
-            exception_rule.premise.subconditions.extend(comonsense_rule.premise.subconditions)
-            exception_rule.premise.subconditions.extend(reference_rule.premise.subconditions)
+
+            cr_covered_negatives = np.where(cr_rule.negative_covered_mask(X, y) == 1)[0]
+            rr_covered_negatives = np.where(rr_rule.negative_covered_mask(X, y) == 1)[0]
+
+            covered_negatives = set(cr_covered_negatives).intersection(set(rr_covered_negatives))
+            covered_negatives = list(covered_negatives)
+            if len(covered_negatives) == 0:
+                if self.if_logging:
+                    self.logger.info("***NO COVERED NEGATIVES, EXCEPTION FOUND***")
+                return True
+
+            counter = Counter(y[covered_negatives])
+            most_common_label, count = counter.most_common(1)[0]
+
+
+            exception_rule = self._rule_factory(self.columns_names, self.label_name, most_common_label)
+            exception_rule.premise.subconditions.extend(cr_rule.premise.subconditions)
+            exception_rule.premise.subconditions.extend(rr_rule.premise.subconditions)
 
             exception_coverage = exception_rule.calculate_coverage(X, y)
 
-            if self.if_logging:
-                self.logger.info(f"Exception precision: {precision(exception_coverage)}")
-
 
             if (precision(exception_coverage) > self.treshold):
-                comonsense_rule.reference_rule = reference_rule   
-                comonsense_rule.exception_rule = exception_rule
-                comonsense_rule.exception_rules.append(exception_rule)
-                comonsense_rule.reference_rules.append(reference_rule)
-                triple_ruleset = ClassificationRuleSet(rules = [comonsense_rule,exception_rule,reference_rule])
-                triple_ruleset.update(self.X_pandas,self.y_pandas, self.measure_function)
                 if self.if_logging:
                     self.logger.info("***ER FOUND***")
                     self.logger.info(f"Exception rule: {exception_rule}")

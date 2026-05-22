@@ -1,0 +1,38 @@
+
+CR 0: IF surgery = {no} AND outcome = {lived} AND total_protein <= 78.50 AND packed_cell_volume >= 32.50 AND total_protein >= 5.75 THEN class = no (p=82, n=6, P=136, N=232)
+
+CR 1: IF surgery = {no} AND outcome = {lived} AND total_protein <= 78.50 AND packed_cell_volume >= 31.00 AND packed_cell_volume <= 56.50 THEN class = no (p=86, n=8, P=136, N=232)
+
+CR 2: IF surgery = {no} AND outcome = {lived} THEN class = no (p=97, n=13, P=136, N=232)
+
+CR 3: IF surgery = {no} AND rectal_temperature <= 38.95 AND rectal_temperature >= 38.00 THEN class = no (p=64, n=6, P=136, N=232)
+
+CR 4: IF surgery = {no} AND rectal_temperature <= 39.80 AND pulse <= 140.00 THEN class = no (p=101, n=25, P=136, N=232)
+
+CR 5: IF pain = {alert no pain} AND rectal_temperature >= 37.65 THEN class = no (p=36, n=3, P=136, N=232)
+
+CR 6: IF pulse <= 56.00 AND outcome = {lived} AND total_protein <= 64.50 AND respiratory_rate <= 51.00 AND rectal_temperature >= 37.15 THEN class = no (p=56, n=15, P=136, N=232)
+
+CR 7: IF packed_cell_volume <= 37.00 AND total_protein >= 59.00 AND pulse >= 35.00 AND packed_cell_volume >= 28.00 THEN class = no (p=15, n=5, P=136, N=232)
+
+CR 8: IF total_protein >= 56.50 AND respiratory_rate <= 48.00 AND outcome = {euthanized} AND pulse >= 74.00 AND capillary_refill_time = {<3} THEN class = no (p=6, n=0, P=136, N=232)
+
+CR 9: IF pulse <= 128.50 AND pulse >= 35.00 THEN class = no (p=128, n=196, P=136, N=232)
+
+CR 10: IF surgery = {yes} AND total_protein <= 59.00 THEN class = yes (p=128, n=10, P=232, N=136)
+
+CR 11: IF surgery = {yes} THEN class = yes (p=188, n=26, P=232, N=136)
+
+CR 12: IF abdomen = {distended small intestine} THEN class = yes (p=51, n=4, P=232, N=136)
+
+CR 13: IF outcome = {died} AND peristalsis = {hypomotile} THEN class = yes (p=37, n=1, P=232, N=136)
+
+CR 14: IF outcome = {died} AND packed_cell_volume <= 71.00 THEN class = yes (p=69, n=5, P=232, N=136)
+
+CR 15: IF abdominal_distension = {moderate} AND total_protein <= 7.15 THEN class = yes (p=38, n=2, P=232, N=136)
+
+CR 16: IF abdomen = {distended large intestine} AND Age = {adult} THEN class = yes (p=78, n=17, P=232, N=136)
+
+CR 17: IF pulse >= 64.00 AND packed_cell_volume <= 73.00 AND total_protein <= 81.50 AND packed_cell_volume >= 43.50 THEN class = yes (p=87, n=13, P=232, N=136)
+
+CR 18: IF respiratory_rate >= 30.00 AND pulse >= 44.00 THEN class = yes (p=89, n=34, P=232, N=136)

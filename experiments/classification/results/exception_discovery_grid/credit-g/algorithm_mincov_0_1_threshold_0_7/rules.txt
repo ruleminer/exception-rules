@@ -1,0 +1,32 @@
+
+CR 0: IF checking_status = {no checking} AND other_payment_plans = {none} AND age >= 31.00 THEN class = good (p=205, n=9, P=700, N=300)
+
+CR 1: IF checking_status = {no checking} AND other_payment_plans = {none} AND age >= 23.50 THEN class = good (p=283, n=20, P=700, N=300)
+
+CR 2: IF credit_history = {critical/other existing credit} AND age >= 35.00 THEN class = good (p=155, n=17, P=700, N=300)
+
+CR 3: IF duration <= 15.00 AND property_magnitude = {real estate} THEN class = good (p=150, n=20, P=700, N=300)
+
+CR 4: IF duration <= 15.00 AND credit_amount >= 959.50 AND credit_amount <= 3,954.00 AND age >= 20.00 THEN class = good (p=262, n=45, P=700, N=300)
+
+CR 5: IF duration <= 23.00 AND credit_amount <= 6,409.50 AND age >= 21.00 AND existing_credits <= 3.00 THEN class = good (p=426, n=126, P=700, N=300)
+
+CR 6: IF duration <= 30.00 AND credit_amount >= 1,373.00 THEN class = good (p=438, n=137, P=700, N=300)
+
+CR 7: IF duration >= 45.00 AND savings_status = {<100} AND age >= 21.50 THEN class = bad (p=30, n=6, P=300, N=700)
+
+CR 8: IF credit_amount >= 7,973.00 AND duration <= 48.00 AND credit_amount <= 15,764.50 THEN class = bad (p=35, n=25, P=300, N=700)
+
+CR 9: IF checking_status = {<0} AND duration >= 15.50 AND credit_amount <= 2,178.50 AND age <= 55.00 AND residence_since >= 1.50 THEN class = bad (p=32, n=5, P=300, N=700)
+
+CR 10: IF checking_status = {<0} AND duration >= 15.50 AND job = {skilled} AND savings_status = {<100} AND credit_amount >= 1,090.00 THEN class = bad (p=60, n=22, P=300, N=700)
+
+CR 11: IF checking_status = {<0} AND duration >= 12.00 AND installment_commitment >= 2.50 AND residence_since >= 2.00 AND age <= 61.50 THEN class = bad (p=87, n=44, P=300, N=700)
+
+CR 12: IF duration >= 30.00 AND num_dependents <= 1.00 AND credit_amount >= 1,767.00 THEN class = bad (p=86, n=93, P=300, N=700)
+
+CR 13: IF age <= 25.00 AND installment_commitment >= 2.00 AND foreign_worker = {yes} AND credit_amount >= 412.50 AND existing_credits <= 2.00 THEN class = bad (p=72, n=80, P=300, N=700)
+
+CR 14: IF checking_status = {0<=X<200} AND duration >= 12.00 AND credit_amount >= 632.00 AND age <= 66.50 AND age >= 20.00 THEN class = bad (p=93, n=124, P=300, N=700)
+
+CR 15: IF savings_status = {<100} AND existing_credits <= 2.00 AND credit_amount >= 625.50 AND duration >= 6.00 AND age <= 74.00 THEN class = bad (p=210, n=345, P=300, N=700)

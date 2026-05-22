@@ -1,0 +1,18 @@
+
+CR 0: IF oldpeak >= 2.45 THEN class = present (p=30, n=4, P=120, N=150)
+
+CR 1: IF thal >= 7.00 AND chest >= 4.00 THEN class = present (p=63, n=7, P=120, N=150)
+
+CR 2: IF thal >= 7.00 AND resting_blood_pressure >= 109.00 AND serum_cholestoral <= 486.50 THEN class = present (p=78, n=19, P=120, N=150)
+
+CR 3: IF number_of_major_vessels >= 0.50 AND chest >= 4.00 THEN class = present (p=63, n=5, P=120, N=150)
+
+CR 4: IF maximum_heart_rate_achieved <= 158.00 AND resting_blood_pressure >= 107.00 AND age <= 67.50 AND serum_cholestoral <= 356.50 AND resting_blood_pressure <= 176.00 THEN class = present (p=82, n=44, P=120, N=150)
+
+CR 5: IF chest <= 3.00 AND thal <= 3.00 THEN class = absent (p=91, n=10, P=150, N=120)
+
+CR 6: IF chest <= 3.00 AND number_of_major_vessels <= 0.00 THEN class = absent (p=87, n=12, P=150, N=120)
+
+CR 7: IF thal <= 3.00 AND number_of_major_vessels <= 0.00 THEN class = absent (p=95, n=12, P=150, N=120)
+
+CR 8: IF oldpeak <= 1.80 AND resting_blood_pressure <= 157.00 AND maximum_heart_rate_achieved >= 104.00 AND serum_cholestoral <= 304.00 AND age <= 76.50 THEN class = absent (p=119, n=45, P=150, N=120)

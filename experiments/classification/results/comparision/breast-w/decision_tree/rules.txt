@@ -1,0 +1,34 @@
+
+CR 0: Cell_Shape_Uniformity <= 3.5 and Bare_Nuclei <= 5.5 and Normal_Nucleoli <= 3.5 and Bare_Nuclei <= 2.5 => class: benign, samples: 282, class_counts: {'benign': 1, 'malignant': 0}
+
+CR 1: Cell_Shape_Uniformity <= 3.5 and Bare_Nuclei <= 5.5 and Normal_Nucleoli <= 3.5 and Bare_Nuclei > 2.5 and Clump_Thickness <= 3.5 => class: benign, samples: 11, class_counts: {'benign': 1, 'malignant': 0}
+
+CR 2: Cell_Shape_Uniformity <= 3.5 and Bare_Nuclei <= 5.5 and Normal_Nucleoli <= 3.5 and Bare_Nuclei > 2.5 and Clump_Thickness > 3.5 => class: benign, samples: 7, class_counts: {'benign': 0, 'malignant': 0}
+
+CR 3: Cell_Shape_Uniformity <= 3.5 and Bare_Nuclei <= 5.5 and Normal_Nucleoli > 3.5 and Bland_Chromatin <= 4.5 => class: benign, samples: 3, class_counts: {'benign': 0, 'malignant': 0}
+
+CR 4: Cell_Shape_Uniformity <= 3.5 and Bare_Nuclei <= 5.5 and Normal_Nucleoli > 3.5 and Bland_Chromatin > 4.5 => class: malignant, samples: 3, class_counts: {'benign': 0, 'malignant': 1}
+
+CR 5: Cell_Shape_Uniformity <= 3.5 and Bare_Nuclei > 5.5 and Bland_Chromatin <= 4 => class: malignant, samples: 4, class_counts: {'benign': 0, 'malignant': 0}
+
+CR 6: Cell_Shape_Uniformity <= 3.5 and Bare_Nuclei > 5.5 and Bland_Chromatin > 4 => class: malignant, samples: 10, class_counts: {'benign': 0, 'malignant': 1}
+
+CR 7: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei <= 1.5 and Bland_Chromatin <= 4.5 and Marginal_Adhesion <= 3.5 => class: benign, samples: 7, class_counts: {'benign': 1, 'malignant': 0}
+
+CR 8: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei <= 1.5 and Bland_Chromatin <= 4.5 and Marginal_Adhesion > 3.5 => class: malignant, samples: 4, class_counts: {'benign': 0, 'malignant': 0}
+
+CR 9: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei <= 1.5 and Bland_Chromatin > 4.5 and Cell_Size_Uniformity <= 7 => class: malignant, samples: 3, class_counts: {'benign': 0, 'malignant': 0}
+
+CR 10: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei <= 1.5 and Bland_Chromatin > 4.5 and Cell_Size_Uniformity > 7 => class: malignant, samples: 5, class_counts: {'benign': 0, 'malignant': 1}
+
+CR 11: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei > 1.5 and Cell_Shape_Uniformity <= 4.5 and Clump_Thickness <= 4.5 => class: benign, samples: 3, class_counts: {'benign': 0, 'malignant': 0}
+
+CR 12: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei > 1.5 and Cell_Shape_Uniformity <= 4.5 and Clump_Thickness > 4.5 and Marginal_Adhesion <= 4.5 => class: malignant, samples: 11, class_counts: {'benign': 0, 'malignant': 1}
+
+CR 13: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei > 1.5 and Cell_Shape_Uniformity <= 4.5 and Clump_Thickness > 4.5 and Marginal_Adhesion > 4.5 => class: malignant, samples: 10, class_counts: {'benign': 0, 'malignant': 0}
+
+CR 14: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei > 1.5 and Cell_Shape_Uniformity > 4.5 and Bland_Chromatin <= 4.5 and Clump_Thickness <= 6.5 => class: malignant, samples: 10, class_counts: {'benign': 0, 'malignant': 0}
+
+CR 15: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei > 1.5 and Cell_Shape_Uniformity > 4.5 and Bland_Chromatin <= 4.5 and Clump_Thickness > 6.5 => class: malignant, samples: 22, class_counts: {'benign': 0, 'malignant': 1}
+
+CR 16: Cell_Shape_Uniformity > 3.5 and Bare_Nuclei > 1.5 and Cell_Shape_Uniformity > 4.5 and Bland_Chromatin > 4.5 => class: malignant, samples: 94, class_counts: {'benign': 0, 'malignant': 1}

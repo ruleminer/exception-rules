@@ -1,0 +1,40 @@
+
+CR 0: T3 <= 1.15 and TT4 <= 53.5 and TSH <= 19 and FTI <= 78 and FTI <= 65 => class: sick, samples: 4, class_counts: {'negative': 0, 'sick': 1}
+
+CR 1: T3 <= 1.15 and TT4 <= 53.5 and TSH <= 19 and FTI <= 78 and FTI > 65 => class: negative, samples: 4, class_counts: {'negative': 0, 'sick': 0}
+
+CR 2: T3 <= 1.15 and TT4 <= 53.5 and TSH <= 19 and FTI > 78 => class: negative, samples: 5, class_counts: {'negative': 1, 'sick': 0}
+
+CR 3: T3 <= 1.15 and TT4 <= 53.5 and TSH > 19 => class: negative, samples: 36, class_counts: {'negative': 1, 'sick': 0}
+
+CR 4: T3 <= 1.15 and TT4 > 53.5 and referral != source_other and FTI <= 156.5 and FTI <= 65 => class: sick, samples: 3, class_counts: {'negative': 0, 'sick': 0}
+
+CR 5: T3 <= 1.15 and TT4 > 53.5 and referral != source_other and FTI <= 156.5 and FTI > 65 => class: sick, samples: 125, class_counts: {'negative': 0, 'sick': 1}
+
+CR 6: T3 <= 1.15 and TT4 > 53.5 and referral != source_other and FTI > 156.5 and TT4 <= 112.5 => class: sick, samples: 3, class_counts: {'negative': 0, 'sick': 0}
+
+CR 7: T3 <= 1.15 and TT4 > 53.5 and referral != source_other and FTI > 156.5 and TT4 > 112.5 => class: negative, samples: 7, class_counts: {'negative': 1, 'sick': 0}
+
+CR 8: T3 <= 1.15 and TT4 > 53.5 and referral = source_other and age <= 70.5 and TSH <= 5.45 => class: negative, samples: 21, class_counts: {'negative': 0, 'sick': 0}
+
+CR 9: T3 <= 1.15 and TT4 > 53.5 and referral = source_other and age <= 70.5 and TSH > 5.45 => class: sick, samples: 5, class_counts: {'negative': 0, 'sick': 1}
+
+CR 10: T3 <= 1.15 and TT4 > 53.5 and referral = source_other and age > 70.5 and FTI <= 105.5 => class: sick, samples: 8, class_counts: {'negative': 0, 'sick': 1}
+
+CR 11: T3 <= 1.15 and TT4 > 53.5 and referral = source_other and age > 70.5 and FTI > 105.5 => class: negative, samples: 3, class_counts: {'negative': 0, 'sick': 0}
+
+CR 12: T3 > 1.15 and FTI <= 52.5 and TSH <= 8.35 => class: sick, samples: 7, class_counts: {'negative': 0, 'sick': 1}
+
+CR 13: T3 > 1.15 and FTI <= 52.5 and TSH > 8.35 => class: negative, samples: 19, class_counts: {'negative': 1, 'sick': 0}
+
+CR 14: T3 > 1.15 and FTI > 52.5 and FTI <= 171.5 and FTI <= 163.5 => class: negative, samples: 2264, class_counts: {'negative': 1, 'sick': 0}
+
+CR 15: T3 > 1.15 and FTI > 52.5 and FTI <= 171.5 and FTI > 163.5 and FTI <= 164.5 => class: negative, samples: 4, class_counts: {'negative': 0, 'sick': 0}
+
+CR 16: T3 > 1.15 and FTI > 52.5 and FTI <= 171.5 and FTI > 163.5 and FTI > 164.5 => class: negative, samples: 30, class_counts: {'negative': 1, 'sick': 0}
+
+CR 17: T3 > 1.15 and FTI > 52.5 and FTI > 171.5 and TT4 <= 187.5 and T3 <= 2.8 => class: negative, samples: 33, class_counts: {'negative': 0, 'sick': 0}
+
+CR 18: T3 > 1.15 and FTI > 52.5 and FTI > 171.5 and TT4 <= 187.5 and T3 > 2.8 => class: negative, samples: 14, class_counts: {'negative': 1, 'sick': 0}
+
+CR 19: T3 > 1.15 and FTI > 52.5 and FTI > 171.5 and TT4 > 187.5 => class: negative, samples: 45, class_counts: {'negative': 1, 'sick': 0}

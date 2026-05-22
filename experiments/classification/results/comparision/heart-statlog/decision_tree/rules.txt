@@ -1,0 +1,42 @@
+
+CR 0: thal <= 4.5 and oldpeak <= 1.7 and exercise_induced_angina <= 0.5 and serum_cholestoral <= 327.5 and resting_blood_pressure <= 111 => class: absent, samples: 9, class_counts: {'absent': 0, 'present': 0}
+
+CR 1: thal <= 4.5 and oldpeak <= 1.7 and exercise_induced_angina <= 0.5 and serum_cholestoral <= 327.5 and resting_blood_pressure > 111 => class: absent, samples: 55, class_counts: {'absent': 0, 'present': 0}
+
+CR 2: thal <= 4.5 and oldpeak <= 1.7 and exercise_induced_angina <= 0.5 and serum_cholestoral > 327.5 and oldpeak <= 0.4 => class: present, samples: 3, class_counts: {'absent': 0, 'present': 0}
+
+CR 3: thal <= 4.5 and oldpeak <= 1.7 and exercise_induced_angina <= 0.5 and serum_cholestoral > 327.5 and oldpeak > 0.4 => class: absent, samples: 3, class_counts: {'absent': 1, 'present': 0}
+
+CR 4: thal <= 4.5 and oldpeak <= 1.7 and exercise_induced_angina > 0.5 and chest <= 3.5 => class: absent, samples: 6, class_counts: {'absent': 1, 'present': 0}
+
+CR 5: thal <= 4.5 and oldpeak <= 1.7 and exercise_induced_angina > 0.5 and chest > 3.5 and age <= 58 => class: absent, samples: 4, class_counts: {'absent': 0, 'present': 0}
+
+CR 6: thal <= 4.5 and oldpeak <= 1.7 and exercise_induced_angina > 0.5 and chest > 3.5 and age > 58 => class: present, samples: 5, class_counts: {'absent': 0, 'present': 1}
+
+CR 7: thal <= 4.5 and oldpeak > 1.7 and age <= 52.5 => class: absent, samples: 4, class_counts: {'absent': 0, 'present': 0}
+
+CR 8: thal <= 4.5 and oldpeak > 1.7 and age > 52.5 and age <= 63.5 => class: present, samples: 9, class_counts: {'absent': 0, 'present': 1}
+
+CR 9: thal <= 4.5 and oldpeak > 1.7 and age > 52.5 and age > 63.5 => class: absent, samples: 4, class_counts: {'absent': 0, 'present': 0}
+
+CR 10: thal > 4.5 and chest <= 3.5 and maximum_heart_rate_achieved <= 143 and age <= 63 => class: present, samples: 3, class_counts: {'absent': 0, 'present': 1}
+
+CR 11: thal > 4.5 and chest <= 3.5 and maximum_heart_rate_achieved <= 143 and age > 63 => class: present, samples: 3, class_counts: {'absent': 0, 'present': 0}
+
+CR 12: thal > 4.5 and chest <= 3.5 and maximum_heart_rate_achieved > 143 and slope <= 1.5 => class: absent, samples: 5, class_counts: {'absent': 1, 'present': 0}
+
+CR 13: thal > 4.5 and chest <= 3.5 and maximum_heart_rate_achieved > 143 and slope > 1.5 and maximum_heart_rate_achieved <= 156.5 => class: absent, samples: 7, class_counts: {'absent': 0, 'present': 0}
+
+CR 14: thal > 4.5 and chest <= 3.5 and maximum_heart_rate_achieved > 143 and slope > 1.5 and maximum_heart_rate_achieved > 156.5 => class: present, samples: 7, class_counts: {'absent': 0, 'present': 0}
+
+CR 15: thal > 4.5 and chest > 3.5 and oldpeak <= 0.45 and maximum_heart_rate_achieved <= 148.5 => class: absent, samples: 4, class_counts: {'absent': 1, 'present': 0}
+
+CR 16: thal > 4.5 and chest > 3.5 and oldpeak <= 0.45 and maximum_heart_rate_achieved > 148.5 and serum_cholestoral <= 217 => class: absent, samples: 3, class_counts: {'absent': 0, 'present': 0}
+
+CR 17: thal > 4.5 and chest > 3.5 and oldpeak <= 0.45 and maximum_heart_rate_achieved > 148.5 and serum_cholestoral > 217 => class: present, samples: 5, class_counts: {'absent': 0, 'present': 1}
+
+CR 18: thal > 4.5 and chest > 3.5 and oldpeak > 0.45 and thal <= 6.5 and number_of_major_vessels <= 0.5 => class: absent, samples: 3, class_counts: {'absent': 0, 'present': 0}
+
+CR 19: thal > 4.5 and chest > 3.5 and oldpeak > 0.45 and thal <= 6.5 and number_of_major_vessels > 0.5 => class: present, samples: 4, class_counts: {'absent': 0, 'present': 1}
+
+CR 20: thal > 4.5 and chest > 3.5 and oldpeak > 0.45 and thal > 6.5 => class: present, samples: 43, class_counts: {'absent': 0, 'present': 1}
