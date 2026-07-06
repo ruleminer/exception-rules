@@ -1,0 +1,623 @@
+{
+  "meta": {
+    "attributes": [
+      "Cement",
+      "Slag",
+      "Fly ash",
+      "Water",
+      "SP",
+      "Coarse Aggr.",
+      "Fine Aggr.",
+      "SLUMP(cm)",
+      "FLOW(cm)"
+    ],
+    "decision_attribute": "class",
+    "y_train_median": 35.52
+  },
+  "rules": [
+    {
+      "uuid": "80690336-defd-4463-b057-219403e9a013",
+      "string": "IF Water <= 169.25 THEN class = {44.40} [37.62, 51.19]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          3
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": null,
+            "right": 169.25,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 37.6168855404703,
+        "value": 44.400999999999996,
+        "high": 51.18511445952969,
+        "fixed": false,
+        "train_covered_y_mean": 44.400999999999996,
+        "train_covered_y_std": 6.7841144595296985,
+        "train_covered_y_min": 37.66,
+        "train_covered_y_max": 58.53
+      },
+      "coverage": {
+        "p": 9,
+        "n": 1,
+        "P": 38,
+        "N": 65
+      }
+    },
+    {
+      "uuid": "2bf7f27c-472c-446e-8ce7-556dd8d72443",
+      "string": "IF Fly ash >= 239.95 AND Cement <= 180.15 AND Fly ash <= 249.00 THEN class = {35.17} [34.38, 35.97]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          2
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": 239.95,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 180.15,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 249.0,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 34.37704077896067,
+        "value": 35.17400000000001,
+        "high": 35.970959221039344,
+        "fixed": false,
+        "train_covered_y_mean": 35.17400000000001,
+        "train_covered_y_std": 0.7969592210393374,
+        "train_covered_y_min": 33.78,
+        "train_covered_y_max": 36.19
+      },
+      "coverage": {
+        "p": 3,
+        "n": 2,
+        "P": 7,
+        "N": 96
+      }
+    },
+    {
+      "uuid": "0066e0ec-854b-4a54-b83d-10fba743061e",
+      "string": "IF Coarse Aggr. >= 1,021.45 THEN class = {31.94} [26.18, 37.70]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          5
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              5
+            ],
+            "negated": false,
+            "left": 1021.45,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 26.175457302884276,
+        "value": 31.93666666666666,
+        "high": 37.697876030449045,
+        "fixed": false,
+        "train_covered_y_mean": 31.93666666666666,
+        "train_covered_y_std": 5.761209363782386,
+        "train_covered_y_min": 18.26,
+        "train_covered_y_max": 37.66
+      },
+      "coverage": {
+        "p": 8,
+        "n": 1,
+        "P": 57,
+        "N": 46
+      }
+    },
+    {
+      "uuid": "d044152c-717c-4558-8076-5f7e96e5e86e",
+      "string": "IF SLUMP(cm) <= 2.25 AND Cement >= 157.00 AND Fly ash >= 140.00 AND Fly ash <= 239.75 AND Slag <= 160.20 THEN class = {46.39} [40.52, 52.26]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              7
+            ],
+            "negated": false,
+            "left": null,
+            "right": 2.25,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 157.0,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": 140.0,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 239.75,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 160.2,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 40.52238418644625,
+        "value": 46.39125,
+        "high": 52.260115813553746,
+        "fixed": false,
+        "train_covered_y_mean": 46.39125,
+        "train_covered_y_std": 5.868865813553744,
+        "train_covered_y_min": 41.01,
+        "train_covered_y_max": 58.53
+      },
+      "coverage": {
+        "p": 7,
+        "n": 1,
+        "P": 27,
+        "N": 76
+      }
+    },
+    {
+      "uuid": "0613d071-aabf-4ec4-ac70-6248572a72da",
+      "string": "IF Fly ash <= 102.50 THEN class = {28.83} [23.45, 34.22]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          2
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 102.5,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 23.449108406394945,
+        "value": 28.83363636363636,
+        "high": 34.218164320877776,
+        "fixed": false,
+        "train_covered_y_mean": 28.83363636363636,
+        "train_covered_y_std": 5.3845279572414135,
+        "train_covered_y_min": 17.19,
+        "train_covered_y_max": 36.46
+      },
+      "coverage": {
+        "p": 17,
+        "n": 5,
+        "P": 43,
+        "N": 60
+      }
+    },
+    {
+      "uuid": "0b44192e-322c-4320-9567-6eacd771fd0f",
+      "string": "IF Cement <= 162.50 THEN class = {31.69} [26.00, 37.37]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 162.5,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 26.000624539534734,
+        "value": 31.685952380952386,
+        "high": 37.37128022237004,
+        "fixed": false,
+        "train_covered_y_mean": 31.685952380952386,
+        "train_covered_y_std": 5.685327841417653,
+        "train_covered_y_min": 17.19,
+        "train_covered_y_max": 42.08
+      },
+      "coverage": {
+        "p": 32,
+        "n": 10,
+        "P": 55,
+        "N": 48
+      }
+    },
+    {
+      "uuid": "d96b0306-b07f-4104-88a3-f90e0e3da0b1",
+      "string": "IF Fly ash <= 117.50 THEN class = {30.15} [24.16, 36.14]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          2
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 117.5,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 24.158417335541408,
+        "value": 30.151428571428568,
+        "high": 36.14443980731573,
+        "fixed": false,
+        "train_covered_y_mean": 30.151428571428568,
+        "train_covered_y_std": 5.993011235887159,
+        "train_covered_y_min": 17.19,
+        "train_covered_y_max": 44.08
+      },
+      "coverage": {
+        "p": 21,
+        "n": 7,
+        "P": 50,
+        "N": 53
+      }
+    },
+    {
+      "uuid": "e0e6a596-0cdd-4777-89e7-8675c4d8a9b3",
+      "string": "IF Fly ash >= 239.65 THEN class = {38.95} [32.92, 44.98]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          2
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": 239.64999999999998,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 32.92263383747566,
+        "value": 38.949999999999996,
+        "high": 44.97736616252433,
+        "fixed": false,
+        "train_covered_y_mean": 38.949999999999996,
+        "train_covered_y_std": 6.027366162524335,
+        "train_covered_y_min": 27.09,
+        "train_covered_y_max": 50.23
+      },
+      "coverage": {
+        "p": 11,
+        "n": 3,
+        "P": 52,
+        "N": 51
+      }
+    },
+    {
+      "uuid": "d555fe9a-59f5-40b0-86dd-b4722a9e85eb",
+      "string": "IF FLOW(cm) >= 67.50 AND Cement >= 151.60 AND Water >= 204.00 AND Cement >= 293.00 AND Fly ash <= 239.85 THEN class = {43.28} [40.29, 46.27]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          8,
+          0,
+          2,
+          3
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": 67.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 151.6,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": 204.0,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 293.0,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 239.85000000000002,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 40.290672313241416,
+        "value": 43.281666666666666,
+        "high": 46.27266102009192,
+        "fixed": false,
+        "train_covered_y_mean": 43.281666666666666,
+        "train_covered_y_std": 2.9909943534252537,
+        "train_covered_y_min": 39.4,
+        "train_covered_y_max": 48.77
+      },
+      "coverage": {
+        "p": 4,
+        "n": 2,
+        "P": 21,
+        "N": 82
+      }
+    },
+    {
+      "uuid": "23a1f69a-c2f8-4fe5-bed3-1771031470c0",
+      "string": "IF Water <= 190.50 AND FLOW(cm) >= 58.50 AND Cement >= 207.75 THEN class = {44.70} [43.52, 45.88]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          8,
+          0,
+          3
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": null,
+            "right": 190.5,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": 58.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 207.75,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 43.516634068662576,
+        "value": 44.696000000000005,
+        "high": 45.875365931337434,
+        "fixed": false,
+        "train_covered_y_mean": 44.696000000000005,
+        "train_covered_y_std": 1.1793659313374323,
+        "train_covered_y_min": 43.01,
+        "train_covered_y_max": 45.82
+      },
+      "coverage": {
+        "p": 4,
+        "n": 1,
+        "P": 8,
+        "N": 95
+      }
+    },
+    {
+      "uuid": "522b63ec-e950-412d-8874-f3cea0d31e47",
+      "string": "IF Slag <= 2.80 AND Coarse Aggr. <= 932.50 THEN class = {42.73} [36.02, 49.43]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          1,
+          5
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 2.8,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              5
+            ],
+            "negated": false,
+            "left": null,
+            "right": 932.5,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 36.01876956244046,
+        "value": 42.725238095238105,
+        "high": 49.43170662803575,
+        "fixed": false,
+        "train_covered_y_mean": 42.725238095238105,
+        "train_covered_y_std": 6.706468532797643,
+        "train_covered_y_min": 32.71,
+        "train_covered_y_max": 58.53
+      },
+      "coverage": {
+        "p": 16,
+        "n": 5,
+        "P": 43,
+        "N": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,3014 @@
+{
+  "meta": {
+    "attributes": [
+      "Density",
+      "Age",
+      "Weight",
+      "Height",
+      "Neck",
+      "Chest",
+      "Abdomen",
+      "Hip",
+      "Thigh",
+      "Knee",
+      "Ankle",
+      "Biceps",
+      "Forearm",
+      "Wrist"
+    ],
+    "decision_attribute": "class",
+    "y_train_median": 19.2
+  },
+  "rules": [
+    {
+      "uuid": "f3f7a7d3-ee9e-4efb-856e-312c2a2a8be1",
+      "string": "IF Density <= 1.03 AND Height <= 75.00 AND Wrist >= 17.15 AND Density <= 1.03 AND Density <= 1.03 THEN class = {32.62} [29.32, 35.93]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          3,
+          13
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.03305,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": null,
+            "right": 75.0,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              13
+            ],
+            "negated": false,
+            "left": 17.15,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0326499999999998,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.03235,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 29.31501087864029,
+        "value": 32.621428571428574,
+        "high": 35.92784626421685,
+        "fixed": false,
+        "train_covered_y_mean": 32.621428571428574,
+        "train_covered_y_std": 3.3064176927882825,
+        "train_covered_y_min": 29.6,
+        "train_covered_y_max": 47.5
+      },
+      "coverage": {
+        "p": 27,
+        "n": 1,
+        "P": 28,
+        "N": 224
+      }
+    },
+    {
+      "uuid": "376cad24-2bcf-4180-9906-341b37ebb428",
+      "string": "IF Density <= 1.04 AND Height <= 75.00 AND Density <= 1.03 AND Wrist >= 17.15 AND Weight <= 312.95 THEN class = {31.89} [28.58, 35.19]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          2,
+          3,
+          13
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.03505,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": null,
+            "right": 75.0,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0343,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              13
+            ],
+            "negated": false,
+            "left": 17.15,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 312.95,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 28.584551028128402,
+        "value": 31.887878787878794,
+        "high": 35.191206547629186,
+        "fixed": false,
+        "train_covered_y_mean": 31.887878787878794,
+        "train_covered_y_std": 3.3033277597503923,
+        "train_covered_y_min": 28.7,
+        "train_covered_y_max": 47.5
+      },
+      "coverage": {
+        "p": 32,
+        "n": 1,
+        "P": 32,
+        "N": 220
+      }
+    },
+    {
+      "uuid": "32b4403f-1ddb-4989-8e7b-85fab81a7889",
+      "string": "IF Density <= 1.04 AND Ankle <= 25.30 AND Chest <= 120.70 AND Height >= 46.50 AND Abdomen >= 94.30 THEN class = {31.40} [27.61, 35.19]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          3,
+          5,
+          6,
+          10
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0364,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              10
+            ],
+            "negated": false,
+            "left": null,
+            "right": 25.299999999999997,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              5
+            ],
+            "negated": false,
+            "left": null,
+            "right": 120.69999999999999,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": 46.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              6
+            ],
+            "negated": false,
+            "left": 94.30000000000001,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 27.60506768232481,
+        "value": 31.396874999999998,
+        "high": 35.18868231767519,
+        "fixed": false,
+        "train_covered_y_mean": 31.396874999999998,
+        "train_covered_y_std": 3.7918073176751887,
+        "train_covered_y_min": 27.9,
+        "train_covered_y_max": 47.5
+      },
+      "coverage": {
+        "p": 30,
+        "n": 2,
+        "P": 36,
+        "N": 216
+      }
+    },
+    {
+      "uuid": "0d42957f-13f1-4a0e-ac2f-6b56ade2fe9c",
+      "string": "IF Density <= 1.04 AND Weight <= 312.95 AND Weight <= 255.00 AND Hip <= 113.30 AND Chest <= 120.70 THEN class = {30.88} [27.19, 34.57]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.03735,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 312.95,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 255.0,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              7
+            ],
+            "negated": false,
+            "left": null,
+            "right": 113.3,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              5
+            ],
+            "negated": false,
+            "left": null,
+            "right": 120.69999999999999,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 27.18521454068309,
+        "value": 30.877142857142857,
+        "high": 34.56907117360262,
+        "fixed": false,
+        "train_covered_y_mean": 30.877142857142857,
+        "train_covered_y_std": 3.6919283164597663,
+        "train_covered_y_min": 27.2,
+        "train_covered_y_max": 47.5
+      },
+      "coverage": {
+        "p": 33,
+        "n": 2,
+        "P": 38,
+        "N": 214
+      }
+    },
+    {
+      "uuid": "62c78ac8-e761-429b-881b-5e8996613108",
+      "string": "IF Density >= 1.08 AND Density >= 1.08 AND Density <= 1.08 AND Weight <= 172.12 AND Density <= 1.08 THEN class = {8.70} [8.57, 8.83]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          2
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.07805,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.07865,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0809,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 172.125,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0795499999999998,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 8.573508893593301,
+        "value": 8.700000000000001,
+        "high": 8.826491106406701,
+        "fixed": false,
+        "train_covered_y_mean": 8.700000000000001,
+        "train_covered_y_std": 0.1264911064067001,
+        "train_covered_y_min": 8.5,
+        "train_covered_y_max": 8.8
+      },
+      "coverage": {
+        "p": 4,
+        "n": 1,
+        "P": 4,
+        "N": 248
+      }
+    },
+    {
+      "uuid": "8551e409-209c-45fd-bcbc-4b0d68416609",
+      "string": "IF Density >= 1.08 AND Density >= 1.08 AND Age <= 55.50 AND Biceps >= 25.30 AND Density >= 1.08 THEN class = {6.47} [3.56, 9.39]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1,
+          11
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.07805,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.07865,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 55.5,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              11
+            ],
+            "negated": false,
+            "left": 25.3,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0789,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 3.5558476267628354,
+        "value": 6.471428571428572,
+        "high": 9.38700951609431,
+        "fixed": false,
+        "train_covered_y_mean": 6.471428571428572,
+        "train_covered_y_std": 2.915580944665737,
+        "train_covered_y_min": 0.0,
+        "train_covered_y_max": 17.4
+      },
+      "coverage": {
+        "p": 25,
+        "n": 3,
+        "P": 30,
+        "N": 222
+      }
+    },
+    {
+      "uuid": "b3a4d10a-6f77-47cf-a915-c2d627c9f784",
+      "string": "IF Density >= 1.08 AND Age <= 55.50 AND Age >= 22.50 AND Neck >= 32.65 AND Height >= 64.50 THEN class = {6.79} [3.69, 9.88]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0773,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 55.5,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": 22.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              4
+            ],
+            "negated": false,
+            "left": 32.65,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": 64.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 3.6946771207158,
+        "value": 6.787096774193547,
+        "high": 9.879516427671293,
+        "fixed": false,
+        "train_covered_y_mean": 6.787096774193547,
+        "train_covered_y_std": 3.0924196534777466,
+        "train_covered_y_min": 0.0,
+        "train_covered_y_max": 17.4
+      },
+      "coverage": {
+        "p": 27,
+        "n": 4,
+        "P": 35,
+        "N": 217
+      }
+    },
+    {
+      "uuid": "50cf937f-968e-45e9-8cac-fd1b7d37c321",
+      "string": "IF Density <= 1.04 AND Weight <= 221.12 AND Density <= 1.04 AND Wrist >= 17.10 AND Wrist <= 19.80 THEN class = {29.71} [26.18, 33.24]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          2,
+          13
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0401,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 221.125,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.03915,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              13
+            ],
+            "negated": false,
+            "left": 17.1,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              13
+            ],
+            "negated": false,
+            "left": null,
+            "right": 19.8,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 26.18380674144568,
+        "value": 29.712820512820517,
+        "high": 33.241834284195356,
+        "fixed": false,
+        "train_covered_y_mean": 29.712820512820517,
+        "train_covered_y_std": 3.529013771374838,
+        "train_covered_y_min": 26.6,
+        "train_covered_y_max": 47.5
+      },
+      "coverage": {
+        "p": 38,
+        "n": 1,
+        "P": 43,
+        "N": 209
+      }
+    },
+    {
+      "uuid": "a7561c24-8ed2-46a0-be4f-1fa3d567ddd9",
+      "string": "IF Density >= 1.08 AND Abdomen >= 75.50 AND Height >= 67.50 AND Abdomen >= 76.80 AND Forearm <= 30.50 THEN class = {8.24} [5.91, 10.57]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          3,
+          12,
+          6
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0756999999999999,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              6
+            ],
+            "negated": false,
+            "left": 75.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": 67.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              6
+            ],
+            "negated": false,
+            "left": 76.8,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              12
+            ],
+            "negated": false,
+            "left": null,
+            "right": 30.5,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 5.91148284376894,
+        "value": 8.242857142857142,
+        "high": 10.574231441945344,
+        "fixed": false,
+        "train_covered_y_mean": 8.242857142857142,
+        "train_covered_y_std": 2.331374299088202,
+        "train_covered_y_min": 3.7,
+        "train_covered_y_max": 17.4
+      },
+      "coverage": {
+        "p": 25,
+        "n": 3,
+        "P": 32,
+        "N": 220
+      }
+    },
+    {
+      "uuid": "9d165167-1fc7-4ecf-a468-4626346ebfad",
+      "string": "IF Density >= 1.07 AND Hip >= 88.80 AND Hip <= 107.60 AND Biceps >= 25.90 AND Thigh <= 62.30 THEN class = {8.31} [5.86, 10.76]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          8,
+          11,
+          7
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.07435,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              7
+            ],
+            "negated": false,
+            "left": 88.8,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              7
+            ],
+            "negated": false,
+            "left": null,
+            "right": 107.6,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              11
+            ],
+            "negated": false,
+            "left": 25.9,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": null,
+            "right": 62.3,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 5.856939735354917,
+        "value": 8.30857142857143,
+        "high": 10.760203121787942,
+        "fixed": false,
+        "train_covered_y_mean": 8.30857142857143,
+        "train_covered_y_std": 2.451631693216513,
+        "train_covered_y_min": 3.0,
+        "train_covered_y_max": 17.4
+      },
+      "coverage": {
+        "p": 30,
+        "n": 5,
+        "P": 33,
+        "N": 219
+      }
+    },
+    {
+      "uuid": "a9d3987e-12e0-46ce-be4d-1f5d85195ee9",
+      "string": "IF Density <= 1.04 AND Weight <= 221.12 AND Density <= 1.04 AND Wrist <= 19.95 AND Age >= 24.50 THEN class = {29.54} [25.65, 33.42]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1,
+          2,
+          13
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0417,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 221.125,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.04075,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              13
+            ],
+            "negated": false,
+            "left": null,
+            "right": 19.950000000000003,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": 24.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 25.653921801225742,
+        "value": 29.53863636363636,
+        "high": 33.42335092604698,
+        "fixed": false,
+        "train_covered_y_mean": 29.53863636363636,
+        "train_covered_y_std": 3.8847145624106174,
+        "train_covered_y_min": 25.8,
+        "train_covered_y_max": 47.5
+      },
+      "coverage": {
+        "p": 42,
+        "n": 2,
+        "P": 50,
+        "N": 202
+      }
+    },
+    {
+      "uuid": "646faca1-f1df-468f-9435-b8c4bb9b27d0",
+      "string": "IF Density <= 1.04 AND Weight <= 221.12 AND Hip <= 113.95 THEN class = {29.14} [25.28, 33.00]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          2,
+          7
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0417,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 221.125,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              7
+            ],
+            "negated": false,
+            "left": null,
+            "right": 113.94999999999999,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 25.28129555420477,
+        "value": 29.14,
+        "high": 32.99870444579523,
+        "fixed": false,
+        "train_covered_y_mean": 29.14,
+        "train_covered_y_std": 3.858704445795228,
+        "train_covered_y_min": 25.3,
+        "train_covered_y_max": 47.5
+      },
+      "coverage": {
+        "p": 47,
+        "n": 3,
+        "P": 55,
+        "N": 197
+      }
+    },
+    {
+      "uuid": "8c2c6e18-c34f-4a21-9dac-a3e55c9551c1",
+      "string": "IF Density <= 1.04 AND Thigh <= 70.20 AND Density <= 1.04 AND Chest <= 120.75 AND Hip <= 114.20 THEN class = {29.03} [25.10, 32.95]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          8,
+          5,
+          7
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.04345,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": null,
+            "right": 70.19999999999999,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.04265,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              5
+            ],
+            "negated": false,
+            "left": null,
+            "right": 120.75,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              7
+            ],
+            "negated": false,
+            "left": null,
+            "right": 114.19999999999999,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 25.100989549390228,
+        "value": 29.02622950819672,
+        "high": 32.951469467003214,
+        "fixed": false,
+        "train_covered_y_mean": 29.02622950819672,
+        "train_covered_y_std": 3.9252399588064937,
+        "train_covered_y_min": 24.8,
+        "train_covered_y_max": 47.5
+      },
+      "coverage": {
+        "p": 54,
+        "n": 7,
+        "P": 57,
+        "N": 195
+      }
+    },
+    {
+      "uuid": "9d76caca-d3ed-4b4e-84af-351685b5db67",
+      "string": "IF Density <= 1.04 AND Thigh <= 70.20 AND Age <= 63.50 AND Age <= 62.50 AND Chest <= 120.75 THEN class = {28.53} [24.24, 32.82]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          8,
+          5,
+          1
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.04345,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": null,
+            "right": 70.19999999999999,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 63.5,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 62.5,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              5
+            ],
+            "negated": false,
+            "left": null,
+            "right": 120.75,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 24.24146235314625,
+        "value": 28.531372549019608,
+        "high": 32.82128274489297,
+        "fixed": false,
+        "train_covered_y_mean": 28.531372549019608,
+        "train_covered_y_std": 4.289910195873357,
+        "train_covered_y_min": 24.4,
+        "train_covered_y_max": 47.5
+      },
+      "coverage": {
+        "p": 47,
+        "n": 4,
+        "P": 64,
+        "N": 188
+      }
+    },
+    {
+      "uuid": "1bd2fe4f-5409-4de5-9235-23e3cf082760",
+      "string": "IF Density >= 1.07 AND Density <= 1.07 THEN class = {10.96} [10.77, 11.15]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0729,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.07435,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 10.77452763009015,
+        "value": 10.96,
+        "high": 11.145472369909852,
+        "fixed": false,
+        "train_covered_y_mean": 10.96,
+        "train_covered_y_std": 0.1854723699098512,
+        "train_covered_y_min": 10.8,
+        "train_covered_y_max": 11.3
+      },
+      "coverage": {
+        "p": 4,
+        "n": 1,
+        "P": 4,
+        "N": 248
+      }
+    },
+    {
+      "uuid": "e2ac02fa-0584-419a-9bac-4f71f369f7bb",
+      "string": "IF Density <= 1.05 AND Thigh <= 69.00 AND Wrist <= 19.95 AND Density >= 1.04 AND Density >= 1.04 THEN class = {24.34} [23.87, 24.80]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          8,
+          13
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0460500000000001,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": null,
+            "right": 69.0,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              13
+            ],
+            "negated": false,
+            "left": null,
+            "right": 19.95,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0417,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0423,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 23.86873377637776,
+        "value": 24.336363636363636,
+        "high": 24.803993496349513,
+        "fixed": false,
+        "train_covered_y_mean": 24.336363636363636,
+        "train_covered_y_std": 0.46762985998587675,
+        "train_covered_y_min": 23.3,
+        "train_covered_y_max": 24.9
+      },
+      "coverage": {
+        "p": 8,
+        "n": 3,
+        "P": 8,
+        "N": 244
+      }
+    },
+    {
+      "uuid": "875e0781-250b-4d1d-9760-cb9eaf7503d9",
+      "string": "IF Density <= 1.05 AND Density >= 1.04 AND Height <= 72.50 AND Density >= 1.05 THEN class = {23.06} [22.77, 23.35]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          3
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0471,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.04385,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": null,
+            "right": 72.5,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0460500000000001,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 22.772945998112043,
+        "value": 23.060000000000002,
+        "high": 23.34705400188796,
+        "fixed": false,
+        "train_covered_y_mean": 23.060000000000002,
+        "train_covered_y_std": 0.2870540018879605,
+        "train_covered_y_min": 22.8,
+        "train_covered_y_max": 23.6
+      },
+      "coverage": {
+        "p": 4,
+        "n": 1,
+        "P": 5,
+        "N": 247
+      }
+    },
+    {
+      "uuid": "2356a22a-d33a-46cf-b1a8-ae3fb42368bf",
+      "string": "IF Density >= 1.07 AND Density <= 1.07 AND Density <= 1.07 AND Density <= 1.07 THEN class = {11.58} [11.43, 11.73]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0719500000000002,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0738,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0733000000000001,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0729,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 11.433030615432987,
+        "value": 11.58,
+        "high": 11.726969384567013,
+        "fixed": false,
+        "train_covered_y_mean": 11.58,
+        "train_covered_y_std": 0.1469693845670128,
+        "train_covered_y_min": 11.4,
+        "train_covered_y_max": 11.8
+      },
+      "coverage": {
+        "p": 3,
+        "n": 2,
+        "P": 3,
+        "N": 249
+      }
+    },
+    {
+      "uuid": "cf81b636-10db-4178-a9a3-4b3ef2ffaaa8",
+      "string": "IF Density >= 1.07 AND Density <= 1.07 AND Weight <= 158.88 AND Density <= 1.07 THEN class = {13.34} [13.05, 13.63]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          2
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0673499999999998,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.07035,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 158.875,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0697999999999999,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 13.052945998111841,
+        "value": 13.34,
+        "high": 13.627054001888158,
+        "fixed": false,
+        "train_covered_y_mean": 13.34,
+        "train_covered_y_std": 0.2870540018881585,
+        "train_covered_y_min": 12.9,
+        "train_covered_y_max": 13.6
+      },
+      "coverage": {
+        "p": 4,
+        "n": 1,
+        "P": 4,
+        "N": 248
+      }
+    },
+    {
+      "uuid": "5e7848cd-6e58-4869-9344-d97ee9f0e25b",
+      "string": "IF Density >= 1.07 AND Thigh <= 62.50 AND Age <= 67.00 AND Height >= 64.50 AND Density <= 1.07 THEN class = {12.46} [11.78, 13.14]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1,
+          3,
+          8
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0673499999999998,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": null,
+            "right": 62.5,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 67.0,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": 64.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0727,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 11.783583834998502,
+        "value": 12.46111111111111,
+        "high": 13.138638387223718,
+        "fixed": false,
+        "train_covered_y_mean": 12.46111111111111,
+        "train_covered_y_std": 0.6775272761126071,
+        "train_covered_y_min": 11.5,
+        "train_covered_y_max": 13.8
+      },
+      "coverage": {
+        "p": 13,
+        "n": 5,
+        "P": 14,
+        "N": 238
+      }
+    },
+    {
+      "uuid": "eff300ef-ed23-4753-a6c0-440d945ef00d",
+      "string": "IF Density >= 1.07 AND Density <= 1.07 AND Density <= 1.07 AND Age <= 67.00 AND Weight <= 191.25 THEN class = {12.49} [10.60, 14.39]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1,
+          2
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0664500000000001,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0748,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.07435,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 67.0,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": null,
+            "right": 191.25,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 10.601671529772076,
+        "value": 12.493749999999999,
+        "high": 14.38582847022792,
+        "fixed": false,
+        "train_covered_y_mean": 12.493749999999999,
+        "train_covered_y_std": 1.8920784702279219,
+        "train_covered_y_min": 5.6,
+        "train_covered_y_max": 18.5
+      },
+      "coverage": {
+        "p": 30,
+        "n": 2,
+        "P": 33,
+        "N": 219
+      }
+    },
+    {
+      "uuid": "4525bba1-b501-4e4d-b2df-11c479c71be3",
+      "string": "IF Density <= 1.05 AND Density >= 1.04 AND Height >= 68.00 AND Density >= 1.05 AND Weight >= 167.00 THEN class = {22.80} [22.42, 23.18]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          2,
+          3
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.04785,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.04385,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              3
+            ],
+            "negated": false,
+            "left": 68.0,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0452499999999998,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              2
+            ],
+            "negated": false,
+            "left": 167.0,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 22.41702915689749,
+        "value": 22.8,
+        "high": 23.18297084310251,
+        "fixed": false,
+        "train_covered_y_mean": 22.8,
+        "train_covered_y_std": 0.3829708431025095,
+        "train_covered_y_min": 22.5,
+        "train_covered_y_max": 23.6
+      },
+      "coverage": {
+        "p": 5,
+        "n": 1,
+        "P": 8,
+        "N": 244
+      }
+    },
+    {
+      "uuid": "e1eefad9-3bdf-49ae-851e-4d50eef06999",
+      "string": "IF Density <= 1.05 AND Density >= 1.05 AND Density >= 1.05 AND Age <= 58.00 THEN class = {22.18} [22.06, 22.30]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0487,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.04785,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.04805,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 58.0,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 22.063380962103107,
+        "value": 22.18,
+        "high": 22.296619037896892,
+        "fixed": false,
+        "train_covered_y_mean": 22.18,
+        "train_covered_y_std": 0.11661903789689197,
+        "train_covered_y_min": 22.1,
+        "train_covered_y_max": 22.4
+      },
+      "coverage": {
+        "p": 4,
+        "n": 1,
+        "P": 5,
+        "N": 247
+      }
+    },
+    {
+      "uuid": "b4a6a249-13f0-42ad-a538-b34dbc644a8e",
+      "string": "IF Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 AND Density >= 1.06 AND Density <= 1.07 THEN class = {13.27} [11.37, 15.17]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.06405,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0725500000000001,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.06425,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0645,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0723500000000001,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 11.372862528253503,
+        "value": 13.273529411764704,
+        "high": 15.174196295275905,
+        "fixed": false,
+        "train_covered_y_mean": 13.273529411764704,
+        "train_covered_y_std": 1.9006668835112008,
+        "train_covered_y_min": 5.6,
+        "train_covered_y_max": 18.5
+      },
+      "coverage": {
+        "p": 32,
+        "n": 2,
+        "P": 36,
+        "N": 216
+      }
+    },
+    {
+      "uuid": "9898e5a1-200c-48fb-93cc-99e8abc4d4ad",
+      "string": "IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Density <= 1.07 AND Density <= 1.07 THEN class = {13.88} [11.94, 15.81]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0627499999999999,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.07145,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0711,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.07085,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0707,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 11.940445787784688,
+        "value": 13.875,
+        "high": 15.809554212215312,
+        "fixed": false,
+        "train_covered_y_mean": 13.875,
+        "train_covered_y_std": 1.934554212215312,
+        "train_covered_y_min": 5.6,
+        "train_covered_y_max": 18.5
+      },
+      "coverage": {
+        "p": 30,
+        "n": 2,
+        "P": 33,
+        "N": 219
+      }
+    },
+    {
+      "uuid": "66b0c91d-6f06-40cd-bbfd-4c32fe8029fb",
+      "string": "IF Density <= 1.05 AND Density >= 1.05 AND Biceps >= 29.30 AND Hip <= 102.80 AND Abdomen >= 85.65 THEN class = {22.34} [21.89, 22.78]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          11,
+          6,
+          7
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0495,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0460500000000001,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              11
+            ],
+            "negated": false,
+            "left": 29.299999999999997,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              7
+            ],
+            "negated": false,
+            "left": null,
+            "right": 102.80000000000001,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              6
+            ],
+            "negated": false,
+            "left": 85.65,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 21.89395296868405,
+        "value": 22.33571428571429,
+        "high": 22.777475602744527,
+        "fixed": false,
+        "train_covered_y_mean": 22.33571428571429,
+        "train_covered_y_std": 0.44176131703023647,
+        "train_covered_y_min": 21.8,
+        "train_covered_y_max": 23.6
+      },
+      "coverage": {
+        "p": 11,
+        "n": 3,
+        "P": 12,
+        "N": 240
+      }
+    },
+    {
+      "uuid": "cc19a97f-60eb-41d0-8a6a-c02d1985a421",
+      "string": "IF Density <= 1.05 AND Density >= 1.05 AND Thigh >= 58.55 AND Chest <= 107.85 AND Thigh >= 61.60 THEN class = {20.93} [20.80, 21.07]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          8,
+          5
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.05205,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.04895,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": 58.55,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              5
+            ],
+            "negated": false,
+            "left": null,
+            "right": 107.85,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": 61.6,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 20.795896479146002,
+        "value": 20.933333333333334,
+        "high": 21.070770187520665,
+        "fixed": false,
+        "train_covered_y_mean": 20.933333333333334,
+        "train_covered_y_std": 0.13743685418733073,
+        "train_covered_y_min": 20.8,
+        "train_covered_y_max": 21.2
+      },
+      "coverage": {
+        "p": 5,
+        "n": 1,
+        "P": 5,
+        "N": 247
+      }
+    },
+    {
+      "uuid": "ce021bec-f0c7-4452-9516-470291952a15",
+      "string": "IF Density <= 1.05 AND Density >= 1.05 AND Thigh >= 56.50 AND Neck <= 40.45 AND Age >= 25.50 THEN class = {21.11} [20.77, 21.45]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          8,
+          4,
+          1
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.05205,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.04895,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              8
+            ],
+            "negated": false,
+            "left": 56.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              4
+            ],
+            "negated": false,
+            "left": null,
+            "right": 40.45,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": 25.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 20.769426514686163,
+        "value": 21.109090909090913,
+        "high": 21.448755303495663,
+        "fixed": false,
+        "train_covered_y_mean": 21.109090909090913,
+        "train_covered_y_std": 0.3396643944047514,
+        "train_covered_y_min": 20.5,
+        "train_covered_y_max": 21.8
+      },
+      "coverage": {
+        "p": 9,
+        "n": 2,
+        "P": 10,
+        "N": 242
+      }
+    },
+    {
+      "uuid": "66dc79f6-4809-418d-a2a8-66bcb48dc772",
+      "string": "IF Density >= 1.06 AND Density <= 1.07 AND Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 THEN class = {15.11} [13.11, 17.11]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0593499999999998,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.06895,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.05965,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.06845,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0679,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 13.106754095720106,
+        "value": 15.108333333333336,
+        "high": 17.109912570946566,
+        "fixed": false,
+        "train_covered_y_mean": 15.108333333333336,
+        "train_covered_y_std": 2.00157923761323,
+        "train_covered_y_min": 5.6,
+        "train_covered_y_max": 18.5
+      },
+      "coverage": {
+        "p": 34,
+        "n": 2,
+        "P": 35,
+        "N": 217
+      }
+    },
+    {
+      "uuid": "168f7054-1322-45b4-b69f-3ef206988320",
+      "string": "IF Density <= 1.05 AND Density >= 1.05 AND Biceps >= 29.35 AND Age >= 25.50 AND Age >= 28.50 THEN class = {21.13} [20.69, 21.57]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1,
+          11
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0523,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.04895,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              11
+            ],
+            "negated": false,
+            "left": 29.35,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": 25.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": 28.5,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 20.68626281160252,
+        "value": 21.12666666666667,
+        "high": 21.567070521730816,
+        "fixed": false,
+        "train_covered_y_mean": 21.12666666666667,
+        "train_covered_y_std": 0.4404038550641473,
+        "train_covered_y_min": 20.4,
+        "train_covered_y_max": 21.8
+      },
+      "coverage": {
+        "p": 10,
+        "n": 5,
+        "P": 12,
+        "N": 240
+      }
+    },
+    {
+      "uuid": "6853bdf3-35bc-4311-9486-94a6413d0bc3",
+      "string": "IF Density <= 1.06 AND Density >= 1.06 THEN class = {18.46} [18.30, 18.62]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0572,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.05605,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 18.29751923190721,
+        "value": 18.46,
+        "high": 18.622480768092792,
+        "fixed": false,
+        "train_covered_y_mean": 18.46,
+        "train_covered_y_std": 0.16248076809279224,
+        "train_covered_y_min": 18.3,
+        "train_covered_y_max": 18.7
+      },
+      "coverage": {
+        "p": 4,
+        "n": 1,
+        "P": 5,
+        "N": 247
+      }
+    },
+    {
+      "uuid": "2e81e1f8-0af8-4180-8307-ca9bb8241b89",
+      "string": "IF Density <= 1.06 AND Density >= 1.05 AND Hip >= 99.95 AND Density >= 1.05 AND Density <= 1.06 THEN class = {19.10} [18.95, 19.25]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          7
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0572,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0527,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              7
+            ],
+            "negated": false,
+            "left": 99.95,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0548,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.05605,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 18.945080666151885,
+        "value": 19.1,
+        "high": 19.254919333848118,
+        "fixed": false,
+        "train_covered_y_mean": 19.1,
+        "train_covered_y_std": 0.15491933384811615,
+        "train_covered_y_min": 18.8,
+        "train_covered_y_max": 19.2
+      },
+      "coverage": {
+        "p": 4,
+        "n": 1,
+        "P": 4,
+        "N": 248
+      }
+    },
+    {
+      "uuid": "757c317a-1372-4961-baa5-9d8d61e03034",
+      "string": "IF Density <= 1.06 AND Density >= 1.05 AND Density <= 1.06 AND Density >= 1.05 AND Density <= 1.06 THEN class = {19.48} [19.20, 19.76]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0572,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0527,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.05605,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.05295,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.05505,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 19.195809387989918,
+        "value": 19.477777777777778,
+        "high": 19.759746167565638,
+        "fixed": false,
+        "train_covered_y_mean": 19.477777777777778,
+        "train_covered_y_std": 0.28196838978785915,
+        "train_covered_y_min": 19.2,
+        "train_covered_y_max": 20.1
+      },
+      "coverage": {
+        "p": 8,
+        "n": 1,
+        "P": 8,
+        "N": 244
+      }
+    },
+    {
+      "uuid": "ef1f442d-4360-49fd-b299-66b77cc02fc7",
+      "string": "IF Density <= 1.06 AND Density >= 1.05 AND Age <= 60.00 AND Density >= 1.05 AND Density <= 1.06 THEN class = {19.85} [19.16, 20.53]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0572,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0511,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 60.0,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.05125,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.057,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 19.162660562545692,
+        "value": 19.847826086956523,
+        "high": 20.532991611367354,
+        "fixed": false,
+        "train_covered_y_mean": 19.847826086956523,
+        "train_covered_y_std": 0.6851655244108292,
+        "train_covered_y_min": 18.3,
+        "train_covered_y_max": 20.8
+      },
+      "coverage": {
+        "p": 18,
+        "n": 5,
+        "P": 18,
+        "N": 234
+      }
+    },
+    {
+      "uuid": "5c01f3cf-f4ce-41f4-9a52-3e32129460d9",
+      "string": "IF Density <= 1.06 AND Density >= 1.06 AND Density >= 1.06 AND Density >= 1.06 AND Density >= 1.06 THEN class = {18.04} [17.90, 18.18]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0582500000000001,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0562,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.05655,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.057,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0572,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 17.90435340033734,
+        "value": 18.04,
+        "high": 18.17564659966266,
+        "fixed": false,
+        "train_covered_y_mean": 18.04,
+        "train_covered_y_std": 0.1356465996626616,
+        "train_covered_y_min": 17.8,
+        "train_covered_y_max": 18.2
+      },
+      "coverage": {
+        "p": 3,
+        "n": 2,
+        "P": 3,
+        "N": 249
+      }
+    },
+    {
+      "uuid": "dec15d49-6e3d-4b84-ae58-b5866af371da",
+      "string": "IF Density >= 1.06 AND Density <= 1.07 AND Density <= 1.07 AND Density >= 1.06 AND Age <= 70.00 THEN class = {15.70} [13.62, 17.79]",
+      "premise": {
+        "type": "compound",
+        "attributes": [
+          0,
+          1
+        ],
+        "negated": false,
+        "operator": "CONJUNCTION",
+        "subconditions": [
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.05835,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.06705,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": null,
+            "right": 1.0665499999999999,
+            "left_closed": false,
+            "right_closed": true
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              0
+            ],
+            "negated": false,
+            "left": 1.0585499999999999,
+            "right": null,
+            "left_closed": true,
+            "right_closed": false
+          },
+          {
+            "type": "elementary_numerical",
+            "attributes": [
+              1
+            ],
+            "negated": false,
+            "left": null,
+            "right": 70.0,
+            "left_closed": false,
+            "right_closed": true
+          }
+        ]
+      },
+      "conclusion": {
+        "low": 13.617408279566021,
+        "value": 15.703225806451611,
+        "high": 17.7890433333372,
+        "fixed": false,
+        "train_covered_y_mean": 15.703225806451611,
+        "train_covered_y_std": 2.08581752688559,
+        "train_covered_y_min": 5.6,
+        "train_covered_y_max": 17.5
+      },
+      "coverage": {
+        "p": 30,
+        "n": 1,
+        "P": 40,
+        "N": 212
+      }
+    }
+  ]
+}

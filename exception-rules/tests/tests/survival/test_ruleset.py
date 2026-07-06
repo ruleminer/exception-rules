@@ -11,39 +11,67 @@ from tests.loaders import load_ruleset, load_dataset
 
 from decision_rules.problem import ProblemTypes
 
-from exception_rules.survival import MyRuleSurvival
+from exception_rules.survival.algorithm import MyRuleSurvival
 
 import warnings
 warnings.filterwarnings('ignore')
 
-# class TestClassificationPredictionIndicators(unittest.TestCase):
+
+class TestSurvivalPredictionIndicators(unittest.TestCase):
 
 
-#     def test_bhs(self):
+    def test_gbsg2(self):
 
-#         df = load_dataset("survival/01_BHS.arff")
-#         # code to change encoding of the file
-#         tmp_df = df.select_dtypes([object])
-#         tmp_df = tmp_df.stack().str.decode("utf-8").unstack()
-#         for col in tmp_df:
-#             df[col] = tmp_df[col].replace({'?': None})
+        df = load_dataset("survival/18_GBSG2.arff")
+        # code to change encoding of the file
+        tmp_df = df.select_dtypes([object])
+        tmp_df = tmp_df.stack().str.decode("utf-8").unstack()
+        for col in tmp_df:
+            df[col] = tmp_df[col].replace({'?': None})
+
+        if "group" in df.columns:
+            df = df.drop(columns=["group"])
             
-#         X = df.drop(columns=["survival_status"])
-#         y = df["survival_status"].astype(int).astype(str)
+        X = df.drop(columns=["survival_status"])
+        y = df["survival_status"].astype(int).astype(str)
 
 
-#         generator = MyRuleSurvival(mincov=5, survival_time_attr="survival_time", max_growing = 5)
+        generator = MyRuleSurvival(mincov=5, survival_time_attr="survival_time", max_growing=5, find_exceptions=True)
 
 
-#         model = generator.fit(X , y)
-#         ruleset = model.ruleset
+        model = generator.fit(X , y)
+        ruleset = model.ruleset
 
-#         ruleset_gt = load_ruleset("survival/bhs_ruleset.json", ProblemTypes.SURVIVAL)
+        ruleset_gt = load_ruleset("survival/gbsg2_ruleset.json", ProblemTypes.SURVIVAL)
 
-#         self.assertEqual(
-#             ruleset, ruleset_gt,
-#             'Rulesets should be the same'
-#         )
+        self.assertEqual(
+            ruleset, ruleset_gt,
+            'Rulesets should be the same'
+        )
 
 
-    
+    def test_bhs(self):
+
+        df = load_dataset("survival/01_BHS.arff")
+        # code to change encoding of the file
+        tmp_df = df.select_dtypes([object])
+        tmp_df = tmp_df.stack().str.decode("utf-8").unstack()
+        for col in tmp_df:
+            df[col] = tmp_df[col].replace({'?': None})
+            
+        X = df.drop(columns=["survival_status"])
+        y = df["survival_status"].astype(int).astype(str)
+
+
+        generator = MyRuleSurvival(mincov=5, survival_time_attr="survival_time", max_growing=5, find_exceptions=True)
+
+
+        model = generator.fit(X , y)
+        ruleset = model.ruleset
+
+        ruleset_gt = load_ruleset("survival/bhs_ruleset.json", ProblemTypes.SURVIVAL)
+
+        self.assertEqual(
+            ruleset, ruleset_gt,
+            'Rulesets should be the same'
+        )
