@@ -11,35 +11,36 @@ from tests.loaders import load_ruleset, load_dataset
 
 from decision_rules.problem import ProblemTypes
 
-from exception_rules.classification.algorithm import MyRuleClassifier
+from exception_rules.regression.algorithm import MyRuleRegressor
 
 import warnings
 warnings.filterwarnings('ignore')
 
 
-class TestClassificationPredictionIndicators(unittest.TestCase):
+class TestRegressionPredictionIndicators(unittest.TestCase):
 
 
-    def test_iris(self):
+    def test_concrete(self):
 
-        df = load_dataset("classification/iris.arff")
+        df = load_dataset("regression/concrete.arff")
         # code to change encoding of the file
         tmp_df = df.select_dtypes([object])
-        tmp_df = tmp_df.stack().str.decode("utf-8").unstack()
-        for col in tmp_df:
-            df[col] = tmp_df[col].replace({'?': None})
+        if tmp_df.shape[1] > 0:
+            tmp_df = tmp_df.stack().str.decode("utf-8").unstack()
+            for col in tmp_df:
+                df[col] = tmp_df[col].replace({'?': None})
             
         X = df.drop(columns=["class"])
         y = df["class"]
 
 
-        generator = MyRuleClassifier(mincov=5, induction_measuer="c2", find_exceptions=True)
+        generator = MyRuleRegressor(mincov=5, induction_measuer="c2", prune=False, find_exceptions=True, max_growing=5)
 
 
         model = generator.fit(X , y)
         ruleset = model.ruleset
 
-        ruleset_gt = load_ruleset("classification/iris_ruleset.json", ProblemTypes.CLASSIFICATION)
+        ruleset_gt = load_ruleset("regression/concrete_ruleset.json", ProblemTypes.REGRESSION)
 
         self.assertEqual(
             ruleset, ruleset_gt,
@@ -47,30 +48,29 @@ class TestClassificationPredictionIndicators(unittest.TestCase):
         )
 
 
-    def test_mushroom(self):
+    def test_bodyfat(self):
 
-        df = load_dataset("classification/mushroom.arff")
+        df = load_dataset("regression/bodyfat.arff")
         # code to change encoding of the file
         tmp_df = df.select_dtypes([object])
-        tmp_df = tmp_df.stack().str.decode("utf-8").unstack()
-        for col in tmp_df:
-            df[col] = tmp_df[col].replace({'?': None})
+        if tmp_df.shape[1] > 0:
+            tmp_df = tmp_df.stack().str.decode("utf-8").unstack()
+            for col in tmp_df:
+                df[col] = tmp_df[col].replace({'?': None})
             
         X = df.drop(columns=["class"])
         y = df["class"]
 
 
-        generator = MyRuleClassifier(mincov=5, induction_measuer="c2", find_exceptions=True)
+        generator = MyRuleRegressor(mincov=5, induction_measuer="c2", prune=False, find_exceptions=True, max_growing=5)
 
 
         model = generator.fit(X , y)
         ruleset = model.ruleset
 
-        ruleset_gt = load_ruleset("classification/mushroom_ruleset.json", ProblemTypes.CLASSIFICATION)
+        ruleset_gt = load_ruleset("regression/bodyfat_ruleset.json", ProblemTypes.REGRESSION)
 
         self.assertEqual(
             ruleset, ruleset_gt,
             'Rulesets should be the same'
         )
-
-
