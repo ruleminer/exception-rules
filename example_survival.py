@@ -3,12 +3,8 @@ from scipy.io import arff
 import warnings
 warnings.filterwarnings('ignore')
 
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'exception-rules')))
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'decision-rules')))
 
-df = pd.DataFrame(arff.loadarff(f"./data/survival/train_test/18_GBSG2.arff")[0])
+df = pd.DataFrame(arff.loadarff(f"./experiments/data/survival/train_test/18_GBSG2.arff")[0])
 # code to change encoding of the file
 tmp_df = df.select_dtypes([object])
 tmp_df = tmp_df.stack().str.decode("utf-8").unstack()

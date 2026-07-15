@@ -3,12 +3,7 @@ from scipy.io import arff
 import warnings
 warnings.filterwarnings('ignore')
 
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'exception-rules')))
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'decision-rules')))
-
-df = pd.DataFrame(arff.loadarff(f"./data/regression/train_test/concrete.arff")[0])
+df = pd.DataFrame(arff.loadarff(f"./experiments/data/regression/train_test/concrete.arff")[0])
 # code to change encoding of the file
 tmp_df = df.select_dtypes([object])
 if tmp_df.shape[1] > 0:

@@ -5,19 +5,15 @@ Classification, Regression, and Survival Data".
 
 ## Repository Structure
 
-- `data/` — Datasets used in the experiments.
-- `decision-rules/` — Library for representing rules.
-- `exception-rules/` — Main package containing algorithm implementations:
+- `exception_rules/` — Main package containing algorithm implementations:
   - `classification/` — Algorithms for classification tasks,
   - `regression/` — Algorithms for regression tasks,
   - `survival/` — Algorithms for survival analysis,
+  - `decision-rules/` — Library for representing rules.
   - `measures.py` — Evaluation metrics for models,
-  - `tests/` — Unit tests.
-- `experiments/` — Scripts for reproducing experiments:
-  - `plots/` — Visualizations of results,
-  - `results/` — Saved experimental results,
-  - `rules_from_articles/` — Rules from other articles shown in the article,
-  - `example_classification.py`, `example_regression.py`, `example_survival.py` — Example usage scripts.
+- `tests/` — Unit tests.
+- `experiments/` — Scripts for research experiments using package
+- `example_classification.py`, `example_regression.py`, `example_survival.py` — Example usage scripts.
 - `setup.py` — Installation script for the package.
 - `README.md` — Repository description.
 - `VERSION.txt` — Project version information.
@@ -43,8 +39,7 @@ Classification, Regression, and Survival Data".
    python example_survival.py
    ```
 
-3. To replicate the experiments presented in the article, use the scripts located in the `experiments/` folder.
 
-## Additional Information
-
-The code and datasets contained in this repository are intended solely for research and academic purposes.
+## Documentation
+ 
+Full documentation is available [here](https://ruleminer.github.io/exception-rules/)

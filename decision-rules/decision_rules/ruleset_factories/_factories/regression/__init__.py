@@ -1,2 +1,0 @@
-from decision_rules.ruleset_factories._factories.regression.rulekit_factory import RuleKitRuleSetFactory
-from decision_rules.ruleset_factories._factories.regression.text_factory import TextRuleSetFactory

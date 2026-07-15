@@ -12,7 +12,7 @@ import psutil
 from scipy.io import arff
 from sklearn.model_selection import train_test_split
 
-from decision_rules.measures import *
+from exception_rules.decision_rules.measures import *
 
 
 import warnings
@@ -25,7 +25,7 @@ import logging
 
 from exception_rules.measures import *
 import matplotlib.pyplot as plt
-from decision_rules.survival.kaplan_meier import KaplanMeierEstimator
+from exception_rules.decision_rules.survival.kaplan_meier import KaplanMeierEstimator
 
 class Experiment:
 

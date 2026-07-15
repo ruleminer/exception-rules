@@ -8,10 +8,8 @@ from sklearn.model_selection import train_test_split
 
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'exception-rules')))
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'decision-rules')))
 
-df = pd.DataFrame(arff.loadarff(f"./data/classification/train_test/mushroom.arff")[0])
+df = pd.DataFrame(arff.loadarff(f"./experiments/data/classification/train_test/mushroom.arff")[0])
 # code to change encoding of the file
 tmp_df = df.select_dtypes([object])
 tmp_df = tmp_df.stack().str.decode("utf-8").unstack()

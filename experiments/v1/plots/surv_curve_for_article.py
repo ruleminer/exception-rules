@@ -10,7 +10,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'decisio
 
 import matplotlib.pyplot as plt
 import numpy as np
-from decision_rules.survival.kaplan_meier import KaplanMeierEstimator
+from exception_rules.decision_rules.survival.kaplan_meier import KaplanMeierEstimator
 
 def _draw_estymator(rule, X, y):    
         
