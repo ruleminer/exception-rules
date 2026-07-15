@@ -18,9 +18,11 @@ warnings.filterwarnings('ignore')
 
 
 class TestRegressionPredictionIndicators(unittest.TestCase):
+    """Compare induced regression rules with stored reference rule sets."""
 
 
     def test_concrete(self):
+        """Induce the expected rules for concrete compressive strength."""
 
         df = load_dataset("regression/concrete.arff")
         # code to change encoding of the file
@@ -49,6 +51,7 @@ class TestRegressionPredictionIndicators(unittest.TestCase):
 
 
     def test_bodyfat(self):
+        """Induce the expected rules for the body-fat dataset."""
 
         df = load_dataset("regression/bodyfat.arff")
         # code to change encoding of the file

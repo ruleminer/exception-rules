@@ -1,3 +1,11 @@
+"""Separate-and-conquer rule induction for censored survival data.
+
+Each induced rule concludes with a Kaplan-Meier estimator fitted to the
+examples covered by its premise.  Candidate conditions are evaluated using a
+log-rank comparison between covered and uncovered examples.  Optional
+reference rules search for intersections with distinct survival curves.
+"""
+
 from decision_rules.core.coverage import Coverage as CoverageClass
 from decision_rules.core.ruleset import AbstractRuleSet
 from decision_rules.core.rule import AbstractRule
@@ -17,8 +25,41 @@ import logging
 
 
 class MyRuleSurvival():
+    """Induce survival rules and optional exception-rule triples.
+
+    Parameters
+    ----------
+    mincov : int
+        Minimum number of newly covered examples required for a condition.
+    survival_time_attr : str
+        Name of the column in ``X`` containing event or censoring times.  This
+        column is excluded from generated premise conditions.
+    cuts_only_between_classes : bool, default=True
+        Compatibility option retained from classification induction.  Numeric
+        survival candidates currently use all adjacent distinct midpoints.
+    max_growing : int or None, default=None
+        Maximum number of conditions per rule; ``None`` imposes no limit.
+    prune : bool, default=True
+        Whether to remove conditions that do not improve log-rank quality.
+    find_exceptions : bool, default=False
+        Whether to search for statistically distinct exception intersections.
+    delete_cr_n : bool, default=False
+        Stored compatibility option used by downstream experimental code.
+    logger : logging.Logger or None, default=None
+        Optional destination for detailed induction diagnostics.
+
+    Attributes
+    ----------
+    ruleset : SurvivalRuleSet
+        Fitted rule set, available after :meth:`fit`.
+    survival_time : numpy.ndarray
+        Training times extracted from ``survival_time_attr``.
+    survival_status : numpy.ndarray
+        Event indicators supplied as ``y``.
+    """
 
     def __init__(self, mincov: int, survival_time_attr: str, cuts_only_between_classes: bool = True, max_growing: int = None, prune: bool = True, find_exceptions:bool = False, delete_cr_n = False, logger = None) -> None:
+        """Initialize the survival learner and induction configuration."""
         self.cuts_only_between_classes = cuts_only_between_classes
         self.mincov = mincov
         self.survival_time_attr = survival_time_attr
@@ -40,6 +81,29 @@ class MyRuleSurvival():
         
 
     def fit(self, X: pd.DataFrame, y: pd.Series, attributes_list: list[list[str]] = None) -> AbstractRuleSet:
+            """Induce rules from survival times and event indicators.
+
+            Parameters
+            ----------
+            X : pandas.DataFrame
+                Feature table containing ``survival_time_attr``. Object-typed
+                predictors are nominal; other predictors are numeric.
+            y : pandas.Series
+                Event-status indicators aligned with ``X``. Coding must follow
+                the conventions of ``KaplanMeierEstimator``.
+            attributes_list : list of list of str or None, default=None
+                Optional attribute grouping metadata retained on the model.
+
+            Returns
+            -------
+            MyRuleSurvival
+                Fitted estimator; rules are available as ``ruleset``.
+
+            Notes
+            -----
+            The time column remains in the rule matrix but is excluded from
+            attributes eligible for premise conditions.
+            """
 
             self.label_name = y.name 
 
@@ -109,6 +173,7 @@ class MyRuleSurvival():
             return self
 
     def _update_estimator(self, rule: SurvivalRule) -> SurvivalRule:
+        """Fit a Kaplan-Meier conclusion to examples covered by ``rule``."""
         
         covered_examples = rule.premise._calculate_covered_mask(self.X_numpy)
         km = KaplanMeierEstimator()
@@ -120,6 +185,11 @@ class MyRuleSurvival():
 
 
     def _grow(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered:list[int]) -> AbstractRule:
+        """Greedily append conditions to a survival rule.
+
+        The final premise is truncated after its highest-quality condition.
+        Returns true when at least one condition is induced.
+        """
         carry_on = True
         rule_qualities = []
         if self.if_logging:
@@ -162,6 +232,7 @@ class MyRuleSurvival():
             return False
         
     def _search_exceptions(self, rule, X, y):
+        """Search outside a commonsense rule for a compatible reference rule."""
 
 
         cr_covered = np.where(rule.positive_covered_mask(X, y) == 1)[0]
@@ -193,6 +264,11 @@ class MyRuleSurvival():
             return False
         
     def _check_exception_candidate(self, X, y, comonsense_rules, reference_rule) -> bool:
+            """Validate and attach a survival exception rule.
+
+            The intersection is accepted when its Kaplan-Meier estimator
+            differs from both source estimators at the 0.05 level.
+            """
             
             if self.if_logging:
                 self.logger.info("***CHECKING EXCEPTION***")
@@ -242,6 +318,7 @@ class MyRuleSurvival():
 
         
     def _grow_reference_rule(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray,uncovered: list[int], cr_covered) -> AbstractRule:
+        """Grow and quality-truncate a survival reference rule."""
         carry_on = True
         rule_qualities = []
         rule_covered_negatives = []
@@ -290,6 +367,16 @@ class MyRuleSurvival():
             return False
         
     def _induce_reference_rule(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, best_score, uncovered, cr_covered) -> AbstractCondition:
+            """Select the next condition for a survival reference rule.
+
+            A candidate must keep the source curves statistically similar while
+            their intersection differs from each curve.
+
+            Returns
+            -------
+            tuple
+                Condition, quality, coverage, and updated p-value score.
+            """
             
             quality_best = float("-inf")
             coverage_best = CoverageClass(0,0,0,0)
@@ -353,6 +440,11 @@ class MyRuleSurvival():
     
             
     def _induce_condition(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered:list[int]) -> AbstractCondition:
+            """Select the best log-rank condition satisfying coverage.
+
+            Returns ``(condition, quality, coverage)`` and favors greater
+            covered population when qualities tie.
+            """
             quality_best = float("-inf")
             coverage_best = CoverageClass(0,0,0,0)
             condition_best = None
@@ -380,6 +472,7 @@ class MyRuleSurvival():
             
     
     def _prune(self, rule: AbstractRule):
+        """Remove conditions while doing so preserves or improves quality."""
         
         if len(rule.premise.subconditions) == 1:
             return
@@ -409,14 +502,17 @@ class MyRuleSurvival():
     
         
     def _check_candidate(self, new_covered_examples: int, uncovered) -> bool:
+        """Return whether a candidate meets the minimum-coverage constraint."""
         return  (len(new_covered_examples) >= self.mincov) or (len(uncovered) <= self.mincov)
     
     def _get_covered_examples(self, X: np.ndarray, y: np.ndarray, rule: AbstractRule) -> List[np.ndarray]:
+        """Return feature and status subsets covered by ``rule``'s premise."""
         covered_examples_mask = rule.premise.covered_mask(X)
         return [X[covered_examples_mask], y[covered_examples_mask]]
     
     
     def _rule_factory(self, columns_names, label_name) -> SurvivalRule:
+        """Create an empty survival rule with an uninitialized estimator."""
         return SurvivalRule(
             premise=CompoundCondition(subconditions=[],
                                     logic_operator=LogicOperators.CONJUNCTION,),
@@ -428,6 +524,11 @@ class MyRuleSurvival():
             survival_time_attr=self.survival_time_attr,)
     
     def _calculate_quality(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray) -> float:
+        """Compare covered and uncovered survival curves with a log-rank test.
+
+        Returns a pair containing log-rank quality and a coverage object whose
+        positive counts represent covered examples.
+        """
         covered_examples_indexes = np.where(rule.premise._calculate_covered_mask(X))[0]
         uncovered_examples_indexes = np.where(rule.premise._calculate_uncovered_mask(X))[0]
         quality = KaplanMeierEstimator.log_rank(self.survival_time, self.survival_status, covered_examples_indexes, uncovered_examples_indexes)
@@ -436,11 +537,17 @@ class MyRuleSurvival():
 
     
     def _ruleset_factory(self, rules: list[SurvivalRule]) -> SurvivalRuleSet:
+        """Wrap induced rules in a survival rule-set object."""
         return SurvivalRuleSet(rules=rules, survival_time_attr=self.survival_time_attr)
 
     
 
     def _get_possible_conditions(self, examples_covered_by_rule: np.ndarray, y: np.ndarray) -> list:
+        """Generate nominal equality and numeric midpoint conditions.
+
+        Missing values are ignored.  The survival-time attribute is absent from
+        the predictor index lists prepared by :meth:`fit`.
+        """
         conditions = []
 
         for indx in self.nominal_attributes_indexes:
@@ -471,12 +578,13 @@ class MyRuleSurvival():
 
 
     def _get_nominal_indexes(self, dataframe: pd.DataFrame) -> list:
+        """Return positional indices of object-typed feature columns."""
         dtype_mask = (dataframe.dtypes == 'object')
         nominal_indexes = np.where(dtype_mask)[0]
         return nominal_indexes.tolist()
     
     def _get_numerical_indexes(self, dataframe: pd.DataFrame) -> list:
+        """Return positional indices of non-object feature columns."""
         dtype_mask = np.logical_not(dataframe.dtypes == 'object')
         numerical_indexes = np.where(dtype_mask)[0]
         return numerical_indexes.tolist()
- 

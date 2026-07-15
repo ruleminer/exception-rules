@@ -18,9 +18,11 @@ warnings.filterwarnings('ignore')
 
 
 class TestClassificationPredictionIndicators(unittest.TestCase):
+    """Compare induced classification rules with stored reference rule sets."""
 
 
     def test_iris(self):
+        """Induce the expected exception-aware rules for the Iris dataset."""
 
         df = load_dataset("classification/iris.arff")
         # code to change encoding of the file
@@ -48,6 +50,7 @@ class TestClassificationPredictionIndicators(unittest.TestCase):
 
 
     def test_mushroom(self):
+        """Induce the expected rules for the nominal Mushroom dataset."""
 
         df = load_dataset("classification/mushroom.arff")
         # code to change encoding of the file

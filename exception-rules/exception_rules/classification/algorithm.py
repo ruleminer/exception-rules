@@ -1,3 +1,11 @@
+"""Separate-and-conquer rule induction for classification.
+
+The learner builds one set of commonsense rules per class.  Conditions are
+added greedily according to a quality measure from :mod:`decision_rules` and
+may be pruned afterwards.  Optionally, the learner searches for reference
+rules whose intersection with a commonsense rule identifies an exception.
+"""
+
 from abc import ABC
 from abc import abstractmethod
 from collections import defaultdict
@@ -30,8 +38,51 @@ import logging
 
 
 class MyRuleClassifier():
+    """Induce classification rules and optional exception-rule triples.
+
+    Parameters
+    ----------
+    mincov : int or float
+        Minimum number of newly covered positive examples.  Values below one
+        are interpreted as a per-class fraction and converted to at least one
+        example during fitting.
+    induction_measuer : str
+        Name of a quality function imported from ``decision_rules.measures``.
+        The spelling is retained for API compatibility.
+    cuts_only_between_classes : bool, default=True
+        Restrict numeric split points to adjacent sorted values whose class
+        labels differ.  If false, consider all adjacent distinct values.
+    max_growing : int or None, default=None
+        Maximum number of conditions in a rule; ``None`` imposes no limit.
+    prune : bool, default=True
+        Whether to remove conditions that do not improve rule quality.
+    find_exceptions : bool, default=False
+        Whether to search for reference and exception rules while growing.
+    threshold : float, default=0.8
+        Minimum precision used when considering exception candidates.
+    delete_cr_n : bool, default=False
+        Stored compatibility option controlling commonsense-rule negatives in
+        downstream experimental code.
+    logger : logging.Logger or None, default=None
+        Optional logger receiving detailed induction diagnostics.
+
+    Attributes
+    ----------
+    ruleset : ClassificationRuleSet
+        Fitted rule set, available after :meth:`fit`.
+    decision_attribute_distribution : dict
+        Number of training examples belonging to each class.
+    conditions_coverage_cache : dict
+        Cached Boolean coverage masks keyed by condition hashes.
+
+    Notes
+    -----
+    ``fit`` follows the estimator convention and returns ``self`` rather than
+    returning the rule set directly.
+    """
 
     def __init__(self, mincov: int, induction_measuer: str, cuts_only_between_classes: bool = True, max_growing: int = None, prune: bool = True, find_exceptions:bool = False, threshold:float = 0.8, delete_cr_n:bool = False, logger = None) -> None:
+        """Initialize the classifier and its induction configuration."""
         self.cuts_only_between_classes = cuts_only_between_classes
         self.mincov = mincov
         self.measure_function = globals().get(induction_measuer)
@@ -57,6 +108,7 @@ class MyRuleClassifier():
 
         
     def _rule_factory(self, columns_names, label_name, label_value) -> ClassificationRule:
+        """Create an empty conjunctive rule concluding ``label_value``."""
         return ClassificationRule(
             column_names=columns_names,
             premise=CompoundCondition(subconditions=[],
@@ -67,13 +119,39 @@ class MyRuleClassifier():
             ))
     
     def _ruleset_factory(self, rules: list[ClassificationRule]) -> ClassificationRuleSet:
+        """Wrap induced classification rules in a rule-set object."""
         return ClassificationRuleSet(rules=rules)
     
     def _prepare_additional_informations(self) -> None:
+        """Cache the training-set class distribution used by coverage scores."""
         unique_values, counts = np.unique(self.y_numpy, return_counts=True)
         self.decision_attribute_distribution = dict(zip(unique_values, counts))
 
     def fit(self, X: pd.DataFrame, y: pd.Series, attributes_list: list[list[str]] = None) -> AbstractRuleSet:
+        """Induce a classification rule set from labeled examples.
+
+        Parameters
+        ----------
+        X : pandas.DataFrame
+            Feature table.  Object-typed columns are treated as nominal; all
+            other columns are treated as numeric.
+        y : pandas.Series
+            Class labels.  Its ``name`` becomes the conclusion column name.
+        attributes_list : list of list of str or None, default=None
+            Optional attribute grouping metadata retained on the fitted model
+            for compatibility with experiment pipelines.
+
+        Returns
+        -------
+        MyRuleClassifier
+            The fitted estimator.  Induced rules are stored in ``ruleset``.
+
+        Notes
+        -----
+        Rules are induced separately for each class until no new positive
+        examples can be covered.  Coverage statistics and voting weights are
+        finalized by ``ClassificationRuleSet.update``.
+        """
 
         self.conditions_coverage_cache: dict[AbstractCondition, np.ndarray] = {
         }
@@ -145,6 +223,12 @@ class MyRuleClassifier():
         return self
     
     def _evaluate_exceptions(self, ruleset, X, y):
+        """Assign exception types relative to class-average rule metrics.
+
+        The method calculates average precision, coverage, and domain precision
+        for each class, then annotates every exception rule via
+        :meth:`_evaluate_exception`.
+        """
         
         self.labels = y.unique()
         class_rule_metrics = {label: {'precision': [], 'coverage': [], 'dprecision': []} for label in self.labels}
@@ -187,6 +271,12 @@ class MyRuleClassifier():
 
 
     def _evaluate_exception(self, cr_rule, er_rule, rr_rule) -> None:    
+            """Classify one exception as type ``1``, ``2``, ``AR``, or ``None``.
+
+            Classification compares exception and reference rule metrics with
+            the averages of the classes predicted by those rules.  The result
+            is stored in ``er_rule.rule_type``.
+            """
             
 
         # Sprawdzamy warunki na Eer
@@ -247,6 +337,12 @@ class MyRuleClassifier():
                 self.logger.info(f"******")
 
     def _grow(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int], label: str) -> AbstractRule:
+        """Greedily append conditions and optionally search for exceptions.
+
+        Returns ``(rule_found, exception_found)``.  When a rule is found, its
+        premise is truncated at the condition with the greatest observed
+        quality.
+        """
         carry_on = True
         rule_qualities = []
         exception_found = False
@@ -291,6 +387,7 @@ class MyRuleClassifier():
             return False, exception_found
 
     def _prune(self, rule: AbstractRule):
+        """Remove conditions while doing so preserves or improves quality."""
         
         if len(rule.premise.subconditions) == 1:
             return
@@ -320,6 +417,17 @@ class MyRuleClassifier():
 
 
     def _induce_condition(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int]) -> AbstractCondition:
+        """Select the highest-quality admissible condition for a rule.
+
+        Candidate coverage masks are cached.  Ties in quality favor the
+        condition covering more positive examples.
+
+        Returns
+        -------
+        tuple
+            ``(condition, quality, coverage)``; ``condition`` is ``None`` when
+            no candidate satisfies the minimum-coverage constraint.
+        """
         quality_best = float("-inf")
         coverage_best = Coverage(0,0,0,0)
         condition_best = None
@@ -378,6 +486,7 @@ class MyRuleClassifier():
         return condition_best, quality_best, coverage_best   
     
     def _check_candidate(self, new_covered_examples: int, y: str) -> bool:
+        """Return whether a candidate covers enough new examples of class ``y``."""
 
         if self.mincov < 1:
             mincov = self.mincov_for_classes[y]
@@ -387,6 +496,11 @@ class MyRuleClassifier():
     
 
     def _search_exceptions(self, rule, X, y, label):
+        """Search for a reference rule that forms an exception with ``rule``.
+
+        Returns a pair ``(continue_growing, exception_found)`` used by the
+        commonsense-rule growth loop.
+        """
 
         found_exception = False
         cr_covered_positives = np.where(rule.positive_covered_mask(X, y) == 1)[0]
@@ -415,9 +529,26 @@ class MyRuleClassifier():
             return True, found_exception
         
     def domain_precision(self,c: Coverage) -> float:  # pylint: disable=missing-function-docstring
+        """Return rule precision above the class prior probability.
+
+        Parameters
+        ----------
+        c : Coverage
+            Coverage counts for a classification rule.
+
+        Returns
+        -------
+        float
+            ``precision(c) - P / (P + N)``.
+        """
         return precision(c) - c.P / (c.P + c.N)
     
     def _grow_reference_rule(self, rr_rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int], negatives_to_cover: list[int], cr_rule: AbstractRule) -> AbstractRule:
+        """Grow a reference rule until it yields an exception candidate.
+
+        Candidate conditions balance reference-rule quality, newly covered
+        positives, and overlap with commonsense-rule negatives.
+        """
         carry_on = True
         rule_qualities = []
         rule_covered_negatives = []
@@ -467,6 +598,14 @@ class MyRuleClassifier():
         return found_exception
         
     def _induce_reference_rule(self, rr_rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int], negatives_to_cover: list[int], best_score, cr_rule: AbstractRule, found_exception_before: bool) -> tuple[bool, AbstractCondition, float, Coverage, int, float]:
+            """Choose the next reference-rule condition and update its score.
+
+            Returns
+            -------
+            tuple
+                Exception-found flag, selected condition, quality, coverage,
+                number of targeted negatives covered, and combined score.
+            """
             
             quality_best = float("-inf")
             coverage_best = Coverage(0,0,0,0)
@@ -567,6 +706,12 @@ class MyRuleClassifier():
     
     
     def _update_exception_candidate(self, X, y, comonsense_rule, reference_rule):
+        """Create and attach an exception rule from a validated rule pair.
+
+        The exception conclusion is the most frequent class among negatives
+        covered by both input rules.  Returns false if their intersection is
+        empty, otherwise updates the three rules and returns true.
+        """
 
         cr_covered_negatives = np.where(comonsense_rule.negative_covered_mask(X, y) == 1)[0]
         rr_covered_negatives = np.where(reference_rule.negative_covered_mask(X, y) == 1)[0]
@@ -596,6 +741,7 @@ class MyRuleClassifier():
         return True
                                     
     def _check_exception_candidate(self, X, y, cr_rule, rr_rule) -> bool:
+            """Test whether a rule intersection is precise enough."""
             
             if self.if_logging:
                 self.logger.info("***CHECKING EXCEPTION***")
@@ -637,6 +783,7 @@ class MyRuleClassifier():
 
     
     def _calculate_quality(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray) -> float:
+        """Return the configured quality and full coverage of ``rule``."""
         coverage = rule.calculate_coverage(X=X, y=y)
         quality = self.measure_function(coverage)
 
@@ -649,6 +796,25 @@ class MyRuleClassifier():
         covered_positives: np.ndarray,
         y = None
     ) -> tuple[Coverage, float]:
+        """Calculate quality from precomputed coverage information.
+
+        Parameters
+        ----------
+        rule : ClassificationRule
+            Rule whose conclusion defines the positive class.
+        rule_covered_count : int
+            Total number of examples covered by the candidate premise.
+        covered_positives : array-like
+            Indices of covered positive examples.
+        y : numpy.ndarray or None, default=None
+            Optional labels defining a local class distribution.  The global
+            training distribution is used when omitted.
+
+        Returns
+        -------
+        tuple
+            ``(quality, coverage)`` for the candidate.
+        """
         p = len(covered_positives)
         n = rule_covered_count - len(covered_positives)
 
@@ -667,6 +833,11 @@ class MyRuleClassifier():
 
 
     def _get_possible_conditions(self, examples_covered_by_rule: np.ndarray, y: np.ndarray) -> list:
+        """Generate nominal equality and numeric interval conditions.
+
+        Missing values are excluded.  Numeric conditions comprise both sides
+        of each eligible midpoint.
+        """
         conditions = []
 
         for indx in self.nominal_attributes_indexes:
@@ -697,11 +868,13 @@ class MyRuleClassifier():
 
 
     def _get_nominal_indexes(self, dataframe: pd.DataFrame) -> list:
+        """Return positional indices of object-typed feature columns."""
         dtype_mask = (dataframe.dtypes == 'object')
         nominal_indexes = np.where(dtype_mask)[0]
         return nominal_indexes.tolist()
     
     def _get_numerical_indexes(self, dataframe: pd.DataFrame) -> list:
+        """Return positional indices of non-object feature columns."""
         dtype_mask = np.logical_not(dataframe.dtypes == 'object')
         numerical_indexes = np.where(dtype_mask)[0]
         return numerical_indexes.tolist()
@@ -718,6 +891,29 @@ class MyRuleClassifier():
     
     """
     def predict(self, X, type):
+        """Predict class labels using one of four exception voting modes.
+
+        Parameters
+        ----------
+        X : pandas.DataFrame
+            Feature rows to classify.  Columns must match the fitted data.
+        type : {"0", "1", "2", "3"}
+            Voting strategy.  ``"0"`` ignores exceptions; ``"1"`` suppresses
+            a commonsense rule when its active exception covers the example;
+            ``"2"`` uses only exception votes whenever any are available; and
+            ``"3"`` combines commonsense and exception votes.  Values other
+            than ``"0"``, ``"1"``, and ``"2"`` select the last strategy.
+
+        Returns
+        -------
+        numpy.ndarray
+            One predicted label per input row.
+
+        Raises
+        ------
+        AttributeError
+            If called before :meth:`fit`.
+        """
         prediction = []
         for i in range(X.shape[0]):
             example = X.iloc[i:i+1].to_numpy()
@@ -727,6 +923,7 @@ class MyRuleClassifier():
 
 
     def _predict_for_example(self, ruleset, example, type):
+        """Aggregate weighted rule votes for a single two-dimensional row."""
         votes = defaultdict(int)
         votes_exception = defaultdict(int)
         rules = ruleset.rules

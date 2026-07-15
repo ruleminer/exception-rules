@@ -1,3 +1,12 @@
+"""Separate-and-conquer rule induction for numeric regression targets.
+
+Rules predict the mean target of their covered examples.  During induction,
+examples within one standard deviation of a candidate's local mean are treated
+as positives for coverage-based quality measures.  Optional reference rules
+identify intersections whose target distribution differs significantly from
+both source rules.
+"""
+
 from decision_rules.core.coverage import Coverage as CoverageClass
 from decision_rules.core.ruleset import AbstractRuleSet
 from decision_rules.core.rule import AbstractRule
@@ -18,8 +27,35 @@ import logging
 from scipy import stats
 
 class MyRuleRegressor():
+    """Induce regression rules and optional exception-rule triples.
+
+    Parameters
+    ----------
+    mincov : int
+        Minimum number of newly covered examples required for a condition.
+    induction_measuer : str
+        Name of a quality function imported from ``decision_rules.measures``.
+        The misspelling is retained for API compatibility.
+    max_growing : int or None, default=None
+        Maximum conditions per rule; ``None`` imposes no limit.
+    prune : bool, default=True
+        Compatibility option for pruning.  The current main regression fitting
+        loop does not invoke pruning.
+    find_exceptions : bool, default=False
+        Search for reference rules and attach exception rules during growth.
+    logger : logging.Logger or None, default=None
+        Optional destination for detailed induction diagnostics.
+
+    Attributes
+    ----------
+    ruleset : RegressionRuleSet
+        Fitted rule set, available after :meth:`fit`.
+    conditions_coverage_cache : dict
+        Cached Boolean masks keyed by condition hashes.
+    """
 
     def __init__(self, mincov: int, induction_measuer: str, max_growing: int = None, prune: bool = True, find_exceptions:bool = False, logger = None) -> None:
+        """Initialize the regressor and its induction configuration."""
 
         self.mincov = mincov
         self.measure_function = globals().get(induction_measuer)
@@ -42,6 +78,29 @@ class MyRuleRegressor():
         
 
     def fit(self, X: pd.DataFrame, y: pd.Series, attributes_list: list[list[str]] = None) -> AbstractRuleSet:
+            """Induce regression rules from a feature table and numeric target.
+
+            Parameters
+            ----------
+            X : pandas.DataFrame
+                Feature table. Object-typed columns are nominal and all other
+                columns are treated as numeric.
+            y : pandas.Series
+                Numeric target aligned row-for-row with ``X``. Its name becomes
+                the rule conclusion column name.
+            attributes_list : list of list of str or None, default=None
+                Optional attribute grouping metadata retained on the model.
+
+            Returns
+            -------
+            MyRuleRegressor
+                Fitted estimator; rules are available as ``ruleset``.
+
+            Notes
+            -----
+            Rules are grown and their covered examples removed until no
+            candidate covers new examples.
+            """
 
             self.label_name = y.name 
 
@@ -96,6 +155,11 @@ class MyRuleRegressor():
 
 
     def _grow(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered:list[int]) -> AbstractRule:
+        """Greedily append admissible conditions to a regression rule.
+
+        Returns true if at least one condition was induced.  Exception search,
+        when enabled, may terminate growth early.
+        """
         carry_on = True
         rule_qualities = []
         if self.if_logging:
@@ -140,6 +204,7 @@ class MyRuleRegressor():
 
             
     def _search_exceptions(self, rule, X, y):
+        """Grow a reference rule over examples outside ``rule``'s premise."""
 
 
         cr_covered = np.where(rule.premise._calculate_covered_mask(X) == 1)[0]
@@ -167,6 +232,11 @@ class MyRuleRegressor():
             return False
     
     def _update_exception_candidate(self, X, y, comonsense_rules, reference_rule) -> bool:
+            """Construct and attach the intersection exception rule.
+
+            The method mutates ``comonsense_rules`` by setting its reference and
+            exception attributes, then updates all three rules together.
+            """
            
             if self.if_logging:
                 self.logger.info("***CHECKING EXCEPTION***")
@@ -183,6 +253,12 @@ class MyRuleRegressor():
             triple_ruleset.update(self.X_pandas,self.y_pandas, measure=self.measure_function)
 
     def _check_exception_candidate(self, X, y, cr_covered, rr_covered, er_covered) -> bool:
+        """Validate distributional separation of a proposed rule triple.
+
+        A candidate is accepted when the non-overlapping commonsense and
+        reference groups are not significantly different, while their overlap
+        differs from each group at the 0.05 level.
+        """
         
         cr_filtered = cr_covered[~np.isin(cr_covered, er_covered)]
         rr_filtered = rr_covered[~np.isin(rr_covered, er_covered)]
@@ -204,6 +280,7 @@ class MyRuleRegressor():
        
 
     def _grow_reference_rule(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray,uncovered, cr_covered) -> AbstractRule:
+        """Greedily grow a reference rule maximizing exception overlap."""
         carry_on = True
         rule_qualities = []
         rule_covered_negatives = []
@@ -252,6 +329,16 @@ class MyRuleRegressor():
         
 
     def _induce_reference_rule(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, best_score, uncovered, cr_covered) -> AbstractCondition:
+            """Select the next condition for a regression reference rule.
+
+            Candidates must place the intersection mean outside one standard
+            deviation of both source means and satisfy pairwise rank tests.
+
+            Returns
+            -------
+            tuple
+                Condition, quality, coverage, and updated overlap score.
+            """
             
             quality_best = float("-inf")
             coverage_best = CoverageClass(0,0,0,0)
@@ -340,10 +427,16 @@ class MyRuleRegressor():
             return condition_best, quality_best, coverage_best, best_score  
     
     def calculate_p_value(self, y1, y2):
+        """Return the two-sided Mann-Whitney U-test p-value for two samples."""
         stat, p = stats.mannwhitneyu(y1, y2)
         return p
     
     def _induce_condition(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered:list[int]) -> AbstractCondition:
+            """Select the best condition satisfying minimum coverage.
+
+            Ties favor the candidate covering more locally positive examples.
+            Returns ``(condition, quality, coverage)``.
+            """
             quality_best = float("-inf")
             coverage_best = CoverageClass(0,0,0,0)
             condition_best = None
@@ -395,6 +488,12 @@ class MyRuleRegressor():
             return condition_best, quality_best, coverage_best     
             
     def _calculate_quality_using_covered(self, X,y, covered_mask):
+        """Calculate candidate quality from a precomputed coverage mask.
+
+        Covered targets within one standard deviation of their mean define the
+        positive interval; that interval is then evaluated over all targets to
+        build the ``p``, ``n``, ``P``, and ``N`` coverage counts.
+        """
         covered_y = y[covered_mask]
         y_mean = np.mean(covered_y)
         y_std = np.sqrt((np.sum(np.square(covered_y)) / covered_y.shape[0]) - (y_mean * y_mean))
@@ -417,6 +516,7 @@ class MyRuleRegressor():
 
 
     def _prune(self, rule: AbstractRule):
+        """Remove conditions while doing so preserves or improves quality."""
         
         if len(rule.premise.subconditions) == 1:
             return
@@ -446,14 +546,17 @@ class MyRuleRegressor():
     
         
     def _check_candidate(self, new_covered_examples: int, uncovered) -> bool:
+        """Return whether a candidate meets the minimum-coverage constraint."""
         return  (len(new_covered_examples) >= self.mincov) or (len(uncovered) <= self.mincov)
     
     def _get_covered_examples(self, X: np.ndarray, y: np.ndarray, rule: AbstractRule) -> List[np.ndarray]:
+        """Return feature and target subsets covered by ``rule``'s premise."""
         covered_examples_mask = rule.premise.covered_mask(X)
         return [X[covered_examples_mask], y[covered_examples_mask]]
     
     
     def _rule_factory(self, columns_names, label_name,  X, y) -> RegressionRule:
+        """Create an empty regression rule concluding the global target mean."""
         rule = RegressionRule(
             premise=CompoundCondition(subconditions=[],
                                     logic_operator=LogicOperators.CONJUNCTION,),
@@ -468,17 +571,24 @@ class MyRuleRegressor():
         return rule
     
     def _calculate_quality(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray) -> float:
+        """Return the configured quality and coverage of a complete rule."""
         coverage = rule.calculate_coverage(X=X, y=y)
         quality = self.measure_function(coverage)
 
         return quality, coverage
     
     def _ruleset_factory(self, rules: list[RegressionRule]) -> RegressionRuleSet:
+        """Wrap induced regression rules in a rule-set object."""
         return RegressionRuleSet(rules=rules)
 
     
 
     def _get_possible_conditions(self, examples_covered_by_rule: np.ndarray, y: np.ndarray) -> list:
+        """Generate nominal equality and numeric midpoint conditions.
+
+        Missing values are ignored.  Each numeric midpoint yields a lower and
+        an upper half-line condition.
+        """
         conditions = []
 
         for indx in self.nominal_attributes_indexes:
@@ -509,12 +619,13 @@ class MyRuleRegressor():
 
 
     def _get_nominal_indexes(self, dataframe: pd.DataFrame) -> list:
+        """Return positional indices of object-typed feature columns."""
         dtype_mask = (dataframe.dtypes == 'object')
         nominal_indexes = np.where(dtype_mask)[0]
         return nominal_indexes.tolist()
     
     def _get_numerical_indexes(self, dataframe: pd.DataFrame) -> list:
+        """Return positional indices of non-object feature columns."""
         dtype_mask = np.logical_not(dataframe.dtypes == 'object')
         numerical_indexes = np.where(dtype_mask)[0]
         return numerical_indexes.tolist()
- 

@@ -18,9 +18,11 @@ warnings.filterwarnings('ignore')
 
 
 class TestSurvivalPredictionIndicators(unittest.TestCase):
+    """Compare induced survival rules with stored reference rule sets."""
 
 
     def test_gbsg2(self):
+        """Induce the expected survival rules for the GBSG2 dataset."""
 
         df = load_dataset("survival/18_GBSG2.arff")
         # code to change encoding of the file
@@ -51,6 +53,7 @@ class TestSurvivalPredictionIndicators(unittest.TestCase):
 
 
     def test_bhs(self):
+        """Induce the expected survival rules for the BHS dataset."""
 
         df = load_dataset("survival/01_BHS.arff")
         # code to change encoding of the file
