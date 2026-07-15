@@ -26,7 +26,9 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.intersphinx",
     "nbsphinx",
-    "sphinx_copybutton",]
+    "sphinx_copybutton",
+    "sphinx.ext.githubpages"
+    ]
 
 templates_path = ['_templates']
 exclude_patterns = []
