@@ -6,38 +6,33 @@ may be pruned afterwards.  Optionally, the learner searches for reference
 rules whose intersection with a commonsense rule identifies an exception.
 """
 
-from abc import ABC
-from abc import abstractmethod
-from collections import defaultdict
-
-import time
-from exception_rules.decision_rules.core.ruleset import AbstractRuleSet
-from exception_rules.decision_rules.core.rule import AbstractRule
-from exception_rules.decision_rules.core.condition import AbstractCondition
-from exception_rules.decision_rules.classification.ruleset import ClassificationRuleSet
-from exception_rules.decision_rules.classification.rule import ClassificationRule, ClassificationConclusion
-from exception_rules.decision_rules.conditions import CompoundCondition, LogicOperators, NominalCondition, ElementaryCondition
-from exception_rules.decision_rules.measures import *
-from typing import List
-import pandas as pd
-import numpy as np
+from collections import Counter, defaultdict
 import copy
-from sklearn.datasets import load_iris
-from sklearn.metrics import balanced_accuracy_score
-from sklearn.model_selection import train_test_split
-import cProfile, pstats
-import multiprocessing
-from scipy.io import arff
-import warnings
-warnings.filterwarnings('ignore')    
 
+import numpy as np
+import pandas as pd
+
+from exception_rules.core.algorithm import BaseRuleInductionAlgorithm
+from exception_rules.decision_rules.classification.rule import (
+    ClassificationConclusion,
+    ClassificationRule,
+)
+from exception_rules.decision_rules.classification.ruleset import ClassificationRuleSet
+from exception_rules.decision_rules.conditions import (
+    CompoundCondition,
+    ElementaryCondition,
+    LogicOperators,
+    NominalCondition,
+)
+from exception_rules.decision_rules.core.condition import AbstractCondition
 from exception_rules.decision_rules.core.coverage import Coverage
-from collections import Counter
+from exception_rules.decision_rules.core.rule import AbstractRule
+from exception_rules.decision_rules.core.ruleset import AbstractRuleSet
+from exception_rules.decision_rules.measures import *
 
-import logging
 
 
-class MyRuleClassifier():
+class MyRuleClassifier(BaseRuleInductionAlgorithm):
     """Induce classification rules and optional exception-rule triples.
 
     Parameters
@@ -83,27 +78,11 @@ class MyRuleClassifier():
 
     def __init__(self, mincov: int, induction_measuer: str, cuts_only_between_classes: bool = True, max_growing: int = None, prune: bool = True, find_exceptions:bool = False, threshold:float = 0.8, delete_cr_n:bool = False, logger = None) -> None:
         """Initialize the classifier and its induction configuration."""
+        super().__init__(mincov, max_growing, prune, find_exceptions, logger)
         self.cuts_only_between_classes = cuts_only_between_classes
-        self.mincov = mincov
         self.measure_function = globals().get(induction_measuer)
-        self.max_growing = max_growing
-        self.prune = prune
         self.treshold = threshold
-        self.find_exceptions = find_exceptions
         self.delete_cr_n = delete_cr_n
-        
-        self.label_name = None
-        self.X_numpy = None
-        self.y_numpy = None
-
-        self.conditions_coverage_cache: dict[AbstractCondition, np.ndarray] = {
-        }
-
-        if logger is not None:
-            self.if_logging = True
-            self.logger = logger
-        else:
-            self.if_logging = False
 
 
         
@@ -153,66 +132,15 @@ class MyRuleClassifier():
         finalized by ``ClassificationRuleSet.update``.
         """
 
-        self.conditions_coverage_cache: dict[AbstractCondition, np.ndarray] = {
-        }
-                
-        self.label_name = y.name 
+        self._prepare_training_data(X, y, attributes_list)
 
-        self.X_numpy = X.to_numpy()
-        self.y_numpy = y.to_numpy()
-
-        self.X_pandas = X
-        self.y_pandas = y
-
-        self.attributes_list = attributes_list
-        
-        # get indexes of nominal attributes
-        self.nominal_attributes_indexes = self._get_nominal_indexes(X)
-        self.numerical_attributes_indexes = self._get_numerical_indexes(X)
-        self.columns_names = X.columns
-        self.labels = y.unique()
-
-        if self.mincov < 1:
-            unique, counts = np.unique(y, return_counts=True)
-            distribution = dict(zip(unique, counts))
-
-            self.mincov_for_classes = {label: max(1, int(self.mincov * count)) for label, count in distribution.items()}
-
-
-    
-
+        self._prepare_class_minimum_coverage()
         self._prepare_additional_informations()
-        rules = []
-
-       
-
-        for label in self.labels:
-            carry_on = True
-
-            uncovered_positives = set(np.where(self.y_numpy == label)[0])
-
-            while carry_on:
-                rule = self._rule_factory(self.columns_names, self.label_name, label)
-                carry_on, exception_found = self._grow(rule, self.X_numpy, self.y_numpy, uncovered_positives, label)
-
-                if (carry_on):
-                    if(self.prune and not exception_found):
-                        self._prune(rule)
-
-                    previously_uncovered = len(uncovered_positives)
-                    positive_covered_indices = np.where(rule.positive_covered_mask(self.X_numpy, self.y_numpy) == 1)[0]
-
-                    uncovered_positives = set([i for i in uncovered_positives if i not in positive_covered_indices])
-
-
-                    if (len(uncovered_positives) == previously_uncovered):
-                        carry_on = False
-                    else:
-                        rules.append(rule)
-
-
-
-
+        rules = [
+            rule
+            for label in self.labels
+            for rule in self._induce_rules_for_label(label)
+        ]
         ruleset = self._ruleset_factory(rules)
         ruleset.update(X, y, self.measure_function)
         self.ruleset = ruleset
@@ -221,6 +149,44 @@ class MyRuleClassifier():
             self._evaluate_exceptions(self.ruleset, X, y)
 
         return self
+
+    def _prepare_class_minimum_coverage(self) -> None:
+        """Convert fractional minimum coverage to a count for every class."""
+        if self.mincov >= 1:
+            return
+        labels, counts = np.unique(self.y_numpy, return_counts=True)
+        self.mincov_for_classes = {
+            label: max(1, int(self.mincov * count))
+            for label, count in zip(labels, counts)
+        }
+
+    def _induce_rules_for_label(self, label) -> list[ClassificationRule]:
+        """Induce rules until no new positive example of ``label`` is covered."""
+        rules: list[ClassificationRule] = []
+        uncovered = set(np.flatnonzero(self.y_numpy == label))
+
+        while uncovered:
+            rule = self._rule_factory(self.columns_names, self.label_name, label)
+            rule_found, exception_found = self._grow(
+                rule, self.X_numpy, self.y_numpy, uncovered, label
+            )
+            if not rule_found:
+                break
+            if self.prune and not exception_found:
+                self._prune(rule)
+
+            covered = set(
+                np.flatnonzero(
+                    rule.positive_covered_mask(self.X_numpy, self.y_numpy)
+                )
+            )
+            remaining = uncovered.difference(covered)
+            if len(remaining) == len(uncovered):
+                break
+            rules.append(rule)
+            uncovered = remaining
+
+        return rules
     
     def _evaluate_exceptions(self, ruleset, X, y):
         """Assign exception types relative to class-average rule metrics.
@@ -231,42 +197,30 @@ class MyRuleClassifier():
         """
         
         self.labels = y.unique()
-        class_rule_metrics = {label: {'precision': [], 'coverage': [], 'dprecision': []} for label in self.labels}
-        self.class_averages = {}
-
-        
+        class_rule_metrics = {
+            label: {"precision": [], "coverage": [], "dprecision": []}
+            for label in self.labels
+        }
         for rule in ruleset.rules:
             rule_coverage = rule.calculate_coverage(self.X_numpy, self.y_numpy)
-            prec = precision(rule_coverage)
-            cov = coverage(rule_coverage)
-            dprec = self.domain_precision(rule_coverage)
+            metrics = class_rule_metrics[rule.conclusion.value]
+            metrics["precision"].append(precision(rule_coverage))
+            metrics["coverage"].append(coverage(rule_coverage))
+            metrics["dprecision"].append(self.domain_precision(rule_coverage))
 
-            # Dodawanie miar do listy dla danej klasy
-            class_rule_metrics[rule.conclusion.value]['precision'].append(prec)
-            class_rule_metrics[rule.conclusion.value]['coverage'].append(cov)
-            class_rule_metrics[rule.conclusion.value]['dprecision'].append(dprec)
-
-        for label in self.labels:
-            precisions = class_rule_metrics[label]['precision']
-            coverages = class_rule_metrics[label]['coverage']
-            dprecisions = class_rule_metrics[label]['dprecision']
-
-            avg_precision = np.mean(precisions) if precisions else 0
-            avg_coverage = np.mean(coverages) if coverages else 0
-            avg_dprecision = np.mean(dprecisions) if dprecisions else 0
-
-            self.class_averages[label] = {
-                'precision': avg_precision,
-                'coverage': avg_coverage,
-                'dprecision': avg_dprecision
+        self.class_averages = {
+            label: {
+                metric: float(np.mean(values)) if values else 0
+                for metric, values in metrics.items()
             }
+            for label, metrics in class_rule_metrics.items()
+        }
 
         for rule in ruleset.rules:
-            if len(rule.exception_rules) >= 0:
-                for er_rule, rr_rule in zip(rule.exception_rules, rule.reference_rules):
-                    self._evaluate_exception(rule, er_rule, rr_rule)
-            else:
-                self._evaluate_exception(rule, rule.exception_rule, rule.reference_rule)
+            for exception_rule, reference_rule in zip(
+                rule.exception_rules, rule.reference_rules
+            ):
+                self._evaluate_exception(rule, exception_rule, reference_rule)
 
 
 
@@ -370,7 +324,7 @@ class MyRuleClassifier():
                 if self.if_logging:
                     self.logger.info(f"Iteracja {i}: condition_best: None, quality_best: {round(quality_best,3)}, coverage_best: {str(coverage_best)}, precision: {round(precision(coverage_best),3)}")
                     self.logger.info(f"Regula po iteracji {i}: {rule}, {rule.calculate_coverage(X,y)}")
-            if (self.max_growing is not None) and (len(rule.premise.subconditions) >= self.max_growing):
+            if self._growth_limit_reached(rule):
                 carry_on = False
 
 
@@ -385,36 +339,6 @@ class MyRuleClassifier():
             return True, exception_found
         else:
             return False, exception_found
-
-    def _prune(self, rule: AbstractRule):
-        """Remove conditions while doing so preserves or improves quality."""
-        
-        if len(rule.premise.subconditions) == 1:
-            return
-        
-        continue_pruning = True
-        while continue_pruning:
-            conditions = rule.premise.subconditions
-            quality_best, _ = self._calculate_quality(rule, self.X_numpy, self.y_numpy)
-            condition_to_remove = None
-            for condition in conditions:
-                rule_without_condition = copy.deepcopy(rule)
-                rule_without_condition.premise.subconditions.remove(condition)
-
-                quality_without_condition, coverage_without_condition = self._calculate_quality(rule_without_condition, self.X_numpy, self.y_numpy)
-
-                if quality_without_condition >= quality_best:
-                    quality_best = quality_without_condition
-                    condition_to_remove = condition
-                
-            if condition_to_remove is None:
-                continue_pruning = False 
-            else:
-                rule.premise.subconditions.remove(condition_to_remove)
-
-            if len(rule.premise.subconditions) == 1:
-                continue_pruning = False
-
 
     def _induce_condition(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, uncovered_positives:set[int]) -> AbstractCondition:
         """Select the highest-quality admissible condition for a rule.
@@ -447,12 +371,7 @@ class MyRuleClassifier():
                 # rule_with_condition = copy.deepcopy(rule)
                 # rule_with_condition.premise.subconditions.append(condition)
 
-                condition_str = condition.__hash__()
-                if condition_str in self.conditions_coverage_cache:
-                    condition_coverage_mask = self.conditions_coverage_cache[condition_str]
-                else:
-                    condition_coverage_mask = condition.covered_mask(self.X_numpy)
-                    self.conditions_coverage_cache[condition_str] = condition_coverage_mask
+                condition_coverage_mask = self._condition_coverage_mask(condition)
 
                 rule_with_condition_covered_mask = np.logical_and(
                                                                 rule_covered_mask,
@@ -577,7 +496,7 @@ class MyRuleClassifier():
             else:
                 carry_on = False
 
-            if (self.max_growing is not None) and (len(rr_rule.premise.subconditions) >= self.max_growing):
+            if self._growth_limit_reached(rr_rule):
                 carry_on = False
 
             if self.if_logging:
@@ -628,12 +547,7 @@ class MyRuleClassifier():
             possible_conditions_filtered = list(filter(lambda i: i not in rr_rule.premise.subconditions, possible_conditions))
             if len(possible_conditions_filtered) != 0:
                 for condition in possible_conditions_filtered:
-                    condition_str = condition.__hash__()
-                    if condition_str in self.conditions_coverage_cache:
-                        condition_coverage_mask = self.conditions_coverage_cache[condition_str]
-                    else:
-                        condition_coverage_mask = condition.covered_mask(self.X_numpy)
-                        self.conditions_coverage_cache[condition_str] = condition_coverage_mask
+                    condition_coverage_mask = self._condition_coverage_mask(condition)
 
                     rule_with_condition_covered_mask = np.logical_and(
                                                 rule_covered_mask,
@@ -867,27 +781,15 @@ class MyRuleClassifier():
 
 
 
-    def _get_nominal_indexes(self, dataframe: pd.DataFrame) -> list:
-        """Return positional indices of object-typed feature columns."""
-        dtype_mask = (dataframe.dtypes == 'object')
-        nominal_indexes = np.where(dtype_mask)[0]
-        return nominal_indexes.tolist()
-    
-    def _get_numerical_indexes(self, dataframe: pd.DataFrame) -> list:
-        """Return positional indices of non-object feature columns."""
-        dtype_mask = np.logical_not(dataframe.dtypes == 'object')
-        numerical_indexes = np.where(dtype_mask)[0]
-        return numerical_indexes.tolist()
- 
     """
     
-    type 0 – klasyfikacja jak w RuleKit  
+    type 0 – classification as in RuleKit
 
-    type 1 - jeśli reguła, która pokrywa przykład ma exception rule, która też go pokrywa, to ta reguła nie jest brana pod uwagę w głosowaniu (exception rule nic nie wnosi do głosowania, jedynie wyłącza commonsense rule)  
+    type 1 – if a rule that covers an example has an exception rule that also covers that example, the original rule is not taken into account in the voting. The exception rule itself does not contribute to the vote; it only disables the commonsense rule.
 
-    type 2 - jeśli przykład pokrywany jest przez jakąkolwiek regułę wyjątków to w głosowaniu biorą udział jedynie reguły wyjątków. Jeżeli żadna reguła wyjątków nie pokrywa przykładu to głosują reguły commonsense 
+    type 2 – if an example is covered by any exception rule, only exception rules participate in the voting. If no exception rule covers the example, the commonsense rules participate in the voting.
 
-    type 3 – jeżeli przykład jest pokrywany i przez regułę commonsense i przez regułę wyjątku to obydwie reguły biorą udział w głosowaniu (każda głosuje za klasą na którą wskazuje) 
+    type 3 – if an example is covered by both a commonsense rule and an exception rule, both rules participate in the voting, with each rule voting for the class it indicates
     
     """
     def predict(self, X, type):
