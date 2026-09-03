@@ -10,21 +10,18 @@ from exception_rules.decision_rules.core.coverage import Coverage as CoverageCla
 from exception_rules.decision_rules.core.ruleset import AbstractRuleSet
 from exception_rules.decision_rules.core.rule import AbstractRule
 from exception_rules.decision_rules.core.condition import AbstractCondition
+from exception_rules.core.algorithm import BaseRuleInductionAlgorithm
 from exception_rules.decision_rules.survival.ruleset import SurvivalRuleSet
 from exception_rules.decision_rules.survival.rule import SurvivalRule, SurvivalConclusion
-from exception_rules.decision_rules.conditions import CompoundCondition, LogicOperators, NominalCondition, ElementaryCondition
+from exception_rules.decision_rules.conditions import CompoundCondition, LogicOperators
 from exception_rules.decision_rules.survival.kaplan_meier import KaplanMeierEstimator
-from typing import List
 import pandas as pd
 import numpy as np
 import copy
-import warnings
-warnings.filterwarnings('ignore')    
-
-import logging
 
 
-class MyRuleSurvival():
+
+class MyRuleSurvival(BaseRuleInductionAlgorithm):
     """Induce survival rules and optional exception-rule triples.
 
     Parameters
@@ -60,28 +57,15 @@ class MyRuleSurvival():
 
     def __init__(self, mincov: int, survival_time_attr: str, cuts_only_between_classes: bool = True, max_growing: int = None, prune: bool = True, find_exceptions:bool = False, delete_cr_n = False, logger = None) -> None:
         """Initialize the survival learner and induction configuration."""
+        super().__init__(mincov, max_growing, prune, find_exceptions, logger)
         self.cuts_only_between_classes = cuts_only_between_classes
-        self.mincov = mincov
         self.survival_time_attr = survival_time_attr
-        self.max_growing = max_growing
-        self.prune = prune
-        self.find_exceptions = find_exceptions
         self.delete_cr_n = delete_cr_n
-
-        self.label_name = None
-        self.X_numpy = None
-        self.y_numpy = None
-
-        if logger is not None:
-            self.if_logging = True
-            self.logger = logger
-        else:
-            self.if_logging = False
 
         
 
     def fit(self, X: pd.DataFrame, y: pd.Series, attributes_list: list[list[str]] = None) -> AbstractRuleSet:
-            """Induce rules from survival times and event indicators.
+        """Induce rules from survival times and event indicators.
 
             Parameters
             ----------
@@ -103,74 +87,49 @@ class MyRuleSurvival():
             -----
             The time column remains in the rule matrix but is excluded from
             attributes eligible for premise conditions.
-            """
+        """
+        self._prepare_training_data(X, y, attributes_list)
+        self.columns_names = X.columns.to_list()
+        self.survival_time = X[self.survival_time_attr].to_numpy()
+        self.survival_status = self.y_numpy
+        self._exclude_survival_time_from_conditions(X)
 
-            self.label_name = y.name 
+        ruleset = self._ruleset_factory(self._induce_rules())
+        ruleset.column_names = self.columns_names
+        ruleset.update(X, y)
+        self.ruleset = ruleset
+        return self
 
-            self.X_numpy = X.to_numpy()
-            self.y_numpy = y.to_numpy()
+    def _exclude_survival_time_from_conditions(self, X: pd.DataFrame) -> None:
+        """Prevent the outcome-time column from becoming a premise condition."""
+        time_index = X.columns.get_loc(self.survival_time_attr)
+        for indexes in (
+            self.nominal_attributes_indexes,
+            self.numerical_attributes_indexes,
+        ):
+            if time_index in indexes:
+                indexes.remove(time_index)
+                break
 
-            self.X_pandas = X
-            self.y_pandas = y
+    def _induce_rules(self) -> list[SurvivalRule]:
+        """Run separate-and-conquer induction over survival examples."""
+        rules: list[SurvivalRule] = []
+        uncovered = list(range(len(self.y_numpy)))
 
-            self.attributes_list = attributes_list
-            
-            # get indexes of nominal attributes
-            self.nominal_attributes_indexes = self._get_nominal_indexes(X)
-            self.numerical_attributes_indexes = self._get_numerical_indexes(X)
-            self.columns_names = X.columns.to_list()
-            self.labels = y.unique()
+        while uncovered:
+            rule = self._rule_factory(self.columns_names, self.label_name)
+            if not self._grow(rule, self.X_numpy, self.y_numpy, uncovered):
+                break
+            if self.prune:
+                self._prune(rule)
 
-            self.survival_time = X[self.survival_time_attr].to_numpy()
-            self.survival_status = y.to_numpy()
+            remaining = self._discard_rule_coverage(uncovered, rule)
+            if len(remaining) == len(uncovered):
+                break
+            rules.append(self._update_estimator(rule))
+            uncovered = remaining
 
-            survival_time_attr_index = X.columns.get_loc(self.survival_time_attr)
-            if survival_time_attr_index in self.nominal_attributes_indexes:
-                self.nominal_attributes_indexes.remove(survival_time_attr_index)
-            elif survival_time_attr_index in self.numerical_attributes_indexes:
-                self.numerical_attributes_indexes.remove(survival_time_attr_index)
-
-            rules = []
-
-        
-
-            carry_on = True
-
-            uncovered = [i for i in range(len(self.y_numpy))]
-
-
-
-            while carry_on:
-                rule = self._rule_factory(self.columns_names, self.label_name)
-                carry_on = self._grow(rule, self.X_numpy, self.y_numpy, uncovered)
-
-                if (carry_on):
-                    if(self.prune):
-                        self._prune(rule)
-
-                    previously_uncovered = len(uncovered)
-                    
-                    positive_covered_indices = np.where(rule.positive_covered_mask(self.X_numpy, self.y_numpy) == 1)[0]
-                    negative_covered_indices = np.where(rule.negative_covered_mask(self.X_numpy, self.y_numpy) == 1)[0]
-                    
-                    
-                    uncovered = [i for i in uncovered if i not in positive_covered_indices and i not in negative_covered_indices]
-
-                    if (len(uncovered) == previously_uncovered):
-                        carry_on = False
-                    else:
-                        rule = self._update_estimator(rule)
-
-                        rules.append(rule)
-
-
-
-            ruleset = self._ruleset_factory(rules)
-
-            ruleset.column_names = self.columns_names
-            ruleset.update(X,y)
-            self.ruleset = ruleset
-            return self
+        return rules
 
     def _update_estimator(self, rule: SurvivalRule) -> SurvivalRule:
         """Fit a Kaplan-Meier conclusion to examples covered by ``rule``."""
@@ -190,181 +149,86 @@ class MyRuleSurvival():
         The final premise is truncated after its highest-quality condition.
         Returns true when at least one condition is induced.
         """
-        carry_on = True
-        rule_qualities = []
-        if self.if_logging:
-            self.logger.info("*******GROWING CR RULE*******")
-        i = 0
-        while(carry_on):
-            condition_best, quality_best, coverage_best = self._induce_condition(rule, X, y, uncovered)
-            
-            if condition_best is not None:
-                rule.premise.subconditions.append(condition_best) # add the best condition to the rule
-                rule_qualities.append(quality_best)
-                
-                if self.if_logging:
-                    self.logger.info(f"Iteracja {i}: condition_best: {condition_best.to_string(self.columns_names)}, quality_best: {round(quality_best,3)}, coverage_best: {str(coverage_best)}")
-                    self.logger.info(f"Regula po iteracji {i}: {rule}, {rule.calculate_coverage(X,y)}")
-
-                if self.find_exceptions:
-                    carry_on = not self._search_exceptions(rule, X, y)
-                       
-            else:
-                carry_on = False
-                if self.if_logging:
-                    self.logger.info(f"Iteracja {i}: condition_best: None, quality_best: {round(quality_best,3)}, coverage_best: {str(coverage_best)}")
-                    self.logger.info(f"Regula po iteracji {i}: {rule}, {rule.calculate_coverage(X,y)}")
-
-
-            if (self.max_growing is not None) and (len(rule.premise.subconditions) >= self.max_growing):
-                carry_on = False
-
-
-            i +=1 
-        if self.if_logging:
-            self.logger.info("*******STOP GROWING CR RULE*******")
-
-        if len(rule.premise.subconditions) > 0:
-            maks_quality_index = np.argmax(rule_qualities)
-            rule.premise.subconditions = rule.premise.subconditions[:maks_quality_index+1]
-            return True
-        else:
-            return False
+        return self._grow_rule(rule, X, y, uncovered, truncate_to_best=True)
         
     def _search_exceptions(self, rule, X, y):
         """Search outside a commonsense rule for a compatible reference rule."""
-
-
-        cr_covered = np.where(rule.positive_covered_mask(X, y) == 1)[0]
-        cr_uncovered = np.where(rule.positive_covered_mask(X, y) == 0)[0]
-
-
+        positive_mask = rule.positive_covered_mask(X, y)
+        cr_covered = np.flatnonzero(positive_mask)
+        cr_uncovered = np.flatnonzero(np.logical_not(positive_mask))
         reference_rule = self._rule_factory(self.columns_names, self.label_name)
-
-        # X_tmp = X[cr_uncovered]
-        # y_tmp = y[cr_uncovered]
-
-        # uncovered = [i for i in range(len(y_tmp))]
-
-        found_reference_rule = self._grow_reference_rule(reference_rule, X, y, cr_uncovered, cr_covered)
-
-
-        if found_reference_rule:
-            if self.if_logging:
-                self.logger.info("***RR FOUND***")
-                self.logger.info(f"Reference rule: {reference_rule}")
-            found_exception = self._check_exception_candidate(X, y, rule, reference_rule)
-            if found_exception:
-                return True
-            else:
-                return False
-        else:
-            if self.if_logging:
-                self.logger.info("***RR NOT FOUND***")
+        if not self._grow_reference_rule(
+            reference_rule, X, y, cr_uncovered, cr_covered
+        ):
+            self._log("***RR NOT FOUND***")
             return False
-        
-    def _check_exception_candidate(self, X, y, comonsense_rules, reference_rule) -> bool:
-            """Validate and attach a survival exception rule.
 
-            The intersection is accepted when its Kaplan-Meier estimator
-            differs from both source estimators at the 0.05 level.
-            """
-            
-            if self.if_logging:
-                self.logger.info("***CHECKING EXCEPTION***")
-            
-            exception_rule = self._rule_factory(self.columns_names, self.label_name)
-            exception_rule.premise.subconditions.extend(comonsense_rules.premise.subconditions)
-            exception_rule.premise.subconditions.extend(reference_rule.premise.subconditions)
+        self._log("***RR FOUND***")
+        self._log(f"Reference rule: {reference_rule}")
+        return self._check_exception_candidate(X, y, rule, reference_rule)
 
-            er_covered = np.where(exception_rule.positive_covered_mask(X, y) == 1)[0]
-            cr_covered = np.where(comonsense_rules.positive_covered_mask(X, y) == 1)[0]
-            rr_covered = np.where(reference_rule.positive_covered_mask(X, y) == 1)[0]
+    def _check_exception_candidate(
+        self, X, y, commonsense_rule, reference_rule
+    ) -> bool:
+        """Validate and attach a statistically distinct survival exception."""
+        self._log("***CHECKING EXCEPTION***")
+        exception_rule = self._rule_factory(self.columns_names, self.label_name)
+        exception_rule.premise.subconditions.extend(
+            commonsense_rule.premise.subconditions
+        )
+        exception_rule.premise.subconditions.extend(
+            reference_rule.premise.subconditions
+        )
 
+        exception_estimator = self._estimator_for_rule(exception_rule, X, y)
+        commonsense_estimator = self._estimator_for_rule(commonsense_rule, X, y)
+        reference_estimator = self._estimator_for_rule(reference_rule, X, y)
+        commonsense_p_value = self._comparison_p_value(
+            commonsense_estimator, exception_estimator
+        )
+        reference_p_value = self._comparison_p_value(
+            reference_estimator, exception_estimator
+        )
+        self._log(f"ER vs CR p_value: {commonsense_p_value}")
+        self._log(f"ER vs RR p_value: {reference_p_value}")
 
+        if commonsense_p_value > 0.05 or reference_p_value > 0.05:
+            self._log("***ER NOT FOUND***")
+            return False
 
-            er_km = KaplanMeierEstimator().fit(self.survival_time[er_covered], self.survival_status[er_covered], update_additional_informations=False)
-            cr_km = KaplanMeierEstimator().fit(self.survival_time[cr_covered], self.survival_status[cr_covered], update_additional_informations=False)
-            rr_km = KaplanMeierEstimator().fit(self.survival_time[rr_covered], self.survival_status[rr_covered], update_additional_informations=False)
+        commonsense_rule.reference_rule = reference_rule
+        commonsense_rule.exception_rule = exception_rule
+        triple_ruleset = SurvivalRuleSet(
+            rules=[commonsense_rule, exception_rule, reference_rule],
+            survival_time_attr=self.survival_time_attr,
+        )
+        triple_ruleset.update(self.X_pandas, self.y_pandas)
+        self._log("***ER FOUND***")
+        self._log(f"Exception rule: {exception_rule}")
+        return True
 
+    def _estimator_for_rule(self, rule, X, y) -> KaplanMeierEstimator:
+        """Fit a temporary estimator to the examples covered by ``rule``."""
+        covered = np.flatnonzero(rule.positive_covered_mask(X, y))
+        return KaplanMeierEstimator().fit(
+            self.survival_time[covered],
+            self.survival_status[covered],
+            update_additional_informations=False,
+        )
 
-            cr_stats_and_pvalue = KaplanMeierEstimator().compare_estimators(
-                        cr_km, er_km)
-            
-            rr_stats_and_pvalue = KaplanMeierEstimator().compare_estimators(
-                    rr_km, er_km)
-            
-            cr_p_value = cr_stats_and_pvalue["p_value"]
-            rr_p_value = rr_stats_and_pvalue["p_value"]
-            if self.if_logging:
-                self.logger.info(f"ER vs CR p_value: {cr_p_value}")
-                self.logger.info(f"ER vs RR p_value: {rr_p_value}")
-                                 
-            if (cr_stats_and_pvalue["p_value"] <= 0.05) and (rr_stats_and_pvalue["p_value"] <= 0.05):
-                comonsense_rules.reference_rule = reference_rule   
-                comonsense_rules.exception_rule = exception_rule
-                triple_ruleset = SurvivalRuleSet(rules = [comonsense_rules,exception_rule,reference_rule], survival_time_attr=self.survival_time_attr)
-                triple_ruleset.update(self.X_pandas,self.y_pandas)
-                if self.if_logging:
-                    self.logger.info("***ER FOUND***")
-                    self.logger.info(f"Exception rule: {exception_rule}")
-                return True
-            else:
-                if self.if_logging:
-                    self.logger.info("***ER NOT FOUND***")
-                return False
+    @staticmethod
+    def _comparison_p_value(first, second) -> float:
+        """Return the p-value comparing two Kaplan-Meier estimators."""
+        return KaplanMeierEstimator().compare_estimators(first, second)["p_value"]
 
 
 
         
     def _grow_reference_rule(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray,uncovered: list[int], cr_covered) -> AbstractRule:
         """Grow and quality-truncate a survival reference rule."""
-        carry_on = True
-        rule_qualities = []
-        rule_covered_negatives = []
-        scores = []
-        best_score = 0
-        if self.if_logging:
-            self.logger.info("*****GROWING RR RULE*****")
-
-        i = 0
-
-        while(carry_on):
-            condition_best, quality_best, coverage_best, best_score = self._induce_reference_rule(rule, X, y, best_score, uncovered, cr_covered)
-            
-            if condition_best is not None:
-                rule.premise.subconditions.append(condition_best) # add the best condition to the rule
-                rule_qualities.append(quality_best)
-                scores.append(best_score)
-
-            else:
-                carry_on = False
-
-            if (self.max_growing is not None) and (len(rule.premise.subconditions) >= self.max_growing):
-                carry_on = False
-
-            if self.if_logging:
-                if condition_best is not None:
-                    self.logger.info(f"Iteracja {i}: condition_best: {condition_best.to_string(self.columns_names)}, quality_best: {round(quality_best, 3)}, coverage_best: {str(coverage_best)}, p_value: {round(best_score,3)}")
-                else:
-                    self.logger.info(f"Iteracja {i}: condition_best: None, quality_best: {round(quality_best, 3)}, coverage_best: {str(coverage_best)}, p_value: {round(best_score,3)}")
-                self.logger.info(f"Regula po iteracji {i}: {rule}, {rule.calculate_coverage(X,y)}")
-            
-            i +=1
-
-
-        self.rule_qualities = rule_qualities
-        self.rule_covered_negatives = rule_covered_negatives
-
-        if self.if_logging:
-            self.logger.info("*****STOP GROWING RR RULE*****")
-        
-        if len(rule.premise.subconditions) > 0:
-            maks_quality_index = np.argmax(rule_qualities)
-            rule.premise.subconditions = rule.premise.subconditions[:maks_quality_index+1]
-            return True
-        else:
-            return False
+        return self._grow_reference_rule_common(
+            rule, X, y, uncovered, cr_covered, truncate_to_best=True
+        )
         
     def _induce_reference_rule(self, rule: AbstractRule, X: np.ndarray, y: np.ndarray, best_score, uncovered, cr_covered) -> AbstractCondition:
             """Select the next condition for a survival reference rule.
@@ -471,46 +335,6 @@ class MyRuleSurvival():
             return condition_best, quality_best, coverage_best     
             
     
-    def _prune(self, rule: AbstractRule):
-        """Remove conditions while doing so preserves or improves quality."""
-        
-        if len(rule.premise.subconditions) == 1:
-            return
-        
-        continue_pruning = True
-        while continue_pruning:
-            conditions = rule.premise.subconditions
-            quality_best, _ = self._calculate_quality(rule, self.X_numpy, self.y_numpy)
-            condition_to_remove = None
-            for condition in conditions:
-                rule_without_condition = copy.deepcopy(rule)
-                rule_without_condition.premise.subconditions.remove(condition)
-
-                quality_without_condition, coverage_without_condition = self._calculate_quality(rule_without_condition, self.X_numpy, self.y_numpy)
-
-                if quality_without_condition >= quality_best:
-                    quality_best = quality_without_condition
-                    condition_to_remove = condition
-                
-            if condition_to_remove is None:
-                continue_pruning = False 
-            else:
-                rule.premise.subconditions.remove(condition_to_remove)
-
-            if len(rule.premise.subconditions) == 1:
-                continue_pruning = False
-    
-        
-    def _check_candidate(self, new_covered_examples: int, uncovered) -> bool:
-        """Return whether a candidate meets the minimum-coverage constraint."""
-        return  (len(new_covered_examples) >= self.mincov) or (len(uncovered) <= self.mincov)
-    
-    def _get_covered_examples(self, X: np.ndarray, y: np.ndarray, rule: AbstractRule) -> List[np.ndarray]:
-        """Return feature and status subsets covered by ``rule``'s premise."""
-        covered_examples_mask = rule.premise.covered_mask(X)
-        return [X[covered_examples_mask], y[covered_examples_mask]]
-    
-    
     def _rule_factory(self, columns_names, label_name) -> SurvivalRule:
         """Create an empty survival rule with an uninitialized estimator."""
         return SurvivalRule(
@@ -539,52 +363,3 @@ class MyRuleSurvival():
     def _ruleset_factory(self, rules: list[SurvivalRule]) -> SurvivalRuleSet:
         """Wrap induced rules in a survival rule-set object."""
         return SurvivalRuleSet(rules=rules, survival_time_attr=self.survival_time_attr)
-
-    
-
-    def _get_possible_conditions(self, examples_covered_by_rule: np.ndarray, y: np.ndarray) -> list:
-        """Generate nominal equality and numeric midpoint conditions.
-
-        Missing values are ignored.  The survival-time attribute is absent from
-        the predictor index lists prepared by :meth:`fit`.
-        """
-        conditions = []
-
-        for indx in self.nominal_attributes_indexes:
-            # Remove None values
-            column = examples_covered_by_rule[:,indx]
-            filtered_column = column[~pd.isnull(column)]
-            conditions.extend([NominalCondition(column_index=indx, value=val) for val in np.unique(filtered_column)])
-
-        for indx in self.numerical_attributes_indexes:
-            # if self.cuts_only_between_classes:
-            #     attr_values = examples_covered_by_rule[:,indx].astype(float)
-            #     attr_values = np.stack((attr_values, y), axis=1)
-            #     attr_values = attr_values[~pd.isnull(attr_values[:, 0])]
-            #     sorted_indices = np.argsort(attr_values[:, 0])
-            #     sorted_attr_values = attr_values[sorted_indices]
-            #     change_indices = [i for i in range(1, len(sorted_attr_values)) if sorted_attr_values[i, 1] != sorted_attr_values[i-1, 1]]
-            #     mid_points = np.unique([(sorted_attr_values[indx-1,0] + sorted_attr_values[indx,0]) / 2 for indx in change_indices])
-            # else:
-            examples_covered_by_rule_for_attr = examples_covered_by_rule[:,indx].astype(float)
-            values = np.sort(np.unique(examples_covered_by_rule_for_attr[~np.isnan(examples_covered_by_rule_for_attr)]))
-            mid_points = [(x + y) / 2 for x, y in zip(values, values[1:])]
-
-            conditions.extend([ElementaryCondition(column_index=indx, left_closed=False, right_closed=True, left=float('-inf'), right=mid_point) for mid_point in mid_points])
-            conditions.extend([ElementaryCondition(column_index=indx, left_closed=True, right_closed=False, left=mid_point, right=float('inf')) for mid_point in mid_points]) 
-
-        return conditions
-
-
-
-    def _get_nominal_indexes(self, dataframe: pd.DataFrame) -> list:
-        """Return positional indices of object-typed feature columns."""
-        dtype_mask = (dataframe.dtypes == 'object')
-        nominal_indexes = np.where(dtype_mask)[0]
-        return nominal_indexes.tolist()
-    
-    def _get_numerical_indexes(self, dataframe: pd.DataFrame) -> list:
-        """Return positional indices of non-object feature columns."""
-        dtype_mask = np.logical_not(dataframe.dtypes == 'object')
-        numerical_indexes = np.where(dtype_mask)[0]
-        return numerical_indexes.tolist()
