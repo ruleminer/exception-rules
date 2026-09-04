@@ -11,3 +11,4 @@ supported by Exception-Rules.
    Classification <./tutorials/classification.ipynb>
    Regression <./tutorials/regression.ipynb>
    Survival <./tutorials/survival.ipynb>
+   Visualizations <./tutorials/visualizations.ipynb>
