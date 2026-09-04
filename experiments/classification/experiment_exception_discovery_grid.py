@@ -19,7 +19,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-from exception_rules.classification.algorithm import MyRuleClassifier
+from exception_rules.classification.algorithm import ExceptionRulesClassifier
 
 import logging
 
@@ -37,14 +37,14 @@ class Experiment:
     def _get_models(self):
 
 
-        algorithm_mincov_5_threshold_0_6 = MyRuleClassifier(mincov=5, induction_measuer="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.6)
-        algorithm_mincov_5_threshold_0_7 = MyRuleClassifier(mincov=5, induction_measuer="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.7)
-        algorithm_mincov_5_threshold_0_8 = MyRuleClassifier(mincov=5, induction_measuer="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.8)
-        algorithm_mincov_5_threshold_0_9 = MyRuleClassifier(mincov=5, induction_measuer="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.9)
-        algorithm_mincov_0_1_threshold_0_6 = MyRuleClassifier(mincov=0.1, induction_measuer="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.6)
-        algorithm_mincov_0_1_threshold_0_7 = MyRuleClassifier(mincov=0.1, induction_measuer="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.7)
-        algorithm_mincov_0_1_threshold_0_8 = MyRuleClassifier(mincov=0.1, induction_measuer="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.8)
-        algorithm_mincov_0_1_threshold_0_9 = MyRuleClassifier(mincov=0.1, induction_measuer="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.9)
+        algorithm_mincov_5_threshold_0_6 = ExceptionRulesClassifier(mincov=5, induction_measure="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.6)
+        algorithm_mincov_5_threshold_0_7 = ExceptionRulesClassifier(mincov=5, induction_measure="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.7)
+        algorithm_mincov_5_threshold_0_8 = ExceptionRulesClassifier(mincov=5, induction_measure="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.8)
+        algorithm_mincov_5_threshold_0_9 = ExceptionRulesClassifier(mincov=5, induction_measure="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.9)
+        algorithm_mincov_0_1_threshold_0_6 = ExceptionRulesClassifier(mincov=0.1, induction_measure="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.6)
+        algorithm_mincov_0_1_threshold_0_7 = ExceptionRulesClassifier(mincov=0.1, induction_measure="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.7)
+        algorithm_mincov_0_1_threshold_0_8 = ExceptionRulesClassifier(mincov=0.1, induction_measure="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.8)
+        algorithm_mincov_0_1_threshold_0_9 = ExceptionRulesClassifier(mincov=0.1, induction_measure="c2", max_growing = 5, logger=self.logger, find_exceptions=True, threshold = 0.9)
 
 
         return {"algorithm_mincov_5_threshold_0_6": algorithm_mincov_5_threshold_0_6,

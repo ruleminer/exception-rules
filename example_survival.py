@@ -18,9 +18,9 @@ X = df.drop(columns=["survival_status"])
 y = df["survival_status"].astype(int).astype(str)
 
 
-from exception_rules.survival.algorithm import MyRuleSurvival
+from exception_rules.survival.algorithm import ExceptionRulesSurvival
 
-generator = MyRuleSurvival(mincov=5, survival_time_attr="survival_time", max_growing = 5, find_exceptions=True)
+generator = ExceptionRulesSurvival(mincov=5, survival_time_attr="survival_time", max_growing = 5, find_exceptions=True)
 
 
 model = generator.fit(X , y)

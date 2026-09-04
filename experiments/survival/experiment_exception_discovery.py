@@ -18,7 +18,7 @@ from exception_rules.decision_rules.measures import *
 import warnings
 warnings.filterwarnings('ignore')
 
-from exception_rules.survival.algorithm import MyRuleSurvival as MyRuleSurvival
+from exception_rules.survival.algorithm import ExceptionRulesSurvival as ExceptionRulesSurvival
 
 
 import logging
@@ -41,7 +41,7 @@ class Experiment:
     def _get_models(self):
 
 
-        algorithm = MyRuleSurvival(mincov=5, survival_time_attr="survival_time", max_growing = 5, find_exceptions=True, logger = self.logger)
+        algorithm = ExceptionRulesSurvival(mincov=5, survival_time_attr="survival_time", max_growing = 5, find_exceptions=True, logger = self.logger)
 
         return {"algorithm": algorithm}
     

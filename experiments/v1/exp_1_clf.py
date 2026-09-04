@@ -18,7 +18,7 @@ from exception_rules.decision_rules.measures import *
 import warnings
 warnings.filterwarnings('ignore')
 
-from exception_rules.classification.algorithm import MyRuleClassifier 
+from exception_rules.classification.algorithm import ExceptionRulesClassifier 
 
 import logging
 
@@ -34,7 +34,7 @@ class Experiment:
     def _get_models(self):
 
 
-        algorithm3 = MyRuleClassifier(mincov=5, induction_measuer="c2", logger=self.logger, find_exceptions=True)
+        algorithm3 = ExceptionRulesClassifier(mincov=5, induction_measure="c2", logger=self.logger, find_exceptions=True)
 
         return {"algorithm3": algorithm3}
     

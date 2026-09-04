@@ -10,7 +10,7 @@ from exception_rules.decision_rules.core.coverage import Coverage as CoverageCla
 from exception_rules.decision_rules.core.ruleset import AbstractRuleSet
 from exception_rules.decision_rules.core.rule import AbstractRule
 from exception_rules.decision_rules.core.condition import AbstractCondition
-from exception_rules.core.algorithm import BaseRuleInductionAlgorithm
+from exception_rules.core.algorithm import ExceptionRulesBase
 from exception_rules.decision_rules.survival.ruleset import SurvivalRuleSet
 from exception_rules.decision_rules.survival.rule import SurvivalRule, SurvivalConclusion
 from exception_rules.decision_rules.conditions import CompoundCondition, LogicOperators
@@ -21,7 +21,7 @@ import copy
 
 
 
-class MyRuleSurvival(BaseRuleInductionAlgorithm):
+class ExceptionRulesSurvival(ExceptionRulesBase):
     """Induce survival rules and optional exception-rule triples.
 
     Parameters
@@ -55,7 +55,7 @@ class MyRuleSurvival(BaseRuleInductionAlgorithm):
         Event indicators supplied as ``y``.
     """
 
-    def __init__(self, mincov: int, survival_time_attr: str, cuts_only_between_classes: bool = True, max_growing: int = None, prune: bool = True, find_exceptions:bool = False, delete_cr_n = False, logger = None) -> None:
+    def __init__(self, mincov: int = 5, survival_time_attr: str = "time", cuts_only_between_classes: bool = True, max_growing: int = None, prune: bool = False, find_exceptions:bool = True, delete_cr_n = False, logger = None) -> None:
         """Initialize the survival learner and induction configuration."""
         super().__init__(mincov, max_growing, prune, find_exceptions, logger)
         self.cuts_only_between_classes = cuts_only_between_classes
@@ -80,7 +80,7 @@ class MyRuleSurvival(BaseRuleInductionAlgorithm):
 
             Returns
             -------
-            MyRuleSurvival
+            ExceptionRulesSurvival
                 Fitted estimator; rules are available as ``ruleset``.
 
             Notes
@@ -246,7 +246,7 @@ class MyRuleSurvival(BaseRuleInductionAlgorithm):
             coverage_best = CoverageClass(0,0,0,0)
             condition_best = None
             number_of_covered_negatives_best = 0
-            examples_covered_by_rule, y_for_examples_covered_by_rule = self._get_covered_examples(X,y,rule)
+            examples_covered_by_rule, y_for_examples_covered_by_rule = self.get_covered_examples(X,y,rule)
 
             scores = []
             negative_numbers = []
@@ -312,7 +312,7 @@ class MyRuleSurvival(BaseRuleInductionAlgorithm):
             quality_best = float("-inf")
             coverage_best = CoverageClass(0,0,0,0)
             condition_best = None
-            examples_covered_by_rule, y_for_examples_covered_by_rule = self._get_covered_examples(X,y,rule)
+            examples_covered_by_rule, y_for_examples_covered_by_rule = self.get_covered_examples(X,y,rule)
 
             possible_conditions = self._get_possible_conditions(examples_covered_by_rule, y_for_examples_covered_by_rule)
             possible_conditions_filtered = list(filter(lambda i: i not in rule.premise.subconditions, possible_conditions))
