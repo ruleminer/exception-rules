@@ -105,7 +105,7 @@ exception and reference rules, if they were found.
    import pandas as pd
    from scipy.io import arff
 
-   from exception_rules.classification.algorithm import MyRuleClassifier
+   from exception_rules.classification.algorithm import ExceptionRulesClassifier
 
    df = pd.DataFrame(
        arff.loadarff("./data/classification/train_test/mushroom.arff")[0]
@@ -121,9 +121,9 @@ exception and reference rules, if they were found.
    X = df.drop(columns=["class"])
    y = df["class"]
 
-   classifier = MyRuleClassifier(
+   classifier = ExceptionRulesClassifier(
        mincov=5,
-       induction_measuer="c2",
+       induction_measure="c2",
        find_exceptions=True,
    )
 
@@ -174,28 +174,28 @@ Regression and survival
 
 Regression and survival workflows follow the same general pattern.
 
-For regression, use ``MyRuleRegressor``:
+For regression, use ``ExceptionRulesRegressor``:
 
 .. code-block:: python
 
-   from exception_rules.regression.algorithm import MyRuleRegressor
+   from exception_rules.regression.algorithm import ExceptionRulesRegressor
 
-   regressor = MyRuleRegressor(
+   regressor = ExceptionRulesRegressor(
        mincov=5,
-       induction_measuer="c2",
+       induction_measure="c2",
        prune=False,
        find_exceptions=True,
        max_growing=5,
    )
 
-For survival analysis, use ``MyRuleSurvival`` and provide the name of the
+For survival analysis, use ``ExceptionRulesSurvival`` and provide the name of the
 survival time attribute:
 
 .. code-block:: python
 
-   from exception_rules.survival.algorithm import MyRuleSurvival
+   from exception_rules.survival.algorithm import ExceptionRulesSurvival
 
-   survival_model = MyRuleSurvival(
+   survival_model = ExceptionRulesSurvival(
        mincov=5,
        survival_time_attr="survival_time",
        max_growing=5,
