@@ -121,9 +121,30 @@ class ExceptionRulesBase(ABC):
 
 
     def get_covered_examples(
-        self, X: np.ndarray, y: np.ndarray, rule: AbstractRule
+        self,
+        X: np.ndarray | AbstractRule | None = None,
+        y: np.ndarray | None = None,
+        rule: AbstractRule | None = None,
     ) -> list[np.ndarray]:
-        """Return feature and target rows covered by a rule premise."""
+        """Return feature and target rows covered by a rule premise.
+
+        When ``X`` and ``y`` are omitted, the training data stored during
+        :meth:`fit` are used.  Both the concise ``get_covered_examples(rule)``
+        form and the original ``get_covered_examples(X, y, rule)`` form are
+        supported.
+        """
+        if rule is None and X is not None and hasattr(X, "premise") and y is None:
+            rule = X
+            X = None
+        if rule is None:
+            raise ValueError("A rule must be provided.")
+        if (X is None) != (y is None):
+            raise ValueError("X and y must be provided together or both omitted.")
+        if X is None:
+            if self.X_numpy is None or self.y_numpy is None:
+                raise ValueError("No training data found. Fit the model first.")
+            X = self.X_numpy
+            y = self.y_numpy
         covered_examples_mask = rule.premise.covered_mask(X)
         return [X[covered_examples_mask], y[covered_examples_mask]]
 

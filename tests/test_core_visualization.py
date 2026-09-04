@@ -121,6 +121,25 @@ def test_boxplots_show_message_for_nominal_only_rule(fitted_core):
     figure.clear()
 
 
+def test_get_covered_examples_uses_training_data_by_default(fitted_core):
+    core, cr = fitted_core
+
+    covered_X, covered_y = core.get_covered_examples(cr)
+    keyword_X, keyword_y = core.get_covered_examples(rule=cr)
+
+    assert covered_X.shape == (2, 3)
+    assert covered_y.tolist() == [0, 0]
+    assert keyword_X.tolist() == covered_X.tolist()
+    assert keyword_y.tolist() == covered_y.tolist()
+
+
+def test_get_covered_examples_requires_x_and_y_together(fitted_core):
+    core, cr = fitted_core
+
+    with pytest.raises(ValueError, match="provided together"):
+        core.get_covered_examples(core.X_numpy, rule=cr)
+
+
 def test_requires_complete_exception_rule_triple(fitted_core):
     core, cr = fitted_core
     cr.reference_rule = None
