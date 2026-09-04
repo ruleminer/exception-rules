@@ -12,7 +12,7 @@ import copy
 import numpy as np
 import pandas as pd
 
-from exception_rules.core.algorithm import BaseRuleInductionAlgorithm
+from exception_rules.core.algorithm import ExceptionRulesBase
 from exception_rules.decision_rules.classification.rule import (
     ClassificationConclusion,
     ClassificationRule,
@@ -32,7 +32,7 @@ from exception_rules.decision_rules.measures import *
 
 
 
-class MyRuleClassifier(BaseRuleInductionAlgorithm):
+class ExceptionRulesClassifier(ExceptionRulesBase):
     """Induce classification rules and optional exception-rule triples.
 
     Parameters
@@ -41,7 +41,7 @@ class MyRuleClassifier(BaseRuleInductionAlgorithm):
         Minimum number of newly covered positive examples.  Values below one
         are interpreted as a per-class fraction and converted to at least one
         example during fitting.
-    induction_measuer : str
+    induction_measure : str
         Name of a quality function imported from ``decision_rules.measures``.
         The spelling is retained for API compatibility.
     cuts_only_between_classes : bool, default=True
@@ -76,11 +76,11 @@ class MyRuleClassifier(BaseRuleInductionAlgorithm):
     returning the rule set directly.
     """
 
-    def __init__(self, mincov: int, induction_measuer: str, cuts_only_between_classes: bool = True, max_growing: int = None, prune: bool = True, find_exceptions:bool = False, threshold:float = 0.8, delete_cr_n:bool = False, logger = None) -> None:
+    def __init__(self, mincov: int = 5, induction_measure: str = "c2", cuts_only_between_classes: bool = True, max_growing: int = None, prune: bool = False, find_exceptions:bool = True, threshold:float = 0.8, delete_cr_n:bool = False, logger = None) -> None:
         """Initialize the classifier and its induction configuration."""
         super().__init__(mincov, max_growing, prune, find_exceptions, logger)
         self.cuts_only_between_classes = cuts_only_between_classes
-        self.measure_function = globals().get(induction_measuer)
+        self.measure_function = globals().get(induction_measure)
         self.treshold = threshold
         self.delete_cr_n = delete_cr_n
 
@@ -122,7 +122,7 @@ class MyRuleClassifier(BaseRuleInductionAlgorithm):
 
         Returns
         -------
-        MyRuleClassifier
+        ExceptionRulesClassifier
             The fitted estimator.  Induced rules are stored in ``ruleset``.
 
         Notes

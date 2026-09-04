@@ -21,7 +21,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-from exception_rules.survival.algorithm import MyRuleSurvival
+from exception_rules.survival.algorithm import ExceptionRulesSurvival
 
 import logging
 
@@ -46,8 +46,8 @@ class Experiment:
 
     def _get_models(self):
 
-        algorithm_log_rank = MyRuleSurvival(mincov=5, survival_time_attr="survival_time", max_growing = 5, find_exceptions=False, logger = self.logger)
-        algorithm_log_rank_with_exceptions = MyRuleSurvival(mincov=5, survival_time_attr="survival_time", max_growing = 5, find_exceptions=True, logger = self.logger)
+        algorithm_log_rank = ExceptionRulesSurvival(mincov=5, survival_time_attr="survival_time", max_growing = 5, find_exceptions=False, logger = self.logger)
+        algorithm_log_rank_with_exceptions = ExceptionRulesSurvival(mincov=5, survival_time_attr="survival_time", max_growing = 5, find_exceptions=True, logger = self.logger)
         algorithm_rulekit = RuleKitAlgorithm(survival_time_attr="survival_time", minsupp_new = 5, max_growing = 5)
         survival_tree = SurvivalTreeAlgorithm(survival_time_col="survival_time", max_depth=5)
 

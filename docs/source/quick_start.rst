@@ -80,6 +80,19 @@ You can run them from the repository root:
    python example_regression.py
    python example_survival.py
 
+Illustrative example
+--------------------
+
+The illustrative notebook presents the complete exception-rule workflow and
+demonstrates how to inspect CR, RR, and ER coverage using interactive tables,
+attribute distributions, PCA, LDA, parallel coordinates, heatmaps, boxplots,
+and coverage-intersection plots.
+
+.. toctree::
+   :maxdepth: 1
+
+   Open the illustrative example <./quick_start/ilustrative_example.ipynb>
+
 First classification example
 ----------------------------
 

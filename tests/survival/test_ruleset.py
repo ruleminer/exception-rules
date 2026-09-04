@@ -11,7 +11,7 @@ from tests.loaders import load_ruleset, load_dataset
 
 from exception_rules.decision_rules.problem import ProblemTypes
 
-from exception_rules.survival.algorithm import MyRuleSurvival
+from exception_rules.survival.algorithm import ExceptionRulesSurvival
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -38,7 +38,7 @@ class TestSurvivalPredictionIndicators(unittest.TestCase):
         y = df["survival_status"].astype(int).astype(str)
 
 
-        generator = MyRuleSurvival(mincov=5, survival_time_attr="survival_time", max_growing=5, find_exceptions=True)
+        generator = ExceptionRulesSurvival(mincov=5, survival_time_attr="survival_time", max_growing=5, find_exceptions=True)
 
 
         model = generator.fit(X , y)
@@ -66,7 +66,7 @@ class TestSurvivalPredictionIndicators(unittest.TestCase):
         y = df["survival_status"].astype(int).astype(str)
 
 
-        generator = MyRuleSurvival(mincov=5, survival_time_attr="survival_time", max_growing=5, find_exceptions=True)
+        generator = ExceptionRulesSurvival(mincov=5, survival_time_attr="survival_time", max_growing=5, find_exceptions=True)
 
 
         model = generator.fit(X , y)

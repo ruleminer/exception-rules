@@ -11,7 +11,7 @@ from tests.loaders import load_ruleset, load_dataset
 
 from exception_rules.decision_rules.problem import ProblemTypes
 
-from exception_rules.classification.algorithm import MyRuleClassifier
+from exception_rules.classification.algorithm import ExceptionRulesClassifier
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -35,7 +35,7 @@ class TestClassificationPredictionIndicators(unittest.TestCase):
         y = df["class"]
 
 
-        generator = MyRuleClassifier(mincov=5, induction_measuer="c2", find_exceptions=True)
+        generator = ExceptionRulesClassifier(mincov=5, induction_measure="c2", find_exceptions=True)
 
 
         model = generator.fit(X , y)
@@ -63,7 +63,7 @@ class TestClassificationPredictionIndicators(unittest.TestCase):
         y = df["class"]
 
 
-        generator = MyRuleClassifier(mincov=5, induction_measuer="c2", find_exceptions=True)
+        generator = ExceptionRulesClassifier(mincov=5, induction_measure="c2", find_exceptions=True)
 
 
         model = generator.fit(X , y)

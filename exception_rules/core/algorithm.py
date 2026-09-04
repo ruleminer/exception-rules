@@ -13,7 +13,7 @@ from exception_rules.decision_rules.core.rule import AbstractRule
 from exception_rules.decision_rules.core.ruleset import AbstractRuleSet
 
 
-class BaseRuleInductionAlgorithm(ABC):
+class ExceptionRulesBase(ABC):
     """Shared template for classification, regression and survival learners."""
 
     def __init__(
@@ -101,12 +101,590 @@ class BaseRuleInductionAlgorithm(ABC):
             if len(rule.premise.subconditions) <= 1:
                 continue_pruning = False
 
-    def _get_covered_examples(
+    def print_rules(self, only_with_exceptions: bool = False) -> None:
+        """Print the ruleset in a human-readable format.
+
+        Parameters
+        ----------
+        only_with_exceptions:
+            If true, omit commonsense rules which have no exception rule.
+        """
+        if not hasattr(self, "ruleset"):
+            raise ValueError("No ruleset found. Fit the model first.")
+        for i, rule in enumerate(self.ruleset.rules):
+            if only_with_exceptions and rule.exception_rule is None:
+                continue
+            print(f"Rule {i + 1}: {rule}")
+            if rule.exception_rule is not None:
+                print(f"Exception Rule {i + 1}: {rule.exception_rule}")
+                print(f"Reference Rule {i + 1}: {rule.reference_rule}")
+
+
+    def get_covered_examples(
         self, X: np.ndarray, y: np.ndarray, rule: AbstractRule
     ) -> list[np.ndarray]:
         """Return feature and target rows covered by a rule premise."""
         covered_examples_mask = rule.premise.covered_mask(X)
         return [X[covered_examples_mask], y[covered_examples_mask]]
+
+    def plot_covered_examples_distributions(
+        self,
+        rule: AbstractRule,
+        *,
+        all_attributes: bool = True,
+        bins: int = 10,
+        compact: bool = False,
+        figsize: tuple[float, float] | None = None,
+        show: bool = True,
+    ) -> tuple[Any, np.ndarray]:
+        """Plot attributes of examples covered by a CR, its RR and its ER.
+
+        Numeric attributes are shown as overlaid histograms with common bin
+        edges.  Nominal attributes are shown as grouped count bars.  When
+        ``all_attributes`` is false, only attributes used by the exception
+        rule are included.
+
+        Parameters
+        ----------
+        rule:
+            A commonsense rule (CR) with ``reference_rule`` (RR) and
+            ``exception_rule`` (ER) assigned.
+        all_attributes:
+            Plot every training attribute.  If false, plot only attributes
+            occurring in the ER premise.
+        bins:
+            Number of bins used for numeric attributes.
+        compact:
+            Arrange smaller plots in a multi-column grid instead of placing
+            every attribute in a separate full-width row.
+        figsize:
+            Optional matplotlib figure size.  By default it is adjusted to
+            the number of attributes and the selected layout.
+        show:
+            Call ``matplotlib.pyplot.show`` before returning.
+
+        Returns
+        -------
+        (figure, axes):
+            The matplotlib figure and a one-dimensional array of axes, which
+            allows callers to further customise or save the visualisation.
+        """
+        if not hasattr(self, "X_pandas"):
+            raise ValueError("No training data found. Fit the model first.")
+        if rule.reference_rule is None or rule.exception_rule is None:
+            raise ValueError("The selected CR must have both an RR and an ER.")
+        if not isinstance(bins, int) or bins < 1:
+            raise ValueError("bins must be a positive integer.")
+
+        # Import lazily so using the induction algorithms does not initialise
+        # a plotting backend unless a visualisation is explicitly requested.
+        import matplotlib.pyplot as plt
+
+        if all_attributes:
+            attribute_indexes = list(range(self.X_pandas.shape[1]))
+        else:
+            attribute_indexes = sorted(rule.exception_rule.premise.attributes)
+            if not attribute_indexes:
+                raise ValueError("The ER does not contain any attributes to plot.")
+
+        rule_groups = (
+            ("CR", rule),
+            ("RR", rule.reference_rule),
+            ("ER", rule.exception_rule),
+        )
+        covered = {
+            label: self.X_pandas.loc[
+                current_rule.premise.covered_mask(self.X_numpy)
+            ]
+            for label, current_rule in rule_groups
+        }
+
+        if compact:
+            columns_count = min(3, len(attribute_indexes))
+            rows_count = int(np.ceil(len(attribute_indexes) / columns_count))
+            if figsize is None:
+                figsize = (4.5 * columns_count, 3.2 * rows_count)
+        else:
+            columns_count = 1
+            rows_count = len(attribute_indexes)
+            if figsize is None:
+                figsize = (10, max(3.5, 3.5 * rows_count))
+        figure, axes = plt.subplots(
+            rows_count, columns_count, figsize=figsize, squeeze=False
+        )
+        axes = axes.ravel()
+        colors = {"CR": "tab:blue", "RR": "tab:orange", "ER": "tab:red"}
+
+        for axis, attribute_index in zip(axes, attribute_indexes):
+            attribute = self.X_pandas.columns[attribute_index]
+            if pd.api.types.is_numeric_dtype(self.X_pandas[attribute].dtype):
+                values = [
+                    frame[attribute].dropna().to_numpy(dtype=float)
+                    for frame in covered.values()
+                ]
+                non_empty = [value for value in values if value.size]
+                bin_edges = (
+                    np.histogram_bin_edges(np.concatenate(non_empty), bins=bins)
+                    if non_empty
+                    else bins
+                )
+                for (label, _), value in zip(rule_groups, values):
+                    axis.hist(
+                        value,
+                        bins=bin_edges,
+                        alpha=0.4,
+                        label=f"{label} (n={len(value)})",
+                        color=colors[label],
+                    )
+                axis.set_ylabel("Count")
+            else:
+                category_values = [
+                    frame[attribute].astype("string").fillna("<missing>")
+                    for frame in covered.values()
+                ]
+                categories = list(dict.fromkeys(
+                    value for series in category_values for value in series.tolist()
+                ))
+                positions = np.arange(len(categories), dtype=float)
+                width = 0.25
+                for offset, ((label, _), values) in enumerate(
+                    zip(rule_groups, category_values)
+                ):
+                    counts = values.value_counts().reindex(categories, fill_value=0)
+                    axis.bar(
+                        positions + (offset - 1) * width,
+                        counts.to_numpy(),
+                        width=width,
+                        label=f"{label} (n={len(values)})",
+                        color=colors[label],
+                    )
+                axis.set_xticks(positions, categories, rotation=45, ha="right")
+                axis.set_ylabel("Count")
+            axis.set_title(str(attribute))
+            axis.legend()
+
+        # A rectangular compact grid can contain unused panels.
+        for axis in axes[len(attribute_indexes):]:
+            axis.set_visible(False)
+
+        figure.suptitle("Attribute distributions for examples covered by CR, RR and ER")
+        figure.tight_layout()
+        if show:
+            plt.show()
+        return figure, axes
+
+    def _rule_projection_data(
+        self, rule: AbstractRule, all_attributes: bool
+    ) -> tuple[pd.DataFrame, np.ndarray, list[str]]:
+        """Prepare mixed-type attributes and exclusive CR/RR/ER labels."""
+        if not hasattr(self, "X_pandas"):
+            raise ValueError("No training data found. Fit the model first.")
+        if rule.reference_rule is None or rule.exception_rule is None:
+            raise ValueError("The selected CR must have both an RR and an ER.")
+
+        if all_attributes:
+            indexes = list(range(self.X_pandas.shape[1]))
+        else:
+            indexes = sorted(rule.exception_rule.premise.attributes)
+            if not indexes:
+                raise ValueError("The ER does not contain any attributes to plot.")
+        attributes = [str(self.X_pandas.columns[index]) for index in indexes]
+
+        labels = np.full(len(self.X_pandas), "Uncovered", dtype=object)
+        # Assignment is deliberately exclusive.  More specific rules override
+        # broader ones, so overlapping points remain readable.
+        labels[rule.premise.covered_mask(self.X_numpy)] = "CR"
+        labels[rule.reference_rule.premise.covered_mask(self.X_numpy)] = "RR"
+        labels[rule.exception_rule.premise.covered_mask(self.X_numpy)] = "ER"
+        return self.X_pandas.iloc[:, indexes], labels, attributes
+
+    @staticmethod
+    def _encode_projection_attributes(data: pd.DataFrame) -> tuple[np.ndarray, list[str]]:
+        """Impute, scale and one-hot encode numeric and nominal columns."""
+        from sklearn.compose import ColumnTransformer
+        from sklearn.impute import SimpleImputer
+        from sklearn.pipeline import Pipeline
+        from sklearn.preprocessing import OneHotEncoder, StandardScaler
+
+        numeric = data.select_dtypes(include=np.number).columns.tolist()
+        nominal = [column for column in data.columns if column not in numeric]
+        transformers = []
+        if numeric:
+            transformers.append((
+                "numeric",
+                Pipeline([
+                    ("imputer", SimpleImputer(strategy="median")),
+                    ("scaler", StandardScaler()),
+                ]),
+                numeric,
+            ))
+        if nominal:
+            transformers.append((
+                "nominal",
+                Pipeline([
+                    ("imputer", SimpleImputer(strategy="most_frequent")),
+                    ("encoder", OneHotEncoder(handle_unknown="ignore", sparse_output=False)),
+                ]),
+                nominal,
+            ))
+        transformer = ColumnTransformer(transformers)
+        encoded = transformer.fit_transform(data)
+        return np.asarray(encoded, dtype=float), transformer.get_feature_names_out().tolist()
+
+    def plot_rule_pca(
+        self,
+        rule: AbstractRule,
+        *,
+        all_attributes: bool = False,
+        show_uncovered: bool = True,
+        figsize: tuple[float, float] = (9, 7),
+        show: bool = True,
+    ) -> tuple[Any, Any]:
+        """Show CR, RR and ER examples in a two-dimensional PCA projection."""
+        import matplotlib.pyplot as plt
+        from sklearn.decomposition import PCA
+
+        data, labels, _ = self._rule_projection_data(rule, all_attributes)
+        encoded, _ = self._encode_projection_attributes(data)
+        if min(encoded.shape) < 2:
+            raise ValueError("PCA requires at least two examples and two encoded features.")
+
+        pca = PCA(n_components=2)
+        projection = pca.fit_transform(encoded)
+        figure, axis = plt.subplots(figsize=figsize)
+        styles = {
+            "Uncovered": ("lightgray", "o", 24),
+            "CR": ("tab:blue", "o", 42),
+            "RR": ("tab:orange", "^", 50),
+            "ER": ("tab:red", "*", 90),
+        }
+        masks = {
+            "Uncovered": labels == "Uncovered",
+            "CR": rule.premise.covered_mask(self.X_numpy),
+            "RR": rule.reference_rule.premise.covered_mask(self.X_numpy),
+            "ER": rule.exception_rule.premise.covered_mask(self.X_numpy),
+        }
+        for label, (color, marker, size) in styles.items():
+            if label == "Uncovered" and not show_uncovered:
+                continue
+            mask = masks[label]
+            if np.any(mask):
+                axis.scatter(
+                    projection[mask, 0], projection[mask, 1],
+                    c=color, marker=marker, s=size, alpha=0.75,
+                    edgecolors="white", linewidths=0.5,
+                    label=f"{label} (n={np.count_nonzero(mask)})",
+                )
+        axis.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%})")
+        axis.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%})")
+        axis.set_title("PCA projection of CR, RR and ER coverage")
+        axis.legend()
+        axis.grid(alpha=0.2)
+        figure.tight_layout()
+        if show:
+            plt.show()
+        return figure, axis
+
+    def plot_exception_separation(
+        self,
+        rule: AbstractRule,
+        *,
+        all_attributes: bool = False,
+        bins: int = 15,
+        figsize: tuple[float, float] = (9, 5),
+        show: bool = True,
+    ) -> tuple[Any, Any]:
+        """Plot a supervised LDA axis separating ER from other examples."""
+        import matplotlib.pyplot as plt
+        from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+
+        if not isinstance(bins, int) or bins < 1:
+            raise ValueError("bins must be a positive integer.")
+        data, labels, _ = self._rule_projection_data(rule, all_attributes)
+        encoded, _ = self._encode_projection_attributes(data)
+        is_exception = labels == "ER"
+        if np.unique(is_exception).size < 2:
+            raise ValueError("Separation requires both ER and non-ER examples.")
+
+        lda = LinearDiscriminantAnalysis(n_components=1)
+        scores = lda.fit_transform(encoded, is_exception.astype(int)).ravel()
+        figure, axis = plt.subplots(figsize=figsize)
+        axis.hist(
+            scores[~is_exception], bins=bins, density=True, alpha=0.5,
+            color="tab:blue", label=f"Other (n={np.count_nonzero(~is_exception)})",
+        )
+        axis.hist(
+            scores[is_exception], bins=bins, density=True, alpha=0.65,
+            color="tab:red", label=f"ER (n={np.count_nonzero(is_exception)})",
+        )
+        axis.set_xlabel("LDA separation axis")
+        axis.set_ylabel("Density")
+        axis.set_title("Separation of exception examples")
+        axis.legend()
+        axis.grid(axis="y", alpha=0.2)
+        figure.tight_layout()
+        if show:
+            plt.show()
+        return figure, axis
+
+    def _coverage_masks(self, rule: AbstractRule) -> dict[str, np.ndarray]:
+        """Return independent coverage masks for a complete CR/RR/ER triple."""
+        if not hasattr(self, "X_numpy") or self.X_numpy is None:
+            raise ValueError("No training data found. Fit the model first.")
+        if rule.reference_rule is None or rule.exception_rule is None:
+            raise ValueError("The selected CR must have both an RR and an ER.")
+        return {
+            "CR": np.asarray(rule.premise.covered_mask(self.X_numpy), dtype=bool).copy(),
+            "RR": np.asarray(
+                rule.reference_rule.premise.covered_mask(self.X_numpy), dtype=bool
+            ).copy(),
+            "ER": np.asarray(
+                rule.exception_rule.premise.covered_mask(self.X_numpy), dtype=bool
+            ).copy(),
+        }
+
+    def plot_exception_neighborhood(
+        self, rule: AbstractRule, *, all_attributes: bool = False,
+        compact: bool = True, show: bool = True
+    ) -> tuple[Any, np.ndarray]:
+        """Compare ER with RR-without-ER and CR-without-ER using ECDF/count plots."""
+        import matplotlib.pyplot as plt
+
+        data = self._rule_data(rule, all_attributes)
+        masks = self._coverage_masks(rule)
+        groups = {
+            "CR without ER": masks["CR"] & ~masks["ER"],
+            "RR without ER": masks["RR"] & ~masks["ER"],
+            "ER": masks["ER"],
+        }
+        count = data.shape[1]
+        columns = min(3, count) if compact else 1
+        rows = int(np.ceil(count / columns))
+        figure, axes = plt.subplots(rows, columns, figsize=(4.5 * columns, 3.2 * rows), squeeze=False)
+        axes = axes.ravel()
+        colors = ["tab:blue", "tab:orange", "tab:red"]
+        for axis, attribute in zip(axes, data.columns):
+            if pd.api.types.is_numeric_dtype(data[attribute]):
+                for (label, mask), color in zip(groups.items(), colors):
+                    values = np.sort(data.loc[mask, attribute].dropna().to_numpy(float))
+                    if values.size:
+                        axis.step(values, np.arange(1, len(values) + 1) / len(values),
+                                  where="post", label=f"{label} (n={len(values)})", color=color)
+                axis.set_ylabel("Cumulative proportion")
+            else:
+                categories = data[attribute].astype("string").fillna("<missing>").unique().tolist()
+                positions = np.arange(len(categories))
+                for offset, ((label, mask), color) in enumerate(zip(groups.items(), colors)):
+                    values = data.loc[mask, attribute].astype("string").fillna("<missing>")
+                    proportions = values.value_counts(normalize=True).reindex(categories, fill_value=0)
+                    axis.bar(positions + (offset - 1) * .25, proportions, width=.25,
+                             label=f"{label} (n={len(values)})", color=color)
+                axis.set_xticks(positions, categories, rotation=45, ha="right")
+                axis.set_ylabel("Proportion")
+            axis.set_title(str(attribute))
+            axis.legend(fontsize="small")
+        for axis in axes[count:]:
+            axis.set_visible(False)
+        figure.suptitle("Exception and its direct rule neighbourhood")
+        figure.tight_layout()
+        if show:
+            plt.show()
+        return figure, axes
+
+    def _rule_data(self, rule: AbstractRule, all_attributes: bool) -> pd.DataFrame:
+        """Select all attributes or only attributes occurring in the ER."""
+        data, _, _ = self._rule_projection_data(rule, all_attributes)
+        return data
+
+    # Kept separate from projection preparation so plotting helpers have a
+    # concise, intention-revealing call site.
+    def _rule_data_for_plot(self, rule: AbstractRule, all_attributes: bool) -> pd.DataFrame:
+        return self._rule_data(rule, all_attributes)
+
+    def plot_rule_parallel_coordinates(
+        self, rule: AbstractRule, *, all_attributes: bool = False,
+        max_examples: int = 300, show: bool = True
+    ) -> tuple[Any, Any]:
+        """Plot standardised mixed-type profiles as parallel coordinates."""
+        import matplotlib.pyplot as plt
+
+        data = self._rule_data_for_plot(rule, all_attributes)
+        encoded, feature_names = self._encode_projection_attributes(data)
+        masks = self._coverage_masks(rule)
+        labels = np.full(len(data), "Other", dtype=object)
+        labels[masks["CR"]] = "CR"
+        labels[masks["RR"]] = "RR"
+        labels[masks["ER"]] = "ER"
+        selected = np.flatnonzero(labels != "Other")
+        if len(selected) > max_examples:
+            selected = np.random.default_rng(0).choice(selected, max_examples, replace=False)
+        figure, axis = plt.subplots(figsize=(max(9, len(feature_names) * .7), 6))
+        colors = {"CR": "tab:blue", "RR": "tab:orange", "ER": "tab:red"}
+        for label in ("CR", "RR", "ER"):
+            indexes = selected[labels[selected] == label]
+            for number, index in enumerate(indexes):
+                axis.plot(encoded[index], color=colors[label], alpha=.18,
+                          label=label if number == 0 else None)
+        axis.set_xticks(np.arange(len(feature_names)), feature_names, rotation=60, ha="right")
+        axis.set_ylabel("Transformed value")
+        axis.set_title("Parallel profiles of CR, RR and ER examples")
+        axis.legend()
+        figure.tight_layout()
+        if show:
+            plt.show()
+        return figure, axis
+
+    def plot_rule_boxplots(
+        self, rule: AbstractRule, *, all_attributes: bool = False,
+        compact: bool = True, show: bool = True
+    ) -> tuple[Any, np.ndarray]:
+        """Compare numeric CR, RR and ER attributes with boxplots."""
+        import matplotlib.pyplot as plt
+
+        data = self._rule_data_for_plot(rule, all_attributes)
+        numeric = data.select_dtypes(include=np.number).columns.tolist()
+        if not numeric:
+            figure, axis = plt.subplots(figsize=(8, 3.5))
+            axis.set_axis_off()
+            axis.text(
+                .5,
+                .58,
+                "No numerical attributes to display",
+                ha="center",
+                va="center",
+                fontsize=16,
+                fontweight="bold",
+                color="dimgray",
+                transform=axis.transAxes,
+            )
+            axis.text(
+                .5,
+                .38,
+                "The selected exception rule contains only nominal attributes.\n"
+                "Use plot_covered_examples_distributions() or "
+                "plot_exception_neighborhood() to inspect their categories.",
+                ha="center",
+                va="center",
+                fontsize=11,
+                color="gray",
+                linespacing=1.5,
+                transform=axis.transAxes,
+            )
+            figure.tight_layout()
+            if show:
+                plt.show()
+            return figure, np.asarray([axis])
+        masks = self._coverage_masks(rule)
+        columns = min(3, len(numeric)) if compact else 1
+        rows = int(np.ceil(len(numeric) / columns))
+        figure, axes = plt.subplots(rows, columns, figsize=(4.3 * columns, 3.3 * rows), squeeze=False)
+        axes = axes.ravel()
+        for axis, attribute in zip(axes, numeric):
+            values = [data.loc[masks[label], attribute].dropna().to_numpy(float)
+                      for label in ("CR", "RR", "ER")]
+            axis.boxplot(values, tick_labels=["CR", "RR", "ER"], patch_artist=True)
+            axis.set_title(str(attribute))
+            axis.set_ylabel("Value")
+        for axis in axes[len(numeric):]:
+            axis.set_visible(False)
+        figure.suptitle("Numeric attribute distributions")
+        figure.tight_layout()
+        if show:
+            plt.show()
+        return figure, axes
+
+    def plot_rule_heatmap(
+        self, rule: AbstractRule, *, all_attributes: bool = False,
+        max_examples: int = 300, show: bool = True
+    ) -> tuple[Any, Any]:
+        """Show transformed attribute profiles ordered by CR/RR/ER membership."""
+        import matplotlib.pyplot as plt
+
+        data = self._rule_data_for_plot(rule, all_attributes)
+        encoded, feature_names = self._encode_projection_attributes(data)
+        masks = self._coverage_masks(rule)
+        labels = np.full(len(data), "Other", dtype=object)
+        labels[masks["CR"]] = "CR"
+        labels[masks["RR"]] = "RR"
+        labels[masks["ER"]] = "ER"
+        selected = np.flatnonzero(labels != "Other")
+        order_value = {"CR": 0, "RR": 1, "ER": 2}
+        selected = np.array(sorted(selected, key=lambda index: order_value[labels[index]]))
+        if len(selected) > max_examples:
+            selected = selected[np.linspace(0, len(selected) - 1, max_examples, dtype=int)]
+        figure, axis = plt.subplots(figsize=(max(8, len(feature_names) * .55), 7))
+        image = axis.imshow(encoded[selected], aspect="auto", cmap="coolwarm")
+        axis.set_xticks(np.arange(len(feature_names)), feature_names, rotation=60, ha="right")
+        axis.set_ylabel("Examples ordered CR → RR → ER")
+        axis.set_title("Attribute-profile heatmap")
+        figure.colorbar(image, ax=axis, label="Transformed value")
+        figure.tight_layout()
+        if show:
+            plt.show()
+        return figure, axis
+
+    def plot_rule_coverage_matrix(
+        self, rule: AbstractRule, *, show: bool = True
+    ) -> tuple[Any, Any]:
+        """Show the Boolean CR/RR/ER coverage pattern for every example."""
+        import matplotlib.pyplot as plt
+        from matplotlib.colors import ListedColormap
+
+        masks = self._coverage_masks(rule)
+        matrix = np.column_stack([masks[label] for label in ("CR", "RR", "ER")]).astype(int)
+        order = np.argsort(matrix @ np.array([1, 2, 4]))
+        figure, axis = plt.subplots(figsize=(5, max(4, min(10, len(matrix) / 100))))
+        axis.imshow(matrix[order], aspect="auto", interpolation="nearest",
+                    cmap=ListedColormap(["white", "tab:blue"]), vmin=0, vmax=1)
+        axis.set_xticks(range(3), ["CR", "RR", "ER"])
+        axis.set_ylabel("Examples grouped by coverage pattern")
+        axis.set_title("Rule coverage matrix")
+        figure.tight_layout()
+        if show:
+            plt.show()
+        return figure, axis
+
+    def plot_rule_coverage_intersections(
+        self, rule: AbstractRule, *, show: bool = True
+    ) -> tuple[Any, np.ndarray]:
+        """Show exact CR/RR/ER intersections in an UpSet-style chart."""
+        import matplotlib.pyplot as plt
+
+        masks = self._coverage_masks(rule)
+        combinations = []
+        for code in range(1, 8):
+            membership = tuple(bool(code & (1 << index)) for index in range(3))
+            exact = np.ones(len(self.X_numpy), dtype=bool)
+            for present, label in zip(membership, ("CR", "RR", "ER")):
+                exact &= masks[label] if present else ~masks[label]
+            combinations.append((membership, int(np.count_nonzero(exact))))
+        combinations.sort(key=lambda item: item[1], reverse=True)
+
+        figure, (bars, matrix_axis) = plt.subplots(
+            2, 1, figsize=(9, 6), sharex=True,
+            gridspec_kw={"height_ratios": [3, 1.3]}
+        )
+        positions = np.arange(len(combinations))
+        counts = [count for _, count in combinations]
+        bars.bar(positions, counts, color="tab:purple")
+        bars.set_ylabel("Examples")
+        bars.set_title("Exact CR/RR/ER coverage intersections")
+        for position, count in zip(positions, counts):
+            bars.text(position, count, str(count), ha="center", va="bottom", fontsize="small")
+        for position, (membership, _) in zip(positions, combinations):
+            active = [index for index, present in enumerate(membership) if present]
+            matrix_axis.scatter([position] * 3, range(3), color="lightgray", s=35)
+            matrix_axis.scatter([position] * len(active), active, color="black", s=45)
+            if len(active) > 1:
+                matrix_axis.plot([position, position], [min(active), max(active)], color="black")
+        matrix_axis.set_yticks(range(3), ["CR", "RR", "ER"])
+        matrix_axis.set_xticks(positions, [str(count) for count in counts])
+        matrix_axis.set_xlabel("Intersection size")
+        matrix_axis.invert_yaxis()
+        figure.tight_layout()
+        if show:
+            plt.show()
+        return figure, np.asarray([bars, matrix_axis])
 
     def _check_candidate(
         self, new_covered_examples: np.ndarray, uncovered: Any

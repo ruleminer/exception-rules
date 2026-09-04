@@ -17,11 +17,11 @@ y = df["class"]
 
 
 
-from exception_rules.regression.algorithm import MyRuleRegressor
+from exception_rules.regression.algorithm import ExceptionRulesRegressor
 
 
 
-generator = MyRuleRegressor(mincov=5, induction_measuer="c2", prune = False, find_exceptions=True, max_growing=5)
+generator = ExceptionRulesRegressor(mincov=5, induction_measure="c2", prune = False, find_exceptions=True, max_growing=5)
 
 
 model = generator.fit(X, y)

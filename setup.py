@@ -15,6 +15,8 @@ setup(
     install_requires=[
         'numpy>=1.26,<3',
         'pandas>=2.0,<3',
+        'matplotlib>=3.8,<4',
+        'itables>=2.6,<3',
         'pydantic>=2.0,<3',
         'scipy>=1.11,<2',
         'scikit-learn>=1.3,<2',

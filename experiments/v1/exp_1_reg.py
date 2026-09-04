@@ -19,7 +19,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-from exception_rules.regression.algorithm import MyRuleRegressor as MyRuleRegressor
+from exception_rules.regression.algorithm import ExceptionRulesRegressor as ExceptionRulesRegressor
 
 import logging
 
@@ -37,7 +37,7 @@ class Experiment:
     def _get_models(self):
 
 
-        algorithm = MyRuleRegressor(mincov=5, induction_measuer="c2", max_growing = 5, logger=self.logger, find_exceptions=True)
+        algorithm = ExceptionRulesRegressor(mincov=5, induction_measure="c2", max_growing = 5, logger=self.logger, find_exceptions=True)
 
         return {"algorithm": algorithm}
     

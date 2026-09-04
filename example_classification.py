@@ -20,9 +20,9 @@ X = df.drop(columns=["class"])
 y = df["class"]
 
 
-from exception_rules.classification.algorithm import MyRuleClassifier
+from exception_rules.classification.algorithm import ExceptionRulesClassifier
 
-generator = MyRuleClassifier(mincov=5, induction_measuer="c2", find_exceptions=True)
+generator = ExceptionRulesClassifier(mincov=5, induction_measure="c2", find_exceptions=True)
 
 
 model = generator.fit(X , y)

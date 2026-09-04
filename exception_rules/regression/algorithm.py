@@ -11,7 +11,7 @@ from exception_rules.decision_rules.core.coverage import Coverage as CoverageCla
 from exception_rules.decision_rules.core.ruleset import AbstractRuleSet
 from exception_rules.decision_rules.core.rule import AbstractRule
 from exception_rules.decision_rules.core.condition import AbstractCondition
-from exception_rules.core.algorithm import BaseRuleInductionAlgorithm
+from exception_rules.core.algorithm import ExceptionRulesBase
 from exception_rules.decision_rules.regression.ruleset import RegressionRuleSet
 from exception_rules.decision_rules.regression.rule import RegressionRule, RegressionConclusion
 from exception_rules.decision_rules.conditions import CompoundCondition, LogicOperators
@@ -21,14 +21,14 @@ import pandas as pd
 import numpy as np
 from scipy import stats
 
-class MyRuleRegressor(BaseRuleInductionAlgorithm):
+class ExceptionRulesRegressor(ExceptionRulesBase):
     """Induce regression rules and optional exception-rule triples.
 
     Parameters
     ----------
     mincov : int
         Minimum number of newly covered examples required for a condition.
-    induction_measuer : str
+    induction_measure : str
         Name of a quality function imported from ``decision_rules.measures``.
         The misspelling is retained for API compatibility.
     max_growing : int or None, default=None
@@ -49,11 +49,11 @@ class MyRuleRegressor(BaseRuleInductionAlgorithm):
         Cached Boolean masks keyed by condition hashes.
     """
 
-    def __init__(self, mincov: int, induction_measuer: str, max_growing: int = None, prune: bool = True, find_exceptions:bool = False, logger = None) -> None:
+    def __init__(self, mincov: int = 5, induction_measure: str = "c2", max_growing: int = None, prune: bool = False, find_exceptions:bool = True, logger = None) -> None:
         """Initialize the regressor and its induction configuration."""
 
         super().__init__(mincov, max_growing, prune, find_exceptions, logger)
-        self.measure_function = globals().get(induction_measuer)
+        self.measure_function = globals().get(induction_measure)
         
 
     def fit(self, X: pd.DataFrame, y: pd.Series, attributes_list: list[list[str]] = None) -> AbstractRuleSet:
@@ -72,7 +72,7 @@ class MyRuleRegressor(BaseRuleInductionAlgorithm):
 
             Returns
             -------
-            MyRuleRegressor
+            ExceptionRulesRegressor
                 Fitted estimator; rules are available as ``ruleset``.
 
             Notes
@@ -279,8 +279,8 @@ class MyRuleRegressor(BaseRuleInductionAlgorithm):
     def _has_exception_distribution(y_cr, y_rr, y_er) -> bool:
         """Check whether the intersection mean lies outside both rule bands."""
         er_mean = np.mean(y_er)
-        rr_mean, rr_std = MyRuleRegressor._population_mean_std(y_rr)
-        cr_mean, cr_std = MyRuleRegressor._population_mean_std(y_cr)
+        rr_mean, rr_std = ExceptionRulesRegressor._population_mean_std(y_rr)
+        cr_mean, cr_std = ExceptionRulesRegressor._population_mean_std(y_cr)
         return (
             cr_mean - cr_std < rr_mean < cr_mean + cr_std
             and not cr_mean - cr_std <= er_mean <= cr_mean + cr_std
