@@ -1,9 +1,9 @@
 Quick start
 ===========
 
-This page shows how to install Exception-Rules and run a minimal example.
+This page shows how to install exception-rules and run a minimal example.
 
-Exception-Rules is a Python package for discovering exception rules in
+exception-rules is a Python package for discovering exception rules in
 classification, regression, and survival analysis problems. The package
 implements rule-based algorithms that induce commonsense rules and can
 optionally search for exception rules and reference rules.
@@ -12,7 +12,7 @@ The basic workflow is similar for all supported problem types:
 
 1. load a dataset,
 2. split the data into attributes ``X`` and target ``y``,
-3. create an Exception-Rules model,
+3. create an exception-rules model,
 4. fit the model,
 5. inspect the generated ruleset.
 

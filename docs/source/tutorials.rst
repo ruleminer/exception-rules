@@ -2,7 +2,7 @@ Tutorials
 =========
 
 This section contains step-by-step tutorials for the main problem types
-supported by Exception-Rules.
+supported by exception-rules.
 
 .. toctree::
    :maxdepth: 1

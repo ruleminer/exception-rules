@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath("../../decision-rules"))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Exception-Rules'
+project = 'exception-rules'
 copyright = '2026, Dawid Macha'
 author = 'Dawid Macha'
 release = '0.0.1'
