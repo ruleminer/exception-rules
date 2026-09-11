@@ -1,7 +1,6 @@
 # Exception-Rules
 
-This repository contains the datasets, algorithm implementations, and experimental results associated with the article "Discovering Exception Rules via Sequential Covering in
-Classification, Regression, and Survival Data".
+Python library for discovering interpretable exceptions to general patterns in tabular data.
 
 ## Repository Structure
 
