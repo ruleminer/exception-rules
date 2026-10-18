@@ -1,0 +1,233 @@
+.. Generated from docs/supplementary/latex/sections/algorithms.tex; edit the LaTeX source.
+
+Algorithms
+==========
+
+.. _supplement-algorithms:
+
+Shared induction strategy
+-------------------------
+
+.. _algorithms:
+
+.. _shared-induction-strategy:
+
+All three learners use separate-and-conquer (sequential covering). They grow a
+conjunctive rule greedily, retain it if it covers new observations, remove its
+coverage from the working uncovered set, and repeat. The full training set
+remains available for evaluating rule quality. Removing an observation from the
+uncovered set does not remove it from subsequent quality calculations.
+
+Candidate conditions test nominal equality or numerical thresholds between
+adjacent distinct observed values. Candidate generation is local to the
+currently covered data. Classification optionally restricts numerical cuts to
+class boundaries. Minimum coverage prevents a new rule from simply repeating
+previous coverage; ``max_growing`` limits CR and RR premise lengths separately.
+Consequently an ER conjunction may contain more conditions than either parent.
+
+The pseudocodes below describe the methods. They expose the search and acceptance
+criteria, rather than serving as line-by-line replacements for the Python
+implementation. 
+Here ``Cov(A)`` denotes premise coverage in the full training set, ``U`` is the
+working uncovered set, and an empty premise initially covers all observations.
+
+**Algorithm 1. Sequential covering (common structure).**
+
+.. code-block:: text
+
+   INDUCE(D, task, mincov, max_growing):
+       R <- empty list
+       targets <- class labels for classification; one task for other problems
+       for target in targets:
+           U <- target-class observations for classification; all D otherwise
+           while U is not empty:
+               (CR, RR, ER) <- GROW_WITH_EXCEPTION_SEARCH(D, U, target)
+               if CR has no conditions: break
+               apply task-specific finalisation (see pruning policy below)
+               newly_covered <- eligible coverage of CR intersect U
+               if newly_covered is empty: break
+               append (CR, RR, ER) to R
+               U <- U minus newly_covered
+       update rule conclusions, coverage statistics, and model metadata
+       return R
+
+Classification removes covered positives of the current class from ``U``.
+Regression and survival remove covered observations. A rule without an accepted
+exception is still a valid output. Candidate coverage checks also allow final
+small remainders in the implementation; ``mincov`` is not a global lower bound
+on every reported subgroup size.
+
+Classification
+--------------
+
+.. _classification-ceris:
+
+The operational classification constraints are
+
+.. math::
+
+   \operatorname{conf}(A\to X)>\theta,\qquad
+   \operatorname{conf}(B\to X)>\theta,\qquad
+   \operatorname{conf}(A\land B\to Y)>\theta,\quad Y\ne X.
+
+guarantee in the reported experiments.
+The CR predicts a fixed target class :math:`X` and grows according to the
+configured quality measure. If it is sufficiently precise but still covers
+other classes, the learner searches for an RR predicting the same class.
+The intersection may predict another class with high precision.
+
+**Algorithm 2. Classification commonsense-rule growth.**
+
+.. code-block:: text
+
+   GROW_CLASSIFICATION(D, U, X):
+       A <- empty premise; RR <- none; ER <- none
+       while the growth limit has not been reached:
+           c <- highest-quality admissible condition extending A
+           if c does not exist: break
+           A <- A AND c
+           if A covers no observations outside class X: break
+           if precision(A -> X) > theta and exception search is enabled:
+               (RR, ER) <- SEARCH_CLASSIFICATION_REFERENCE(A, D, X)
+               if ER exists: break
+       finalise the CR premise using the task's quality history
+       return (A -> X, RR, ER)
+
+RR search must simultaneously support :math:`X` outside the CR and retain some
+of the CR's negatives so that the conjunction can express a class reversal. The current implementation
+uses the normalised score
+
+.. math::
+
+   s(B)=q(B\to X)
+      +\frac{|C_B\cap U_X|}{|U_X|}
+      +\frac{|C_B\cap N_A|}{|N_A|},
+
+where :math:`N_A=\{i\in C_A:y_i\ne X\}` and :math:`U_X` is the reference
+search's set of uncovered positives outside the CR. A ratio with an empty
+denominator contributes zero. 
+
+**Algorithm 3. Classification reference and exception search.**
+
+.. code-block:: text
+
+   SEARCH_CLASSIFICATION_REFERENCE(A, D, X):
+       B <- empty premise
+       U_X <- class-X observations outside A
+       N_A <- non-X observations covered by A
+       repeat until growth limit or no eligible refinement:
+           evaluate candidate extensions B' using reference score s(B')
+           require new positive coverage and precision(B' -> X) > theta
+           test the intersection A AND B' for an alternative class Y
+           prefer valid exception candidates using the selector's score rules
+           extend B with the selected condition
+           if the selected intersection predicts Y != X with precision > theta:
+               return (B -> X, A AND B -> Y)
+       return (none, none)
+
+The alternative label is the modal class among the intersection's non-X
+observations, and its precision is calculated on the entire intersection.
+The selector can favour an admissible exception candidate before it improves
+the previous score; it is not simply a global maximisation of :math:`s`.
+An empty intersection of negatives cannot produce an attached exception.
+
+Regression
+----------
+
+.. _algorithm-regression:
+
+To construct rule positive/negative counts,
+the learner calculates the covered target mean and standard deviation. Targets
+inside this local mean-plus/minus-standard-deviation band are treated as
+positive, and the same band defines dataset-wide positive totals. This is a
+quality calculation for numerical targets, rather than conversion to fixed
+class labels.
+
+For the statistical screen, let :math:`E=C_A\cap C_B`, :math:`G_A=C_A\setminus E`,
+and :math:`G_B=C_B\setminus E`. The three groups are disjoint. The current code
+accepts a candidate only when the two-sided Mann--Whitney comparisons satisfy
+
+.. math::
+
+   p(G_A,G_B)>0.05,\qquad p(E,G_A)\leq0.05,\qquad p(E,G_B)\leq0.05.
+
+**Algorithm 4. Growing a regression commonsense rule.**
+
+.. code-block:: text
+
+   GROW_REGRESSION(D, U):
+       A <- empty premise
+       while the growth limit has not been reached:
+           c <- highest-C2 admissible condition extending A
+           if c does not exist: break
+           A <- A AND c
+           update covered-target mean and variability band
+           if exception search is enabled:
+               (RR, ER) <- SEARCH_REGRESSION_REFERENCE(A, D)
+               if ER exists: return (A, RR, ER)
+       return (A, none, none)
+
+**Algorithm 5. Regression reference search.**
+
+.. code-block:: text
+
+   SEARCH_REGRESSION_REFERENCE(A, D):
+       B <- empty premise; best <- none; best_overlap <- 0
+       repeat until growth limit:
+           selected <- none
+           for each unused elementary condition c extending B:
+               B' <- B AND c; E' <- A AND B'
+               require sufficient new reference coverage outside A
+               require compatible parent means and exceptional intersection mean
+               require the three disjoint-group Mann-Whitney criteria
+               if |Cov(E')| > best_overlap:
+                   selected <- c; best <- (B', E')
+                   best_overlap <- |Cov(E')|
+           if selected is none: break
+           B <- B AND selected
+       return best, or (none, none)
+
+Survival analysis
+-----------------
+
+.. _algorithm-survival-analysis:
+
+Survival CR conditions maximise log-rank separation between covered and
+uncovered observations. RR candidates are feasible if the CR and RR comparison
+does not reject at :math:`0.05`, while both comparisons involving their
+intersection reject at that level. Among feasible candidates, the reference
+selector favours a larger CR--RR p-value. This ranking heuristic is not an
+equivalence test.
+
+**Algorithm 6. Survival CR and reference search.**
+
+.. code-block:: text
+
+   GROW_SURVIVAL(D, U):
+       A <- empty premise
+       repeat until growth limit:
+           c <- admissible condition with highest covered-vs-uncovered log-rank
+           if c does not exist: break
+           A <- A AND c
+           if exception search is disabled: continue
+           B <- empty premise; best_score <- 0
+           repeat until reference growth limit:
+               for candidate B' = B AND c_ref:
+                   E' <- A AND B'
+                   fit Kaplan-Meier curves on Cov(A), Cov(B'), Cov(E')
+                   calculate p_AB, p_AE, p_BE by log-rank comparisons
+                   require nonempty E' and sufficient new coverage outside A
+                   require p_AB > 0.05 and p_AE <= 0.05 and p_BE <= 0.05
+                   retain candidate if p_AB improves best_score
+               if no candidate retained: break
+               B <- retained candidate; update best_score
+           finalise B using the implementation's quality history
+           recheck intersection separation before attaching RR and ER
+           if accepted: break
+       finalise A and fit its Kaplan-Meier conclusion
+       return (A, attached RR or none, attached ER or none)
+
+Prediction uses the KM estimator of an applicable exception in place of its
+parent rule's estimator, then averages the estimators contributed by covering
+rules. The source of each prediction remains
+inspectable through the rule structure.

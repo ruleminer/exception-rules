@@ -18,4 +18,5 @@ exception rules, and reference rules.
 
    quick_start
    tutorials
+   supplementary_materials
    api

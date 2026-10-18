@@ -18,7 +18,7 @@ from exception_rules.decision_rules.survival.kaplan_meier import KaplanMeierEsti
 import pandas as pd
 import numpy as np
 import copy
-
+import matplotlib.pyplot as plt
 
 
 class ExceptionRulesSurvival(ExceptionRulesBase):
@@ -363,3 +363,39 @@ class ExceptionRulesSurvival(ExceptionRulesBase):
     def _ruleset_factory(self, rules: list[SurvivalRule]) -> SurvivalRuleSet:
         """Wrap induced rules in a survival rule-set object."""
         return SurvivalRuleSet(rules=rules, survival_time_attr=self.survival_time_attr)
+
+
+    def draw_survival_curves(self, rule, X, y):    
+            
+            comonsense_rules = rule
+            reference_rule = rule.reference_rule
+            exception_rule = rule.exception_rule
+    
+    
+            survival_time = X["survival_time"].to_numpy()
+            
+            X = X.to_numpy()
+            y = y.to_numpy()
+            
+            survival_status = y
+    
+            er_covered = np.where(exception_rule.positive_covered_mask(X, y) == 1)[0]
+            cr_covered = np.where(comonsense_rules.positive_covered_mask(X, y) == 1)[0]
+            rr_covered = np.where(reference_rule.positive_covered_mask(X, y) == 1)[0]
+    
+    
+            er_km_covered = KaplanMeierEstimator().fit(survival_time[er_covered], survival_status[er_covered], update_additional_informations=False)
+            cr_km_covered = KaplanMeierEstimator().fit(survival_time[cr_covered], survival_status[cr_covered], update_additional_informations=False)
+            rr_km_covered = KaplanMeierEstimator().fit(survival_time[rr_covered], survival_status[rr_covered], update_additional_informations=False)
+    
+            all_example_km = KaplanMeierEstimator().fit(survival_time, survival_status, update_additional_informations=False)
+    
+    
+            plt.figure(figsize=(10, 5))
+            plt.title(f"Kaplan-Meier survival curves")
+            plt.plot(all_example_km.times, all_example_km.probabilities, label="All examples")
+            plt.plot(er_km_covered.times, er_km_covered.probabilities, label="ER")
+            plt.plot(cr_km_covered.times, cr_km_covered.probabilities, label="CR")
+            plt.plot(rr_km_covered.times, rr_km_covered.probabilities, label="RR")
+            plt.legend()
+    

@@ -6,8 +6,9 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath("../../exception-rules"))
-sys.path.insert(0, os.path.abspath("../../decision-rules"))
+repository_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+sys.path.insert(0, repository_root)
+sys.path.insert(0, os.path.join(repository_root, "docs", "supplementary"))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
@@ -39,7 +40,7 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
+html_static_path = []
 
 
 autodoc_member_order = "bysource"
@@ -47,3 +48,9 @@ autodoc_typehints = "description"
 napoleon_google_docstring = True
 napoleon_numpy_docstring = True
 nbsphinx_execute = "never"
+
+
+def setup(app):
+    from sync_from_latex import sync
+    sync()
+    return {"parallel_read_safe": True, "parallel_write_safe": True}

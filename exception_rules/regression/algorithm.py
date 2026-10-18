@@ -20,6 +20,9 @@ from exception_rules.decision_rules.core.coverage import Coverage
 import pandas as pd
 import numpy as np
 from scipy import stats
+import matplotlib.pyplot as plt
+from scipy.stats import mannwhitneyu
+
 
 class ExceptionRulesRegressor(ExceptionRulesBase):
     """Induce regression rules and optional exception-rule triples.
@@ -387,3 +390,68 @@ class ExceptionRulesRegressor(ExceptionRulesBase):
     def _ruleset_factory(self, rules: list[RegressionRule]) -> RegressionRuleSet:
         """Wrap induced regression rules in a rule-set object."""
         return RegressionRuleSet(rules=rules)
+
+
+    def draw_histogram(self, rule, X, y):    
+            
+            X = X.to_numpy()
+            y = y.to_numpy()
+        
+            er_covered = np.where(rule.exception_rule.premise._calculate_covered_mask(X) == 1)[0]
+            cr_covered = np.where(rule.premise._calculate_covered_mask(X) == 1)[0]
+            rr_covered = np.where(rule.reference_rule.premise._calculate_covered_mask(X) == 1)[0]
+    
+            y_er = y[er_covered]
+            y_cr = y[cr_covered]
+            y_rr = y[rr_covered]
+    
+            # Liczba binów dobrana na podstawie liczby elementów w y
+            bins_y = int(np.sqrt(len(y)))
+            bins_y_cr = int(np.sqrt(len(y_cr)))
+            bins_y_rr = int(np.sqrt(len(y_rr)))
+            bins_y_er = int(np.sqrt(len(y_er)))
+    
+            # Tworzenie histogramu
+            plt.figure(figsize=(10, 6))
+            plt.hist(y, bins=bins_y, alpha=0.5, label='y', color='blue', edgecolor='black')
+            plt.hist(y_cr, bins=bins_y_cr, alpha=0.5, label='y_cr', color='green', edgecolor='black')
+            plt.hist(y_rr, bins=bins_y_rr, alpha=0.5, label='y_rr', color='purple', edgecolor='black')
+            plt.hist(y_er, bins=bins_y_er, alpha=1, label='y_er', color='red', edgecolor='black')
+    
+    
+            self.plot_stats(y, 'blue', 'y')
+            self.plot_stats(y_er, 'red', 'y_er')
+            self.plot_stats(y_cr, 'green', 'y_cr')
+            self.plot_stats(y_rr, 'purple', 'y_rr')
+    
+    
+            # plt.figtext(0, 0.06, text_cr_rr, fontsize=10)
+            # plt.figtext(0, 0.03, text_er_cr, fontsize=10)
+            # plt.figtext(0, 0.00, text_er_rr, fontsize=10)
+    
+    
+            plt.legend()
+            plt.xlabel('Values')
+            plt.ylabel('Frequency')
+   
+    
+    # Obliczanie i oznaczanie średniej oraz odchylenia standardowego
+    def plot_stats(self, data, color, label):
+        mean = np.mean(data)
+        std = np.std(data)
+        plt.axvline(mean, color=color, linestyle='dashed', linewidth=2, label=f'{label} mean')
+        plt.axvline(mean - std, color=color, linestyle='dotted', linewidth=1, label=f'{label} ± std')
+        plt.axvline(mean + std, color=color, linestyle='dotted', linewidth=1)
+
+
+    # Testy statystyczne Manna-Whitneya
+    def mann_whitney_test(self, sample1, sample2, label1, label2):
+        stat, p_value = mannwhitneyu(sample1, sample2)
+        significance = 'statistically insignificant'
+        if p_value < 0.05:
+            significance = 'statistically significant'
+        # if p_value < 0.01:
+        #     significance = '**'
+        # if p_value < 0.001:
+        #     significance = '***'
+        return f'{label1} vs {label2}: p_val = {p_value:.5f}'
