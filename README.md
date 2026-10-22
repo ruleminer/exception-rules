@@ -1,4 +1,8 @@
-# Exception-Rules
+# Exception-rules
+
+
+[![Unit Tests](https://github.com/ruleminer/exception-rules/actions/workflows/unittests-on-push.yml/badge.svg?branch=main)](https://github.com/ruleminer/exception-rules/actions/workflows/unittests-on-push.yml)
+
 
 Python library for discovering interpretable exceptions to general patterns in tabular data.
 
