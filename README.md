@@ -19,8 +19,20 @@ Python library for discovering interpretable exceptions to general patterns in t
 
 ## Requirements
 
-- Python == 3.10
+- Python >= 3.10, <= 3.14
 - Dependencies listed in the `requirements.txt` file.
+
+The package has been tested on the following operating systems:
+- Windows 10
+- Ubuntu 26.04
+
+## Running Tests
+
+To run the unit tests, execute the following command from the project's root directory:
+
+```bash
+python -m unittest discover ./tests
+```
 
 ## Usage Instructions
 
