@@ -1,0 +1,237 @@
+
+\subsection{Dataset size and induction time}
+\label{runtime-by-size}
+
+The dataset-level analysis combines fitting times with the dimensions of the
+49 classification, 48 regression, and 25 survival benchmark datasets.
+
+M is the full dataset's number of rows (observations), while N denotes the
+number of descriptive columns before encoding.
+The total number of columns, including outcomes, is denoted by
+$N_{\mathrm{all}}$.
+For classification and regression, N excludes class. For survival, N excludes
+survival\_time, survival\_status, and the optional group column, in accordance
+with the induction pipeline. The timing scripts use training partitions from
+a 70/30 split, so fitted row counts are M minus $\lceil 0.3M \rceil$.
+M and $N_{\mathrm{all}}$ describe the input datasets before encoding.
+
+Tree denotes
+the task-specific decision tree, Rules the learner without exception search,
+and Exceptions the exception-enabled learner. Results are sorted by M, then N.
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}llrrr@{}}
+\caption{Spearman rank correlations between fitting time and dataset dimensions.}\\
+\toprule
+Task & Method & Datasets & $\rho(t,M)$ & $\rho(t,N)$ \\
+\midrule
+\endfirsthead
+\toprule
+Task & Method & Datasets & $\rho(t,M)$ & $\rho(t,N)$ \\
+\midrule
+\endhead
+Classification & Tree & 49 & 0.530 & 0.869 \\
+Classification & RuleKit & 49 & 0.708 & 0.584 \\
+Classification & Rules & 49 & 0.683 & 0.451 \\
+Classification & Exceptions & 49 & 0.530 & 0.389 \\
+Regression & Tree & 48 & 0.346 & 0.787 \\
+Regression & RuleKit & 48 & 0.923 & 0.319 \\
+Regression & Rules & 48 & 0.874 & 0.325 \\
+Regression & Exceptions & 48 & 0.859 & 0.336 \\
+Survival analysis & Tree & 25 & 0.207 & 0.538 \\
+Survival analysis & RuleKit & 25 & 0.625 & 0.037 \\
+Survival analysis & Rules & 25 & 0.291 & 0.174 \\
+Survival analysis & Exceptions & 25 & 0.351 & 0.248 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+Spearman correlations use average ranks for ties and quantify separate
+associations with M and N within each task and method. They do not adjust for
+the other dimension, attribute cardinality, rule-search complexity, or censoring.
+These are descriptive comparisons across different datasets, not a controlled
+scaling experiment or an estimate of algorithmic complexity. The per-dataset
+tables below retain the individual observations behind these summaries.
+
+For the exception-enabled learner, the association with row count is strongest
+in regression (rho = 0.859), followed by classification (0.530) and survival
+(0.351). The respective associations with attributes count are 0.336, 0.389,
+and 0.248. 
+
+
+\subsubsection{Classification datasets}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}p{0.25\linewidth}rrrrrr@{}}
+\caption{Classification: dataset dimensions and saved fitting times (seconds).}\\
+\toprule
+Dataset & M & N & Tree & RuleKit & Rules & Exceptions \\
+\midrule
+\endfirsthead
+\toprule
+Dataset & M & N & Tree & RuleKit & Rules & Exceptions \\
+\midrule
+\endhead
+\nolinkurl{contact-lenses} & 24 & 4 & 0.006 & 0.013 & 0.010 & 0.010 \\
+\nolinkurl{labor} & 57 & 16 & 0.011 & 0.194 & 0.027 & 0.322 \\
+\nolinkurl{zoo} & 101 & 16 & 0.013 & 0.056 & 0.051 & 0.051 \\
+\nolinkurl{echocardiogram} & 131 & 11 & 0.008 & 0.056 & 0.095 & 0.748 \\
+\nolinkurl{hayes-roth} & 132 & 4 & 0.006 & 0.038 & 0.028 & 0.063 \\
+\nolinkurl{lymph} & 148 & 18 & 0.014 & 0.071 & 0.122 & 0.340 \\
+\nolinkurl{iris} & 150 & 4 & 0.005 & 0.046 & 0.064 & 0.827 \\
+\nolinkurl{hepatitis} & 155 & 19 & 0.014 & 0.228 & 0.164 & 1.283 \\
+\nolinkurl{wine} & 178 & 13 & 0.007 & 0.060 & 0.311 & 3.264 \\
+\nolinkurl{flag} & 194 & 28 & 0.017 & 0.318 & 0.417 & 2.359 \\
+\nolinkurl{autos} & 205 & 25 & 0.017 & 0.380 & 1.434 & 12.123 \\
+\nolinkurl{sonar} & 208 & 60 & 0.020 & 0.172 & 5.358 & 50.191 \\
+\nolinkurl{glass} & 214 & 9 & 0.007 & 0.213 & 0.941 & 6.913 \\
+\nolinkurl{audiology} & 226 & 69 & 0.039 & 0.519 & 0.510 & 1.211 \\
+\nolinkurl{prnn-synth} & 250 & 2 & 0.005 & 0.061 & 0.153 & 1.214 \\
+\nolinkurl{heart-statlog} & 270 & 13 & 0.007 & 0.233 & 0.698 & 4.662 \\
+\nolinkurl{breast-cancer} & 286 & 9 & 0.013 & 0.094 & 0.187 & 0.345 \\
+\nolinkurl{hungarian-heart-disease} & 294 & 13 & 0.009 & 0.246 & 0.435 & 2.576 \\
+\nolinkurl{cleveland} & 303 & 13 & 0.010 & 0.286 & 1.198 & 5.822 \\
+\nolinkurl{heart-c} & 303 & 13 & 0.013 & 0.242 & 0.749 & 3.936 \\
+\nolinkurl{ecoli} & 336 & 7 & 0.006 & 0.223 & 0.708 & 13.795 \\
+\nolinkurl{primary-tumor} & 339 & 17 & 0.015 & 0.149 & 0.525 & 0.944 \\
+\nolinkurl{bupa-liver-disorders} & 345 & 6 & 0.006 & 0.294 & 1.236 & 8.508 \\
+\nolinkurl{ionosphere} & 351 & 34 & 0.015 & 0.134 & 2.589 & 15.161 \\
+\nolinkurl{horse-colic} & 368 & 22 & 0.018 & 0.459 & 0.863 & 3.822 \\
+\nolinkurl{auto-mpg} & 398 & 7 & 0.007 & 0.443 & 1.164 & 11.092 \\
+\nolinkurl{vote} & 435 & 16 & 0.015 & 0.078 & 0.055 & 0.239 \\
+\nolinkurl{cylinder-bands} & 540 & 35 & 0.026 & 0.435 & 4.908 & 29.324 \\
+\nolinkurl{kdd-synthetic-control} & 600 & 60 & 0.030 & 0.865 & 40.641 & 394.847 \\
+\nolinkurl{balance-scale} & 625 & 4 & 0.006 & 0.444 & 0.349 & 1.061 \\
+\nolinkurl{soybean} & 683 & 35 & 0.036 & 0.453 & 0.692 & 2.888 \\
+\nolinkurl{credit-a} & 690 & 15 & 0.017 & 0.388 & 2.338 & 16.734 \\
+\nolinkurl{breast-w} & 699 & 9 & 0.007 & 0.382 & 0.267 & 3.424 \\
+\nolinkurl{diabetes} & 768 & 8 & 0.008 & 0.476 & 7.397 & 32.072 \\
+\nolinkurl{vehicle} & 846 & 18 & 0.012 & 0.390 & 15.178 & 116.268 \\
+\nolinkurl{anneal} & 898 & 38 & 0.040 & 2.035 & 0.842 & 2.347 \\
+\nolinkurl{tic-tac-toe} & 958 & 9 & 0.014 & 0.127 & 0.518 & 2.091 \\
+\nolinkurl{mammographic-masses} & 961 & 5 & 0.008 & 0.101 & 0.766 & 6.005 \\
+\nolinkurl{credit-g} & 1000 & 20 & 0.025 & 0.570 & 7.129 & 37.547 \\
+\nolinkurl{yeast} & 1484 & 8 & 0.009 & 0.291 & 16.793 & 93.715 \\
+\nolinkurl{car} & 1728 & 6 & 0.016 & 0.326 & 0.862 & 1.201 \\
+\nolinkurl{titanic} & 2201 & 3 & 0.012 & 0.074 & 0.165 & 0.317 \\
+\nolinkurl{segment} & 2310 & 19 & 0.021 & 0.758 & 78.187 & 1009.613 \\
+\nolinkurl{seismic-bumps} & 2584 & 18 & 0.025 & 0.959 & 50.086 & 89.303 \\
+\nolinkurl{splice} & 3190 & 60 & 0.170 & 2.602 & 7.116 & 42.044 \\
+\nolinkurl{kr-vs-kp} & 3196 & 36 & 0.096 & 1.020 & 2.051 & 4.535 \\
+\nolinkurl{hypothyroid} & 3772 & 29 & 0.081 & 1.222 & 5.486 & 36.884 \\
+\nolinkurl{sick-euthyroid} & 3772 & 29 & 0.082 & 0.936 & 13.754 & 47.012 \\
+\nolinkurl{mushroom} & 8124 & 22 & 0.139 & 1.266 & 1.782 & 2.505 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\subsubsection{Regression datasets}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}p{0.25\linewidth}rrrrrr@{}}
+\caption{Regression: dataset dimensions and saved fitting times (seconds).}\\
+\toprule
+Dataset & M & N & Tree & RuleKit & Rules & Exceptions \\
+\midrule
+\endfirsthead
+\toprule
+Dataset & M & N & Tree & RuleKit & Rules & Exceptions \\
+\midrule
+\endhead
+\nolinkurl{longley} & 16 & 6 & 0.006 & 0.010 & 0.028 & 0.080 \\
+\nolinkurl{gascons} & 27 & 4 & 0.004 & 0.014 & 0.063 & 0.223 \\
+\nolinkurl{bolts} & 40 & 7 & 0.005 & 0.023 & 0.081 & 0.289 \\
+\nolinkurl{diabetes} & 43 & 2 & 0.004 & 0.012 & 0.058 & 0.199 \\
+\nolinkurl{elusage} & 55 & 2 & 0.006 & 0.015 & 0.061 & 0.223 \\
+\nolinkurl{pollution} & 60 & 15 & 0.007 & 0.056 & 0.728 & 3.155 \\
+\nolinkurl{mbagrade} & 61 & 2 & 0.005 & 0.016 & 0.041 & 0.151 \\
+\nolinkurl{pyrim} & 74 & 27 & 0.010 & 0.062 & 0.149 & 0.513 \\
+\nolinkurl{kidney} & 76 & 5 & 0.006 & 0.057 & 0.157 & 0.683 \\
+\nolinkurl{auto93} & 93 & 22 & 0.015 & 0.153 & 0.942 & 4.302 \\
+\nolinkurl{concrete} & 103 & 9 & 0.008 & 0.060 & 1.035 & 2.875 \\
+\nolinkurl{cloud} & 108 & 6 & 0.009 & 0.032 & 0.425 & 1.990 \\
+\nolinkurl{fruitfly} & 125 & 4 & 0.005 & 0.066 & 0.240 & 1.016 \\
+\nolinkurl{echomonths} & 130 & 9 & 0.008 & 0.077 & 0.937 & 4.296 \\
+\nolinkurl{veteran} & 137 & 7 & 0.008 & 0.062 & 0.270 & 1.072 \\
+\nolinkurl{fishcatch} & 158 & 7 & 0.006 & 0.069 & 1.261 & 6.816 \\
+\nolinkurl{auto-price} & 159 & 15 & 0.009 & 0.140 & 1.292 & 5.425 \\
+\nolinkurl{servo} & 167 & 4 & 0.008 & 0.040 & 0.072 & 0.182 \\
+\nolinkurl{triazines} & 186 & 60 & 0.017 & 0.191 & 0.795 & 3.370 \\
+\nolinkurl{lowbwt} & 189 & 9 & 0.008 & 0.065 & 0.392 & 1.436 \\
+\nolinkurl{pharynx} & 195 & 11 & 0.012 & 0.174 & 0.607 & 2.534 \\
+\nolinkurl{pwlinear} & 200 & 10 & 0.006 & 0.141 & 0.288 & 0.854 \\
+\nolinkurl{machine} & 209 & 6 & 0.005 & 0.066 & 0.644 & 2.317 \\
+\nolinkurl{cpu} & 209 & 7 & 0.011 & 0.066 & 0.575 & 2.468 \\
+\nolinkurl{bodyfat} & 252 & 14 & 0.008 & 0.684 & 7.393 & 40.962 \\
+\nolinkurl{breasttumor} & 286 & 9 & 0.013 & 0.343 & 0.723 & 3.062 \\
+\nolinkurl{cholesterol} & 303 & 13 & 0.011 & 0.246 & 2.203 & 10.733 \\
+\nolinkurl{ozone} & 330 & 8 & 0.006 & 0.665 & 3.629 & 15.894 \\
+\nolinkurl{baseball} & 337 & 16 & 0.009 & 0.653 & 8.992 & 39.121 \\
+\nolinkurl{dee} & 365 & 6 & 0.007 & 0.551 & 9.139 & 44.332 \\
+\nolinkurl{auto-mpg} & 398 & 7 & 0.008 & 1.815 & 2.463 & 11.656 \\
+\nolinkurl{pbc} & 418 & 18 & 0.012 & 0.922 & 14.635 & 84.217 \\
+\nolinkurl{ele-1} & 495 & 2 & 0.005 & 0.124 & 1.596 & 7.330 \\
+\nolinkurl{housing} & 506 & 13 & 0.010 & 1.638 & 16.849 & 92.095 \\
+\nolinkurl{forestFires} & 517 & 12 & 0.008 & 1.166 & 7.325 & 32.995 \\
+\nolinkurl{meta} & 528 & 21 & 0.014 & 0.676 & 2.074 & 7.990 \\
+\nolinkurl{sensory} & 576 & 11 & 0.012 & 2.624 & 0.991 & 2.961 \\
+\nolinkurl{strike} & 625 & 6 & 0.007 & 1.289 & 4.221 & 19.598 \\
+\nolinkurl{stock} & 950 & 9 & 0.010 & 2.578 & 32.920 & 159.877 \\
+\nolinkurl{laser} & 993 & 4 & 0.006 & 1.340 & 15.474 & 72.737 \\
+\nolinkurl{compressive} & 1030 & 8 & 0.008 & 1.325 & 38.464 & 117.185 \\
+\nolinkurl{mortgage} & 1049 & 15 & 0.013 & 1.353 & 125.302 & 782.804 \\
+\nolinkurl{treasury} & 1049 & 15 & 0.015 & 2.951 & 166.118 & 975.515 \\
+\nolinkurl{ele-2} & 1056 & 4 & 0.005 & 1.002 & 1.851 & 7.481 \\
+\nolinkurl{friedman} & 1200 & 5 & 0.008 & 2.776 & 160.875 & 621.778 \\
+\nolinkurl{wizmir} & 1461 & 9 & 0.010 & 1.437 & 41.206 & 190.654 \\
+\nolinkurl{wankara} & 1609 & 9 & 0.010 & 2.164 & 51.580 & 238.800 \\
+\nolinkurl{plastic} & 1650 & 2 & 0.007 & 1.415 & 12.726 & 72.409 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\subsubsection{Survival analysis datasets}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}p{0.25\linewidth}rrrrrr@{}}
+\caption{Survival analysis: dataset dimensions and saved fitting times (seconds).}\\
+\toprule
+Dataset & M & N & Tree & RuleKit & Rules & Exceptions \\
+\midrule
+\endfirsthead
+\toprule
+Dataset & M & N & Tree & RuleKit & Rules & Exceptions \\
+\midrule
+\endhead
+\nolinkurl{BHS} & 75 & 12 & 0.007 & 0.354 & 4.480 & 17.944 \\
+\nolinkurl{lac_selected} & 86 & 113 & 0.038 & 0.793 & 247.041 & 598.523 \\
+\nolinkurl{bmt-ch} & 187 & 35 & 0.022 & 0.254 & 27.275 & 122.337 \\
+\nolinkurl{przeszczepy} & 187 & 37 & 0.023 & 0.417 & 27.498 & 123.616 \\
+\nolinkurl{Melanoma} & 205 & 7 & 0.012 & 0.181 & 11.760 & 52.019 \\
+\nolinkurl{cancer} & 228 & 7 & 0.008 & 0.267 & 12.175 & 57.252 \\
+\nolinkurl{mgus} & 241 & 9 & 0.013 & 0.297 & 21.031 & 35.971 \\
+\nolinkurl{csb-ch07-halibut} & 294 & 5 & 0.009 & 0.445 & 7.073 & 22.098 \\
+\nolinkurl{unemployed} & 300 & 6 & 0.013 & 0.362 & 13.215 & 41.983 \\
+\nolinkurl{pbc} & 418 & 17 & 0.022 & 0.461 & 89.978 & 177.589 \\
+\nolinkurl{zinc} & 431 & 55 & 0.171 & 0.715 & 26.366 & 131.657 \\
+\nolinkurl{Rossi} & 432 & 60 & 0.048 & 0.709 & 9.066 & 42.313 \\
+\nolinkurl{whas1} & 481 & 7 & 0.010 & 0.359 & 23.501 & 86.742 \\
+\nolinkurl{whas500} & 500 & 13 & 0.015 & 0.406 & 53.005 & 193.187 \\
+\nolinkurl{follic} & 541 & 4 & 0.013 & 0.398 & 38.965 & 78.592 \\
+\nolinkurl{uis} & 575 & 13 & 0.012 & 0.238 & 28.388 & 130.942 \\
+\nolinkurl{GBSG2} & 686 & 8 & 0.022 & 0.945 & 218.451 & 654.843 \\
+\nolinkurl{hd} & 865 & 6 & 0.015 & 0.358 & 15.035 & 76.288 \\
+\nolinkurl{std} & 877 & 21 & 0.019 & 0.616 & 19.805 & 97.846 \\
+\nolinkurl{lung} & 1032 & 7 & 0.013 & 1.901 & 2.517 & 6.097 \\
+\nolinkurl{csb-ch15-lung} & 1032 & 7 & 0.012 & 0.475 & 2.631 & 4.240 \\
+\nolinkurl{actg320} & 1151 & 11 & 0.016 & 1.370 & 145.388 & 1180.621 \\
+\nolinkurl{csb-ch12-nursing} & 1601 & 5 & 0.014 & 0.798 & 39.658 & 201.104 \\
+\nolinkurl{TRACE} & 1878 & 6 & 0.046 & 2.029 & 399.441 & 1933.616 \\
+\nolinkurl{wcgs} & 3154 & 10 & 0.041 & 2.020 & 260.117 & 788.943 \\
+\bottomrule
+\end{longtable}
+\endgroup

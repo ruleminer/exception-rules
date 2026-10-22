@@ -1,0 +1,33 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,tabularx}
+\usepackage{hyperref}
+\usepackage{fancyvrb}
+\usepackage{microtype}
+\usepackage{graphicx}
+\setlength{\emergencystretch}{3em}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\renewcommand{\refname}{Bibliography}
+\title{Exception-rules\\Scientific background and experimental evaluation\\\large Supplementary materials}
+\author{Dawid Macha \and Łukasz Wróbel \and Marek Sikora}
+\date{October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+This supplement presents the theoretical foundations, induction algorithms, and experimental evaluation of the exception-rules package for classification, regression, and survival analysis. The evaluation covers exception discovery on 49 classification, 48 regression, and 25 survival datasets, illustrated by explicit rule structures and summaries. Computational results compare fitting times with conventional rule learners and decision trees and describe their association with dataset dimensions.
+\end{abstract}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\clearpage
+\input{sections/evidence_scope}
+\input{sections/theoretical_basics}
+\input{sections/algorithms}
+\input{sections/experiments}
+\input{sections/computational_efficiency}
+\input{sections/limitations}
+\clearpage
+\input{sections/references}
+\end{document}
